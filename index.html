@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>StepOfMyWorld</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-gpx"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { height: 100vh; width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+<script>
+  const map = L.map("map").setView([35.6812, 139.7671], 10);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
+  }).addTo(map);
+
+  const groups = {
+    flights: { color: "blue", files: ['./flights/Variflight_8L9518_20250908.gpx', './flights/Variflight_9C6363_20250301.gpx', './flights/Variflight_9C6998_20250304.gpx', './flights/Variflight_9C8909_20241108.gpx', './flights/Variflight_9H8403_20250909.gpx', './flights/Variflight_CA1550_20240611.gpx', './flights/Variflight_CA1829_20240611.gpx', './flights/Variflight_CA952_20250216.gpx', './flights/Variflight_CZ2308_20250528.gpx', './flights/Variflight_CZ3533_20250426.gpx', './flights/Variflight_CZ6252_20250606.gpx', './flights/Variflight_CZ6257_20250608.gpx', './flights/Variflight_CZ6521_20250219.gpx', './flights/Variflight_CZ6525_20241007.gpx', './flights/Variflight_CZ6526_20241001.gpx', './flights/Variflight_CZ6526_20250219.gpx', './flights/Variflight_CZ6536_20250214.gpx', './flights/Variflight_CZ6697_20250420.gpx', './flights/Variflight_CZ6909_20250603.gpx', './flights/Variflight_CZ7054_20250815.gpx', './flights/Variflight_CZ8264_20250418.gpx', './flights/Variflight_CZ8839_20241021.gpx', './flights/Variflight_CZ8879_20241104.gpx', './flights/Variflight_CZ8879_20241202.gpx', './flights/Variflight_CZ8880_20241129.gpx', './flights/Variflight_CZ8886_20250411.gpx', './flights/Variflight_CZ8886_20250515.gpx', './flights/Variflight_CZ8888_20241220.gpx', './flights/Variflight_CZ8889_20241222.gpx', './flights/Variflight_CZ888R_20241102.gpx', './flights/Variflight_CZ8899_20250604.gpx', './flights/Variflight_FM823_20250529.gpx', './flights/Variflight_G54818_20250820.gpx', './flights/Variflight_GS6697_20250915.gpx', './flights/Variflight_GS7974_20250912.gpx', './flights/Variflight_GS7983_20250910.gpx', './flights/Variflight_HO2348_20240719.gpx', './flights/Variflight_HU7705_20240606.gpx', './flights/Variflight_JD5550_20240712.gpx', './flights/Variflight_KN2905_20250216.gpx', './flights/Variflight_MU2039_20250807.gpx', './flights/Variflight_MU2074_20250530.gpx', './flights/Variflight_MU2191_20250502.gpx', './flights/Variflight_MU2192_20250502.gpx', './flights/Variflight_MU2216_20250316.gpx', './flights/Variflight_MU2233_20250315.gpx', './flights/Variflight_MU2239_20250316.gpx', './flights/Variflight_MU2350_20250909.gpx', './flights/Variflight_MU5052_20250808.gpx', './flights/Variflight_MU5152_20250414.gpx', './flights/Variflight_MU5296_20250105.gpx', './flights/Variflight_MU5308_20250916.gpx', './flights/Variflight_MU5319_20250426.gpx', './flights/Variflight_MU5417_20250102.gpx', './flights/Variflight_MU5428_20250529.gpx', './flights/Variflight_MU5523_20250806.gpx', './flights/Variflight_MU6128_20250713.gpx', './flights/Variflight_MU6135_20250502.gpx', './flights/Variflight_MU6337_20250808.gpx', './flights/Variflight_MU6357_20250710.gpx', './flights/Variflight_MU6513_20250908.gpx', './flights/Variflight_MU6514_20250909.gpx', './flights/Variflight_MU6582_20250713.gpx', './flights/Variflight_MU6873_20250824.gpx', './flights/Variflight_MU6939_20250917.gpx', './flights/Variflight_MU720_20250314.gpx', './flights/Variflight_MU8342_20250518.gpx', './flights/Variflight_MU9205_20241227.gpx', './flights/Variflight_MU9851_20250603.gpx', './flights/Variflight_PN6260_20250904.gpx', './flights/Variflight_PN6271_20250905.gpx']
+
+    },
+    // hikes: { color: "green", files: [
+    //   "hikes/trip_mountain_1.gpx",
+    //   "hikes/trip_mountain_2.gpx"
+    // ]},
+    // runs: { color: "blue", files: [
+    //   "runs/morning_run_1.gpx",
+    //   "runs/morning_run_2.gpx"
+    // ]}
+  };
+
+  const overlays = {};  // 每个文件夹一组图层
+  let globalBounds = null;
+
+  for (const [folder, cfg] of Object.entries(groups)) {
+    const layerGroup = L.layerGroup();
+    overlays[folder] = layerGroup;  // 让 layer control 可以控制开关
+
+    cfg.files.forEach(file => {
+      new L.GPX(file, {
+        async: true,
+        polyline_options: {
+          color: cfg.color,
+          weight: 4,
+          opacity: 0.85
+        },
+        markers: {
+          startIcon: null,
+          endIcon: null,
+          // shadowUrl: ''
+        }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        const filename = file.split("/").pop(); // 取文件名部分
+        const match = filename.match(/_(\w+)_([0-9]{8})\.gpx$/);
+        let displayName;
+
+        if (match) {
+          displayName = `${match[1]}-${match[2]}`;  // 例如 "8L9518-20250908"
+        } else {
+          displayName = filename.replace(".gpx", ""); // 兜底：文件名去掉扩展名
+        }
+
+        g.bindPopup(`<b>${displayName}</b>`);
+
+        // 更新全局视图范围
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
+
+        map.fitBounds(globalBounds, { padding: [20, 20] });
+      })
+      .addTo(layerGroup);
+    });
+  }
+
+  L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+
+//   tracks.forEach(({ file, color }) => {
+//     const gpx = new L.GPX(file, {
+//       async: true,
+//       polyline_options: { color, weight: 4, opacity: 0.8 },
+//       markers: {
+//         startIcon: null,
+//         endIcon: null,
+//         // wptIcons: null,
+//       },
+//     })
+//       .on("loaded", (e) => {
+//         const g = e.target;
+//         const name = g.get_name() || file;
+//         g.bindPopup(`<b>${name}</b>`);
+// 
+//         bounds.push(g.getBounds());
+//         if (bounds.length === tracks.length) {
+//           const all = bounds.reduce((b, cur) => b.extend(cur), bounds[0]);
+//           map.fitBounds(all);
+//         }
+// 
+//         g.eachLayer((layer) => {
+//           if (layer instanceof L.Marker) {
+//             map.removeLayer(layer);
+//           }
+//         });
+//       })
+//       .addTo(map);
+//   });
+</script>
+
+</body>
+</html>
