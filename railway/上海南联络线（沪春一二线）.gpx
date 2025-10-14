@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3035 filtered ascend = 3 plain-ascend = 3 cost=3035 energy=0.0kwh time=4m 3s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>上海南联络线（沪春一二线） (3km)</name>
+  <trkseg>
+   <trkpt lat="31.079872" lon="121.350036"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.082346" lon="121.352637"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.084979" lon="121.355486"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.085618" lon="121.356119"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.086299" lon="121.356689"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.086974" lon="121.357196"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.091195" lon="121.360137"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.091422" lon="121.360312"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.091698" lon="121.360537"><ele>3.5</ele></trkpt>
+   <trkpt lat="31.091905" lon="121.360719"><ele>3.75</ele></trkpt>
+   <trkpt lat="31.092137" lon="121.360942"><ele>4</ele></trkpt>
+   <trkpt lat="31.093244" lon="121.362085"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.093616" lon="121.362475"><ele>5.5</ele></trkpt>
+   <trkpt lat="31.097806" lon="121.366819"><ele>5.25</ele></trkpt>
+   <trkpt lat="31.098153" lon="121.367176"><ele>6</ele></trkpt>
+   <trkpt lat="31.100991" lon="121.370123"><ele>6.75</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 10881 filtered ascend = 4 plain-ascend = -1 cost=10881 energy=0.1kwh time=14m 30s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>上海南联络线（沪春三四线） (10.9km)</name>
+  <trkseg>
+   <trkpt lat="31.154712" lon="121.425129"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.152688" lon="121.422269"><ele>5.5</ele></trkpt>
+   <trkpt lat="31.151493" lon="121.42064"><ele>7.25</ele></trkpt>
+   <trkpt lat="31.151005" lon="121.420068"><ele>8.75</ele></trkpt>
+   <trkpt lat="31.150725" lon="121.419691"><ele>7.5</ele></trkpt>
+   <trkpt lat="31.150553" lon="121.419486"><ele>6.75</ele></trkpt>
+   <trkpt lat="31.150079" lon="121.418871"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.149581" lon="121.418296"><ele>6.5</ele></trkpt>
+   <trkpt lat="31.149466" lon="121.41816"><ele>7.25</ele></trkpt>
+   <trkpt lat="31.148833" lon="121.417406"><ele>7.5</ele></trkpt>
+   <trkpt lat="31.13895" lon="121.405202"><ele>4.75</ele></trkpt>
+   <trkpt lat="31.13852" lon="121.404678"><ele>6.75</ele></trkpt>
+   <trkpt lat="31.138081" lon="121.404161"><ele>8.5</ele></trkpt>
+   <trkpt lat="31.137649" lon="121.403681"><ele>9</ele></trkpt>
+   <trkpt lat="31.137261" lon="121.403279"><ele>8.5</ele></trkpt>
+   <trkpt lat="31.134433" lon="121.400476"><ele>9.25</ele></trkpt>
+   <trkpt lat="31.134125" lon="121.400158"><ele>8.5</ele></trkpt>
+   <trkpt lat="31.129162" lon="121.394915"><ele>4.75</ele></trkpt>
+   <trkpt lat="31.128658" lon="121.394383"><ele>4.25</ele></trkpt>
+   <trkpt lat="31.125649" lon="121.39113"><ele>4.25</ele></trkpt>
+   <trkpt lat="31.125309" lon="121.390788"><ele>3.75</ele></trkpt>
+   <trkpt lat="31.124999" lon="121.3905"><ele>3.25</ele></trkpt>
+   <trkpt lat="31.124678" lon="121.390224"><ele>3.75</ele></trkpt>
+   <trkpt lat="31.124356" lon="121.389968"><ele>3.75</ele></trkpt>
+   <trkpt lat="31.124052" lon="121.389737"><ele>4</ele></trkpt>
+   <trkpt lat="31.115485" lon="121.383727"><ele>6.5</ele></trkpt>
+   <trkpt lat="31.115138" lon="121.383493"><ele>6.75</ele></trkpt>
+   <trkpt lat="31.113592" lon="121.38243"><ele>5.25</ele></trkpt>
+   <trkpt lat="31.113167" lon="121.38212"><ele>6.25</ele></trkpt>
+   <trkpt lat="31.112787" lon="121.381812"><ele>7.25</ele></trkpt>
+   <trkpt lat="31.11239" lon="121.381465"><ele>8.25</ele></trkpt>
+   <trkpt lat="31.11202" lon="121.381128"><ele>7.5</ele></trkpt>
+   <trkpt lat="31.111369" lon="121.380489"><ele>4</ele></trkpt>
+   <trkpt lat="31.110572" lon="121.379708"><ele>4</ele></trkpt>
+   <trkpt lat="31.109738" lon="121.378849"><ele>4.25</ele></trkpt>
+   <trkpt lat="31.109413" lon="121.378522"><ele>4</ele></trkpt>
+   <trkpt lat="31.108101" lon="121.377229"><ele>4.25</ele></trkpt>
+   <trkpt lat="31.107159" lon="121.376315"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.106893" lon="121.376056"><ele>6</ele></trkpt>
+   <trkpt lat="31.104906" lon="121.374118"><ele>6.25</ele></trkpt>
+   <trkpt lat="31.104629" lon="121.373848"><ele>7.25</ele></trkpt>
+   <trkpt lat="31.103461" lon="121.37271"><ele>5</ele></trkpt>
+   <trkpt lat="31.103238" lon="121.372495"><ele>5.25</ele></trkpt>
+   <trkpt lat="31.101519" lon="121.370815"><ele>7</ele></trkpt>
+   <trkpt lat="31.10093" lon="121.370221"><ele>7</ele></trkpt>
+   <trkpt lat="31.098059" lon="121.367224"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.097726" lon="121.366882"><ele>5</ele></trkpt>
+   <trkpt lat="31.094531" lon="121.363584"><ele>6.25</ele></trkpt>
+   <trkpt lat="31.0942" lon="121.363263"><ele>6.75</ele></trkpt>
+   <trkpt lat="31.093855" lon="121.362956"><ele>5.5</ele></trkpt>
+   <trkpt lat="31.093391" lon="121.362553"><ele>5.75</ele></trkpt>
+   <trkpt lat="31.093052" lon="121.362275"/>
+   <trkpt lat="31.092689" lon="121.36199"/>
+   <trkpt lat="31.092323" lon="121.361729"/>
+   <trkpt lat="31.091625" lon="121.361279"/>
+   <trkpt lat="31.091101" lon="121.360959"/>
+   <trkpt lat="31.089785" lon="121.36018"/>
+   <trkpt lat="31.088891" lon="121.359624"/>
+   <trkpt lat="31.08806" lon="121.359059"/>
+   <trkpt lat="31.087219" lon="121.358415"/>
+   <trkpt lat="31.086545" lon="121.357833"/>
+   <trkpt lat="31.08573" lon="121.357023"/>
+   <trkpt lat="31.081251" lon="121.352307"/>
+   <trkpt lat="31.080442" lon="121.351442"/>
+  </trkseg>
+ </trk>
+</gpx>

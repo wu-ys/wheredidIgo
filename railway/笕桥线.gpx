@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 4521 filtered ascend = 0 plain-ascend = 0 cost=4521 energy=0.1kwh time=6m 2s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>笕桥线 (11.5km)</name>
+  <trkseg>
+   <trkpt lat="30.35688" lon="120.246722"><ele>11</ele></trkpt>
+   <trkpt lat="30.356649" lon="120.246441"><ele>11</ele></trkpt>
+   <trkpt lat="30.356338" lon="120.246021"><ele>11</ele></trkpt>
+   <trkpt lat="30.35574" lon="120.245286"><ele>11</ele></trkpt>
+   <trkpt lat="30.35339" lon="120.242314"><ele>11</ele></trkpt>
+   <trkpt lat="30.352694" lon="120.24143"><ele>11</ele></trkpt>
+   <trkpt lat="30.35225" lon="120.240847"><ele>11</ele></trkpt>
+   <trkpt lat="30.351168" lon="120.239234"><ele>11</ele></trkpt>
+   <trkpt lat="30.350596" lon="120.238333"><ele>11</ele></trkpt>
+   <trkpt lat="30.350338" lon="120.237902"><ele>11</ele></trkpt>
+   <trkpt lat="30.349917" lon="120.237106"><ele>11</ele></trkpt>
+   <trkpt lat="30.348729" lon="120.234715"><ele>11</ele></trkpt>
+   <trkpt lat="30.347827" lon="120.232672"><ele>11</ele></trkpt>
+   <trkpt lat="30.347253" lon="120.231393"><ele>11</ele></trkpt>
+   <trkpt lat="30.346011" lon="120.228766"><ele>11</ele></trkpt>
+   <trkpt lat="30.345697" lon="120.228046"><ele>11</ele></trkpt>
+   <trkpt lat="30.345114" lon="120.226847"><ele>11</ele></trkpt>
+   <trkpt lat="30.344418" lon="120.225336"><ele>11</ele></trkpt>
+   <trkpt lat="30.343751" lon="120.224028"><ele>10.5</ele></trkpt>
+   <trkpt lat="30.343193" lon="120.222828"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.34275" lon="120.221965"><ele>8.5</ele></trkpt>
+   <trkpt lat="30.34227" lon="120.220972"><ele>6.5</ele></trkpt>
+   <trkpt lat="30.341897" lon="120.220242"><ele>8.25</ele></trkpt>
+   <trkpt lat="30.341649" lon="120.219803"><ele>8.75</ele></trkpt>
+   <trkpt lat="30.341228" lon="120.219232"><ele>9.25</ele></trkpt>
+   <trkpt lat="30.34084" lon="120.218784"><ele>10.25</ele></trkpt>
+   <trkpt lat="30.340658" lon="120.218588"><ele>10.25</ele></trkpt>
+   <trkpt lat="30.34047" lon="120.2184"><ele>10</ele></trkpt>
+   <trkpt lat="30.340147" lon="120.218106"><ele>9.25</ele></trkpt>
+   <trkpt lat="30.339724" lon="120.217735"><ele>9.75</ele></trkpt>
+   <trkpt lat="30.339209" lon="120.217335"><ele>11.5</ele></trkpt>
+   <trkpt lat="30.338102" lon="120.216494"><ele>10.75</ele></trkpt>
+   <trkpt lat="30.337477" lon="120.216013"><ele>11.75</ele></trkpt>
+   <trkpt lat="30.337162" lon="120.215811"><ele>11.75</ele></trkpt>
+   <trkpt lat="30.33693" lon="120.215598"><ele>11.75</ele></trkpt>
+   <trkpt lat="30.336612" lon="120.215372"><ele>11.75</ele></trkpt>
+   <trkpt lat="30.335765" lon="120.214764"><ele>9.25</ele></trkpt>
+   <trkpt lat="30.335426" lon="120.214507"><ele>10.25</ele></trkpt>
+   <trkpt lat="30.334979" lon="120.214182"><ele>10.75</ele></trkpt>
+   <trkpt lat="30.33462" lon="120.213945"><ele>10.5</ele></trkpt>
+   <trkpt lat="30.334386" lon="120.213808"><ele>10.75</ele></trkpt>
+   <trkpt lat="30.33399" lon="120.2136"><ele>11</ele></trkpt>
+   <trkpt lat="30.333753" lon="120.21349"><ele>10.75</ele></trkpt>
+   <trkpt lat="30.333373" lon="120.213309"><ele>10</ele></trkpt>
+   <trkpt lat="30.330868" lon="120.212203"><ele>10.5</ele></trkpt>
+   <trkpt lat="30.330861" lon="120.2122"><ele>10.5</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

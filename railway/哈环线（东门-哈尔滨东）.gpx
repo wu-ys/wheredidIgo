@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 5334 filtered ascend = 0 plain-ascend = -17 cost=5334 energy=0.1kwh time=7m 7s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>哈环线（东门-哈尔滨东） (5.3km)</name>
+  <trkseg>
+   <trkpt lat="45.741073" lon="126.715935"><ele>137.5</ele></trkpt>
+   <trkpt lat="45.742441" lon="126.716209"><ele>137</ele></trkpt>
+   <trkpt lat="45.742851" lon="126.716267"><ele>137</ele></trkpt>
+   <trkpt lat="45.743224" lon="126.716291"><ele>137</ele></trkpt>
+   <trkpt lat="45.743402" lon="126.716291"><ele>136.75</ele></trkpt>
+   <trkpt lat="45.743914" lon="126.716266"><ele>136.5</ele></trkpt>
+   <trkpt lat="45.744286" lon="126.716214"><ele>136.25</ele></trkpt>
+   <trkpt lat="45.744739" lon="126.716121"><ele>135.25</ele></trkpt>
+   <trkpt lat="45.746217" lon="126.715758"><ele>135.5</ele></trkpt>
+   <trkpt lat="45.746431" lon="126.715702"><ele>135.25</ele></trkpt>
+   <trkpt lat="45.747092" lon="126.715463"><ele>133.75</ele></trkpt>
+   <trkpt lat="45.7487" lon="126.715064"><ele>132.75</ele></trkpt>
+   <trkpt lat="45.749243" lon="126.714923"><ele>133.75</ele></trkpt>
+   <trkpt lat="45.74967" lon="126.714812"><ele>133</ele></trkpt>
+   <trkpt lat="45.750134" lon="126.714691"><ele>132.25</ele></trkpt>
+   <trkpt lat="45.7505" lon="126.714614"><ele>132.5</ele></trkpt>
+   <trkpt lat="45.75138" lon="126.714393"><ele>132.75</ele></trkpt>
+   <trkpt lat="45.75176" lon="126.714298"><ele>132.25</ele></trkpt>
+   <trkpt lat="45.759303" lon="126.712405"><ele>129.25</ele></trkpt>
+   <trkpt lat="45.765499" lon="126.710701"><ele>128.5</ele></trkpt>
+   <trkpt lat="45.765987" lon="126.71059"><ele>127</ele></trkpt>
+   <trkpt lat="45.766415" lon="126.710544"><ele>125.75</ele></trkpt>
+   <trkpt lat="45.766621" lon="126.710541"><ele>125.25</ele></trkpt>
+   <trkpt lat="45.766826" lon="126.710555"><ele>125.25</ele></trkpt>
+   <trkpt lat="45.767011" lon="126.710579"><ele>125.25</ele></trkpt>
+   <trkpt lat="45.767186" lon="126.710611"><ele>125.25</ele></trkpt>
+   <trkpt lat="45.767546" lon="126.710701"><ele>125.25</ele></trkpt>
+   <trkpt lat="45.767737" lon="126.710768"><ele>124.5</ele></trkpt>
+   <trkpt lat="45.768169" lon="126.710968"><ele>123.25</ele></trkpt>
+   <trkpt lat="45.768439" lon="126.711133"><ele>122.5</ele></trkpt>
+   <trkpt lat="45.768539" lon="126.711203"><ele>122.25</ele></trkpt>
+   <trkpt lat="45.768738" lon="126.711354"><ele>122.25</ele></trkpt>
+   <trkpt lat="45.769062" lon="126.711639"><ele>122</ele></trkpt>
+   <trkpt lat="45.770153" lon="126.712715"><ele>124.5</ele></trkpt>
+   <trkpt lat="45.770391" lon="126.712922"><ele>124.5</ele></trkpt>
+   <trkpt lat="45.77055" lon="126.713049"><ele>124</ele></trkpt>
+   <trkpt lat="45.770725" lon="126.713167"><ele>123.5</ele></trkpt>
+   <trkpt lat="45.770899" lon="126.71327"><ele>123</ele></trkpt>
+   <trkpt lat="45.771129" lon="126.713387"><ele>122.25</ele></trkpt>
+   <trkpt lat="45.771318" lon="126.713463"><ele>121.75</ele></trkpt>
+   <trkpt lat="45.771533" lon="126.713531"><ele>121.5</ele></trkpt>
+   <trkpt lat="45.771759" lon="126.713577"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.772115" lon="126.713604"><ele>122</ele></trkpt>
+   <trkpt lat="45.772432" lon="126.713592"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.772781" lon="126.713532"><ele>123</ele></trkpt>
+   <trkpt lat="45.774228" lon="126.71317"><ele>123.5</ele></trkpt>
+   <trkpt lat="45.774387" lon="126.713124"><ele>123.75</ele></trkpt>
+   <trkpt lat="45.774571" lon="126.713057"><ele>123.75</ele></trkpt>
+   <trkpt lat="45.774754" lon="126.712975"><ele>123.75</ele></trkpt>
+   <trkpt lat="45.774984" lon="126.712858"><ele>123.75</ele></trkpt>
+   <trkpt lat="45.775151" lon="126.712745"><ele>123.25</ele></trkpt>
+   <trkpt lat="45.775339" lon="126.712607"><ele>123</ele></trkpt>
+   <trkpt lat="45.775504" lon="126.712472"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.775689" lon="126.712306"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.775823" lon="126.712173"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.775986" lon="126.711981"><ele>123</ele></trkpt>
+   <trkpt lat="45.77624" lon="126.711632"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.776338" lon="126.711471"><ele>122.75</ele></trkpt>
+   <trkpt lat="45.776451" lon="126.711274"><ele>122.5</ele></trkpt>
+   <trkpt lat="45.777303" lon="126.709703"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.777435" lon="126.709474"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.777561" lon="126.709279"><ele>121.5</ele></trkpt>
+   <trkpt lat="45.777685" lon="126.709102"><ele>121.5</ele></trkpt>
+   <trkpt lat="45.77799" lon="126.708728"><ele>120.75</ele></trkpt>
+   <trkpt lat="45.778177" lon="126.708531"><ele>120.75</ele></trkpt>
+   <trkpt lat="45.778499" lon="126.70825"><ele>121</ele></trkpt>
+   <trkpt lat="45.778691" lon="126.708112"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.778865" lon="126.707998"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.779104" lon="126.707884"><ele>121.5</ele></trkpt>
+   <trkpt lat="45.779621" lon="126.707662"><ele>121.25</ele></trkpt>
+   <trkpt lat="45.779795" lon="126.707616"><ele>121</ele></trkpt>
+   <trkpt lat="45.77999" lon="126.707507"><ele>121</ele></trkpt>
+   <trkpt lat="45.780394" lon="126.707339"><ele>121</ele></trkpt>
+   <trkpt lat="45.780723" lon="126.707202"><ele>121</ele></trkpt>
+   <trkpt lat="45.781011" lon="126.707046"><ele>120.75</ele></trkpt>
+   <trkpt lat="45.781242" lon="126.70692"><ele>120.5</ele></trkpt>
+   <trkpt lat="45.781789" lon="126.706689"><ele>119.75</ele></trkpt>
+   <trkpt lat="45.78204" lon="126.706619"><ele>119.5</ele></trkpt>
+   <trkpt lat="45.782301" lon="126.706542"><ele>119.5</ele></trkpt>
+   <trkpt lat="45.782908" lon="126.706373"><ele>120</ele></trkpt>
+   <trkpt lat="45.783547" lon="126.706218"><ele>120.75</ele></trkpt>
+   <trkpt lat="45.78656" lon="126.70545"><ele>120</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Where did I go</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-gpx"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { height: 100vh; width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+<script>
+  const map = L.map("map").setView([31, 121], 10);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
+  }).addTo(map);
+
+  const groups = {
+    flights: { color: "blue", files: {flights}
+    },
+    railway: { color: "green", files: {railway}
+    },
+    // runs: { color: "blue", files: [
+    //   "runs/morning_run_1.gpx",
+    //   "runs/morning_run_2.gpx"
+    // ]}
+  };
+
+
+  const overlays = {};  // 每个文件夹一组图层
+  let globalBounds = null;
+
+  for (const [folder, cfg] of Object.entries(groups)) {
+    const layerGroup = L.layerGroup();
+    overlays[folder] = layerGroup;  // 让 layer control 可以控制开关
+
+    cfg.files.forEach(file => {
+      new L.GPX(file, {
+        async: true,
+        polyline_options: {
+          color: cfg.color,
+          weight: 4,
+          opacity: 0.85
+        },
+        markers: {
+          startIcon: null,
+          endIcon: null,
+          // shadowUrl: ''
+        }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        const filename = file.split("/").pop(); // 取文件名部分
+        const match = filename.match(/_(\w+)_([0-9]{8})\.gpx$/);
+        let displayName;
+
+        if (match) {
+          displayName = `${match[1]}-${match[2]}`;
+        } else {
+          displayName = filename.replace(".gpx", "");
+        }
+
+        g.bindPopup(`<b>${displayName}</b>`);
+
+        // 更新全局视图范围
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
+
+        map.fitBounds(globalBounds, { padding: [20, 20] });
+      })
+      .addTo(layerGroup);
+    });
+  }
+
+  L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+
+//   tracks.forEach(({ file, color }) => {
+//     const gpx = new L.GPX(file, {
+//       async: true,
+//       polyline_options: { color, weight: 4, opacity: 0.8 },
+//       markers: {
+//         startIcon: null,
+//         endIcon: null,
+//         // wptIcons: null,
+//       },
+//     })
+//       .on("loaded", (e) => {
+//         const g = e.target;
+//         const name = g.get_name() || file;
+//         g.bindPopup(`<b>${name}</b>`);
+// 
+//         bounds.push(g.getBounds());
+//         if (bounds.length === tracks.length) {
+//           const all = bounds.reduce((b, cur) => b.extend(cur), bounds[0]);
+//           map.fitBounds(all);
+//         }
+// 
+//         g.eachLayer((layer) => {
+//           if (layer instanceof L.Marker) {
+//             map.removeLayer(layer);
+//           }
+//         });
+//       })
+//       .addTo(map);
+//   });
+</script>
+
+</body>
+</html>

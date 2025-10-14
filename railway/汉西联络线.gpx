@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 4925 filtered ascend = 0 plain-ascend = -2 cost=4925 energy=0.1kwh time=6m 34s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>汉西联络线 (4.9km)</name>
+  <trkseg>
+   <trkpt lat="30.589592" lon="114.22356"><ele>28</ele></trkpt>
+   <trkpt lat="30.589974" lon="114.223418"><ele>27</ele></trkpt>
+   <trkpt lat="30.590644" lon="114.223187"><ele>27.75</ele></trkpt>
+   <trkpt lat="30.59098" lon="114.223085"><ele>28.25</ele></trkpt>
+   <trkpt lat="30.593986" lon="114.222269"><ele>27</ele></trkpt>
+   <trkpt lat="30.595988" lon="114.221724"><ele>27.25</ele></trkpt>
+   <trkpt lat="30.596825" lon="114.221508"><ele>27.5</ele></trkpt>
+   <trkpt lat="30.596944" lon="114.221481"><ele>27.5</ele></trkpt>
+   <trkpt lat="30.597528" lon="114.221379"><ele>28</ele></trkpt>
+   <trkpt lat="30.5991" lon="114.220951"><ele>28.25</ele></trkpt>
+   <trkpt lat="30.599538" lon="114.220822"><ele>27.5</ele></trkpt>
+   <trkpt lat="30.599952" lon="114.220706"><ele>26.75</ele></trkpt>
+   <trkpt lat="30.600419" lon="114.220576"><ele>27.5</ele></trkpt>
+   <trkpt lat="30.601747" lon="114.220228"><ele>27.5</ele></trkpt>
+   <trkpt lat="30.602826" lon="114.219935"><ele>26.5</ele></trkpt>
+   <trkpt lat="30.605837" lon="114.219116"><ele>27.75</ele></trkpt>
+   <trkpt lat="30.608208" lon="114.218451"><ele>25</ele></trkpt>
+   <trkpt lat="30.608634" lon="114.218351"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.609965" lon="114.217984"><ele>27.25</ele></trkpt>
+   <trkpt lat="30.610693" lon="114.21777"><ele>25.5</ele></trkpt>
+   <trkpt lat="30.611244" lon="114.217547"><ele>25.5</ele></trkpt>
+   <trkpt lat="30.611865" lon="114.217266"><ele>25.75</ele></trkpt>
+   <trkpt lat="30.612525" lon="114.216893"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.613167" lon="114.216496"><ele>26</ele></trkpt>
+   <trkpt lat="30.613753" lon="114.216059"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.614296" lon="114.21557"><ele>25.5</ele></trkpt>
+   <trkpt lat="30.614806" lon="114.215072"><ele>26</ele></trkpt>
+   <trkpt lat="30.615397" lon="114.214425"><ele>24.75</ele></trkpt>
+   <trkpt lat="30.615959" lon="114.213733"><ele>24</ele></trkpt>
+   <trkpt lat="30.61658" lon="114.212802"><ele>24</ele></trkpt>
+   <trkpt lat="30.618112" lon="114.2104"><ele>24.75</ele></trkpt>
+   <trkpt lat="30.618381" lon="114.209897"><ele>24</ele></trkpt>
+   <trkpt lat="30.618701" lon="114.209231"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.619106" lon="114.208219"><ele>25</ele></trkpt>
+   <trkpt lat="30.619454" lon="114.207111"><ele>26.25</ele></trkpt>
+   <trkpt lat="30.619577" lon="114.206598"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.61968" lon="114.206086"><ele>24</ele></trkpt>
+   <trkpt lat="30.619754" lon="114.20562"><ele>23.75</ele></trkpt>
+   <trkpt lat="30.619811" lon="114.205158"><ele>24</ele></trkpt>
+   <trkpt lat="30.619863" lon="114.204567"><ele>24.5</ele></trkpt>
+   <trkpt lat="30.61989" lon="114.204037"><ele>25</ele></trkpt>
+   <trkpt lat="30.619901" lon="114.203482"><ele>24.75</ele></trkpt>
+   <trkpt lat="30.619906" lon="114.202734"><ele>24.25</ele></trkpt>
+   <trkpt lat="30.619903" lon="114.20096"><ele>24.75</ele></trkpt>
+   <trkpt lat="30.619901" lon="114.200015"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.619872" lon="114.199426"><ele>25</ele></trkpt>
+   <trkpt lat="30.619811" lon="114.198555"><ele>28.25</ele></trkpt>
+   <trkpt lat="30.619792" lon="114.197927"><ele>28.5</ele></trkpt>
+   <trkpt lat="30.61979" lon="114.197007"><ele>25.25</ele></trkpt>
+   <trkpt lat="30.61975" lon="114.196175"><ele>24</ele></trkpt>
+   <trkpt lat="30.619749" lon="114.196074"><ele>25.25</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

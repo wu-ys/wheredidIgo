@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 4480 filtered ascend = 0 plain-ascend = 0 cost=4480 energy=0.1kwh time=5m 59s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>康山联络线 (4.5km)</name>
+  <trkseg>
+   <trkpt lat="30.798725" lon="120.017254"/>
+   <trkpt lat="30.804252" lon="120.017729"/>
+   <trkpt lat="30.804959" lon="120.017817"/>
+   <trkpt lat="30.80561" lon="120.017937"/>
+   <trkpt lat="30.806547" lon="120.01819"/>
+   <trkpt lat="30.807331" lon="120.018476"/>
+   <trkpt lat="30.80806" lon="120.018804"/>
+   <trkpt lat="30.808777" lon="120.019172"/>
+   <trkpt lat="30.812243" lon="120.021202"/>
+   <trkpt lat="30.812984" lon="120.021695"/>
+   <trkpt lat="30.813651" lon="120.02224"/>
+   <trkpt lat="30.814233" lon="120.022789"/>
+   <trkpt lat="30.814841" lon="120.02342"/>
+   <trkpt lat="30.815393" lon="120.02407"/>
+   <trkpt lat="30.81587" lon="120.024701"/>
+   <trkpt lat="30.816335" lon="120.025385"/>
+   <trkpt lat="30.816739" lon="120.026049"/>
+   <trkpt lat="30.816927" lon="120.026403"/>
+   <trkpt lat="30.817155" lon="120.026833"/>
+   <trkpt lat="30.817487" lon="120.027556"/>
+   <trkpt lat="30.817813" lon="120.028393"/>
+   <trkpt lat="30.818081" lon="120.029216"/>
+   <trkpt lat="30.818287" lon="120.029977"/>
+   <trkpt lat="30.818496" lon="120.030885"/>
+   <trkpt lat="30.818665" lon="120.031861"/>
+   <trkpt lat="30.818766" lon="120.032736"/>
+   <trkpt lat="30.818832" lon="120.033809"/>
+   <trkpt lat="30.818847" lon="120.034772"/>
+   <trkpt lat="30.818933" lon="120.044736"/>
+   <trkpt lat="30.818935" lon="120.04504"/>
+   <trkpt lat="30.818966" lon="120.048505"/>
+   <trkpt lat="30.818975" lon="120.048859"/>
+  </trkseg>
+ </trk>
+</gpx>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3600 filtered ascend = 0 plain-ascend = 0 cost=3600 energy=0.0kwh time=4m 48s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>哈长联络线 (3.6km)</name>
+  <trkseg>
+   <trkpt lat="43.937009" lon="125.251193"/>
+   <trkpt lat="43.936836" lon="125.25112"/>
+   <trkpt lat="43.932431" lon="125.249498"/>
+   <trkpt lat="43.930612" lon="125.248787"/>
+   <trkpt lat="43.929747" lon="125.24846"/>
+   <trkpt lat="43.928898" lon="125.248208"/>
+   <trkpt lat="43.928284" lon="125.248058"/>
+   <trkpt lat="43.92773" lon="125.247974"/>
+   <trkpt lat="43.927138" lon="125.247919"/>
+   <trkpt lat="43.926659" lon="125.24791"/>
+   <trkpt lat="43.926098" lon="125.247953"/>
+   <trkpt lat="43.925616" lon="125.248006"/>
+   <trkpt lat="43.925103" lon="125.248102"/>
+   <trkpt lat="43.924493" lon="125.248268"/>
+   <trkpt lat="43.923906" lon="125.248477"/>
+   <trkpt lat="43.92338" lon="125.248705"/>
+   <trkpt lat="43.922886" lon="125.248969"/>
+   <trkpt lat="43.922328" lon="125.249312"/>
+   <trkpt lat="43.921792" lon="125.249676"/>
+   <trkpt lat="43.921315" lon="125.250052"/>
+   <trkpt lat="43.920717" lon="125.250618"/>
+   <trkpt lat="43.920177" lon="125.251202"/>
+   <trkpt lat="43.919725" lon="125.251758"/>
+   <trkpt lat="43.919223" lon="125.252459"/>
+   <trkpt lat="43.91873" lon="125.253225"/>
+   <trkpt lat="43.918327" lon="125.253952"/>
+   <trkpt lat="43.917984" lon="125.25466"/>
+   <trkpt lat="43.917648" lon="125.255488"/>
+   <trkpt lat="43.917389" lon="125.256209"/>
+   <trkpt lat="43.917135" lon="125.257028"/>
+   <trkpt lat="43.916911" lon="125.257913"/>
+   <trkpt lat="43.91673" lon="125.258828"/>
+   <trkpt lat="43.916583" lon="125.2598"/>
+   <trkpt lat="43.916478" lon="125.260767"/>
+   <trkpt lat="43.916414" lon="125.26182"/>
+   <trkpt lat="43.91631" lon="125.266041"/>
+   <trkpt lat="43.916232" lon="125.269955"/>
+   <trkpt lat="43.916232" lon="125.269874"/>
+  </trkseg>
+ </trk>
+</gpx>

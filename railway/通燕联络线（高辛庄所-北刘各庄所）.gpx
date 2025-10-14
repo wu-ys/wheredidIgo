@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3689 filtered ascend = 2 plain-ascend = 0 cost=3689 energy=0.0kwh time=4m 55s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>通燕联络线（高辛庄所-北刘各庄所） (3.7km)</name>
+  <trkseg>
+   <trkpt lat="39.935822" lon="116.775888"><ele>23</ele></trkpt>
+   <trkpt lat="39.935295" lon="116.770596"><ele>23</ele></trkpt>
+   <trkpt lat="39.93505" lon="116.76834"><ele>23</ele></trkpt>
+   <trkpt lat="39.934757" lon="116.766166"><ele>23</ele></trkpt>
+   <trkpt lat="39.934553" lon="116.764975"><ele>23</ele></trkpt>
+   <trkpt lat="39.934371" lon="116.764055"><ele>23</ele></trkpt>
+   <trkpt lat="39.934066" lon="116.762734"><ele>23</ele></trkpt>
+   <trkpt lat="39.933349" lon="116.759833"><ele>23</ele></trkpt>
+   <trkpt lat="39.931022" lon="116.750964"><ele>23</ele></trkpt>
+   <trkpt lat="39.930649" lon="116.749515"><ele>23</ele></trkpt>
+   <trkpt lat="39.930199" lon="116.747772"><ele>23</ele></trkpt>
+   <trkpt lat="39.929663" lon="116.745555"><ele>24.25</ele></trkpt>
+   <trkpt lat="39.929411" lon="116.744371"><ele>24.75</ele></trkpt>
+   <trkpt lat="39.929263" lon="116.743645"><ele>23</ele></trkpt>
+   <trkpt lat="39.928137" lon="116.738152"><ele>25.25</ele></trkpt>
+   <trkpt lat="39.92781" lon="116.736668"><ele>23.5</ele></trkpt>
+   <trkpt lat="39.927314" lon="116.734411"><ele>24.25</ele></trkpt>
+   <trkpt lat="39.927286" lon="116.734298"><ele>23.25</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
