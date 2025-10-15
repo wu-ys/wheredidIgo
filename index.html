@@ -98,7 +98,6 @@
   fetch("./flights/airport.json")
     .then(resp => resp.json())
     .then(data => {
-      console.log("✅ 读取 airport.json 成功:", data);
       for (const [groupName, points] of Object.entries(data)) {
         const group = overlays[groupName];
         if (!group) continue; // 没有对应组则跳过
@@ -110,7 +109,10 @@
         });
       }
     })
-  .catch(err => console.error("加载 airports.json 出错:", err));
+  .catch(err => console.error("加载 airport.json 出错:", err));
+
+  overlays["flights"].setZIndex(1000);
+  overlays["railway"].setZIndex(500);
 
   L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
