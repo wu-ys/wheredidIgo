@@ -109,7 +109,10 @@
         });
       }
     })
-  .catch(err => console.error("加载 airports.json 出错:", err));
+  .catch(err => console.error("加载 airport.json 出错:", err));
+
+  overlays["flights"].setZIndex(1000);
+  overlays["railway"].setZIndex(500);
 
   L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
