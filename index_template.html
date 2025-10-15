@@ -35,6 +35,18 @@
     // ]}
   };
 
+  const icons = {
+    flights: L.icon({
+      iconUrl: "assets/airport.png",
+      iconSize: [24, 24],
+      iconAnchor: [12, 12]
+    }),
+    // railway: L.icon({
+    //   iconUrl: "station.png",
+    //   iconSize: [20, 20],
+    //   iconAnchor: [10, 10]
+    // })
+  };
 
   const overlays = {};  // 每个文件夹一组图层
   let globalBounds = null;
@@ -81,6 +93,23 @@
       .addTo(layerGroup);
     });
   }
+
+  // === 加载独立点（从外部 JSON）===
+  fetch("./flights/airport.json")
+    .then(resp => resp.json())
+    .then(data => {
+      for (const [groupName, points] of Object.entries(data)) {
+        const group = overlays[groupName];
+        if (!group) continue; // 没有对应组则跳过
+
+        points.forEach(p => {
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${p.name}</b>`)
+            .addTo(group);
+        });
+      }
+    })
+  .catch(err => console.error("加载 airports.json 出错:", err));
 
   L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
