@@ -1,0 +1,48 @@
+name: Run Python Script on Commit
+
+on:
+  push:
+    branches: [ main ]   # 触发条件，可改为 master 或其他分支
+  workflow_dispatch:      # 手动触发按钮（可选）
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # === 1️⃣ 检出代码 ===
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # === 2️⃣ 设置 Python 环境 ===
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+
+    # # === 3️⃣ 安装依赖（如果有 requirements.txt）===
+    # - name: Install dependencies
+    #   run: |
+    #     pip install -r requirements.txt || true
+
+    # === 4️⃣ 运行你的 Python 脚本 ===
+    - name: Run update script
+      run: |
+        python process_airport.py
+        python process_railway.py
+        python print_gpx_list.py
+
+    # === 5️⃣ 提交修改并推送回仓库 ===
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+        git add .
+        git commit -m "Auto update via GitHub Actions" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
