@@ -38,14 +38,14 @@
   const icons = {
     flights: L.icon({
       iconUrl: "assets/airport.png",
-      iconSize: [24, 24],
-      iconAnchor: [12, 12]
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
     }),
-    // railway: L.icon({
-    //   iconUrl: "station.png",
-    //   iconSize: [20, 20],
-    //   iconAnchor: [10, 10]
-    // })
+    railway: L.icon({
+      iconUrl: "assets/airport.png",
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
+    })
   };
 
   const overlays = {};  // 每个文件夹一组图层
@@ -110,6 +110,22 @@
       }
     })
   .catch(err => console.error("加载 airport.json 出错:", err));
+
+  fetch("./railway/station.json")
+    .then(resp => resp.json())
+    .then(data => {
+      for (const [groupName, points] of Object.entries(data)) {
+        const group = overlays[groupName];
+        if (!group) continue; // 没有对应组则跳过
+
+        points.forEach(p => {
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${p.name}</b>`)
+            .addTo(group);
+        });
+      }
+    })
+  .catch(err => console.error("加载 station.json 出错:", err));
 
   overlays["flights"].setZIndex(1000);
   overlays["railway"].setZIndex(500);
