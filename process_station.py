@@ -20,8 +20,17 @@ df = pd.read_csv('railway/station.csv', encoding='utf-8')
 # === 3. 匹配经纬度，并记录未匹配项 ===
 missing_names = []
 records = []
-for name in df['name']:
-    if name in coord_dict:
+
+for _, row in df.iterrows():
+    name = row['name']
+    lat, lon = row['lat'], row['lon']
+    # 如果CSV中已有坐标，直接用
+    if pd.notna(lat) and pd.notna(lon):
+        lon, lat = gcj02towgs84(lon, lat)
+        records.append({"name": name, "lat": lat, "lon": lon})
+
+    # 如果json中可以找到坐标
+    elif name in coord_dict:
         lat, lon = coord_dict[name][0], coord_dict[name][1]
         lon, lat = gcj02towgs84(lon, lat)
         records.append({"name": name, "lat": lat, "lon": lon})
@@ -35,4 +44,5 @@ wrapped = {"railway": records}
 with open('railway/station.json', 'w', encoding='utf-8') as f:
     json.dump(wrapped, f, ensure_ascii=False, indent=2)
 
+print("缺失的车站：", missing_names)
 print("✅ 已生成 station.json 文件！")
