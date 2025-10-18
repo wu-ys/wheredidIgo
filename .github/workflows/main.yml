@@ -33,6 +33,7 @@ jobs:
       run: |
         python process_airport.py
         python process_railway.py
+        python process_station.py
         python print_gpx_list.py
 
     # === 5️⃣ 提交修改并推送回仓库 ===
