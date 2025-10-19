@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 4632 filtered ascend = 1 plain-ascend = 0 cost=4632 energy=0.1kwh time=6m 11s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>太仓联络线（太仓-陆渡所） (4.6km)</name>
+  <trkseg>
+   <trkpt lat="31.51425" lon="121.192822"><ele>2.75</ele></trkpt>
+   <trkpt lat="31.511451" lon="121.195601"><ele>2.75</ele></trkpt>
+   <trkpt lat="31.510641" lon="121.196404"><ele>2.25</ele></trkpt>
+   <trkpt lat="31.510313" lon="121.196729"><ele>2.5</ele></trkpt>
+   <trkpt lat="31.508763" lon="121.198326"><ele>4.5</ele></trkpt>
+   <trkpt lat="31.506382" lon="121.200778"><ele>2.5</ele></trkpt>
+   <trkpt lat="31.505694" lon="121.201519"><ele>2.5</ele></trkpt>
+   <trkpt lat="31.505205" lon="121.202046"/>
+   <trkpt lat="31.504637" lon="121.202695"/>
+   <trkpt lat="31.503496" lon="121.20409"/>
+   <trkpt lat="31.502933" lon="121.204756"/>
+   <trkpt lat="31.502393" lon="121.205355"/>
+   <trkpt lat="31.501873" lon="121.205876"/>
+   <trkpt lat="31.501304" lon="121.20638"/>
+   <trkpt lat="31.500711" lon="121.206848"/>
+   <trkpt lat="31.499966" lon="121.207304"/>
+   <trkpt lat="31.499058" lon="121.207796"/>
+   <trkpt lat="31.498308" lon="121.208153"/>
+   <trkpt lat="31.497556" lon="121.208438"/>
+   <trkpt lat="31.496861" lon="121.208662"/>
+   <trkpt lat="31.496051" lon="121.208848"/>
+   <trkpt lat="31.495412" lon="121.208956"/>
+   <trkpt lat="31.494715" lon="121.209028"/>
+   <trkpt lat="31.493903" lon="121.209092"/>
+   <trkpt lat="31.493115" lon="121.209125"/>
+   <trkpt lat="31.486213" lon="121.209309"/>
+   <trkpt lat="31.485236" lon="121.209314"/>
+   <trkpt lat="31.484486" lon="121.209284"/>
+   <trkpt lat="31.483769" lon="121.209186"/>
+   <trkpt lat="31.48309" lon="121.209028"/>
+   <trkpt lat="31.482453" lon="121.208851"/>
+   <trkpt lat="31.481804" lon="121.208638"/>
+   <trkpt lat="31.481198" lon="121.208385"/>
+   <trkpt lat="31.479797" lon="121.207735"/>
+   <trkpt lat="31.477774" lon="121.206818"/>
+   <trkpt lat="31.477757" lon="121.206812"/>
+  </trkseg>
+ </trk>
+</gpx>
