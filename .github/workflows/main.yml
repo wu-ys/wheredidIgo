@@ -2,7 +2,7 @@ name: Run Python Script on Commit
 
 on:
   push:
-    branches: [ main ]   # 触发条件，可改为 master 或其他分支
+    branches: [ test-action ]   # 触发条件，可改为 master 或其他分支
   workflow_dispatch:      # 手动触发按钮（可选）
 
 permissions:
