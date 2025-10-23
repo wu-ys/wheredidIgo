@@ -17,7 +17,7 @@ def batch_process_files(folder_path):
 def remove_wpt_from_content(folder_path):
     """删除文件内容中包含'wpt'的行"""
     print("正在处理文件内容...")
-    files = glob.glob(os.path.join(folder_path, '*'))
+    files = glob.glob(os.path.join(folder_path, '**/*.gpx'))
     
     for file_path in files:
         if os.path.isfile(file_path):
@@ -38,7 +38,7 @@ def remove_wpt_from_content(folder_path):
 def remove_parentheses_from_filenames(folder_path):
     """删除文件名中的括号及括号内容"""
     print("\n正在处理文件名...")
-    files = glob.glob(os.path.join(folder_path, '*'))
+    files = glob.glob(os.path.join(folder_path, '**/*.gpx'))
     
     for file_path in files:
         if os.path.isfile(file_path):
@@ -68,7 +68,5 @@ def remove_parentheses_from_filenames(folder_path):
                     print(f"重命名 {old_filename} 时出错: {e}")
 
 # 使用方法
-folder_path = "./railway/gpx_cr"
-batch_process_files(folder_path)
-folder_path = "./railway/gpx_jr"
+folder_path = "./railway"
 batch_process_files(folder_path)
