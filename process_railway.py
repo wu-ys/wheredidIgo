@@ -68,5 +68,7 @@ def remove_parentheses_from_filenames(folder_path):
                     print(f"重命名 {old_filename} 时出错: {e}")
 
 # 使用方法
-folder_path = "./railway"
+folder_path = "./railway/gpx_cr"
+batch_process_files(folder_path)
+folder_path = "./railway/gpx_jr"
 batch_process_files(folder_path)

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3278 filtered ascend = 9 plain-ascend = -1 cost=3278 energy=0.0kwh time=4m 22s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>JR纪势线（和歌山-和歌山市） (3.3km)</name>
+  <trkseg>
+   <trkpt lat="34.236743" lon="135.167058"><ele>9.5</ele></trkpt>
+   <trkpt lat="34.236756" lon="135.167077"><ele>9.5</ele></trkpt>
+   <trkpt lat="34.23706" lon="135.167522"><ele>8</ele></trkpt>
+   <trkpt lat="34.23742" lon="135.167992"><ele>4.25</ele></trkpt>
+   <trkpt lat="34.237798" lon="135.168452"><ele>4.25</ele></trkpt>
+   <trkpt lat="34.238151" lon="135.168811"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.238394" lon="135.169047"><ele>4</ele></trkpt>
+   <trkpt lat="34.238625" lon="135.169391"><ele>4</ele></trkpt>
+   <trkpt lat="34.238707" lon="135.169527"><ele>4</ele></trkpt>
+   <trkpt lat="34.239067" lon="135.170084"><ele>4.25</ele></trkpt>
+   <trkpt lat="34.239896" lon="135.171364"><ele>5.25</ele></trkpt>
+   <trkpt lat="34.24055" lon="135.172367"><ele>4.75</ele></trkpt>
+   <trkpt lat="34.240768" lon="135.172727"/>
+   <trkpt lat="34.241076" lon="135.173317"/>
+   <trkpt lat="34.241223" lon="135.173694"/>
+   <trkpt lat="34.24129" lon="135.173865"/>
+   <trkpt lat="34.241445" lon="135.174357"/>
+   <trkpt lat="34.241474" lon="135.174495"/>
+   <trkpt lat="34.241599" lon="135.175126"/>
+   <trkpt lat="34.241727" lon="135.176641"/>
+   <trkpt lat="34.241804" lon="135.177717"/>
+   <trkpt lat="34.241983" lon="135.180674"/>
+   <trkpt lat="34.241984" lon="135.180709"><ele>3</ele></trkpt>
+   <trkpt lat="34.242104" lon="135.182941"><ele>3</ele></trkpt>
+   <trkpt lat="34.242202" lon="135.184524"><ele>3</ele></trkpt>
+   <trkpt lat="34.242242" lon="135.185184"><ele>3</ele></trkpt>
+   <trkpt lat="34.242263" lon="135.185972"><ele>3</ele></trkpt>
+   <trkpt lat="34.242218" lon="135.186532"><ele>3</ele></trkpt>
+   <trkpt lat="34.242115" lon="135.187076"><ele>3</ele></trkpt>
+   <trkpt lat="34.241966" lon="135.187579"><ele>3</ele></trkpt>
+   <trkpt lat="34.241674" lon="135.188247"><ele>3</ele></trkpt>
+   <trkpt lat="34.241229" lon="135.188896"><ele>3</ele></trkpt>
+   <trkpt lat="34.241129" lon="135.189042"><ele>3.5</ele></trkpt>
+   <trkpt lat="34.241067" lon="135.189099"><ele>4</ele></trkpt>
+   <trkpt lat="34.24072" lon="135.189425"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.240399" lon="135.189663"><ele>3.5</ele></trkpt>
+   <trkpt lat="34.239997" lon="135.189894"><ele>2.75</ele></trkpt>
+   <trkpt lat="34.239718" lon="135.190025"><ele>3</ele></trkpt>
+   <trkpt lat="34.239558" lon="135.190079"><ele>3</ele></trkpt>
+   <trkpt lat="34.239369" lon="135.190123"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.23921" lon="135.19015"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.239165" lon="135.190155"><ele>3</ele></trkpt>
+   <trkpt lat="34.238719" lon="135.190214"><ele>3</ele></trkpt>
+   <trkpt lat="34.237547" lon="135.19042"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.237301" lon="135.190479"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.237122" lon="135.190499"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.236719" lon="135.190571"><ele>3.5</ele></trkpt>
+   <trkpt lat="34.236192" lon="135.190666"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.235648" lon="135.190762"><ele>5.5</ele></trkpt>
+   <trkpt lat="34.235357" lon="135.190809"><ele>6.5</ele></trkpt>
+   <trkpt lat="34.23512" lon="135.190848"><ele>6.5</ele></trkpt>
+   <trkpt lat="34.234791" lon="135.190918"><ele>5.75</ele></trkpt>
+   <trkpt lat="34.234169" lon="135.191098"><ele>4</ele></trkpt>
+   <trkpt lat="34.233663" lon="135.191213"><ele>9.75</ele></trkpt>
+   <trkpt lat="34.2334" lon="135.191317"><ele>11.25</ele></trkpt>
+   <trkpt lat="34.232942" lon="135.191471"><ele>9.25</ele></trkpt>
+   <trkpt lat="34.232667" lon="135.191545"><ele>8.25</ele></trkpt>
+   <trkpt lat="34.232197" lon="135.191629"><ele>4.25</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
