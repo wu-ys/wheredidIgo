@@ -11,7 +11,8 @@ with open("flights/airport.csv", encoding="utf-8") as f:
         if group not in data:
             data[group] = []
         data[group].append({
-            "name": row["name"],
+            "name_zh": row["name_zh"],
+            "name_en": row["name_en"],
             "lat": float(row["lat"]),
             "lon": float(row["lon"])
         })

@@ -1,222 +1,266 @@
 {
   "flights": [
     {
-      "name": "[PEK] Beijing Capital",
+      "name_zh": "[PEK] 北京首都",
+      "name_en": "[PEK] Beijing Capital",
       "lat": 40.08010101,
       "lon": 116.5849991
     },
     {
-      "name": "[PKX] Beijing Daxing",
+      "name_zh": "[PKX] 北京大兴",
+      "name_en": "[PKX] Beijing Daxing",
       "lat": 39.509945,
       "lon": 116.41092
     },
     {
-      "name": "[TSN] Tianjin",
+      "name_zh": "[TSN] 天津滨海",
+      "name_en": "[TSN] Tianjin",
       "lat": 39.12440109,
       "lon": 117.3460007
     },
     {
-      "name": "[TVS] Tangshan",
+      "name_zh": "[TVS] 唐山三女河",
+      "name_en": "[TVS] Tangshan",
       "lat": 39.7178,
       "lon": 118.002625
     },
     {
-      "name": "[SJW] Shijiazhuang",
+      "name_zh": "[SJW] 石家庄正定",
+      "name_en": "[SJW] Shijiazhuang",
       "lat": 38.280701,
       "lon": 114.696999
     },
     {
-      "name": "[DLC] Dalian",
+      "name_zh": "[DLC] 大连周水子",
+      "name_en": "[DLC] Dalian",
       "lat": 38.965719,
       "lon": 121.538477
     },
     {
-      "name": "[YNJ] Yanji",
+      "name_zh": "[YNJ] 延吉朝阳川",
+      "name_en": "[YNJ] Yanji",
       "lat": 42.88280106,
       "lon": 129.451004
     },
     {
-      "name": "[HRB] Harbin",
+      "name_zh": "[HRB] 哈尔滨太平",
+      "name_en": "[HRB] Harbin",
       "lat": 45.623402,
       "lon": 126.25
     },
     {
-      "name": "[OHE] Mohe",
+      "name_zh": "[OHE] 漠河古莲",
+      "name_en": "[OHE] Mohe",
       "lat": 52.916871,
       "lon": 122.422759
     },
     {
-      "name": "[JGD] Jiagedaqi",
+      "name_zh": "[JGD] 加格达奇",
+      "name_en": "[JGD] Jiagedaqi",
       "lat": 50.371389,
       "lon": 124.1175
     },
     {
-      "name": "[HLD] Hulunbuir Hailar",
+      "name_zh": "[HLD] 呼伦贝尔海拉尔",
+      "name_en": "[HLD] Hulunbuir Hailar",
       "lat": 49.205002,
       "lon": 119.824997
     },
     {
-      "name": "[TGO] Tongliao",
+      "name_zh": "[TGO] 通辽",
+      "name_en": "[TGO] Tongliao",
       "lat": 43.556702,
       "lon": 122.199997
     },
     {
-      "name": "[HET] Hohhot",
+      "name_zh": "[HET] 呼和浩特白塔",
+      "name_en": "[HET] Hohhot",
       "lat": 40.849658,
       "lon": 111.824598
     },
     {
-      "name": "[TAO] Qingdao",
+      "name_zh": "[TAO] 青岛胶东",
+      "name_en": "[TAO] Qingdao",
       "lat": 36.361953,
       "lon": 120.088171
     },
     {
-      "name": "[JNG] Jining",
+      "name_zh": "[JNG] 济宁大安",
+      "name_en": "[JNG] Jining",
       "lat": 35.647358,
       "lon": 116.743269
     },
     {
-      "name": "[NKG] Nanjing",
+      "name_zh": "[NKG] 南京禄口",
+      "name_en": "[NKG] Nanjing",
       "lat": 31.735032,
       "lon": 118.865949
     },
     {
-      "name": "[SHA] Shanghai Hongqiao",
+      "name_zh": "[SHA] 上海虹桥",
+      "name_en": "[SHA] Shanghai Hongqiao",
       "lat": 31.198104,
       "lon": 121.33426
     },
     {
-      "name": "[PVG] Shanghai Pudong",
+      "name_zh": "[PVG] 上海浦东",
+      "name_en": "[PVG] Shanghai Pudong",
       "lat": 31.1434,
       "lon": 121.805
     },
     {
-      "name": "[HGH] Hangzhou",
+      "name_zh": "[HGH] 杭州萧山",
+      "name_en": "[HGH] Hangzhou",
       "lat": 30.23609,
       "lon": 120.428865
     },
     {
-      "name": "[WNZ] Wenzhou",
+      "name_zh": "[WNZ] 温州龙湾",
+      "name_en": "[WNZ] Wenzhou",
       "lat": 27.910572,
       "lon": 120.853465
     },
     {
-      "name": "[XMN] Xiamen",
+      "name_zh": "[XMN] 厦门高崎",
+      "name_en": "[XMN] Xiamen",
       "lat": 24.54400063,
       "lon": 118.1279984
     },
     {
-      "name": "[JJN] Quanzhou",
+      "name_zh": "[JJN] 泉州晋江",
+      "name_en": "[JJN] Quanzhou",
       "lat": 24.796587,
       "lon": 118.588883
     },
     {
-      "name": "[HFE] Hefei",
+      "name_zh": "[HFE] 合肥新桥",
+      "name_en": "[HFE] Hefei",
       "lat": 31.98779,
       "lon": 116.9769
     },
     {
-      "name": "[CAN] Guangzhou",
+      "name_zh": "[CAN] 广州白云",
+      "name_en": "[CAN] Guangzhou",
       "lat": 23.392401,
       "lon": 113.299004
     },
     {
-      "name": "[SZX] Shenzhen",
+      "name_zh": "[SZX] 深圳宝安",
+      "name_en": "[SZX] Shenzhen",
       "lat": 22.639299,
       "lon": 113.810997
     },
     {
-      "name": "[NNG] Nanning",
+      "name_zh": "[NNG] 南宁吴圩",
+      "name_en": "[NNG] Nanning",
       "lat": 22.608544,
       "lon": 108.175335
     },
     {
-      "name": "[XIY] Xi'an",
+      "name_zh": "[XIY] 西安咸阳",
+      "name_en": "[XIY] Xi'an",
       "lat": 34.447102,
       "lon": 108.751999
     },
     {
-      "name": "[CTU] Chengdu Shuangliu",
+      "name_zh": "[CTU] 成都双流",
+      "name_en": "[CTU] Chengdu Shuangliu",
       "lat": 30.558257,
       "lon": 103.945966
     },
     {
-      "name": "[TFU] Chengdu Tianfu",
+      "name_zh": "[TFU] 成都天府",
+      "name_en": "[TFU] Chengdu Tianfu",
       "lat": 30.31252,
       "lon": 104.441284
     },
     {
-      "name": "[CKG] Chongqing",
+      "name_zh": "[CKG] 重庆江北",
+      "name_en": "[CKG] Chongqing",
       "lat": 29.712254,
       "lon": 106.651895
     },
     {
-      "name": "[KWE] Guiyang",
+      "name_zh": "[KWE] 贵阳龙洞堡",
+      "name_en": "[KWE] Guiyang",
       "lat": 26.541466,
       "lon": 106.803331
     },
     {
-      "name": "[LJG] Lijiang",
+      "name_zh": "[LJG] 丽江三义",
+      "name_en": "[LJG] Lijiang",
       "lat": 26.68,
       "lon": 100.246002
     },
     {
-      "name": "[LHW] Lanzhou",
+      "name_zh": "[LHW] 兰州中川",
+      "name_en": "[LHW] Lanzhou",
       "lat": 36.515202,
       "lon": 103.620003
     },
     {
-      "name": "[DNH] Dunhuang",
+      "name_zh": "[DNH] 敦煌莫高",
+      "name_en": "[DNH] Dunhuang",
       "lat": 40.161098,
       "lon": 94.809196
     },
     {
-      "name": "[XNN] Xining",
+      "name_zh": "[XNN] 西宁曹家堡",
+      "name_en": "[XNN] Xining",
       "lat": 36.530093,
       "lon": 102.040062
     },
     {
-      "name": "[HBQ] Haibei Qilian",
+      "name_zh": "[HBQ] 海北祁连",
+      "name_en": "[HBQ] Haibei Qilian",
       "lat": 38.008068,
       "lon": 100.645065
     },
     {
-      "name": "[HTT] Haixi Huatugou",
+      "name_zh": "[HTT] 海西花土沟",
+      "name_en": "[HTT] Haixi Huatugou",
       "lat": 38.201645,
       "lon": 90.837843
     },
     {
-      "name": "[HXD] Haixi Delingha",
+      "name_zh": "[HXD] 海西德令哈",
+      "name_en": "[HXD] Haixi Delingha",
       "lat": 37.125286,
       "lon": 97.268658
     },
     {
-      "name": "[LXA] Lhasa",
+      "name_zh": "[LXA] 拉萨贡嘎",
+      "name_en": "[LXA] Lhasa",
       "lat": 29.298001,
       "lon": 90.911951
     },
     {
-      "name": "[URC] Urumqi",
+      "name_zh": "[URC] 乌鲁木齐天山",
+      "name_en": "[URC] Urumqi",
       "lat": 43.907101,
       "lon": 87.474197
     },
     {
-      "name": "[KHG] Kashgar",
+      "name_zh": "[KHG] 喀什徕宁",
+      "name_en": "[KHG] Kashgar",
       "lat": 39.5429,
       "lon": 76.019997
     },
     {
-      "name": "[KIX] Osaka Kansai",
+      "name_zh": "[KIX] 大阪关西",
+      "name_en": "[KIX] Osaka Kansai",
       "lat": 34.427299,
       "lon": 135.244003
     },
     {
-      "name": "[GMP] Seoul Gimpo",
+      "name_zh": "[GMP] 首尔金浦",
+      "name_en": "[GMP] Seoul Gimpo",
       "lat": 37.5583,
       "lon": 126.791
     },
     {
-      "name": "[ICN] Seoul Incheon",
+      "name_zh": "[ICN] 首尔仁川",
+      "name_en": "[ICN] Seoul Incheon",
       "lat": 37.469101,
       "lon": 126.450996
     }

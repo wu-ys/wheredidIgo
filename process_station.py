@@ -17,6 +17,7 @@ with open('railway/station.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         name = row.get('name')
+        name_en = row.get("name_en", "").strip()
         lat_str = row.get('lat', '').strip()
         lon_str = row.get('lon', '').strip()
 
@@ -26,14 +27,14 @@ with open('railway/station.csv', 'r', encoding='utf-8') as f:
         # 如果CSV中已有坐标
         if lat is not None and lon is not None:
             lon, lat = gcj02towgs84(lon, lat)
-            records.append({"name": name, "lat": lat, "lon": lon})
+            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon})
             continue
 
         # 如果JSON中存在该车站
         if name in coord_dict:
             lat, lon = coord_dict[name]
             lon, lat = gcj02towgs84(lon, lat)
-            records.append({"name": name, "lat": lat, "lon": lon})
+            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon})
         else:
             missing_names.append(name)
 

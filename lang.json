@@ -1,0 +1,28 @@
+{
+  "zh": {
+    "title": "🌏 Where did I go",
+    "nav": {
+      "home": "首页",
+      "flights": "航班轨迹",
+      "railway": "铁路行程",
+      "points": "地标"
+    },
+    "popup": {
+      "airport": "机场",
+      "station": "车站"
+    }
+  },
+  "en": {
+    "title": "🌏 Where did I go",
+    "nav": {
+      "home": "Home",
+      "flights": "Flights",
+      "railway": "Railways",
+      "points": "Landmarks"
+    },
+    "popup": {
+      "airport": "Airport",
+      "station": "Station"
+    }
+  }
+}
