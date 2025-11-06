@@ -7,7 +7,7 @@
  version="1.1" 
  creator="BRouter-Web 0.18.1">
  <trk>
-  <name>新通客专+姚田联络线 (192.4km)</name>
+  <name>新通客运专线</name>
   <trkseg>
    <trkpt lat="43.601633" lon="122.266992"><ele>179.75</ele></trkpt>
    <trkpt lat="43.601321" lon="122.265425"><ele>180</ele></trkpt>
@@ -312,50 +312,6 @@
    <trkpt lat="42.061207" lon="122.67497"><ele>42.75</ele></trkpt>
    <trkpt lat="42.055831" lon="122.680312"><ele>41.75</ele></trkpt>
    <trkpt lat="42.053024" lon="122.683022"><ele>41.75</ele></trkpt>
-   <trkpt lat="42.052901" lon="122.683139"><ele>41</ele></trkpt>
-   <trkpt lat="42.053024" lon="122.683022"><ele>41.75</ele></trkpt>
-   <trkpt lat="42.050711" lon="122.685328"><ele>40.75</ele></trkpt>
-   <trkpt lat="42.049401" lon="122.686796"><ele>40</ele></trkpt>
-   <trkpt lat="42.048494" lon="122.687987"><ele>40</ele></trkpt>
-   <trkpt lat="42.04743" lon="122.689801"><ele>40</ele></trkpt>
-   <trkpt lat="42.045835" lon="122.692714"><ele>39</ele></trkpt>
-   <trkpt lat="42.044365" lon="122.695316"><ele>39</ele></trkpt>
-   <trkpt lat="42.043548" lon="122.69659"><ele>39</ele></trkpt>
-   <trkpt lat="42.042816" lon="122.697501"><ele>39</ele></trkpt>
-   <trkpt lat="42.041807" lon="122.69854"><ele>39</ele></trkpt>
-   <trkpt lat="42.040618" lon="122.69958"><ele>39</ele></trkpt>
-   <trkpt lat="42.039458" lon="122.700285"><ele>39</ele></trkpt>
-   <trkpt lat="42.038263" lon="122.700884"><ele>39</ele></trkpt>
-   <trkpt lat="42.036961" lon="122.701317"><ele>39</ele></trkpt>
-   <trkpt lat="42.035868" lon="122.701537"><ele>39</ele></trkpt>
-   <trkpt lat="42.034972" lon="122.701605"><ele>39</ele></trkpt>
-   <trkpt lat="42.034201" lon="122.70162"><ele>39</ele></trkpt>
-   <trkpt lat="42.032814" lon="122.701476"><ele>39</ele></trkpt>
-   <trkpt lat="42.031349" lon="122.701082"><ele>39</ele></trkpt>
-   <trkpt lat="42.02994" lon="122.700452"><ele>39</ele></trkpt>
-   <trkpt lat="42.028881" lon="122.699837"><ele>39</ele></trkpt>
-   <trkpt lat="42.027602" lon="122.698821"><ele>39</ele></trkpt>
-   <trkpt lat="42.026971" lon="122.698244"><ele>39</ele></trkpt>
-   <trkpt lat="42.026165" lon="122.697273"><ele>39.25</ele></trkpt>
-   <trkpt lat="42.025207" lon="122.696052"><ele>39</ele></trkpt>
-   <trkpt lat="42.024407" lon="122.694724"><ele>38.5</ele></trkpt>
-   <trkpt lat="42.023837" lon="122.693571"><ele>39.25</ele></trkpt>
-   <trkpt lat="42.022986" lon="122.691386"><ele>39.25</ele></trkpt>
-   <trkpt lat="42.02249" lon="122.689717"><ele>39.25</ele></trkpt>
-   <trkpt lat="42.022118" lon="122.687714"><ele>39.5</ele></trkpt>
-   <trkpt lat="42.021932" lon="122.685947"><ele>39.5</ele></trkpt>
-   <trkpt lat="42.02191" lon="122.684164"><ele>39.75</ele></trkpt>
-   <trkpt lat="42.022079" lon="122.682032"><ele>39.75</ele></trkpt>
-   <trkpt lat="42.022389" lon="122.679915"><ele>40</ele></trkpt>
-   <trkpt lat="42.022727" lon="122.678011"><ele>40</ele></trkpt>
-   <trkpt lat="42.023527" lon="122.673368"><ele>40.25</ele></trkpt>
-   <trkpt lat="42.02372" lon="122.672128"><ele>40.5</ele></trkpt>
-   <trkpt lat="42.023875" lon="122.670981"><ele>40.5</ele></trkpt>
-   <trkpt lat="42.023959" lon="122.670186"><ele>40.5</ele></trkpt>
-   <trkpt lat="42.024037" lon="122.669263"><ele>40.5</ele></trkpt>
-   <trkpt lat="42.024119" lon="122.668126"><ele>40.75</ele></trkpt>
-   <trkpt lat="42.024329" lon="122.661418"><ele>40.75</ele></trkpt>
-   <trkpt lat="42.024329" lon="122.661393"><ele>40.25</ele></trkpt>
   </trkseg>
  </trk>
 </gpx>
