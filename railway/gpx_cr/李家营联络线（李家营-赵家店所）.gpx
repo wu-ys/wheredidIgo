@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- track-length = 6717 filtered ascend = 94 plain-ascend = 79 cost=6717 energy=0.1kwh time=8m 57s -->
+<!-- track-length = 6718 filtered ascend = 87 plain-ascend = 71 cost=6718 energy=0.1kwh time=8m 57s -->
 <gpx 
  xmlns="http://www.topografix.com/GPX/1/1" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -7,7 +7,7 @@
  version="1.1" 
  creator="BRouter-Web 0.18.1">
  <trk>
-  <name>李家营联络线 (6.7km)</name>
+  <name>李家营联络线</name>
   <trkseg>
    <trkpt lat="40.63158" lon="117.776809"><ele>411.75</ele></trkpt>
    <trkpt lat="40.631589" lon="117.776725"><ele>411.75</ele></trkpt>
@@ -64,18 +64,10 @@
    <trkpt lat="40.600309" lon="117.74552"><ele>476.25</ele></trkpt>
    <trkpt lat="40.599964" lon="117.745578"><ele>476</ele></trkpt>
    <trkpt lat="40.59627" lon="117.746207"><ele>476</ele></trkpt>
-   <trkpt lat="40.596013" lon="117.746263"><ele>473.25</ele></trkpt>
-   <trkpt lat="40.595497" lon="117.746393"><ele>474.5</ele></trkpt>
-   <trkpt lat="40.595429" lon="117.746405"><ele>475.25</ele></trkpt>
-   <trkpt lat="40.595099" lon="117.746458"><ele>478.75</ele></trkpt>
+   <trkpt lat="40.595304" lon="117.746369"><ele>478.25</ele></trkpt>
    <trkpt lat="40.594324" lon="117.746534"><ele>478.25</ele></trkpt>
    <trkpt lat="40.594139" lon="117.746564"><ele>477.5</ele></trkpt>
-   <trkpt lat="40.593401" lon="117.746656"><ele>481.5</ele></trkpt>
-   <trkpt lat="40.592109" lon="117.746782"><ele>485.75</ele></trkpt>
-   <trkpt lat="40.591888" lon="117.746816"><ele>483.5</ele></trkpt>
-   <trkpt lat="40.591423" lon="117.746921"><ele>478</ele></trkpt>
-   <trkpt lat="40.591001" lon="117.747"><ele>472.5</ele></trkpt>
-   <trkpt lat="40.590198" lon="117.747152"><ele>461</ele></trkpt>
+   <trkpt lat="40.591934" lon="117.746913"><ele>458.5</ele></trkpt>
    <trkpt lat="40.589681" lon="117.74727"><ele>458.5</ele></trkpt>
    <trkpt lat="40.589235" lon="117.747357"><ele>459.25</ele></trkpt>
    <trkpt lat="40.588933" lon="117.747428"><ele>460.5</ele></trkpt>
