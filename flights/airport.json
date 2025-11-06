@@ -247,6 +247,12 @@
       "lon": 76.019997
     },
     {
+      "name_zh": "[HKG] 香港",
+      "name_en": "[HKG] HongKong",
+      "lat": 22.308901,
+      "lon": 113.915001
+    },
+    {
       "name_zh": "[KIX] 大阪关西",
       "name_en": "[KIX] Osaka Kansai",
       "lat": 34.427299,
