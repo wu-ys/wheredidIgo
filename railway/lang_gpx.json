@@ -1,0 +1,714 @@
+{
+  "JR东海道线（米原-大阪）": {
+    "zh": "JR东海道线（米原-大阪）",
+    "en": "JR Tokaido Line"
+  },
+  "JR关西线（久宝寺-柘植）": {
+    "zh": "JR关西线（久宝寺-柘植）",
+    "en": "JR Kansai Line"
+  },
+  "JR北陆线（米原-敦贺）": {
+    "zh": "JR北陆线（米原-敦贺）",
+    "en": "JR Hokuriku Line"
+  },
+  "JR大阪环状线": {
+    "zh": "JR大阪环状线",
+    "en": "JR Osaka Loop Line"
+  },
+  "JR奈良线（京都-木津）": {
+    "zh": "JR奈良线（京都-木津）",
+    "en": "JR Nara Line"
+  },
+  "JR山阳线（三宫-姬路）": {
+    "zh": "JR山阳线（三宫-姬路）",
+    "en": "JR Sanyo Line"
+  },
+  "JR湖西线（山科-近江盐津）": {
+    "zh": "JR湖西线（山科-近江盐津）",
+    "en": "JR Kosei Line"
+  },
+  "JR纪势线（和歌山-和歌山市）": {
+    "zh": "JR纪势线（和歌山-和歌山市）",
+    "en": "JR Kisei Line"
+  },
+  "JR草津线（草津-柘植）": {
+    "zh": "JR草津线（草津-柘植）",
+    "en": "JR Kusatsu Line"
+  },
+  "JR阪和线（天王寺-和歌山）": {
+    "zh": "JR阪和线（天王寺-和歌山）",
+    "en": "JR Hanwa Line"
+  },
+  "上海南联络线（沪春一二线）": {
+    "zh": "上海南联络线（沪春一二线）",
+    "en": "Shanghai S. Link Line"
+  },
+  "上海南联络线（沪春三四线）": {
+    "zh": "上海南联络线（沪春三四线）",
+    "en": "Shanghai S. Link Line"
+  },
+  "上饶东南联络线": {
+    "zh": "上饶东南联络线",
+    "en": "Link Line"
+  },
+  "东新联络线（东门-新香坊）": {
+    "zh": "东新联络线（东门-新香坊）",
+    "en": "Link Line"
+  },
+  "东星线（北京东-北京朝阳）": {
+    "zh": "东星线（北京东-北京朝阳）",
+    "en": "Link Line"
+  },
+  "京九线（南昌-向塘-三江镇）": {
+    "zh": "京九线（南昌-向塘-三江镇）",
+    "en": "Beijing-Kowloon Railway"
+  },
+  "京九线（黄土坡线路所-乐化）": {
+    "zh": "京九线（黄土坡线路所-乐化）",
+    "en": "Beijing-Kowloon Railway"
+  },
+  "京包-包兰线（呼和浩特-银川）": {
+    "zh": "京包-包兰线（呼和浩特-银川）",
+    "en": "Beijing-Baotou-Lanzhou Railway"
+  },
+  "京包客运专线（北京北-呼和浩特）": {
+    "zh": "京包客运专线（北京北-呼和浩特）",
+    "en": "Beijing-Baotou Highspeed Railway"
+  },
+  "京包线（北京丰台-宣化）": {
+    "zh": "京包线（北京丰台-宣化）",
+    "en": "Beijing-Baotou Railway"
+  },
+  "京包线（黄土店-康庄）": {
+    "zh": "京包线（黄土店-康庄）",
+    "en": "Beijing-Baotou Railway"
+  },
+  "京包青龙桥上行线": {
+    "zh": "京包青龙桥上行线",
+    "en": "Beijing-Baotou Railway (Qinglongqiao Branch)"
+  },
+  "京原线（石景山南-燕山）": {
+    "zh": "京原线（石景山南-燕山）",
+    "en": "Beijing-Yuanping Railway"
+  },
+  "京哈线（北京-哈尔滨）": {
+    "zh": "京哈线（北京-哈尔滨）",
+    "en": "Beijing-Harbin Railway"
+  },
+  "京哈高速线（北京朝阳-姚家窝堡所）": {
+    "zh": "京哈高速线（北京朝阳-姚家窝堡所）",
+    "en": "Beijing-Harbin Highspeed Railway"
+  },
+  "京哈高速线（沈阳北-哈尔滨）": {
+    "zh": "京哈高速线（沈阳北-哈尔滨）",
+    "en": "Beijing-Harbin Highspeed Railway"
+  },
+  "京唐城际线（燕郊-北刘各庄所）": {
+    "zh": "京唐城际线（燕郊-北刘各庄所）",
+    "en": "Beijing-Tangshan Intercity Railway"
+  },
+  "京广线（武昌-武昌南）": {
+    "zh": "京广线（武昌-武昌南）",
+    "en": "Beijing-Guangzhou Railway"
+  },
+  "京广线（汉西-武昌）": {
+    "zh": "京广线（汉西-武昌）",
+    "en": "Beijing-Guangzhou Railway"
+  },
+  "京广线（长辛店-柳辛庄）": {
+    "zh": "京广线（长辛店-柳辛庄）",
+    "en": "Beijing-Guangzhou Railway"
+  },
+  "京广高速线（北京西-石家庄）": {
+    "zh": "京广高速线（北京西-石家庄）",
+    "en": "Beijing-Guangzhou Highspeed Railway"
+  },
+  "京广高速线（横店东-深圳北）": {
+    "zh": "京广高速线（横店东-深圳北）",
+    "en": "Beijing-Guangzhou Highspeed Railway"
+  },
+  "京承线（怀柔-顺义）": {
+    "zh": "京承线（怀柔-顺义）",
+    "en": "Beijing-Chengde Railway"
+  },
+  "京承线（赵家店所-承德）": {
+    "zh": "京承线（赵家店所-承德）",
+    "en": "Beijing-Chengde Railway"
+  },
+  "京沪线济南外绕段": {
+    "zh": "京沪线济南外绕段",
+    "en": "Beijing-Shanghai Railway"
+  },
+  "京沪线（北京-上海）": {
+    "zh": "京沪线（北京-上海）",
+    "en": "Beijing-Shanghai Railway"
+  },
+  "京沪高速线（北京南-上海虹桥）": {
+    "zh": "京沪高速线（北京南-上海虹桥）",
+    "en": "Beijing-Shanghai Highspeed Railway"
+  },
+  "京津城际线（北京南-天津）": {
+    "zh": "京津城际线（北京南-天津）",
+    "en": "Beijing-Tianjin Intercity "
+  },
+  "京通线（昌平-隆化）": {
+    "zh": "京通线（昌平-隆化）",
+    "en": "Beijing-Tongliao Railway"
+  },
+  "京阪本线（淀屋桥-三条）": {
+    "zh": "京阪本线（淀屋桥-三条）",
+    "en": "Keihan Railway"
+  },
+  "京雄城际线（北京西-雄安）": {
+    "zh": "京雄城际线（北京西-雄安）",
+    "en": "Beijing-Xiong'an Intercity Railway"
+  },
+  "伊加线（伊图里河-加格达奇）": {
+    "zh": "伊加线（伊图里河-加格达奇）",
+    "en": "Yitulihe-Jagdaqi Railway"
+  },
+  "兰新客运专线（兰州西-海东西）": {
+    "zh": "兰新客运专线（兰州西-海东西）",
+    "en": "Lanzhou-Xinjiang Passenger Railway"
+  },
+  "兰青线（兰州-西宁）": {
+    "zh": "兰青线（兰州-西宁）",
+    "en": "Lanzhou-Qinghai Railway"
+  },
+  "北京直径线（北京-北京西）": {
+    "zh": "北京直径线（北京-北京西）",
+    "en": "Beijing Cross City Railway"
+  },
+  "南凭高速线（南宁-崇左南）": {
+    "zh": "南凭高速线（南宁-崇左南）",
+    "en": "Nanning-Pingxiang Highspeed Railway"
+  },
+  "南广线（佛山西-广州南）": {
+    "zh": "南广线（佛山西-广州南）",
+    "en": "Nanning-Guangzhou Railway"
+  },
+  "南昌西环线": {
+    "zh": "南昌西环线",
+    "en": "Nanchang Loop Railway"
+  },
+  "南海加太线（纪之川-加太）": {
+    "zh": "南海加太线（纪之川-加太）",
+    "en": "Nankai Railway Kada Branch"
+  },
+  "南海本线（新今宫-和歌山市）": {
+    "zh": "南海本线（新今宫-和歌山市）",
+    "en": "Nankai Railway"
+  },
+  "南海机场线（泉佐野-关西机场）": {
+    "zh": "南海机场线（泉佐野-关西机场）",
+    "en": "Nankai Railway KIX Branch"
+  },
+  "南珠高速线（南宁东-玉林北）": {
+    "zh": "南珠高速线（南宁东-玉林北）",
+    "en": "Nanning-Zhuhai Highspeed Railway"
+  },
+  "合杭高速线（妙西镇所-桐庐东）": {
+    "zh": "合杭高速线（妙西镇所-桐庐东）",
+    "en": "Hefei-Hangzhou Highspeed Railway"
+  },
+  "合杭高速线（胡庄所-湖州）": {
+    "zh": "合杭高速线（胡庄所-湖州）",
+    "en": "Hefei-Hangzhou Highspeed Railway"
+  },
+  "合福高速线（上饶-福州）": {
+    "zh": "合福高速线（上饶-福州）",
+    "en": "Hefei-Fuzhou Highspeed Railway"
+  },
+  "合福高速线（合肥南-黄山北）": {
+    "zh": "合福高速线（合肥南-黄山北）",
+    "en": "Hefei-Fuzhou Highspeed Railway"
+  },
+  "向东联络线（向塘-梁家渡）": {
+    "zh": "向东联络线（向塘-梁家渡）",
+    "en": "Link Line"
+  },
+  "哈牡客运专线（哈尔滨-牡丹江）": {
+    "zh": "哈牡客运专线（哈尔滨-牡丹江）",
+    "en": "Harbin-Mudanjiang Passenger Railway"
+  },
+  "哈环线（东门-哈尔滨东）": {
+    "zh": "哈环线（东门-哈尔滨东）",
+    "en": "Harbin Loop Railway"
+  },
+  "哈长联络线": {
+    "zh": "哈长联络线",
+    "en": "Link Line "
+  },
+  "太中线（太原南-定边）": {
+    "zh": "太中线（太原南-定边）",
+    "en": "Taiyuan-Zhongwei Railway"
+  },
+  "太仓联络线（太仓-陆渡所）": {
+    "zh": "太仓联络线（太仓-陆渡所）",
+    "en": "Link Line"
+  },
+  "姚田联络线": {
+    "zh": "姚田联络线",
+    "en": "Link Line"
+  },
+  "宁启线（林场-海安）": {
+    "zh": "宁启线（林场-海安）",
+    "en": "Nanjing-Qidong Railway"
+  },
+  "宁杭高速线（湖州-杭州东）": {
+    "zh": "宁杭高速线（湖州-杭州东）",
+    "en": "Nanjing-Hangzhou Highspeed Railway"
+  },
+  "宁蓉线（仙林-汉口）": {
+    "zh": "宁蓉线（仙林-汉口）",
+    "en": "Nanjing-Chengdu Railway"
+  },
+  "宁蓉线（新墩-重庆北）": {
+    "zh": "宁蓉线（新墩-重庆北）",
+    "en": "Nanjing-Chengdu Railway"
+  },
+  "定银线（定边-银川）": {
+    "zh": "定银线（定边-银川）",
+    "en": "Dingbian-Yinchuan Railway"
+  },
+  "宣绩高速线（宣城-绩溪北）": {
+    "zh": "宣绩高速线（宣城-绩溪北）",
+    "en": "Xuancheng-Jixi Highspeed Railway"
+  },
+  "富西线（富裕-漠河）": {
+    "zh": "富西线（富裕-漠河）",
+    "en": "Fuyu-Xilinji(Mohe) Railway"
+  },
+  "峨广线（峨眉-广通北）": {
+    "zh": "峨广线（峨眉-广通北）",
+    "en": "Emei-Guangtong Railway"
+  },
+  "川青线（黄龙九寨-三星堆）": {
+    "zh": "川青线（黄龙九寨-三星堆）",
+    "en": "Chengdu-Xining Railway"
+  },
+  "巢湖东南联络线": {
+    "zh": "巢湖东南联络线",
+    "en": "Link Line"
+  },
+  "平齐线（四平-齐齐哈尔）": {
+    "zh": "平齐线（四平-齐齐哈尔）",
+    "en": "Siping-Qiqihar Railway"
+  },
+  "广州东环城际线（花都-白云机场北）": {
+    "zh": "广州东环城际线（花都-白云机场北）",
+    "en": "Guangzhou-Foshan Loop Intercity Railway"
+  },
+  "广惠城际线（番禺-西平西）": {
+    "zh": "广惠城际线（番禺-西平西）",
+    "en": "Guangzhou-Huizhou Intercity Railway"
+  },
+  "广深城际线（广州东-深圳）": {
+    "zh": "广深城际线（广州东-深圳）",
+    "en": "Guangzhou-Shenzhen Intercity Railway"
+  },
+  "广深港高速线（福田-香港西九龙）": {
+    "zh": "广深港高速线（福田-香港西九龙）",
+    "en": "Guangzhou-Shenzhen-HK Highspeed Railway"
+  },
+  "广清城际线（广州北-清城）": {
+    "zh": "广清城际线（广州北-清城）",
+    "en": "Guangzhou-Qingyuan Intercity Railway"
+  },
+  "广肇城际线（番禺-佛山西）": {
+    "zh": "广肇城际线（番禺-佛山西）",
+    "en": "Guangzhou-Zhaoqing Intercity Railway"
+  },
+  "康山联络线": {
+    "zh": "康山联络线",
+    "en": "Link Line"
+  },
+  "康延线": {
+    "zh": "康延线",
+    "en": "Kangzhuang-Yanqing Railway"
+  },
+  "延庆线（八达岭西所-延庆）": {
+    "zh": "延庆线（八达岭西所-延庆）",
+    "en": "Yanqing Branch Railway"
+  },
+  "张唐线（李家营-唐山）": {
+    "zh": "张唐线（李家营-唐山）",
+    "en": "Zhangjiakou-Tangshan Railway"
+  },
+  "徐兰高速线（天水南-兰州西）": {
+    "zh": "徐兰高速线（天水南-兰州西）",
+    "en": "Xuzhou-Lanzhou Highspeed Railway"
+  },
+  "徐兰高速线（徐州东所-郑州东）": {
+    "zh": "徐兰高速线（徐州东所-郑州东）",
+    "en": "Xuzhou-Lanzhou Highspeed Railway"
+  },
+  "徐盐高速线（徐州东-盐城）": {
+    "zh": "徐盐高速线（徐州东-盐城）",
+    "en": "Xuzhou-Yancheng Highspeed Railway"
+  },
+  "德州东联络线": {
+    "zh": "德州东联络线",
+    "en": "Link Line"
+  },
+  "怀范联络线（怀柔-雁栖湖）": {
+    "zh": "怀范联络线（怀柔-雁栖湖）",
+    "en": "Huairou-Yanqihu Railway"
+  },
+  "成昆线（成都南-燕岗）": {
+    "zh": "成昆线（成都南-燕岗）",
+    "en": "Chengdu-Kunming Railway"
+  },
+  "成渝高速线（资阳北-沙坪坝）": {
+    "zh": "成渝高速线（资阳北-沙坪坝）",
+    "en": "Chengdu-Chongqing Highspeed Railway"
+  },
+  "成贵客运专线（成都东-双流机场）": {
+    "zh": "成贵客运专线（成都东-双流机场）",
+    "en": "Chengdu-Guiyang Passenger Railway"
+  },
+  "成贵客运专线（白云北-尖坡所）": {
+    "zh": "成贵客运专线（白云北-尖坡所）",
+    "en": "Chengdu-Guiyang Passenger Railway"
+  },
+  "成贵贵阳北联络线（尖坡所-贵阳北）": {
+    "zh": "成贵贵阳北联络线（尖坡所-贵阳北）",
+    "en": "Link Line"
+  },
+  "承隆线（隆化-承德）": {
+    "zh": "承隆线（隆化-承德）",
+    "en": "Chengde-Longhua Railway"
+  },
+  "拉日线（拉萨-日喀则）": {
+    "zh": "拉日线（拉萨-日喀则）",
+    "en": "Lhasa-Shigatse Railway"
+  },
+  "敦白联络线": {
+    "zh": "敦白联络线",
+    "en": "Link Line"
+  },
+  "新成灌线（犀浦-都江堰）": {
+    "zh": "新成灌线（犀浦-都江堰）",
+    "en": "New Chengdu-Dujiangyan Railway"
+  },
+  "新通客运专线（田家窝铺所-通辽）": {
+    "zh": "新通客运专线（田家窝铺所-通辽）",
+    "en": "Xinmin-Tongliao Passenger Railway"
+  },
+  "新长线（盐城-海安）": {
+    "zh": "新长线（盐城-海安）",
+    "en": "Xinyi-Changxing Railway"
+  },
+  "昆明南联络线": {
+    "zh": "昆明南联络线",
+    "en": "Link Line"
+  },
+  "昌福线（三江镇-福州）": {
+    "zh": "昌福线（三江镇-福州）",
+    "en": "Nanchang-Fuzhou Railway"
+  },
+  "李家营联络线（李家营-赵家店所）": {
+    "zh": "李家营联络线（李家营-赵家店所）",
+    "en": "Link Line"
+  },
+  "李莘联络线（李家湾-莘庄）": {
+    "zh": "李莘联络线（李家湾-莘庄）",
+    "en": "Link Line"
+  },
+  "杭昌高速线（桐庐-黄山北）": {
+    "zh": "杭昌高速线（桐庐-黄山北）",
+    "en": "Hangzhou-Nanchang Highspeed Railway"
+  },
+  "杭深线（杭州南-深圳北）": {
+    "zh": "杭深线（杭州南-深圳北）",
+    "en": "Hangzhou-Shenzhen Railway"
+  },
+  "杭温高速线（桐庐东-义乌）": {
+    "zh": "杭温高速线（桐庐东-义乌）",
+    "en": "Hangzhou-Wenzhou Highspeed Railway"
+  },
+  "杭温高速线（横店-温州北）": {
+    "zh": "杭温高速线（横店-温州北）",
+    "en": "Hangzhou-Wenzhou Highspeed Railway"
+  },
+  "桐庐联络线": {
+    "zh": "桐庐联络线",
+    "en": "Link Line"
+  },
+  "榆红线（榆树屯-红旗营）": {
+    "zh": "榆红线（榆树屯-红旗营）",
+    "en": "Link Line"
+  },
+  "武九线（九里垄-九江西）": {
+    "zh": "武九线（九里垄-九江西）",
+    "en": "Wuhan-Jiujiang Railway"
+  },
+  "武九线（何刘-九里垄）": {
+    "zh": "武九线（何刘-九里垄）",
+    "en": "Wuhan-Jiujiang Railway"
+  },
+  "武昌南环线": {
+    "zh": "武昌南环线",
+    "en": "Wuchang Loop Railway"
+  },
+  "永嘉联络线": {
+    "zh": "永嘉联络线",
+    "en": "Link Line"
+  },
+  "汉西联络线": {
+    "zh": "汉西联络线",
+    "en": "Line Line"
+  },
+  "池黄高速线（池州-黄山北）": {
+    "zh": "池黄高速线（池州-黄山北）",
+    "en": "Chizhou-Huangshan Highspeed Railway"
+  },
+  "沈佳高速线（敦化南-长白山）": {
+    "zh": "沈佳高速线（敦化南-长白山）",
+    "en": "Shenyang-Jiamusi Highspeed Railway"
+  },
+  "沈大线（大连北-大连）": {
+    "zh": "沈大线（大连北-大连）",
+    "en": "Shenyang-Dalian Railway"
+  },
+  "沈大高速线（沈阳北-大连北）": {
+    "zh": "沈大高速线（沈阳北-大连北）",
+    "en": "Shenyang-Dalian Highspeed Railway"
+  },
+  "沪宁城际线（上海-南京）": {
+    "zh": "沪宁城际线（上海-南京）",
+    "en": "Shanghai-Nanjing Intercity Railway"
+  },
+  "沪宁沿江高速线（武进-太仓）": {
+    "zh": "沪宁沿江高速线（武进-太仓）",
+    "en": "Shanghai-Nanjing Riverside Highspeed Railway"
+  },
+  "沪昆线（封浜-龙里）": {
+    "zh": "沪昆线（封浜-龙里）",
+    "en": "Shanghai-Kunming Railway"
+  },
+  "沪昆高速线（上海虹桥-新余北）": {
+    "zh": "沪昆高速线（上海虹桥-新余北）",
+    "en": "Shanghai-Kunming Highspeed Railway"
+  },
+  "沪昆高速线（贵阳北-昆明南）": {
+    "zh": "沪昆高速线（贵阳北-昆明南）",
+    "en": "Shanghai-Kunming Highspeed Railway"
+  },
+  "沪昆高速线（长沙南-湘潭北）": {
+    "zh": "沪昆高速线（长沙南-湘潭北）",
+    "en": "Shanghai-Kunming Highspeed Railway"
+  },
+  "沪苏湖高速线（上海虹桥-湖州）": {
+    "zh": "沪苏湖高速线（上海虹桥-湖州）",
+    "en": "Shanghai-Suzhou-Huzhou Highspeed Railway"
+  },
+  "沪苏通线（南通西-黄渡-上海虹桥）": {
+    "zh": "沪苏通线（南通西-黄渡-上海虹桥）",
+    "en": "Shanghai-Suzhou-Nantong Railway"
+  },
+  "津兴城际（盛芳-固安东）": {
+    "zh": "津兴城际（盛芳-固安东）",
+    "en": "Tianjin-PKX Intercity Railway"
+  },
+  "津秦高速线（天津西-秦皇岛）": {
+    "zh": "津秦高速线（天津西-秦皇岛）",
+    "en": "Tianjin-Qinhuangdao Highspeed Railway"
+  },
+  "津秦高速线（秦皇岛-龙家营）": {
+    "zh": "津秦高速线（秦皇岛-龙家营）",
+    "en": "Tianjin-Qinhuangdao Highspeed Railway"
+  },
+  "津蓟线": {
+    "zh": "津蓟线",
+    "en": "Tianjin-Jizhou Railway"
+  },
+  "津霸线（天津西-霸州西）": {
+    "zh": "津霸线（天津西-霸州西）",
+    "en": "Tianjin-Bazhou Railway"
+  },
+  "济青高速线（济南东-青岛北）": {
+    "zh": "济青高速线（济南东-青岛北）",
+    "en": "Jinan-Qingdao Highspeed Railway"
+  },
+  "渝贵线（贵阳-贵阳北）": {
+    "zh": "渝贵线（贵阳-贵阳北）",
+    "en": "Chongqing-Guiyang Railway"
+  },
+  "湘桂线（柳州-黎塘）": {
+    "zh": "湘桂线（柳州-黎塘）",
+    "en": "Hunan-Guangxi Railway"
+  },
+  "滇藏线（丽江-香格里拉）": {
+    "zh": "滇藏线（丽江-香格里拉）",
+    "en": "Yunnan-Xizang Railway"
+  },
+  "滨北线（哈尔滨东-呼兰）": {
+    "zh": "滨北线（哈尔滨东-呼兰）",
+    "en": "Harbin-Bei'an Railway"
+  },
+  "滨洲线（哈尔滨-海拉尔）": {
+    "zh": "滨洲线（哈尔滨-海拉尔）",
+    "en": "Harbin-Manzhouli Railway"
+  },
+  "滨绥线（新香坊-牡丹江）": {
+    "zh": "滨绥线（新香坊-牡丹江）",
+    "en": "Harbin-Suifenhe Railway"
+  },
+  "滨绥线（牡丹江-绥芬河）": {
+    "zh": "滨绥线（牡丹江-绥芬河）",
+    "en": "Harbin-Suifenhe Railway"
+  },
+  "牙林线（牙克石-伊图里河）": {
+    "zh": "牙林线（牙克石-伊图里河）",
+    "en": "Yakeshi-Mangui Railway"
+  },
+  "甬广高速线（福州南-厦门北）": {
+    "zh": "甬广高速线（福州南-厦门北）",
+    "en": "Ningbo-Guangzhou Highspeed Railway"
+  },
+  "盐通高速线（盐城-南通西）": {
+    "zh": "盐通高速线（盐城-南通西）",
+    "en": "Yancheng-Nantong Highspeed Railway"
+  },
+  "石太客运专线（石家庄北-太原南）": {
+    "zh": "石太客运专线（石家庄北-太原南）",
+    "en": "Shijiazhuang-Taiyuan Passenger Railway"
+  },
+  "石家庄西北环线（柳辛庄-石家庄北）": {
+    "zh": "石家庄西北环线（柳辛庄-石家庄北）",
+    "en": "Link Line"
+  },
+  "石济客运专线（陵县所-济南东）": {
+    "zh": "石济客运专线（陵县所-济南东）",
+    "en": "Shijiazhuang-Jinan Passenger Railway"
+  },
+  "秦双联络线（秦祺村所-双龙南）": {
+    "zh": "秦双联络线（秦祺村所-双龙南）",
+    "en": "Link Line"
+  },
+  "笕杭线": {
+    "zh": "笕杭线",
+    "en": "Link Line"
+  },
+  "笕桥线": {
+    "zh": "笕桥线",
+    "en": "Link Line"
+  },
+  "胶济客运专线（济南-青岛北）": {
+    "zh": "胶济客运专线（济南-青岛北）",
+    "en": "Qingdao-Jinan Passenger Railway"
+  },
+  "花广联络线（广州白云-广州北）": {
+    "zh": "花广联络线（广州白云-广州北）",
+    "en": "Link Line"
+  },
+  "萧甬线（杭州南-绍兴）": {
+    "zh": "萧甬线（杭州南-绍兴）",
+    "en": "Xiaoshan-Ningbo Railway"
+  },
+  "虹安联络线（上海虹桥-安亭北所）": {
+    "zh": "虹安联络线（上海虹桥-安亭北所）",
+    "en": "Link Line"
+  },
+  "衢九线（衢州-九江）": {
+    "zh": "衢九线（衢州-九江）",
+    "en": "Quzhou-Jiujiang Railway"
+  },
+  "西成高速线（广汉北-成都东）": {
+    "zh": "西成高速线（广汉北-成都东）",
+    "en": "Xi'an-Chengdu Highspeed Railway"
+  },
+  "西长线（北京西-长辛店）": {
+    "zh": "西长线（北京西-长辛店）",
+    "en": "Beijing W. Link Line"
+  },
+  "贵南高速线（河池西-南宁东）": {
+    "zh": "贵南高速线（河池西-南宁东）",
+    "en": "Guiyang-Nanning Highspeed Railway"
+  },
+  "贵阳环线（白云北-双龙南）": {
+    "zh": "贵阳环线（白云北-双龙南）",
+    "en": "Guiyang Loop Railway"
+  },
+  "辛泰线（南博山-泰山）": {
+    "zh": "辛泰线（南博山-泰山）",
+    "en": "Linzi-Taishan Railway"
+  },
+  "近铁奈良线（奈良-近铁日本桥）": {
+    "zh": "近铁奈良线（奈良-近铁日本桥）",
+    "en": "Kintetsu Nara Line"
+  },
+  "连镇高速线（连云港-丹徒）": {
+    "zh": "连镇高速线（连云港-丹徒）",
+    "en": "Lianyungang-Zhenjiang Highspeed Railway"
+  },
+  "通燕联络线（高辛庄所-北刘各庄所）": {
+    "zh": "通燕联络线（高辛庄所-北刘各庄所）",
+    "en": "Link Line"
+  },
+  "郑开城际线（郑州东-开封）": {
+    "zh": "郑开城际线（郑州东-开封）",
+    "en": "Zhengzhou-Kaifeng Intercity Railway"
+  },
+  "镇江联络线": {
+    "zh": "镇江联络线",
+    "en": "Link Line"
+  },
+  "长株潭城际线（谷山-湘潭）": {
+    "zh": "长株潭城际线（谷山-湘潭）",
+    "en": "Changsha-Zhuzhou-Xiangtan Intercity Railway"
+  },
+  "长珲城际线（杨家粉坊所-敦化）": {
+    "zh": "长珲城际线（杨家粉坊所-敦化）",
+    "en": "Changchun-Hunchun Intercity Railway"
+  },
+  "阪急宝塚线（大阪梅田-庄内）": {
+    "zh": "阪急宝塚线（大阪梅田-庄内）",
+    "en": "Hankyu Takarazuka Line"
+  },
+  "阪神本线（阪神三宫-阪神尼崎）": {
+    "zh": "阪神本线（阪神三宫-阪神尼崎）",
+    "en": "Hanshin Railway"
+  },
+  "阪神难波线（阪神尼崎-西九条）": {
+    "zh": "阪神难波线（阪神尼崎-西九条）",
+    "en": "Hanshin Railway Namba Line"
+  },
+  "陇海线（徐州-兰州）": {
+    "zh": "陇海线（徐州-兰州）",
+    "en": "Lanzhou-Lianyungang Railway"
+  },
+  "霸徐线（白洋淀-霸州西）": {
+    "zh": "霸徐线（白洋淀-霸州西）",
+    "en": "Bazhou-Xushui Railway"
+  },
+  "青三联络线（青白江东-三星堆）": {
+    "zh": "青三联络线（青白江东-三星堆）",
+    "en": "Link Line"
+  },
+  "青盐线（连云港-董集）": {
+    "zh": "青盐线（连云港-董集）",
+    "en": "Qingdao-Yancheng Railway"
+  },
+  "青藏线（西宁-拉萨）": {
+    "zh": "青藏线（西宁-拉萨）",
+    "en": "Qinghai-Xizang Railway"
+  },
+  "鹰厦线（前场-厦门）": {
+    "zh": "鹰厦线（前场-厦门）",
+    "en": "Yingtan-Xiamen Railway"
+  },
+  "黎湛线（黎塘-玉林）": {
+    "zh": "黎湛线（黎塘-玉林）",
+    "en": "Litang-Zhanjiang Railway"
+  },
+  "黔桂线（金城江-柳州）": {
+    "zh": "黔桂线（金城江-柳州）",
+    "en": "Guizhou-Guangxi Railway"
+  },
+  "齐北线（齐齐哈尔-富裕）": {
+    "zh": "齐北线（齐齐哈尔-富裕）",
+    "en": "Qiqihar-Fuyu Railway"
+  }
+}
