@@ -206,7 +206,7 @@
             displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
           } else {
             // === flights 使用原文件名 ===
-            const match = filename.match(/_(\w+)_([0-9]{8})\.gpx$/);
+            const match = filename.match(/_(\w+)_([0-9]{8})$/);
 
             if (match) {
               displayName = `${match[2]}-${match[1]}`;
@@ -252,6 +252,7 @@
         });
       }
     })
+    .then(() => overlays["flights"].setZIndex(1000))
   .catch(err => console.error("加载 airport.json 出错:", err));
 
   fetch("./railway/station.json")
@@ -273,10 +274,8 @@
         });
       }
     })
+    .then(() => overlays["railway"].setZIndex(500))
   .catch(err => console.error("加载 station.json 出错:", err));
-
-  overlays["flights"].setZIndex(1000);
-  overlays["railway"].setZIndex(500);
 
   L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
