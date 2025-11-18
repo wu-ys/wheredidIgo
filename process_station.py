@@ -20,6 +20,7 @@ with open('railway/station.csv', 'r', encoding='utf-8') as f:
         name_en = row.get("name_en", "").strip()
         lat_str = row.get('lat', '').strip()
         lon_str = row.get('lon', '').strip()
+        country = row.get('country', '').strip()
 
         lat = float(lat_str) if lat_str else None
         lon = float(lon_str) if lon_str else None
@@ -27,14 +28,14 @@ with open('railway/station.csv', 'r', encoding='utf-8') as f:
         # 如果CSV中已有坐标
         if lat is not None and lon is not None:
             lon, lat = gcj02towgs84(lon, lat)
-            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon})
+            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country})
             continue
 
         # 如果JSON中存在该车站
         if name in coord_dict:
             lat, lon = coord_dict[name]
             lon, lat = gcj02towgs84(lon, lat)
-            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon})
+            records.append({"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country})
         else:
             missing_names.append(name)
 
