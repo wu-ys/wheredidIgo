@@ -32,6 +32,7 @@ jobs:
     - name: Run update script
       run: |
         python process_airport.py
+        python process_flights.py
         python process_railway.py
         python process_station.py
         python print_gpx_list.py
