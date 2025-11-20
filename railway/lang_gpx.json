@@ -710,5 +710,25 @@
   "齐北线（齐齐哈尔-富裕）": {
     "zh": "齐北线（齐齐哈尔-富裕）",
     "en": "Qiqihar-Fuyu Railway"
+  },
+  "张吉怀高速线": {
+    "zh": "张吉怀高速线",
+    "en": "Zhangjiajie-Jishou-Huaihua Highspeed Railway"
+  },
+  "张家界西联络线": {
+    "zh": "张家界西联络线",
+    "en": "Link Line"
+  },
+  "沪昆高速线（宜春-怀化南）": {
+    "zh": "沪昆高速线（宜春-怀化南）",
+    "en": "Shanghai-Kunming Highspeed Railway"
+  },
+  "渝厦高速线": {
+    "zh": "渝厦高速线",
+    "en": "Chongqing-Xiamen Highspeed Railway"
+  },
+  "龙怀联络线": {
+    "zh": "龙怀联络线",
+    "en": "Link Line"
   }
 }

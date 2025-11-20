@@ -67,6 +67,46 @@ def remove_parentheses_from_filenames(folder_path):
                 except Exception as e:
                     print(f"重命名 {old_filename} 时出错: {e}")
 
+def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
+    """
+    导出铁路GPX文件名到CSV文件
+    """
+    import csv
+    existing_names = set()
+    records = {}
+    
+    if os.path.exists(csv_file_path):
+        with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                name = row.get('name')
+                name_en = row.get('name_en', "")
+                existing_names.add(name)
+                records[name] = {"zh": name, "en": name_en}
+    
+    new_names = []
+    
+    for root, dirs, files in os.walk(folder_path):
+        for f in files:
+            if f.lower().endswith('.gpx'):
+                filename_without_ext = os.path.splitext(f)[0]
+                if filename_without_ext not in existing_names:
+                    new_names.append([filename_without_ext])
+                    existing_names.add(filename_without_ext)
+                    records[filename_without_ext] = {"zh": filename_without_ext, "en": ""}
+    
+    if new_names:
+        with open(csv_file_path, 'a', newline='', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerows(new_names)
+    
+    print("导出完成！")
+    
+    import json
+    with open(json_file_path, 'w', encoding='utf-8') as f:
+        json.dump(records, f, ensure_ascii=False, indent=2)
+
 # 使用方法
 folder_path = "./railway"
 batch_process_files(folder_path)
+export_railway_gpx_to_csv(folder_path, csv_file_path='./railway/lang_gpx.csv', json_file_path='./railway/lang_gpx.json')

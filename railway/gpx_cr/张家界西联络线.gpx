@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3148 filtered ascend = 15 plain-ascend = -48 cost=3148 energy=0.0kwh time=4m 12s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>张家界西联络线 (3.1km)</name>
+  <trkseg>
+   <trkpt lat="29.19491" lon="110.4409"><ele>254</ele></trkpt>
+   <trkpt lat="29.195044" lon="110.440823"><ele>255.5</ele></trkpt>
+   <trkpt lat="29.194653" lon="110.441114"><ele>256.5</ele></trkpt>
+   <trkpt lat="29.193969" lon="110.441566"><ele>258.25</ele></trkpt>
+   <trkpt lat="29.193727" lon="110.441752"><ele>259</ele></trkpt>
+   <trkpt lat="29.19306" lon="110.442289"><ele>261</ele></trkpt>
+   <trkpt lat="29.192497" lon="110.442797"><ele>261</ele></trkpt>
+   <trkpt lat="29.191565" lon="110.443735"><ele>261.75</ele></trkpt>
+   <trkpt lat="29.191432" lon="110.443878"><ele>262.25</ele></trkpt>
+   <trkpt lat="29.191187" lon="110.444112"><ele>263.5</ele></trkpt>
+   <trkpt lat="29.190698" lon="110.444488"><ele>265.75</ele></trkpt>
+   <trkpt lat="29.19019" lon="110.444726"><ele>267.75</ele></trkpt>
+   <trkpt lat="29.190036" lon="110.444783"><ele>268.5</ele></trkpt>
+   <trkpt lat="29.1895" lon="110.444959"><ele>266</ele></trkpt>
+   <trkpt lat="29.185316" lon="110.446533"><ele>247</ele></trkpt>
+   <trkpt lat="29.18437" lon="110.446962"><ele>242.5</ele></trkpt>
+   <trkpt lat="29.183467" lon="110.447511"><ele>238.25</ele></trkpt>
+   <trkpt lat="29.182459" lon="110.448269"><ele>238.25</ele></trkpt>
+   <trkpt lat="29.18195" lon="110.448628"><ele>227.25</ele></trkpt>
+   <trkpt lat="29.179725" lon="110.45027"><ele>225.75</ele></trkpt>
+   <trkpt lat="29.178126" lon="110.451353"><ele>224.75</ele></trkpt>
+   <trkpt lat="29.176586" lon="110.452295"><ele>224</ele></trkpt>
+   <trkpt lat="29.175675" lon="110.452915"><ele>224</ele></trkpt>
+   <trkpt lat="29.175276" lon="110.453205"><ele>229.25</ele></trkpt>
+   <trkpt lat="29.174361" lon="110.453916"><ele>235</ele></trkpt>
+   <trkpt lat="29.17289" lon="110.455027"><ele>231.5</ele></trkpt>
+   <trkpt lat="29.171538" lon="110.456074"><ele>228.75</ele></trkpt>
+   <trkpt lat="29.170706" lon="110.456709"><ele>205.5</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
