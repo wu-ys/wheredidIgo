@@ -139,6 +139,12 @@
       "lon": 116.9769
     },
     {
+      "name_zh": "[CSX] 长沙黄花",
+      "name_en": "[CSX] Changsha",
+      "lat": 28.189199,
+      "lon": 113.220001
+    },
+    {
       "name_zh": "[CAN] 广州白云",
       "name_en": "[CAN] Guangzhou",
       "lat": 23.392401,
