@@ -145,6 +145,12 @@
       "lon": 113.220001
     },
     {
+      "name_zh": "[HNY] 衡阳南岳",
+      "name_en": "[HNY] Hengyang",
+      "lat": 26.72208,
+      "lon": 112.617958
+    },
+    {
       "name_zh": "[CAN] 广州白云",
       "name_en": "[CAN] Guangzhou",
       "lat": 23.392401,
@@ -161,6 +167,18 @@
       "name_en": "[NNG] Nanning",
       "lat": 22.608544,
       "lon": 108.175335
+    },
+    {
+      "name_zh": "[HAK] 海口美兰",
+      "name_en": "[HAK] Haikou",
+      "lat": 19.9349,
+      "lon": 110.459
+    },
+    {
+      "name_zh": "[SYX] 三亚凤凰",
+      "name_en": "[SYX] Sanya",
+      "lat": 18.3029,
+      "lon": 109.412003
     },
     {
       "name_zh": "[XIY] 西安咸阳",
