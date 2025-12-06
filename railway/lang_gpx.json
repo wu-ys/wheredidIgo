@@ -730,5 +730,25 @@
   "龙怀联络线": {
     "zh": "龙怀联络线",
     "en": "Link Line"
+  },
+  "宁杭高速线（南京南-杭州东）": {
+    "zh": "宁杭高速线（南京南-杭州东）",
+    "en": "Nanjing-Hangzhou Highspeed Railway"
+  },
+  "海南东环高速线（城西-三亚）": {
+    "zh": "海南东环高速线（城西-三亚）",
+    "en": "Hainan East Ring Highspeed Railway"
+  },
+  "海南西环线": {
+    "zh": "海南西环线",
+    "en": "Hainan West Ring Railway"
+  },
+  "海南西环高速线（崖州-三亚）": {
+    "zh": "海南西环高速线（崖州-三亚）",
+    "en": "Hainan West Ring Highspeed Railway"
+  },
+  "金温线（塘雅线路所-温州南）": {
+    "zh": "金温线（塘雅线路所-温州南）",
+    "en": "Jinhua-Wenzhou Railway"
   }
 }
