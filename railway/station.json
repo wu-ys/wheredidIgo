@@ -1009,6 +1009,48 @@
       "country": "cn"
     },
     {
+      "name_zh": "美兰",
+      "name_en": "Meilan Airport",
+      "lat": 19.943527637610387,
+      "lon": 110.45695515346851,
+      "country": "cn"
+    },
+    {
+      "name_zh": "城西",
+      "name_en": "Chengxi",
+      "lat": 36.62835361527748,
+      "lon": 101.763966823547,
+      "country": "cn"
+    },
+    {
+      "name_zh": "海口东",
+      "name_en": "Haikou E.",
+      "lat": 19.985488301760192,
+      "lon": 110.33883415101543,
+      "country": "cn"
+    },
+    {
+      "name_zh": "三亚",
+      "name_en": "Sanya",
+      "lat": 18.29778620951653,
+      "lon": 109.48897954773243,
+      "country": "cn"
+    },
+    {
+      "name_zh": "崖州",
+      "name_en": "Yazhou",
+      "lat": 18.37769039432866,
+      "lon": 109.15349553343627,
+      "country": "cn"
+    },
+    {
+      "name_zh": "凤凰机场",
+      "name_en": "Fenghuang Airport",
+      "lat": 27.960984604682373,
+      "lon": 109.57632734269869,
+      "country": "cn"
+    },
+    {
       "name_zh": "南昌",
       "name_en": "Nanchang",
       "lat": 28.665071424142624,
@@ -1053,8 +1095,8 @@
     {
       "name_zh": "开福寺",
       "name_en": "Kaifusi",
-      "lat": 28.227771142766017,
-      "lon": 112.97274804584079,
+      "lat": 28.22673864008329,
+      "lon": 112.9746653303339,
       "country": "cn"
     },
     {
