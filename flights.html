@@ -136,14 +136,8 @@
   }).addTo(map);
 
   const groups = {
-    flights: { color: "blue", files: {flights}
+    flights: { color: "blue", files: ['./flights/gpx/Variflight_8L9518_20250908.gpx', './flights/gpx/Variflight_9C6363_20250301.gpx', './flights/gpx/Variflight_9C6998_20250304.gpx', './flights/gpx/Variflight_9C8909_20241109.gpx', './flights/gpx/Variflight_9H8403_20250909.gpx', './flights/gpx/Variflight_CA1550_20240611.gpx', './flights/gpx/Variflight_CA1829_20240611.gpx', './flights/gpx/Variflight_CA952_20250216.gpx', './flights/gpx/Variflight_CZ2308_20250528.gpx', './flights/gpx/Variflight_CZ3533_20250427.gpx', './flights/gpx/Variflight_CZ6252_20250606.gpx', './flights/gpx/Variflight_CZ6257_20250609.gpx', './flights/gpx/Variflight_CZ6521_20250220.gpx', './flights/gpx/Variflight_CZ6525_20241007.gpx', './flights/gpx/Variflight_CZ6526_20241001.gpx', './flights/gpx/Variflight_CZ6526_20250219.gpx', './flights/gpx/Variflight_CZ6536_20250214.gpx', './flights/gpx/Variflight_CZ6697_20250420.gpx', './flights/gpx/Variflight_CZ6909_20250603.gpx', './flights/gpx/Variflight_CZ7054_20250815.gpx', './flights/gpx/Variflight_CZ8264_20250418.gpx', './flights/gpx/Variflight_CZ8839_20241021.gpx', './flights/gpx/Variflight_CZ8879_20241104.gpx', './flights/gpx/Variflight_CZ8879_20241202.gpx', './flights/gpx/Variflight_CZ8880_20241129.gpx', './flights/gpx/Variflight_CZ8886_20250411.gpx', './flights/gpx/Variflight_CZ8886_20250515.gpx', './flights/gpx/Variflight_CZ8888_20241220.gpx', './flights/gpx/Variflight_CZ8889_20241222.gpx', './flights/gpx/Variflight_CZ888R_20241102.gpx', './flights/gpx/Variflight_CZ8899_20250604.gpx', './flights/gpx/Variflight_FM823_20250529.gpx', './flights/gpx/Variflight_FM9224_20251018.gpx', './flights/gpx/Variflight_FM9426_20251204.gpx', './flights/gpx/Variflight_FM9525_20251205.gpx', './flights/gpx/Variflight_G54818_20250820.gpx', './flights/gpx/Variflight_GS6697_20250915.gpx', './flights/gpx/Variflight_GS7827_20251130.gpx', './flights/gpx/Variflight_GS7974_20250912.gpx', './flights/gpx/Variflight_GS7983_20250910.gpx', './flights/gpx/Variflight_GX8960_20251026.gpx', './flights/gpx/Variflight_HO2348_20240719.gpx', './flights/gpx/Variflight_HU7136_20251114.gpx', './flights/gpx/Variflight_HU7145_20251013.gpx', './flights/gpx/Variflight_HU7246_20251011.gpx', './flights/gpx/Variflight_HU7609_20251117.gpx', './flights/gpx/Variflight_HU7610_20251107.gpx', './flights/gpx/Variflight_HU7678_20251126.gpx', './flights/gpx/Variflight_HU7705_20240606.gpx', './flights/gpx/Variflight_JD5314_20251028.gpx', './flights/gpx/Variflight_JD5550_20240712.gpx', './flights/gpx/Variflight_JD5908_20251110.gpx', './flights/gpx/Variflight_KN2905_20250217.gpx', './flights/gpx/Variflight_MU2039_20250808.gpx', './flights/gpx/Variflight_MU2074_20250530.gpx', './flights/gpx/Variflight_MU2191_20250502.gpx', './flights/gpx/Variflight_MU2192_20250502.gpx', './flights/gpx/Variflight_MU2216_20250316.gpx', './flights/gpx/Variflight_MU2233_20250315.gpx', './flights/gpx/Variflight_MU2239_20250317.gpx', './flights/gpx/Variflight_MU2350_20250909.gpx', './flights/gpx/Variflight_MU5052_20250808.gpx', './flights/gpx/Variflight_MU5152_20250414.gpx', './flights/gpx/Variflight_MU5296_20250106.gpx', './flights/gpx/Variflight_MU5308_20250916.gpx', './flights/gpx/Variflight_MU5319_20250426.gpx', './flights/gpx/Variflight_MU5417_20250102.gpx', './flights/gpx/Variflight_MU5428_20250529.gpx', './flights/gpx/Variflight_MU5523_20250806.gpx', './flights/gpx/Variflight_MU6128_20250713.gpx', './flights/gpx/Variflight_MU6135_20250502.gpx', './flights/gpx/Variflight_MU6337_20250808.gpx', './flights/gpx/Variflight_MU6357_20250710.gpx', './flights/gpx/Variflight_MU6513_20250909.gpx', './flights/gpx/Variflight_MU6514_20250909.gpx', './flights/gpx/Variflight_MU6582_20250714.gpx', './flights/gpx/Variflight_MU6873_20250824.gpx', './flights/gpx/Variflight_MU6939_20250918.gpx', './flights/gpx/Variflight_MU720_20250314.gpx', './flights/gpx/Variflight_MU8342_20250518.gpx', './flights/gpx/Variflight_MU9205_20241228.gpx', './flights/gpx/Variflight_MU9851_20250603.gpx', './flights/gpx/Variflight_PN6214_20251202.gpx', './flights/gpx/Variflight_PN6260_20250904.gpx', './flights/gpx/Variflight_PN6271_20250905.gpx']
     },
-    railway: { color: "green", files: {railway}
-    },
-    // runs: { color: "blue", files: [
-    //   "runs/morning_run_1.gpx",
-    //   "runs/morning_run_2.gpx"
-    // ]}
   };
 
   const icons = {
@@ -152,11 +146,6 @@
       iconSize: [16, 16],
       iconAnchor: [8, 8]
     }),
-    railway: L.icon({
-      iconUrl: "assets/station.png",
-      iconSize: [16, 16],
-      iconAnchor: [8, 8]
-    })
   };
 
   const overlays = {};  // 每个文件夹一组图层
@@ -164,19 +153,11 @@
   let allGpxLayers = []; // 用于后续更新语言
   let langMap = {};
 
-  // === 加载英文名称映射 ===
-  fetch("railway/lang_gpx.json")
-    .then(resp => resp.json())
-    .then(data => {
-      langMap = data;
-      loadAllGpx();
-    })
-    .catch(err => {
-      console.warn("语言文件加载失败，使用默认文件名。", err);
-      loadAllGpx();
-    });
+  let total = 85;
+  let loaded = 0;
 
-      // === 加载 GPX 文件 ===
+  loadAllGpx();
+  // === 加载 GPX 文件 ===
   function loadAllGpx() {
     for (const [folder, cfg] of Object.entries(groups)) {
       const layerGroup = L.layerGroup();
@@ -197,22 +178,13 @@
           const filename = file.split("/").pop().replace(".gpx", "");
           let displayName;
 
-          
-          if (folder === "railway") {
-            // === 从 lang_gpx.json 取英文名称 ===
-            if (!langMap[filename]) {
-              console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
-            }
-            displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
-          } else {
-            // === flights 使用原文件名 ===
-            const match = filename.match(/_(\w+)_([0-9]{8})$/);
+          // === flights 使用原文件名 ===
+          const match = filename.match(/_(\w+)_([0-9]{8})$/);
 
-            if (match) {
-              displayName = `${match[2]}-${match[1]}`;
-            } else {
-              displayName = filename.replace(".gpx", "");
-            }
+          if (match) {
+            displayName = `${match[2]}-${match[1]}`;
+          } else {
+            displayName = filename.replace(".gpx", "");
           }
 
           g._filename = filename;
@@ -223,36 +195,18 @@
           const b = g.getBounds();
           if (globalBounds) globalBounds.extend(b);
           else globalBounds = b;
-          map.fitBounds(globalBounds, { padding: [20, 20] });
+
+          loaded ++;
+          if (loaded === total) {
+            map.fitBounds(globalBounds, { padding: [20, 20] });
+          }
         })
         .addTo(layerGroup);
       });
     }
-        // === 添加图层控制 ===
-    L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+    
+    overlays.flights.addTo(map);
   }
-
-  fetch("./railway/station.json")
-    .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
-
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
-        });
-      }
-    })
-    .then(() => overlays["railway"].setZIndex(500))
-  .catch(err => console.error("加载 station.json 出错:", err));
 
   fetch("./flights/airport.json")
     .then(resp => resp.json())
@@ -273,43 +227,9 @@
         });
       }
     })
-    .then(() => overlays["flights"].setZIndex(1000))
   .catch(err => console.error("加载 airport.json 出错:", err));
 
-  // L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
-//   tracks.forEach(({ file, color }) => {
-//     const gpx = new L.GPX(file, {
-//       async: true,
-//       polyline_options: { color, weight: 4, opacity: 0.8 },
-//       markers: {
-//         startIcon: null,
-//         endIcon: null,
-//         // wptIcons: null,
-//       },
-//     })
-//       .on("loaded", (e) => {
-//         const g = e.target;
-//         const name = g.get_name() || file;
-//         g.bindPopup(`<b>${name}</b>`);
-// 
-//         bounds.push(g.getBounds());
-//         if (bounds.length === tracks.length) {
-//           const all = bounds.reduce((b, cur) => b.extend(cur), bounds[0]);
-//           map.fitBounds(all);
-//         }
-// 
-//         g.eachLayer((layer) => {
-//           if (layer instanceof L.Marker) {
-//             map.removeLayer(layer);
-//           }
-//         });
-//       })
-//       .addTo(map);
-//   });
-
-  // 语言切换时更新 Popup
-  
   function updateMarkerLang(lang) {
     if (!map._markers) return;
     map._markers.forEach(marker => {

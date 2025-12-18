@@ -203,6 +203,10 @@
     "zh": "南海机场线（泉佐野-关西机场）",
     "en": "Nankai Railway KIX Branch"
   },
+  "南昆客运专线（昆明南-昆明）": {
+    "zh": "南昆客运专线（昆明南-昆明）",
+    "en": "Nanning-Kunming Passenger Railway"
+  },
   "南珠高速线（南宁东-玉林北）": {
     "zh": "南珠高速线（南宁东-玉林北）",
     "en": "Nanning-Zhuhai Highspeed Railway"
@@ -398,10 +402,6 @@
   "新长线（盐城-海安）": {
     "zh": "新长线（盐城-海安）",
     "en": "Xinyi-Changxing Railway"
-  },
-  "昆明南联络线": {
-    "zh": "昆明南联络线",
-    "en": "Link Line"
   },
   "昌福线（三江镇-福州）": {
     "zh": "昌福线（三江镇-福州）",

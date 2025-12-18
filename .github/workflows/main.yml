@@ -35,7 +35,7 @@ jobs:
         python process_flights.py
         python process_railway.py
         python process_station.py
-        python print_gpx_list.py
+        python fill_template.py
 
     # === 5️⃣ 提交修改并推送回仓库 ===
     - name: Commit and push changes

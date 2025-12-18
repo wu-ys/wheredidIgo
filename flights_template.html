@@ -138,12 +138,6 @@
   const groups = {
     flights: { color: "blue", files: {flights}
     },
-    railway: { color: "green", files: {railway}
-    },
-    // runs: { color: "blue", files: [
-    //   "runs/morning_run_1.gpx",
-    //   "runs/morning_run_2.gpx"
-    // ]}
   };
 
   const icons = {
@@ -152,11 +146,6 @@
       iconSize: [16, 16],
       iconAnchor: [8, 8]
     }),
-    railway: L.icon({
-      iconUrl: "assets/station.png",
-      iconSize: [16, 16],
-      iconAnchor: [8, 8]
-    })
   };
 
   const overlays = {};  // 每个文件夹一组图层
@@ -164,19 +153,11 @@
   let allGpxLayers = []; // 用于后续更新语言
   let langMap = {};
 
-  // === 加载英文名称映射 ===
-  fetch("railway/lang_gpx.json")
-    .then(resp => resp.json())
-    .then(data => {
-      langMap = data;
-      loadAllGpx();
-    })
-    .catch(err => {
-      console.warn("语言文件加载失败，使用默认文件名。", err);
-      loadAllGpx();
-    });
+  let total = {gpx_num};
+  let loaded = 0;
 
-      // === 加载 GPX 文件 ===
+  loadAllGpx();
+  // === 加载 GPX 文件 ===
   function loadAllGpx() {
     for (const [folder, cfg] of Object.entries(groups)) {
       const layerGroup = L.layerGroup();
@@ -197,22 +178,13 @@
           const filename = file.split("/").pop().replace(".gpx", "");
           let displayName;
 
-          
-          if (folder === "railway") {
-            // === 从 lang_gpx.json 取英文名称 ===
-            if (!langMap[filename]) {
-              console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
-            }
-            displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
-          } else {
-            // === flights 使用原文件名 ===
-            const match = filename.match(/_(\w+)_([0-9]{8})$/);
+          // === flights 使用原文件名 ===
+          const match = filename.match(/_(\w+)_([0-9]{8})$/);
 
-            if (match) {
-              displayName = `${match[2]}-${match[1]}`;
-            } else {
-              displayName = filename.replace(".gpx", "");
-            }
+          if (match) {
+            displayName = `${match[2]}-${match[1]}`;
+          } else {
+            displayName = filename.replace(".gpx", "");
           }
 
           g._filename = filename;
@@ -223,36 +195,18 @@
           const b = g.getBounds();
           if (globalBounds) globalBounds.extend(b);
           else globalBounds = b;
-          map.fitBounds(globalBounds, { padding: [20, 20] });
+
+          loaded ++;
+          if (loaded === total) {
+            map.fitBounds(globalBounds, { padding: [20, 20] });
+          }
         })
         .addTo(layerGroup);
       });
     }
-        // === 添加图层控制 ===
-    L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+    
+    overlays.flights.addTo(map);
   }
-
-  fetch("./railway/station.json")
-    .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
-
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
-        });
-      }
-    })
-    .then(() => overlays["railway"].setZIndex(500))
-  .catch(err => console.error("加载 station.json 出错:", err));
 
   fetch("./flights/airport.json")
     .then(resp => resp.json())
@@ -273,43 +227,9 @@
         });
       }
     })
-    .then(() => overlays["flights"].setZIndex(1000))
   .catch(err => console.error("加载 airport.json 出错:", err));
 
-  // L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
-//   tracks.forEach(({ file, color }) => {
-//     const gpx = new L.GPX(file, {
-//       async: true,
-//       polyline_options: { color, weight: 4, opacity: 0.8 },
-//       markers: {
-//         startIcon: null,
-//         endIcon: null,
-//         // wptIcons: null,
-//       },
-//     })
-//       .on("loaded", (e) => {
-//         const g = e.target;
-//         const name = g.get_name() || file;
-//         g.bindPopup(`<b>${name}</b>`);
-// 
-//         bounds.push(g.getBounds());
-//         if (bounds.length === tracks.length) {
-//           const all = bounds.reduce((b, cur) => b.extend(cur), bounds[0]);
-//           map.fitBounds(all);
-//         }
-// 
-//         g.eachLayer((layer) => {
-//           if (layer instanceof L.Marker) {
-//             map.removeLayer(layer);
-//           }
-//         });
-//       })
-//       .addTo(map);
-//   });
-
-  // 语言切换时更新 Popup
-  
   function updateMarkerLang(lang) {
     if (!map._markers) return;
     map._markers.forEach(marker => {
