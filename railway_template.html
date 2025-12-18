@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <title>Where did I go</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-gpx"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    /* === 顶部导航栏样式 === */
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #1e293b;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+      font-family: sans-serif;
+      z-index: 1000;
+    }
+
+    #navbar .nav-left .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    #navbar .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    #navbar .nav-center a:hover {
+      text-decoration: underline;
+    }
+
+    #navbar .nav-right select {
+      background-color: #1e293b;
+      color: white;
+      border: 1px solid #475569;
+      border-radius: 4px;
+      padding: 3px 6px;
+    }
+
+    /* === 地图容器偏移（避免被导航栏遮挡） === */
+    #map {
+      height: calc(100vh - 50px);
+      width: 100%;
+      margin-top: 50px; /* 留出导航栏高度 */
+    }
+  </style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-left">
+    <span class="logo" data-i18n="title">🌏 Where did I go</span>
+  </div>
+
+  <div class="nav-center">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="flights.html" data-i18n="nav.flights">Flights</a>
+    <a href="railway.html" data-i18n="nav.railway">Railways</a>
+    <a href="points.html" data-i18n="nav.points">Landmarks</a>
+  </div>
+
+  <div class="nav-right">
+    <select id="langSelect">
+      <option value="zh">中文</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+</nav>
+
+<div id="map"></div>
+
+<script>
+
+  // 1️⃣ 获取 URL 参数
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // 2️⃣ 初始化语言
+  let currentLang = getQueryParam("lang") || localStorage.getItem("lang") || "zh";
+  localStorage.setItem("lang", currentLang);
+
+  // 设置下拉框选中
+  document.getElementById("langSelect").value = currentLang;
+
+  // 3️⃣ 加载语言 JSON 并更新文本
+  async function loadLanguage(lang) {
+    try {
+      const resp = await fetch("lang.json");
+      const data = await resp.json();
+      const dict = data[lang] || data["zh"];
+
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const keys = el.dataset.i18n.split(".");
+        let value = dict;
+        for (const key of keys) value = value ? value[key] : null;
+        if (value) el.textContent = value;
+      });
+    } catch (err) {
+      console.error("语言文件加载失败:", err);
+    }
+  }
+
+  loadLanguage(currentLang);
+
+  // 4️⃣ 切换语言时更新 URL（刷新页面）
+  document.getElementById("langSelect").addEventListener("change", e => {
+    const newLang = e.target.value;
+    localStorage.setItem("lang", newLang);
+
+    // 刷新页面并带上 ?lang 参数
+    const newUrl = `${window.location.pathname}?lang=${newLang}`;
+    window.location.href = newUrl;
+  });
+
+  const map = L.map("map").setView([31, 121], 10);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
+  }).addTo(map);
+
+  const groups = {
+    railway: { color: "green", files: {railway}
+    },
+  };
+
+  const icons = {
+    railway: L.icon({
+      iconUrl: "assets/station.png",
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
+    })
+  };
+
+  const overlays = {};  // 每个文件夹一组图层
+  let globalBounds = null;
+  let allGpxLayers = []; // 用于后续更新语言
+  let langMap = {};
+
+  let total = {gpx_num};
+  let loaded = 0;
+
+  // === 加载英文名称映射 ===
+  fetch("railway/lang_gpx.json")
+    .then(resp => resp.json())
+    .then(data => {
+      langMap = data;
+    })
+    .catch(err => {
+      console.warn("语言文件加载失败，使用默认文件名。", err);
+    });
+    
+  loadAllGpx();
+  // === 加载 GPX 文件 ===
+  function loadAllGpx() {
+    for (const [folder, cfg] of Object.entries(groups)) {
+      const layerGroup = L.layerGroup();
+      overlays[folder] = layerGroup;
+
+      cfg.files.forEach(file => {
+        const gpx = new L.GPX(file, {
+          async: true,
+          polyline_options: {
+            color: cfg.color,
+            weight: 4,
+            opacity: 0.8
+          },
+          markers: { startIcon: null, endIcon: null }
+        })
+        .on("loaded", e => {
+          const g = e.target;
+          const filename = file.split("/").pop().replace(".gpx", "");
+          let displayName;
+
+          
+          if (folder === "railway") {
+            // === 从 lang_gpx.json 取英文名称 ===
+            if (!langMap[filename]) {
+              console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
+            }
+            displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
+          } else {
+            // === flights 使用原文件名 ===
+            const match = filename.match(/_(\w+)_([0-9]{8})$/);
+
+            if (match) {
+              displayName = `${match[2]}-${match[1]}`;
+            } else {
+              displayName = filename.replace(".gpx", "");
+            }
+          }
+
+          g._filename = filename;
+          g.bindPopup(`<b>${displayName}</b>`);
+          allGpxLayers.push(g);
+
+          // === 调整视图范围 ===
+          const b = g.getBounds();
+          if (globalBounds) globalBounds.extend(b);
+          else globalBounds = b;
+
+          loaded ++;
+          if (loaded === total) {
+            map.fitBounds(globalBounds, { padding: [20, 20] });
+          }
+        })
+        .addTo(layerGroup);
+      });
+    }
+    overlays.railway.addTo(map);
+  }
+
+  fetch("./railway/station.json")
+    .then(resp => resp.json())
+    .then(data => {
+      for (const [groupName, points] of Object.entries(data)) {
+        const group = overlays[groupName];
+        if (!group) continue; // 没有对应组则跳过
+
+        points.forEach(p => {
+          const name = currentLang === "zh" ? p.name_zh : p.name_en;
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${name}</b>`)
+            .addTo(group);
+        // 为后续语言切换保存引用
+        marker._names = { zh: p.name_zh, en: p.name_en };
+        if (!group._markers) group._markers = [];
+          group._markers.push(marker);
+        });
+      }
+    })
+  .catch(err => console.error("加载 station.json 出错:", err));
+
+  // 语言切换时更新 Popup
+  
+  function updateMarkerLang(lang) {
+    if (!map._markers) return;
+    map._markers.forEach(marker => {
+      marker.bindPopup(`<b>${marker._names[lang]}</b>`);
+    });
+  };
+
+  function updateGpxLang(lang) {
+    allGpxLayers.forEach(g => {
+      const name = langMap[g._filename]?.[lang] || g._filename;
+      g.bindPopup(`<b>${name}</b>`);
+    });
+  }
+
+  // 监听语言变化并更新 popup
+  window.addEventListener("storage", e => {
+    if (e.key === "lang") {
+      loadLanguage(e.newValue);
+      updateMarkerLang(e.newValue);
+      updateGpxLang(e.newValue);
+    }
+  });
+
+</script>
+
+</body>
+</html>

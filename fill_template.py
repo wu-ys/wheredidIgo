@@ -22,6 +22,7 @@ if __name__ == "__main__":
         template = file.read()
 
     template = template.replace(f"{{railway}}", str(railway_gpx_files))
+    template = template.replace(f"{{gpx_num}}", str(len(railway_gpx_files)))
     template = template.replace(f"\\\\", "/")
     with open("railway.html", 'w', encoding='utf-8') as file:
         file.write(template)

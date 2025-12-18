@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <title>Where did I go</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-gpx"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    /* === 顶部导航栏样式 === */
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #1e293b;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+      font-family: sans-serif;
+      z-index: 1000;
+    }
+
+    #navbar .nav-left .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    #navbar .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    #navbar .nav-center a:hover {
+      text-decoration: underline;
+    }
+
+    #navbar .nav-right select {
+      background-color: #1e293b;
+      color: white;
+      border: 1px solid #475569;
+      border-radius: 4px;
+      padding: 3px 6px;
+    }
+
+    /* === 地图容器偏移（避免被导航栏遮挡） === */
+    #map {
+      height: calc(100vh - 50px);
+      width: 100%;
+      margin-top: 50px; /* 留出导航栏高度 */
+    }
+  </style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-left">
+    <span class="logo" data-i18n="title">🌏 Where did I go</span>
+  </div>
+
+  <div class="nav-center">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="flights.html" data-i18n="nav.flights">Flights</a>
+    <a href="railway.html" data-i18n="nav.railway">Railways</a>
+    <a href="points.html" data-i18n="nav.points">Landmarks</a>
+  </div>
+
+  <div class="nav-right">
+    <select id="langSelect">
+      <option value="zh">中文</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+</nav>
+
+<div id="map"></div>
+
+<script>
+
+  // 1️⃣ 获取 URL 参数
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // 2️⃣ 初始化语言
+  let currentLang = getQueryParam("lang") || localStorage.getItem("lang") || "zh";
+  localStorage.setItem("lang", currentLang);
+
+  // 设置下拉框选中
+  document.getElementById("langSelect").value = currentLang;
+
+  // 3️⃣ 加载语言 JSON 并更新文本
+  async function loadLanguage(lang) {
+    try {
+      const resp = await fetch("lang.json");
+      const data = await resp.json();
+      const dict = data[lang] || data["zh"];
+
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const keys = el.dataset.i18n.split(".");
+        let value = dict;
+        for (const key of keys) value = value ? value[key] : null;
+        if (value) el.textContent = value;
+      });
+    } catch (err) {
+      console.error("语言文件加载失败:", err);
+    }
+  }
+
+  loadLanguage(currentLang);
+
+  // 4️⃣ 切换语言时更新 URL（刷新页面）
+  document.getElementById("langSelect").addEventListener("change", e => {
+    const newLang = e.target.value;
+    localStorage.setItem("lang", newLang);
+
+    // 刷新页面并带上 ?lang 参数
+    const newUrl = `${window.location.pathname}?lang=${newLang}`;
+    window.location.href = newUrl;
+  });
+
+  const map = L.map("map").setView([31, 121], 10);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
+  }).addTo(map);
+
+  const groups = {
+    railway: { color: "green", files: ['./railway/gpx_cr/上海南联络线（沪春一二线）.gpx', './railway/gpx_cr/上海南联络线（沪春三四线）.gpx', './railway/gpx_cr/上饶东南联络线.gpx', './railway/gpx_cr/东新联络线（东门-新香坊）.gpx', './railway/gpx_cr/东星线（北京东-北京朝阳）.gpx', './railway/gpx_cr/京九线（南昌-向塘-三江镇）.gpx', './railway/gpx_cr/京九线（黄土坡线路所-乐化）.gpx', './railway/gpx_cr/京包-包兰线（呼和浩特-银川）.gpx', './railway/gpx_cr/京包客运专线（北京北-呼和浩特）.gpx', './railway/gpx_cr/京包线（北京丰台-宣化）.gpx', './railway/gpx_cr/京包线（黄土店-康庄）.gpx', './railway/gpx_cr/京包青龙桥上行线.gpx', './railway/gpx_cr/京原线（石景山南-燕山）.gpx', './railway/gpx_cr/京哈线（北京-哈尔滨）.gpx', './railway/gpx_cr/京哈高速线（北京朝阳-姚家窝堡所）.gpx', './railway/gpx_cr/京哈高速线（沈阳北-哈尔滨）.gpx', './railway/gpx_cr/京唐城际线（燕郊-北刘各庄所）.gpx', './railway/gpx_cr/京广线（武昌-武昌南）.gpx', './railway/gpx_cr/京广线（汉西-武昌）.gpx', './railway/gpx_cr/京广线（长辛店-柳辛庄）.gpx', './railway/gpx_cr/京广高速线（北京西-石家庄）.gpx', './railway/gpx_cr/京广高速线（横店东-深圳北）.gpx', './railway/gpx_cr/京承线（怀柔-顺义）.gpx', './railway/gpx_cr/京承线（赵家店所-承德）.gpx', './railway/gpx_cr/京沪线济南外绕段.gpx', './railway/gpx_cr/京沪线（北京-上海）.gpx', './railway/gpx_cr/京沪高速线（北京南-上海虹桥）.gpx', './railway/gpx_cr/京津城际线（北京南-天津）.gpx', './railway/gpx_cr/京通线（昌平-隆化）.gpx', './railway/gpx_cr/京雄城际线（北京西-雄安）.gpx', './railway/gpx_cr/伊加线（伊图里河-加格达奇）.gpx', './railway/gpx_cr/兰新客运专线（兰州西-海东西）.gpx', './railway/gpx_cr/兰青线（兰州-西宁）.gpx', './railway/gpx_cr/北京直径线（北京-北京西）.gpx', './railway/gpx_cr/南凭高速线（南宁-崇左南）.gpx', './railway/gpx_cr/南广线（佛山西-广州南）.gpx', './railway/gpx_cr/南昆客运专线（昆明南-昆明）.gpx', './railway/gpx_cr/南昌西环线.gpx', './railway/gpx_cr/南珠高速线（南宁东-玉林北）.gpx', './railway/gpx_cr/合杭高速线（妙西镇所-桐庐东）.gpx', './railway/gpx_cr/合杭高速线（胡庄所-湖州）.gpx', './railway/gpx_cr/合福高速线（上饶-福州）.gpx', './railway/gpx_cr/合福高速线（合肥南-黄山北）.gpx', './railway/gpx_cr/向东联络线（向塘-梁家渡）.gpx', './railway/gpx_cr/哈牡客运专线（哈尔滨-牡丹江）.gpx', './railway/gpx_cr/哈环线（东门-哈尔滨东）.gpx', './railway/gpx_cr/哈长联络线.gpx', './railway/gpx_cr/太中线（太原南-定边）.gpx', './railway/gpx_cr/太仓联络线（太仓-陆渡所）.gpx', './railway/gpx_cr/姚田联络线.gpx', './railway/gpx_cr/宁启线（林场-海安）.gpx', './railway/gpx_cr/宁杭高速线（南京南-杭州东）.gpx', './railway/gpx_cr/宁蓉线（仙林-汉口）.gpx', './railway/gpx_cr/宁蓉线（新墩-重庆北）.gpx', './railway/gpx_cr/定银线（定边-银川）.gpx', './railway/gpx_cr/宣绩高速线（宣城-绩溪北）.gpx', './railway/gpx_cr/富西线（富裕-漠河）.gpx', './railway/gpx_cr/峨广线（峨眉-广通北）.gpx', './railway/gpx_cr/川青线（黄龙九寨-三星堆）.gpx', './railway/gpx_cr/巢湖东南联络线.gpx', './railway/gpx_cr/平齐线（四平-齐齐哈尔）.gpx', './railway/gpx_cr/广州东环城际线（花都-白云机场北）.gpx', './railway/gpx_cr/广惠城际线（番禺-西平西）.gpx', './railway/gpx_cr/广深城际线（广州东-深圳）.gpx', './railway/gpx_cr/广深港高速线（福田-香港西九龙）.gpx', './railway/gpx_cr/广清城际线（广州北-清城）.gpx', './railway/gpx_cr/广肇城际线（番禺-佛山西）.gpx', './railway/gpx_cr/康山联络线.gpx', './railway/gpx_cr/康延线.gpx', './railway/gpx_cr/延庆线（八达岭西所-延庆）.gpx', './railway/gpx_cr/张吉怀高速线.gpx', './railway/gpx_cr/张唐线（李家营-唐山）.gpx', './railway/gpx_cr/张家界西联络线.gpx', './railway/gpx_cr/徐兰高速线（天水南-兰州西）.gpx', './railway/gpx_cr/徐兰高速线（徐州东所-郑州东）.gpx', './railway/gpx_cr/徐盐高速线（徐州东-盐城）.gpx', './railway/gpx_cr/德州东联络线.gpx', './railway/gpx_cr/怀范联络线（怀柔-雁栖湖）.gpx', './railway/gpx_cr/成昆线（成都南-燕岗）.gpx', './railway/gpx_cr/成渝高速线（资阳北-沙坪坝）.gpx', './railway/gpx_cr/成贵客运专线（成都东-双流机场）.gpx', './railway/gpx_cr/成贵客运专线（白云北-尖坡所）.gpx', './railway/gpx_cr/成贵贵阳北联络线（尖坡所-贵阳北）.gpx', './railway/gpx_cr/承隆线（隆化-承德）.gpx', './railway/gpx_cr/拉日线（拉萨-日喀则）.gpx', './railway/gpx_cr/敦白联络线.gpx', './railway/gpx_cr/新成灌线（犀浦-都江堰）.gpx', './railway/gpx_cr/新通客运专线（田家窝铺所-通辽）.gpx', './railway/gpx_cr/新长线（盐城-海安）.gpx', './railway/gpx_cr/昌福线（三江镇-福州）.gpx', './railway/gpx_cr/李家营联络线（李家营-赵家店所）.gpx', './railway/gpx_cr/李莘联络线（李家湾-莘庄）.gpx', './railway/gpx_cr/杭昌高速线（桐庐-黄山北）.gpx', './railway/gpx_cr/杭深线（杭州南-深圳北）.gpx', './railway/gpx_cr/杭温高速线（桐庐东-义乌）.gpx', './railway/gpx_cr/杭温高速线（横店-温州北）.gpx', './railway/gpx_cr/桐庐联络线.gpx', './railway/gpx_cr/榆红线（榆树屯-红旗营）.gpx', './railway/gpx_cr/武九线（九里垄-九江西）.gpx', './railway/gpx_cr/武九线（何刘-九里垄）.gpx', './railway/gpx_cr/武昌南环线.gpx', './railway/gpx_cr/永嘉联络线.gpx', './railway/gpx_cr/汉西联络线.gpx', './railway/gpx_cr/池黄高速线（池州-黄山北）.gpx', './railway/gpx_cr/沈佳高速线（敦化南-长白山）.gpx', './railway/gpx_cr/沈大线（大连北-大连）.gpx', './railway/gpx_cr/沈大高速线（沈阳北-大连北）.gpx', './railway/gpx_cr/沪宁城际线（上海-南京）.gpx', './railway/gpx_cr/沪宁沿江高速线（武进-太仓）.gpx', './railway/gpx_cr/沪昆线（封浜-龙里）.gpx', './railway/gpx_cr/沪昆高速线（上海虹桥-新余北）.gpx', './railway/gpx_cr/沪昆高速线（宜春-怀化南）.gpx', './railway/gpx_cr/沪昆高速线（贵阳北-昆明南）.gpx', './railway/gpx_cr/沪苏湖高速线（上海虹桥-湖州）.gpx', './railway/gpx_cr/沪苏通线（南通西-黄渡-上海虹桥）.gpx', './railway/gpx_cr/津兴城际（盛芳-固安东）.gpx', './railway/gpx_cr/津秦高速线（天津西-秦皇岛）.gpx', './railway/gpx_cr/津秦高速线（秦皇岛-龙家营）.gpx', './railway/gpx_cr/津蓟线.gpx', './railway/gpx_cr/津霸线（天津西-霸州西）.gpx', './railway/gpx_cr/济青高速线（济南东-青岛北）.gpx', './railway/gpx_cr/海南东环高速线（城西-三亚）.gpx', './railway/gpx_cr/海南西环线.gpx', './railway/gpx_cr/海南西环高速线（崖州-三亚）.gpx', './railway/gpx_cr/渝厦高速线.gpx', './railway/gpx_cr/渝贵线（贵阳-贵阳北）.gpx', './railway/gpx_cr/湘桂线（柳州-黎塘）.gpx', './railway/gpx_cr/滇藏线（丽江-香格里拉）.gpx', './railway/gpx_cr/滨北线（哈尔滨东-呼兰）.gpx', './railway/gpx_cr/滨洲线（哈尔滨-海拉尔）.gpx', './railway/gpx_cr/滨绥线（新香坊-牡丹江）.gpx', './railway/gpx_cr/滨绥线（牡丹江-绥芬河）.gpx', './railway/gpx_cr/牙林线（牙克石-伊图里河）.gpx', './railway/gpx_cr/甬广高速线（福州南-厦门北）.gpx', './railway/gpx_cr/盐通高速线（盐城-南通西）.gpx', './railway/gpx_cr/石太客运专线（石家庄北-太原南）.gpx', './railway/gpx_cr/石家庄西北环线（柳辛庄-石家庄北）.gpx', './railway/gpx_cr/石济客运专线（陵县所-济南东）.gpx', './railway/gpx_cr/秦双联络线（秦祺村所-双龙南）.gpx', './railway/gpx_cr/笕杭线.gpx', './railway/gpx_cr/笕桥线.gpx', './railway/gpx_cr/胶济客运专线（济南-青岛北）.gpx', './railway/gpx_cr/花广联络线（广州白云-广州北）.gpx', './railway/gpx_cr/萧甬线（杭州南-绍兴）.gpx', './railway/gpx_cr/虹安联络线（上海虹桥-安亭北所）.gpx', './railway/gpx_cr/衢九线（衢州-九江）.gpx', './railway/gpx_cr/西成高速线（广汉北-成都东）.gpx', './railway/gpx_cr/西长线（北京西-长辛店）.gpx', './railway/gpx_cr/贵南高速线（河池西-南宁东）.gpx', './railway/gpx_cr/贵阳环线（白云北-双龙南）.gpx', './railway/gpx_cr/辛泰线（南博山-泰山）.gpx', './railway/gpx_cr/连镇高速线（连云港-丹徒）.gpx', './railway/gpx_cr/通燕联络线（高辛庄所-北刘各庄所）.gpx', './railway/gpx_cr/郑开城际线（郑州东-开封）.gpx', './railway/gpx_cr/金温线（塘雅线路所-温州南）.gpx', './railway/gpx_cr/镇江联络线.gpx', './railway/gpx_cr/长株潭城际线（谷山-湘潭）.gpx', './railway/gpx_cr/长珲城际线（杨家粉坊所-敦化）.gpx', './railway/gpx_cr/陇海线（徐州-兰州）.gpx', './railway/gpx_cr/霸徐线（白洋淀-霸州西）.gpx', './railway/gpx_cr/青三联络线（青白江东-三星堆）.gpx', './railway/gpx_cr/青盐线（连云港-董集）.gpx', './railway/gpx_cr/青藏线（西宁-拉萨）.gpx', './railway/gpx_cr/鹰厦线（前场-厦门）.gpx', './railway/gpx_cr/黎湛线（黎塘-玉林）.gpx', './railway/gpx_cr/黔桂线（金城江-柳州）.gpx', './railway/gpx_cr/齐北线（齐齐哈尔-富裕）.gpx', './railway/gpx_cr/龙怀联络线.gpx', './railway/gpx_jr/JR东海道线（米原-大阪）.gpx', './railway/gpx_jr/JR关西线（久宝寺-柘植）.gpx', './railway/gpx_jr/JR北陆线（米原-敦贺）.gpx', './railway/gpx_jr/JR大阪环状线.gpx', './railway/gpx_jr/JR奈良线（京都-木津）.gpx', './railway/gpx_jr/JR山阳线（三宫-姬路）.gpx', './railway/gpx_jr/JR湖西线（山科-近江盐津）.gpx', './railway/gpx_jr/JR纪势线（和歌山-和歌山市）.gpx', './railway/gpx_jr/JR草津线（草津-柘植）.gpx', './railway/gpx_jr/JR阪和线（天王寺-和歌山）.gpx', './railway/gpx_jr/京阪本线（淀屋桥-三条）.gpx', './railway/gpx_jr/南海加太线（纪之川-加太）.gpx', './railway/gpx_jr/南海本线（新今宫-和歌山市）.gpx', './railway/gpx_jr/南海机场线（泉佐野-关西机场）.gpx', './railway/gpx_jr/近铁奈良线（奈良-近铁日本桥）.gpx', './railway/gpx_jr/阪急宝塚线（大阪梅田-庄内）.gpx', './railway/gpx_jr/阪神本线（阪神三宫-阪神尼崎）.gpx', './railway/gpx_jr/阪神难波线（阪神尼崎-西九条）.gpx']
+    },
+  };
+
+  const icons = {
+    railway: L.icon({
+      iconUrl: "assets/station.png",
+      iconSize: [16, 16],
+      iconAnchor: [8, 8]
+    })
+  };
+
+  const overlays = {};  // 每个文件夹一组图层
+  let globalBounds = null;
+  let allGpxLayers = []; // 用于后续更新语言
+  let langMap = {};
+
+  let total = 186;
+  let loaded = 0;
+
+  // === 加载英文名称映射 ===
+  fetch("railway/lang_gpx.json")
+    .then(resp => resp.json())
+    .then(data => {
+      langMap = data;
+    })
+    .catch(err => {
+      console.warn("语言文件加载失败，使用默认文件名。", err);
+    });
+    
+  loadAllGpx();
+  // === 加载 GPX 文件 ===
+  function loadAllGpx() {
+    for (const [folder, cfg] of Object.entries(groups)) {
+      const layerGroup = L.layerGroup();
+      overlays[folder] = layerGroup;
+
+      cfg.files.forEach(file => {
+        const gpx = new L.GPX(file, {
+          async: true,
+          polyline_options: {
+            color: cfg.color,
+            weight: 4,
+            opacity: 0.8
+          },
+          markers: { startIcon: null, endIcon: null }
+        })
+        .on("loaded", e => {
+          const g = e.target;
+          const filename = file.split("/").pop().replace(".gpx", "");
+          let displayName;
+
+          
+          if (folder === "railway") {
+            // === 从 lang_gpx.json 取英文名称 ===
+            if (!langMap[filename]) {
+              console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
+            }
+            displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
+          } else {
+            // === flights 使用原文件名 ===
+            const match = filename.match(/_(\w+)_([0-9]{8})$/);
+
+            if (match) {
+              displayName = `${match[2]}-${match[1]}`;
+            } else {
+              displayName = filename.replace(".gpx", "");
+            }
+          }
+
+          g._filename = filename;
+          g.bindPopup(`<b>${displayName}</b>`);
+          allGpxLayers.push(g);
+
+          // === 调整视图范围 ===
+          const b = g.getBounds();
+          if (globalBounds) globalBounds.extend(b);
+          else globalBounds = b;
+
+          loaded ++;
+          if (loaded === total) {
+            map.fitBounds(globalBounds, { padding: [20, 20] });
+          }
+        })
+        .addTo(layerGroup);
+      });
+    }
+    overlays.railway.addTo(map);
+  }
+
+  fetch("./railway/station.json")
+    .then(resp => resp.json())
+    .then(data => {
+      for (const [groupName, points] of Object.entries(data)) {
+        const group = overlays[groupName];
+        if (!group) continue; // 没有对应组则跳过
+
+        points.forEach(p => {
+          const name = currentLang === "zh" ? p.name_zh : p.name_en;
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${name}</b>`)
+            .addTo(group);
+        // 为后续语言切换保存引用
+        marker._names = { zh: p.name_zh, en: p.name_en };
+        if (!group._markers) group._markers = [];
+          group._markers.push(marker);
+        });
+      }
+    })
+  .catch(err => console.error("加载 station.json 出错:", err));
+
+  // 语言切换时更新 Popup
+  
+  function updateMarkerLang(lang) {
+    if (!map._markers) return;
+    map._markers.forEach(marker => {
+      marker.bindPopup(`<b>${marker._names[lang]}</b>`);
+    });
+  };
+
+  function updateGpxLang(lang) {
+    allGpxLayers.forEach(g => {
+      const name = langMap[g._filename]?.[lang] || g._filename;
+      g.bindPopup(`<b>${name}</b>`);
+    });
+  }
+
+  // 监听语言变化并更新 popup
+  window.addEventListener("storage", e => {
+    if (e.key === "lang") {
+      loadLanguage(e.newValue);
+      updateMarkerLang(e.newValue);
+      updateGpxLang(e.newValue);
+    }
+  });
+
+</script>
+
+</body>
+</html>
