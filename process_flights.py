@@ -8,7 +8,7 @@ import glob
 # ==== 配置 ====
 input_folder = "./flights/csv"      # 存放 CSV 的文件夹
 output_folder = "./flights/gpx"     # 输出 GPX 的文件夹
-os.makedirs(output_folder, exist_ok=True)
+output_csv = "./flights/flights.csv"
 
 def csv_to_gpx(csv_path, gpx_path, force = False):
     if not force and os.path.exists(gpx_path):
@@ -30,7 +30,7 @@ def csv_to_gpx(csv_path, gpx_path, force = False):
             except (ValueError, KeyError):
                 continue
 
-            time_str = row.get("Time") or row.get("UTC TIME")
+            time_str = row.get("UTC TIME")
             time_obj = None
             if time_str:
                 for fmt in ["%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"]:
@@ -39,6 +39,16 @@ def csv_to_gpx(csv_path, gpx_path, force = False):
                         break
                     except Exception:
                         continue
+            
+            try:
+                speed = float(row.get("Speed", 0.0))
+            except ValueError:
+                speed = 0.0
+
+            try:
+                course = float(row.get("Angle", 0.0))
+            except ValueError:
+                course = 0.0
 
             point = gpxpy.gpx.GPXTrackPoint(
                 latitude=lat,
@@ -46,6 +56,8 @@ def csv_to_gpx(csv_path, gpx_path, force = False):
                 elevation=ele,
                 time=time_obj
             )
+
+            # point.extensions = [speed, course]
             gpx_segment.points.append(point)
 
     with open(gpx_path, "w", encoding="utf-8") as f:
@@ -53,7 +65,49 @@ def csv_to_gpx(csv_path, gpx_path, force = False):
 
     print(f"已生成: {gpx_path} ({len(gpx_segment.points)} 个点)")
 
-for csv_file in glob.glob(os.path.join(input_folder, "*.csv")):
-    filename = os.path.splitext(os.path.basename(csv_file))[0]
-    gpx_file = os.path.join(output_folder, f"{filename}.gpx")
-    csv_to_gpx(csv_file, gpx_file)
+
+if __name__ == "__main__":
+    os.makedirs(output_folder, exist_ok=True)
+
+    gpx_flies = []
+
+    existing_filenames = set()
+    max_id = 0
+
+    if os.path.exists(output_csv):
+        with open(output_csv, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                filename = row.get("gpx_filename")
+                if filename:
+                    existing_filenames.add(filename)
+                try:
+                    max_id = max(max_id, int(row.get("id", 0)))
+                except ValueError:
+                    pass
+
+        write_header = False
+    else:
+        write_header = True
+
+    with open(output_csv, "a", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        if write_header:
+            writer.writerow(["id", "gpx_filename", "flight_no", "date", "dpt", "arr", "via"])
+
+        idx = max_id+1
+
+        for csv_file in glob.glob(os.path.join(input_folder, "*.csv")):
+            filename = os.path.splitext(os.path.basename(csv_file))[0]
+
+            _, flight_no, date = filename.split('_')
+
+            gpx_file = f"{date}_{flight_no}.gpx"
+
+            if gpx_file in existing_filenames:
+                continue
+            else:
+                writer.writerow([idx, gpx_file, flight_no, date])
+
+                csv_to_gpx(csv_file, os.path.join(output_folder, gpx_file), force =True)
+                idx+=1

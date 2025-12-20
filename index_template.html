@@ -205,14 +205,7 @@
             }
             displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
           } else {
-            // === flights 使用原文件名 ===
-            const match = filename.match(/_(\w+)_([0-9]{8})$/);
-
-            if (match) {
-              displayName = `${match[2]}-${match[1]}`;
-            } else {
-              displayName = filename.replace(".gpx", "");
-            }
+            displayName = filename.replace(".gpx", "");
           }
 
           g._filename = filename;
