@@ -1,0 +1,517 @@
+{
+  "LXA": {
+    "departure": [
+      "1"
+    ],
+    "arrival": [
+      "85"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "XNN": {
+    "departure": [
+      "56",
+      "61",
+      "74"
+    ],
+    "arrival": [
+      "1",
+      "57",
+      "71",
+      "75"
+    ],
+    "via": [],
+    "cnt": 7
+  },
+  "PVG": {
+    "departure": [
+      "2",
+      "9",
+      "11",
+      "15",
+      "16",
+      "17",
+      "35",
+      "73",
+      "79",
+      "81"
+    ],
+    "arrival": [
+      "3",
+      "12",
+      "13",
+      "14",
+      "33",
+      "34",
+      "53",
+      "62",
+      "64",
+      "76",
+      "80"
+    ],
+    "via": [],
+    "cnt": 21
+  },
+  "KIX": {
+    "departure": [
+      "3",
+      "39"
+    ],
+    "arrival": [
+      "2",
+      "40"
+    ],
+    "via": [],
+    "cnt": 4
+  },
+  "SHA": {
+    "departure": [
+      "4",
+      "6",
+      "21",
+      "25",
+      "26",
+      "27",
+      "28",
+      "30",
+      "32",
+      "47",
+      "66",
+      "67",
+      "69",
+      "72",
+      "78"
+    ],
+    "arrival": [
+      "7",
+      "10",
+      "22",
+      "23",
+      "24",
+      "29",
+      "31",
+      "46",
+      "60",
+      "63",
+      "65",
+      "68",
+      "77"
+    ],
+    "via": [],
+    "cnt": 28
+  },
+  "JJN": {
+    "departure": [],
+    "arrival": [
+      "4"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "XIY": {
+    "departure": [
+      "5",
+      "60"
+    ],
+    "arrival": [
+      "58",
+      "61"
+    ],
+    "via": [],
+    "cnt": 4
+  },
+  "KWE": {
+    "departure": [
+      "18",
+      "40"
+    ],
+    "arrival": [
+      "5",
+      "21"
+    ],
+    "via": [],
+    "cnt": 4
+  },
+  "PEK": {
+    "departure": [
+      "44",
+      "46",
+      "49",
+      "63"
+    ],
+    "arrival": [
+      "6",
+      "43",
+      "45",
+      "47",
+      "48"
+    ],
+    "via": [],
+    "cnt": 9
+  },
+  "CAN": {
+    "departure": [
+      "7",
+      "10",
+      "65"
+    ],
+    "arrival": [
+      "37",
+      "66"
+    ],
+    "via": [],
+    "cnt": 5
+  },
+  "DLC": {
+    "departure": [
+      "8",
+      "13",
+      "14"
+    ],
+    "arrival": [
+      "15",
+      "16",
+      "17"
+    ],
+    "via": [],
+    "cnt": 6
+  },
+  "TSN": {
+    "departure": [
+      "37",
+      "38",
+      "53"
+    ],
+    "arrival": [
+      "8",
+      "39"
+    ],
+    "via": [],
+    "cnt": 5
+  },
+  "CKG": {
+    "departure": [
+      "34",
+      "68",
+      "85"
+    ],
+    "arrival": [
+      "9",
+      "83",
+      "84"
+    ],
+    "via": [],
+    "cnt": 6
+  },
+  "HRB": {
+    "departure": [
+      "12"
+    ],
+    "arrival": [
+      "11",
+      "72"
+    ],
+    "via": [],
+    "cnt": 3
+  },
+  "HGH": {
+    "departure": [
+      "48"
+    ],
+    "arrival": [
+      "18",
+      "50",
+      "52"
+    ],
+    "via": [],
+    "cnt": 4
+  },
+  "URC": {
+    "departure": [
+      "19",
+      "33",
+      "45"
+    ],
+    "arrival": [
+      "44",
+      "82"
+    ],
+    "via": [],
+    "cnt": 5
+  },
+  "PKX": {
+    "departure": [
+      "22",
+      "23",
+      "24",
+      "29",
+      "31",
+      "52",
+      "77",
+      "82"
+    ],
+    "arrival": [
+      "19",
+      "25",
+      "26",
+      "27",
+      "28",
+      "30",
+      "55"
+    ],
+    "via": [],
+    "cnt": 15
+  },
+  "OHE": {
+    "departure": [
+      "20"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  },
+  "JGD": {
+    "departure": [],
+    "arrival": [
+      "20"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "GMP": {
+    "departure": [],
+    "arrival": [
+      "32"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "WNZ": {
+    "departure": [],
+    "arrival": [
+      "35",
+      "81"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "HLD": {
+    "departure": [
+      "36"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  },
+  "TGO": {
+    "departure": [],
+    "arrival": [
+      "36"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "HAK": {
+    "departure": [],
+    "arrival": [
+      "38"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "HNY": {
+    "departure": [],
+    "arrival": [],
+    "via": [
+      "38"
+    ],
+    "cnt": 1
+  },
+  "JNG": {
+    "departure": [
+      "41"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  },
+  "NNG": {
+    "departure": [
+      "50"
+    ],
+    "arrival": [
+      "41"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "LJG": {
+    "departure": [
+      "42"
+    ],
+    "arrival": [
+      "51"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "NKG": {
+    "departure": [
+      "51",
+      "84"
+    ],
+    "arrival": [
+      "42"
+    ],
+    "via": [],
+    "cnt": 3
+  },
+  "CSX": {
+    "departure": [
+      "43"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  },
+  "SZX": {
+    "departure": [],
+    "arrival": [
+      "49"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "TAO": {
+    "departure": [
+      "54"
+    ],
+    "arrival": [
+      "69"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "ICN": {
+    "departure": [
+      "55",
+      "62"
+    ],
+    "arrival": [
+      "54"
+    ],
+    "via": [],
+    "cnt": 3
+  },
+  "HBQ": {
+    "departure": [
+      "57"
+    ],
+    "arrival": [
+      "56"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "DNH": {
+    "departure": [
+      "58"
+    ],
+    "arrival": [
+      "59"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "LHW": {
+    "departure": [
+      "59"
+    ],
+    "arrival": [
+      "79"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "TFU": {
+    "departure": [
+      "64",
+      "71"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 2
+  },
+  "CTU": {
+    "departure": [],
+    "arrival": [
+      "67"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "HET": {
+    "departure": [
+      "70"
+    ],
+    "arrival": [
+      "73"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "HFE": {
+    "departure": [
+      "76"
+    ],
+    "arrival": [
+      "70"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "HTT": {
+    "departure": [
+      "75"
+    ],
+    "arrival": [
+      "74"
+    ],
+    "via": [],
+    "cnt": 2
+  },
+  "HXD": {
+    "departure": [],
+    "arrival": [],
+    "via": [
+      "74",
+      "75"
+    ],
+    "cnt": 2
+  },
+  "KHG": {
+    "departure": [],
+    "arrival": [
+      "78"
+    ],
+    "via": [],
+    "cnt": 1
+  },
+  "TVS": {
+    "departure": [
+      "80"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  },
+  "SYX": {
+    "departure": [
+      "83"
+    ],
+    "arrival": [],
+    "via": [],
+    "cnt": 1
+  }
+}
