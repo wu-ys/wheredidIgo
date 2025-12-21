@@ -11,6 +11,7 @@ input_folder = "./flights/csv"      # 存放 CSV 的文件夹
 output_folder = "./flights/gpx"     # 输出 GPX 的文件夹
 output_csv = "./flights/flights.csv"
 output_flights_json = "./flights/flights.json"
+inout_airport_json = "./flights/airport.json"
 output_airport_flights_json = "./flights/airport_flights.json"
 
 def csv_to_gpx(csv_path, gpx_path, force = False):
@@ -75,7 +76,17 @@ if __name__ == "__main__":
     gpx_flies = []
 
     flights_data = {}
-    airport_flights_data = {}
+    airport_data = {}
+
+    with open(inout_airport_json, "r", encoding="utf-8") as f:
+        airport_data = json.load(f)["flights"]
+    
+    for key in airport_data:
+        airport_data[key]["iata"] = key
+        airport_data[key]["departure"] = []
+        airport_data[key]["arrival"] = []
+        airport_data[key]["via"] = []
+        airport_data[key]["cnt"] = 0
 
     existing_filenames = set()
     max_id = 0
@@ -100,20 +111,44 @@ if __name__ == "__main__":
                     "via": row["via"]
                 })
 
-                if row["dpt"] not in airport_flights_data:
-                    airport_flights_data[row["dpt"]] = {"departure":[], "arrival":[], "via":[], "cnt": 0}
-                if row["arr"] not in airport_flights_data:
-                    airport_flights_data[row["arr"]] = {"departure":[], "arrival":[], "via":[], "cnt": 0}
-                if row["via"] != "" and row["via"] not in airport_flights_data:
-                    airport_flights_data[row["via"]] = {"departure":[], "arrival":[], "via":[], "cnt": 0}
+                if row["dpt"] not in airport_data:
+                    airport_data[row["dpt"]] = {"name_zh": "",
+                                                "name_en": "",
+                                                "lat": 0.0,
+                                                "lon": 0.0,
+                                                "iata": "",
+                                                "departure":[], 
+                                                "arrival":[], 
+                                                "via":[], 
+                                                "cnt": 0}
+                if row["arr"] not in airport_data:
+                    airport_data[row["arr"]] = {"name_zh": "",
+                                                "name_en": "",
+                                                "lat": 0.0,
+                                                "lon": 0.0,
+                                                "iata": "",
+                                                "departure":[], 
+                                                "arrival":[], 
+                                                "via":[], 
+                                                "cnt": 0}
+                if row["via"] != "" and row["via"] not in airport_data:
+                    airport_data[row["via"]] = {"name_zh": "",
+                                                "name_en": "",
+                                                "lat": 0.0,
+                                                "lon": 0.0,
+                                                "iata": "",
+                                                "departure":[], 
+                                                "arrival":[], 
+                                                "via":[], 
+                                                "cnt": 0}
 
-                airport_flights_data[row["dpt"]]["departure"].append(row["flight_id"])
-                airport_flights_data[row["dpt"]]["cnt"] += 1
-                airport_flights_data[row["arr"]]["arrival"].append(row["flight_id"])
-                airport_flights_data[row["arr"]]["cnt"] += 1
+                airport_data[row["dpt"]]["departure"].append(row["flight_id"])
+                airport_data[row["dpt"]]["cnt"] += 1
+                airport_data[row["arr"]]["arrival"].append(row["flight_id"])
+                airport_data[row["arr"]]["cnt"] += 1
                 if row["via"] != "":
-                    airport_flights_data[row["via"]]["via"].append(row["flight_id"])
-                    airport_flights_data[row["via"]]["cnt"] += 1
+                    airport_data[row["via"]]["via"].append(row["flight_id"])
+                    airport_data[row["via"]]["cnt"] += 1
 
                 if filename:
                     existing_filenames.add(filename)
@@ -163,8 +198,14 @@ if __name__ == "__main__":
     with open(output_flights_json, "w", newline="", encoding="utf-8") as f:
         json.dump(flights_data, f, ensure_ascii=False, indent=2)
     print(f"✅ 已将 flights/flights.csv 转换为 flights/flights.json")
+
+    airport_flights_data = {"flights": []}
+
+    for key in airport_data:
+        airport_flights_data["flights"].append(airport_data[key])
+
     
-    with open(output_airport_flights_json, "w", encoding="utf-8") as f:
+    with open(inout_airport_json, "w", encoding="utf-8") as f:
         json.dump(airport_flights_data, f, ensure_ascii=False, indent=2)
     print(f"✅ 已将 flights/flights.csv 转换为 flights/airport_flights.json")
 

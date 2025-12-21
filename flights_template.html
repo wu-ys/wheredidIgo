@@ -135,10 +135,6 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
   }).addTo(map);
 
-  const groups = {
-    flights: { color: "blue", files: {flights}
-    },
-  };
 
   const normalStyle = {
     color: "blue",
@@ -175,53 +171,58 @@
 
   let total = {gpx_num};
   let loaded = 0;
+  let gpxs = [];
 
-  loadAllGpx();
-  // === 加载 GPX 文件 ===
-  function loadAllGpx() {
-    for (const [folder, cfg] of Object.entries(groups)) {
-      const layerGroup = L.layerGroup();
-      overlays[folder] = layerGroup;
+  const gpxById = new Map();       // id → gpx
+  const markerById = new Map();    // id → marker
+  const markerToGpx = new Map();   // markerId → [gpxId, ...]
 
-      cfg.files.forEach(file => {
-        const gpx = new L.GPX(file, {
-          async: true,
-          // polyline_options: {
-          //   color: cfg.color,
-          //   weight: 4,
-          //   opacity: 0.8
-          // },
-          markers: { startIcon: null, endIcon: null }
-        })
-        .on("loaded", e => {
-          const g = e.target;
-          const filename = file.split("/").pop().replace(".gpx", "");
-          let displayName = filename.replace(".gpx", "");
+  fetch("./flights/flights.json")
+  .then(r => r.json())
+  .then(data => {
+    gpxs = data;
+    loadAllFlightGpx(gpxs);
+  });
 
-          g._filename = filename;
-          g.bindPopup(`<b>${displayName}</b>`);
-          allGpxLayers.push(g);
-          g.on("click", e => {
-            L.DomEvent.stopPropagation(e);
-            highlightGpx(g);
-          });
-          g.setStyle(normalStyle);
+  function loadAllFlightGpx(gpxs) {
+    const layerGroup = L.layerGroup();
+    overlays["flights"] = layerGroup;
 
-          // === 调整视图范围 ===
-          const b = g.getBounds();
-          if (globalBounds) globalBounds.extend(b);
-          else globalBounds = b;
+    gpxs["flights"].forEach(item => {
+      const gpxId = item.flight_id;
+      const file = "./flights/gpx/" + item.gpx_filename;
+      const gpx = new L.GPX(file, {
+        async: true,
+        markers: { startIcon: null, endIcon: null }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        let displayName = item.gpx_filename.replace(".gpx", "");
+        g._filename = item.gpx_filename.replace(".gpx", "");
+        gpxById.set(gpxId, g);
+        g.bindPopup(`<b>${displayName}</b>`);
+        allGpxLayers.push(g);
+        g.on("click", e => {
+          L.DomEvent.stopPropagation(e);
+          highlightGpx(g);
+        });
+        g.setStyle(normalStyle);
 
-          loaded ++;
-          if (loaded === total) {
-            map.fitBounds(globalBounds, { padding: [20, 20] });
-          }
-        })
-        .addTo(layerGroup);
-      });
-    }
+        // === 调整视图范围 ===
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
+
+        loaded ++;
+        if (loaded === total) {
+          map.fitBounds(globalBounds, { padding: [20, 20] });
+        }
+      })
+      .addTo(layerGroup);
+    });
     
-    overlays.flights.addTo(map);
+    overlays["flights"].addTo(map);
+
   }
 
   function highlightGpx(target) {
@@ -251,17 +252,20 @@
     .then(data => {
       for (const [groupName, points] of Object.entries(data)) {
         const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
+        if (!group) continue;
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
           const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
             .bindPopup(`<b>${name}</b>`)
             .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
+          const airport_iata = p.iata;
+          markerById.set(airport_iata, marker);
+          markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via)); 
+
+          marker._names = { zh: p.name_zh, en: p.name_en };
+          if (!group._markers) group._markers = [];
+            group._markers.push(marker);
         });
       }
     })

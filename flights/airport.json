@@ -4,295 +4,785 @@
       "name_zh": "[PEK] 北京首都",
       "name_en": "[PEK] Beijing Capital",
       "lat": 40.08010101,
-      "lon": 116.5849991
+      "lon": 116.5849991,
+      "iata": "PEK",
+      "departure": [
+        "44",
+        "46",
+        "49",
+        "63"
+      ],
+      "arrival": [
+        "6",
+        "43",
+        "45",
+        "47",
+        "48"
+      ],
+      "via": [],
+      "cnt": 9
     },
     {
       "name_zh": "[PKX] 北京大兴",
       "name_en": "[PKX] Beijing Daxing",
       "lat": 39.509945,
-      "lon": 116.41092
+      "lon": 116.41092,
+      "iata": "PKX",
+      "departure": [
+        "22",
+        "23",
+        "24",
+        "29",
+        "31",
+        "52",
+        "77",
+        "82"
+      ],
+      "arrival": [
+        "19",
+        "25",
+        "26",
+        "27",
+        "28",
+        "30",
+        "55"
+      ],
+      "via": [],
+      "cnt": 15
     },
     {
       "name_zh": "[TSN] 天津滨海",
       "name_en": "[TSN] Tianjin",
       "lat": 39.12440109,
-      "lon": 117.3460007
+      "lon": 117.3460007,
+      "iata": "TSN",
+      "departure": [
+        "37",
+        "38",
+        "53"
+      ],
+      "arrival": [
+        "8",
+        "39"
+      ],
+      "via": [],
+      "cnt": 5
     },
     {
       "name_zh": "[TVS] 唐山三女河",
       "name_en": "[TVS] Tangshan",
       "lat": 39.7178,
-      "lon": 118.002625
+      "lon": 118.002625,
+      "iata": "TVS",
+      "departure": [
+        "80"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[SJW] 石家庄正定",
       "name_en": "[SJW] Shijiazhuang",
       "lat": 38.280701,
-      "lon": 114.696999
+      "lon": 114.696999,
+      "iata": "SJW",
+      "departure": [],
+      "arrival": [],
+      "via": [],
+      "cnt": 0
     },
     {
       "name_zh": "[DLC] 大连周水子",
       "name_en": "[DLC] Dalian",
       "lat": 38.965719,
-      "lon": 121.538477
+      "lon": 121.538477,
+      "iata": "DLC",
+      "departure": [
+        "8",
+        "13",
+        "14"
+      ],
+      "arrival": [
+        "15",
+        "16",
+        "17"
+      ],
+      "via": [],
+      "cnt": 6
     },
     {
       "name_zh": "[YNJ] 延吉朝阳川",
       "name_en": "[YNJ] Yanji",
       "lat": 42.88280106,
-      "lon": 129.451004
+      "lon": 129.451004,
+      "iata": "YNJ",
+      "departure": [],
+      "arrival": [],
+      "via": [],
+      "cnt": 0
     },
     {
       "name_zh": "[HRB] 哈尔滨太平",
       "name_en": "[HRB] Harbin",
       "lat": 45.623402,
-      "lon": 126.25
+      "lon": 126.25,
+      "iata": "HRB",
+      "departure": [
+        "12"
+      ],
+      "arrival": [
+        "11",
+        "72"
+      ],
+      "via": [],
+      "cnt": 3
     },
     {
       "name_zh": "[OHE] 漠河古莲",
       "name_en": "[OHE] Mohe",
       "lat": 52.916871,
-      "lon": 122.422759
+      "lon": 122.422759,
+      "iata": "OHE",
+      "departure": [
+        "20"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[JGD] 加格达奇",
       "name_en": "[JGD] Jagdaqi",
       "lat": 50.371389,
-      "lon": 124.1175
+      "lon": 124.1175,
+      "iata": "JGD",
+      "departure": [],
+      "arrival": [
+        "20"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[HLD] 呼伦贝尔海拉尔",
       "name_en": "[HLD] Hulunbuir Hailar",
       "lat": 49.205002,
-      "lon": 119.824997
+      "lon": 119.824997,
+      "iata": "HLD",
+      "departure": [
+        "36"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[TGO] 通辽",
       "name_en": "[TGO] Tongliao",
       "lat": 43.556702,
-      "lon": 122.199997
+      "lon": 122.199997,
+      "iata": "TGO",
+      "departure": [],
+      "arrival": [
+        "36"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[HET] 呼和浩特白塔",
       "name_en": "[HET] Hohhot",
       "lat": 40.849658,
-      "lon": 111.824598
+      "lon": 111.824598,
+      "iata": "HET",
+      "departure": [
+        "70"
+      ],
+      "arrival": [
+        "73"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[TAO] 青岛胶东",
       "name_en": "[TAO] Qingdao",
       "lat": 36.361953,
-      "lon": 120.088171
+      "lon": 120.088171,
+      "iata": "TAO",
+      "departure": [
+        "54"
+      ],
+      "arrival": [
+        "69"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[JNG] 济宁大安",
       "name_en": "[JNG] Jining",
       "lat": 35.647358,
-      "lon": 116.743269
+      "lon": 116.743269,
+      "iata": "JNG",
+      "departure": [
+        "41"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[NKG] 南京禄口",
       "name_en": "[NKG] Nanjing",
       "lat": 31.735032,
-      "lon": 118.865949
+      "lon": 118.865949,
+      "iata": "NKG",
+      "departure": [
+        "51",
+        "84"
+      ],
+      "arrival": [
+        "42"
+      ],
+      "via": [],
+      "cnt": 3
     },
     {
       "name_zh": "[SHA] 上海虹桥",
       "name_en": "[SHA] Shanghai Hongqiao",
       "lat": 31.198104,
-      "lon": 121.33426
+      "lon": 121.33426,
+      "iata": "SHA",
+      "departure": [
+        "4",
+        "6",
+        "21",
+        "25",
+        "26",
+        "27",
+        "28",
+        "30",
+        "32",
+        "47",
+        "66",
+        "67",
+        "69",
+        "72",
+        "78"
+      ],
+      "arrival": [
+        "7",
+        "10",
+        "22",
+        "23",
+        "24",
+        "29",
+        "31",
+        "46",
+        "60",
+        "63",
+        "65",
+        "68",
+        "77"
+      ],
+      "via": [],
+      "cnt": 28
     },
     {
       "name_zh": "[PVG] 上海浦东",
       "name_en": "[PVG] Shanghai Pudong",
       "lat": 31.1434,
-      "lon": 121.805
+      "lon": 121.805,
+      "iata": "PVG",
+      "departure": [
+        "2",
+        "9",
+        "11",
+        "15",
+        "16",
+        "17",
+        "35",
+        "73",
+        "79",
+        "81"
+      ],
+      "arrival": [
+        "3",
+        "12",
+        "13",
+        "14",
+        "33",
+        "34",
+        "53",
+        "62",
+        "64",
+        "76",
+        "80"
+      ],
+      "via": [],
+      "cnt": 21
     },
     {
       "name_zh": "[HGH] 杭州萧山",
       "name_en": "[HGH] Hangzhou",
       "lat": 30.23609,
-      "lon": 120.428865
+      "lon": 120.428865,
+      "iata": "HGH",
+      "departure": [
+        "48"
+      ],
+      "arrival": [
+        "18",
+        "50",
+        "52"
+      ],
+      "via": [],
+      "cnt": 4
     },
     {
       "name_zh": "[WNZ] 温州龙湾",
       "name_en": "[WNZ] Wenzhou",
       "lat": 27.910572,
-      "lon": 120.853465
+      "lon": 120.853465,
+      "iata": "WNZ",
+      "departure": [],
+      "arrival": [
+        "35",
+        "81"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[XMN] 厦门高崎",
       "name_en": "[XMN] Xiamen",
       "lat": 24.54400063,
-      "lon": 118.1279984
+      "lon": 118.1279984,
+      "iata": "XMN",
+      "departure": [],
+      "arrival": [],
+      "via": [],
+      "cnt": 0
     },
     {
       "name_zh": "[JJN] 泉州晋江",
       "name_en": "[JJN] Quanzhou",
       "lat": 24.796587,
-      "lon": 118.588883
+      "lon": 118.588883,
+      "iata": "JJN",
+      "departure": [],
+      "arrival": [
+        "4"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[HFE] 合肥新桥",
       "name_en": "[HFE] Hefei",
       "lat": 31.98779,
-      "lon": 116.9769
+      "lon": 116.9769,
+      "iata": "HFE",
+      "departure": [
+        "76"
+      ],
+      "arrival": [
+        "70"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[CSX] 长沙黄花",
       "name_en": "[CSX] Changsha",
       "lat": 28.189199,
-      "lon": 113.220001
+      "lon": 113.220001,
+      "iata": "CSX",
+      "departure": [
+        "43"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[HNY] 衡阳南岳",
       "name_en": "[HNY] Hengyang",
       "lat": 26.72208,
-      "lon": 112.617958
+      "lon": 112.617958,
+      "iata": "HNY",
+      "departure": [],
+      "arrival": [],
+      "via": [
+        "38"
+      ],
+      "cnt": 1
     },
     {
       "name_zh": "[CAN] 广州白云",
       "name_en": "[CAN] Guangzhou",
       "lat": 23.392401,
-      "lon": 113.299004
+      "lon": 113.299004,
+      "iata": "CAN",
+      "departure": [
+        "7",
+        "10",
+        "65"
+      ],
+      "arrival": [
+        "37",
+        "66"
+      ],
+      "via": [],
+      "cnt": 5
     },
     {
       "name_zh": "[SZX] 深圳宝安",
       "name_en": "[SZX] Shenzhen",
       "lat": 22.639299,
-      "lon": 113.810997
+      "lon": 113.810997,
+      "iata": "SZX",
+      "departure": [],
+      "arrival": [
+        "49"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[NNG] 南宁吴圩",
       "name_en": "[NNG] Nanning",
       "lat": 22.608544,
-      "lon": 108.175335
+      "lon": 108.175335,
+      "iata": "NNG",
+      "departure": [
+        "50"
+      ],
+      "arrival": [
+        "41"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[HAK] 海口美兰",
       "name_en": "[HAK] Haikou",
       "lat": 19.9349,
-      "lon": 110.459
+      "lon": 110.459,
+      "iata": "HAK",
+      "departure": [],
+      "arrival": [
+        "38"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[SYX] 三亚凤凰",
       "name_en": "[SYX] Sanya",
       "lat": 18.3029,
-      "lon": 109.412003
+      "lon": 109.412003,
+      "iata": "SYX",
+      "departure": [
+        "83"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[XIY] 西安咸阳",
       "name_en": "[XIY] Xi'an",
       "lat": 34.447102,
-      "lon": 108.751999
+      "lon": 108.751999,
+      "iata": "XIY",
+      "departure": [
+        "5",
+        "60"
+      ],
+      "arrival": [
+        "58",
+        "61"
+      ],
+      "via": [],
+      "cnt": 4
     },
     {
       "name_zh": "[CTU] 成都双流",
       "name_en": "[CTU] Chengdu Shuangliu",
       "lat": 30.558257,
-      "lon": 103.945966
+      "lon": 103.945966,
+      "iata": "CTU",
+      "departure": [],
+      "arrival": [
+        "67"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[TFU] 成都天府",
       "name_en": "[TFU] Chengdu Tianfu",
       "lat": 30.31252,
-      "lon": 104.441284
+      "lon": 104.441284,
+      "iata": "TFU",
+      "departure": [
+        "64",
+        "71"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[CKG] 重庆江北",
       "name_en": "[CKG] Chongqing",
       "lat": 29.712254,
-      "lon": 106.651895
+      "lon": 106.651895,
+      "iata": "CKG",
+      "departure": [
+        "34",
+        "68",
+        "85"
+      ],
+      "arrival": [
+        "9",
+        "83",
+        "84"
+      ],
+      "via": [],
+      "cnt": 6
     },
     {
       "name_zh": "[KWE] 贵阳龙洞堡",
       "name_en": "[KWE] Guiyang",
       "lat": 26.541466,
-      "lon": 106.803331
+      "lon": 106.803331,
+      "iata": "KWE",
+      "departure": [
+        "18",
+        "40"
+      ],
+      "arrival": [
+        "5",
+        "21"
+      ],
+      "via": [],
+      "cnt": 4
     },
     {
       "name_zh": "[LJG] 丽江三义",
       "name_en": "[LJG] Lijiang",
       "lat": 26.68,
-      "lon": 100.246002
+      "lon": 100.246002,
+      "iata": "LJG",
+      "departure": [
+        "42"
+      ],
+      "arrival": [
+        "51"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[LHW] 兰州中川",
       "name_en": "[LHW] Lanzhou",
       "lat": 36.515202,
-      "lon": 103.620003
+      "lon": 103.620003,
+      "iata": "LHW",
+      "departure": [
+        "59"
+      ],
+      "arrival": [
+        "79"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[DNH] 敦煌莫高",
       "name_en": "[DNH] Dunhuang",
       "lat": 40.161098,
-      "lon": 94.809196
+      "lon": 94.809196,
+      "iata": "DNH",
+      "departure": [
+        "58"
+      ],
+      "arrival": [
+        "59"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[XNN] 西宁曹家堡",
       "name_en": "[XNN] Xining",
       "lat": 36.530093,
-      "lon": 102.040062
+      "lon": 102.040062,
+      "iata": "XNN",
+      "departure": [
+        "56",
+        "61",
+        "74"
+      ],
+      "arrival": [
+        "1",
+        "57",
+        "71",
+        "75"
+      ],
+      "via": [],
+      "cnt": 7
     },
     {
       "name_zh": "[HBQ] 海北祁连",
       "name_en": "[HBQ] Haibei Qilian",
       "lat": 38.008068,
-      "lon": 100.645065
+      "lon": 100.645065,
+      "iata": "HBQ",
+      "departure": [
+        "57"
+      ],
+      "arrival": [
+        "56"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[HTT] 海西花土沟",
       "name_en": "[HTT] Haixi Huatugou",
       "lat": 38.201645,
-      "lon": 90.837843
+      "lon": 90.837843,
+      "iata": "HTT",
+      "departure": [
+        "75"
+      ],
+      "arrival": [
+        "74"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[HXD] 海西德令哈",
       "name_en": "[HXD] Haixi Delingha",
       "lat": 37.125286,
-      "lon": 97.268658
+      "lon": 97.268658,
+      "iata": "HXD",
+      "departure": [],
+      "arrival": [],
+      "via": [
+        "74",
+        "75"
+      ],
+      "cnt": 2
     },
     {
       "name_zh": "[LXA] 拉萨贡嘎",
       "name_en": "[LXA] Lhasa",
       "lat": 29.298001,
-      "lon": 90.911951
+      "lon": 90.911951,
+      "iata": "LXA",
+      "departure": [
+        "1"
+      ],
+      "arrival": [
+        "85"
+      ],
+      "via": [],
+      "cnt": 2
     },
     {
       "name_zh": "[URC] 乌鲁木齐天山",
       "name_en": "[URC] Urumqi",
       "lat": 43.907101,
-      "lon": 87.474197
+      "lon": 87.474197,
+      "iata": "URC",
+      "departure": [
+        "19",
+        "33",
+        "45"
+      ],
+      "arrival": [
+        "44",
+        "82"
+      ],
+      "via": [],
+      "cnt": 5
     },
     {
       "name_zh": "[KHG] 喀什徕宁",
       "name_en": "[KHG] Kashgar",
       "lat": 39.5429,
-      "lon": 76.019997
+      "lon": 76.019997,
+      "iata": "KHG",
+      "departure": [],
+      "arrival": [
+        "78"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[HKG] 香港",
       "name_en": "[HKG] HongKong",
       "lat": 22.308901,
-      "lon": 113.915001
+      "lon": 113.915001,
+      "iata": "HKG",
+      "departure": [],
+      "arrival": [],
+      "via": [],
+      "cnt": 0
     },
     {
       "name_zh": "[KIX] 大阪关西",
       "name_en": "[KIX] Osaka Kansai",
       "lat": 34.427299,
-      "lon": 135.244003
+      "lon": 135.244003,
+      "iata": "KIX",
+      "departure": [
+        "3",
+        "39"
+      ],
+      "arrival": [
+        "2",
+        "40"
+      ],
+      "via": [],
+      "cnt": 4
     },
     {
       "name_zh": "[GMP] 首尔金浦",
       "name_en": "[GMP] Seoul Gimpo",
       "lat": 37.5583,
-      "lon": 126.791
+      "lon": 126.791,
+      "iata": "GMP",
+      "departure": [],
+      "arrival": [
+        "32"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[ICN] 首尔仁川",
       "name_en": "[ICN] Seoul Incheon",
       "lat": 37.469101,
-      "lon": 126.450996
+      "lon": 126.450996,
+      "iata": "ICN",
+      "departure": [
+        "55",
+        "62"
+      ],
+      "arrival": [
+        "54"
+      ],
+      "via": [],
+      "cnt": 3
     }
   ]
 }

@@ -135,10 +135,6 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
   }).addTo(map);
 
-  const groups = {
-    flights: { color: "blue", files: ['./flights/gpx/20240606_HU7705.gpx', './flights/gpx/20240611_CA1550.gpx', './flights/gpx/20240611_CA1829.gpx', './flights/gpx/20240712_JD5550.gpx', './flights/gpx/20240719_HO2348.gpx', './flights/gpx/20241001_CZ6526.gpx', './flights/gpx/20241007_CZ6525.gpx', './flights/gpx/20241021_CZ8839.gpx', './flights/gpx/20241102_CZ888R.gpx', './flights/gpx/20241104_CZ8879.gpx', './flights/gpx/20241109_9C8909.gpx', './flights/gpx/20241129_CZ8880.gpx', './flights/gpx/20241202_CZ8879.gpx', './flights/gpx/20241220_CZ8888.gpx', './flights/gpx/20241222_CZ8889.gpx', './flights/gpx/20241228_MU9205.gpx', './flights/gpx/20250102_MU5417.gpx', './flights/gpx/20250106_MU5296.gpx', './flights/gpx/20250214_CZ6536.gpx', './flights/gpx/20250216_CA952.gpx', './flights/gpx/20250217_KN2905.gpx', './flights/gpx/20250219_CZ6526.gpx', './flights/gpx/20250220_CZ6521.gpx', './flights/gpx/20250301_9C6363.gpx', './flights/gpx/20250304_9C6998.gpx', './flights/gpx/20250314_MU720.gpx', './flights/gpx/20250315_MU2233.gpx', './flights/gpx/20250316_MU2216.gpx', './flights/gpx/20250317_MU2239.gpx', './flights/gpx/20250411_CZ8886.gpx', './flights/gpx/20250414_MU5152.gpx', './flights/gpx/20250418_CZ8264.gpx', './flights/gpx/20250420_CZ6697.gpx', './flights/gpx/20250426_MU5319.gpx', './flights/gpx/20250427_CZ3533.gpx', './flights/gpx/20250502_MU2191.gpx', './flights/gpx/20250502_MU2192.gpx', './flights/gpx/20250502_MU6135.gpx', './flights/gpx/20250515_CZ8886.gpx', './flights/gpx/20250518_MU8342.gpx', './flights/gpx/20250528_CZ2308.gpx', './flights/gpx/20250529_FM823.gpx', './flights/gpx/20250529_MU5428.gpx', './flights/gpx/20250530_MU2074.gpx', './flights/gpx/20250603_CZ6909.gpx', './flights/gpx/20250603_MU9851.gpx', './flights/gpx/20250604_CZ8899.gpx', './flights/gpx/20250606_CZ6252.gpx', './flights/gpx/20250609_CZ6257.gpx', './flights/gpx/20250710_MU6357.gpx', './flights/gpx/20250713_MU6128.gpx', './flights/gpx/20250714_MU6582.gpx', './flights/gpx/20250806_MU5523.gpx', './flights/gpx/20250807_MU2039.gpx', './flights/gpx/20250808_MU2039.gpx', './flights/gpx/20250808_MU5052.gpx', './flights/gpx/20250808_MU6337.gpx', './flights/gpx/20250815_CZ7054.gpx', './flights/gpx/20250820_G54818.gpx', './flights/gpx/20250824_MU6873.gpx', './flights/gpx/20250904_PN6260.gpx', './flights/gpx/20250905_PN6271.gpx', './flights/gpx/20250908_8L9518.gpx', './flights/gpx/20250909_9H8403.gpx', './flights/gpx/20250909_MU2350.gpx', './flights/gpx/20250909_MU6513.gpx', './flights/gpx/20250909_MU6514.gpx', './flights/gpx/20250910_9H8403.gpx', './flights/gpx/20250910_GS7983.gpx', './flights/gpx/20250912_GS7974.gpx', './flights/gpx/20250915_GS6697.gpx', './flights/gpx/20250916_MU5308.gpx', './flights/gpx/20250918_MU6939.gpx', './flights/gpx/20251011_HU7246.gpx', './flights/gpx/20251013_HU7145.gpx', './flights/gpx/20251018_FM9224.gpx', './flights/gpx/20251026_GX8960.gpx', './flights/gpx/20251028_JD5314.gpx', './flights/gpx/20251107_HU7610.gpx', './flights/gpx/20251110_JD5908.gpx', './flights/gpx/20251114_HU7136.gpx', './flights/gpx/20251117_HU7609.gpx', './flights/gpx/20251126_HU7678.gpx', './flights/gpx/20251130_GS7827.gpx', './flights/gpx/20251201_GS7827.gpx', './flights/gpx/20251202_PN6214.gpx', './flights/gpx/20251204_FM9426.gpx', './flights/gpx/20251205_FM9525.gpx']
-    },
-  };
 
   const normalStyle = {
     color: "blue",
@@ -175,53 +171,58 @@
 
   let total = 88;
   let loaded = 0;
+  let gpxs = [];
 
-  loadAllGpx();
-  // === 加载 GPX 文件 ===
-  function loadAllGpx() {
-    for (const [folder, cfg] of Object.entries(groups)) {
-      const layerGroup = L.layerGroup();
-      overlays[folder] = layerGroup;
+  const gpxById = new Map();       // id → gpx
+  const markerById = new Map();    // id → marker
+  const markerToGpx = new Map();   // markerId → [gpxId, ...]
 
-      cfg.files.forEach(file => {
-        const gpx = new L.GPX(file, {
-          async: true,
-          // polyline_options: {
-          //   color: cfg.color,
-          //   weight: 4,
-          //   opacity: 0.8
-          // },
-          markers: { startIcon: null, endIcon: null }
-        })
-        .on("loaded", e => {
-          const g = e.target;
-          const filename = file.split("/").pop().replace(".gpx", "");
-          let displayName = filename.replace(".gpx", "");
+  fetch("./flights/flights.json")
+  .then(r => r.json())
+  .then(data => {
+    gpxs = data;
+    loadAllFlightGpx(gpxs);
+  });
 
-          g._filename = filename;
-          g.bindPopup(`<b>${displayName}</b>`);
-          allGpxLayers.push(g);
-          g.on("click", e => {
-            L.DomEvent.stopPropagation(e);
-            highlightGpx(g);
-          });
-          g.setStyle(normalStyle);
+  function loadAllFlightGpx(gpxs) {
+    const layerGroup = L.layerGroup();
+    overlays["flights"] = layerGroup;
 
-          // === 调整视图范围 ===
-          const b = g.getBounds();
-          if (globalBounds) globalBounds.extend(b);
-          else globalBounds = b;
+    gpxs["flights"].forEach(item => {
+      const gpxId = item.flight_id;
+      const file = "./flights/gpx/" + item.gpx_filename;
+      const gpx = new L.GPX(file, {
+        async: true,
+        markers: { startIcon: null, endIcon: null }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        let displayName = item.gpx_filename.replace(".gpx", "");
+        g._filename = item.gpx_filename.replace(".gpx", "");
+        gpxById.set(gpxId, g);
+        g.bindPopup(`<b>${displayName}</b>`);
+        allGpxLayers.push(g);
+        g.on("click", e => {
+          L.DomEvent.stopPropagation(e);
+          highlightGpx(g);
+        });
+        g.setStyle(normalStyle);
 
-          loaded ++;
-          if (loaded === total) {
-            map.fitBounds(globalBounds, { padding: [20, 20] });
-          }
-        })
-        .addTo(layerGroup);
-      });
-    }
+        // === 调整视图范围 ===
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
+
+        loaded ++;
+        if (loaded === total) {
+          map.fitBounds(globalBounds, { padding: [20, 20] });
+        }
+      })
+      .addTo(layerGroup);
+    });
     
-    overlays.flights.addTo(map);
+    overlays["flights"].addTo(map);
+
   }
 
   function highlightGpx(target) {
@@ -251,17 +252,20 @@
     .then(data => {
       for (const [groupName, points] of Object.entries(data)) {
         const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
+        if (!group) continue;
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
           const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
             .bindPopup(`<b>${name}</b>`)
             .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
+          const airport_iata = p.iata;
+          markerById.set(airport_iata, marker);
+          markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via)); 
+
+          marker._names = { zh: p.name_zh, en: p.name_en };
+          if (!group._markers) group._markers = [];
+            group._markers.push(marker);
         });
       }
     })

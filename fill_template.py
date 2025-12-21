@@ -21,7 +21,6 @@ if __name__ == "__main__":
     with open("railway_template.html", 'r', encoding='utf-8') as file:
         template = file.read()
 
-    template = template.replace(f"{{railway}}", str(railway_gpx_files))
     template = template.replace(f"{{gpx_num}}", str(len(railway_gpx_files)))
     template = template.replace(f"\\\\", "/")
     with open("railway.html", 'w', encoding='utf-8') as file:
@@ -32,7 +31,6 @@ if __name__ == "__main__":
     with open("flights_template.html", 'r', encoding='utf-8') as file:
         template = file.read()
 
-    template = template.replace(f"{{flights}}", str(flights_gpx_files))
     template = template.replace(f"{{gpx_num}}", str(len(flights_gpx_files)))
     template = template.replace(f"\\\\", "/")
     with open("flights.html", 'w', encoding='utf-8') as file:
