@@ -225,7 +225,7 @@
     allGpxLayers.forEach(g => {
       if (g === target) {
         g.setStyle(activeStyle);
-        g.bringToFront(); // 防止被盖住
+        g.bringToFront();
       } else {
         g.setStyle(dimmedStyle);
       }
@@ -249,30 +249,22 @@
   }
 
   function highlightMarkers(gpx) {
-    resetMarkerRings();
 
-    gpx._markerRings = [];
+    let highlightList = [];
 
     gpx._markers.forEach(m => {
       if (!m) return;
-
+      
       const marker = markerById.get(m);
-
-      const ring = L.circleMarker(marker.getLatLng(), {
-        radius: 10,
-        color: "#ff7800",
-        weight: 2,
-        fillOpacity: 0
-      }).addTo(map);
-
-      gpx._markerRings.push(ring);
+      marker.setZIndexOffset(700);
+      marker.setOpacity(1.0);
+      highlightList.push(marker);
     });
-  }
 
-  function resetMarkerRings() {
-    allGpxLayers.forEach(g => {
-      g._markerRings?.forEach(r => map.removeLayer(r));
-      g._markerRings = [];
+    overlays["flights"]._markers.forEach(m => {
+      if (!highlightList.includes(m)) {
+        m.setOpacity(0.3);
+      }
     });
   }
 
@@ -283,7 +275,11 @@
     allGpxLayers.forEach(g => {
       g.setStyle(normalStyle);
     });
-    resetMarkerRings();
+    if (!overlays["flights"]._markers) return;
+    overlays["flights"]._markers.forEach(marker => {
+      marker.setZIndexOffset(500 + marker._cnt);
+      marker.setOpacity(1.0);
+    });
   }
 
   async function loadAll() {
@@ -314,6 +310,9 @@
           markerById.set(airport_iata, marker);
           markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via));
           marker._names = { zh: p.name_zh, en: p.name_en };
+          marker._cnt = cnt;
+          marker._size = size
+          marker.setZIndexOffset(500 + marker._cnt);
           if (!group._markers) group._markers = [];
             group._markers.push(marker);
 
@@ -338,8 +337,8 @@
 
 
   function updateMarkerLang(lang) {
-    if (!map._markers) return;
-    map._markers.forEach(marker => {
+    if (!overlays["flights"]._markers) return;
+    overlays["flights"]._markers.forEach(marker => {
       marker.bindPopup(`<b>${marker._names[lang]}</b>`);
     });
   };
