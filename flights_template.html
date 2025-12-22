@@ -237,6 +237,48 @@
     });
   }
 
+  function highlightGpxList(list) {
+    resetHighlight();
+
+    list.forEach(g => {
+      if (!g) return;
+      g.setStyle(activeStyle);
+      g.bringToFront();
+    });
+
+    allGpxLayers.forEach(g => {
+      if (!list.includes(g)) {
+        g.setStyle(dimmedStyle);
+      }
+    });
+  }
+
+  function highlightMarkers(gpx) {
+    resetMarkerRings();
+
+    gpx._markerRings = [];
+
+    [gpx._startMarker, gpx._endMarker].forEach(m => {
+      if (!m) return;
+
+      const ring = L.circleMarker(m.getLatLng(), {
+        radius: 10,
+        color: "#ff7800",
+        weight: 2,
+        fillOpacity: 0
+      }).addTo(map);
+
+      gpx._markerRings.push(ring);
+    });
+  }
+
+  function resetMarkerRings() {
+    allGpxLayers.forEach(g => {
+      g._markerRings?.forEach(r => map.removeLayer(r));
+      g._markerRings = [];
+    });
+  }
+
   map.on("click", () => resetHighlight());
 
   function resetHighlight() {
@@ -270,6 +312,14 @@
           marker._names = { zh: p.name_zh, en: p.name_en };
           if (!group._markers) group._markers = [];
             group._markers.push(marker);
+
+          marker.on("click", e => {
+            L.DomEvent.stopPropagation(e);
+
+            const gpxIds = markerToGpx.get(airport_iata) || [];
+
+            highlightGpxList(gpxIds.map(id => gpxById.get(id)));
+          });
         });
       }
     })
