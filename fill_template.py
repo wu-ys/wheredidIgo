@@ -10,8 +10,8 @@ if __name__ == "__main__":
     with open("index_template.html", 'r', encoding='utf-8') as file:
         template = file.read()
 
-    template = template.replace(f"{{railway}}", str(railway_gpx_files))
-    template = template.replace(f"{{flights}}", str(flights_gpx_files))
+    template = template.replace(f"{{railway_num}}", str(len(railway_gpx_files)))
+    template = template.replace(f"{{flights_num}}", str(len(flights_gpx_files)))
     template = template.replace(f"\\\\", "/")
 
     with open("index.html", 'w', encoding='utf-8') as file:

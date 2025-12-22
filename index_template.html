@@ -135,15 +135,16 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
   }).addTo(map);
 
-  const groups = {
-    flights: { color: "blue", files: {flights}
-    },
-    railway: { color: "green", files: {railway}
-    },
-    // runs: { color: "blue", files: [
-    //   "runs/morning_run_1.gpx",
-    //   "runs/morning_run_2.gpx"
-    // ]}
+  const railwayStyle = {
+    color: "green",
+    weight: 4,
+    opacity: 0.8
+  };
+
+  const flightStyle = {
+    color: "blue",
+    weight: 4,
+    opacity: 0.4
   };
 
   const icons = {
@@ -162,145 +163,150 @@
   const overlays = {};  // 每个文件夹一组图层
   let globalBounds = null;
   let allGpxLayers = []; // 用于后续更新语言
-  let langMap = {};
 
-  // === 加载英文名称映射 ===
-  fetch("railway/lang_gpx.json")
-    .then(resp => resp.json())
-    .then(data => {
-      langMap = data;
-      loadAllGpx();
-    })
-    .catch(err => {
-      console.warn("语言文件加载失败，使用默认文件名。", err);
-      loadAllGpx();
-    });
+  let flights_num = {flights_num};
+  let flights_loaded = 0;
+  let railway_num = {railway_num};
+  let railway_loaded = 0;
+  let total = flights_num + railway_num;
+  let gpxs = [];
+ 
+  async function loadAll() {
 
-      // === 加载 GPX 文件 ===
-  function loadAllGpx() {
-    for (const [folder, cfg] of Object.entries(groups)) {
-      const layerGroup = L.layerGroup();
-      overlays[folder] = layerGroup;
+    try {
+      const [
+        railwayGpxs,
+        flightGpxs,
+        stationData,
+        airportData
+      ] = await Promise.all([
+        fetch("railway/railway.json").then(r => r.json()),
+        fetch("./flights/flights.json").then(r => r.json()),
+        fetch("./railway/station.json").then(r => r.json()),
+        fetch("./flights/airport.json").then(r => r.json()),
+      ]);
 
-      cfg.files.forEach(file => {
-        const gpx = new L.GPX(file, {
-          async: true,
-          polyline_options: {
-            color: cfg.color,
-            weight: 4,
-            opacity: 0.8
-          },
-          markers: { startIcon: null, endIcon: null }
-        })
-        .on("loaded", e => {
-          const g = e.target;
-          const filename = file.split("/").pop().replace(".gpx", "");
-          let displayName;
+      loadAllRailwayGpx(railwayGpxs);
+      loadAllFlightGpx(flightGpxs);
 
-          
-          if (folder === "railway") {
-            // === 从 lang_gpx.json 取英文名称 ===
-            if (!langMap[filename]) {
-              console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
-            }
-            displayName = langMap[filename]?.[currentLang] || filename.replace(".gpx", "");
-          } else {
-            displayName = filename.replace(".gpx", "");
-          }
+      for (const [groupName, points] of Object.entries(stationData)) {
+        const group = overlays[groupName];
+        if (!group) continue;
 
-          g._filename = filename;
-          g.bindPopup(`<b>${displayName}</b>`);
-          allGpxLayers.push(g);
+        points.forEach(p => {
+          const name = currentLang === "zh" ? p.name_zh : p.name_en;
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${name}</b>`)
+            .addTo(group);
+        // 为后续语言切换保存引用
+        marker._names = { zh: p.name_zh, en: p.name_en };
+        if (!group._markers) group._markers = [];
+          group._markers.push(marker);
+        });
+      }
 
-          // === 调整视图范围 ===
-          const b = g.getBounds();
-          if (globalBounds) globalBounds.extend(b);
-          else globalBounds = b;
-          map.fitBounds(globalBounds, { padding: [20, 20] });
-        })
-        .addTo(layerGroup);
-      });
+
+      for (const [groupName, points] of Object.entries(airportData)) {
+        const group = overlays[groupName];
+        if (!group) continue;
+
+        points.forEach(p => {
+          const name = currentLang === "zh" ? p.name_zh : p.name_en;
+          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+            .bindPopup(`<b>${name}</b>`)
+            .addTo(group);
+          const airport_iata = p.iata;
+
+          marker._names = { zh: p.name_zh, en: p.name_en };
+          if (!group._markers) group._markers = [];
+            group._markers.push(marker);
+        });
+      }
+
+      L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+      
+    } catch (err) {
+      console.error("loadAll 失败:", err);
     }
-        // === 添加图层控制 ===
-    L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+    
   }
 
-  fetch("./railway/station.json")
-    .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
+  async function loadAllFlightGpx(gpxs) {
+    const layerGroup = L.layerGroup();
+    overlays["flights"] = layerGroup;
 
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
-        });
-      }
-    })
-    .then(() => overlays["railway"].setZIndex(500))
-  .catch(err => console.error("加载 station.json 出错:", err));
+    gpxs["flights"].forEach(item => {
+      const gpxId = item.flight_id;
+      const file = "./flights/gpx/" + item.gpx_filename;
+      const gpx = new L.GPX(file, {
+        async: true,
+        markers: { startIcon: null, endIcon: null }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        let displayName = item.gpx_filename.replace(".gpx", "");
 
-  fetch("./flights/airport.json")
-    .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
+        g._filename = item.gpx_filename.replace(".gpx", "");
+        g.bindPopup(`<b>${displayName}</b>`);
+        allGpxLayers.push(g);
+        g.setStyle(flightStyle);
 
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
-        });
-      }
-    })
-    .then(() => overlays["flights"].setZIndex(1000))
-  .catch(err => console.error("加载 airport.json 出错:", err));
+        // === 调整视图范围 ===
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
 
-  // L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+        flights_loaded ++;
+        if (flights_loaded === flights_num) {
+          map.fitBounds(globalBounds, { padding: [20, 20] });
+        }
+      })
+      .addTo(layerGroup);
+    });
+    
+  }
 
-//   tracks.forEach(({ file, color }) => {
-//     const gpx = new L.GPX(file, {
-//       async: true,
-//       polyline_options: { color, weight: 4, opacity: 0.8 },
-//       markers: {
-//         startIcon: null,
-//         endIcon: null,
-//         // wptIcons: null,
-//       },
-//     })
-//       .on("loaded", (e) => {
-//         const g = e.target;
-//         const name = g.get_name() || file;
-//         g.bindPopup(`<b>${name}</b>`);
-// 
-//         bounds.push(g.getBounds());
-//         if (bounds.length === tracks.length) {
-//           const all = bounds.reduce((b, cur) => b.extend(cur), bounds[0]);
-//           map.fitBounds(all);
-//         }
-// 
-//         g.eachLayer((layer) => {
-//           if (layer instanceof L.Marker) {
-//             map.removeLayer(layer);
-//           }
-//         });
-//       })
-//       .addTo(map);
-//   });
+  async function loadAllRailwayGpx(gpxs) {
+    const layerGroup = L.layerGroup();
+    overlays["railway"] = layerGroup;
 
+    for (const [filename, item] of Object.entries(gpxs)) {
+      const file = "./railway/gpx/" + filename + ".gpx";
+      const gpx = new L.GPX(file, {
+        async: true,
+        markers: { startIcon: null, endIcon: null }
+      })
+      .on("loaded", e => {
+        const g = e.target;
+        let displayName;
+
+        // === 从 lang_gpx.json 取英文名称 ===
+        if (!gpxs[filename]) {
+          console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
+        }
+        displayName = gpxs[filename]?.[currentLang] || filename;
+
+        g._filename = filename;
+        g.bindPopup(`<b>${displayName}</b>`);
+        allGpxLayers.push(g);
+        g.setStyle(railwayStyle);
+
+        // === 调整视图范围 ===
+        const b = g.getBounds();
+        if (globalBounds) globalBounds.extend(b);
+        else globalBounds = b;
+
+        railway_loaded ++;
+        if (railway_loaded === railway_num) {
+          map.fitBounds(globalBounds, { padding: [20, 20] });
+        }
+      })
+      .addTo(layerGroup);
+    }
+
+  }
+
+  loadAll();
   // 语言切换时更新 Popup
   
   function updateMarkerLang(lang) {

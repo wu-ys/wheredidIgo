@@ -1,22 +1,15 @@
 import os
 import re
 import glob
+import csv
+import json
 
 def batch_process_files(folder_path):
-    """
-    批量处理文件：
-    1. 删除文件内容中包含"wpt"的行
-    2. 删除文件名中的括号及括号内容
-    """
-    # 首先处理文件内容
     remove_wpt_from_content(folder_path)
-    
-    # 然后处理文件名
     remove_parentheses_from_filenames(folder_path)
 
 def remove_wpt_from_content(folder_path):
-    """删除文件内容中包含'wpt'的行"""
-    print("正在处理文件内容...")
+
     files = glob.glob(os.path.join(folder_path, '**/*.gpx'))
     
     for file_path in files:
@@ -36,8 +29,7 @@ def remove_wpt_from_content(folder_path):
                 print(f"处理文件内容 {file_path} 时出错: {e}")
 
 def remove_parentheses_from_filenames(folder_path):
-    """删除文件名中的括号及括号内容"""
-    print("\n正在处理文件名...")
+
     files = glob.glob(os.path.join(folder_path, '**/*.gpx'))
     
     for file_path in files:
@@ -68,10 +60,7 @@ def remove_parentheses_from_filenames(folder_path):
                     print(f"重命名 {old_filename} 时出错: {e}")
 
 def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
-    """
-    导出铁路GPX文件名到CSV文件
-    """
-    import csv
+
     existing_names = set()
     records = {}
     
@@ -79,7 +68,7 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
         with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                name = row.get('name')
+                name = row.get('name_zh')
                 name_en = row.get('name_en', "")
                 existing_names.add(name)
                 records[name] = {"zh": name, "en": name_en}
@@ -102,11 +91,11 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
     
     print("导出完成！")
     
-    import json
     with open(json_file_path, 'w', encoding='utf-8') as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
 
-# 使用方法
-folder_path = "./railway"
-batch_process_files(folder_path)
-export_railway_gpx_to_csv(folder_path, csv_file_path='./railway/lang_gpx.csv', json_file_path='./railway/lang_gpx.json')
+
+if __name__ == "__main__":
+    folder_path = "./railway"
+    batch_process_files(folder_path)
+    export_railway_gpx_to_csv(folder_path, csv_file_path='./railway/railway.csv', json_file_path='./railway/railway.json')

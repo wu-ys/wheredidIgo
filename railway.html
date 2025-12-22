@@ -161,7 +161,7 @@
     })
   };
 
-  const overlays = {};  // 每个文件夹一组图层
+  const overlays = {};
   let globalBounds = null;
   let allGpxLayers = []; // 用于后续更新语言
 
@@ -174,7 +174,6 @@
     .then(resp => resp.json())
     .then(data => {
       gpxs = data;
-      console.log("railway.json 加载完成", gpxs);
       loadAllRailwayGpx(gpxs);
     })
     .catch(err => {
@@ -197,7 +196,7 @@
         const g = e.target;
         let displayName;
 
-        // === 从 lang_gpx.json 取英文名称 ===
+        // === 从 railway.json 取英文名称 ===
         if (!gpxs[filename]) {
           console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
         }
