@@ -176,16 +176,9 @@
   const markerById = new Map();    // id → marker
   const markerToGpx = new Map();   // markerId → [gpxId, ...]
 
-  fetch("./flights/flights.json")
-  .then(r => r.json())
-  .then(data => {
-    gpxs = data;
-    loadAllFlightGpx(gpxs);
-  });
+  loadAll();
 
   function loadAllFlightGpx(gpxs) {
-    const layerGroup = L.layerGroup();
-    overlays["flights"] = layerGroup;
 
     gpxs["flights"].forEach(item => {
       const gpxId = item.flight_id;
@@ -200,12 +193,14 @@
         g._filename = item.gpx_filename.replace(".gpx", "");
         gpxById.set(gpxId, g);
         g.bindPopup(`<b>${displayName}</b>`);
+        g.setStyle(normalStyle);
+        g._markers = [item.departure, item.arrival, item.via]
         allGpxLayers.push(g);
         g.on("click", e => {
           L.DomEvent.stopPropagation(e);
           highlightGpx(g);
+          highlightMarkers(g);
         });
-        g.setStyle(normalStyle);
 
         // === 调整视图范围 ===
         const b = g.getBounds();
@@ -217,7 +212,7 @@
           map.fitBounds(globalBounds, { padding: [20, 20] });
         }
       })
-      .addTo(layerGroup);
+      .addTo(overlays["flights"]);
     });
     
     overlays["flights"].addTo(map);
@@ -258,10 +253,12 @@
 
     gpx._markerRings = [];
 
-    [gpx._startMarker, gpx._endMarker].forEach(m => {
+    gpx._markers.forEach(m => {
       if (!m) return;
 
-      const ring = L.circleMarker(m.getLatLng(), {
+      const marker = markerById.get(m);
+
+      const ring = L.circleMarker(marker.getLatLng(), {
         radius: 10,
         color: "#ff7800",
         weight: 2,
@@ -286,14 +283,22 @@
     allGpxLayers.forEach(g => {
       g.setStyle(normalStyle);
     });
+    resetMarkerRings();
   }
 
-  fetch("./flights/airport.json")
-    .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue;
+  async function loadAll() {
+    const layerGroup = L.layerGroup();
+    overlays["flights"] = layerGroup;
+
+    try {
+      const [airportData,flightGpxs] = 
+      await Promise.all([
+        fetch("./flights/airport.json").then(r => r.json()),
+        fetch("./flights/flights.json").then(r => r.json())
+      ]);
+
+      for (const [groupName, points] of Object.entries(airportData)) {
+        const group = overlays["flights"];
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
@@ -307,8 +312,7 @@
             .addTo(group);
           const airport_iata = p.iata;
           markerById.set(airport_iata, marker);
-          markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via)); 
-
+          markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via));
           marker._names = { zh: p.name_zh, en: p.name_en };
           if (!group._markers) group._markers = [];
             group._markers.push(marker);
@@ -322,8 +326,15 @@
           });
         });
       }
-    })
-  .catch(err => console.error("加载 airport.json 出错:", err));
+
+
+      loadAllFlightGpx(flightGpxs);
+
+    } catch(err) {
+      console.error("loadAll 失败:", err);
+    }
+
+  }
 
 
   function updateMarkerLang(lang) {

@@ -180,7 +180,7 @@
         stationData,
         airportData
       ] = await Promise.all([
-        fetch("railway/railway.json").then(r => r.json()),
+        fetch("./railway/railway.json").then(r => r.json()),
         fetch("./flights/flights.json").then(r => r.json()),
         fetch("./railway/station.json").then(r => r.json()),
         fetch("./flights/airport.json").then(r => r.json()),
