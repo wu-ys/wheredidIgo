@@ -154,14 +154,13 @@
     opacity: 0.1
   };
 
-
-  const icons = {
-    flights: L.icon({
+  function createFlightIcon(size) {
+    return L.icon({
       iconUrl: "assets/airport.png",
-      iconSize: [16, 16],
-      iconAnchor: [8, 8]
-    }),
-  };
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+    });
+  }
 
   const overlays = {};
   let globalBounds = null;
@@ -256,7 +255,12 @@
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+          const cnt = p.cnt;
+          let size = 12;
+          if (cnt < 3) size = 12;
+          else if (cnt < 10) size = 16;
+          else size = 20;
+          const marker = L.marker([p.lat, p.lon], { icon: createFlightIcon(size) })
             .bindPopup(`<b>${name}</b>`)
             .addTo(group);
           const airport_iata = p.iata;
