@@ -179,7 +179,7 @@
     .catch(err => {
       console.warn("语言文件加载失败，使用默认文件名。", err);
     });
-    
+
 
   function loadAllRailwayGpx(gpxs) {
 
@@ -271,7 +271,7 @@
   .catch(err => console.error("加载 station.json 出错:", err));
 
   // 语言切换时更新 Popup
-  
+
   function updateMarkerLang(lang) {
     if (!map._markers) return;
     map._markers.forEach(marker => {

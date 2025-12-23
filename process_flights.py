@@ -43,7 +43,7 @@ def csv_to_gpx(csv_path, gpx_path, force = False):
                         break
                     except Exception:
                         continue
-            
+
             try:
                 speed = float(row.get("Speed", 0.0))
             except ValueError:
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     with open(inout_airport_json, "r", encoding="utf-8") as f:
         airport_data = json.load(f)["flights"]
-    
+
     for key in airport_data:
         airport_data[key]["iata"] = key
         airport_data[key]["departure"] = []
@@ -117,9 +117,9 @@ if __name__ == "__main__":
                                                 "lat": 0.0,
                                                 "lon": 0.0,
                                                 "iata": "",
-                                                "departure":[], 
-                                                "arrival":[], 
-                                                "via":[], 
+                                                "departure":[],
+                                                "arrival":[],
+                                                "via":[],
                                                 "cnt": 0}
                 if row["arr"] not in airport_data:
                     airport_data[row["arr"]] = {"name_zh": "",
@@ -127,9 +127,9 @@ if __name__ == "__main__":
                                                 "lat": 0.0,
                                                 "lon": 0.0,
                                                 "iata": "",
-                                                "departure":[], 
-                                                "arrival":[], 
-                                                "via":[], 
+                                                "departure":[],
+                                                "arrival":[],
+                                                "via":[],
                                                 "cnt": 0}
                 if row["via"] != "" and row["via"] not in airport_data:
                     airport_data[row["via"]] = {"name_zh": "",
@@ -137,9 +137,9 @@ if __name__ == "__main__":
                                                 "lat": 0.0,
                                                 "lon": 0.0,
                                                 "iata": "",
-                                                "departure":[], 
-                                                "arrival":[], 
-                                                "via":[], 
+                                                "departure":[],
+                                                "arrival":[],
+                                                "via":[],
                                                 "cnt": 0}
 
                 airport_data[row["dpt"]]["departure"].append(row["flight_id"])
@@ -194,7 +194,7 @@ if __name__ == "__main__":
                 idx+=1
 
                 print(f"已在 {output_csv} 中添加记录: {date}_{flight_no}")
-        
+
     with open(output_flights_json, "w", newline="", encoding="utf-8") as f:
         json.dump(flights_data, f, ensure_ascii=False, indent=2)
     print(f"✅ 已将 flights/flights.csv 转换为 flights/flights.json")
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     for key in airport_data:
         airport_flights_data["flights"].append(airport_data[key])
 
-    
+
     with open(inout_airport_json, "w", encoding="utf-8") as f:
         json.dump(airport_flights_data, f, ensure_ascii=False, indent=2)
     print(f"✅ 已将 flights/flights.csv 转换为 flights/airport_flights.json")

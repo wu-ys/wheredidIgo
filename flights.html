@@ -214,7 +214,7 @@
       })
       .addTo(overlays["flights"]);
     });
-    
+
     overlays["flights"].addTo(map);
 
   }
@@ -234,16 +234,34 @@
 
   function highlightGpxList(list) {
     resetHighlight();
+    let markerList = [];
 
     list.forEach(g => {
       if (!g) return;
       g.setStyle(activeStyle);
       g.bringToFront();
+
+      g._markers.forEach(m => {
+        if (!m) return;
+
+        const marker = markerById.get(m);
+        if (!markerList.includes(marker)) {
+          marker.setZIndexOffset(700);
+          marker.setOpacity(1.0);
+          markerList.push(marker);
+        }
+      })
     });
 
     allGpxLayers.forEach(g => {
       if (!list.includes(g)) {
         g.setStyle(dimmedStyle);
+      }
+    });
+
+    overlays["flights"]._markers.forEach(m => {
+      if (!markerList.includes(m)) {
+        m.setOpacity(0.1);
       }
     });
   }
@@ -254,7 +272,7 @@
 
     gpx._markers.forEach(m => {
       if (!m) return;
-      
+
       const marker = markerById.get(m);
       marker.setZIndexOffset(700);
       marker.setOpacity(1.0);
@@ -263,7 +281,7 @@
 
     overlays["flights"]._markers.forEach(m => {
       if (!highlightList.includes(m)) {
-        m.setOpacity(0.3);
+        m.setOpacity(0.1);
       }
     });
   }
@@ -287,7 +305,7 @@
     overlays["flights"] = layerGroup;
 
     try {
-      const [airportData,flightGpxs] = 
+      const [airportData,flightGpxs] =
       await Promise.all([
         fetch("./flights/airport.json").then(r => r.json()),
         fetch("./flights/flights.json").then(r => r.json())
@@ -320,6 +338,7 @@
             L.DomEvent.stopPropagation(e);
 
             const gpxIds = markerToGpx.get(airport_iata) || [];
+            marker.setZIndexOffset(700);
 
             highlightGpxList(gpxIds.map(id => gpxById.get(id)));
           });
