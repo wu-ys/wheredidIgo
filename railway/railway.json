@@ -1324,9 +1324,9 @@
   },
   "昆楚大铁路（昆明-广通北）": {
     "zh": "昆楚大铁路（昆明-广通北）",
-    "en": "",
+    "en": "Kunming-Chuxiong-Dali Railway",
     "country": "CN",
     "type": "main",
-    "speed": 160
+    "speed": "200"
   }
 }
