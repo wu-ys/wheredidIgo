@@ -370,20 +370,6 @@
     "type": "main",
     "speed": "300"
   },
-  "合杭高速线（妙西镇所-桐庐东）": {
-    "zh": "合杭高速线（妙西镇所-桐庐东）",
-    "en": "Hefei-Hangzhou Highspeed Railway",
-    "country": "CN",
-    "type": "main",
-    "speed": "300"
-  },
-  "合杭高速线（胡庄所-湖州）": {
-    "zh": "合杭高速线（胡庄所-湖州）",
-    "en": "Hefei-Hangzhou Highspeed Railway",
-    "country": "CN",
-    "type": "main",
-    "speed": "300"
-  },
   "合福高速线（上饶-福州）": {
     "zh": "合福高速线（上饶-福州）",
     "en": "Hefei-Fuzhou Highspeed Railway",
@@ -1328,5 +1314,12 @@
     "country": "CN",
     "type": "main",
     "speed": "200"
+  },
+  "合杭高速线（胡庄所-桐庐东）": {
+    "zh": "合杭高速线（胡庄所-桐庐东）",
+    "en": "Hefei-Hangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   }
 }
