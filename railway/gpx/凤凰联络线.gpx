@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 4161 filtered ascend = 7 plain-ascend = 4 cost=4161 energy=0.1kwh time=5m 33s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>凤凰联络线 (4.2km)</name>
+  <trkseg>
+   <trkpt lat="18.309522" lon="109.366807"><ele>32</ele></trkpt>
+   <trkpt lat="18.309531" lon="109.36682"><ele>32</ele></trkpt>
+   <trkpt lat="18.310616" lon="109.368589"><ele>28.5</ele></trkpt>
+   <trkpt lat="18.310954" lon="109.369136"><ele>29.75</ele></trkpt>
+   <trkpt lat="18.3113" lon="109.369762"><ele>29.25</ele></trkpt>
+   <trkpt lat="18.311581" lon="109.370335"><ele>29.5</ele></trkpt>
+   <trkpt lat="18.311803" lon="109.370867"><ele>31</ele></trkpt>
+   <trkpt lat="18.311974" lon="109.371395"><ele>32</ele></trkpt>
+   <trkpt lat="18.312079" lon="109.371891"><ele>32.5</ele></trkpt>
+   <trkpt lat="18.312153" lon="109.372429"><ele>33.75</ele></trkpt>
+   <trkpt lat="18.312185" lon="109.373007"><ele>38.5</ele></trkpt>
+   <trkpt lat="18.312174" lon="109.37369"><ele>38.75</ele></trkpt>
+   <trkpt lat="18.312115" lon="109.374358"><ele>39</ele></trkpt>
+   <trkpt lat="18.312016" lon="109.374965"><ele>39.25</ele></trkpt>
+   <trkpt lat="18.311873" lon="109.375655"><ele>39.5</ele></trkpt>
+   <trkpt lat="18.310663" lon="109.380651"><ele>36.25</ele></trkpt>
+   <trkpt lat="18.30942" lon="109.385967"><ele>33</ele></trkpt>
+   <trkpt lat="18.309226" lon="109.38702"><ele>32.25</ele></trkpt>
+   <trkpt lat="18.309087" lon="109.388086"><ele>31.75</ele></trkpt>
+   <trkpt lat="18.308989" lon="109.389151"><ele>31</ele></trkpt>
+   <trkpt lat="18.308954" lon="109.390187"><ele>30.5</ele></trkpt>
+   <trkpt lat="18.308944" lon="109.391113"><ele>29.75</ele></trkpt>
+   <trkpt lat="18.308975" lon="109.392366"><ele>29</ele></trkpt>
+   <trkpt lat="18.30907" lon="109.393797"><ele>28.25</ele></trkpt>
+   <trkpt lat="18.309479" lon="109.397277"><ele>26.25</ele></trkpt>
+   <trkpt lat="18.310001" lon="109.40139"><ele>26.25</ele></trkpt>
+   <trkpt lat="18.310439" lon="109.404993"><ele>35.5</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

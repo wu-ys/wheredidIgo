@@ -1,746 +1,1332 @@
 {
   "JR东海道线（米原-大阪）": {
     "zh": "JR东海道线（米原-大阪）",
-    "en": "JR Tokaido Line"
+    "en": "JR Tokaido Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR关西线（久宝寺-柘植）": {
     "zh": "JR关西线（久宝寺-柘植）",
-    "en": "JR Kansai Line"
+    "en": "JR Kansai Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR北陆线（米原-敦贺）": {
     "zh": "JR北陆线（米原-敦贺）",
-    "en": "JR Hokuriku Line"
+    "en": "JR Hokuriku Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR大阪环状线": {
     "zh": "JR大阪环状线",
-    "en": "JR Osaka Loop Line"
+    "en": "JR Osaka Loop Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR奈良线（京都-木津）": {
     "zh": "JR奈良线（京都-木津）",
-    "en": "JR Nara Line"
+    "en": "JR Nara Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR山阳线（三宫-姬路）": {
     "zh": "JR山阳线（三宫-姬路）",
-    "en": "JR Sanyo Line"
+    "en": "JR Sanyo Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR湖西线（山科-近江盐津）": {
     "zh": "JR湖西线（山科-近江盐津）",
-    "en": "JR Kosei Line"
+    "en": "JR Kosei Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "JR纪势线（和歌山-和歌山市）": {
     "zh": "JR纪势线（和歌山-和歌山市）",
-    "en": "JR Kisei Line"
+    "en": "JR Kisei Line",
+    "country": "JP",
+    "type": "link",
+    "speed": "130"
   },
   "JR草津线（草津-柘植）": {
     "zh": "JR草津线（草津-柘植）",
-    "en": "JR Kusatsu Line"
+    "en": "JR Kusatsu Line",
+    "country": "JP",
+    "type": "branch",
+    "speed": "130"
   },
   "JR阪和线（天王寺-和歌山）": {
     "zh": "JR阪和线（天王寺-和歌山）",
-    "en": "JR Hanwa Line"
+    "en": "JR Hanwa Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "130"
   },
   "上海南联络线（沪春一二线）": {
     "zh": "上海南联络线（沪春一二线）",
-    "en": "Shanghai S. Link Line"
+    "en": "Shanghai S. Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "上海南联络线（沪春三四线）": {
     "zh": "上海南联络线（沪春三四线）",
-    "en": "Shanghai S. Link Line"
+    "en": "Shanghai S. Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "上饶东南联络线": {
     "zh": "上饶东南联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "200"
   },
   "东新联络线（东门-新香坊）": {
     "zh": "东新联络线（东门-新香坊）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "120"
   },
   "东星线（北京东-北京朝阳）": {
     "zh": "东星线（北京东-北京朝阳）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京九线（南昌-向塘-三江镇）": {
     "zh": "京九线（南昌-向塘-三江镇）",
-    "en": "Beijing-Kowloon Railway"
+    "en": "Beijing-Kowloon Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京九线（黄土坡线路所-乐化）": {
     "zh": "京九线（黄土坡线路所-乐化）",
-    "en": "Beijing-Kowloon Railway"
+    "en": "Beijing-Kowloon Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京包-包兰线（呼和浩特-银川）": {
     "zh": "京包-包兰线（呼和浩特-银川）",
-    "en": "Beijing-Baotou-Lanzhou Railway"
+    "en": "Beijing-Baotou-Lanzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京包客运专线（北京北-呼和浩特）": {
     "zh": "京包客运专线（北京北-呼和浩特）",
-    "en": "Beijing-Baotou Highspeed Railway"
+    "en": "Beijing-Baotou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "京包线（北京丰台-宣化）": {
     "zh": "京包线（北京丰台-宣化）",
-    "en": "Beijing-Baotou Railway"
+    "en": "Beijing-Baotou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "京包线（黄土店-康庄）": {
     "zh": "京包线（黄土店-康庄）",
-    "en": "Beijing-Baotou Railway"
+    "en": "Beijing-Baotou Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京包青龙桥上行线": {
     "zh": "京包青龙桥上行线",
-    "en": "Beijing-Baotou Railway (Qinglongqiao Branch)"
+    "en": "Beijing-Baotou Railway (Qinglongqiao Branch)",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京原线（石景山南-燕山）": {
     "zh": "京原线（石景山南-燕山）",
-    "en": "Beijing-Yuanping Railway"
+    "en": "Beijing-Yuanping Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京哈线（北京-哈尔滨）": {
     "zh": "京哈线（北京-哈尔滨）",
-    "en": "Beijing-Harbin Railway"
+    "en": "Beijing-Harbin Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京哈高速线（北京朝阳-姚家窝堡所）": {
     "zh": "京哈高速线（北京朝阳-姚家窝堡所）",
-    "en": "Beijing-Harbin Highspeed Railway"
+    "en": "Beijing-Harbin Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "京哈高速线（沈阳北-哈尔滨）": {
     "zh": "京哈高速线（沈阳北-哈尔滨）",
-    "en": "Beijing-Harbin Highspeed Railway"
+    "en": "Beijing-Harbin Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "京唐城际线（燕郊-北刘各庄所）": {
     "zh": "京唐城际线（燕郊-北刘各庄所）",
-    "en": "Beijing-Tangshan Intercity Railway"
+    "en": "Beijing-Tangshan Intercity Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "京广线（武昌-武昌南）": {
     "zh": "京广线（武昌-武昌南）",
-    "en": "Beijing-Guangzhou Railway"
+    "en": "Beijing-Guangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京广线（汉西-武昌）": {
     "zh": "京广线（汉西-武昌）",
-    "en": "Beijing-Guangzhou Railway"
+    "en": "Beijing-Guangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京广线（长辛店-柳辛庄）": {
     "zh": "京广线（长辛店-柳辛庄）",
-    "en": "Beijing-Guangzhou Railway"
+    "en": "Beijing-Guangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京广高速线（北京西-石家庄）": {
     "zh": "京广高速线（北京西-石家庄）",
-    "en": "Beijing-Guangzhou Highspeed Railway"
+    "en": "Beijing-Guangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "京广高速线（横店东-深圳北）": {
     "zh": "京广高速线（横店东-深圳北）",
-    "en": "Beijing-Guangzhou Highspeed Railway"
+    "en": "Beijing-Guangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "京承线（怀柔-顺义）": {
     "zh": "京承线（怀柔-顺义）",
-    "en": "Beijing-Chengde Railway"
+    "en": "Beijing-Chengde Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京承线（赵家店所-承德）": {
     "zh": "京承线（赵家店所-承德）",
-    "en": "Beijing-Chengde Railway"
+    "en": "Beijing-Chengde Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京沪线济南外绕段": {
     "zh": "京沪线济南外绕段",
-    "en": "Beijing-Shanghai Railway"
+    "en": "Beijing-Shanghai Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京沪线（北京-上海）": {
     "zh": "京沪线（北京-上海）",
-    "en": "Beijing-Shanghai Railway"
+    "en": "Beijing-Shanghai Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "京沪高速线（北京南-上海虹桥）": {
     "zh": "京沪高速线（北京南-上海虹桥）",
-    "en": "Beijing-Shanghai Highspeed Railway"
+    "en": "Beijing-Shanghai Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "京津城际线（北京南-天津）": {
     "zh": "京津城际线（北京南-天津）",
-    "en": "Beijing-Tianjin Intercity "
+    "en": "Beijing-Tianjin Intercity ",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "京通线（昌平-隆化）": {
     "zh": "京通线（昌平-隆化）",
-    "en": "Beijing-Tongliao Railway"
+    "en": "Beijing-Tongliao Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "京阪本线（淀屋桥-三条）": {
     "zh": "京阪本线（淀屋桥-三条）",
-    "en": "Keihan Railway"
+    "en": "Keihan Railway",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "京雄城际线（北京西-雄安）": {
     "zh": "京雄城际线（北京西-雄安）",
-    "en": "Beijing-Xiong'an Intercity Railway"
+    "en": "Beijing-Xiong'an Intercity Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "伊加线（伊图里河-加格达奇）": {
     "zh": "伊加线（伊图里河-加格达奇）",
-    "en": "Yitulihe-Jagdaqi Railway"
+    "en": "Yitulihe-Jagdaqi Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "兰新客运专线（兰州西-海东西）": {
     "zh": "兰新客运专线（兰州西-海东西）",
-    "en": "Lanzhou-Xinjiang Passenger Railway"
+    "en": "Lanzhou-Xinjiang Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "兰青线（兰州-西宁）": {
     "zh": "兰青线（兰州-西宁）",
-    "en": "Lanzhou-Qinghai Railway"
+    "en": "Lanzhou-Qinghai Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "北京直径线（北京-北京西）": {
     "zh": "北京直径线（北京-北京西）",
-    "en": "Beijing Cross City Railway"
+    "en": "Beijing Cross City Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "南凭高速线（南宁-崇左南）": {
     "zh": "南凭高速线（南宁-崇左南）",
-    "en": "Nanning-Pingxiang Highspeed Railway"
+    "en": "Nanning-Pingxiang Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "南广线（佛山西-广州南）": {
     "zh": "南广线（佛山西-广州南）",
-    "en": "Nanning-Guangzhou Railway"
+    "en": "Nanning-Guangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "南昌西环线": {
     "zh": "南昌西环线",
-    "en": "Nanchang Loop Railway"
+    "en": "Nanchang Loop Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "南海加太线（纪之川-加太）": {
     "zh": "南海加太线（纪之川-加太）",
-    "en": "Nankai Railway Kada Branch"
+    "en": "Nankai Railway Kada Branch",
+    "country": "JP",
+    "type": "branch",
+    "speed": "120"
   },
   "南海本线（新今宫-和歌山市）": {
     "zh": "南海本线（新今宫-和歌山市）",
-    "en": "Nankai Railway"
+    "en": "Nankai Railway",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "南海机场线（泉佐野-关西机场）": {
     "zh": "南海机场线（泉佐野-关西机场）",
-    "en": "Nankai Railway KIX Branch"
+    "en": "Nankai Railway KIX Branch",
+    "country": "JP",
+    "type": "branch",
+    "speed": "120"
   },
   "南昆客运专线（昆明南-昆明）": {
     "zh": "南昆客运专线（昆明南-昆明）",
-    "en": "Nanning-Kunming Passenger Railway"
+    "en": "Nanning-Kunming Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "南珠高速线（南宁东-玉林北）": {
     "zh": "南珠高速线（南宁东-玉林北）",
-    "en": "Nanning-Zhuhai Highspeed Railway"
+    "en": "Nanning-Zhuhai Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "合杭高速线（妙西镇所-桐庐东）": {
     "zh": "合杭高速线（妙西镇所-桐庐东）",
-    "en": "Hefei-Hangzhou Highspeed Railway"
+    "en": "Hefei-Hangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "合杭高速线（胡庄所-湖州）": {
     "zh": "合杭高速线（胡庄所-湖州）",
-    "en": "Hefei-Hangzhou Highspeed Railway"
+    "en": "Hefei-Hangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "合福高速线（上饶-福州）": {
     "zh": "合福高速线（上饶-福州）",
-    "en": "Hefei-Fuzhou Highspeed Railway"
+    "en": "Hefei-Fuzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "合福高速线（合肥南-黄山北）": {
     "zh": "合福高速线（合肥南-黄山北）",
-    "en": "Hefei-Fuzhou Highspeed Railway"
+    "en": "Hefei-Fuzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "向东联络线（向塘-梁家渡）": {
     "zh": "向东联络线（向塘-梁家渡）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "160"
   },
   "哈牡客运专线（哈尔滨-牡丹江）": {
     "zh": "哈牡客运专线（哈尔滨-牡丹江）",
-    "en": "Harbin-Mudanjiang Passenger Railway"
+    "en": "Harbin-Mudanjiang Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "哈环线（东门-哈尔滨东）": {
     "zh": "哈环线（东门-哈尔滨东）",
-    "en": "Harbin Loop Railway"
+    "en": "Harbin Loop Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "哈长联络线": {
     "zh": "哈长联络线",
-    "en": "Link Line "
+    "en": "Link Line ",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "太中线（太原南-定边）": {
     "zh": "太中线（太原南-定边）",
-    "en": "Taiyuan-Zhongwei Railway"
+    "en": "Taiyuan-Zhongwei Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "太仓联络线（太仓-陆渡所）": {
     "zh": "太仓联络线（太仓-陆渡所）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "姚田联络线": {
     "zh": "姚田联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "宁启线（林场-海安）": {
     "zh": "宁启线（林场-海安）",
-    "en": "Nanjing-Qidong Railway"
+    "en": "Nanjing-Qidong Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "宁蓉线（仙林-汉口）": {
     "zh": "宁蓉线（仙林-汉口）",
-    "en": "Nanjing-Chengdu Railway"
+    "en": "Nanjing-Chengdu Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "宁蓉线（新墩-重庆北）": {
     "zh": "宁蓉线（新墩-重庆北）",
-    "en": "Nanjing-Chengdu Railway"
+    "en": "Nanjing-Chengdu Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "定银线（定边-银川）": {
     "zh": "定银线（定边-银川）",
-    "en": "Dingbian-Yinchuan Railway"
+    "en": "Dingbian-Yinchuan Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "宣绩高速线（宣城-绩溪北）": {
     "zh": "宣绩高速线（宣城-绩溪北）",
-    "en": "Xuancheng-Jixi Highspeed Railway"
+    "en": "Xuancheng-Jixi Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "富西线（富裕-漠河）": {
     "zh": "富西线（富裕-漠河）",
-    "en": "Fuyu-Xilinji(Mohe) Railway"
+    "en": "Fuyu-Xilinji(Mohe) Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "峨广线（峨眉-广通北）": {
     "zh": "峨广线（峨眉-广通北）",
-    "en": "Emei-Guangtong Railway"
+    "en": "Emei-Guangtong Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "川青线（黄龙九寨-三星堆）": {
     "zh": "川青线（黄龙九寨-三星堆）",
-    "en": "Chengdu-Xining Railway"
+    "en": "Chengdu-Xining Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "巢湖东南联络线": {
     "zh": "巢湖东南联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "200"
   },
   "平齐线（四平-齐齐哈尔）": {
     "zh": "平齐线（四平-齐齐哈尔）",
-    "en": "Siping-Qiqihar Railway"
+    "en": "Siping-Qiqihar Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "广州东环城际线（花都-白云机场北）": {
     "zh": "广州东环城际线（花都-白云机场北）",
-    "en": "Guangzhou-Foshan Loop Intercity Railway"
+    "en": "Guangzhou-Foshan Loop Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "广惠城际线（番禺-西平西）": {
     "zh": "广惠城际线（番禺-西平西）",
-    "en": "Guangzhou-Huizhou Intercity Railway"
+    "en": "Guangzhou-Huizhou Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "广深城际线（广州东-深圳）": {
     "zh": "广深城际线（广州东-深圳）",
-    "en": "Guangzhou-Shenzhen Intercity Railway"
+    "en": "Guangzhou-Shenzhen Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "广深港高速线（福田-香港西九龙）": {
     "zh": "广深港高速线（福田-香港西九龙）",
-    "en": "Guangzhou-Shenzhen-HK Highspeed Railway"
+    "en": "Guangzhou-Shenzhen-HK Highspeed Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "250"
   },
   "广清城际线（广州北-清城）": {
     "zh": "广清城际线（广州北-清城）",
-    "en": "Guangzhou-Qingyuan Intercity Railway"
+    "en": "Guangzhou-Qingyuan Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "广肇城际线（番禺-佛山西）": {
     "zh": "广肇城际线（番禺-佛山西）",
-    "en": "Guangzhou-Zhaoqing Intercity Railway"
+    "en": "Guangzhou-Zhaoqing Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "康山联络线": {
     "zh": "康山联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "200"
   },
   "康延线": {
     "zh": "康延线",
-    "en": "Kangzhuang-Yanqing Railway"
+    "en": "Kangzhuang-Yanqing Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "延庆线（八达岭西所-延庆）": {
     "zh": "延庆线（八达岭西所-延庆）",
-    "en": "Yanqing Branch Railway"
+    "en": "Yanqing Branch Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "张唐线（李家营-唐山）": {
     "zh": "张唐线（李家营-唐山）",
-    "en": "Zhangjiakou-Tangshan Railway"
+    "en": "Zhangjiakou-Tangshan Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "徐兰高速线（天水南-兰州西）": {
     "zh": "徐兰高速线（天水南-兰州西）",
-    "en": "Xuzhou-Lanzhou Highspeed Railway"
+    "en": "Xuzhou-Lanzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "徐兰高速线（徐州东所-郑州东）": {
     "zh": "徐兰高速线（徐州东所-郑州东）",
-    "en": "Xuzhou-Lanzhou Highspeed Railway"
+    "en": "Xuzhou-Lanzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "徐盐高速线（徐州东-盐城）": {
     "zh": "徐盐高速线（徐州东-盐城）",
-    "en": "Xuzhou-Yancheng Highspeed Railway"
+    "en": "Xuzhou-Yancheng Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "德州东联络线": {
     "zh": "德州东联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "怀范联络线（怀柔-雁栖湖）": {
     "zh": "怀范联络线（怀柔-雁栖湖）",
-    "en": "Huairou-Yanqihu Railway"
+    "en": "Huairou-Yanqihu Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "成昆线（成都南-燕岗）": {
     "zh": "成昆线（成都南-燕岗）",
-    "en": "Chengdu-Kunming Railway"
+    "en": "Chengdu-Kunming Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "成渝高速线（资阳北-沙坪坝）": {
     "zh": "成渝高速线（资阳北-沙坪坝）",
-    "en": "Chengdu-Chongqing Highspeed Railway"
+    "en": "Chengdu-Chongqing Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "成贵客运专线（成都东-双流机场）": {
     "zh": "成贵客运专线（成都东-双流机场）",
-    "en": "Chengdu-Guiyang Passenger Railway"
+    "en": "Chengdu-Guiyang Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "成贵客运专线（白云北-尖坡所）": {
     "zh": "成贵客运专线（白云北-尖坡所）",
-    "en": "Chengdu-Guiyang Passenger Railway"
+    "en": "Chengdu-Guiyang Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "成贵贵阳北联络线（尖坡所-贵阳北）": {
     "zh": "成贵贵阳北联络线（尖坡所-贵阳北）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "承隆线（隆化-承德）": {
     "zh": "承隆线（隆化-承德）",
-    "en": "Chengde-Longhua Railway"
+    "en": "Chengde-Longhua Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "拉日线（拉萨-日喀则）": {
     "zh": "拉日线（拉萨-日喀则）",
-    "en": "Lhasa-Shigatse Railway"
+    "en": "Lhasa-Shigatse Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "敦白联络线": {
     "zh": "敦白联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "新成灌线（犀浦-都江堰）": {
     "zh": "新成灌线（犀浦-都江堰）",
-    "en": "New Chengdu-Dujiangyan Railway"
+    "en": "New Chengdu-Dujiangyan Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "新通客运专线（田家窝铺所-通辽）": {
     "zh": "新通客运专线（田家窝铺所-通辽）",
-    "en": "Xinmin-Tongliao Passenger Railway"
+    "en": "Xinmin-Tongliao Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "新长线（盐城-海安）": {
     "zh": "新长线（盐城-海安）",
-    "en": "Xinyi-Changxing Railway"
+    "en": "Xinyi-Changxing Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "昌福线（三江镇-福州）": {
     "zh": "昌福线（三江镇-福州）",
-    "en": "Nanchang-Fuzhou Railway"
+    "en": "Nanchang-Fuzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "李家营联络线（李家营-赵家店所）": {
     "zh": "李家营联络线（李家营-赵家店所）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "李莘联络线（李家湾-莘庄）": {
     "zh": "李莘联络线（李家湾-莘庄）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "杭昌高速线（桐庐-黄山北）": {
     "zh": "杭昌高速线（桐庐-黄山北）",
-    "en": "Hangzhou-Nanchang Highspeed Railway"
+    "en": "Hangzhou-Nanchang Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "杭深线（杭州南-深圳北）": {
     "zh": "杭深线（杭州南-深圳北）",
-    "en": "Hangzhou-Shenzhen Railway"
+    "en": "Hangzhou-Shenzhen Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "杭温高速线（桐庐东-义乌）": {
     "zh": "杭温高速线（桐庐东-义乌）",
-    "en": "Hangzhou-Wenzhou Highspeed Railway"
+    "en": "Hangzhou-Wenzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "杭温高速线（横店-温州北）": {
     "zh": "杭温高速线（横店-温州北）",
-    "en": "Hangzhou-Wenzhou Highspeed Railway"
+    "en": "Hangzhou-Wenzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "桐庐联络线": {
     "zh": "桐庐联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "榆红线（榆树屯-红旗营）": {
     "zh": "榆红线（榆树屯-红旗营）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "武九线（九里垄-九江西）": {
     "zh": "武九线（九里垄-九江西）",
-    "en": "Wuhan-Jiujiang Railway"
+    "en": "Wuhan-Jiujiang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "武九线（何刘-九里垄）": {
     "zh": "武九线（何刘-九里垄）",
-    "en": "Wuhan-Jiujiang Railway"
+    "en": "Wuhan-Jiujiang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "武昌南环线": {
     "zh": "武昌南环线",
-    "en": "Wuchang Loop Railway"
+    "en": "Wuchang Loop Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "永嘉联络线": {
     "zh": "永嘉联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "汉西联络线": {
     "zh": "汉西联络线",
-    "en": "Line Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "池黄高速线（池州-黄山北）": {
     "zh": "池黄高速线（池州-黄山北）",
-    "en": "Chizhou-Huangshan Highspeed Railway"
+    "en": "Chizhou-Huangshan Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "沈佳高速线（敦化南-长白山）": {
     "zh": "沈佳高速线（敦化南-长白山）",
-    "en": "Shenyang-Jiamusi Highspeed Railway"
+    "en": "Shenyang-Jiamusi Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "沈大线（大连北-大连）": {
     "zh": "沈大线（大连北-大连）",
-    "en": "Shenyang-Dalian Railway"
+    "en": "Shenyang-Dalian Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "沈大高速线（沈阳北-大连北）": {
     "zh": "沈大高速线（沈阳北-大连北）",
-    "en": "Shenyang-Dalian Highspeed Railway"
+    "en": "Shenyang-Dalian Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "沪宁城际线（上海-南京）": {
     "zh": "沪宁城际线（上海-南京）",
-    "en": "Shanghai-Nanjing Intercity Railway"
+    "en": "Shanghai-Nanjing Intercity Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "沪宁沿江高速线（武进-太仓）": {
     "zh": "沪宁沿江高速线（武进-太仓）",
-    "en": "Shanghai-Nanjing Riverside Highspeed Railway"
+    "en": "Shanghai-Nanjing Riverside Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "沪昆线（封浜-龙里）": {
     "zh": "沪昆线（封浜-龙里）",
-    "en": "Shanghai-Kunming Railway"
+    "en": "Shanghai-Kunming Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "沪昆高速线（上海虹桥-新余北）": {
     "zh": "沪昆高速线（上海虹桥-新余北）",
-    "en": "Shanghai-Kunming Highspeed Railway"
+    "en": "Shanghai-Kunming Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "沪昆高速线（贵阳北-昆明南）": {
     "zh": "沪昆高速线（贵阳北-昆明南）",
-    "en": "Shanghai-Kunming Highspeed Railway"
+    "en": "Shanghai-Kunming Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "沪苏湖高速线（上海虹桥-湖州）": {
     "zh": "沪苏湖高速线（上海虹桥-湖州）",
-    "en": "Shanghai-Suzhou-Huzhou Highspeed Railway"
+    "en": "Shanghai-Suzhou-Huzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "沪苏通线（南通西-黄渡-上海虹桥）": {
     "zh": "沪苏通线（南通西-黄渡-上海虹桥）",
-    "en": "Shanghai-Suzhou-Nantong Railway"
+    "en": "Shanghai-Suzhou-Nantong Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "津兴城际（盛芳-固安东）": {
     "zh": "津兴城际（盛芳-固安东）",
-    "en": "Tianjin-PKX Intercity Railway"
+    "en": "Tianjin-PKX Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "250"
   },
   "津秦高速线（天津西-秦皇岛）": {
     "zh": "津秦高速线（天津西-秦皇岛）",
-    "en": "Tianjin-Qinhuangdao Highspeed Railway"
+    "en": "Tianjin-Qinhuangdao Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "津秦高速线（秦皇岛-龙家营）": {
     "zh": "津秦高速线（秦皇岛-龙家营）",
-    "en": "Tianjin-Qinhuangdao Highspeed Railway"
+    "en": "Tianjin-Qinhuangdao Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "津蓟线": {
     "zh": "津蓟线",
-    "en": "Tianjin-Jizhou Railway"
+    "en": "Tianjin-Jizhou Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "津霸线（天津西-霸州西）": {
     "zh": "津霸线（天津西-霸州西）",
-    "en": "Tianjin-Bazhou Railway"
+    "en": "Tianjin-Bazhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "济青高速线（济南东-青岛北）": {
     "zh": "济青高速线（济南东-青岛北）",
-    "en": "Jinan-Qingdao Highspeed Railway"
+    "en": "Jinan-Qingdao Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "渝贵线（贵阳-贵阳北）": {
     "zh": "渝贵线（贵阳-贵阳北）",
-    "en": "Chongqing-Guiyang Railway"
+    "en": "Chongqing-Guiyang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "湘桂线（柳州-黎塘）": {
     "zh": "湘桂线（柳州-黎塘）",
-    "en": "Hunan-Guangxi Railway"
+    "en": "Hunan-Guangxi Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "滇藏线（丽江-香格里拉）": {
     "zh": "滇藏线（丽江-香格里拉）",
-    "en": "Yunnan-Xizang Railway"
+    "en": "Yunnan-Xizang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "滨北线（哈尔滨东-呼兰）": {
     "zh": "滨北线（哈尔滨东-呼兰）",
-    "en": "Harbin-Bei'an Railway"
+    "en": "Harbin-Bei'an Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "滨洲线（哈尔滨-海拉尔）": {
     "zh": "滨洲线（哈尔滨-海拉尔）",
-    "en": "Harbin-Manzhouli Railway"
+    "en": "Harbin-Manzhouli Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "滨绥线（新香坊-牡丹江）": {
     "zh": "滨绥线（新香坊-牡丹江）",
-    "en": "Harbin-Suifenhe Railway"
+    "en": "Harbin-Suifenhe Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "滨绥线（牡丹江-绥芬河）": {
     "zh": "滨绥线（牡丹江-绥芬河）",
-    "en": "Harbin-Suifenhe Railway"
+    "en": "Harbin-Suifenhe Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "牙林线（牙克石-伊图里河）": {
     "zh": "牙林线（牙克石-伊图里河）",
-    "en": "Yakeshi-Mangui Railway"
+    "en": "Yakeshi-Mangui Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "甬广高速线（福州南-厦门北）": {
     "zh": "甬广高速线（福州南-厦门北）",
-    "en": "Ningbo-Guangzhou Highspeed Railway"
+    "en": "Ningbo-Guangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "盐通高速线（盐城-南通西）": {
     "zh": "盐通高速线（盐城-南通西）",
-    "en": "Yancheng-Nantong Highspeed Railway"
+    "en": "Yancheng-Nantong Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "石太客运专线（石家庄北-太原南）": {
     "zh": "石太客运专线（石家庄北-太原南）",
-    "en": "Shijiazhuang-Taiyuan Passenger Railway"
+    "en": "Shijiazhuang-Taiyuan Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "石家庄西北环线（柳辛庄-石家庄北）": {
     "zh": "石家庄西北环线（柳辛庄-石家庄北）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "石济客运专线（陵县所-济南东）": {
     "zh": "石济客运专线（陵县所-济南东）",
-    "en": "Shijiazhuang-Jinan Passenger Railway"
+    "en": "Shijiazhuang-Jinan Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "秦双联络线（秦祺村所-双龙南）": {
     "zh": "秦双联络线（秦祺村所-双龙南）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": "200"
   },
   "笕杭线": {
     "zh": "笕杭线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "笕桥线": {
     "zh": "笕桥线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "胶济客运专线（济南-青岛北）": {
     "zh": "胶济客运专线（济南-青岛北）",
-    "en": "Qingdao-Jinan Passenger Railway"
+    "en": "Qingdao-Jinan Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "花广联络线（广州白云-广州北）": {
     "zh": "花广联络线（广州白云-广州北）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "萧甬线（杭州南-绍兴）": {
     "zh": "萧甬线（杭州南-绍兴）",
-    "en": "Xiaoshan-Ningbo Railway"
+    "en": "Xiaoshan-Ningbo Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "虹安联络线（上海虹桥-安亭北所）": {
     "zh": "虹安联络线（上海虹桥-安亭北所）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "250"
   },
   "衢九线（衢州-九江）": {
     "zh": "衢九线（衢州-九江）",
-    "en": "Quzhou-Jiujiang Railway"
+    "en": "Quzhou-Jiujiang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "西成高速线（广汉北-成都东）": {
     "zh": "西成高速线（广汉北-成都东）",
-    "en": "Xi'an-Chengdu Highspeed Railway"
+    "en": "Xi'an-Chengdu Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "西长线（北京西-长辛店）": {
     "zh": "西长线（北京西-长辛店）",
-    "en": "Beijing W. Link Line"
+    "en": "Beijing W. Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "贵南高速线（河池西-南宁东）": {
     "zh": "贵南高速线（河池西-南宁东）",
-    "en": "Guiyang-Nanning Highspeed Railway"
+    "en": "Guiyang-Nanning Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "贵阳环线（白云北-双龙南）": {
     "zh": "贵阳环线（白云北-双龙南）",
-    "en": "Guiyang Loop Railway"
+    "en": "Guiyang Loop Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "辛泰线（南博山-泰山）": {
     "zh": "辛泰线（南博山-泰山）",
-    "en": "Linzi-Taishan Railway"
+    "en": "Linzi-Taishan Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "近铁奈良线（奈良-近铁日本桥）": {
     "zh": "近铁奈良线（奈良-近铁日本桥）",
-    "en": "Kintetsu Nara Line"
+    "en": "Kintetsu Nara Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "连镇高速线（连云港-丹徒）": {
     "zh": "连镇高速线（连云港-丹徒）",
-    "en": "Lianyungang-Zhenjiang Highspeed Railway"
+    "en": "Lianyungang-Zhenjiang Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "通燕联络线（高辛庄所-北刘各庄所）": {
     "zh": "通燕联络线（高辛庄所-北刘各庄所）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "郑开城际线（郑州东-开封）": {
     "zh": "郑开城际线（郑州东-开封）",
-    "en": "Zhengzhou-Kaifeng Intercity Railway"
+    "en": "Zhengzhou-Kaifeng Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
   },
   "镇江联络线": {
     "zh": "镇江联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": ""
   },
   "长株潭城际线（谷山-湘潭）": {
     "zh": "长株潭城际线（谷山-湘潭）",
-    "en": "Changsha-Zhuzhou-Xiangtan Intercity Railway"
+    "en": "Changsha-Zhuzhou-Xiangtan Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "长珲城际线（杨家粉坊所-敦化）": {
     "zh": "长珲城际线（杨家粉坊所-敦化）",
-    "en": "Changchun-Hunchun Intercity Railway"
+    "en": "Changchun-Hunchun Intercity Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "阪急宝塚线（大阪梅田-庄内）": {
     "zh": "阪急宝塚线（大阪梅田-庄内）",
-    "en": "Hankyu Takarazuka Line"
+    "en": "Hankyu Takarazuka Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "阪神本线（阪神三宫-阪神尼崎）": {
     "zh": "阪神本线（阪神三宫-阪神尼崎）",
-    "en": "Hanshin Railway"
+    "en": "Hanshin Railway",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "阪神难波线（阪神尼崎-西九条）": {
     "zh": "阪神难波线（阪神尼崎-西九条）",
-    "en": "Hanshin Railway Namba Line"
+    "en": "Hanshin Railway Namba Line",
+    "country": "JP",
+    "type": "main",
+    "speed": "120"
   },
   "陇海线（徐州-兰州）": {
     "zh": "陇海线（徐州-兰州）",
-    "en": "Lanzhou-Lianyungang Railway"
+    "en": "Lanzhou-Lianyungang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
   },
   "霸徐线（白洋淀-霸州西）": {
     "zh": "霸徐线（白洋淀-霸州西）",
-    "en": "Bazhou-Xushui Railway"
+    "en": "Bazhou-Xushui Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "青三联络线（青白江东-三星堆）": {
     "zh": "青三联络线（青白江东-三星堆）",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "青盐线（连云港-董集）": {
     "zh": "青盐线（连云港-董集）",
-    "en": "Qingdao-Yancheng Railway"
+    "en": "Qingdao-Yancheng Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "青藏线（西宁-拉萨）": {
     "zh": "青藏线（西宁-拉萨）",
-    "en": "Qinghai-Xizang Railway"
+    "en": "Qinghai-Xizang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "鹰厦线（前场-厦门）": {
     "zh": "鹰厦线（前场-厦门）",
-    "en": "Yingtan-Xiamen Railway"
+    "en": "Yingtan-Xiamen Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
   },
   "黎湛线（黎塘-玉林）": {
     "zh": "黎湛线（黎塘-玉林）",
-    "en": "Litang-Zhanjiang Railway"
+    "en": "Litang-Zhanjiang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "黔桂线（金城江-柳州）": {
     "zh": "黔桂线（金城江-柳州）",
-    "en": "Guizhou-Guangxi Railway"
+    "en": "Guizhou-Guangxi Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "齐北线（齐齐哈尔-富裕）": {
     "zh": "齐北线（齐齐哈尔-富裕）",
-    "en": "Qiqihar-Fuyu Railway"
+    "en": "Qiqihar-Fuyu Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "120"
   },
   "张吉怀高速线": {
     "zh": "张吉怀高速线",
-    "en": "Zhangjiajie-Jishou-Huaihua Highspeed Railway"
+    "en": "Zhangjiajie-Jishou-Huaihua Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "张家界西联络线": {
     "zh": "张家界西联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "沪昆高速线（宜春-怀化南）": {
     "zh": "沪昆高速线（宜春-怀化南）",
-    "en": "Shanghai-Kunming Highspeed Railway"
+    "en": "Shanghai-Kunming Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
   },
   "渝厦高速线": {
     "zh": "渝厦高速线",
-    "en": "Chongqing-Xiamen Highspeed Railway"
+    "en": "Chongqing-Xiamen Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "龙怀联络线": {
     "zh": "龙怀联络线",
-    "en": "Link Line"
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   },
   "宁杭高速线（南京南-杭州东）": {
     "zh": "宁杭高速线（南京南-杭州东）",
-    "en": "Nanjing-Hangzhou Highspeed Railway"
+    "en": "Nanjing-Hangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "300"
   },
   "海南东环高速线（城西-三亚）": {
     "zh": "海南东环高速线（城西-三亚）",
-    "en": "Hainan East Ring Highspeed Railway"
+    "en": "Hainan East Ring Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   },
   "海南西环线": {
     "zh": "海南西环线",
-    "en": "Hainan West Ring Railway"
+    "en": "Hainan West Ring Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   },
   "海南西环高速线（崖州-三亚）": {
     "zh": "海南西环高速线（崖州-三亚）",
-    "en": "Hainan West Ring Highspeed Railway"
+    "en": "Hainan West Ring Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
   },
   "金温线（塘雅线路所-温州南）": {
     "zh": "金温线（塘雅线路所-温州南）",
-    "en": "Jinhua-Wenzhou Railway"
+    "en": "Jinhua-Wenzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
+  },
+  "凤凰联络线": {
+    "zh": "凤凰联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "崖州联络线": {
+    "zh": "崖州联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "贵阳客车线（龙里-贵阳）": {
+    "zh": "贵阳客车线（龙里-贵阳）",
+    "en": "Guiyang Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
+  },
+  "昆楚大铁路（昆明-广通北）": {
+    "zh": "昆楚大铁路（昆明-广通北）",
+    "en": "",
+    "country": "CN",
+    "type": "main",
+    "speed": 160
   }
 }

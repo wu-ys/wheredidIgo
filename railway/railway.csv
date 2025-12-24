@@ -1,187 +1,191 @@
-name_zh,name_en
-JR东海道线（米原-大阪）,JR Tokaido Line
-JR关西线（久宝寺-柘植）,JR Kansai Line
-JR北陆线（米原-敦贺）,JR Hokuriku Line
-JR大阪环状线,JR Osaka Loop Line
-JR奈良线（京都-木津）,JR Nara Line
-JR山阳线（三宫-姬路）,JR Sanyo Line
-JR湖西线（山科-近江盐津）,JR Kosei Line
-JR纪势线（和歌山-和歌山市）,JR Kisei Line
-JR草津线（草津-柘植）,JR Kusatsu Line
-JR阪和线（天王寺-和歌山）,JR Hanwa Line
-上海南联络线（沪春一二线）,Shanghai S. Link Line
-上海南联络线（沪春三四线）,Shanghai S. Link Line
-上饶东南联络线,Link Line
-东新联络线（东门-新香坊）,Link Line
-东星线（北京东-北京朝阳）,Link Line
-京九线（南昌-向塘-三江镇）,Beijing-Kowloon Railway
-京九线（黄土坡线路所-乐化）,Beijing-Kowloon Railway
-京包-包兰线（呼和浩特-银川）,Beijing-Baotou-Lanzhou Railway
-京包客运专线（北京北-呼和浩特）,Beijing-Baotou Highspeed Railway
-京包线（北京丰台-宣化）,Beijing-Baotou Railway
-京包线（黄土店-康庄）,Beijing-Baotou Railway
-京包青龙桥上行线,Beijing-Baotou Railway (Qinglongqiao Branch)
-京原线（石景山南-燕山）,Beijing-Yuanping Railway
-京哈线（北京-哈尔滨）,Beijing-Harbin Railway
-京哈高速线（北京朝阳-姚家窝堡所）,Beijing-Harbin Highspeed Railway
-京哈高速线（沈阳北-哈尔滨）,Beijing-Harbin Highspeed Railway
-京唐城际线（燕郊-北刘各庄所）,Beijing-Tangshan Intercity Railway
-京广线（武昌-武昌南）,Beijing-Guangzhou Railway
-京广线（汉西-武昌）,Beijing-Guangzhou Railway
-京广线（长辛店-柳辛庄）,Beijing-Guangzhou Railway
-京广高速线（北京西-石家庄）,Beijing-Guangzhou Highspeed Railway
-京广高速线（横店东-深圳北）,Beijing-Guangzhou Highspeed Railway
-京承线（怀柔-顺义）,Beijing-Chengde Railway
-京承线（赵家店所-承德）,Beijing-Chengde Railway
-京沪线济南外绕段,Beijing-Shanghai Railway
-京沪线（北京-上海）,Beijing-Shanghai Railway
-京沪高速线（北京南-上海虹桥）,Beijing-Shanghai Highspeed Railway
-京津城际线（北京南-天津）,Beijing-Tianjin Intercity 
-京通线（昌平-隆化）,Beijing-Tongliao Railway
-京阪本线（淀屋桥-三条）,Keihan Railway
-京雄城际线（北京西-雄安）,Beijing-Xiong'an Intercity Railway
-伊加线（伊图里河-加格达奇）,Yitulihe-Jagdaqi Railway
-兰新客运专线（兰州西-海东西）,Lanzhou-Xinjiang Passenger Railway
-兰青线（兰州-西宁）,Lanzhou-Qinghai Railway
-北京直径线（北京-北京西）,Beijing Cross City Railway
-南凭高速线（南宁-崇左南）,Nanning-Pingxiang Highspeed Railway
-南广线（佛山西-广州南）,Nanning-Guangzhou Railway
-南昌西环线,Nanchang Loop Railway
-南海加太线（纪之川-加太）,Nankai Railway Kada Branch
-南海本线（新今宫-和歌山市）,Nankai Railway
-南海机场线（泉佐野-关西机场）,Nankai Railway KIX Branch
-南昆客运专线（昆明南-昆明）,Nanning-Kunming Passenger Railway
-南珠高速线（南宁东-玉林北）,Nanning-Zhuhai Highspeed Railway
-合杭高速线（妙西镇所-桐庐东）,Hefei-Hangzhou Highspeed Railway
-合杭高速线（胡庄所-湖州）,Hefei-Hangzhou Highspeed Railway
-合福高速线（上饶-福州）,Hefei-Fuzhou Highspeed Railway
-合福高速线（合肥南-黄山北）,Hefei-Fuzhou Highspeed Railway
-向东联络线（向塘-梁家渡）,Link Line
-哈牡客运专线（哈尔滨-牡丹江）,Harbin-Mudanjiang Passenger Railway
-哈环线（东门-哈尔滨东）,Harbin Loop Railway
-哈长联络线,Link Line 
-太中线（太原南-定边）,Taiyuan-Zhongwei Railway
-太仓联络线（太仓-陆渡所）,Link Line
-姚田联络线,Link Line
-宁启线（林场-海安）,Nanjing-Qidong Railway
-宁蓉线（仙林-汉口）,Nanjing-Chengdu Railway
-宁蓉线（新墩-重庆北）,Nanjing-Chengdu Railway
-定银线（定边-银川）,Dingbian-Yinchuan Railway
-宣绩高速线（宣城-绩溪北）,Xuancheng-Jixi Highspeed Railway
-富西线（富裕-漠河）,Fuyu-Xilinji(Mohe) Railway
-峨广线（峨眉-广通北）,Emei-Guangtong Railway
-川青线（黄龙九寨-三星堆）,Chengdu-Xining Railway
-巢湖东南联络线,Link Line
-平齐线（四平-齐齐哈尔）,Siping-Qiqihar Railway
-广州东环城际线（花都-白云机场北）,Guangzhou-Foshan Loop Intercity Railway
-广惠城际线（番禺-西平西）,Guangzhou-Huizhou Intercity Railway
-广深城际线（广州东-深圳）,Guangzhou-Shenzhen Intercity Railway
-广深港高速线（福田-香港西九龙）,Guangzhou-Shenzhen-HK Highspeed Railway
-广清城际线（广州北-清城）,Guangzhou-Qingyuan Intercity Railway
-广肇城际线（番禺-佛山西）,Guangzhou-Zhaoqing Intercity Railway
-康山联络线,Link Line
-康延线,Kangzhuang-Yanqing Railway
-延庆线（八达岭西所-延庆）,Yanqing Branch Railway
-张唐线（李家营-唐山）,Zhangjiakou-Tangshan Railway
-徐兰高速线（天水南-兰州西）,Xuzhou-Lanzhou Highspeed Railway
-徐兰高速线（徐州东所-郑州东）,Xuzhou-Lanzhou Highspeed Railway
-徐盐高速线（徐州东-盐城）,Xuzhou-Yancheng Highspeed Railway
-德州东联络线,Link Line
-怀范联络线（怀柔-雁栖湖）,Huairou-Yanqihu Railway
-成昆线（成都南-燕岗）,Chengdu-Kunming Railway
-成渝高速线（资阳北-沙坪坝）,Chengdu-Chongqing Highspeed Railway
-成贵客运专线（成都东-双流机场）,Chengdu-Guiyang Passenger Railway
-成贵客运专线（白云北-尖坡所）,Chengdu-Guiyang Passenger Railway
-成贵贵阳北联络线（尖坡所-贵阳北）,Link Line
-承隆线（隆化-承德）,Chengde-Longhua Railway
-拉日线（拉萨-日喀则）,Lhasa-Shigatse Railway
-敦白联络线,Link Line
-新成灌线（犀浦-都江堰）,New Chengdu-Dujiangyan Railway
-新通客运专线（田家窝铺所-通辽）,Xinmin-Tongliao Passenger Railway
-新长线（盐城-海安）,Xinyi-Changxing Railway
-昌福线（三江镇-福州）,Nanchang-Fuzhou Railway
-李家营联络线（李家营-赵家店所）,Link Line
-李莘联络线（李家湾-莘庄）,Link Line
-杭昌高速线（桐庐-黄山北）,Hangzhou-Nanchang Highspeed Railway
-杭深线（杭州南-深圳北）,Hangzhou-Shenzhen Railway
-杭温高速线（桐庐东-义乌）,Hangzhou-Wenzhou Highspeed Railway
-杭温高速线（横店-温州北）,Hangzhou-Wenzhou Highspeed Railway
-桐庐联络线,Link Line
-榆红线（榆树屯-红旗营）,Link Line
-武九线（九里垄-九江西）,Wuhan-Jiujiang Railway
-武九线（何刘-九里垄）,Wuhan-Jiujiang Railway
-武昌南环线,Wuchang Loop Railway
-永嘉联络线,Link Line
-汉西联络线,Line Line
-池黄高速线（池州-黄山北）,Chizhou-Huangshan Highspeed Railway
-沈佳高速线（敦化南-长白山）,Shenyang-Jiamusi Highspeed Railway
-沈大线（大连北-大连）,Shenyang-Dalian Railway
-沈大高速线（沈阳北-大连北）,Shenyang-Dalian Highspeed Railway
-沪宁城际线（上海-南京）,Shanghai-Nanjing Intercity Railway
-沪宁沿江高速线（武进-太仓）,Shanghai-Nanjing Riverside Highspeed Railway
-沪昆线（封浜-龙里）,Shanghai-Kunming Railway
-沪昆高速线（上海虹桥-新余北）,Shanghai-Kunming Highspeed Railway
-沪昆高速线（贵阳北-昆明南）,Shanghai-Kunming Highspeed Railway
-沪苏湖高速线（上海虹桥-湖州）,Shanghai-Suzhou-Huzhou Highspeed Railway
-沪苏通线（南通西-黄渡-上海虹桥）,Shanghai-Suzhou-Nantong Railway
-津兴城际（盛芳-固安东）,Tianjin-PKX Intercity Railway
-津秦高速线（天津西-秦皇岛）,Tianjin-Qinhuangdao Highspeed Railway
-津秦高速线（秦皇岛-龙家营）,Tianjin-Qinhuangdao Highspeed Railway
-津蓟线,Tianjin-Jizhou Railway
-津霸线（天津西-霸州西）,Tianjin-Bazhou Railway
-济青高速线（济南东-青岛北）,Jinan-Qingdao Highspeed Railway
-渝贵线（贵阳-贵阳北）,Chongqing-Guiyang Railway
-湘桂线（柳州-黎塘）,Hunan-Guangxi Railway
-滇藏线（丽江-香格里拉）,Yunnan-Xizang Railway
-滨北线（哈尔滨东-呼兰）,Harbin-Bei'an Railway
-滨洲线（哈尔滨-海拉尔）,Harbin-Manzhouli Railway
-滨绥线（新香坊-牡丹江）,Harbin-Suifenhe Railway
-滨绥线（牡丹江-绥芬河）,Harbin-Suifenhe Railway
-牙林线（牙克石-伊图里河）,Yakeshi-Mangui Railway
-甬广高速线（福州南-厦门北）,Ningbo-Guangzhou Highspeed Railway
-盐通高速线（盐城-南通西）,Yancheng-Nantong Highspeed Railway
-石太客运专线（石家庄北-太原南）,Shijiazhuang-Taiyuan Passenger Railway
-石家庄西北环线（柳辛庄-石家庄北）,Link Line
-石济客运专线（陵县所-济南东）,Shijiazhuang-Jinan Passenger Railway
-秦双联络线（秦祺村所-双龙南）,Link Line
-笕杭线,Link Line
-笕桥线,Link Line
-胶济客运专线（济南-青岛北）,Qingdao-Jinan Passenger Railway
-花广联络线（广州白云-广州北）,Link Line
-萧甬线（杭州南-绍兴）,Xiaoshan-Ningbo Railway
-虹安联络线（上海虹桥-安亭北所）,Link Line
-衢九线（衢州-九江）,Quzhou-Jiujiang Railway
-西成高速线（广汉北-成都东）,Xi'an-Chengdu Highspeed Railway
-西长线（北京西-长辛店）,Beijing W. Link Line
-贵南高速线（河池西-南宁东）,Guiyang-Nanning Highspeed Railway
-贵阳环线（白云北-双龙南）,Guiyang Loop Railway
-辛泰线（南博山-泰山）,Linzi-Taishan Railway
-近铁奈良线（奈良-近铁日本桥）,Kintetsu Nara Line
-连镇高速线（连云港-丹徒）,Lianyungang-Zhenjiang Highspeed Railway
-通燕联络线（高辛庄所-北刘各庄所）,Link Line
-郑开城际线（郑州东-开封）,Zhengzhou-Kaifeng Intercity Railway
-镇江联络线,Link Line
-长株潭城际线（谷山-湘潭）,Changsha-Zhuzhou-Xiangtan Intercity Railway
-长珲城际线（杨家粉坊所-敦化）,Changchun-Hunchun Intercity Railway
-阪急宝塚线（大阪梅田-庄内）,Hankyu Takarazuka Line
-阪神本线（阪神三宫-阪神尼崎）,Hanshin Railway
-阪神难波线（阪神尼崎-西九条）,Hanshin Railway Namba Line
-陇海线（徐州-兰州）,Lanzhou-Lianyungang Railway
-霸徐线（白洋淀-霸州西）,Bazhou-Xushui Railway
-青三联络线（青白江东-三星堆）,Link Line
-青盐线（连云港-董集）,Qingdao-Yancheng Railway
-青藏线（西宁-拉萨）,Qinghai-Xizang Railway
-鹰厦线（前场-厦门）,Yingtan-Xiamen Railway
-黎湛线（黎塘-玉林）,Litang-Zhanjiang Railway
-黔桂线（金城江-柳州）,Guizhou-Guangxi Railway
-齐北线（齐齐哈尔-富裕）,Qiqihar-Fuyu Railway
-张吉怀高速线,Zhangjiajie-Jishou-Huaihua Highspeed Railway
-张家界西联络线,Link Line
-沪昆高速线（宜春-怀化南）,Shanghai-Kunming Highspeed Railway
-渝厦高速线,Chongqing-Xiamen Highspeed Railway
-龙怀联络线,Link Line
-宁杭高速线（南京南-杭州东）,Nanjing-Hangzhou Highspeed Railway
-海南东环高速线（城西-三亚）,Hainan East Ring Highspeed Railway
-海南西环线,Hainan West Ring Railway
-海南西环高速线（崖州-三亚）,Hainan West Ring Highspeed Railway
-金温线（塘雅线路所-温州南）,Jinhua-Wenzhou Railway
+name_zh,name_en,country,type,speed,
+JR东海道线（米原-大阪）,JR Tokaido Line,JP,main,130,
+JR关西线（久宝寺-柘植）,JR Kansai Line,JP,main,130,
+JR北陆线（米原-敦贺）,JR Hokuriku Line,JP,main,130,
+JR大阪环状线,JR Osaka Loop Line,JP,main,130,
+JR奈良线（京都-木津）,JR Nara Line,JP,main,130,
+JR山阳线（三宫-姬路）,JR Sanyo Line,JP,main,130,
+JR湖西线（山科-近江盐津）,JR Kosei Line,JP,main,130,
+JR纪势线（和歌山-和歌山市）,JR Kisei Line,JP,link,130,
+JR草津线（草津-柘植）,JR Kusatsu Line,JP,branch,130,
+JR阪和线（天王寺-和歌山）,JR Hanwa Line,JP,main,130,
+上海南联络线（沪春一二线）,Shanghai S. Link Line,CN,branch,160,
+上海南联络线（沪春三四线）,Shanghai S. Link Line,CN,branch,160,
+上饶东南联络线,Link Line,CN,link,200,
+东新联络线（东门-新香坊）,Link Line,CN,link,120,
+东星线（北京东-北京朝阳）,Link Line,CN,branch,120,
+京九线（南昌-向塘-三江镇）,Beijing-Kowloon Railway,CN,main,160,
+京九线（黄土坡线路所-乐化）,Beijing-Kowloon Railway,CN,main,160,
+京包-包兰线（呼和浩特-银川）,Beijing-Baotou-Lanzhou Railway,CN,main,160,
+京包客运专线（北京北-呼和浩特）,Beijing-Baotou Highspeed Railway,CN,main,250,
+京包线（北京丰台-宣化）,Beijing-Baotou Railway,CN,main,120,
+京包线（黄土店-康庄）,Beijing-Baotou Railway,CN,branch,120,
+京包青龙桥上行线,Beijing-Baotou Railway (Qinglongqiao Branch),CN,branch,120,
+京原线（石景山南-燕山）,Beijing-Yuanping Railway,CN,branch,120,
+京哈线（北京-哈尔滨）,Beijing-Harbin Railway,CN,main,160,
+京哈高速线（北京朝阳-姚家窝堡所）,Beijing-Harbin Highspeed Railway,CN,main,350,
+京哈高速线（沈阳北-哈尔滨）,Beijing-Harbin Highspeed Railway,CN,main,300,
+京唐城际线（燕郊-北刘各庄所）,Beijing-Tangshan Intercity Railway,CN,main,250,
+京广线（武昌-武昌南）,Beijing-Guangzhou Railway,CN,main,160,
+京广线（汉西-武昌）,Beijing-Guangzhou Railway,CN,main,160,
+京广线（长辛店-柳辛庄）,Beijing-Guangzhou Railway,CN,main,160,
+京广高速线（北京西-石家庄）,Beijing-Guangzhou Highspeed Railway,CN,main,350,
+京广高速线（横店东-深圳北）,Beijing-Guangzhou Highspeed Railway,CN,main,350,
+京承线（怀柔-顺义）,Beijing-Chengde Railway,CN,branch,120,
+京承线（赵家店所-承德）,Beijing-Chengde Railway,CN,branch,120,
+京沪线济南外绕段,Beijing-Shanghai Railway,CN,main,160,
+京沪线（北京-上海）,Beijing-Shanghai Railway,CN,main,160,
+京沪高速线（北京南-上海虹桥）,Beijing-Shanghai Highspeed Railway,CN,main,350,
+京津城际线（北京南-天津）,Beijing-Tianjin Intercity ,CN,main,350,
+京通线（昌平-隆化）,Beijing-Tongliao Railway,CN,branch,120,
+京阪本线（淀屋桥-三条）,Keihan Railway,JP,main,120,
+京雄城际线（北京西-雄安）,Beijing-Xiong'an Intercity Railway,CN,main,300,
+伊加线（伊图里河-加格达奇）,Yitulihe-Jagdaqi Railway,CN,branch,120,
+兰新客运专线（兰州西-海东西）,Lanzhou-Xinjiang Passenger Railway,CN,main,250,
+兰青线（兰州-西宁）,Lanzhou-Qinghai Railway,CN,main,160,
+北京直径线（北京-北京西）,Beijing Cross City Railway,CN,main,160,
+南凭高速线（南宁-崇左南）,Nanning-Pingxiang Highspeed Railway,CN,main,250,
+南广线（佛山西-广州南）,Nanning-Guangzhou Railway,CN,main,250,
+南昌西环线,Nanchang Loop Railway,CN,main,160,
+南海加太线（纪之川-加太）,Nankai Railway Kada Branch,JP,branch,120,
+南海本线（新今宫-和歌山市）,Nankai Railway,JP,main,120,
+南海机场线（泉佐野-关西机场）,Nankai Railway KIX Branch,JP,branch,120,
+南昆客运专线（昆明南-昆明）,Nanning-Kunming Passenger Railway,CN,main,250,
+南珠高速线（南宁东-玉林北）,Nanning-Zhuhai Highspeed Railway,CN,main,300,
+合杭高速线（妙西镇所-桐庐东）,Hefei-Hangzhou Highspeed Railway,CN,main,300,
+合杭高速线（胡庄所-湖州）,Hefei-Hangzhou Highspeed Railway,CN,main,300,
+合福高速线（上饶-福州）,Hefei-Fuzhou Highspeed Railway,CN,main,300,
+合福高速线（合肥南-黄山北）,Hefei-Fuzhou Highspeed Railway,CN,main,300,
+向东联络线（向塘-梁家渡）,Link Line,CN,link,160,
+哈牡客运专线（哈尔滨-牡丹江）,Harbin-Mudanjiang Passenger Railway,CN,main,250,
+哈环线（东门-哈尔滨东）,Harbin Loop Railway,CN,branch,120,
+哈长联络线,Link Line ,CN,branch,120,
+太中线（太原南-定边）,Taiyuan-Zhongwei Railway,CN,main,160,
+太仓联络线（太仓-陆渡所）,Link Line,CN,link,,
+姚田联络线,Link Line,CN,link,,
+宁启线（林场-海安）,Nanjing-Qidong Railway,CN,main,200,
+宁蓉线（仙林-汉口）,Nanjing-Chengdu Railway,CN,main,250,
+宁蓉线（新墩-重庆北）,Nanjing-Chengdu Railway,CN,main,200,
+定银线（定边-银川）,Dingbian-Yinchuan Railway,CN,main,160,
+宣绩高速线（宣城-绩溪北）,Xuancheng-Jixi Highspeed Railway,CN,main,350,
+富西线（富裕-漠河）,Fuyu-Xilinji(Mohe) Railway,CN,main,120,
+峨广线（峨眉-广通北）,Emei-Guangtong Railway,CN,main,160,
+川青线（黄龙九寨-三星堆）,Chengdu-Xining Railway,CN,main,200,
+巢湖东南联络线,Link Line,CN,link,200,
+平齐线（四平-齐齐哈尔）,Siping-Qiqihar Railway,CN,main,120,
+广州东环城际线（花都-白云机场北）,Guangzhou-Foshan Loop Intercity Railway,CN,branch,200,
+广惠城际线（番禺-西平西）,Guangzhou-Huizhou Intercity Railway,CN,branch,200,
+广深城际线（广州东-深圳）,Guangzhou-Shenzhen Intercity Railway,CN,branch,200,
+广深港高速线（福田-香港西九龙）,Guangzhou-Shenzhen-HK Highspeed Railway,CN,branch,250,
+广清城际线（广州北-清城）,Guangzhou-Qingyuan Intercity Railway,CN,branch,200,
+广肇城际线（番禺-佛山西）,Guangzhou-Zhaoqing Intercity Railway,CN,branch,200,
+康山联络线,Link Line,CN,link,200,
+康延线,Kangzhuang-Yanqing Railway,CN,branch,120,
+延庆线（八达岭西所-延庆）,Yanqing Branch Railway,CN,branch,160,
+张唐线（李家营-唐山）,Zhangjiakou-Tangshan Railway,CN,main,120,
+徐兰高速线（天水南-兰州西）,Xuzhou-Lanzhou Highspeed Railway,CN,main,250,
+徐兰高速线（徐州东所-郑州东）,Xuzhou-Lanzhou Highspeed Railway,CN,main,300,
+徐盐高速线（徐州东-盐城）,Xuzhou-Yancheng Highspeed Railway,CN,main,250,
+德州东联络线,Link Line,CN,link,,
+怀范联络线（怀柔-雁栖湖）,Huairou-Yanqihu Railway,CN,branch,120,
+成昆线（成都南-燕岗）,Chengdu-Kunming Railway,CN,main,160,
+成渝高速线（资阳北-沙坪坝）,Chengdu-Chongqing Highspeed Railway,CN,main,350,
+成贵客运专线（成都东-双流机场）,Chengdu-Guiyang Passenger Railway,CN,main,300,
+成贵客运专线（白云北-尖坡所）,Chengdu-Guiyang Passenger Railway,CN,main,300,
+成贵贵阳北联络线（尖坡所-贵阳北）,Link Line,CN,link,,
+承隆线（隆化-承德）,Chengde-Longhua Railway,CN,branch,120,
+拉日线（拉萨-日喀则）,Lhasa-Shigatse Railway,CN,main,160,
+敦白联络线,Link Line,CN,link,,
+新成灌线（犀浦-都江堰）,New Chengdu-Dujiangyan Railway,CN,branch,200,
+新通客运专线（田家窝铺所-通辽）,Xinmin-Tongliao Passenger Railway,CN,main,250,
+新长线（盐城-海安）,Xinyi-Changxing Railway,CN,branch,120,
+昌福线（三江镇-福州）,Nanchang-Fuzhou Railway,CN,main,200,
+李家营联络线（李家营-赵家店所）,Link Line,CN,link,,
+李莘联络线（李家湾-莘庄）,Link Line,CN,link,,
+杭昌高速线（桐庐-黄山北）,Hangzhou-Nanchang Highspeed Railway,CN,main,250,
+杭深线（杭州南-深圳北）,Hangzhou-Shenzhen Railway,CN,main,250,
+杭温高速线（桐庐东-义乌）,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,
+杭温高速线（横店-温州北）,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,
+桐庐联络线,Link Line,CN,link,,
+榆红线（榆树屯-红旗营）,Link Line,CN,link,,
+武九线（九里垄-九江西）,Wuhan-Jiujiang Railway,CN,main,200,
+武九线（何刘-九里垄）,Wuhan-Jiujiang Railway,CN,main,200,
+武昌南环线,Wuchang Loop Railway,CN,main,160,
+永嘉联络线,Link Line,CN,link,,
+汉西联络线,Link Line,CN,link,,
+池黄高速线（池州-黄山北）,Chizhou-Huangshan Highspeed Railway,CN,main,350,
+沈佳高速线（敦化南-长白山）,Shenyang-Jiamusi Highspeed Railway,CN,main,250,
+沈大线（大连北-大连）,Shenyang-Dalian Railway,CN,main,160,
+沈大高速线（沈阳北-大连北）,Shenyang-Dalian Highspeed Railway,CN,main,300,
+沪宁城际线（上海-南京）,Shanghai-Nanjing Intercity Railway,CN,main,300,
+沪宁沿江高速线（武进-太仓）,Shanghai-Nanjing Riverside Highspeed Railway,CN,main,350,
+沪昆线（封浜-龙里）,Shanghai-Kunming Railway,CN,main,160,
+沪昆高速线（上海虹桥-新余北）,Shanghai-Kunming Highspeed Railway,CN,main,350,
+沪昆高速线（贵阳北-昆明南）,Shanghai-Kunming Highspeed Railway,CN,main,300,
+沪苏湖高速线（上海虹桥-湖州）,Shanghai-Suzhou-Huzhou Highspeed Railway,CN,main,350,
+沪苏通线（南通西-黄渡-上海虹桥）,Shanghai-Suzhou-Nantong Railway,CN,main,200,
+津兴城际（盛芳-固安东）,Tianjin-PKX Intercity Railway,CN,branch,250,
+津秦高速线（天津西-秦皇岛）,Tianjin-Qinhuangdao Highspeed Railway,CN,main,300,
+津秦高速线（秦皇岛-龙家营）,Tianjin-Qinhuangdao Highspeed Railway,CN,main,300,
+津蓟线,Tianjin-Jizhou Railway,CN,branch,120,
+津霸线（天津西-霸州西）,Tianjin-Bazhou Railway,CN,main,250,
+济青高速线（济南东-青岛北）,Jinan-Qingdao Highspeed Railway,CN,main,300,
+渝贵线（贵阳-贵阳北）,Chongqing-Guiyang Railway,CN,main,120,
+湘桂线（柳州-黎塘）,Hunan-Guangxi Railway,CN,main,160,
+滇藏线（丽江-香格里拉）,Yunnan-Xizang Railway,CN,main,160,
+滨北线（哈尔滨东-呼兰）,Harbin-Bei'an Railway,CN,main,160,
+滨洲线（哈尔滨-海拉尔）,Harbin-Manzhouli Railway,CN,main,160,
+滨绥线（新香坊-牡丹江）,Harbin-Suifenhe Railway,CN,main,160,
+滨绥线（牡丹江-绥芬河）,Harbin-Suifenhe Railway,CN,main,200,
+牙林线（牙克石-伊图里河）,Yakeshi-Mangui Railway,CN,branch,120,
+甬广高速线（福州南-厦门北）,Ningbo-Guangzhou Highspeed Railway,CN,main,350,
+盐通高速线（盐城-南通西）,Yancheng-Nantong Highspeed Railway,CN,main,300,
+石太客运专线（石家庄北-太原南）,Shijiazhuang-Taiyuan Passenger Railway,CN,main,250,
+石家庄西北环线（柳辛庄-石家庄北）,Link Line,CN,main,160,
+石济客运专线（陵县所-济南东）,Shijiazhuang-Jinan Passenger Railway,CN,main,250,
+秦双联络线（秦祺村所-双龙南）,Link Line,CN,link,200,
+笕杭线,Link Line,CN,branch,160,
+笕桥线,Link Line,CN,link,,
+胶济客运专线（济南-青岛北）,Qingdao-Jinan Passenger Railway,CN,main,200,
+花广联络线（广州白云-广州北）,Link Line,CN,branch,160,
+萧甬线（杭州南-绍兴）,Xiaoshan-Ningbo Railway,CN,main,160,
+虹安联络线（上海虹桥-安亭北所）,Link Line,CN,branch,250,
+衢九线（衢州-九江）,Quzhou-Jiujiang Railway,CN,main,200,
+西成高速线（广汉北-成都东）,Xi'an-Chengdu Highspeed Railway,CN,main,250,
+西长线（北京西-长辛店）,Beijing W. Link Line,CN,branch,160,
+贵南高速线（河池西-南宁东）,Guiyang-Nanning Highspeed Railway,CN,main,350,
+贵阳环线（白云北-双龙南）,Guiyang Loop Railway,CN,branch,200,
+辛泰线（南博山-泰山）,Linzi-Taishan Railway,CN,branch,120,
+近铁奈良线（奈良-近铁日本桥）,Kintetsu Nara Line,JP,main,120,
+连镇高速线（连云港-丹徒）,Lianyungang-Zhenjiang Highspeed Railway,CN,main,250,
+通燕联络线（高辛庄所-北刘各庄所）,Link Line,CN,link,,
+郑开城际线（郑州东-开封）,Zhengzhou-Kaifeng Intercity Railway,CN,branch,200,
+镇江联络线,Link Line,CN,branch,,
+长株潭城际线（谷山-湘潭）,Changsha-Zhuzhou-Xiangtan Intercity Railway,CN,branch,160,
+长珲城际线（杨家粉坊所-敦化）,Changchun-Hunchun Intercity Railway,CN,main,200,
+阪急宝塚线（大阪梅田-庄内）,Hankyu Takarazuka Line,JP,main,120,
+阪神本线（阪神三宫-阪神尼崎）,Hanshin Railway,JP,main,120,
+阪神难波线（阪神尼崎-西九条）,Hanshin Railway Namba Line,JP,main,120,
+陇海线（徐州-兰州）,Lanzhou-Lianyungang Railway,CN,main,160,
+霸徐线（白洋淀-霸州西）,Bazhou-Xushui Railway,CN,main,200,
+青三联络线（青白江东-三星堆）,Link Line,CN,link,,
+青盐线（连云港-董集）,Qingdao-Yancheng Railway,CN,main,200,
+青藏线（西宁-拉萨）,Qinghai-Xizang Railway,CN,main,120,
+鹰厦线（前场-厦门）,Yingtan-Xiamen Railway,CN,branch,120,
+黎湛线（黎塘-玉林）,Litang-Zhanjiang Railway,CN,main,120,
+黔桂线（金城江-柳州）,Guizhou-Guangxi Railway,CN,main,120,
+齐北线（齐齐哈尔-富裕）,Qiqihar-Fuyu Railway,CN,main,120,
+张吉怀高速线,Zhangjiajie-Jishou-Huaihua Highspeed Railway,CN,main,300,
+张家界西联络线,Link Line,CN,link,,
+沪昆高速线（宜春-怀化南）,Shanghai-Kunming Highspeed Railway,CN,main,350,
+渝厦高速线,Chongqing-Xiamen Highspeed Railway,CN,main,250,
+龙怀联络线,Link Line,CN,link,,
+宁杭高速线（南京南-杭州东）,Nanjing-Hangzhou Highspeed Railway,CN,main,300,
+海南东环高速线（城西-三亚）,Hainan East Ring Highspeed Railway,CN,main,250,
+海南西环线,Hainan West Ring Railway,CN,branch,160,
+海南西环高速线（崖州-三亚）,Hainan West Ring Highspeed Railway,CN,main,200,
+金温线（塘雅线路所-温州南）,Jinhua-Wenzhou Railway,CN,main,200,
+凤凰联络线,Link Line,CN,link,,
+崖州联络线,Link Line,CN,link,,
+贵阳客车线（龙里-贵阳）,Guiyang Link Line,CN,branch,160,
+昆楚大铁路（昆明-广通北）,Kunming-Chuxiong-Dali Railway,CN,main,200,

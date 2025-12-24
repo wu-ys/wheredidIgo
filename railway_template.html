@@ -135,23 +135,18 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors',
   }).addTo(map);
 
-  const normalRailwayStyle = {
-    color: "green",
-    weight: 4,
-    opacity: 0.5
-  };
+  const hsr350Style = { color: "rgb(204,0,0)", weight: 6, opacity: 1.0 };
+  const hsr300Style = { color: "rgb(255,100,0)", weight: 6, opacity: 1.0 };
+  const hsr250Style = { color: "rgb(255,180,0)", weight: 6, opacity: 1.0 };
 
-  const activeRailwayStyle = {
-    color: "green",
-    weight: 7,
-    opacity: 1.0
-  };
+  const mainLine200Style = { color: "rgb(96,192,24)", weight: 5, opacity: 1.0 };
+  const mainLine160Style = { color: "rgb(64,192,124)", weight: 5, opacity: 1.0 };
+  const mainLine120Style = { color: "rgb(24,192,204)", weight: 5, opacity: 1.0 };
+  
+  const branchLine160Style = { color: "rgb(204, 175, 100)", weight: 4, opacity: 1.0 };
+  const branchLine120Style = { color: "rgb(20,82,204)", weight: 4, opacity: 1.0 };
 
-  const dimmedRailwayStyle = {
-    color: "green",
-    weight: 4,
-    opacity: 0.25
-  };
+  const linkLineStyle = { color: "rgb(0,0,0)", weight: 3, opacity: 1.0 };
 
   const icons = {
     railway: L.icon({
@@ -186,7 +181,7 @@
     const layerGroup = L.layerGroup();
     overlays["railway"] = layerGroup;
 
-    for (const [filename, item] of Object.entries(gpxs)) {
+    for (const [filename, p] of Object.entries(gpxs)) {
       const file = "./railway/gpx/" + filename + ".gpx";
       const gpx = new L.GPX(file, {
         async: true,
@@ -203,13 +198,58 @@
         displayName = gpxs[filename]?.[currentLang] || filename;
 
         g._filename = filename;
+
+        let speed = Number(p.speed);
+
+        if (speed >= 250) {
+          if (speed >= 350) {
+            g._w = 6.001;
+            g.setStyle(hsr350Style);
+          } else if (speed >= 300) {
+            g._w = 6.0;
+            g.setStyle(hsr300Style);
+          } else {
+            g._w = 5.999;
+            g.setStyle(hsr250Style);
+          }
+
+        } else if (p.type == "main") {
+          if (speed >= 200) {
+            g._w = 5.001;
+            g.setStyle(mainLine200Style);
+          } else if (speed >= 160) {
+            g._w = 5.0;
+            g.setStyle(mainLine160Style);
+          } else {
+            g._w = 4.999;
+            g.setStyle(mainLine120Style);
+          }
+
+        } else if (p.type == "branch") {
+          if (speed >= 160) {
+            g._w = 4.001;
+            g.setStyle(branchLine160Style);
+          } else {
+            g._w = 4.0;
+            g.setStyle(branchLine120Style);
+          }
+
+        } else {
+
+          g._w = 3;
+          g.setStyle(linkLineStyle);
+          
+        }
+
         g.bindPopup(`<b>${displayName}</b>`);
+
+
         allGpxLayers.push(g);
         g.on("click", e => {
           L.DomEvent.stopPropagation(e);
           highlightGpx(g);
         });
-        g.setStyle(normalRailwayStyle);
+        g.setStyle({opacity: 0.8, weight: g._w});
 
         // === 调整视图范围 ===
         const b = g.getBounds();
@@ -219,6 +259,8 @@
         loaded ++;
         if (loaded === total) {
           map.fitBounds(globalBounds, { padding: [20, 20] });
+          allGpxLayers.sort((a, b) => a._w - b._w);
+          resetHighlight();
         }
       })
       .addTo(layerGroup);
@@ -232,10 +274,10 @@
 
     allGpxLayers.forEach(g => {
       if (g === target) {
-        g.setStyle(activeRailwayStyle);
-        g.bringToFront(); // 防止被盖住
+        g.setStyle({opacity: 1.0, weight: g._w * 2});
+        g.bringToFront();
       } else {
-        g.setStyle(dimmedRailwayStyle);
+        g.setStyle({opacity: 0.25, weight: g._w});
       }
     });
   }
@@ -245,7 +287,8 @@
   function resetHighlight() {
     activeGpx = null;
     allGpxLayers.forEach(g => {
-      g.setStyle(normalRailwayStyle);
+      g.setStyle({opacity: 0.8, weight: g._w});
+      g.bringToFront();
     });
   }
 
@@ -254,17 +297,17 @@
     .then(data => {
       for (const [groupName, points] of Object.entries(data)) {
         const group = overlays[groupName];
-        if (!group) continue; // 没有对应组则跳过
+        if (!group) continue;
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
           const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
             .bindPopup(`<b>${name}</b>`)
             .addTo(group);
-        // 为后续语言切换保存引用
-        marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
+          // 为后续语言切换保存引用
+          marker._names = { zh: p.name_zh, en: p.name_en };
+          if (!group._markers) group._markers = [];
+            group._markers.push(marker);
         });
       }
     })

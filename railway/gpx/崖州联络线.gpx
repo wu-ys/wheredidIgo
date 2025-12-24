@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 5782 filtered ascend = 7 plain-ascend = 2 cost=5782 energy=0.1kwh time=7m 43s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>崖州联络线 (5.8km)</name>
+  <trkseg>
+   <trkpt lat="18.378904" lon="109.15339"><ele>6.75</ele></trkpt>
+   <trkpt lat="18.37931" lon="109.15836"><ele>8</ele></trkpt>
+   <trkpt lat="18.379435" lon="109.159899"><ele>7.5</ele></trkpt>
+   <trkpt lat="18.379557" lon="109.161401"><ele>8.75</ele></trkpt>
+   <trkpt lat="18.379574" lon="109.1616"><ele>8.75</ele></trkpt>
+   <trkpt lat="18.379608" lon="109.162237"><ele>9.5</ele></trkpt>
+   <trkpt lat="18.379703" lon="109.164544"><ele>10</ele></trkpt>
+   <trkpt lat="18.379745" lon="109.165195"><ele>10.25</ele></trkpt>
+   <trkpt lat="18.379939" lon="109.167696"><ele>9.75</ele></trkpt>
+   <trkpt lat="18.380016" lon="109.168336"><ele>10</ele></trkpt>
+   <trkpt lat="18.380114" lon="109.168927"><ele>9</ele></trkpt>
+   <trkpt lat="18.380366" lon="109.17006"><ele>8.25</ele></trkpt>
+   <trkpt lat="18.381024" lon="109.172924"/>
+   <trkpt lat="18.381033" lon="109.172973"><ele>8</ele></trkpt>
+   <trkpt lat="18.381141" lon="109.173546"><ele>8</ele></trkpt>
+   <trkpt lat="18.381239" lon="109.174212"><ele>8</ele></trkpt>
+   <trkpt lat="18.381275" lon="109.17489"><ele>8</ele></trkpt>
+   <trkpt lat="18.381239" lon="109.175545"><ele>8</ele></trkpt>
+   <trkpt lat="18.381157" lon="109.176227"><ele>8</ele></trkpt>
+   <trkpt lat="18.381011" lon="109.176905"><ele>8</ele></trkpt>
+   <trkpt lat="18.380818" lon="109.177573"><ele>8</ele></trkpt>
+   <trkpt lat="18.380546" lon="109.178213"><ele>8</ele></trkpt>
+   <trkpt lat="18.380223" lon="109.178856"><ele>8</ele></trkpt>
+   <trkpt lat="18.379868" lon="109.179416"><ele>8</ele></trkpt>
+   <trkpt lat="18.379436" lon="109.17998"><ele>8</ele></trkpt>
+   <trkpt lat="18.378951" lon="109.180482"><ele>8</ele></trkpt>
+   <trkpt lat="18.378417" lon="109.180929"><ele>8</ele></trkpt>
+   <trkpt lat="18.377903" lon="109.181297"><ele>8</ele></trkpt>
+   <trkpt lat="18.377257" lon="109.181665"><ele>8</ele></trkpt>
+   <trkpt lat="18.376521" lon="109.181998"><ele>8</ele></trkpt>
+   <trkpt lat="18.375649" lon="109.182317"><ele>8</ele></trkpt>
+   <trkpt lat="18.373319" lon="109.183119"><ele>5.5</ele></trkpt>
+   <trkpt lat="18.372865" lon="109.183289"><ele>6</ele></trkpt>
+   <trkpt lat="18.371862" lon="109.183676"><ele>9.75</ele></trkpt>
+   <trkpt lat="18.371287" lon="109.183893"><ele>8</ele></trkpt>
+   <trkpt lat="18.370121" lon="109.184335"><ele>9.25</ele></trkpt>
+   <trkpt lat="18.369255" lon="109.184641"><ele>9.5</ele></trkpt>
+   <trkpt lat="18.368692" lon="109.184816"><ele>9.5</ele></trkpt>
+   <trkpt lat="18.368116" lon="109.184957"><ele>9.75</ele></trkpt>
+   <trkpt lat="18.367518" lon="109.185071"><ele>9.75</ele></trkpt>
+   <trkpt lat="18.3669" lon="109.185152"><ele>10</ele></trkpt>
+   <trkpt lat="18.366348" lon="109.185191"><ele>10</ele></trkpt>
+   <trkpt lat="18.365752" lon="109.185191"><ele>10.25</ele></trkpt>
+   <trkpt lat="18.365114" lon="109.185146"><ele>10.5</ele></trkpt>
+   <trkpt lat="18.364485" lon="109.185065"><ele>10.5</ele></trkpt>
+   <trkpt lat="18.36387" lon="109.184939"><ele>10.75</ele></trkpt>
+   <trkpt lat="18.361072" lon="109.184293"><ele>11.5</ele></trkpt>
+   <trkpt lat="18.360519" lon="109.184143"><ele>11.5</ele></trkpt>
+   <trkpt lat="18.360039" lon="109.183985"><ele>12.75</ele></trkpt>
+   <trkpt lat="18.359522" lon="109.183787"><ele>11.75</ele></trkpt>
+   <trkpt lat="18.359036" lon="109.183573"><ele>10.5</ele></trkpt>
+   <trkpt lat="18.358444" lon="109.183277"><ele>8.5</ele></trkpt>
+   <trkpt lat="18.35797" lon="109.183016"><ele>9</ele></trkpt>
+   <trkpt lat="18.355901" lon="109.181768"><ele>12.5</ele></trkpt>
+   <trkpt lat="18.355035" lon="109.181246"><ele>8</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
