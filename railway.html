@@ -149,19 +149,46 @@
 
   const linkLineStyle = { color: "rgb(0,0,0)", weight: 3, opacity: 1.0 };
 
+  const legendI18n = {
+    zh: {
+      title: "线路等级",
+      hsr350: "350+km/h 高速铁路",
+      hsr300: "300 km/h 高速铁路",
+      hsr250: "250 km/h 高速铁路",
+      main200: "200 km/h 快速铁路",
+      main160: "160 km/h 干线铁路",
+      main120: "120 km/h 干线铁路",
+      branch160: "枢纽线路/城际铁路",
+      branch120: "120 km/h 支线铁路",
+      link: "联络线/其他"
+    },
+    en: {
+      title: "Railway Types",
+      hsr350: "350 km/h High-speed Line",
+      hsr300: "300 km/h High-speed Line",
+      hsr250: "250 km/h High-speed Line",
+      main200: "200 km/h Rapid Line",
+      main160: "160 km/h Main Line",
+      main120: "120 km/h Main Line",
+      branch160: "160 km/h Branch Line",
+      branch120: "120 km/h Branch Line",
+      link: "Link Line / Other"
+    }
+  };
+
   const legendItems = [
-    { label: "350+km/h 高速铁路", style: hsr350Style },
-    { label: "300 km/h 高速铁路", style: hsr300Style },
-    { label: "250 km/h 高速铁路", style: hsr250Style },
+    { key: "hsr350", style: hsr350Style },
+    { key: "hsr300", style: hsr300Style },
+    { key: "hsr250", style: hsr250Style },
 
-    { label: "200 km/h 快速铁路", style: mainLine200Style },
-    { label: "160 km/h 干线铁路", style: mainLine160Style },
-    { label: "120 km/h 干线铁路", style: mainLine120Style },
+    { key: "main200", style: mainLine200Style },
+    { key: "main160", style: mainLine160Style },
+    { key: "main120", style: mainLine120Style },
 
-    { label: "160 km/h 支线铁路", style: branchLine160Style },
-    { label: "120 km/h 支线铁路", style: branchLine120Style },
+    { key: "branch160", style: branchLine160Style },
+    { key: "branch120", style: branchLine120Style },
 
-    { label: "联络线/其他", style: linkLineStyle }
+    { key: "link", style: linkLineStyle }
   ];
 
   const legend = L.control({ position: "bottomleft" });
@@ -169,28 +196,45 @@
   legend.onAdd = function () {
     const div = L.DomUtil.create("div", "map-legend");
 
-    div.innerHTML = "<div class='legend-title'>线路等级</div>";
+    renderLegend(div);
 
-    legendItems.forEach(item => {
-      const s = item.style;
-
-      div.innerHTML += `
-        <div class="legend-item">
-          <span class="legend-line"
-                style="
-                  background:${s.color};
-                  height:${s.weight}px;
-                ">
-          </span>
-          <span class="legend-label">${item.label}</span>
-        </div>
-      `;
-    });
+    // 防止拖动地图
+    L.DomEvent.disableClickPropagation(div);
 
     return div;
   };
 
   legend.addTo(map);
+
+  function renderLegend(container) {
+    const t = legendI18n[currentLang];
+
+    container.innerHTML = `
+      <div class="legend-header">
+        <span class="legend-title">${t.title}</span>
+        <span class="legend-toggle">▾</span>
+      </div>
+      <div class="legend-content">
+        ${legendItems.map(item => {
+          const s = item.style;
+          return `
+            <div class="legend-item">
+              <span class="legend-line"
+                    style="background:${s.color}; height:${s.weight}px"></span>
+              <span class="legend-label">${t[item.key]}</span>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    `;
+
+    // 折叠逻辑
+    const header = container.querySelector(".legend-header");
+    header.onclick = () => {
+      container.classList.toggle("collapsed");
+    };
+  }
+
 
   const icons = {
     railway: L.icon({
@@ -371,6 +415,14 @@
       const name = langMap[g._filename]?.[lang] || g._filename;
       g.bindPopup(`<b>${name}</b>`);
     });
+  }
+
+  function updateLegendLang(lang) {
+    // 更新 legend
+    const legendEl = document.querySelector(".map-legend");
+    if (legendEl) {
+      renderLegend(legendEl);
+    }
   }
 
   // 监听语言变化并更新 popup
