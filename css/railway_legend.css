@@ -1,0 +1,30 @@
+.map-legend {
+  background: rgba(255,255,255,0.95);
+  padding: 8px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.legend-line {
+  display: inline-block;
+  width: 32px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.legend-label {
+  white-space: nowrap;
+}

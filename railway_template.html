@@ -5,6 +5,7 @@
   <title>Where did I go</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/railway_legend.css">
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-gpx"></script>
 
@@ -147,6 +148,49 @@
   const branchLine120Style = { color: "rgb(20,82,204)", weight: 4, opacity: 1.0 };
 
   const linkLineStyle = { color: "rgb(0,0,0)", weight: 3, opacity: 1.0 };
+
+  const legendItems = [
+    { label: "350+km/h 高速铁路", style: hsr350Style },
+    { label: "300 km/h 高速铁路", style: hsr300Style },
+    { label: "250 km/h 高速铁路", style: hsr250Style },
+
+    { label: "200 km/h 快速铁路", style: mainLine200Style },
+    { label: "160 km/h 干线铁路", style: mainLine160Style },
+    { label: "120 km/h 干线铁路", style: mainLine120Style },
+
+    { label: "160 km/h 支线铁路", style: branchLine160Style },
+    { label: "120 km/h 支线铁路", style: branchLine120Style },
+
+    { label: "联络线/其他", style: linkLineStyle }
+  ];
+
+  const legend = L.control({ position: "bottomleft" });
+
+  legend.onAdd = function () {
+    const div = L.DomUtil.create("div", "map-legend");
+
+    div.innerHTML = "<div class='legend-title'>线路等级</div>";
+
+    legendItems.forEach(item => {
+      const s = item.style;
+
+      div.innerHTML += `
+        <div class="legend-item">
+          <span class="legend-line"
+                style="
+                  background:${s.color};
+                  height:${s.weight}px;
+                ">
+          </span>
+          <span class="legend-label">${item.label}</span>
+        </div>
+      `;
+    });
+
+    return div;
+  };
+
+  legend.addTo(map);
 
   const icons = {
     railway: L.icon({
