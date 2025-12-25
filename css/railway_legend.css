@@ -28,3 +28,25 @@
 .legend-label {
   white-space: nowrap;
 }
+
+.legend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.legend-toggle {
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+/* 折叠状态 */
+.map-legend.collapsed .legend-content {
+  display: none;
+}
+
+.map-legend.collapsed .legend-toggle {
+  transform: rotate(-90deg);
+}
