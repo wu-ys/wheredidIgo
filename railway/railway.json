@@ -447,8 +447,8 @@
     "type": "main",
     "speed": "250"
   },
-  "宁蓉线（新墩-重庆北）": {
-    "zh": "宁蓉线（新墩-重庆北）",
+  "宁蓉线（汉口-重庆北）": {
+    "zh": "宁蓉线（汉口-重庆北）",
     "en": "Nanjing-Chengdu Railway",
     "country": "CN",
     "type": "main",
@@ -1321,5 +1321,33 @@
     "country": "CN",
     "type": "main",
     "speed": "300"
+  },
+  "新沟北联络线": {
+    "zh": "新沟北联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "武汉枢纽直通线": {
+    "zh": "武汉枢纽直通线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "沪渝蓉高速线（宜昌北-新沟北所）": {
+    "zh": "沪渝蓉高速线（宜昌北-新沟北所）",
+    "en": "Yangtze River Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
+  },
+  "高桥联络线": {
+    "zh": "高桥联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   }
 }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 7872 filtered ascend = 0 plain-ascend = 0 cost=7872 energy=0.1kwh time=10m 30s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>武汉枢纽直通线 (7.9km)</name>
+  <trkseg>
+   <trkpt lat="30.693247" lon="113.967664"/>
+   <trkpt lat="30.68384" lon="113.971897"/>
+   <trkpt lat="30.682274" lon="113.97265"/>
+   <trkpt lat="30.68068" lon="113.973485"/>
+   <trkpt lat="30.67923" lon="113.974289"/>
+   <trkpt lat="30.677998" lon="113.97504"/>
+   <trkpt lat="30.676905" lon="113.975783"/>
+   <trkpt lat="30.675613" lon="113.976702"/>
+   <trkpt lat="30.674559" lon="113.977514"/>
+   <trkpt lat="30.644256" lon="114.001649"/>
+   <trkpt lat="30.643406" lon="114.002394"/>
+   <trkpt lat="30.642543" lon="114.003217"/>
+   <trkpt lat="30.641697" lon="114.004074"/>
+   <trkpt lat="30.640875" lon="114.00497"/>
+   <trkpt lat="30.640126" lon="114.005859"/>
+   <trkpt lat="30.639262" lon="114.006915"/>
+   <trkpt lat="30.638573" lon="114.007862"/>
+   <trkpt lat="30.637666" lon="114.0092"/>
+   <trkpt lat="30.63673" lon="114.010689"/>
+   <trkpt lat="30.635191" lon="114.013302"/>
+  </trkseg>
+ </trk>
+</gpx>

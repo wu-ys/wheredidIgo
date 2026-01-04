@@ -148,7 +148,7 @@ name,name_en,lon,lat,country
 海口东,Haikou E.,,,cn
 三亚,Sanya,,,cn
 崖州,Yazhou,,,cn
-凤凰机场,Fenghuang Airport,,,cn
+凤凰机场,Fenghuang Airport,109.408973,18.309057,cn
 南昌,Nanchang,,,cn
 新余北,Xinyu N.,,,cn
 宜春,Yichun,,,cn
@@ -162,6 +162,7 @@ name,name_en,lon,lat,country
 武汉,Wuhan,,,cn
 汉口,Hankou,,,cn
 武昌,Wuchang,,,cn
+宜昌北,Yichang N.,111.475319,30.745727,cn
 郑州,Zhengzhou,113.658097,34.745795,cn
 郑州东,Zhengzhou E.,,,cn
 开封,Kaifeng,,,cn

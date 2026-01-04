@@ -764,6 +764,33 @@
       "departure": "CKG",
       "arrival": "LXA",
       "via": ""
+    },
+    {
+      "flight_id": "86",
+      "gpx_filename": "20251231_GS7461.gpx",
+      "flight_no": "GS7461",
+      "date": "20251231",
+      "departure": "URC",
+      "arrival": "YIH",
+      "via": ""
+    },
+    {
+      "flight_id": "87",
+      "gpx_filename": "20251229_HU7145.gpx",
+      "flight_no": "HU7145",
+      "date": "20251229",
+      "departure": "PEK",
+      "arrival": "URC",
+      "via": ""
+    },
+    {
+      "flight_id": "88",
+      "gpx_filename": "20251226_MU6232.gpx",
+      "flight_no": "MU6232",
+      "date": "20251226",
+      "departure": "JNH",
+      "arrival": "PKX",
+      "via": ""
     }
   ]
 }

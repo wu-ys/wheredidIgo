@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 5324 filtered ascend = 0 plain-ascend = 0 cost=5324 energy=0.1kwh time=7m 6s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>新沟北联络线 (5.3km)</name>
+  <trkseg>
+   <trkpt lat="30.713845" lon="113.928802"/>
+   <trkpt lat="30.713866" lon="113.928875"/>
+   <trkpt lat="30.71656" lon="113.937674"/>
+   <trkpt lat="30.716926" lon="113.938984"/>
+   <trkpt lat="30.717186" lon="113.940303"/>
+   <trkpt lat="30.717423" lon="113.941814"/>
+   <trkpt lat="30.717504" lon="113.943114"/>
+   <trkpt lat="30.717525" lon="113.944372"/>
+   <trkpt lat="30.717468" lon="113.945675"/>
+   <trkpt lat="30.717324" lon="113.946951"/>
+   <trkpt lat="30.717095" lon="113.948246"/>
+   <trkpt lat="30.716808" lon="113.949422"/>
+   <trkpt lat="30.716431" lon="113.950574"/>
+   <trkpt lat="30.715965" lon="113.951743"/>
+   <trkpt lat="30.715435" lon="113.952859"/>
+   <trkpt lat="30.714708" lon="113.954174"/>
+   <trkpt lat="30.713855" lon="113.955548"/>
+   <trkpt lat="30.713069" lon="113.956631"/>
+   <trkpt lat="30.712143" lon="113.957723"/>
+   <trkpt lat="30.711179" lon="113.958732"/>
+   <trkpt lat="30.710229" lon="113.959613"/>
+   <trkpt lat="30.709217" lon="113.960399"/>
+   <trkpt lat="30.708091" lon="113.961139"/>
+   <trkpt lat="30.707107" lon="113.961745"/>
+   <trkpt lat="30.706076" lon="113.96231"/>
+   <trkpt lat="30.704806" lon="113.962928"/>
+   <trkpt lat="30.698159" lon="113.965651"/>
+   <trkpt lat="30.697342" lon="113.965985"/>
+   <trkpt lat="30.693308" lon="113.967637"/>
+   <trkpt lat="30.693247" lon="113.967664"/>
+  </trkseg>
+ </trk>
+</gpx>

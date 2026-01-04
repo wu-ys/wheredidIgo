@@ -18,10 +18,12 @@ name_en,name_zh,iata,lat,lon
 [SHA] Shanghai Hongqiao,[SHA] 上海虹桥,SHA,31.198104,121.33426
 [PVG] Shanghai Pudong,[PVG] 上海浦东,PVG,31.1434,121.805
 [HGH] Hangzhou,[HGH] 杭州萧山,HGH,30.23609,120.428865
+[JNH] Jiaxing, [JNH] 嘉兴南湖,JNH,30.70163, 120.66430
 [WNZ] Wenzhou,[WNZ] 温州龙湾,WNZ,27.910572,120.853465
 [XMN] Xiamen,[XMN] 厦门高崎,XMN,24.54400063,118.1279984
 [JJN] Quanzhou,[JJN] 泉州晋江,JJN,24.796587,118.588883
 [HFE] Hefei,[HFE] 合肥新桥,HFE,31.98779,116.9769
+[YIH] Yichang,[YIH] 宜昌三峡,YIH,30.554132,111.482563
 [CSX] Changsha,[CSX] 长沙黄花,CSX,28.189199,113.220001
 [HNY] Hengyang,[HNY] 衡阳南岳,HNY,26.72208,112.617958
 [CAN] Guangzhou,[CAN] 广州白云,CAN,23.392401,113.299004
