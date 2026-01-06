@@ -118,9 +118,9 @@
     "type": "main",
     "speed": "160"
   },
-  "京包-包兰线（呼和浩特-银川）": {
-    "zh": "京包-包兰线（呼和浩特-银川）",
-    "en": "Beijing-Baotou-Lanzhou Railway",
+  "包兰线（包头西-银川）": {
+    "zh": "包兰线（包头西-银川）",
+    "en": "Baotou-Lanzhou Railway",
     "country": "CN",
     "type": "main",
     "speed": "160"
@@ -1345,6 +1345,27 @@
   },
   "高桥联络线": {
     "zh": "高桥联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "京包客运专线（台阁牧-包头）": {
+    "zh": "京包客运专线（台阁牧-包头）",
+    "en": "Beijing-Baotou Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
+  },
+  "京包线（呼和浩特东-台阁牧）": {
+    "zh": "京包线（呼和浩特东-台阁牧）",
+    "en": "Beijing-Baotou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
+  },
+  "包包联络线": {
+    "zh": "包包联络线",
     "en": "Link Line",
     "country": "CN",
     "type": "link",

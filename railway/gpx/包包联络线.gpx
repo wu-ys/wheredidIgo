@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 6492 filtered ascend = 10 plain-ascend = 5 cost=6492 energy=0.1kwh time=8m 40s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>包包联络线 (6.5km)</name>
+  <trkseg>
+   <trkpt lat="40.604235" lon="109.830202"><ele>1045</ele></trkpt>
+   <trkpt lat="40.604627" lon="109.823735"><ele>1044.5</ele></trkpt>
+   <trkpt lat="40.604659" lon="109.823217"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.604674" lon="109.822997"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.604748" lon="109.821749"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.604771" lon="109.821354"><ele>1044</ele></trkpt>
+   <trkpt lat="40.604826" lon="109.820421"><ele>1044</ele></trkpt>
+   <trkpt lat="40.604845" lon="109.820112"><ele>1044</ele></trkpt>
+   <trkpt lat="40.604908" lon="109.81908"><ele>1044.75</ele></trkpt>
+   <trkpt lat="40.604919" lon="109.818883"><ele>1044.75</ele></trkpt>
+   <trkpt lat="40.605158" lon="109.814921"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.605344" lon="109.811852"><ele>1043.25</ele></trkpt>
+   <trkpt lat="40.605398" lon="109.811144"><ele>1043.75</ele></trkpt>
+   <trkpt lat="40.605453" lon="109.81063"><ele>1044</ele></trkpt>
+   <trkpt lat="40.605496" lon="109.810074"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.605981" lon="109.801938"><ele>1041.75</ele></trkpt>
+   <trkpt lat="40.606012" lon="109.801344"><ele>1041.75</ele></trkpt>
+   <trkpt lat="40.606129" lon="109.799936"><ele>1041.5</ele></trkpt>
+   <trkpt lat="40.606339" lon="109.797792"><ele>1040.75</ele></trkpt>
+   <trkpt lat="40.606359" lon="109.797588"><ele>1040.75</ele></trkpt>
+   <trkpt lat="40.606407" lon="109.796841"><ele>1041.5</ele></trkpt>
+   <trkpt lat="40.60665" lon="109.792638"><ele>1039.75</ele></trkpt>
+   <trkpt lat="40.606679" lon="109.791918"><ele>1040.5</ele></trkpt>
+   <trkpt lat="40.606735" lon="109.789739"><ele>1043.25</ele></trkpt>
+   <trkpt lat="40.606782" lon="109.788855"><ele>1042.5</ele></trkpt>
+   <trkpt lat="40.606836" lon="109.788195"><ele>1042.25</ele></trkpt>
+   <trkpt lat="40.60697" lon="109.787165"><ele>1041.25</ele></trkpt>
+   <trkpt lat="40.607183" lon="109.786115"><ele>1041</ele></trkpt>
+   <trkpt lat="40.607431" lon="109.785078"><ele>1041.75</ele></trkpt>
+   <trkpt lat="40.609736" lon="109.776702"><ele>1040.25</ele></trkpt>
+   <trkpt lat="40.610103" lon="109.775485"><ele>1038.5</ele></trkpt>
+   <trkpt lat="40.610438" lon="109.774449"><ele>1040</ele></trkpt>
+   <trkpt lat="40.610776" lon="109.77332"><ele>1041.25</ele></trkpt>
+   <trkpt lat="40.610897" lon="109.772917"><ele>1041.25</ele></trkpt>
+   <trkpt lat="40.611951" lon="109.76907"><ele>1040.75</ele></trkpt>
+   <trkpt lat="40.612124" lon="109.768481"><ele>1041.5</ele></trkpt>
+   <trkpt lat="40.612283" lon="109.768024"><ele>1042.25</ele></trkpt>
+   <trkpt lat="40.612526" lon="109.767504"><ele>1043</ele></trkpt>
+   <trkpt lat="40.612839" lon="109.766897"><ele>1042.75</ele></trkpt>
+   <trkpt lat="40.613587" lon="109.765746"><ele>1042.25</ele></trkpt>
+   <trkpt lat="40.614403" lon="109.764388"><ele>1043.5</ele></trkpt>
+   <trkpt lat="40.614687" lon="109.763838"><ele>1044.25</ele></trkpt>
+   <trkpt lat="40.61492" lon="109.763316"><ele>1044.75</ele></trkpt>
+   <trkpt lat="40.615129" lon="109.76269"><ele>1044.75</ele></trkpt>
+   <trkpt lat="40.61528" lon="109.762069"><ele>1046</ele></trkpt>
+   <trkpt lat="40.615411" lon="109.761291"><ele>1047.75</ele></trkpt>
+   <trkpt lat="40.615461" lon="109.760653"><ele>1049.25</ele></trkpt>
+   <trkpt lat="40.615455" lon="109.760021"><ele>1049.5</ele></trkpt>
+   <trkpt lat="40.615413" lon="109.759366"><ele>1049.25</ele></trkpt>
+   <trkpt lat="40.615337" lon="109.758785"><ele>1048.75</ele></trkpt>
+   <trkpt lat="40.615322" lon="109.758707"><ele>1048</ele></trkpt>
+   <trkpt lat="40.615234" lon="109.758227"><ele>1048</ele></trkpt>
+   <trkpt lat="40.614958" lon="109.757014"><ele>1048.5</ele></trkpt>
+   <trkpt lat="40.614872" lon="109.75664"><ele>1047.75</ele></trkpt>
+   <trkpt lat="40.614789" lon="109.756271"><ele>1047.75</ele></trkpt>
+   <trkpt lat="40.614776" lon="109.756211"><ele>1046.5</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

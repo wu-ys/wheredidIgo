@@ -61,7 +61,7 @@ def remove_parentheses_from_filenames(folder_path):
 
 def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
 
-    existing_names = set()
+    existing_names = {}
     records = {}
 
     if os.path.exists(csv_file_path):
@@ -73,7 +73,7 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
                 country = row.get('country', 'CN')
                 types = row.get('type', "main")
                 speed = row.get('speed')
-                existing_names.add(name)
+                existing_names[name] = 0
                 records[name] = {"zh": name, "en": name_en, 'country': country, 'type': types, 'speed': speed}
 
     new_names = []
@@ -84,13 +84,19 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
                 filename_without_ext = os.path.splitext(f)[0]
                 if filename_without_ext not in existing_names:
                     new_names.append([filename_without_ext])
-                    existing_names.add(filename_without_ext)
+                    existing_names[filename_without_ext] = 1
                     records[filename_without_ext] = {"zh": filename_without_ext, "en": "", "country": "CN", 'type': "main", 'speed': 160}
+                else:
+                    existing_names[filename_without_ext] = 1
 
     if new_names:
         with open(csv_file_path, 'a', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerows(new_names)
+    
+    for n, v in existing_names.items():
+        if v == 0:
+            print(f"{n} 文件不存在！")
 
     print("导出完成！")
 
