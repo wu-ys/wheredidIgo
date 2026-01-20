@@ -185,6 +185,7 @@ name,name_en,lon,lat,country
 资阳北,Ziyang N.,,,cn
 昆明,Kunming,,,cn
 昆明南,Kunming S.,,,cn
+普洱,Pu'er,100.941871,22.775211,cn
 丽江,Lijiang,,,cn
 香格里拉,Shangri-La,99.689614,27.809836,cn
 兰州西,Lanzhou W.,,,cn
@@ -214,13 +215,4 @@ JR奈良,JR Nara,,,jp
 梅小路京都西,Umekoji-Kyoto Nishi,,,jp
 嵯峨岚山,Saga Arashiyama,,,jp
 山科,Yamashina,,,jp
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
 ,,,,

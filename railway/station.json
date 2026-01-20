@@ -1303,6 +1303,13 @@
       "country": "cn"
     },
     {
+      "name_zh": "普洱",
+      "name_en": "Pu'er",
+      "lat": 22.778273433054583,
+      "lon": 100.94076759541565,
+      "country": "cn"
+    },
+    {
       "name_zh": "丽江",
       "name_en": "Lijiang",
       "lat": 26.814219689042687,

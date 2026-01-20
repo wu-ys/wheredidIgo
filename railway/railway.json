@@ -1370,5 +1370,19 @@
     "country": "CN",
     "type": "link",
     "speed": ""
+  },
+  "中老昆万线（昆明南-普洱）": {
+    "zh": "中老昆万线（昆明南-普洱）",
+    "en": "China-Laos Kunming-Vientiane Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
+  },
+  "南昆客运专线（昆明南-南宁）": {
+    "zh": "南昆客运专线（昆明南-南宁）",
+    "en": "Nanning-Kunming Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
   }
 }

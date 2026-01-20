@@ -307,7 +307,8 @@
         "35",
         "73",
         "79",
-        "81"
+        "81",
+        "89"
       ],
       "arrival": [
         "3",
@@ -324,7 +325,7 @@
         "80"
       ],
       "via": [],
-      "cnt": 22
+      "cnt": 23
     },
     {
       "name_zh": "[HGH] 杭州萧山",
@@ -338,10 +339,11 @@
       "arrival": [
         "18",
         "50",
-        "52"
+        "52",
+        "92"
       ],
       "via": [],
-      "cnt": 4
+      "cnt": 5
     },
     {
       "name_zh": " [JNH] 嘉兴南湖",
@@ -457,14 +459,15 @@
       "departure": [
         "7",
         "10",
-        "65"
+        "65",
+        "90"
       ],
       "arrival": [
         "37",
         "66"
       ],
       "via": [],
-      "cnt": 5
+      "cnt": 6
     },
     {
       "name_zh": "[SZX] 深圳宝安",
@@ -474,10 +477,11 @@
       "iata": "SZX",
       "departure": [],
       "arrival": [
-        "49"
+        "49",
+        "89"
       ],
       "via": [],
-      "cnt": 1
+      "cnt": 2
     },
     {
       "name_zh": "[NNG] 南宁吴圩",
@@ -486,13 +490,14 @@
       "lon": 108.175335,
       "iata": "NNG",
       "departure": [
-        "50"
+        "50",
+        "92"
       ],
       "arrival": [
         "41"
       ],
       "via": [],
-      "cnt": 2
+      "cnt": 3
     },
     {
       "name_zh": "[HAK] 海口美兰",
@@ -599,6 +604,34 @@
       ],
       "via": [],
       "cnt": 4
+    },
+    {
+      "name_zh": "[KMG] 昆明长水",
+      "name_en": "[KMG] Kunming",
+      "lat": 25.09993,
+      "lon": 102.92732,
+      "iata": "KMG",
+      "departure": [
+        "91"
+      ],
+      "arrival": [
+        "90"
+      ],
+      "via": [],
+      "cnt": 2
+    },
+    {
+      "name_zh": "[JHG] 西双版纳嘎洒",
+      "name_en": "[JHG] Xishuangbanna",
+      "lat": 21.977774,
+      "lon": 100.76658,
+      "iata": "JHG",
+      "departure": [],
+      "arrival": [
+        "91"
+      ],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[LJG] 丽江三义",
