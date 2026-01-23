@@ -946,6 +946,27 @@
       "country": "cn"
     },
     {
+      "name_zh": "深圳机场",
+      "name_en": "Shenzhen Airport",
+      "lat": 22.624715208599547,
+      "lon": 113.8062062452849,
+      "country": "cn"
+    },
+    {
+      "name_zh": "东莞西",
+      "name_en": "Dongguan W.",
+      "lat": 23.0108701670067,
+      "lon": 113.62090639693486,
+      "country": "cn"
+    },
+    {
+      "name_zh": "琶洲",
+      "name_en": "Pazhou",
+      "lat": 23.102843298543988,
+      "lon": 113.36270639801295,
+      "country": "cn"
+    },
+    {
       "name_zh": "香港西九龙",
       "name_en": "HongKong West Kowloon",
       "lat": 22.303881872182092,
@@ -976,8 +997,8 @@
     {
       "name_zh": "崇左南",
       "name_en": "Chongzuo S.",
-      "lat": 22.379888178280904,
-      "lon": 107.36081713677845,
+      "lat": 22.359854208433052,
+      "lon": 107.39085162042458,
       "country": "cn"
     },
     {

@@ -1384,5 +1384,19 @@
     "country": "CN",
     "type": "main",
     "speed": "250"
+  },
+  "琶莲城际": {
+    "zh": "琶莲城际",
+    "en": "Pazhou-Lianhuashan Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "200"
+  },
+  "穗深城际（东莞西-深圳机场）": {
+    "zh": "穗深城际（东莞西-深圳机场）",
+    "en": "Guangzhou-Shenzhen II Intercity Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "160"
   }
 }
