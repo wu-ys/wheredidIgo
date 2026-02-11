@@ -365,10 +365,45 @@
       "country": "cn"
     },
     {
+      "name_zh": "长春",
+      "name_en": "Changchun",
+      "lat": 43.909016882850466,
+      "lon": 125.31801286303715,
+      "country": "cn"
+    },
+    {
+      "name_zh": "龙嘉",
+      "name_en": "Longjia Airport",
+      "lat": 43.990324345070555,
+      "lon": 125.69394466196876,
+      "country": "cn"
+    },
+    {
       "name_zh": "吉林",
       "name_en": "Jilin",
       "lat": 43.85702217767775,
       "lon": 126.57245129905675,
+      "country": "cn"
+    },
+    {
+      "name_zh": "四平",
+      "name_en": "Siping",
+      "lat": 43.165104202845335,
+      "lon": 124.36727977996912,
+      "country": "cn"
+    },
+    {
+      "name_zh": "四平东",
+      "name_en": "Siping E.",
+      "lat": 43.135984844628766,
+      "lon": 124.43177957986893,
+      "country": "cn"
+    },
+    {
+      "name_zh": "通化",
+      "name_en": "Tonghua",
+      "lat": 41.77609996645664,
+      "lon": 125.91626036868965,
       "country": "cn"
     },
     {
@@ -386,6 +421,13 @@
       "country": "cn"
     },
     {
+      "name_zh": "沈阳南",
+      "name_en": "Shenyang S.",
+      "lat": 41.66637023943956,
+      "lon": 123.40093832714513,
+      "country": "cn"
+    },
+    {
       "name_zh": "大连",
       "name_en": "Dalian",
       "lat": 38.9213887498692,
@@ -397,6 +439,20 @@
       "name_en": "Dalian N.",
       "lat": 39.01597783973137,
       "lon": 121.60137704087084,
+      "country": "cn"
+    },
+    {
+      "name_zh": "抚顺",
+      "name_en": "Fushun",
+      "lat": 41.88803380161724,
+      "lon": 123.91207480497586,
+      "country": "cn"
+    },
+    {
+      "name_zh": "丹东",
+      "name_en": "Dandong",
+      "lat": 40.122161552758506,
+      "lon": 124.3801921238564,
       "country": "cn"
     },
     {
@@ -453,6 +509,27 @@
       "name_en": "Yanzhou",
       "lat": 35.55621375494819,
       "lon": 116.83554059534151,
+      "country": "cn"
+    },
+    {
+      "name_zh": "威海",
+      "name_en": "Weihai",
+      "lat": 37.425662887018696,
+      "lon": 122.13863658903774,
+      "country": "cn"
+    },
+    {
+      "name_zh": "烟台",
+      "name_en": "Yantai",
+      "lat": 37.54749247199979,
+      "lon": 121.37742105504329,
+      "country": "cn"
+    },
+    {
+      "name_zh": "莱西",
+      "name_en": "Laixi",
+      "lat": 36.823533543768804,
+      "lon": 120.52498494946245,
       "country": "cn"
     },
     {
@@ -568,6 +645,20 @@
       "country": "cn"
     },
     {
+      "name_zh": "无锡新区",
+      "name_en": "Wuxi New District",
+      "lat": 31.49940668944606,
+      "lon": 120.38792239941819,
+      "country": "cn"
+    },
+    {
+      "name_zh": "江阴",
+      "name_en": "Jiangyin",
+      "lat": 31.86389383449567,
+      "lon": 120.27464305616905,
+      "country": "cn"
+    },
+    {
       "name_zh": "常州",
       "name_en": "Changzhou",
       "lat": 31.787333965685733,
@@ -635,6 +726,13 @@
       "name_en": "Yangzhou",
       "lat": 32.39162253788777,
       "lon": 119.34539575680259,
+      "country": "cn"
+    },
+    {
+      "name_zh": "扬州东",
+      "name_en": "Yangzhou E.",
+      "lat": 32.406569988119585,
+      "lon": 119.52394794886003,
       "country": "cn"
     },
     {
@@ -1188,6 +1286,27 @@
       "name_en": "Kaifeng",
       "lat": 34.77167805357281,
       "lon": 114.34827948764077,
+      "country": "cn"
+    },
+    {
+      "name_zh": "洛阳",
+      "name_en": "Luoyang",
+      "lat": 34.68640466290129,
+      "lon": 112.43010632190646,
+      "country": "cn"
+    },
+    {
+      "name_zh": "安阳东",
+      "name_en": "Anyang E.",
+      "lat": 36.08473985880857,
+      "lon": 114.44744141334328,
+      "country": "cn"
+    },
+    {
+      "name_zh": "焦作",
+      "name_en": "Jiaozuo",
+      "lat": 35.222382707920715,
+      "lon": 113.22854989001539,
       "country": "cn"
     },
     {

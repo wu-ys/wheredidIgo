@@ -51,11 +51,19 @@ name,name_en,lon,lat,country
 绥芬河,Suifenhe,,,cn
 齐齐哈尔,Qiqihar,,,cn
 漠河,Mohe,,,cn
+长春,Changchun,,,cn
+龙嘉,Longjia Airport,125.70023,43.992555,cn
 吉林,Jilin,126.578085,43.859222,cn
+四平,Siping,,,cn
+四平东,Siping E.,,,cn
+通化,Tonghua,125.921906,41.778246,cn
 长白山,Changbaishan,128.128582,42.462101,cn
 沈阳北,Shenyang N.,,,cn
+沈阳南,Shenyang S.,,,cn
 大连,Dalian,,,cn
 大连北,Dalian N.,,,cn
+抚顺,Fushun,123.917781,41.890128,cn
+丹东,Dandong,,,cn
 济南,Jinan,,,cn
 济南西,Jinan W.,,,cn
 淄博,Zibo,,,cn
@@ -64,6 +72,9 @@ name,name_en,lon,lat,country
 泰山,Taishan,,,cn
 青岛北,Qingdao N.,,,cn
 兖州,Yanzhou,,,cn
+威海,Weihai,,,cn
+烟台,Yantai,,,cn
+莱西,Laixi,120.529799,36.823884,cn
 上海,Shanghai,,,cn
 上海南,Shanghai S.,,,cn
 上海虹桥,Shanghai Hongqiao,,,cn
@@ -80,6 +91,8 @@ name,name_en,lon,lat,country
 太仓,Taicang,,,cn
 常熟,Changshu,120.780376,31.697579,cn
 张家港,Zhangjiagang,120.674056,31.817334,cn
+无锡新区,Wuxi New District,,,cn
+江阴,Jiangyin,120.27925,31.86194,cn
 常州,Changzhou,,,cn
 武进,Wujin,119.9467,31.659123,cn
 镇江,Zhenjiang,,,cn
@@ -90,6 +103,7 @@ name,name_en,lon,lat,country
 盐城,Yancheng,,,cn
 海安,Hai'an,120.504835,32.547235,cn
 扬州,Yangzhou,,,cn
+扬州东,Yangzhou E.,,,cn
 杭州,Hangzhou,,,cn
 杭州东,Hangzhou E.,,,cn
 杭州南,Hangzhou S.,,,cn
@@ -169,6 +183,9 @@ name,name_en,lon,lat,country
 郑州,Zhengzhou,113.658097,34.745795,cn
 郑州东,Zhengzhou E.,,,cn
 开封,Kaifeng,,,cn
+洛阳,Luoyang,,,cn
+安阳东,Anyang E.,,,cn
+焦作,Jiaozuo,,,cn
 重庆北,Chongqing N.,,,cn
 沙坪坝,Shapingba,,,cn
 贵阳,Guiyang,,,cn

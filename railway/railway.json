@@ -818,13 +818,6 @@
     "type": "main",
     "speed": "300"
   },
-  "沪宁沿江高速线（武进-太仓）": {
-    "zh": "沪宁沿江高速线（武进-太仓）",
-    "en": "Shanghai-Nanjing Riverside Highspeed Railway",
-    "country": "CN",
-    "type": "main",
-    "speed": "350"
-  },
   "沪昆线（封浜-龙里）": {
     "zh": "沪昆线（封浜-龙里）",
     "en": "Shanghai-Kunming Railway",
@@ -1398,5 +1391,96 @@
     "country": "CN",
     "type": "branch",
     "speed": "160"
+  },
+  "丹大线（丹东-大连北）": {
+    "zh": "丹大线（丹东-大连北）",
+    "en": "Dandong-Dalian Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "200"
+  },
+  "京广高速线（郑州东-安阳东）": {
+    "zh": "京广高速线（郑州东-安阳东）",
+    "en": "Beijing-Guangzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
+  },
+  "商丘西南联络线": {
+    "zh": "商丘西南联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "四梅线（四平-梅河口）": {
+    "zh": "四梅线（四平-梅河口）",
+    "en": "Siping-Meihekou Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
+  },
+  "宣杭线（杭州-宣城）": {
+    "zh": "宣杭线（杭州-宣城）",
+    "en": "Xuancheng-Hangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
+  },
+  "梅集线（梅河口-通化）": {
+    "zh": "梅集线（梅河口-通化）",
+    "en": "Meihekou-Ji'an Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": "120"
+  },
+  "沈丹客专线（沈阳南-丹东）": {
+    "zh": "沈丹客专线（沈阳南-丹东）",
+    "en": "Shenyang-Dandong Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
+  },
+  "沪宁沿江高速线（南京南-太仓）": {
+    "zh": "沪宁沿江高速线（南京南-太仓）",
+    "en": "Shanghai-Nanjing Riverside Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "350"
+  },
+  "淮南线（淮南-芜湖）": {
+    "zh": "淮南线（淮南-芜湖）",
+    "en": "Huainan-Wuhu Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
+  },
+  "郑太客运专线（南阳寨-焦作）": {
+    "zh": "郑太客运专线（南阳寨-焦作）",
+    "en": "Zhengzhou-Taiyuan Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "250"
+  },
+  "郑州东北联络线": {
+    "zh": "郑州东北联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
+  },
+  "阜淮线（阜阳-淮南）": {
+    "zh": "阜淮线（阜阳-淮南）",
+    "en": "Fuyang-Huainan Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": "160"
+  },
+  "阜阳西联络线": {
+    "zh": "阜阳西联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": ""
   }
 }

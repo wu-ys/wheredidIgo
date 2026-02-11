@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 5975 filtered ascend = 8 plain-ascend = 5 cost=5975 energy=0.1kwh time=7m 57s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>商丘西南联络线 (6km)</name>
+  <trkseg>
+   <trkpt lat="34.403284" lon="115.702962"><ele>49.75</ele></trkpt>
+   <trkpt lat="34.404401" lon="115.70244"><ele>50.75</ele></trkpt>
+   <trkpt lat="34.415754" lon="115.696975"><ele>48</ele></trkpt>
+   <trkpt lat="34.416051" lon="115.696834"><ele>48.25</ele></trkpt>
+   <trkpt lat="34.416199" lon="115.696764"><ele>48.5</ele></trkpt>
+   <trkpt lat="34.41621" lon="115.69676"><ele>48.5</ele></trkpt>
+   <trkpt lat="34.416578" lon="115.696578"><ele>49.5</ele></trkpt>
+   <trkpt lat="34.419056" lon="115.695381"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.419877" lon="115.694918"><ele>52</ele></trkpt>
+   <trkpt lat="34.420292" lon="115.694654"><ele>51.5</ele></trkpt>
+   <trkpt lat="34.421039" lon="115.694134"><ele>52.5</ele></trkpt>
+   <trkpt lat="34.421765" lon="115.693617"><ele>52.25</ele></trkpt>
+   <trkpt lat="34.423869" lon="115.692198"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.424187" lon="115.691954"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.424514" lon="115.691673"><ele>51</ele></trkpt>
+   <trkpt lat="34.42483" lon="115.691362"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.42512" lon="115.691047"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.425427" lon="115.690636"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.425677" lon="115.690258"><ele>51</ele></trkpt>
+   <trkpt lat="34.425946" lon="115.689764"><ele>52</ele></trkpt>
+   <trkpt lat="34.426783" lon="115.688028"><ele>51.75</ele></trkpt>
+   <trkpt lat="34.427073" lon="115.687473"><ele>50</ele></trkpt>
+   <trkpt lat="34.427333" lon="115.687003"><ele>50</ele></trkpt>
+   <trkpt lat="34.427607" lon="115.686612"><ele>50.75</ele></trkpt>
+   <trkpt lat="34.427903" lon="115.686247"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.428078" lon="115.686061"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.428207" lon="115.685925"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.428497" lon="115.685669"><ele>51.5</ele></trkpt>
+   <trkpt lat="34.428848" lon="115.685409"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.429185" lon="115.685199"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.429586" lon="115.684969"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.43214" lon="115.683685"><ele>49.25</ele></trkpt>
+   <trkpt lat="34.432694" lon="115.683342"><ele>49.25</ele></trkpt>
+   <trkpt lat="34.433225" lon="115.68289"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.43359" lon="115.682515"><ele>50</ele></trkpt>
+   <trkpt lat="34.433928" lon="115.682114"><ele>50</ele></trkpt>
+   <trkpt lat="34.434193" lon="115.681729"><ele>50</ele></trkpt>
+   <trkpt lat="34.434373" lon="115.681412"><ele>50.75</ele></trkpt>
+   <trkpt lat="34.434499" lon="115.681194"><ele>50.75</ele></trkpt>
+   <trkpt lat="34.434792" lon="115.680584"><ele>51.75</ele></trkpt>
+   <trkpt lat="34.435182" lon="115.679658"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.436074" lon="115.677361"><ele>49.75</ele></trkpt>
+   <trkpt lat="34.436119" lon="115.677226"><ele>49.5</ele></trkpt>
+   <trkpt lat="34.436504" lon="115.676076"><ele>49.5</ele></trkpt>
+   <trkpt lat="34.436794" lon="115.675163"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.437018" lon="115.674427"><ele>50.5</ele></trkpt>
+   <trkpt lat="34.437259" lon="115.673558"><ele>49.25</ele></trkpt>
+   <trkpt lat="34.437617" lon="115.672283"><ele>50.75</ele></trkpt>
+   <trkpt lat="34.437928" lon="115.671346"><ele>49.25</ele></trkpt>
+   <trkpt lat="34.438094" lon="115.670848"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.439158" lon="115.66758"><ele>49</ele></trkpt>
+   <trkpt lat="34.439399" lon="115.666891"><ele>50</ele></trkpt>
+   <trkpt lat="34.440109" lon="115.665037"><ele>49</ele></trkpt>
+   <trkpt lat="34.440558" lon="115.663911"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.440833" lon="115.663223"><ele>50.25</ele></trkpt>
+   <trkpt lat="34.441218" lon="115.662401"><ele>51.25</ele></trkpt>
+   <trkpt lat="34.441224" lon="115.662385"><ele>51</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
