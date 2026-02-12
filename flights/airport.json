@@ -108,10 +108,24 @@
       "arrival": [
         "15",
         "16",
-        "17"
+        "17",
+        "94"
       ],
       "via": [],
-      "cnt": 6
+      "cnt": 7
+    },
+    {
+      "name_zh": "[CGQ] 长春龙嘉",
+      "name_en": "[CGQ] Changchun",
+      "lat": 43.99584,
+      "lon": 125.69132,
+      "iata": "CGQ",
+      "departure": [
+        "95"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[YNJ] 延吉朝阳川",
@@ -223,6 +237,32 @@
       "cnt": 2
     },
     {
+      "name_zh": "[YNT] 烟台蓬莱",
+      "name_en": "[YNT] Yantai",
+      "lat": 37.66008,
+      "lon": 120.98398,
+      "iata": "YNT",
+      "departure": [
+        "94"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
+    },
+    {
+      "name_zh": "[WEH] 威海大水泊",
+      "name_en": "[WEH] Weihai",
+      "lat": 37.1859,
+      "lon": 122.22977,
+      "iata": "WEH",
+      "departure": [],
+      "arrival": [
+        "93"
+      ],
+      "via": [],
+      "cnt": 1
+    },
+    {
       "name_zh": "[JNG] 济宁大安",
       "name_en": "[JNG] Jining",
       "lat": 35.647358,
@@ -250,6 +290,19 @@
       ],
       "via": [],
       "cnt": 3
+    },
+    {
+      "name_zh": "[YTY] 扬州泰州",
+      "name_en": "[YTY] Yangzhou Taizhou",
+      "lat": 32.56277,
+      "lon": 119.71379,
+      "iata": "YTY",
+      "departure": [
+        "93"
+      ],
+      "arrival": [],
+      "via": [],
+      "cnt": 1
     },
     {
       "name_zh": "[SHA] 上海虹桥",
@@ -340,10 +393,11 @@
         "18",
         "50",
         "52",
-        "92"
+        "92",
+        "95"
       ],
       "via": [],
-      "cnt": 5
+      "cnt": 6
     },
     {
       "name_zh": " [JNH] 嘉兴南湖",

@@ -5,6 +5,7 @@ name_en,name_zh,iata,lat,lon
 [TVS] Tangshan,[TVS] 唐山三女河,TVS,39.7178,118.002625
 [SJW] Shijiazhuang,[SJW] 石家庄正定,SJW,38.280701,114.696999
 [DLC] Dalian,[DLC] 大连周水子,DLC,38.965719,121.538477
+[CGQ] Changchun,[CGQ] 长春龙嘉,CGQ,43.99584,125.69132
 [YNJ] Yanji,[YNJ] 延吉朝阳川,YNJ,42.88280106,129.451004
 [HRB] Harbin,[HRB] 哈尔滨太平,HRB,45.623402,126.25
 [OHE] Mohe,[OHE] 漠河古莲,OHE,52.916871,122.422759
@@ -13,8 +14,11 @@ name_en,name_zh,iata,lat,lon
 [TGO] Tongliao,[TGO] 通辽,TGO,43.556702,122.199997
 [HET] Hohhot,[HET] 呼和浩特白塔,HET,40.849658,111.824598
 [TAO] Qingdao,[TAO] 青岛胶东,TAO,36.361953,120.088171
+[YNT] Yantai,[YNT] 烟台蓬莱,YNT,37.66008,120.98398
+[WEH] Weihai,[WEH] 威海大水泊,WEH,37.18590,122.22977
 [JNG] Jining,[JNG] 济宁大安,JNG,35.647358,116.743269
 [NKG] Nanjing,[NKG] 南京禄口,NKG,31.735032,118.865949
+[YTY] Yangzhou Taizhou,[YTY] 扬州泰州,YTY,32.56277,119.71379
 [SHA] Shanghai Hongqiao,[SHA] 上海虹桥,SHA,31.198104,121.33426
 [PVG] Shanghai Pudong,[PVG] 上海浦东,PVG,31.1434,121.805
 [HGH] Hangzhou,[HGH] 杭州萧山,HGH,30.23609,120.428865

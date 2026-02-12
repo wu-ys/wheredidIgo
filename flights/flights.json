@@ -827,6 +827,33 @@
       "departure": "NNG",
       "arrival": "HGH",
       "via": ""
+    },
+    {
+      "flight_id": "93",
+      "gpx_filename": "20260129_MU9057.gpx",
+      "flight_no": "MU9057",
+      "date": "20260129",
+      "departure": "YTY",
+      "arrival": "WEH",
+      "via": ""
+    },
+    {
+      "flight_id": "94",
+      "gpx_filename": "20260130_MU9823.gpx",
+      "flight_no": "MU9823",
+      "date": "20260130",
+      "departure": "YNT",
+      "arrival": "DLC",
+      "via": ""
+    },
+    {
+      "flight_id": "95",
+      "gpx_filename": "20260201_JD5396.gpx",
+      "flight_no": "JD5396",
+      "date": "20260201",
+      "departure": "CGQ",
+      "arrival": "HGH",
+      "via": ""
     }
   ]
 }

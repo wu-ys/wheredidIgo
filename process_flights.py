@@ -207,5 +207,5 @@ if __name__ == "__main__":
 
     with open(inout_airport_json, "w", encoding="utf-8") as f:
         json.dump(airport_flights_data, f, ensure_ascii=False, indent=2)
-    print(f"✅ 已将 flights/flights.csv 转换为 flights/airport_flights.json")
+    print(f"✅ 已将 flights/flights.csv 转换为新格式")
 
