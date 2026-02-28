@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 3410 filtered ascend = 4 plain-ascend = 3 cost=3410 energy=0.0kwh time=4m 32s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>莱西联络线（莱西东所-莱西） (3.4km)</name>
+  <trkseg>
+   <trkpt lat="36.822999" lon="120.525675"><ele>60</ele></trkpt>
+   <trkpt lat="36.825052" lon="120.527591"><ele>58.75</ele></trkpt>
+   <trkpt lat="36.826032" lon="120.528524"><ele>57.25</ele></trkpt>
+   <trkpt lat="36.826368" lon="120.528882"><ele>57</ele></trkpt>
+   <trkpt lat="36.827126" lon="120.529644"><ele>58</ele></trkpt>
+   <trkpt lat="36.828343" lon="120.530779"><ele>60.75</ele></trkpt>
+   <trkpt lat="36.829603" lon="120.531956"><ele>58.25</ele></trkpt>
+   <trkpt lat="36.830274" lon="120.53258"><ele>58.5</ele></trkpt>
+   <trkpt lat="36.830724" lon="120.533003"><ele>58.75</ele></trkpt>
+   <trkpt lat="36.83092" lon="120.533192"><ele>58.25</ele></trkpt>
+   <trkpt lat="36.832124" lon="120.534427"><ele>59.5</ele></trkpt>
+   <trkpt lat="36.832391" lon="120.534683"><ele>59.25</ele></trkpt>
+   <trkpt lat="36.832465" lon="120.534753"><ele>59.25</ele></trkpt>
+   <trkpt lat="36.833912" lon="120.536071"><ele>58.75</ele></trkpt>
+   <trkpt lat="36.837629" lon="120.539714"><ele>59</ele></trkpt>
+   <trkpt lat="36.839905" lon="120.541821"><ele>63.25</ele></trkpt>
+   <trkpt lat="36.842192" lon="120.543957"><ele>63.5</ele></trkpt>
+   <trkpt lat="36.842709" lon="120.544442"><ele>63</ele></trkpt>
+   <trkpt lat="36.845869" lon="120.547394"><ele>60.75</ele></trkpt>
+   <trkpt lat="36.846492" lon="120.547943"><ele>61.25</ele></trkpt>
+   <trkpt lat="36.847456" lon="120.548756"><ele>62.5</ele></trkpt>
+   <trkpt lat="36.847471" lon="120.548771"><ele>62.25</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

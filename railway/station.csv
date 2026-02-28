@@ -1,238 +1,239 @@
-name,name_en,lon,lat,country
-北京,Beijing,,,cn
-北京南,Beijing S.,,,cn
-北京西,Beijing W.,,,cn
-北京北,Beijing N.,,,cn
-北京朝阳,Beijing Chaoyang,116.509202,39.944863,cn
-北京丰台,Beijing Fengtai,116.301463,39.850889,cn
-清河,Qinghe,,,cn
-八达岭长城,Badaling Great Wall,116.011135,40.359328,cn
-八达岭,Badaling,,,cn
-延庆,Yanqing,,,cn
-康庄,Kangzhuang,,,cn
-黄土店,Huangtudian,,,cn
-北京大兴,Beijing Daxing,116.328855,39.720335,cn
-大兴机场,Daxing Airport,116.415692,39.51224,cn
-昌平北,"Changping N.",,,cn
-怀柔北,Huairou N.,,,cn
-古北口,Gubeikou,,,cn
-顺义,Shunyi,,,cn
-燕山,Yanshan,,,cn
-天津,Tianjin,,,cn
-天津西,Tianjin W.,,,cn
-天津北,Tianjin N.,,,cn
-蓟州,Jizhou,117.36935,39.995094,cn
-蓟州北,Jizhou N.,,,cn
-石家庄,Shijiazhuang,,,cn
-唐山,Tangshan,,,cn
-承德,Chengde,,,cn
-承德南,Chengde S.,117.965027,40.885197,cn
-霸州西,Bazhou W.,,,cn
-霸州北,Bazhou N.,,,cn
-雄安,Xiong'an,,,cn
-白洋淀,Baiyangdian,115.87477,39.069389,cn
-秦皇岛,Qinhuangdao,,,cn
-山海关,Shanhaiguan,,,cn
-北戴河,Beidaihe,,,cn
-张家口,Zhangjiakou,114.882843,40.751977,cn
-宣化,Xuanhua,,,cn
-燕郊,Yanjiao,,,cn
-呼和浩特,Hohhot,,,cn
-呼和浩特东,Hohhot E.,,,cn
-乌兰察布,Ulanqab,,,cn
-通辽,Tongliao,,,cn
-海拉尔,Hailar,,,cn
-哈尔滨,Harbin,,,cn
-哈尔滨东,Harbin E.,,,cn
-哈尔滨西,Harbin W.,,,cn
-呼兰,Hulan,,,cn
-牡丹江,Mudanjiang,,,cn
-横道河子东,Hengdaohezi E.,129.10631,44.79122,cn
-绥芬河,Suifenhe,,,cn
-齐齐哈尔,Qiqihar,,,cn
-漠河,Mohe,,,cn
-长春,Changchun,,,cn
-龙嘉,Longjia Airport,125.70023,43.992555,cn
-吉林,Jilin,126.578085,43.859222,cn
-四平,Siping,,,cn
-四平东,Siping E.,,,cn
-通化,Tonghua,125.921906,41.778246,cn
-长白山,Changbaishan,128.128582,42.462101,cn
-沈阳北,Shenyang N.,,,cn
-沈阳南,Shenyang S.,,,cn
-大连,Dalian,,,cn
-大连北,Dalian N.,,,cn
-抚顺,Fushun,123.917781,41.890128,cn
-丹东,Dandong,,,cn
-济南,Jinan,,,cn
-济南西,Jinan W.,,,cn
-淄博,Zibo,,,cn
-南博山,South Boshan,,,cn
-泰安,Tai'an,,,cn
-泰山,Taishan,,,cn
-青岛北,Qingdao N.,,,cn
-兖州,Yanzhou,,,cn
-威海,Weihai,,,cn
-烟台,Yantai,,,cn
-莱西,Laixi,120.529799,36.823884,cn
-上海,Shanghai,,,cn
-上海南,Shanghai S.,,,cn
-上海虹桥,Shanghai Hongqiao,,,cn
-上海西,Shanghai W.,,,cn
-上海松江,Shanghai Songjiang,,,cn
-[松江北],[Songjiang N.],121.227816,30.999542,cn
-南京,Nanjing,,,cn
-南京南,Nanjing S.,,,cn
-苏州,Suzhou,,,cn
-苏州北,Suzhou N.,,,cn
-苏州园区,Suzhou SIP,,,cn
-苏州新区,Suzhou SND,,,cn
-苏州南,Suzhou S.,,,cn
-太仓,Taicang,,,cn
-常熟,Changshu,120.780376,31.697579,cn
-张家港,Zhangjiagang,120.674056,31.817334,cn
-无锡新区,Wuxi New District,,,cn
-江阴,Jiangyin,120.27925,31.86194,cn
-常州,Changzhou,,,cn
-武进,Wujin,119.9467,31.659123,cn
-镇江,Zhenjiang,,,cn
-徐州东,Xuzhou E.,,,cn
-宿迁,Suqian,118.281838,33.87455,cn
-淮安东,Huai'an E.,119.188233,33.568734,cn
-连云港,Lianyungang,,,cn
-盐城,Yancheng,,,cn
-海安,Hai'an,120.504835,32.547235,cn
-扬州,Yangzhou,,,cn
-扬州东,Yangzhou E.,,,cn
-杭州,Hangzhou,,,cn
-杭州东,Hangzhou E.,,,cn
-杭州南,Hangzhou S.,,,cn
-绍兴,Shaoxing,,,cn
-绍兴北,Shaoxing N.,,,cn
-诸暨,Zhuji,,,cn
-宁波,Ningbo,,,cn
-温州南,Wenzhou S.,,,cn
-义乌,Yiwu,,,cn
-横店,Hengdian,,,cn
-湖州,Huzhou,,,cn
-湖州南浔,Huzhou Nanxun,120.40733,30.827458,cn
-嘉兴,Jiaxing,,,cn
-嘉兴南,Jiaxing S.,,,cn
-海宁,Haining,,,cn
-衢州,Quzhou,,,cn
-合肥南,Hefei S.,,,cn
-黄山北,Huangshan N.,,,cn
-黟县东,Yixian E.,,,cn
-芜湖,Wuhu,,,cn
-芜湖南,Wuhu S.,118.378726,31.248946,cn
-池州,Chizhou,,,cn
-福州,Fuzhou,,,cn
-福州南,Fuzhou S.,,,cn
-厦门,Xiamen,,,cn
-厦门北,Xiamen N.,,,cn
-泉州,Quanzhou,,,cn
-漳州,Zhangzhou,,,cn
-广州东,Guangzhou E.,,,cn
-广州南,Guangzhou S.,,,cn
-广州北,"Guangzhou N,",,,cn
-广州白云,Guangzhou Baiyun,,,cn
-广州新塘,Guangzhou Xintang,113.606204,23.133964,cn
-清城,Qingcheng,,,cn
-白云机场北,Baiyun Airport N.,,,cn
-深圳北,Shenzhen N.,,,cn
-深圳,Shenzhen,,,cn
-福田,Futian,,,cn
-东莞,Dongguan,,,cn
-西平西,Xiping W.,113.745764,22.993627,cn
-惠州南,Huizhou S.,,,cn
-佛山西,Foshan W.,,,cn
-顺德北,Shunde N.,,,cn
-张槎,Zhangcha,,,cn
-深圳机场,Shenzhen Airport,113.811095,22.621061,cn
-东莞西,Dongguan W.,113.62598,23.007972,cn
-琶洲,Pazhou,113.368207,23.100314,cn
-香港西九龙,HongKong West Kowloon,114.170406,22.301135,cn
-南宁,Nanning,,,cn
-南宁东,Nanning E.,,,cn
-吴圩机场,Wuxu Airport,108.186947,22.599855,cn
-崇左南,Chongzuo S.,107.395045,22.357135,cn
-玉林北,Yulin N.,,,cn
-玉林,Yulin,,,cn
-金城江,Jinchengjiang,,,cn
-河池西,Hechi W.,108.175324,24.711519,cn
-美兰,Meilan Airport,,,cn
-城西,Chengxi,110.332061,19.996103,cn
-海口东,Haikou E.,,,cn
-三亚,Sanya,,,cn
-崖州,Yazhou,,,cn
-凤凰机场,Fenghuang Airport,109.408973,18.309057,cn
-南昌,Nanchang,,,cn
-新余北,Xinyu N.,,,cn
-宜春,Yichun,,,cn
-长沙,Changsha,,,cn
-长沙南,Changsha S.,,,cn
-谷山,Gushan,112.907698,28.229805,cn
-开福寺,Kaifusi,112.980237,28.223328,cn
-湘潭,Xiangtan,,,cn
-湘潭北,Xiangtan N.,,,cn
-凤凰古城,Fenghuang Ancient Town,109.603287,28.016734,cn
-武汉,Wuhan,,,cn
-汉口,Hankou,,,cn
-武昌,Wuchang,,,cn
-宜昌北,Yichang N.,111.475319,30.745727,cn
-郑州,Zhengzhou,113.658097,34.745795,cn
-郑州东,Zhengzhou E.,,,cn
-开封,Kaifeng,,,cn
-洛阳,Luoyang,,,cn
-安阳东,Anyang E.,,,cn
-焦作,Jiaozuo,,,cn
-重庆北,Chongqing N.,,,cn
-沙坪坝,Shapingba,,,cn
-贵阳,Guiyang,,,cn
-贵阳北,Guiyang N.,,,cn
-贵安,Gui'an,,,cn
-花溪大学城,Huaxi University Town,106.625739,26.393514,cn
-镇远,Zhenyuan,,,cn
-成都东,Chengdu E.,,,cn
-成都南,Chengdu S.,,,cn
-双流机场,Shuangliu Airport,,,cn
-都江堰,Dujiangyan,,,cn
-犀浦,Xipu,,,cn
-广汉北,Guanghan N.,,,cn
-黄龙九寨,Huanglong Jiuzhai,103.61507,32.745072,cn
-西昌西,Xichang W.,102.161841,27.86814,cn
-攀枝花南,Panzhihua S.,101.748066,26.468081,cn
-资阳北,Ziyang N.,,,cn
-昆明,Kunming,,,cn
-昆明南,Kunming S.,,,cn
-普洱,Pu'er,100.941871,22.775211,cn
-丽江,Lijiang,,,cn
-香格里拉,Shangri-La,99.689614,27.809836,cn
-兰州西,Lanzhou W.,,,cn
-天水,Tianshui,,,cn
-天水南,Tianshui S.,,,cn
-银川,Yinchuan,,,cn
-格尔木,Golmud,,,cn
-海东西,Haidong W.,,,cn
-拉萨,Lhasa,,,cn
-日喀则,Shigatse,,,cn
-大阪,Osaka,,,jp
-京都,Kyoto,,,jp
-关西空港,Kansai Airport,,,jp
-天王寺,Tennoji,,,jp
-和歌山,Wakayama,,,jp
-和歌山市,Wakayamashi,,,jp
-加太,Kada,,,jp
-姬路,Himeji,,,jp
-新今宫,Shin-Imamia,,,jp
-今宫,Imamia,,,jp
-JR难波,JR Namba,,,jp
-西九条,Nishi-Kujo,,,jp
-JR奈良,JR Nara,,,jp
-近铁奈良,Kintetsu Nara,,,jp
-加茂,Kamo,,,jp
-敦贺,Tsuruga,,,jp
-梅小路京都西,Umekoji-Kyoto Nishi,,,jp
-嵯峨岚山,Saga Arashiyama,,,jp
-山科,Yamashina,,,jp
-,,,,
+code,name,name_en,lon,lat,country
+10001,北京,Beijing,,,cn
+10010,北京南,Beijing S.,,,cn
+21152,北京西,Beijing W.,,,cn
+12713,北京北,Beijing N.,,,cn
+11389,北京朝阳,Beijing Chaoyang,116.509202,39.944863,cn
+10025,北京丰台,Beijing Fengtai,116.301463,39.850889,cn
+12707,清河,Qinghe,,,cn
+12181,八达岭长城,Badaling Great Wall,116.011135,40.359328,cn
+12285,八达岭,Badaling,,,cn
+12224,延庆,Yanqing,,,cn
+12221,康庄,Kangzhuang,,,cn
+12167,黄土店,Huangtudian,,,cn
+21156,北京大兴,Beijing Daxing,116.328855,39.720335,cn
+21158,大兴机场,Daxing Airport,116.415692,39.51224,cn
+11609,昌平北,"Changping N.",,,cn
+11630,怀柔北,Huairou N.,,,cn
+11675,古北口,Gubeikou,,,cn
+11366,顺义,Shunyi,,,cn
+14195,燕山,Yanshan,,,cn
+10157,天津,Tianjin,,,cn
+16010,天津西,Tianjin W.,,,cn
+10148,天津北,Tianjin N.,,,cn
+11132,蓟州,Jizhou,117.36935,39.995094,cn
+10526,蓟州北,Jizhou N.,,,cn
+20372,石家庄,Shijiazhuang,,,cn
+10214,唐山,Tangshan,,,cn
+11492,承德,Chengde,,,cn
+52920,承德南,Chengde S.,117.965027,40.885197,cn
+20383,霸州西,Bazhou W.,,,cn
+21162,霸州北,Bazhou N.,,,cn
+21164,雄安,Xiong'an,,,cn
+20387,白洋淀,Baiyangdian,115.87477,39.069389,cn
+10319,秦皇岛,Qinhuangdao,,,cn
+10331,山海关,Shanhaiguan,,,cn
+10307,北戴河,Beidaihe,,,cn
+12782,张家口,Zhangjiakou,114.882843,40.751977,cn
+12290,宣化,Xuanhua,,,cn
+11108,燕郊,Yanjiao,,,cn
+12581,呼和浩特,Hohhot,,,cn
+12578,呼和浩特东,Hohhot E.,,,cn
+12113,乌兰察布,Ulanqab,,,cn
+53363,通辽,Tongliao,,,cn
+57785,海拉尔,Hailar,,,cn
+55661,哈尔滨,Harbin,,,cn
+60002,哈尔滨东,Harbin E.,,,cn
+53469,哈尔滨西,Harbin W.,,,cn
+59789,呼兰,Hulan,,,cn
+61193,牡丹江,Mudanjiang,,,cn
+61189,横道河子东,Hengdaohezi E.,129.10631,44.79122,cn
+62231,绥芬河,Suifenhe,,,cn
+56675,齐齐哈尔,Qiqihar,,,cn
+59150,漠河,Mohe,,,cn
+54116,长春,Changchun,,,cn
+65960,龙嘉,Longjia Airport,125.70023,43.992555,cn
+63059,吉林,Jilin,126.578085,43.859222,cn
+54011,四平,Siping,,,cn
+53487,四平东,Siping E.,,,cn
+64418,通化,Tonghua,125.921906,41.778246,cn
+,长白山,Changbaishan,128.128582,42.462101,cn
+53885,沈阳北,Shenyang N.,,,cn
+63623,沈阳南,Shenyang S.,,,cn
+53522,大连,Dalian,,,cn
+53520,大连北,Dalian N.,,,cn
+55376,抚顺,Fushun,123.917781,41.890128,cn
+55118,丹东,Dandong,,,cn
+16295,济南,Jinan,,,cn
+66812,济南西,Jinan W.,,,cn
+17786,淄博,Zibo,,,cn
+18383,南博山,South Boshan,,,cn
+66815,泰安,Tai'an,,,cn
+16352,泰山,Taishan,,,cn
+18088,青岛北,Qingdao N.,,,cn
+16400,兖州,Yanzhou,,,cn
+18618,威海,Weihai,,,cn
+18557,烟台,Yantai,,,cn
+18657,莱西,Laixi,120.529799,36.823884,cn
+30671,上海,Shanghai,,,cn
+32270,上海南,Shanghai S.,,,cn
+66100,上海虹桥,Shanghai Hongqiao,,,cn
+30662,上海西,Shanghai W.,,,cn
+32022,上海松江,Shanghai Songjiang,,,cn
+32090,[松江北],[Songjiang N.],121.227816,30.999542,cn
+16805,南京,Nanjing,,,cn
+16804,南京南,Nanjing S.,,,cn
+30530,苏州,Suzhou,,,cn
+66854,苏州北,Suzhou N.,,,cn
+66328,苏州园区,Suzhou SIP,,,cn
+66325,苏州新区,Suzhou SND,,,cn
+32026,苏州南,Suzhou S.,,,cn
+16565,太仓,Taicang,,,cn
+16561,常熟,Changshu,120.780376,31.697579,cn
+16559,张家港,Zhangjiagang,120.674056,31.817334,cn
+66322,无锡新区,Wuxi New District,,,cn
+,江阴,Jiangyin,120.27925,31.86194,cn
+30452,常州,Changzhou,,,cn
+19105,武进,Wujin,119.9467,31.659123,cn
+30407,镇江,Zhenjiang,,,cn
+66827,徐州东,Xuzhou E.,,,cn
+18828,宿迁,Suqian,118.281838,33.87455,cn
+18830,淮安东,Huai'an E.,119.188233,33.568734,cn
+38531,连云港,Lianyungang,,,cn
+18968,盐城,Yancheng,,,cn
+17370,海安,Hai'an,120.504835,32.547235,cn
+17364,扬州,Yangzhou,,,cn
+,扬州东,Yangzhou E.,,,cn
+32252,杭州,Hangzhou,,,cn
+32001,杭州东,Hangzhou E.,,,cn
+32460,杭州南,Hangzhou S.,,,cn
+33185,绍兴,Shaoxing,,,cn
+33187,绍兴北,Shaoxing N.,,,cn
+32501,诸暨,Zhuji,,,cn
+33284,宁波,Ningbo,,,cn
+33990,温州南,Wenzhou S.,,,cn
+32537,义乌,Yiwu,,,cn
+21011,横店,Hengdian,,,cn
+31854,湖州,Huzhou,,,cn
+,湖州南浔,Huzhou Nanxun,120.40733,30.827458,cn
+32138,嘉兴,Jiaxing,,,cn
+32013,嘉兴南,Jiaxing S.,,,cn
+32159,海宁,Haining,,,cn
+32621,衢州,Quzhou,,,cn
+19423,合肥南,Hefei S.,,,cn
+34130,黄山北,Huangshan N.,,,cn
+,黟县东,Yixian E.,,,cn
+30926,芜湖,Wuhu,,,cn
+30928,芜湖南,Wuhu S.,118.378726,31.248946,cn
+31015,池州,Chizhou,,,cn
+34682,福州,Fuzhou,,,cn
+34151,福州南,Fuzhou S.,,,cn
+34583,厦门,Xiamen,,,cn
+34178,厦门北,Xiamen N.,,,cn
+34169,泉州,Quanzhou,,,cn
+35067,漳州,Zhangzhou,,,cn
+23711,广州东,Guangzhou E.,,,cn
+65848,广州南,Guangzhou S.,,,cn
+23471,广州北,"Guangzhou N,",,,cn
+23475,广州白云,Guangzhou Baiyun,,,cn
+23738,广州新塘,Guangzhou Xintang,113.606204,23.133964,cn
+,清城,Qingcheng,,,cn
+,白云机场北,Baiyun Airport N.,,,cn
+65860,深圳北,Shenzhen N.,,,cn
+23819,深圳,Shenzhen,,,cn
+65891,福田,Futian,,,cn
+23757,东莞,Dongguan,,,cn
+,西平西,Xiping W.,113.745764,22.993627,cn
+25851,惠州南,Huizhou S.,,,cn
+24568,佛山西,Foshan W.,,,cn
+,顺德北,Shunde N.,,,cn
+,张槎,Zhangcha,,,cn
+22990,深圳机场,Shenzhen Airport,113.811095,22.621061,cn
+23858,东莞西,Dongguan W.,113.62598,23.007972,cn
+,琶洲,Pazhou,113.368207,23.100314,cn
+65896,香港西九龙,HongKong West Kowloon,114.170406,22.301135,cn
+36428,南宁,Nanning,,,cn
+36452,南宁东,Nanning E.,,,cn
+36433,吴圩机场,Wuxu Airport,108.186947,22.599855,cn
+36437,崇左南,Chongzuo S.,107.395045,22.357135,cn
+,玉林北,Yulin N.,,,cn
+37148,玉林,Yulin,,,cn
+37376,金城江,Jinchengjiang,,,cn
+47516,河池西,Hechi W.,108.175324,24.711519,cn
+51444,美兰,Meilan Airport,,,cn
+51450,城西,Chengxi,110.332061,19.996103,cn
+51447,海口东,Haikou E.,,,cn
+51481,三亚,Sanya,,,cn
+51480,崖州,Yazhou,,,cn
+51682,凤凰机场,Fenghuang Airport,109.408973,18.309057,cn
+25424,南昌,Nanchang,,,cn
+65643,新余北,Xinyu N.,,,cn
+33023,分宜,Fenyi,,,cn
+65646,宜春,Yichun,,,cn
+22874,长沙,Changsha,,,cn
+65818,长沙南,Changsha S.,,,cn
+65207,谷山,Gushan,112.907698,28.229805,cn
+65213,开福寺,Kaifusi,112.980237,28.223328,cn
+35312,湘潭,Xiangtan,,,cn
+65660,湘潭北,Xiangtan N.,,,cn
+65609,凤凰古城,Fenghuang Ancient Town,109.603287,28.016734,cn
+65800,武汉,Wuhan,,,cn
+21050,汉口,Hankou,,,cn
+21077,武昌,Wuchang,,,cn
+45195,宜昌北,Yichang N.,111.475319,30.745727,cn
+20750,郑州,Zhengzhou,113.658097,34.745795,cn
+65773,郑州东,Zhengzhou E.,,,cn
+38774,开封,Kaifeng,,,cn
+39173,洛阳,Luoyang,,,cn
+22531,安阳东,Anyang E.,,,cn
+38402,焦作,Jiaozuo,,,cn
+35143,重庆北,Chongqing N.,,,cn
+47066,沙坪坝,Shapingba,,,cn
+37646,贵阳,Guiyang,,,cn
+47483,贵阳北,Guiyang N.,,,cn
+65501,贵安,Gui'an,,,cn
+,花溪大学城,Huaxi University Town,106.625739,26.393514,cn
+35624,镇远,Zhenyuan,,,cn
+46543,成都东,Chengdu E.,,,cn
+47675,成都南,Chengdu S.,,,cn
+47621,双流机场,Shuangliu Airport,,,cn
+46063,都江堰,Dujiangyan,,,cn
+46042,犀浦,Xipu,,,cn
+47607,广汉北,Guanghan N.,,,cn
+,黄龙九寨,Huanglong Jiuzhai,103.61507,32.745072,cn
+46140,西昌西,Xichang W.,102.161841,27.86814,cn
+46158,攀枝花南,Panzhihua S.,101.748066,26.468081,cn
+46545,资阳北,Ziyang N.,,,cn
+48197,昆明,Kunming,,,cn
+48778,昆明南,Kunming S.,,,cn
+48647,普洱,Pu'er,100.941871,22.775211,cn
+48417,丽江,Lijiang,,,cn
+,香格里拉,Shangri-La,99.689614,27.809836,cn
+41492,兰州西,Lanzhou W.,,,cn
+39701,天水,Tianshui,,,cn
+38988,天水南,Tianshui S.,,,cn
+14846,银川,Yinchuan,,,cn
+43787,格尔木,Golmud,,,cn
+41521,海东西,Haidong W.,,,cn
+44083,拉萨,Lhasa,,,cn
+43936,日喀则,Shigatse,,,cn
+,大阪,Osaka,34.702221,135.495576,jp
+,京都,Kyoto,34.985363,135.758775,jp
+,关西空港,Kansai Airport,34.435868,135.243486,jp
+,天王寺,Tennoji,34.647331,135.515242,jp
+,和歌山,Wakayama,34.232202,35.191582,jp
+,和歌山市,Wakayamashi,34.236792,135.167051,jp
+,加太,Kada,34.275105,135.080823,jp
+,姬路,Himeji,34.826887,134.690242,jp
+,新今宫,Shin-Imamia,,,jp
+,今宫,Imamia,,,jp
+,JR难波,JR Namba,,,jp
+,西九条,Nishi-Kujo,,,jp
+,JR奈良,JR Nara,,,jp
+,近铁奈良,Kintetsu Nara,,,jp
+,加茂,Kamo,,,jp
+,敦贺,Tsuruga,35.644882,136.076392,jp
+,梅小路京都西,Umekoji-Kyoto Nishi,,,jp
+,嵯峨岚山,Saga Arashiyama,,,jp
+,山科,Yamashina,,,jp
+,,,,,

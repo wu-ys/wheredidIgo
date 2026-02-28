@@ -73,8 +73,9 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
                 country = row.get('country', 'CN')
                 types = row.get('type', "main")
                 speed = row.get('speed')
+                line_ref = row.get('line_ref', "0000")
                 existing_names[name] = 0
-                records[name] = {"zh": name, "en": name_en, 'country': country, 'type': types, 'speed': speed}
+                records[name] = {"zh": name, "en": name_en, 'country': country, 'type': types, 'speed': speed, "line_ref": line_ref}
 
     new_names = []
 
