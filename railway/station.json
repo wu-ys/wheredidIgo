@@ -865,6 +865,14 @@
       "code": "32460"
     },
     {
+      "name_zh": "杭州西",
+      "name_en": "Hangzhou W.",
+      "lat": 30.261537489865788,
+      "lon": 120.0904609443096,
+      "country": "cn",
+      "code": ""
+    },
+    {
       "name_zh": "绍兴",
       "name_en": "Shaoxing",
       "lat": 30.016434567091963,
@@ -1161,10 +1169,10 @@
       "code": ""
     },
     {
-      "name_zh": "惠州南",
-      "name_en": "Huizhou S.",
-      "lat": 22.78756641827537,
-      "lon": 114.48740336598532,
+      "name_zh": "惠阳",
+      "name_en": "Huiyang",
+      "lat": 22.787648935299526,
+      "lon": 114.48758600818017,
       "country": "cn",
       "code": "25851"
     },
@@ -1747,72 +1755,232 @@
     {
       "name_zh": "大阪",
       "name_en": "Osaka",
-      "lat": 135.495576,
-      "lon": 34.702221,
+      "lat": 34.702221,
+      "lon": 135.495576,
       "country": "jp",
       "code": ""
     },
     {
-      "name_zh": "京都",
-      "name_en": "Kyoto",
-      "lat": 135.758775,
-      "lon": 34.985363,
+      "name_zh": "西九条",
+      "name_en": "Nishi-Kujo",
+      "lat": 34.682271,
+      "lon": 135.466318,
       "country": "jp",
       "code": ""
     },
     {
-      "name_zh": "关西空港",
-      "name_en": "Kansai Airport",
-      "lat": 135.243486,
-      "lon": 34.435868,
+      "name_zh": "新今宫",
+      "name_en": "Shin-Imamia",
+      "lat": 34.649843,
+      "lon": 135.502195,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "今宫",
+      "name_en": "Imamia",
+      "lat": 34.653951,
+      "lon": 135.493028,
       "country": "jp",
       "code": ""
     },
     {
       "name_zh": "天王寺",
       "name_en": "Tennoji",
-      "lat": 135.515242,
-      "lon": 34.647331,
+      "lat": 34.647331,
+      "lon": 135.515242,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "JR难波",
+      "name_en": "JR Namba",
+      "lat": 34.666478,
+      "lon": 135.495326,
       "country": "jp",
       "code": ""
     },
     {
       "name_zh": "和歌山",
       "name_en": "Wakayama",
-      "lat": 35.191582,
-      "lon": 34.232202,
+      "lat": 34.232202,
+      "lon": 135.191582,
       "country": "jp",
       "code": ""
     },
     {
       "name_zh": "和歌山市",
       "name_en": "Wakayamashi",
-      "lat": 135.167051,
-      "lon": 34.236792,
+      "lat": 34.236792,
+      "lon": 135.167051,
       "country": "jp",
       "code": ""
     },
     {
-      "name_zh": "加太",
-      "name_en": "Kada",
-      "lat": 135.080823,
-      "lon": 34.275105,
+      "name_zh": "三宫",
+      "name_en": "Sannomiya",
+      "lat": 34.694863,
+      "lon": 135.195082,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "神户",
+      "name_en": "Kobe",
+      "lat": 34.67929,
+      "lon": 135.178289,
       "country": "jp",
       "code": ""
     },
     {
       "name_zh": "姬路",
       "name_en": "Himeji",
-      "lat": 134.690242,
-      "lon": 34.826887,
+      "lat": 34.82749666799241,
+      "lon": 134.6848038529403,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "京都",
+      "name_en": "Kyoto",
+      "lat": 34.985363,
+      "lon": 135.758775,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "梅小路京都西",
+      "name_en": "Umekoji-Kyoto Nishi",
+      "lat": 34.988649,
+      "lon": 135.743197,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "嵯峨岚山",
+      "name_en": "Saga Arashiyama",
+      "lat": 35.018779,
+      "lon": 135.681415,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "山科",
+      "name_en": "Yamashina",
+      "lat": 34.992633,
+      "lon": 135.817226,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "石山",
+      "name_en": "Ishiyama",
+      "lat": 34.979931,
+      "lon": 135.900007,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "加茂",
+      "name_en": "Kamo",
+      "lat": 34.752709,
+      "lon": 135.869854,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "JR奈良",
+      "name_en": "JR Nara",
+      "lat": 34.680812,
+      "lon": 135.818943,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "久宝寺",
+      "name_en": "Kyuhoji",
+      "lat": 34.622444,
+      "lon": 135.584024,
       "country": "jp",
       "code": ""
     },
     {
       "name_zh": "敦贺",
       "name_en": "Tsuruga",
-      "lat": 136.076392,
-      "lon": 35.644882,
+      "lat": 35.644882,
+      "lon": 136.076392,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "关西空港",
+      "name_en": "Kansai Airport",
+      "lat": 34.435868,
+      "lon": 135.243486,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "加太",
+      "name_en": "Kada",
+      "lat": 34.275105,
+      "lon": 135.080823,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "淀屋桥",
+      "name_en": "Yodoyabashi",
+      "lat": 34.692486,
+      "lon": 135.501377,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "三条",
+      "name_en": "Sanjo",
+      "lat": 35.009015,
+      "lon": 135.772334,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "近铁奈良",
+      "name_en": "KT Nara",
+      "lat": 34.684133,
+      "lon": 135.828556,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "近铁日本桥",
+      "name_en": "KT Nippombashi",
+      "lat": 34.666901,
+      "lon": 135.505701,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "大阪梅田",
+      "name_en": "Osaka Umeda",
+      "lat": 34.705282,
+      "lon": 135.498392,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "庄内",
+      "name_en": "Shonai",
+      "lat": 34.750263,
+      "lon": 135.475038,
+      "country": "jp",
+      "code": ""
+    },
+    {
+      "name_zh": "阪神三宫",
+      "name_en": "HS Sannomiya",
+      "lat": 34.693665,
+      "lon": 135.195434,
       "country": "jp",
       "code": ""
     }

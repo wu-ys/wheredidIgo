@@ -7,61 +7,9 @@
  version="1.1" 
  creator="BRouter-Web 0.18.1">
  <trk>
-  <name>长株潭城际（古山-湘潭） (62.3km)</name>
+  <name>湘潭城际线</name>
   <trkseg>
-   <trkpt lat="28.23394" lon="112.901491"/>
-   <trkpt lat="28.234107" lon="112.903124"/>
-   <trkpt lat="28.234133" lon="112.904617"/>
-   <trkpt lat="28.233993" lon="112.912524"/>
-   <trkpt lat="28.233875" lon="112.914584"/>
-   <trkpt lat="28.233535" lon="112.917953"/>
-   <trkpt lat="28.233455" lon="112.91939"/>
-   <trkpt lat="28.233625" lon="112.922459"/>
-   <trkpt lat="28.23394" lon="112.927277"/>
-   <trkpt lat="28.234226" lon="112.930208"/>
-   <trkpt lat="28.234441" lon="112.935591"/>
-   <trkpt lat="28.234081" lon="112.944061"/>
-   <trkpt lat="28.234017" lon="112.946625"/>
-   <trkpt lat="28.233911" lon="112.951639"/>
-   <trkpt lat="28.233871" lon="112.953248"/>
-   <trkpt lat="28.233711" lon="112.954815"/>
-   <trkpt lat="28.233542" lon="112.955691"/>
-   <trkpt lat="28.233332" lon="112.956525"/>
-   <trkpt lat="28.232826" lon="112.95766"/>
-   <trkpt lat="28.230879" lon="112.961195"/>
-   <trkpt lat="28.227971" lon="112.964871"/>
-   <trkpt lat="28.227615" lon="112.965605"/>
-   <trkpt lat="28.227296" lon="112.966477"/>
-   <trkpt lat="28.227107" lon="112.967659"/>
-   <trkpt lat="28.227013" lon="112.968957"/>
-   <trkpt lat="28.226951" lon="112.96973"/>
-   <trkpt lat="28.226741" lon="112.973783"/>
-   <trkpt lat="28.226716" lon="112.975073"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226691" lon="112.976368"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226559" lon="112.979348"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226471" lon="112.982242"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226422" lon="112.984948"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226281" lon="112.988233"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.226067" lon="112.99185"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.225904" lon="112.992837"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.225637" lon="112.994041"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.225254" lon="112.995147"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.224938" lon="112.995769"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.21952" lon="113.002622"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.215679" lon="113.007447"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.214461" lon="113.008536"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.213565" lon="113.009139"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.212586" lon="113.009609"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.211583" lon="113.009974"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.209698" lon="113.010228"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.20878" lon="113.010245"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.207544" lon="113.010148"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.206129" lon="113.009985"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.203925" lon="113.009793"><ele>35.5</ele></trkpt>
-   <trkpt lat="28.201901" lon="113.009641"><ele>36.75</ele></trkpt>
-   <trkpt lat="28.201116" lon="113.009596"><ele>37.25</ele></trkpt>
-   <trkpt lat="28.200656" lon="113.009565"><ele>37.5</ele></trkpt>
-   <trkpt lat="28.199229" lon="113.009466"><ele>36.5</ele></trkpt>
+   <trkpt lat="28.197058" lon="113.009382"><ele>36.5</ele></trkpt>
    <trkpt lat="28.196194" lon="113.009273"><ele>36.5</ele></trkpt>
    <trkpt lat="28.193807" lon="113.009122"><ele>36.5</ele></trkpt>
    <trkpt lat="28.192314" lon="113.009019"><ele>37.5</ele></trkpt>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 1411 filtered ascend = 0 plain-ascend = 1 cost=1411 energy=0.0kwh time=1m 53s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>JR大和路线</name>
+  <trkseg>
+   <trkpt lat="34.666483" lon="135.495293"/>
+   <trkpt lat="34.665709" lon="135.495078"/>
+   <trkpt lat="34.665465" lon="135.49501"/>
+   <trkpt lat="34.665289" lon="135.494961"/>
+   <trkpt lat="34.665087" lon="135.494905"/>
+   <trkpt lat="34.66464" lon="135.494789"/>
+   <trkpt lat="34.664423" lon="135.494733"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.664214" lon="135.494679"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.662164" lon="135.494145"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.660454" lon="135.493541"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.657918" lon="135.492741"><ele>4.5</ele></trkpt>
+   <trkpt lat="34.657379" lon="135.492549"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.657167" lon="135.492483"><ele>3.25</ele></trkpt>
+   <trkpt lat="34.656946" lon="135.492427"><ele>3.5</ele></trkpt>
+   <trkpt lat="34.656783" lon="135.492394"><ele>3.75</ele></trkpt>
+   <trkpt lat="34.656557" lon="135.492365"><ele>4.25</ele></trkpt>
+   <trkpt lat="34.656352" lon="135.492352"><ele>5</ele></trkpt>
+   <trkpt lat="34.656264" lon="135.492354"><ele>5.25</ele></trkpt>
+   <trkpt lat="34.655968" lon="135.492374"/>
+   <trkpt lat="34.65561" lon="135.492427"/>
+   <trkpt lat="34.655444" lon="135.492464"/>
+   <trkpt lat="34.655101" lon="135.492567"/>
+   <trkpt lat="34.65479" lon="135.492692"/>
+   <trkpt lat="34.654153" lon="135.492997"/>
+  </trkseg>
+ </trk>
+</gpx>
