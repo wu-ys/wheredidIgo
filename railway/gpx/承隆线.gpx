@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.96309578753556" lon="117.9482607486502">
+  <wpt lat="40.963096" lon="117.948261">
     <name>承德</name>
     <desc>cr11492</desc>
   </wpt>
-  <wpt lat="41.32635802428316" lon="117.74413768165532">
+  <wpt lat="41.326358" lon="117.744138">
     <name>隆化</name>
-    <desc>cr</desc>
+    <desc>cr11726</desc>
   </wpt>
   <trk>
     <name>承隆线（隆化-承德）</name>

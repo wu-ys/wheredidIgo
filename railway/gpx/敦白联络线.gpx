@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="43.37823043855396" lon="128.23566656265157">
+  <wpt lat="43.37823" lon="128.235667">
     <name>敦化</name>
-    <desc>cr</desc>
+    <desc>cr63227</desc>
   </wpt>
-  <wpt lat="43.31687806108267" lon="128.33265653561682">
+  <wpt lat="43.316878" lon="128.332657">
     <name>敦化南</name>
     <desc>cr</desc>
   </wpt>

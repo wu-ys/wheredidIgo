@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.2961565114778" lon="121.23608207302368">
+  <wpt lat="31.295703" lon="121.235915">
     <name>黄渡</name>
-    <desc>cr</desc>
+    <desc>cr30566</desc>
   </wpt>
-  <wpt lat="31.476505824237556" lon="121.20638861063378">
+  <wpt lat="31.476506" lon="121.206389">
     <name>陆渡所</name>
-    <desc>cr</desc>
+    <desc>cr16567</desc>
   </wpt>
-  <wpt lat="31.512011755694488" lon="121.19214461488349">
+  <wpt lat="31.512012" lon="121.192145">
     <name>太仓</name>
     <desc>cr16565</desc>
   </wpt>
-  <wpt lat="31.69953406620185" lon="120.77599650005705">
+  <wpt lat="31.699534" lon="120.775997">
     <name>常熟</name>
     <desc>cr16561</desc>
   </wpt>
-  <wpt lat="31.819379277084465" lon="120.66974598457865">
+  <wpt lat="31.819379" lon="120.669746">
     <name>张家港</name>
     <desc>cr16559</desc>
   </wpt>
-  <wpt lat="32.10315708798594" lon="120.76071118914463">
+  <wpt lat="32.103157" lon="120.760711">
     <name>南通西</name>
-    <desc>cr</desc>
+    <desc>cr16555</desc>
   </wpt>
   <trk>
     <name>沪苏通线（南通西-黄渡）</name>

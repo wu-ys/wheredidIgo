@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="47.79440143347183" lon="124.45351182582293">
+  <wpt lat="47.794401" lon="124.453512">
     <name>富裕</name>
-    <desc>cr</desc>
+    <desc>cr59567</desc>
   </wpt>
-  <wpt lat="50.418668870836996" lon="124.11917927341821">
+  <wpt lat="50.418669" lon="124.119179">
     <name>加格达奇</name>
-    <desc>cr</desc>
+    <desc>cr58910</desc>
   </wpt>
-  <wpt lat="52.98670899087415" lon="122.50051393533658">
+  <wpt lat="52.986709" lon="122.500514">
     <name>漠河</name>
     <desc>cr59150</desc>
   </wpt>

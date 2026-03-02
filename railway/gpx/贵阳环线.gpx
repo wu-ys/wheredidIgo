@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="26.706559271153324" lon="106.65889886609303">
+  <wpt lat="26.706559" lon="106.658899">
     <name>白云北</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="26.469121954462775" lon="106.48185632807187">
+  <wpt lat="26.469122" lon="106.481856">
     <name>贵安</name>
     <desc>cr65501</desc>
   </wpt>
-  <wpt lat="26.397133260379533" lon="106.62219191425915">
+  <wpt lat="26.397133" lon="106.622192">
     <name>花溪大学城</name>
     <desc>cr65476</desc>
   </wpt>
-  <wpt lat="26.485276451135707" lon="106.78488281402456">
+  <wpt lat="26.485276" lon="106.784883">
     <name>双龙南</name>
     <desc>cr</desc>
   </wpt>

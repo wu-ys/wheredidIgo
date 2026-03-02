@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.863071601995294" lon="116.3728383919703">
+  <wpt lat="39.863072" lon="116.372838">
     <name>北京南</name>
     <desc>cr10010</desc>
   </wpt>
-  <wpt lat="37.408745074750385" lon="116.45648871852761">
+  <wpt lat="37.408745" lon="116.456489">
     <name>德州东</name>
-    <desc>cr</desc>
+    <desc>cr66809</desc>
   </wpt>
-  <wpt lat="36.66920577671152" lon="116.88790630327794">
+  <wpt lat="36.669206" lon="116.887906">
     <name>济南西</name>
     <desc>cr66812</desc>
   </wpt>
-  <wpt lat="36.550748948315686" lon="116.88691710675334">
+  <wpt lat="36.550749" lon="116.886917">
     <name>崔马庄所</name>
-    <desc>cr</desc>
+    <desc>cr66501</desc>
   </wpt>
-  <wpt lat="36.17208334751856" lon="117.02934831410124">
+  <wpt lat="36.172083" lon="117.029348">
     <name>泰安</name>
     <desc>cr66815</desc>
   </wpt>
-  <wpt lat="34.268628921863076" lon="117.29772989306043">
+  <wpt lat="34.268629" lon="117.29773">
     <name>徐州东</name>
     <desc>cr66827</desc>
   </wpt>
-  <wpt lat="31.97006294320915" lon="118.79387667845742">
+  <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
     <desc>cr16804</desc>
   </wpt>
-  <wpt lat="31.423240834124723" lon="120.63928569284181">
+  <wpt lat="31.423241" lon="120.639286">
     <name>苏州北</name>
     <desc>cr66854</desc>
   </wpt>
-  <wpt lat="31.300028898189872" lon="121.23127888335117">
+  <wpt lat="31.300029" lon="121.231279">
     <name>黄渡所</name>
-    <desc>cr</desc>
+    <desc>cr66521</desc>
   </wpt>
-  <wpt lat="31.196703940236098" lon="121.31480093175676">
+  <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
     <desc>cr66100</desc>
   </wpt>

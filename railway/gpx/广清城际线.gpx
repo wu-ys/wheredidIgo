@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="23.3797971816125" lon="113.19751688688586">
+  <wpt lat="23.379797" lon="113.197517">
     <name>花都</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="23.65600335714527" lon="113.06102288126371">
+  <wpt lat="23.656003" lon="113.061023">
     <name>清城</name>
     <desc>gi</desc>
   </wpt>

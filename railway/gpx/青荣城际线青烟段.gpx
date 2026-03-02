@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.823533543768804" lon="120.52498494946245">
+  <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
     <desc>cr18657</desc>
   </wpt>
-  <wpt lat="37.41361785922679" lon="121.33906100093002">
+  <wpt lat="37.413618" lon="121.339061">
     <name>西陌堂所</name>
-    <desc>cr</desc>
+    <desc>cr18663</desc>
   </wpt>
   <trk>
     <name>青荣城际线（莱西-西陌堂所） (99.9km)</name>

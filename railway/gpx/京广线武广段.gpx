@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.532769574806913" lon="114.31176410134252">
+  <wpt lat="30.53277" lon="114.311764">
     <name>武昌</name>
     <desc>cr21077</desc>
   </wpt>
-  <wpt lat="30.473888507556136" lon="114.29690284533825">
+  <wpt lat="30.473889" lon="114.296903">
     <name>武昌南</name>
-    <desc>cr</desc>
+    <desc>cr21089</desc>
   </wpt>
   <trk>
     <name>京广线（武昌-武昌南） (8.3km)</name>

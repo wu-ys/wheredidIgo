@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="42.05201033384046" lon="122.68391862804526">
+  <wpt lat="42.05201" lon="122.683919">
     <name>田家窝堡所</name>
-    <desc>cr</desc>
+    <desc>cr53293</desc>
   </wpt>
-  <wpt lat="43.60294065466664" lon="122.26642544920303">
+  <wpt lat="43.602941" lon="122.266425">
     <name>通辽</name>
     <desc>cr53363</desc>
   </wpt>

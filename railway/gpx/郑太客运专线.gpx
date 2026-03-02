@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="34.81584389991505" lon="113.61092989102745">
+  <wpt lat="34.815844" lon="113.61093">
     <name>南阳寨</name>
-    <desc>cr</desc>
+    <desc>cr21749</desc>
   </wpt>
-  <wpt lat="35.222382707920715" lon="113.22854989001539">
+  <wpt lat="35.222383" lon="113.22855">
     <name>焦作</name>
     <desc>cr38402</desc>
   </wpt>

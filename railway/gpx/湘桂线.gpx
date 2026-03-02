@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="24.310557905504645" lon="109.3836963889729">
+  <wpt lat="24.310558" lon="109.383696">
     <name>柳州</name>
-    <desc>cr</desc>
+    <desc>cr36257</desc>
   </wpt>
-  <wpt lat="23.197720843825838" lon="109.12879303675257">
+  <wpt lat="23.197721" lon="109.128793">
     <name>黎塘</name>
-    <desc>cr</desc>
+    <desc>cr36374</desc>
   </wpt>
   <trk>
     <name>湘桂线（柳州-黎塘） (133km)</name>

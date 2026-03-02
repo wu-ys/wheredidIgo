@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="42.024395308910684" lon="122.66073226832468">
+  <wpt lat="42.024395" lon="122.660732">
     <name>姚家窝堡所</name>
-    <desc>cr</desc>
+    <desc>cr67034</desc>
   </wpt>
-  <wpt lat="42.05201033384046" lon="122.68391862804526">
+  <wpt lat="42.05201" lon="122.683919">
     <name>田家窝堡所</name>
-    <desc>cr</desc>
+    <desc>cr53293</desc>
   </wpt>
   <trk>
     <name>姚田联络线 (6.8km)</name>

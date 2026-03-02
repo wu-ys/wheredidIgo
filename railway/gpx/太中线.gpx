@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="37.7905804744422" lon="112.60372131995923">
+  <wpt lat="37.79058" lon="112.603721">
     <name>太原南</name>
-    <desc>cr</desc>
+    <desc>cr26468</desc>
   </wpt>
-  <wpt lat="37.56121115486304" lon="107.57151364217236">
+  <wpt lat="37.561211" lon="107.571514">
     <name>定边</name>
-    <desc>cr</desc>
+    <desc>cr65054</desc>
   </wpt>
   <trk>
     <name>太中线（太原-定边） (507km)</name>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.873524617743776" lon="116.20832702713935">
+  <wpt lat="39.873525" lon="116.208327">
     <name>石景山南</name>
-    <desc>cr</desc>
+    <desc>cr13385</desc>
   </wpt>
-  <wpt lat="39.74798310747519" lon="115.9523484083735">
+  <wpt lat="39.747983" lon="115.952348">
     <name>燕山</name>
     <desc>cr14195</desc>
   </wpt>

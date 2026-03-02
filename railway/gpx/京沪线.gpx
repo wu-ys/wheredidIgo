@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.90251683186538" lon="116.41920331631096">
+  <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
     <desc>cr10001</desc>
   </wpt>
-  <wpt lat="39.863071601995294" lon="116.3728383919703">
+  <wpt lat="39.863072" lon="116.372838">
     <name>北京南</name>
     <desc>cr10010</desc>
   </wpt>
-  <wpt lat="39.849629017642144" lon="116.2953934657941">
+  <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
     <desc>cr10025</desc>
   </wpt>
-  <wpt lat="39.7686040546952" lon="116.27992530932156">
+  <wpt lat="39.768604" lon="116.279925">
     <name>黄土坡所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="39.29827429751624" lon="117.1028220417255">
+  <wpt lat="39.298274" lon="117.102822">
     <name>汉沟镇</name>
-    <desc>cr</desc>
+    <desc>cr10091</desc>
   </wpt>
-  <wpt lat="39.165953507083266" lon="117.20321664042069">
+  <wpt lat="39.165954" lon="117.203217">
     <name>天津北</name>
     <desc>cr10148</desc>
   </wpt>
-  <wpt lat="39.15694549978822" lon="117.15722806478753">
+  <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <desc>cr16010</desc>
   </wpt>
-  <wpt lat="36.704278178235285" lon="116.82701124216241">
+  <wpt lat="36.704278" lon="116.827011">
     <name>桥南所</name>
-    <desc>cr</desc>
+    <desc>cr16283</desc>
   </wpt>
-  <wpt lat="36.578648824264796" lon="116.89784022576639">
+  <wpt lat="36.578649" lon="116.89784">
     <name>党家庄</name>
-    <desc>cr</desc>
+    <desc>cr16319</desc>
   </wpt>
-  <wpt lat="36.18685678614764" lon="117.10362293733482">
+  <wpt lat="36.186857" lon="117.103623">
     <name>泰山</name>
     <desc>cr16352</desc>
   </wpt>
-  <wpt lat="35.55621375494819" lon="116.83554059534151">
+  <wpt lat="35.556214" lon="116.835541">
     <name>兖州</name>
     <desc>cr16400</desc>
   </wpt>
-  <wpt lat="34.26612645092465" lon="117.20222617078288">
+  <wpt lat="34.266126" lon="117.202226">
     <name>徐州</name>
-    <desc>cr</desc>
+    <desc>cr16628</desc>
   </wpt>
-  <wpt lat="32.16245682950869" lon="118.67522270444208">
+  <wpt lat="32.162457" lon="118.675223">
     <name>林场</name>
-    <desc>cr</desc>
+    <desc>cr16802</desc>
   </wpt>
-  <wpt lat="32.0901197129243" lon="118.79304118270053">
+  <wpt lat="32.09012" lon="118.793041">
     <name>南京</name>
     <desc>cr16805</desc>
   </wpt>
-  <wpt lat="31.331841727439397" lon="120.60668120993446">
+  <wpt lat="31.331842" lon="120.606681">
     <name>苏州</name>
     <desc>cr30530</desc>
   </wpt>
-  <wpt lat="31.2961565114778" lon="121.23608207302368">
+  <wpt lat="31.295703" lon="121.235915">
     <name>黄渡</name>
-    <desc>cr</desc>
+    <desc>cr30566</desc>
   </wpt>
-  <wpt lat="31.251389985491077" lon="121.44852077619514">
+  <wpt lat="31.251539" lon="121.45119">
     <name>上海</name>
     <desc>cr30671</desc>
   </wpt>

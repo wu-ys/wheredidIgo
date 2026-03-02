@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="26.51606996020932" lon="106.7712814464253">
+  <wpt lat="26.499658" lon="106.784258">
     <name>秦祺村所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="26.485276451135707" lon="106.78488281402456">
+  <wpt lat="26.485276" lon="106.784883">
     <name>双龙南</name>
     <desc>cr</desc>
   </wpt>

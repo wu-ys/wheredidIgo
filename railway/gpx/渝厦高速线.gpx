@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.116601694895625" lon="110.49776811220407">
+  <wpt lat="29.116602" lon="110.497768">
     <name>张家界西</name>
-    <desc>cr</desc>
+    <desc>cr26777</desc>
   </wpt>
-  <wpt lat="28.277994886489807" lon="112.78141870304155">
+  <wpt lat="28.277995" lon="112.781419">
     <name>黄金园所</name>
     <desc>cr</desc>
   </wpt>

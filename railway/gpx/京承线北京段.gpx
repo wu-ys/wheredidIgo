@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.316018109579886" lon="116.64293901723319">
+  <wpt lat="40.316018" lon="116.642939">
     <name>怀柔</name>
-    <desc>cr</desc>
+    <desc>cr11378</desc>
   </wpt>
-  <wpt lat="40.124765502132014" lon="116.6395981916796">
+  <wpt lat="40.124766" lon="116.639598">
     <name>顺义</name>
     <desc>cr11366</desc>
   </wpt>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.818789825850697" lon="120.04432934108021">
+  <wpt lat="30.81879" lon="120.044329">
     <name>康山所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.797442741732826" lon="120.01723365890486">
+  <wpt lat="30.797443" lon="120.017234">
     <name>妙西镇所</name>
     <desc>cr</desc>
   </wpt>

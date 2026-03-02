@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="47.33807101394388" lon="123.98917225353102">
+  <wpt lat="47.338071" lon="123.989172">
     <name>齐齐哈尔</name>
     <desc>cr56675</desc>
   </wpt>
-  <wpt lat="47.79440143347183" lon="124.45351182582293">
+  <wpt lat="47.794401" lon="124.453512">
     <name>富裕</name>
-    <desc>cr</desc>
+    <desc>cr59567</desc>
   </wpt>
   <trk>
     <name>齐北线（齐齐哈尔-富裕） (63.2km)</name>

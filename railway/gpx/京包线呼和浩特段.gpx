@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.84834347297365" lon="111.75933389941765">
+  <wpt lat="40.848343" lon="111.759334">
     <name>呼和浩特东</name>
     <desc>cr12578</desc>
   </wpt>
-  <wpt lat="40.745402633185165" lon="111.47423935845013">
+  <wpt lat="40.745403" lon="111.474239">
     <name>台阁牧</name>
-    <desc>cr</desc>
+    <desc>cr12596</desc>
   </wpt>
   <trk>
     <name>京包线（呼和浩特东-台阁牧） (28.3km)</name>

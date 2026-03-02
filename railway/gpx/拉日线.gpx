@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.62586847763857" lon="91.06817138506726">
+  <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
     <desc>cr44083</desc>
   </wpt>
-  <wpt lat="29.22419253076742" lon="88.91301011715333">
+  <wpt lat="29.224193" lon="88.91301">
     <name>日喀则</name>
     <desc>cr43936</desc>
   </wpt>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.18862549048341" lon="116.18734259176048">
+  <wpt lat="40.188625" lon="116.187343">
     <name>昌平</name>
-    <desc>cr</desc>
+    <desc>cr12173</desc>
   </wpt>
-  <wpt lat="40.23001239069912" lon="116.2270952645293">
+  <wpt lat="40.230012" lon="116.227095">
     <name>昌平北</name>
     <desc>cr11609</desc>
   </wpt>
-  <wpt lat="40.37301562196356" lon="116.65403907034072">
+  <wpt lat="40.373016" lon="116.654039">
     <name>雁栖湖</name>
-    <desc>cr</desc>
+    <desc>cr11627</desc>
   </wpt>
-  <wpt lat="40.40787563005983" lon="116.68642511256509">
+  <wpt lat="40.407876" lon="116.686425">
     <name>怀柔北</name>
     <desc>cr11630</desc>
   </wpt>
-  <wpt lat="40.69051285382549" lon="117.1353398528768">
+  <wpt lat="40.690513" lon="117.13534">
     <name>古北口</name>
     <desc>cr11675</desc>
   </wpt>
-  <wpt lat="41.32635802428316" lon="117.74413768165532">
+  <wpt lat="41.326358" lon="117.744138">
     <name>隆化</name>
-    <desc>cr</desc>
+    <desc>cr11726</desc>
   </wpt>
   <trk>
     <name>京通线（昌平-隆化）</name>

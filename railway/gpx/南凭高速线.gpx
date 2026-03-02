@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="22.82913862005011" lon="108.31152281324502">
+  <wpt lat="22.829139" lon="108.311523">
     <name>南宁</name>
     <desc>cr36428</desc>
   </wpt>
-  <wpt lat="22.602692232310677" lon="108.18295979077008">
+  <wpt lat="22.602692" lon="108.18296">
     <name>吴圩机场</name>
     <desc>cr36433</desc>
   </wpt>
-  <wpt lat="22.359854208433052" lon="107.39085162042458">
+  <wpt lat="22.359854" lon="107.390852">
     <name>崇左南</name>
     <desc>cr36437</desc>
   </wpt>

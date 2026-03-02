@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="23.0108701670067" lon="113.62090639693486">
+  <wpt lat="23.01087" lon="113.620906">
     <name>东莞西</name>
     <desc>cr23858</desc>
   </wpt>
-  <wpt lat="22.623983021136652" lon="113.8060318460874">
+  <wpt lat="22.623983" lon="113.806032">
     <name>深圳机场</name>
     <desc>cr22990</desc>
   </wpt>

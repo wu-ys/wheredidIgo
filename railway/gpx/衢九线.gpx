@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="28.92759893460416" lon="118.8761674684662">
+  <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
     <desc>cr32621</desc>
   </wpt>
-  <wpt lat="29.706467254334367" lon="116.00182171159418">
+  <wpt lat="29.706467" lon="116.001822">
     <name>九江</name>
-    <desc>cr</desc>
+    <desc>cr25322</desc>
   </wpt>
   <trk>
     <name>衢九线 (333.1km)</name>

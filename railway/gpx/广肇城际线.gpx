@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="22.98983878358092" lon="113.26764281464851">
+  <wpt lat="22.989839" lon="113.267643">
     <name>番禺</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="23.011694846353375" lon="113.06220001140328">
+  <wpt lat="23.011695" lon="113.0622">
     <name>张槎</name>
     <desc>gi</desc>
   </wpt>
-  <wpt lat="22.96444665712523" lon="113.12419295649974">
+  <wpt lat="22.964447" lon="113.124193">
     <name>顺德北</name>
     <desc>gi</desc>
   </wpt>
-  <wpt lat="23.08234211705062" lon="113.02825832308483">
+  <wpt lat="23.082342" lon="113.028258">
     <name>佛山西</name>
     <desc>cr24568</desc>
   </wpt>

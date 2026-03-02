@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.354930997043642" lon="120.24434300508155">
+  <wpt lat="30.354931" lon="120.244343">
     <name>笕桥所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.33106593900964" lon="120.21234673283938">
+  <wpt lat="30.331066" lon="120.212347">
     <name>笕桥</name>
-    <desc>cr</desc>
+    <desc>cr32198</desc>
   </wpt>
   <trk>
     <name>笕桥线 (11.5km)</name>

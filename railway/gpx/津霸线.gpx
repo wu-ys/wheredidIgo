@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.15694549978822" lon="117.15722806478753">
+  <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <desc>cr16010</desc>
   </wpt>
-  <wpt lat="39.13777540453944" lon="116.75344785460717">
+  <wpt lat="39.137775" lon="116.753448">
     <name>胜芳</name>
-    <desc>cr</desc>
+    <desc>cr20381</desc>
   </wpt>
-  <wpt lat="39.092988670791954" lon="116.34445713104759">
+  <wpt lat="39.092989" lon="116.344457">
     <name>霸州西</name>
     <desc>cr20383</desc>
   </wpt>

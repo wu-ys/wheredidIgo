@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="42.45958927708683" lon="128.12237464890967">
+  <wpt lat="42.459589" lon="128.122375">
     <name>长白山</name>
     <desc>cr64090</desc>
   </wpt>
-  <wpt lat="43.31687806108267" lon="128.33265653561682">
+  <wpt lat="43.316878" lon="128.332657">
     <name>敦化南</name>
     <desc>cr</desc>
   </wpt>

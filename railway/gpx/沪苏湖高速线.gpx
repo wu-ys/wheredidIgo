@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.196703940236098" lon="121.31480093175676">
+  <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
     <desc>cr66100</desc>
   </wpt>
-  <wpt lat="31.080518378702298" lon="121.35090908915515">
+  <wpt lat="31.080518" lon="121.350909">
     <name>春申南所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.985033751064773" lon="121.2253098167985">
+  <wpt lat="30.985034" lon="121.22531">
     <name>上海松江</name>
     <desc>cr32022</desc>
   </wpt>
-  <wpt lat="31.065315295146863" lon="120.795514879163">
+  <wpt lat="31.065315" lon="120.795515">
     <name>苏州南</name>
     <desc>cr32026</desc>
   </wpt>
-  <wpt lat="30.829533768926208" lon="120.40269565802518">
+  <wpt lat="30.829534" lon="120.402696">
     <name>湖州南浔</name>
     <desc>cr32028</desc>
   </wpt>
-  <wpt lat="30.818789825850697" lon="120.04432934108021">
+  <wpt lat="30.81879" lon="120.044329">
     <name>康山所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.86427385725074" lon="120.01942767918646">
+  <wpt lat="30.864274" lon="120.019428">
     <name>湖州</name>
     <desc>cr31854</desc>
   </wpt>

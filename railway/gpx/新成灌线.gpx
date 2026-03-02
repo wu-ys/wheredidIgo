@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.759840973493045" lon="103.97020757577324">
+  <wpt lat="30.759841" lon="103.970208">
     <name>犀浦</name>
     <desc>cr46042</desc>
   </wpt>
-  <wpt lat="30.96021576317202" lon="103.63699959423492">
+  <wpt lat="30.960216" lon="103.637">
     <name>都江堰</name>
     <desc>cr46063</desc>
   </wpt>

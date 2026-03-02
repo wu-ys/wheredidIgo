@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="18.37769039432866" lon="109.15349553343627">
+  <wpt lat="18.37769" lon="109.153496">
     <name>崖州</name>
     <desc>cr51480</desc>
   </wpt>
-  <wpt lat="18.310560986230048" lon="109.4046879034133">
+  <wpt lat="18.310561" lon="109.404688">
     <name>凤凰机场</name>
     <desc>cr51682</desc>
   </wpt>
-  <wpt lat="18.29778620951653" lon="109.48897954773243">
+  <wpt lat="18.297786" lon="109.48898">
     <name>三亚</name>
     <desc>cr51481</desc>
   </wpt>

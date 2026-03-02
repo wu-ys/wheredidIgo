@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.790478048798995" lon="119.72956919558789">
+  <wpt lat="29.790478" lon="119.729569">
     <name>桐庐</name>
-    <desc>cr</desc>
+    <desc>cr32372</desc>
   </wpt>
-  <wpt lat="30.07379749430185" lon="118.56675433472115">
+  <wpt lat="30.073797" lon="118.566754">
     <name>绩溪北</name>
-    <desc>cr</desc>
+    <desc>cr34126</desc>
   </wpt>
-  <wpt lat="29.818050729180705" lon="118.26761786578294">
+  <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
     <desc>cr34130</desc>
   </wpt>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.827309493334674" lon="116.20087438917055">
+  <wpt lat="39.827309" lon="116.200874">
     <name>长辛店</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="38.09993133407384" lon="114.50389045708921">
+  <wpt lat="38.099931" lon="114.50389">
     <name>柳辛庄</name>
-    <desc>cr</desc>
+    <desc>cr20369</desc>
   </wpt>
   <trk>
     <name>京广线（长辛店-柳辛庄）</name>

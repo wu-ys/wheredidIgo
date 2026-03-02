@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.92517702667737" lon="116.72541702741671">
+  <wpt lat="39.925177" lon="116.725417">
     <name>高辛庄所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="39.93375401234153" lon="116.76114259993909">
+  <wpt lat="39.933754" lon="116.761143">
     <name>北刘各庄所</name>
     <desc>cr</desc>
   </wpt>

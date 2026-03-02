@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="42.533609135549376" lon="125.67981647085918">
+  <wpt lat="42.533609" lon="125.679816">
     <name>梅河口</name>
-    <desc>cr</desc>
+    <desc>cr64301</desc>
   </wpt>
-  <wpt lat="41.77609996645664" lon="125.91626036868965">
+  <wpt lat="41.7761" lon="125.91626">
     <name>通化</name>
     <desc>cr64418</desc>
   </wpt>

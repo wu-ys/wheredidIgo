@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="28.665071424142624" lon="115.91311276860685">
+  <wpt lat="28.665071" lon="115.913113">
     <name>南昌</name>
     <desc>cr25424</desc>
   </wpt>
-  <wpt lat="28.446298429247488" lon="115.95618640384978">
+  <wpt lat="28.446298" lon="115.956186">
     <name>向塘</name>
-    <desc>cr</desc>
+    <desc>cr25454</desc>
   </wpt>
-  <wpt lat="28.311867427696136" lon="115.97654500597082">
+  <wpt lat="28.311867" lon="115.976545">
     <name>三江镇</name>
-    <desc>cr</desc>
+    <desc>cr25487</desc>
   </wpt>
   <trk>
     <name>京九线（南昌-向塘-三江镇） (44.1km)</name>

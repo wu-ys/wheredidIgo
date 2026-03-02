@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.823533543768804" lon="120.52498494946245">
+  <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
     <desc>cr18657</desc>
   </wpt>
-  <wpt lat="36.842732866537574" lon="120.54395491782124">
+  <wpt lat="36.842733" lon="120.543955">
     <name>莱西东所</name>
     <desc>cr</desc>
   </wpt>

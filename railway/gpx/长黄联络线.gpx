@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="28.277994886489807" lon="112.78141870304155">
+  <wpt lat="28.277995" lon="112.781419">
     <name>黄金园所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="28.265408319738626" lon="112.82044564786713">
+  <wpt lat="28.265408" lon="112.820446">
     <name>长沙西</name>
-    <desc>cr</desc>
+    <desc>cr65201</desc>
   </wpt>
   <trk>
     <name>长黄联络线</name>

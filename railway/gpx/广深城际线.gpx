@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="23.1528774908218" lon="113.31997695931682">
+  <wpt lat="23.152877" lon="113.319977">
     <name>广州东</name>
     <desc>cr23711</desc>
   </wpt>
-  <wpt lat="23.136823893616818" lon="113.60112979289717">
+  <wpt lat="23.136824" lon="113.60113">
     <name>广州新塘</name>
     <desc>cr23738</desc>
   </wpt>
-  <wpt lat="23.092444795424584" lon="113.85421182921415">
+  <wpt lat="23.092445" lon="113.854212">
     <name>东莞</name>
     <desc>cr23757</desc>
   </wpt>
-  <wpt lat="22.535524963423967" lon="114.11266776494178">
+  <wpt lat="22.535525" lon="114.112668">
     <name>深圳</name>
     <desc>cr23819</desc>
   </wpt>

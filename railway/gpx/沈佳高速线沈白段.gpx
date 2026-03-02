@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="41.816959834841256" lon="123.42981485329194">
+  <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <desc>cr53885</desc>
   </wpt>
-  <wpt lat="41.88803380161724" lon="123.91207480497586">
+  <wpt lat="41.888034" lon="123.912075">
     <name>抚顺</name>
     <desc>cr55376</desc>
   </wpt>

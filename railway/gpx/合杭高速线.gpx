@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.589391549655947" lon="117.94804525166704">
+  <wpt lat="31.589392" lon="117.948045">
     <name>胡庄所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="31.350148571639867" lon="118.38738523245242">
+  <wpt lat="31.350149" lon="118.387385">
     <name>芜湖</name>
     <desc>cr30926</desc>
   </wpt>
-  <wpt lat="31.25082910679063" lon="118.37332715485907">
+  <wpt lat="31.250829" lon="118.373327">
     <name>芜湖南</name>
     <desc>cr30928</desc>
   </wpt>
-  <wpt lat="30.86427385725074" lon="120.01942767918646">
+  <wpt lat="30.864274" lon="120.019428">
     <name>湖州</name>
     <desc>cr31854</desc>
   </wpt>
-  <wpt lat="30.797442741732826" lon="120.01723365890486">
+  <wpt lat="30.797443" lon="120.017234">
     <name>妙西镇所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.261537489865788" lon="120.0904609443096">
+  <wpt lat="30.300426" lon="119.98213">
     <name>杭州西</name>
     <desc>cr66279</desc>
   </wpt>
-  <wpt lat="29.857599117880458" lon="119.76029220348519">
+  <wpt lat="29.857599" lon="119.760292">
     <name>桐庐东</name>
-    <desc>cr</desc>
+    <desc>cr66276</desc>
   </wpt>
   <trk>
     <name>合杭高速线（胡庄所-桐庐东） (380.8km)</name>

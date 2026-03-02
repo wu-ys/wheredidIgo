@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.15386306745182" lon="121.42698250488974">
+  <wpt lat="31.153863" lon="121.426983">
     <name>上海南</name>
     <desc>cr32270</desc>
   </wpt>
-  <wpt lat="31.110861930412877" lon="121.37984986776523">
+  <wpt lat="31.110862" lon="121.37985">
     <name>莘庄</name>
-    <desc>cr</desc>
+    <desc>cr32078</desc>
   </wpt>
-  <wpt lat="31.080518378702298" lon="121.35090908915515">
+  <wpt lat="31.080518" lon="121.350909">
     <name>春申南所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="31.081085910651755" lon="121.34977722308412">
+  <wpt lat="31.081086" lon="121.349777">
     <name>春申</name>
-    <desc>cr</desc>
+    <desc>cr32081</desc>
   </wpt>
   <trk>
     <name>上海南联络线（沪春一二线） (3km)</name>

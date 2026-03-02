@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="32.12514770095521" lon="118.90769418263073">
+  <wpt lat="32.125148" lon="118.907694">
     <name>仙林</name>
-    <desc>cr</desc>
+    <desc>cr66310</desc>
   </wpt>
-  <wpt lat="31.97006294320915" lon="118.79387667845742">
+  <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
     <desc>cr16804</desc>
   </wpt>
-  <wpt lat="31.80095793773525" lon="117.28475916158543">
+  <wpt lat="31.800958" lon="117.284759">
     <name>合肥南</name>
     <desc>cr19423</desc>
   </wpt>
-  <wpt lat="30.79515546240727" lon="114.33151114424125">
+  <wpt lat="30.795155" lon="114.331511">
     <name>横店东</name>
-    <desc>cr</desc>
+    <desc>cr65797</desc>
   </wpt>
-  <wpt lat="30.62030139680355" lon="114.25005257363782">
+  <wpt lat="30.620301" lon="114.250053">
     <name>汉口</name>
     <desc>cr21050</desc>
   </wpt>

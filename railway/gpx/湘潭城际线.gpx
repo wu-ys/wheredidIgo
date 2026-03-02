@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="28.197433875834648" lon="113.00769470176847">
+  <wpt lat="28.197434" lon="113.007695">
     <name>长沙</name>
     <desc>cr22874</desc>
   </wpt>
-  <wpt lat="27.878917674130403" lon="112.90694185767332">
+  <wpt lat="27.878918" lon="112.906942">
     <name>湘潭</name>
     <desc>cr35312</desc>
   </wpt>

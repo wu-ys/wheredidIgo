@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="37.425662887018696" lon="122.13863658903774">
+  <wpt lat="37.425663" lon="122.138637">
     <name>威海</name>
     <desc>cr18618</desc>
   </wpt>
-  <wpt lat="37.14394869243404" lon="122.40378076919879">
+  <wpt lat="37.143949" lon="122.403781">
     <name>荣成</name>
-    <desc>cr</desc>
+    <desc>cr18675</desc>
   </wpt>
   <trk>
     <name>青荣城际线（威海-荣成） (41.4km)</name>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.158618275333225" lon="119.78735635029032">
+  <wpt lat="29.158618" lon="119.787356">
     <name>塘雅所</name>
-    <desc>cr</desc>
+    <desc>cr33001</desc>
   </wpt>
-  <wpt lat="27.96931292761803" lon="120.58120830680188">
+  <wpt lat="27.969313" lon="120.581208">
     <name>温州南</name>
     <desc>cr33990</desc>
   </wpt>

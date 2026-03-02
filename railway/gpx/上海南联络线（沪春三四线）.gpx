@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.15386306745182" lon="121.42698250488974">
+  <wpt lat="31.153863" lon="121.426983">
     <name>上海南</name>
     <desc>cr32270</desc>
   </wpt>
-  <wpt lat="31.08119573672918" lon="121.35231137169507">
+  <wpt lat="31.081196" lon="121.352311">
     <name>春申所</name>
     <desc>cr</desc>
   </wpt>

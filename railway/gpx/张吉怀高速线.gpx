@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.19693582835339" lon="110.43973778543496">
+  <wpt lat="29.196936" lon="110.439738">
     <name>沙堤所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="28.02029300048813" lon="109.59879752886502">
+  <wpt lat="28.020293" lon="109.598798">
     <name>凤凰古城</name>
     <desc>cr65609</desc>
   </wpt>
-  <wpt lat="27.495964708138576" lon="109.96141689967249">
+  <wpt lat="27.495965" lon="109.961417">
     <name>龙形村所</name>
     <desc>cr</desc>
   </wpt>

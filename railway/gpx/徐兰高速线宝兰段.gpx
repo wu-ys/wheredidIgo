@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="34.54994733714041" lon="105.85406558870962">
+  <wpt lat="34.549947" lon="105.854066">
     <name>天水南</name>
     <desc>cr38988</desc>
   </wpt>
-  <wpt lat="36.069222301267544" lon="103.74972990369804">
+  <wpt lat="36.069222" lon="103.74973">
     <name>兰州西</name>
     <desc>cr41492</desc>
   </wpt>

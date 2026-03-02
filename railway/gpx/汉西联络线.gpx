@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.59361667972775" lon="114.22225661770096">
+  <wpt lat="30.593617" lon="114.222257">
     <name>汉西</name>
-    <desc>cr</desc>
+    <desc>cr21059</desc>
   </wpt>
-  <wpt lat="30.619560405367658" lon="114.1914248744898">
+  <wpt lat="30.61956" lon="114.191425">
     <name>新墩</name>
-    <desc>cr</desc>
+    <desc>cr29318</desc>
   </wpt>
   <trk>
     <name>汉西联络线 (4.9km)</name>

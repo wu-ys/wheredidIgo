@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.06824098566767" lon="116.35724261940351">
+  <wpt lat="40.068241" lon="116.357243">
     <name>黄土店</name>
     <desc>cr12167</desc>
   </wpt>
-  <wpt lat="40.345509797960204" lon="116.01628673570869">
+  <wpt lat="40.34551" lon="116.016287">
     <name>青龙桥南所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="40.3436990223806" lon="116.01016899314706">
+  <wpt lat="40.343699" lon="116.010169">
     <name>青龙桥西</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="40.35101019719952" lon="116.01006340092285">
+  <wpt lat="40.35101" lon="116.010063">
     <name>青龙桥北所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="40.35887618890508" lon="115.99533382640618">
+  <wpt lat="40.358876" lon="115.995334">
     <name>八达岭</name>
     <desc>cr12285</desc>
   </wpt>
-  <wpt lat="40.3788214819236" lon="115.89227236208376">
+  <wpt lat="40.378821" lon="115.892272">
     <name>康庄</name>
     <desc>cr12221</desc>
   </wpt>

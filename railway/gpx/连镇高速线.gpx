@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="34.431605416877694" lon="119.23081082450787">
+  <wpt lat="34.431605" lon="119.230811">
     <name>董集</name>
-    <desc>cr</desc>
+    <desc>cr38487</desc>
   </wpt>
-  <wpt lat="33.57012409244364" lon="119.18274662655037">
+  <wpt lat="33.570124" lon="119.182747">
     <name>淮安东</name>
     <desc>cr18830</desc>
   </wpt>
-  <wpt lat="32.406569988119585" lon="119.52394794886003">
+  <wpt lat="32.40657" lon="119.523948">
     <name>扬州东</name>
     <desc>cr17334</desc>
   </wpt>
-  <wpt lat="32.148335854190236" lon="119.51973640231306">
+  <wpt lat="32.148336" lon="119.519736">
     <name>横山所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="32.11742371829581" lon="119.51567704175335">
+  <wpt lat="32.117424" lon="119.515677">
     <name>丹徒</name>
-    <desc>cr</desc>
+    <desc>cr66316</desc>
   </wpt>
   <trk>
     <name>连镇高速线 (305.8km)</name>

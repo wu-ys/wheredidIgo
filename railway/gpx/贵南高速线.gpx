@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="24.714363714720736" lon="108.17119732087694">
+  <wpt lat="24.714364" lon="108.171197">
     <name>河池西</name>
     <desc>cr47516</desc>
   </wpt>
-  <wpt lat="22.845280153187257" lon="108.40960649225757">
+  <wpt lat="22.84528" lon="108.409606">
     <name>南宁东</name>
     <desc>cr36452</desc>
   </wpt>

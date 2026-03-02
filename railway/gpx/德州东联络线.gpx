@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="37.408745074750385" lon="116.45648871852761">
+  <wpt lat="37.408745" lon="116.456489">
     <name>德州东</name>
-    <desc>cr</desc>
+    <desc>cr66809</desc>
   </wpt>
-  <wpt lat="37.35715676513831" lon="116.47254583951621">
+  <wpt lat="37.357157" lon="116.472546">
     <name>陵县所</name>
-    <desc>cr</desc>
+    <desc>cr66876</desc>
   </wpt>
   <trk>
     <name>德州东联络线 (6.5km)</name>

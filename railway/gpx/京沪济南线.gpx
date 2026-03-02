@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.704278178235285" lon="116.82701124216241">
+  <wpt lat="36.704278" lon="116.827011">
     <name>桥南所</name>
-    <desc>cr</desc>
+    <desc>cr16283</desc>
   </wpt>
-  <wpt lat="36.69037878232645" lon="116.99780521853543">
+  <wpt lat="36.690379" lon="116.997805">
     <name>北园</name>
-    <desc>cr</desc>
+    <desc>cr16292</desc>
   </wpt>
-  <wpt lat="36.670730867486306" lon="116.98507190806818">
+  <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <desc>cr16295</desc>
   </wpt>
-  <wpt lat="36.578648824264796" lon="116.89784022576639">
+  <wpt lat="36.578649" lon="116.89784">
     <name>党家庄</name>
-    <desc>cr</desc>
+    <desc>cr16319</desc>
   </wpt>
   <trk>
     <name>京沪济南线 (35.6km)</name>

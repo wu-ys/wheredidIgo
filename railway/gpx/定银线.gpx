@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="37.56121115486304" lon="107.57151364217236">
+  <wpt lat="37.561211" lon="107.571514">
     <name>定边</name>
-    <desc>cr</desc>
+    <desc>cr65054</desc>
   </wpt>
-  <wpt lat="38.4907553901075" lon="106.17035207764346">
+  <wpt lat="38.490755" lon="106.170352">
     <name>银川</name>
     <desc>cr14846</desc>
   </wpt>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="19.998118622950027" lon="110.32769005097158">
+  <wpt lat="19.998119" lon="110.32769">
     <name>城西</name>
     <desc>cr51450</desc>
   </wpt>
-  <wpt lat="19.985488301760192" lon="110.33883415101543">
+  <wpt lat="19.985488" lon="110.338834">
     <name>海口东</name>
     <desc>cr51447</desc>
   </wpt>
-  <wpt lat="19.943527637610387" lon="110.45695515346851">
+  <wpt lat="19.943528" lon="110.456955">
     <name>美兰</name>
     <desc>cr51444</desc>
   </wpt>
-  <wpt lat="18.29778620951653" lon="109.48897954773243">
+  <wpt lat="18.297786" lon="109.48898">
     <name>三亚</name>
     <desc>cr51481</desc>
   </wpt>

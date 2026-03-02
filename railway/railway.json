@@ -1690,7 +1690,7 @@
     "name_en": "Kangzhuang-Yanqing Railway",
     "country": "CN",
     "type": "branch",
-    "speed": 250,
+    "speed": 120,
     "start": "康庄",
     "end": "延庆",
     "vias": []

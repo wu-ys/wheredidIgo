@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="18.309081994595104" lon="109.3661210961799">
+  <wpt lat="18.309082" lon="109.366121">
     <name>凤凰西所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="18.354942377081127" lon="109.18083637362557">
+  <wpt lat="18.354942" lon="109.180836">
     <name>崖州湾</name>
     <desc>cr</desc>
   </wpt>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.300028898189872" lon="121.23127888335117">
+  <wpt lat="31.300029" lon="121.231279">
     <name>黄渡所</name>
-    <desc>cr</desc>
+    <desc>cr66521</desc>
   </wpt>
-  <wpt lat="31.291749469646987" lon="121.2649896449251">
+  <wpt lat="31.291749" lon="121.26499">
     <name>南翔北所</name>
-    <desc>cr</desc>
+    <desc>cr66523</desc>
   </wpt>
   <trk>
     <name>黄渡联络线</name>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.069222301267544" lon="103.74972990369804">
+  <wpt lat="36.069222" lon="103.74973">
     <name>兰州西</name>
     <desc>cr41492</desc>
   </wpt>
-  <wpt lat="36.50938323602268" lon="102.0529823672756">
+  <wpt lat="36.509383" lon="102.052982">
     <name>海东西</name>
     <desc>cr41521</desc>
   </wpt>

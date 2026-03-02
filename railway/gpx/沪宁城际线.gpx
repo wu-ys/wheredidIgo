@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.251389985491077" lon="121.44852077619514">
+  <wpt lat="31.251539" lon="121.45119">
     <name>上海</name>
     <desc>cr30671</desc>
   </wpt>
-  <wpt lat="31.264134900245033" lon="121.39815579198297">
+  <wpt lat="31.264135" lon="121.398156">
     <name>上海西</name>
     <desc>cr30662</desc>
   </wpt>
-  <wpt lat="31.291749469646987" lon="121.2649896449251">
+  <wpt lat="31.291749" lon="121.26499">
     <name>南翔北所</name>
-    <desc>cr</desc>
+    <desc>cr66523</desc>
   </wpt>
-  <wpt lat="31.298857920698527" lon="121.23239750322924">
+  <wpt lat="31.298858" lon="121.232398">
     <name>安亭北所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="31.34368545870389" lon="120.70623304061772">
+  <wpt lat="31.343685" lon="120.706233">
     <name>苏州园区</name>
     <desc>cr66328</desc>
   </wpt>
-  <wpt lat="31.331841727439397" lon="120.60668120993446">
+  <wpt lat="31.331842" lon="120.606681">
     <name>苏州</name>
     <desc>cr30530</desc>
   </wpt>
-  <wpt lat="31.374043102258064" lon="120.52010900774503">
+  <wpt lat="31.374043" lon="120.520109">
     <name>苏州新区</name>
     <desc>cr66325</desc>
   </wpt>
-  <wpt lat="31.49940668944606" lon="120.38792239941819">
+  <wpt lat="31.499407" lon="120.387922">
     <name>无锡新区</name>
     <desc>cr66322</desc>
   </wpt>
-  <wpt lat="31.787333965685733" lon="119.96919936126324">
+  <wpt lat="31.787334" lon="119.969199">
     <name>常州</name>
     <desc>cr30452</desc>
   </wpt>
-  <wpt lat="32.11742371829581" lon="119.51567704175335">
+  <wpt lat="32.117424" lon="119.515677">
     <name>丹徒</name>
-    <desc>cr</desc>
+    <desc>cr66316</desc>
   </wpt>
-  <wpt lat="32.19958569262872" lon="119.42736665939108">
+  <wpt lat="32.199586" lon="119.427367">
     <name>镇江</name>
     <desc>cr30407</desc>
   </wpt>
-  <wpt lat="32.12514770095521" lon="118.90769418263073">
+  <wpt lat="32.125148" lon="118.907694">
     <name>仙林</name>
-    <desc>cr</desc>
+    <desc>cr66310</desc>
   </wpt>
-  <wpt lat="32.0901197129243" lon="118.79304118270053">
+  <wpt lat="32.09012" lon="118.793041">
     <name>南京</name>
     <desc>cr16805</desc>
   </wpt>

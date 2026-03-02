@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="26.814219689042687" lon="100.2515118724141">
+  <wpt lat="26.81422" lon="100.251512">
     <name>丽江</name>
     <desc>cr48417</desc>
   </wpt>
-  <wpt lat="27.813351217511432" lon="99.6885474305687">
+  <wpt lat="27.813351" lon="99.688547">
     <name>香格里拉</name>
     <desc>cr49534</desc>
   </wpt>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.96266935983054" lon="119.67546447704986">
+  <wpt lat="39.962669" lon="119.675464">
     <name>龙家营</name>
-    <desc>cr</desc>
+    <desc>cr10328</desc>
   </wpt>
-  <wpt lat="39.964616088759904" lon="119.58622641890963">
+  <wpt lat="39.964616" lon="119.586226">
     <name>秦皇岛</name>
     <desc>cr10319</desc>
   </wpt>
-  <wpt lat="39.84985764546672" lon="119.41362020339368">
+  <wpt lat="39.849858" lon="119.41362">
     <name>北戴河</name>
     <desc>cr10307</desc>
   </wpt>
-  <wpt lat="39.62286390003387" lon="118.11515202569242">
+  <wpt lat="39.622864" lon="118.115152">
     <name>唐山</name>
     <desc>cr10214</desc>
   </wpt>
-  <wpt lat="39.13679161356966" lon="117.20371994928244">
+  <wpt lat="39.136792" lon="117.20372">
     <name>天津</name>
     <desc>cr10157</desc>
   </wpt>
-  <wpt lat="39.15694549978822" lon="117.15722806478753">
+  <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <desc>cr16010</desc>
   </wpt>

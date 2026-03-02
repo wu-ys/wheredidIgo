@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.03573459596188" lon="103.8480085559969">
+  <wpt lat="36.035735" lon="103.848009">
     <name>兰州</name>
-    <desc>cr</desc>
+    <desc>cr39872</desc>
   </wpt>
-  <wpt lat="36.62051293158886" lon="101.81144868770335">
+  <wpt lat="36.620513" lon="101.811449">
     <name>西宁</name>
-    <desc>cr</desc>
+    <desc>cr43502</desc>
   </wpt>
   <trk>
     <name>兰青线 (209.9km)</name>

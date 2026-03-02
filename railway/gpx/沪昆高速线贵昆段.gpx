@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="26.623155563071645" lon="106.670656293554">
+  <wpt lat="26.623156" lon="106.670656">
     <name>贵阳北</name>
     <desc>cr47483</desc>
   </wpt>
-  <wpt lat="26.469121954462775" lon="106.48185632807187">
+  <wpt lat="26.469122" lon="106.481856">
     <name>贵安</name>
     <desc>cr65501</desc>
   </wpt>
-  <wpt lat="24.87355665350111" lon="102.86010995477595">
+  <wpt lat="24.873557" lon="102.86011">
     <name>昆明南</name>
     <desc>cr48778</desc>
   </wpt>

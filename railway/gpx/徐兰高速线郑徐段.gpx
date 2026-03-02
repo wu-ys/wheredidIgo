@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="34.31351885832711" lon="117.28990816954978">
+  <wpt lat="34.313519" lon="117.289908">
     <name>徐州东所</name>
-    <desc>cr</desc>
+    <desc>cr38934</desc>
   </wpt>
-  <wpt lat="34.760064689235094" lon="113.7732254005277">
+  <wpt lat="34.760065" lon="113.773225">
     <name>郑州东</name>
     <desc>cr65773</desc>
   </wpt>

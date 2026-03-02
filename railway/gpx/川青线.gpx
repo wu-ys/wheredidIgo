@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.943766288194556" lon="104.20808593289198">
+  <wpt lat="30.943766" lon="104.208086">
     <name>三星堆</name>
-    <desc>cr</desc>
+    <desc>cr45573</desc>
   </wpt>
-  <wpt lat="32.747465334226476" lon="103.61297324888412">
+  <wpt lat="32.747465" lon="103.612973">
     <name>黄龙九寨</name>
     <desc>cr45587</desc>
   </wpt>

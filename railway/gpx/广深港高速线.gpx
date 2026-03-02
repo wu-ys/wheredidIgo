@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="22.540890099853158" lon="114.0518913857049">
+  <wpt lat="22.54089" lon="114.051891">
     <name>福田</name>
     <desc>cr65891</desc>
   </wpt>
-  <wpt lat="22.303881872182092" lon="114.16544282129168">
+  <wpt lat="22.303882" lon="114.165443">
     <name>香港西九龙</name>
     <desc>cr65896</desc>
   </wpt>

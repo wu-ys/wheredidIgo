@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.86523310111439" lon="121.53240165975718">
+  <wpt lat="29.865233" lon="121.532402">
     <name>宁波</name>
     <desc>cr33284</desc>
   </wpt>
-  <wpt lat="28.057050784003767" lon="120.62466818376349">
+  <wpt lat="28.071188" lon="120.692755">
     <name>温州北</name>
-    <desc>cr</desc>
+    <desc>cr33988</desc>
   </wpt>
-  <wpt lat="27.96931292761803" lon="120.58120830680188">
+  <wpt lat="27.969313" lon="120.581208">
     <name>温州南</name>
     <desc>cr33990</desc>
   </wpt>
-  <wpt lat="25.988278554586817" lon="119.3856010587736">
+  <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
     <desc>cr34151</desc>
   </wpt>
-  <wpt lat="24.976173266848793" lon="118.56322108992184">
+  <wpt lat="24.976173" lon="118.563221">
     <name>泉州</name>
     <desc>cr34169</desc>
   </wpt>
-  <wpt lat="24.638772345089258" lon="118.06902974031824">
+  <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
     <desc>cr34178</desc>
   </wpt>
-  <wpt lat="24.572739412596462" lon="117.97308748617498">
+  <wpt lat="24.572739" lon="117.973087">
     <name>前场</name>
-    <desc>cr</desc>
+    <desc>cr34565</desc>
   </wpt>
-  <wpt lat="24.460352236342057" lon="117.71182602010276">
+  <wpt lat="24.460352" lon="117.711826">
     <name>漳州</name>
     <desc>cr35067</desc>
   </wpt>
-  <wpt lat="22.787648935299526" lon="114.48758600818017">
+  <wpt lat="22.787649" lon="114.487586">
     <name>惠阳</name>
     <desc>cr25851</desc>
   </wpt>
-  <wpt lat="22.60995436345897" lon="114.02328864141793">
+  <wpt lat="22.609954" lon="114.023289">
     <name>深圳北</name>
     <desc>cr65860</desc>
   </wpt>

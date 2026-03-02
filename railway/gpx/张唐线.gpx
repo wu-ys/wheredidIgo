@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="40.58299247745395" lon="117.74889543408962">
+  <wpt lat="40.582992" lon="117.748895">
     <name>李家营</name>
-    <desc>cr</desc>
+    <desc>cr10973</desc>
   </wpt>
-  <wpt lat="39.81663886410726" lon="118.11184500066791">
+  <wpt lat="39.816639" lon="118.111845">
     <name>唐山北</name>
-    <desc>cr</desc>
+    <desc>cr11159</desc>
   </wpt>
-  <wpt lat="39.62286390003387" lon="118.11515202569242">
+  <wpt lat="39.622864" lon="118.115152">
     <name>唐山</name>
     <desc>cr10214</desc>
   </wpt>

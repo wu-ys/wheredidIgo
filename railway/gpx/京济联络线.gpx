@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.66920577671152" lon="116.88790630327794">
+  <wpt lat="36.669206" lon="116.887906">
     <name>济南西</name>
     <desc>cr66812</desc>
   </wpt>
-  <wpt lat="36.670730867486306" lon="116.98507190806818">
+  <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <desc>cr16295</desc>
   </wpt>

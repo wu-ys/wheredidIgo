@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.949536377351436" lon="118.76913020822462">
+  <wpt lat="30.949536" lon="118.76913">
     <name>宣城</name>
-    <desc>cr</desc>
+    <desc>cr31319</desc>
   </wpt>
-  <wpt lat="30.07379749430185" lon="118.56675433472115">
+  <wpt lat="30.073797" lon="118.566754">
     <name>绩溪北</name>
-    <desc>cr</desc>
+    <desc>cr34126</desc>
   </wpt>
   <trk>
     <name>宣绩高铁 (114.6km)</name>

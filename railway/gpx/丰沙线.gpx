@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.849629017642144" lon="116.2953934657941">
+  <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
     <desc>cr10025</desc>
   </wpt>
-  <wpt lat="39.873524617743776" lon="116.20832702713935">
+  <wpt lat="39.873525" lon="116.208327">
     <name>石景山南</name>
-    <desc>cr</desc>
+    <desc>cr13385</desc>
   </wpt>
-  <wpt lat="40.596602244458964" lon="115.05037749453838">
+  <wpt lat="40.596602" lon="115.050377">
     <name>宣化</name>
     <desc>cr12290</desc>
   </wpt>

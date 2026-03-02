@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="24.87355665350111" lon="102.86010995477595">
+  <wpt lat="24.873557" lon="102.86011">
     <name>昆明南</name>
     <desc>cr48778</desc>
   </wpt>
-  <wpt lat="22.778273433054583" lon="100.94076759541565">
+  <wpt lat="22.778273" lon="100.940768">
     <name>普洱</name>
     <desc>cr48647</desc>
   </wpt>

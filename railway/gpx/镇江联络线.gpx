@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="32.19958569262872" lon="119.42736665939108">
+  <wpt lat="32.199586" lon="119.427367">
     <name>镇江</name>
     <desc>cr30407</desc>
   </wpt>
-  <wpt lat="32.148335854190236" lon="119.51973640231306">
+  <wpt lat="32.148336" lon="119.519736">
     <name>横山所</name>
     <desc>cr</desc>
   </wpt>

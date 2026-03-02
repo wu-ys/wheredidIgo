@@ -248,7 +248,7 @@
   let globalBounds = null;
   let allGpxLayers = []; // 用于后续更新语言
 
-  let total = 220;
+  let total = 231;
   let loaded = 0;
   let gpxs = [];
 
@@ -273,7 +273,8 @@
       const file = "./railway/gpx/" + filename + ".gpx";
       const gpx = new L.GPX(file, {
         async: true,
-        markers: { startIcon: null, endIcon: null }
+        markers: { startIcon: null, endIcon: null, wptIcons: { '': null } },
+        gpx_options: { joinTrackSegments: false }
       })
       .on("loaded", e => {
         const g = e.target;

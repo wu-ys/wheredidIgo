@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="26.706559271153324" lon="106.65889886609303">
+  <wpt lat="26.706559" lon="106.658899">
     <name>白云北</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="26.68665714405774" lon="106.69011985804372">
+  <wpt lat="26.686657" lon="106.69012">
     <name>尖坡所</name>
     <desc>cr</desc>
   </wpt>

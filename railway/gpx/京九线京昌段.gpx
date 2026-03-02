@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.7686040546952" lon="116.27992530932156">
+  <wpt lat="39.768604" lon="116.279925">
     <name>黄土坡所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="34.409375549679645" lon="115.69902188040388">
+  <wpt lat="34.409376" lon="115.699022">
     <name>商丘南</name>
-    <desc>cr</desc>
+    <desc>cr24890</desc>
   </wpt>
-  <wpt lat="33.019199560968595" lon="115.86241405753812">
+  <wpt lat="33.0192" lon="115.862414">
     <name>阜阳北</name>
-    <desc>cr</desc>
+    <desc>cr25067</desc>
   </wpt>
-  <wpt lat="32.91661889884068" lon="115.86174616545365">
+  <wpt lat="32.916619" lon="115.861746">
     <name>阜阳</name>
-    <desc>cr</desc>
+    <desc>cr25104</desc>
   </wpt>
-  <wpt lat="29.706467254334367" lon="116.00182171159418">
+  <wpt lat="29.706467" lon="116.001822">
     <name>九江</name>
-    <desc>cr</desc>
+    <desc>cr25322</desc>
   </wpt>
-  <wpt lat="29.644493631417067" lon="115.88859833044171">
+  <wpt lat="29.644494" lon="115.888598">
     <name>九江西</name>
-    <desc>cr</desc>
+    <desc>cr25324</desc>
   </wpt>
-  <wpt lat="28.81737810281483" lon="115.86590138760765">
+  <wpt lat="28.817378" lon="115.865901">
     <name>乐化</name>
-    <desc>cr</desc>
+    <desc>cr25397</desc>
   </wpt>
   <trk>
     <name>京九线（黄土坡线路所-乐化） (1,406.6km)</name>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.89257229374262" lon="116.31717265290587">
+  <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
     <desc>cr21152</desc>
   </wpt>
-  <wpt lat="39.719036682633124" lon="116.32274267353344">
+  <wpt lat="39.719037" lon="116.322743">
     <name>北京大兴</name>
     <desc>cr21156</desc>
   </wpt>
-  <wpt lat="39.51090008869052" lon="116.40950411410157">
+  <wpt lat="39.5109" lon="116.409504">
     <name>大兴机场</name>
     <desc>cr21158</desc>
   </wpt>
-  <wpt lat="39.370921219007556" lon="116.39800294134872">
+  <wpt lat="39.370921" lon="116.398003">
     <name>固安东</name>
-    <desc>cr</desc>
+    <desc>cr21160</desc>
   </wpt>
-  <wpt lat="39.18555757505842" lon="116.32109740790445">
+  <wpt lat="39.185558" lon="116.321097">
     <name>霸州北</name>
     <desc>cr21162</desc>
   </wpt>
-  <wpt lat="39.05562390768637" lon="116.154070856847">
+  <wpt lat="39.055624" lon="116.154071">
     <name>雄安</name>
     <desc>cr21164</desc>
   </wpt>

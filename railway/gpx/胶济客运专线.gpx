@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.670730867486306" lon="116.98507190806818">
+  <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <desc>cr16295</desc>
   </wpt>
-  <wpt lat="36.68136404083151" lon="117.02292562048119">
+  <wpt lat="36.681364" lon="117.022926">
     <name>大明湖</name>
-    <desc>cr</desc>
+    <desc>cr17699</desc>
   </wpt>
-  <wpt lat="36.78835590966978" lon="118.05155765341256">
+  <wpt lat="36.788356" lon="118.051558">
     <name>淄博</name>
     <desc>cr17786</desc>
   </wpt>
-  <wpt lat="36.396202998336356" lon="120.04995166066142">
+  <wpt lat="36.396203" lon="120.049952">
     <name>胶州北</name>
-    <desc>cr</desc>
+    <desc>cr17963</desc>
   </wpt>
-  <wpt lat="36.168693614235906" lon="120.36952367609534">
+  <wpt lat="36.168694" lon="120.369524">
     <name>青岛北</name>
     <desc>cr18088</desc>
   </wpt>

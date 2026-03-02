@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.90251683186538" lon="116.41920331631096">
+  <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
     <desc>cr10001</desc>
   </wpt>
-  <wpt lat="39.90153291435752" lon="116.478422417087">
+  <wpt lat="39.901533" lon="116.478422">
     <name>北京东</name>
-    <desc>cr</desc>
+    <desc>cr12158</desc>
   </wpt>
-  <wpt lat="39.92517702667737" lon="116.72541702741671">
+  <wpt lat="39.925177" lon="116.725417">
     <name>高辛庄所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="39.99368602097273" lon="117.36270598207112">
+  <wpt lat="39.993686" lon="117.362706">
     <name>蓟州</name>
     <desc>cr11132</desc>
   </wpt>
-  <wpt lat="39.81663886410726" lon="118.11184500066791">
+  <wpt lat="39.816639" lon="118.111845">
     <name>唐山北</name>
-    <desc>cr</desc>
+    <desc>cr11159</desc>
   </wpt>
-  <wpt lat="39.84985764546672" lon="119.41362020339368">
+  <wpt lat="39.849858" lon="119.41362">
     <name>北戴河</name>
     <desc>cr10307</desc>
   </wpt>
-  <wpt lat="39.964616088759904" lon="119.58622641890963">
+  <wpt lat="39.964616" lon="119.586226">
     <name>秦皇岛</name>
     <desc>cr10319</desc>
   </wpt>
-  <wpt lat="39.96266935983054" lon="119.67546447704986">
+  <wpt lat="39.962669" lon="119.675464">
     <name>龙家营</name>
-    <desc>cr</desc>
+    <desc>cr10328</desc>
   </wpt>
-  <wpt lat="39.99940317808515" lon="119.76155216100267">
+  <wpt lat="39.999403" lon="119.761552">
     <name>山海关</name>
     <desc>cr10331</desc>
   </wpt>
-  <wpt lat="41.816959834841256" lon="123.42981485329194">
+  <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <desc>cr53885</desc>
   </wpt>
-  <wpt lat="43.165104202845335" lon="124.36727977996912">
+  <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
     <desc>cr54011</desc>
   </wpt>
-  <wpt lat="43.909016882850466" lon="125.31801286303715">
+  <wpt lat="43.909017" lon="125.318013">
     <name>长春</name>
     <desc>cr54116</desc>
   </wpt>
-  <wpt lat="45.70538738155455" lon="126.571041505842">
+  <wpt lat="45.705387" lon="126.571042">
     <name>哈尔滨西</name>
     <desc>cr53469</desc>
   </wpt>
-  <wpt lat="45.75814850773292" lon="126.62486048101105">
+  <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <desc>cr55661</desc>
   </wpt>

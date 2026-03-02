@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.622131889389582" lon="117.51612621159009">
+  <wpt lat="30.622132" lon="117.516126">
     <name>池州</name>
     <desc>cr31015</desc>
   </wpt>
-  <wpt lat="29.887331752319984" lon="118.0423665037031">
+  <wpt lat="29.887332" lon="118.042367">
     <name>黟县东</name>
     <desc>cr35927</desc>
   </wpt>
-  <wpt lat="29.818050729180705" lon="118.26761786578294">
+  <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
     <desc>cr34130</desc>
   </wpt>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.714032862309896" lon="113.92917509512066">
+  <wpt lat="30.714033" lon="113.929175">
     <name>新沟北所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.748088477299085" lon="111.46948750268938">
+  <wpt lat="30.748088" lon="111.469488">
     <name>宜昌北</name>
     <desc>cr45195</desc>
   </wpt>

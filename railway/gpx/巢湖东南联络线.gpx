@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.62001199302335" lon="117.9199110912776">
+  <wpt lat="31.620012" lon="117.919911">
     <name>巢湖东</name>
-    <desc>cr</desc>
+    <desc>cr34114</desc>
   </wpt>
-  <wpt lat="31.589391549655947" lon="117.94804525166704">
+  <wpt lat="31.589392" lon="117.948045">
     <name>胡庄所</name>
     <desc>cr</desc>
   </wpt>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="37.41361785922679" lon="121.33906100093002">
+  <wpt lat="37.413618" lon="121.339061">
     <name>西陌堂所</name>
-    <desc>cr</desc>
+    <desc>cr18663</desc>
   </wpt>
-  <wpt lat="37.54749247199979" lon="121.37742105504329">
+  <wpt lat="37.547492" lon="121.377421">
     <name>烟台</name>
     <desc>cr18557</desc>
   </wpt>

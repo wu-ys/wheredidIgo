@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.94389911081975" lon="116.3468211352778">
+  <wpt lat="39.943899" lon="116.346821">
     <name>北京北</name>
     <desc>cr12713</desc>
   </wpt>
-  <wpt lat="40.04072273944787" lon="116.3077141352536">
+  <wpt lat="40.040723" lon="116.307714">
     <name>清河</name>
     <desc>cr12707</desc>
   </wpt>
-  <wpt lat="40.18862549048341" lon="116.18734259176048">
+  <wpt lat="40.188625" lon="116.187343">
     <name>昌平</name>
-    <desc>cr</desc>
+    <desc>cr12173</desc>
   </wpt>
-  <wpt lat="40.35802940915442" lon="116.00490988907565">
+  <wpt lat="40.358029" lon="116.00491">
     <name>八达岭长城</name>
     <desc>cr12181</desc>
   </wpt>
-  <wpt lat="40.38251340554994" lon="115.96067459588595">
+  <wpt lat="40.382513" lon="115.960675">
     <name>八达岭西所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="40.75070389592844" lon="114.87673298573546">
+  <wpt lat="40.750704" lon="114.876733">
     <name>张家口</name>
     <desc>cr12782</desc>
   </wpt>
-  <wpt lat="40.96334500553499" lon="113.15225419626604">
+  <wpt lat="40.963345" lon="113.152254">
     <name>乌兰察布</name>
     <desc>cr12113</desc>
   </wpt>
-  <wpt lat="40.84834347297365" lon="111.75933389941765">
+  <wpt lat="40.848343" lon="111.759334">
     <name>呼和浩特东</name>
     <desc>cr12578</desc>
   </wpt>
-  <wpt lat="40.82949919713881" lon="111.65830577468823">
+  <wpt lat="40.829499" lon="111.658306">
     <name>呼和浩特</name>
     <desc>cr12581</desc>
   </wpt>

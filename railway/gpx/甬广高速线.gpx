@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="25.988278554586817" lon="119.3856010587736">
+  <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
     <desc>cr34151</desc>
   </wpt>
-  <wpt lat="24.638772345089258" lon="118.06902974031824">
+  <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
     <desc>cr34178</desc>
   </wpt>

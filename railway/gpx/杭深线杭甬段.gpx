@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.293964120120336" lon="120.20789203537153">
+  <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
     <desc>cr32001</desc>
   </wpt>
-  <wpt lat="30.140235190233515" lon="120.32049070354408">
+  <wpt lat="30.140235" lon="120.320491">
     <name>杭甬杭州南所</name>
     <desc>cr</desc>
   </wpt>
-  <wpt lat="30.102818704432888" lon="120.53299429640205">
+  <wpt lat="30.102819" lon="120.532994">
     <name>绍兴北</name>
     <desc>cr33187</desc>
   </wpt>
-  <wpt lat="29.86523310111439" lon="121.53240165975718">
+  <wpt lat="29.865233" lon="121.532402">
     <name>宁波</name>
     <desc>cr33284</desc>
   </wpt>

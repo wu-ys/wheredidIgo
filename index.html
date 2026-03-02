@@ -166,7 +166,7 @@
 
   let flights_num = 95;
   let flights_loaded = 0;
-  let railway_num = 212;
+  let railway_num = 231;
   let railway_loaded = 0;
   let total = flights_num + railway_num;
   let gpxs = [];
@@ -274,7 +274,8 @@
       const file = "./railway/gpx/" + filename + ".gpx";
       const gpx = new L.GPX(file, {
         async: true,
-        markers: { startIcon: null, endIcon: null }
+        markers: { startIcon: null, endIcon: null, wptIcons: { '': null } },
+        gpx_options: { joinTrackSegments: false }
       })
       .on("loaded", e => {
         const g = e.target;

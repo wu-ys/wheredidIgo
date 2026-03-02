@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="41.816959834841256" lon="123.42981485329194">
+  <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <desc>cr53885</desc>
   </wpt>
-  <wpt lat="43.135984844628766" lon="124.43177957986893">
+  <wpt lat="43.135985" lon="124.43178">
     <name>四平东</name>
     <desc>cr53487</desc>
   </wpt>
-  <wpt lat="43.93441520685382" lon="125.24999003664776">
+  <wpt lat="43.934415" lon="125.24999">
     <name>崔家营子所</name>
-    <desc>cr</desc>
+    <desc>cr53480</desc>
   </wpt>
-  <wpt lat="45.75814850773292" lon="126.62486048101105">
+  <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <desc>cr55661</desc>
   </wpt>

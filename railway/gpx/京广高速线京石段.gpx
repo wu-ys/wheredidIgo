@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="39.89257229374262" lon="116.31717265290587">
+  <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
     <desc>cr21152</desc>
   </wpt>
-  <wpt lat="38.00943423743659" lon="114.47848725839017">
+  <wpt lat="38.009434" lon="114.478487">
     <name>石家庄</name>
     <desc>cr20372</desc>
   </wpt>

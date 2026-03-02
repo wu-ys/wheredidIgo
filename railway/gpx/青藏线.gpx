@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.62051293158886" lon="101.81144868770335">
+  <wpt lat="36.620513" lon="101.811449">
     <name>西宁</name>
-    <desc>cr</desc>
+    <desc>cr43502</desc>
   </wpt>
-  <wpt lat="36.38343921898559" lon="94.90619064169725">
+  <wpt lat="36.383439" lon="94.906191">
     <name>格尔木</name>
     <desc>cr43787</desc>
   </wpt>
-  <wpt lat="29.62586847763857" lon="91.06817138506726">
+  <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
     <desc>cr44083</desc>
   </wpt>

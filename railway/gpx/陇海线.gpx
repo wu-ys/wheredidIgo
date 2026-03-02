@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="34.26612645092465" lon="117.20222617078288">
+  <wpt lat="34.266126" lon="117.202226">
     <name>徐州</name>
-    <desc>cr</desc>
+    <desc>cr16628</desc>
   </wpt>
-  <wpt lat="34.44753386031722" lon="115.65254294232928">
+  <wpt lat="34.447534" lon="115.652543">
     <name>商丘</name>
-    <desc>cr</desc>
+    <desc>cr38702</desc>
   </wpt>
-  <wpt lat="34.77167805357281" lon="114.34827948764077">
+  <wpt lat="34.771678" lon="114.348279">
     <name>开封</name>
     <desc>cr38774</desc>
   </wpt>
-  <wpt lat="34.734952243645495" lon="113.69423259836438">
+  <wpt lat="34.734952" lon="113.694233">
     <name>圃田西</name>
-    <desc>cr</desc>
+    <desc>cr38810</desc>
   </wpt>
-  <wpt lat="34.74692824568525" lon="113.65200652594562">
+  <wpt lat="34.746928" lon="113.652007">
     <name>郑州</name>
     <desc>cr20750</desc>
   </wpt>
-  <wpt lat="34.68640466290129" lon="112.43010632190646">
+  <wpt lat="34.686405" lon="112.430106">
     <name>洛阳</name>
     <desc>cr39173</desc>
   </wpt>
-  <wpt lat="34.5667142058386" lon="105.89484941668125">
+  <wpt lat="34.566714" lon="105.894849">
     <name>天水</name>
     <desc>cr39701</desc>
   </wpt>
-  <wpt lat="36.03573459596188" lon="103.8480085559969">
+  <wpt lat="36.035735" lon="103.848009">
     <name>兰州</name>
-    <desc>cr</desc>
+    <desc>cr39872</desc>
   </wpt>
   <trk>
     <name>陇海线（徐州-兰州） (1,499km)</name>

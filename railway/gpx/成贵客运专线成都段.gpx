@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.631450217612446" lon="104.1401649022085">
+  <wpt lat="30.63145" lon="104.140165">
     <name>成都东</name>
     <desc>cr46543</desc>
   </wpt>
-  <wpt lat="30.60780331540759" lon="104.06603393318709">
+  <wpt lat="30.607803" lon="104.066034">
     <name>成都南</name>
     <desc>cr47675</desc>
   </wpt>
-  <wpt lat="30.571909587984113" lon="103.9542967823889">
+  <wpt lat="30.57191" lon="103.954297">
     <name>双流机场</name>
     <desc>cr47621</desc>
   </wpt>

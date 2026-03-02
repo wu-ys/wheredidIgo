@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="30.949536377351436" lon="118.76913020822462">
+  <wpt lat="30.949536" lon="118.76913">
     <name>宣城</name>
-    <desc>cr</desc>
+    <desc>cr31319</desc>
   </wpt>
-  <wpt lat="30.246198247605243" lon="120.17732570765959">
+  <wpt lat="30.246198" lon="120.177326">
     <name>杭州</name>
     <desc>cr32252</desc>
   </wpt>

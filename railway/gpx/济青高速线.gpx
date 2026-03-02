@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="36.74745783770212" lon="117.15382926994468">
+  <wpt lat="36.747458" lon="117.153829">
     <name>济南东</name>
-    <desc>cr</desc>
+    <desc>cr17601</desc>
   </wpt>
-  <wpt lat="36.396202998336356" lon="120.04995166066142">
+  <wpt lat="36.396203" lon="120.049952">
     <name>胶州北</name>
-    <desc>cr</desc>
+    <desc>cr17963</desc>
   </wpt>
-  <wpt lat="36.168693614235906" lon="120.36952367609534">
+  <wpt lat="36.168694" lon="120.369524">
     <name>青岛北</name>
     <desc>cr18088</desc>
   </wpt>

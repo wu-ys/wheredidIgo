@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="45.784391128838905" lon="126.70713377209573">
+  <wpt lat="45.784391" lon="126.707134">
     <name>哈尔滨东</name>
     <desc>cr60002</desc>
   </wpt>
-  <wpt lat="45.99626325325346" lon="126.64056907519071">
+  <wpt lat="45.996263" lon="126.640569">
     <name>呼兰</name>
     <desc>cr59789</desc>
   </wpt>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="28.493506314840204" lon="118.00126309837721">
+  <wpt lat="28.493506" lon="118.001263">
     <name>上饶</name>
-    <desc>cr</desc>
+    <desc>cr32687</desc>
   </wpt>
-  <wpt lat="28.494566428250707" lon="118.04367730743522">
+  <wpt lat="28.494566" lon="118.043677">
     <name>京福所</name>
     <desc>cr</desc>
   </wpt>

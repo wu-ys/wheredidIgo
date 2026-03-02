@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="31.258430118647823" lon="121.28430805353382">
+  <wpt lat="31.25843" lon="121.284308">
     <name>封浜</name>
-    <desc>cr</desc>
+    <desc>cr32045</desc>
   </wpt>
-  <wpt lat="31.160707375705524" lon="121.32360799644017">
+  <wpt lat="31.160707" lon="121.323608">
     <name>七宝</name>
-    <desc>cr</desc>
+    <desc>cr32075</desc>
   </wpt>
-  <wpt lat="31.113414855980956" lon="121.35610665820843">
+  <wpt lat="31.113415" lon="121.356107">
     <name>李家塘</name>
-    <desc>cr</desc>
+    <desc>cr32076</desc>
   </wpt>
-  <wpt lat="31.081085910651755" lon="121.34977722308412">
+  <wpt lat="31.081086" lon="121.349777">
     <name>春申</name>
-    <desc>cr</desc>
+    <desc>cr32081</desc>
   </wpt>
-  <wpt lat="30.985033751064773" lon="121.2253098167985">
+  <wpt lat="30.985034" lon="121.22531">
     <name>上海松江</name>
     <desc>cr32022</desc>
   </wpt>
-  <wpt lat="30.7669688374806" lon="120.75881725599666">
+  <wpt lat="30.766969" lon="120.758817">
     <name>嘉兴</name>
     <desc>cr32138</desc>
   </wpt>
-  <wpt lat="30.535639352570467" lon="120.68067132563044">
+  <wpt lat="30.535639" lon="120.680671">
     <name>海宁</name>
     <desc>cr32159</desc>
   </wpt>
-  <wpt lat="30.33106593900964" lon="120.21234673283938">
+  <wpt lat="30.331066" lon="120.212347">
     <name>笕桥</name>
-    <desc>cr</desc>
+    <desc>cr32198</desc>
   </wpt>
-  <wpt lat="30.293964120120336" lon="120.20789203537153">
+  <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
     <desc>cr32001</desc>
   </wpt>
-  <wpt lat="30.174534659674652" lon="120.28871306757257">
+  <wpt lat="30.174535" lon="120.288713">
     <name>杭州南</name>
     <desc>cr32460</desc>
   </wpt>
-  <wpt lat="28.92759893460416" lon="118.8761674684662">
+  <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
     <desc>cr32621</desc>
   </wpt>
-  <wpt lat="28.404633593050434" lon="115.99794263994902">
+  <wpt lat="28.404634" lon="115.997943">
     <name>梁家渡</name>
-    <desc>cr</desc>
+    <desc>cr32879</desc>
   </wpt>
-  <wpt lat="27.80932283731409" lon="114.65863135615444">
+  <wpt lat="27.809323" lon="114.658631">
     <name>分宜</name>
     <desc>cr33023</desc>
   </wpt>
-  <wpt lat="27.792421410075782" lon="114.43133934660864">
+  <wpt lat="27.792421" lon="114.431339">
     <name>宜春</name>
     <desc>cr65646</desc>
   </wpt>
-  <wpt lat="27.038084005301258" lon="108.40568074861304">
+  <wpt lat="27.038084" lon="108.405681">
     <name>镇远</name>
     <desc>cr35624</desc>
   </wpt>
-  <wpt lat="26.45163093490391" lon="106.96890542215753">
+  <wpt lat="26.451631" lon="106.968905">
     <name>龙里</name>
-    <desc>cr</desc>
+    <desc>cr37580</desc>
   </wpt>
   <trk>
     <name>沪昆线（封浜-龙里） (1,937km)</name>

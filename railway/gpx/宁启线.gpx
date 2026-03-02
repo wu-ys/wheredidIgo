@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="32.16245682950869" lon="118.67522270444208">
+  <wpt lat="32.162457" lon="118.675223">
     <name>林场</name>
-    <desc>cr</desc>
+    <desc>cr16802</desc>
   </wpt>
-  <wpt lat="32.39162253788777" lon="119.34539575680259">
+  <wpt lat="32.391623" lon="119.345396">
     <name>扬州</name>
     <desc>cr17364</desc>
   </wpt>
-  <wpt lat="32.549268419869655" lon="120.50033013841721">
+  <wpt lat="32.549268" lon="120.50033">
     <name>海安</name>
     <desc>cr17370</desc>
   </wpt>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
-  <wpt lat="29.857599117880458" lon="119.76029220348519">
+  <wpt lat="29.857599" lon="119.760292">
     <name>桐庐东</name>
-    <desc>cr</desc>
+    <desc>cr66276</desc>
   </wpt>
-  <wpt lat="29.380372129125153" lon="120.03867725437429">
+  <wpt lat="29.380372" lon="120.038677">
     <name>义乌</name>
     <desc>cr32537</desc>
   </wpt>
