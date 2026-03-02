@@ -1,50 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- track-length = 4060 filtered ascend = 15 plain-ascend = 4 cost=4060 energy=0.1kwh time=5m 25s -->
-<gpx 
- xmlns="http://www.topografix.com/GPX/1/1" 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
- version="1.1" 
- creator="BRouter-Web 0.18.1">
- <trk>
-  <name>长黄联络线</name>
-  <trkseg>
-   <trkpt lat="28.277728" lon="112.782913"><ele>76</ele></trkpt>
-   <trkpt lat="28.277421" lon="112.784499"><ele>76</ele></trkpt>
-   <trkpt lat="28.277337" lon="112.785032"><ele>76</ele></trkpt>
-   <trkpt lat="28.277297" lon="112.785413"><ele>76</ele></trkpt>
-   <trkpt lat="28.277283" lon="112.78593"><ele>76</ele></trkpt>
-   <trkpt lat="28.277315" lon="112.786312"><ele>76</ele></trkpt>
-   <trkpt lat="28.277373" lon="112.786719"><ele>76</ele></trkpt>
-   <trkpt lat="28.277458" lon="112.787207"><ele>76</ele></trkpt>
-   <trkpt lat="28.277632" lon="112.788003"><ele>76</ele></trkpt>
-   <trkpt lat="28.277855" lon="112.789137"><ele>76</ele></trkpt>
-   <trkpt lat="28.277907" lon="112.78959"><ele>76</ele></trkpt>
-   <trkpt lat="28.277924" lon="112.789962"><ele>76</ele></trkpt>
-   <trkpt lat="28.277922" lon="112.790457"><ele>76</ele></trkpt>
-   <trkpt lat="28.277878" lon="112.790963"><ele>76</ele></trkpt>
-   <trkpt lat="28.277805" lon="112.791477"><ele>76</ele></trkpt>
-   <trkpt lat="28.277658" lon="112.791977"><ele>76</ele></trkpt>
-   <trkpt lat="28.277515" lon="112.792373"><ele>76</ele></trkpt>
-   <trkpt lat="28.277288" lon="112.792794"><ele>76</ele></trkpt>
-   <trkpt lat="28.277032" lon="112.793205"><ele>76</ele></trkpt>
-   <trkpt lat="28.27669" lon="112.79366"><ele>76</ele></trkpt>
-   <trkpt lat="28.276002" lon="112.794408"><ele>76</ele></trkpt>
-   <trkpt lat="28.275072" lon="112.795423"><ele>76</ele></trkpt>
-   <trkpt lat="28.274357" lon="112.796222"><ele>76</ele></trkpt>
-   <trkpt lat="28.273646" lon="112.797077"><ele>76</ele></trkpt>
-   <trkpt lat="28.273282" lon="112.79759"><ele>76</ele></trkpt>
-   <trkpt lat="28.272972" lon="112.79807"><ele>76</ele></trkpt>
-   <trkpt lat="28.272653" lon="112.798628"><ele>76</ele></trkpt>
-   <trkpt lat="28.272346" lon="112.79925"><ele>76</ele></trkpt>
-   <trkpt lat="28.271592" lon="112.8012"><ele>76</ele></trkpt>
-   <trkpt lat="28.270096" lon="112.805372"><ele>76</ele></trkpt>
-   <trkpt lat="28.268635" lon="112.809424"><ele>62.25</ele></trkpt>
-   <trkpt lat="28.268417" lon="112.809993"><ele>62.75</ele></trkpt>
-   <trkpt lat="28.268322" lon="112.81024"><ele>63.75</ele></trkpt>
-   <trkpt lat="28.26625" lon="112.815939"><ele>88</ele></trkpt>
-   <trkpt lat="28.265883" lon="112.81698"><ele>87.5</ele></trkpt>
-   <trkpt lat="28.264735" lon="112.820199"><ele>79.75</ele></trkpt>
-  </trkseg>
- </trk>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
+  <wpt lat="28.277994886489807" lon="112.78141870304155">
+    <name>黄金园所</name>
+    <desc>cr</desc>
+  </wpt>
+  <wpt lat="28.265408319738626" lon="112.82044564786713">
+    <name>长沙西</name>
+    <desc>cr</desc>
+  </wpt>
+  <trk>
+    <name>长黄联络线</name>
+    <trkseg>
+      <trkpt lat="28.277728" lon="112.782913">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277421" lon="112.784499">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277337" lon="112.785032">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277297" lon="112.785413">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277283" lon="112.78593">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277315" lon="112.786312">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277373" lon="112.786719">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277458" lon="112.787207">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277632" lon="112.788003">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277855" lon="112.789137">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277907" lon="112.78959">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277924" lon="112.789962">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277922" lon="112.790457">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277878" lon="112.790963">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277805" lon="112.791477">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277658" lon="112.791977">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277515" lon="112.792373">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277288" lon="112.792794">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.277032" lon="112.793205">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.27669" lon="112.79366">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.276002" lon="112.794408">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.275072" lon="112.795423">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.274357" lon="112.796222">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.273646" lon="112.797077">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.273282" lon="112.79759">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.272972" lon="112.79807">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.272653" lon="112.798628">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.272346" lon="112.79925">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.271592" lon="112.8012">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.270096" lon="112.805372">
+        <ele>76.0</ele>
+      </trkpt>
+      <trkpt lat="28.268635" lon="112.809424">
+        <ele>62.25</ele>
+      </trkpt>
+      <trkpt lat="28.268417" lon="112.809993">
+        <ele>62.75</ele>
+      </trkpt>
+      <trkpt lat="28.268322" lon="112.81024">
+        <ele>63.75</ele>
+      </trkpt>
+      <trkpt lat="28.26625" lon="112.815939">
+        <ele>88.0</ele>
+      </trkpt>
+      <trkpt lat="28.265883" lon="112.81698">
+        <ele>87.5</ele>
+      </trkpt>
+      <trkpt lat="28.264735" lon="112.820199">
+        <ele>79.75</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
 </gpx>

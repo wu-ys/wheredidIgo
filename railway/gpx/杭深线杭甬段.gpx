@@ -4,6 +4,10 @@
     <name>杭州东</name>
     <desc>cr32001</desc>
   </wpt>
+  <wpt lat="30.140235190233515" lon="120.32049070354408">
+    <name>杭甬杭州南所</name>
+    <desc>cr</desc>
+  </wpt>
   <wpt lat="30.102818704432888" lon="120.53299429640205">
     <name>绍兴北</name>
     <desc>cr33187</desc>
