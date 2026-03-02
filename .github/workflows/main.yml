@@ -33,8 +33,6 @@ jobs:
       run: |
         python process_airport.py
         python process_flights.py
-        python process_railway.py
-        python process_station.py
         python fill_template.py
 
     # === 5️⃣ 提交修改并推送回仓库 ===
