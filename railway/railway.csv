@@ -1,231 +1,232 @@
-line_ref,name_zh,name_en,country,type,speed,start,end,vias
-JRW-A1,JR北陆线,JR Hokuriku Line,JP,main,130,米原,敦贺,近江盐津
-JRW-A2,JR东海道线,JR Tokaido Line,JP,main,130,米原,大阪,草津 石山 山科 京都
-JRW-A3,JR山阳线,JR Sanyo Line,JP,main,130,三宫,姬路,神户
-JRW-B,JR湖西线,JR Kosei Line,JP,main,130,山科,近江盐津,
-JRW-C,JR草津线,JR Kusatsu Line,JP,branch,130,草津,柘植,
-JRW-D,JR奈良线,JR Nara Line,JP,main,130,京都,木津,
-JRW-E,JR山阴线,JR San-in Line,JP,main,130,京都,嵯峨岚山,梅小路京都西
-JRW-O,JR大阪环状线,JR Osaka Loop Line,JP,main,130,天王寺,天王寺,新今宫 今宫 西九条 大阪 京桥
-JRW-Q,JR大和路线,JR Yamatoji Line,JP,main,130,JR难波,今宫,
-JRW-R1,JR阪和线,JR Hanwa Line,JP,main,130,天王寺,和歌山,
-JRW-R2,JR纪势线,JR Kisei Line,JP,link,130,和歌山,和歌山市,
-JRW-V,JR关西线,JR Kansai Line,JP,main,130,久宝寺,柘植,加茂 木津 JR奈良
-JHK-H,阪急宝塚线,Hankyu Takarazuka Line,JP,main,120,大阪梅田,庄内,
-JHS,阪神本线,Hanshin Railway,JP,main,120,阪神三宫,阪神尼崎,
-JHS-N,阪神难波线,Hanshin Railway Namba Line,JP,main,120,阪神尼崎,西九条,
-JKH,京阪本线,Keihan Railway,JP,main,120,淀屋桥,三条,京桥
-JKT-A,近铁奈良线,Kintetsu Nara Line,JP,main,120,近铁奈良,近铁日本桥,
-JNK-K,南海加太线,Nankai Railway Kada Branch,JP,branch,120,纪之川,加太,
-JNK,南海本线,Nankai Railway,JP,main,120,新今宫,和歌山市,泉佐野 纪之川
-JNK-A,南海机场线,Nankai Railway KIX Branch,JP,branch,120,泉佐野,关西空港,
-93115,南凭高速线,Nanning-Pingxiang Highspeed Railway,CN,main,250,南宁,崇左南,吴圩机场
-93116,南珠高速线,Nanning-Zhuhai Highspeed Railway,CN,main,300,南宁东,玉林北,
-90001,太仓联络线,Link Line,CN,link,200,太仓,陆渡所,
-93117,宣绩高速线,Xuancheng-Jixi Highspeed Railway,CN,main,350,宣城,绩溪北,
-93118,川青线,Chengdu-Xining Railway,CN,main,200,三星堆,黄龙九寨,
-90002,广州东环城际线,Guangzhou-Foshan Loop Intercity Railway,CN,branch,200,花都,白云机场北,
-90003,广清城际线,Guangzhou-Qingyuan Intercity Railway,CN,branch,200,花都,清城,
-90004,康山联络线,Link Line,CN,link,200,康山所,妙西镇所,
-93119-A,杭温高速线A,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,桐庐东,义乌,
-93119-B,杭温高速线B,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,横店,永嘉所,
-90005,桐庐联络线,Link Line,CN,link,200,桐庐东,桐庐,
-93120,池黄高速线,Chizhou-Huangshan Highspeed Railway,CN,main,350,池州,黄山北,黟县东
-93110,津兴城际线,Tianjin-PKX Intercity Railway,CN,branch,250,胜芳,固安东,
-90825,滇藏线,Yunnan-Xizang Railway,CN,main,160,丽江,香格里拉,
-93121,甬广高速线,Ningbo-Guangzhou Highspeed Railway,CN,main,350,福州南,厦门北,
-93122,盐通高速线,Yancheng-Nantong Highspeed Railway,CN,main,300,盐城,南通西,海安
-93123,花广联络线,Link Line,CN,branch,160,广州北,广州白云,
-93124,贵南高速线,Guiyang-Nanning Highspeed Railway,CN,main,350,河池西,南宁东,
-97310,通燕联络线,Link Line,CN,link,200,高辛庄所,北刘各庄所,
-90006,青三联络线,Link Line,CN,link,200,青白江东,三星堆,
-93125,张吉怀高速线,Zhangjiajie-Jishou-Huaihua Highspeed Railway,CN,main,300,沙堤所,龙形村所,凤凰古城
-90007,张家界西联络线,Link Line,CN,link,200,沙堤所,张家界西,
-93126,渝厦高速线,Chongqing-Xiamen Highspeed Railway,CN,main,250,张家界西,黄金园所,
-90008,龙怀联络线,Link Line,CN,link,200,怀化南,龙形村所,
-90009,凤凰联络线,Link Line,CN,link,160,凤凰机场,凤凰西所,
-90010,崖州联络线,Link Line,CN,link,160,崖州湾,崖州,
-90011,贵阳客车线,Guiyang Link Line,CN,branch,160,龙里,贵阳,秦祺村所
-90012,中老昆万线,China-Laos Kunming-Vientiane Railway,CN,main,200,昆明南,普洱,
-90013,琶莲城际线,Pazhou-Lianhuashan Intercity Railway,CN,branch,200,琶洲,广州莲花山,
-90014,沪宁沿江高速线,Shanghai-Nanjing Riverside Highspeed Railway,CN,main,350,南京南,太仓,武进 江阴 张家港 常熟
-90015,长黄联络线,Link Line,CN,link,200,黄金园所,长沙西,
-0001-A,京广线A,Beijing-Guangzhou Railway,CN,main,160,长辛店,柳辛庄,
-0001-B,京广线B,Beijing-Guangzhou Railway,CN,main,160,汉西,武昌,
-0001-C,京广线C,Beijing-Guangzhou Railway,CN,main,160,武昌,武昌南,
-0002-A,京沪线,Beijing-Shanghai Railway,CN,main,160,北京,上海,北京南 北京丰台 黄土坡所 汉沟镇 天津北 天津西 桥南所 党家庄 泰山 兖州 徐州 林场 南京 苏州 黄渡
-0002-B,京沪济南线,Beijing-Shanghai Railway,CN,main,160,桥南所,党家庄,北园 济南
-0003,陇海线,Lanzhou-Lianyungang Railway,CN,main,160,徐州,兰州,商丘 开封 圃田西 郑州 洛阳 天水
-0005-A,京九线A,Beijing-Kowloon Railway,CN,main,160,黄土坡所,乐化,商丘南 阜阳北 阜阳 九江 九江西
-0005-B,京九线B,Beijing-Kowloon Railway,CN,main,160,南昌,三江镇,向塘
-0007,京哈线,Beijing-Harbin Railway,CN,main,160,北京,哈尔滨,北京东 高辛庄所 蓟州 唐山北 北戴河 秦皇岛 龙家营 山海关 沈阳北 四平 长春 哈尔滨西
-0008,沪昆线,Shanghai-Kunming Railway,CN,main,160,封浜,龙里,七宝 李家塘 春申 上海松江 嘉兴 海宁 笕桥 杭州东 杭州南 衢州 梁家渡 分宜 宜春 镇远
-0012,拉滨线,Lafa-Harbin Railway,CN,branch,120,东门,哈尔滨东,
-0015,平齐线,Siping-Qiqihar Railway,CN,main,120,四平,齐齐哈尔,榆树屯
-0021,京通线,Beijing-Tongliao Railway,CN,branch,120,昌平,隆化,昌平北 雁栖湖 怀柔北 古北口
-0028-A,京包线（黄土店-康庄）,Beijing-Baotou Railway,CN,branch,120,黄土店,康庄,青龙桥南所 青龙桥西 青龙桥北所 八达岭
-0028-B,京包青龙桥上行线,Beijing-Baotou Railway (Qinglongqiao Branch),CN,branch,120,青龙桥南所,青龙桥北所,青龙桥
-0028-C,京包线（呼和浩特东-台阁牧）,Beijing-Baotou Railway,CN,main,160,呼和浩特东,台阁牧,
-0039,包兰线,Baotou-Lanzhou Railway,CN,main,160,包头西,银川,
-0046,武九线,Wuhan-Jiujiang Railway,CN,main,200,何刘,九江西,
-0071,湘桂线,Hunan-Guangxi Railway,CN,main,160,柳州,黎塘,
-0081,黔桂线,Guizhou-Guangxi Railway,CN,main,120,金城江,柳州,
-0084,峨广线,Emei-Guangtong Railway,CN,main,160,燕岗,广通北,西昌西 攀枝花南
-0085,成昆线,Chengdu-Kunming Railway,CN,main,160,成都南,燕岗,
-0091,衢九线,Quzhou-Jiujiang Railway,CN,main,200,衢州,九江,
-0096,太中线,Taiyuan-Zhongwei Railway,CN,main,160,太原南,定边,
-0101,齐北线,Qiqihar-Bei'an Railway,CN,main,120,齐齐哈尔,富裕,
-0102,滨洲线,Harbin-Manzhouli Railway,CN,main,160,哈尔滨,海拉尔,红旗营 牙克石
-0103,富西线,Fuyu-Xilinji(Mohe) Railway,CN,main,120,富裕,漠河,加格达奇
-0106,伊加线,Yitulihe-Jagdaqi Railway,CN,branch,120,伊图里河,加格达奇,
-0107,牙林线,Yakeshi-Mangui Railway,CN,branch,120,牙克石,伊图里河,
-0121,滨北线,Harbin-Bei'an Railway,CN,main,160,哈尔滨东,呼兰,
-0151-A,滨绥线（新香坊-牡丹江）,Harbin-Suifenhe Railway,CN,main,160,新香坊,牡丹江,
-0151-B,滨绥线（牡丹江-绥芬河）,Harbin-Suifenhe Railway,CN,main,200,牡丹江,绥芬河,
-0205,四梅线,Siping-Meihekou Railway,CN,branch,120,四平,梅河口,
-0214,梅集线,Meihekou-Ji'an Railway,CN,branch,120,梅河口,通化,
-0231,沈大线,Shenyang-Dalian Railway,CN,main,160,大连北,大连,
-0302,京原线,Beijing-Yuanping Railway,CN,branch,120,石景山南,燕山,
-0314,西长线,Beijing W. Link Line,CN,branch,160,北京西,长辛店,
-0324,津蓟线,Tianjin-Jizhou Railway,CN,branch,120,汉沟镇,蓟州北,
-0327-A,京承线（怀柔-顺义）,Beijing-Chengde Railway,CN,branch,120,怀柔,顺义,
-0327-B,京承线（赵家店所-承德）,Beijing-Chengde Railway,CN,branch,120,赵家店所,承德,
-0332,丰沙线,Fengtai-Shacheng Railway,CN,main,120,北京丰台,宣化,石景山南
-0349,张唐线,Zhangjiakou-Tangshan Railway,CN,main,120,李家营,唐山,唐山北
-0353,承隆线,Chengde-Longhua Railway,CN,branch,120,承德,隆化,
-0359,霸徐线,Bazhou-Xushui Railway,CN,main,200,霸州西,白洋淀,
-0453,武昌南环线,Wuchang Loop Railway,CN,main,160,武昌南,何刘,
-0503,辛泰线,Linzi-Taishan Railway,CN,branch,120,泰山,南博山,
-0518,青烟直通线,Yantai Line,CN,branch,200,西陌堂所,烟台,
-0604,淮南线,Huainan-Wuhu Railway,CN,main,160,淮南,芜湖,
-0605,阜淮线,Fuyang-Huainan Railway,CN,main,160,阜阳,淮南,
-0610,宁启线,Nanjing-Qidong Railway,CN,main,200,林场,海安,扬州
-0615-A,上海南联络线（沪春一二线）,Shanghai S. Link Line,CN,branch,160,上海南,春申,莘庄 春申南所
-0615-B,上海南联络线（沪春三四线）,Shanghai S. Link Line,CN,branch,160,上海南,春申所,
-0617,笕杭线,Link Line,CN,branch,160,笕桥,杭州,
-0621,皖赣线,Anhui-Jiangxi Railway,CN,main,160,芜湖,宣城,
-0632,笕桥线,Link Line,CN,link,160,笕桥所,笕桥,
-0634,宣杭线,Xuancheng-Hangzhou Railway,CN,main,160,宣城,杭州,
-0636,萧甬线,Xiaoshan-Ningbo Railway,CN,main,160,杭州南,绍兴,
-0647,新长线,Xinyi-Changxing Railway,CN,branch,120,盐城,海安,
-0651,鹰厦线,Yingtan-Xiamen Railway,CN,branch,120,前场,厦门,
-0655,永嘉联络线,Link Line,CN,link,160,永嘉所,温州北,
-0660,沪苏湖高速线,Shanghai-Suzhou-Huzhou Highspeed Railway,CN,main,350,上海虹桥,湖州,春申南所 上海松江 苏州南 湖州南浔 康山所
-0692,南昌西环线,Nanchang Loop Railway,CN,main,160,乐化,向塘,
-0694,昌福线,Nanchang-Fuzhou Railway,CN,main,200,三江镇,福州,
-0702,穗深城际线,Guangzhou-Shenzhen II Intercity Railway,CN,branch,160,东莞西,深圳机场,
-0706,广深城际线,Guangzhou-Shenzhen Intercity Railway,CN,branch,200,广州东,深圳,广州新塘 东莞
-0721,海南西环线,Hainan West Ring Railway,CN,branch,160,凤凰西所,崖州湾,
-0752,黎湛线,Litang-Zhanjiang Railway,CN,main,120,黎塘,玉林,
-0827,广昆线,Guangtong-Kunming Railway,CN,main,200,广通北,昆明,
-0905,兰青线,Lanzhou-Qinghai Railway,CN,main,160,兰州,西宁,
-0907,青藏线,Qinghai-Xizang Railway,CN,main,120,西宁,拉萨,格尔木
-0915,拉日线,Lhasa-Shigatse Railway,CN,main,160,拉萨,日喀则,
-0916,定银线,Dingbian-Yinchuan Railway,CN,main,160,定边,银川,
-1102,榆红线,Link Line,CN,link,160,榆树屯,红旗营,
-1120,东新联络线,Link Line,CN,link,120,东门,新香坊,
-1209,敦白联络线,Link Line,CN,link,200,敦化,敦化南,
-1252,姚田联络线,Link Line,CN,link,250,姚家窝堡所,田家窝堡所,
-1284,哈长联络线,Link Line ,CN,branch,120,崔家营子所,杨家粉坊所,
-1312,东星线,Link Line,CN,branch,120,北京东,北京朝阳,
-1333,石家庄西北环线,Link Line,CN,main,160,柳辛庄,石家庄北,
-1337,怀范联络线,Huairou-Yanqihu Railway,CN,branch,120,怀柔,雁栖湖,
-1485,高桥联络线,Link Line,CN,link,250,走马岭所,高桥所,
-1498,商丘西南联络线,Link Line,CN,link,160,商丘南,商丘,
-1504,京胶联络线,Link Line,CN,branch,200,北园,大明湖,
-1527,济沪联络线,Link Line,CN,branch,200,济南,崔马庄所,
-1528,京济联络线,Link Line,CN,branch,200,济南西,济南,
-1572,莱西联络线,Link Line,CN,link,200,莱西,莱西东所,
-1618,向东D线,Link Line,CN,link,160,向塘,梁家渡,
-1648,李莘联络线,Link Line,CN,link,120,李家塘,莘庄,
-2311,南仓城际高速联络线,Link Line,CN,link,250,南仓所,天津西,
-2315,康延线,Kangzhuang-Yanqing Railway,CN,branch,250,康庄,延庆,
-2321,德州东联络线,Link Line,CN,link,250,德州东,陵县所,
-2344,北京直径线,Beijing Cross City Railway,CN,main,160,北京,北京西,
-2356,李家营联络线,Link Line,CN,link,120,李家营,赵家店所,
-2418,包包联络线,Link Line,CN,link,120,包头西,包头,
-2440,郑州东北联络线,Link Line,CN,link,120,圃田西,郑州东,
-2464,汉西联络线,Link Line,CN,link,120,汉西,新墩,
-2601,黄封线,Link Line,CN,branch,160,黄渡,封浜,
-2619,虹封线,Line Line,CN,branch,160,上海虹桥,封浜,
-2624,虹安联络线,Link Line,CN,branch,250,上海虹桥,安亭北所,
-2627,虹七线,Link Line,CN,link,200,上海虹桥,七宝,
-2648,黄渡联络线,Link Line,CN,link,200,黄渡所,南翔北所,
-2680,上饶东南联络线,Link Line,CN,link,200,上饶,京福所,
-2836,秦双联络线,Link Line,CN,link,200,秦祺村所,双龙南,
-3001-A,京广高速线A,Beijing-Guangzhou Highspeed Railway,CN,main,350,北京西,石家庄,
-3001-B,京广高速线B,Beijing-Guangzhou Highspeed Railway,CN,main,350,郑州东,安阳东,
-3001C,京广高速线C,Beijing-Guangzhou Highspeed Railway,CN,main,350,横店东,深圳北,武汉 长沙南 广州北 广州南
-3002,京沪高速线,Beijing-Shanghai Highspeed Railway,CN,main,350,北京南,上海虹桥,德州东 济南西 崔马庄所 泰安 徐州东 南京南 苏州北 黄渡所
-3005-A,宁蓉线A,Nanjing-Chengdu Railway,CN,main,250,仙林,汉口,南京南 合肥南 横店东
-3005-B,宁蓉线B,Nanjing-Chengdu Railway,CN,main,200,汉口,重庆北,新墩 高桥所
-3007-A,京哈高速线A,Beijing-Harbin Highspeed Railway,CN,main,350,北京朝阳,姚家窝堡所,承德南
-3007-B,京哈高速线B,Beijing-Harbin Highspeed Railway,CN,main,300,沈阳北,哈尔滨,四平东 崔家营子所
-3008-A,沪昆高速线（上海虹桥-新余北）,Shanghai-Kunming Highspeed Railway,CN,main,350,上海虹桥,新余北,春申所 上海松江 嘉兴南 笕桥所 杭州东 杭州南 诸暨 塘雅所 衢州 京福所 新余北
-3008-B,沪昆高速线（宜春-怀化南）,Shanghai-Kunming Highspeed Railway,CN,main,350,宜春,怀化南,长沙南 湘潭北
-3008-C,沪昆高速线（贵阳北-昆明南）,Shanghai-Kunming Highspeed Railway,CN,main,300,贵阳北,昆明南,贵安
-3009-A,杭深线（杭州东-宁波）,Hangzhou-Shenzhen Railway,CN,main,300,杭州东,宁波,绍兴北
-3009-B,杭深线（宁波-深圳北）,Hangzhou-Shenzhen Railway,CN,main,250,宁波,深圳北,温州北 温州南 福州南 泉州 厦门北 前场 漳州 惠阳
-3010,京津城际线,Beijing-Tianjin Intercity ,CN,main,350,北京南,天津,南仓所
-3011,胶济客运专线,Qingdao-Jinan Passenger Railway,CN,main,200,济南,青岛北,大明湖 淄博 胶州北
-3012,石太客运专线,Shijiazhuang-Taiyuan Passenger Railway,CN,main,250,石家庄北,太原南,
-3013-A,徐兰高速线（天水南-兰州西）,Xuzhou-Lanzhou Highspeed Railway,CN,main,250,天水南,兰州西,
-3013-B,徐兰高速线（徐州东所-郑州东）,Xuzhou-Lanzhou Highspeed Railway,CN,main,300,徐州东所,郑州东,
-3014,新成灌线,New Chengdu-Dujiangyan Railway,CN,branch,200,犀浦,都江堰,
-3015,沪宁城际线,Shanghai-Nanjing Intercity Railway,CN,main,300,上海,南京,上海西 南翔北所 安亭北所 苏州园区 苏州 苏州新区 无锡新区 常州 丹徒 镇江 仙林
-3018,海南东环高速线,Hainan East Ring Highspeed Railway,CN,main,250,城西,三亚,海口东 美兰
-3019,沈大高速线,Shenyang-Dalian Highspeed Railway,CN,main,300,沈阳北,大连北,沈阳南
-3020,长珲城际线,Changchun-Hunchun Intercity Railway,CN,main,200,杨家粉坊所,敦化,长春 龙嘉 吉林
-3021,广深港高速线,Guangzhou-Shenzhen-HK Highspeed Railway,CN,branch,250,福田,香港西九龙,
-3022,津霸线,Tianjin-Bazhou Railway,CN,main,250,天津西,霸州西,胜芳
-3023,津秦高速线,Tianjin-Qinhuangdao Highspeed Railway,CN,main,300,龙家营,天津西,秦皇岛 北戴河 唐山 天津
-3026,宁杭高速线,Nanjing-Hangzhou Highspeed Railway,CN,main,300,南京南,杭州东,湖州
-3029,南广线,Nanning-Guangzhou Railway,CN,main,250,佛山西,广州南,
-3032,兰新客运专线,Lanzhou-Xinjiang Passenger Railway,CN,main,250,兰州西,海东西,
-3038-A,青荣城际线A,Qingdao-Rongcheng Intercity Railway,CN,main,250,莱西,西陌堂所,
-3038-B,青荣城际线B,Qingdao-Rongcheng Intercity Railway,CN,main,250,威海,荣成,
-3040,西成高速线,Xi'an-Chengdu Highspeed Railway,CN,main,250,广汉北,成都东,青白江东
-3041-A,成贵客运专线A,Chengdu-Guiyang Passenger Railway,CN,main,300,成都东,双流机场,成都南
-3041-B,成贵客运专线B,Chengdu-Guiyang Passenger Railway,CN,main,300,白云北,尖坡所,
-3043,杭昌高速线,Hangzhou-Nanchang Highspeed Railway,CN,main,250,桐庐,黄山北,绩溪北
-3045,沈丹客专线,Shenyang-Dandong Passenger Railway,CN,main,250,沈阳南,丹东,
-3047-A,合福高速线A,Hefei-Fuzhou Highspeed Railway,CN,main,300,合肥南,黄山北,巢湖东 绩溪北
-3047-B,合福高速线B,Hefei-Fuzhou Highspeed Railway,CN,main,300,上饶,福州,
-3048,渝贵线,Chongqing-Guiyang Railway,CN,main,120,贵阳北,贵阳,
-3049,郑太客运专线,Zhengzhou-Taiyuan Passenger Railway,CN,main,250,南阳寨,焦作,
-3050,郑开城际线,Zhengzhou-Kaifeng Intercity Railway,CN,branch,200,郑州东,开封,
-3051,成渝高速线,Chengdu-Chongqing Highspeed Railway,CN,main,350,资阳北,沙坪坝,
-3052,广惠城际线,Guangzhou-Huizhou Intercity Railway,CN,branch,200,番禺,西平西,东莞西 广州莲花山
-3054,丹大线,Dandong-Dalian Railway,CN,main,200,丹东,大连北,
-3056,南昆客运专线,Nanning-Kunming Passenger Railway,CN,main,250,昆明,南宁,昆明南
-3058,金温线,Jinhua-Wenzhou Railway,CN,main,200,塘雅所,温州南,
-3059,海南西环高速线,Hainan West Ring Highspeed Railway,CN,main,200,崖州,三亚,凤凰机场
-3060,广肇城际线,Guangzhou-Zhaoqing Intercity Railway,CN,branch,200,番禺,佛山西,张槎 顺德北
-3065,湘潭城际线,Changsha-Zhuzhou-Xiangtan Intercity Railway,CN,branch,160,长沙,湘潭,
-3066-A,京包客运专线A,Beijing-Baotou Highspeed Railway,CN,main,250,北京北,呼和浩特,清河 昌平 八达岭长城 八达岭西所 张家口 乌兰察布 呼和浩特东 
-3066-B,京包客运专线B,Beijing-Baotou Passenger Railway,CN,main,200,台阁牧,包头,
-3067,石济客运专线,Shijiazhuang-Jinan Passenger Railway,CN,main,250,陵县所,济南东,
-3068,长沙西城际线,Changsha-Zhuzhou-Xiangtan Intercity Railway,CN,branch,160,长沙,长沙西,开福寺 谷山
-3072,新通客运专线,Xinmin-Tongliao Passenger Railway,CN,main,250,田家窝堡所,通辽,
-3073,哈牡客运专线,Harbin-Mudanjiang Passenger Railway,CN,main,250,哈尔滨,牡丹江,横道河子东
-3077,济青高速线,Jinan-Qingdao Highspeed Railway,CN,main,300,济南东,青岛北,胶州北
-3079,青盐线,Qingdao-Yancheng Railway,CN,main,200,连云港,董集,
-3082,武汉枢纽直通线,Link Line,CN,link,250,革新所,走马岭所,
-3083,徐盐高速线,Xuzhou-Yancheng Highspeed Railway,CN,main,250,徐州东,盐城,宿迁 淮安东
-3085,京雄城际线,Beijing-Xiong'an Intercity Railway,CN,main,300,北京西,雄安,北京大兴 大兴机场 固安东 霸州北
-3089,连镇高速线,Lianyungang-Zhenjiang Highspeed Railway,CN,main,250,董集,丹徒,淮安东 扬州东 横山所
-3094,贵阳环线,Guiyang Loop Railway,CN,branch,200,白云北,双龙南,贵安 花溪大学城
-3096,合杭高速线,Hefei-Hangzhou Highspeed Railway,CN,main,300,胡庄所,桐庐东,芜湖 芜湖南 湖州 妙西镇所 杭州西
-3098,沪苏通线,Shanghai-Suzhou-Nantong Railway,CN,main,200,黄渡,南通西,陆渡所 太仓 常熟 张家港
-3102,潍荣高速线,Weifang-Rongcheng Highspeed Railway,CN,main,350,莱西东所,荣成,
-3105-A,沈佳高速线（沈阳北-抚顺）,Shenyang-Jiamusi Highspeed Railway,CN,main,350,沈阳北,抚顺,
-3105-B,沈佳高速线（敦化南-长白山）,Shenyang-Jiamusi Highspeed Railway,CN,main,250,长白山,敦化南,
-3112,京唐城际线,Beijing-Tangshan Intercity Railway,CN,main,250,北刘各庄所,燕郊,
-3136,沪渝蓉高速线,Yangtze River Highspeed Railway,CN,main,350,新沟北所,宜昌北,
-6452,阜阳西联络线,Link Line,CN,main,160,阜阳,阜阳北,
-6627,徐州联络线,Link Link,CN,link,250,徐州东,徐州东所,
-6641,巢湖东南联络线,Link Line,CN,link,200,巢湖东,胡庄所,
-6817,成贵贵阳北联络线,Link Line,CN,link,200,尖坡所,贵阳北,
-7357,延庆线,Yanqing Branch Railway,CN,branch,160,八达岭西所,延庆,
-7457,新沟北联络线,Link Line,CN,link,250,新沟北所,革新所,
-7653,镇江联络线,Link Line,CN,branch,200,镇江,横山所,
+line_ref,name_zh,name_suffix,name_en,country,type,speed,start,end,vias
+JRW-A1,JR北陆线,,JR Hokuriku Line,JP,main,130,米原,敦贺,近江盐津
+JRW-A2,JR东海道线,,JR Tokaido Line,JP,main,130,米原,大阪,草津 石山 山科 京都
+JRW-A3,JR山阳线,,JR Sanyo Line,JP,main,130,三宫,姬路,神户
+JRW-B,JR湖西线,,JR Kosei Line,JP,main,130,山科,近江盐津,
+JRW-C,JR草津线,,JR Kusatsu Line,JP,branch,130,草津,柘植,
+JRW-D,JR奈良线,,JR Nara Line,JP,main,130,京都,木津,
+JRW-E,JR山阴线,,JR San-in Line,JP,main,130,京都,嵯峨岚山,梅小路京都西
+JRW-O,JR大阪环状线,,JR Osaka Loop Line,JP,main,130,天王寺,天王寺,新今宫 今宫 西九条 大阪 京桥
+JRW-Q,JR大和路线,,JR Yamatoji Line,JP,main,130,JR难波,今宫,
+JRW-R1,JR阪和线,,JR Hanwa Line,JP,main,130,天王寺,和歌山,
+JRW-R2,JR纪势线,,JR Kisei Line,JP,link,130,和歌山,和歌山市,
+JRW-V,JR关西线,,JR Kansai Line,JP,main,130,久宝寺,柘植,加茂 木津 JR奈良
+JHK-H,阪急宝塚线,,Hankyu Takarazuka Line,JP,main,120,大阪梅田,庄内,
+JHS,阪神本线,,Hanshin Railway,JP,main,120,阪神三宫,阪神尼崎,
+JHS-N,阪神难波线,,Hanshin Railway Namba Line,JP,main,120,阪神尼崎,西九条,
+JKH,京阪本线,,Keihan Railway,JP,main,120,淀屋桥,三条,京桥
+JKT-A,近铁奈良线,,Kintetsu Nara Line,JP,main,120,近铁奈良,近铁日本桥,
+JNK-K,南海加太线,,Nankai Railway Kada Branch,JP,branch,120,纪之川,加太,
+JNK,南海本线,,Nankai Railway,JP,main,120,新今宫,和歌山市,泉佐野 纪之川
+JNK-A,南海机场线,,Nankai Railway KIX Branch,JP,branch,120,泉佐野,关西空港,
+93115,南凭高速线,,Nanning-Pingxiang Highspeed Railway,CN,main,250,南宁,崇左南,吴圩机场
+93116,南珠高速线,,Nanning-Zhuhai Highspeed Railway,CN,main,300,南宁东,玉林北,
+90001,太仓联络线,,Link Line,CN,link,200,太仓,陆渡所,
+93117,宣绩高速线,,Xuancheng-Jixi Highspeed Railway,CN,main,350,宣城,绩溪北,
+93118,川青线,,Chengdu-Xining Railway,CN,main,200,三星堆,黄龙九寨,
+90002,广州东环城际线,,Guangzhou-Foshan Loop Intercity Railway,CN,branch,200,花都,白云机场北,
+90003,广清城际线,,Guangzhou-Qingyuan Intercity Railway,CN,branch,200,花都,清城,
+90004,康山联络线,,Link Line,CN,link,200,康山所,妙西镇所,
+93119-A,杭温高速线,杭义段,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,桐庐东,义乌,
+93119-B,杭温高速线,义温段,Hangzhou-Wenzhou Highspeed Railway,CN,main,350,横店,永嘉所,
+90005,桐庐联络线,,Link Line,CN,link,200,桐庐东,桐庐,
+93120,池黄高速线,,Chizhou-Huangshan Highspeed Railway,CN,main,350,池州,黄山北,黟县东
+93110,津兴城际线,,Tianjin-PKX Intercity Railway,CN,branch,250,胜芳,固安东,
+90825,滇藏线,,Yunnan-Xizang Railway,CN,main,160,丽江,香格里拉,
+93121,甬广高速线,,Ningbo-Guangzhou Highspeed Railway,CN,main,350,福州南,厦门北,
+93122,盐通高速线,,Yancheng-Nantong Highspeed Railway,CN,main,300,盐城,南通西,海安
+93123,花广联络线,,Link Line,CN,branch,160,广州北,广州白云,
+93124,贵南高速线,,Guiyang-Nanning Highspeed Railway,CN,main,350,河池西,南宁东,
+97310,通燕联络线,,Link Line,CN,link,200,高辛庄所,北刘各庄所,
+90006,青三联络线,,Link Line,CN,link,200,青白江东,三星堆,
+93125,张吉怀高速线,,Zhangjiajie-Jishou-Huaihua Highspeed Railway,CN,main,300,沙堤所,龙形村所,凤凰古城
+90007,张家界西联络线,,Link Line,CN,link,200,沙堤所,张家界西,
+93126,渝厦高速线,,Chongqing-Xiamen Highspeed Railway,CN,main,250,张家界西,黄金园所,
+90008,龙怀联络线,,Link Line,CN,link,200,怀化南,龙形村所,
+90009,凤凰联络线,,Link Line,CN,link,160,凤凰机场,凤凰西所,
+90010,崖州联络线,,Link Line,CN,link,160,崖州湾,崖州,
+90011,贵阳客车线,,Guiyang Link Line,CN,branch,160,龙里,贵阳,秦祺村所
+90012,中老昆万线,,China-Laos Kunming-Vientiane Railway,CN,main,200,昆明南,普洱,
+90013,琶莲城际线,,Pazhou-Lianhuashan Intercity Railway,CN,branch,200,琶洲,广州莲花山,
+90014,沪宁沿江高速线,,Shanghai-Nanjing Riverside Highspeed Railway,CN,main,350,南京南,太仓,武进 江阴 张家港 常熟
+90015,长黄联络线,,Link Line,CN,link,200,黄金园所,长沙西,
+0001-A,京广线,京石段,Beijing-Guangzhou Railway,CN,main,160,长辛店,柳辛庄,
+0001-B,京广线,郑武段,Beijing-Guangzhou Railway,CN,main,160,汉西,武昌,
+0001-C,京广线,武广段,Beijing-Guangzhou Railway,CN,main,160,武昌,武昌南,
+0002-A,京沪线,,Beijing-Shanghai Railway,CN,main,160,北京,上海,北京南 北京丰台 黄土坡所 汉沟镇 天津北 天津西 桥南所 党家庄 泰山 兖州 徐州 林场 南京 苏州 黄渡
+0002-B,京沪济南线,,Beijing-Shanghai Railway,CN,main,160,桥南所,党家庄,北园 济南
+0003,陇海线,,Lanzhou-Lianyungang Railway,CN,main,160,徐州,兰州,商丘 开封 圃田西 郑州 洛阳 天水
+0005-A,京九线,京昌段,Beijing-Kowloon Railway,CN,main,160,黄土坡所,乐化,商丘南 阜阳北 阜阳 九江 九江西
+0005-B,京九线,南昌段,Beijing-Kowloon Railway,CN,main,160,南昌,三江镇,向塘
+0007,京哈线,,Beijing-Harbin Railway,CN,main,160,北京,哈尔滨,北京东 高辛庄所 蓟州 唐山北 北戴河 秦皇岛 龙家营 山海关 沈阳北 四平 长春 哈尔滨西
+0008,沪昆线,,Shanghai-Kunming Railway,CN,main,160,封浜,龙里,七宝 李家塘 春申 上海松江 嘉兴 海宁 笕桥 杭州东 杭州南 衢州 梁家渡 分宜 宜春 镇远
+0012,拉滨线,,Lafa-Harbin Railway,CN,branch,120,东门,哈尔滨东,
+0015,平齐线,,Siping-Qiqihar Railway,CN,main,120,四平,齐齐哈尔,榆树屯
+0021,京通线,,Beijing-Tongliao Railway,CN,branch,120,昌平,隆化,昌平北 雁栖湖 怀柔北 古北口
+0028-A,京包线,北京段,Beijing-Baotou Railway,CN,branch,120,黄土店,康庄,青龙桥南所 青龙桥西 青龙桥北所 八达岭
+0028-B,京包线,青龙桥上行线,Beijing-Baotou Railway (Qinglongqiao Branch),CN,branch,120,青龙桥南所,青龙桥北所,青龙桥
+0028-C,京包线,呼和浩特段,Beijing-Baotou Railway,CN,main,160,呼和浩特东,台阁牧,
+0039,包兰线,,Baotou-Lanzhou Railway,CN,main,160,包头西,银川,
+0046,武九线,,Wuhan-Jiujiang Railway,CN,main,200,何刘,九江西,
+0071,湘桂线,,Hunan-Guangxi Railway,CN,main,160,柳州,黎塘,
+0081,黔桂线,,Guizhou-Guangxi Railway,CN,main,120,金城江,柳州,
+0084,峨广线,,Emei-Guangtong Railway,CN,main,160,燕岗,广通北,西昌西 攀枝花南
+0085,成昆线,,Chengdu-Kunming Railway,CN,main,160,成都南,燕岗,
+0091,衢九线,,Quzhou-Jiujiang Railway,CN,main,200,衢州,九江,
+0096,太中线,,Taiyuan-Zhongwei Railway,CN,main,160,太原南,定边,
+0101,齐北线,,Qiqihar-Bei'an Railway,CN,main,120,齐齐哈尔,富裕,
+0102,滨洲线,,Harbin-Manzhouli Railway,CN,main,160,哈尔滨,海拉尔,红旗营 牙克石
+0103,富西线,,Fuyu-Xilinji(Mohe) Railway,CN,main,120,富裕,漠河,加格达奇
+0106,伊加线,,Yitulihe-Jagdaqi Railway,CN,branch,120,伊图里河,加格达奇,
+0107,牙林线,,Yakeshi-Mangui Railway,CN,branch,120,牙克石,伊图里河,
+0121,滨北线,,Harbin-Bei'an Railway,CN,main,160,哈尔滨东,呼兰,
+0151-A,滨绥线,哈牡段,Harbin-Suifenhe Railway,CN,main,160,新香坊,牡丹江,
+0151-B,滨绥线,牡绥段,Harbin-Suifenhe Railway,CN,main,200,牡丹江,绥芬河,
+0205,四梅线,,Siping-Meihekou Railway,CN,branch,120,四平,梅河口,
+0214,梅集线,,Meihekou-Ji'an Railway,CN,branch,120,梅河口,通化,
+0231,沈大线,,Shenyang-Dalian Railway,CN,main,160,大连北,大连,
+0302,京原线,,Beijing-Yuanping Railway,CN,branch,120,石景山南,燕山,
+0314,西长线,,Beijing W. Link Line,CN,branch,160,北京西,长辛店,
+0324,津蓟线,,Tianjin-Jizhou Railway,CN,branch,120,汉沟镇,蓟州北,
+0327-A,京承线,北京段,Beijing-Chengde Railway,CN,branch,120,怀柔,顺义,
+0327-B,京承线,承德段,Beijing-Chengde Railway,CN,branch,120,赵家店所,承德,
+0332,丰沙线,,Fengtai-Shacheng Railway,CN,main,120,北京丰台,宣化,石景山南
+0349,张唐线,,Zhangjiakou-Tangshan Railway,CN,main,120,李家营,唐山,唐山北
+0353,承隆线,,Chengde-Longhua Railway,CN,branch,120,承德,隆化,
+0359,霸徐线,,Bazhou-Xushui Railway,CN,main,200,霸州西,白洋淀,
+0453,武昌南环线,,Wuchang Loop Railway,CN,main,160,武昌南,何刘,
+0503,辛泰线,,Linzi-Taishan Railway,CN,branch,120,泰山,南博山,
+0518,青烟直通线,,Yantai Line,CN,branch,200,西陌堂所,烟台,
+0604,淮南线,,Huainan-Wuhu Railway,CN,main,160,淮南,芜湖,
+0605,阜淮线,,Fuyang-Huainan Railway,CN,main,160,阜阳,淮南,
+0610,宁启线,,Nanjing-Qidong Railway,CN,main,200,林场,海安,扬州
+0615-A,沪春线,,Shanghai S.-Chunshen Line,CN,branch,160,上海南,春申,莘庄 春申南所
+0615-B,上海南联络线（沪春三四线）,,Shanghai S. Link Line,CN,branch,160,上海南,春申所,
+0617,笕杭线,,Link Line,CN,branch,160,笕桥,杭州,
+0621,皖赣线,,Anhui-Jiangxi Railway,CN,main,160,芜湖,宣城,
+0632,笕桥线,,Link Line,CN,link,160,笕桥所,笕桥,
+0634,宣杭线,,Xuancheng-Hangzhou Railway,CN,main,160,宣城,杭州,
+0636,萧甬线,,Xiaoshan-Ningbo Railway,CN,main,160,杭州南,绍兴,
+0647,新长线,,Xinyi-Changxing Railway,CN,branch,120,盐城,海安,
+0651,鹰厦线,,Yingtan-Xiamen Railway,CN,branch,120,前场,厦门,
+0655,永嘉联络线,,Link Line,CN,link,160,永嘉所,温州北,
+0660,沪苏湖高速线,,Shanghai-Suzhou-Huzhou Highspeed Railway,CN,main,350,上海虹桥,湖州,春申南所 上海松江 苏州南 湖州南浔 康山所
+0692,南昌西环线,,Nanchang Loop Railway,CN,main,160,乐化,向塘,
+0694,昌福线,,Nanchang-Fuzhou Railway,CN,main,200,三江镇,福州,
+0702,穗深城际线,,Guangzhou-Shenzhen II Intercity Railway,CN,branch,160,东莞西,深圳机场,
+0706,广深城际线,,Guangzhou-Shenzhen Intercity Railway,CN,branch,200,广州东,深圳,广州新塘 东莞
+0721,海南西环线,,Hainan West Ring Railway,CN,branch,160,凤凰西所,崖州湾,
+0752,黎湛线,,Litang-Zhanjiang Railway,CN,main,120,黎塘,玉林,
+0827,广昆线,,Guangtong-Kunming Railway,CN,main,200,广通北,昆明,
+0905,兰青线,,Lanzhou-Qinghai Railway,CN,main,160,兰州,西宁,
+0907,青藏线,,Qinghai-Xizang Railway,CN,main,120,西宁,拉萨,格尔木
+0915,拉日线,,Lhasa-Shigatse Railway,CN,main,160,拉萨,日喀则,
+0916,定银线,,Dingbian-Yinchuan Railway,CN,main,160,定边,银川,
+1102,榆红线,,Link Line,CN,link,160,榆树屯,红旗营,
+1120,东新联络线,,Link Line,CN,link,120,东门,新香坊,
+1209,敦白联络线,,Link Line,CN,link,200,敦化,敦化南,
+1252,姚田联络线,,Link Line,CN,link,250,姚家窝堡所,田家窝堡所,
+1284,哈长联络线,,Link Line ,CN,branch,120,崔家营子所,杨家粉坊所,
+1312,东星线,,Link Line,CN,branch,120,北京东,北京朝阳,
+1333,石家庄西北环线,,Link Line,CN,main,160,柳辛庄,石家庄北,
+1337,怀范联络线,,Huairou-Yanqihu Railway,CN,branch,120,怀柔,雁栖湖,
+1485,高桥联络线,,Link Line,CN,link,250,走马岭所,高桥所,
+1498,商丘西南联络线,,Link Line,CN,link,160,商丘南,商丘,
+1504,京胶联络线,,Link Line,CN,branch,200,北园,大明湖,
+1527,济沪联络线,,Link Line,CN,branch,200,济南,崔马庄所,
+1528,京济联络线,,Link Line,CN,branch,200,济南西,济南,
+1572,莱西联络线,,Link Line,CN,link,200,莱西,莱西东所,
+1618,向东D线,,Link Line,CN,link,160,向塘,梁家渡,
+1648,李莘联络线,,Link Line,CN,link,120,李家塘,莘庄,
+2311,南仓城际高速联络线,,Link Line,CN,link,250,南仓所,天津西,
+2315,康延线,,Kangzhuang-Yanqing Railway,CN,branch,250,康庄,延庆,
+2321,德州东联络线,,Link Line,CN,link,250,德州东,陵县所,
+2344,北京直径线,,Beijing Cross City Railway,CN,main,160,北京,北京西,
+2356,李家营联络线,,Link Line,CN,link,120,李家营,赵家店所,
+2418,包包联络线,,Link Line,CN,link,120,包头西,包头,
+2440,郑州东北联络线,,Link Line,CN,link,120,圃田西,郑州东,
+2464,汉西联络线,,Link Line,CN,link,120,汉西,新墩,
+2601,黄封线,,Link Line,CN,branch,160,黄渡,封浜,
+2619,虹封线,,Line Line,CN,branch,160,上海虹桥,封浜,
+2624,虹安联络线,,Link Line,CN,branch,250,上海虹桥,安亭北所,
+2627,虹七线,,Link Line,CN,link,200,上海虹桥,七宝,
+2648,黄渡联络线,,Link Line,CN,link,200,黄渡所,南翔北所,
+2680,上饶东南联络线,,Link Line,CN,link,200,上饶,京福所,
+2836,秦双联络线,,Link Line,CN,link,200,秦祺村所,双龙南,
+3001-A,京广高速线,京石段,Beijing-Guangzhou Highspeed Railway,CN,main,350,北京西,石家庄,
+3001-B,京广高速线,石武段,Beijing-Guangzhou Highspeed Railway,CN,main,350,郑州东,安阳东,
+3001C,京广高速线,武广段,Beijing-Guangzhou Highspeed Railway,CN,main,350,横店东,深圳北,武汉 长沙南 广州北 广州南
+3002,京沪高速线,,Beijing-Shanghai Highspeed Railway,CN,main,350,北京南,上海虹桥,德州东 济南西 崔马庄所 泰安 徐州东 南京南 苏州北 黄渡所
+3005-A,宁蓉线,宁汉段,Nanjing-Chengdu Railway,CN,main,250,仙林,汉口,南京南 合肥南 横店东
+3005-B,宁蓉线,汉渝段,Nanjing-Chengdu Railway,CN,main,200,汉口,重庆北,新墩 高桥所
+3007-A,京哈高速线,京沈段,Beijing-Harbin Highspeed Railway,CN,main,350,北京朝阳,姚家窝堡所,承德南
+3007-B,京哈高速线,沈哈段,Beijing-Harbin Highspeed Railway,CN,main,300,沈阳北,哈尔滨,四平东 崔家营子所
+3008-A,沪昆高速线,沪赣段,Shanghai-Kunming Highspeed Railway,CN,main,350,上海虹桥,新余北,春申所 上海松江 嘉兴南 笕桥所 杭州东 杭州南 诸暨 塘雅所 衢州 京福所 新余北
+3008-B,沪昆高速线,赣湘段,Shanghai-Kunming Highspeed Railway,CN,main,350,宜春,怀化南,长沙南 湘潭北
+3008-C,沪昆高速线,贵昆段,Shanghai-Kunming Highspeed Railway,CN,main,300,贵阳北,昆明南,贵安
+3009-A,杭深线,杭甬段,Hangzhou-Shenzhen Railway,CN,main,300,杭州东,宁波,绍兴北
+3009-B,杭深线,甬深段,Hangzhou-Shenzhen Railway,CN,main,250,宁波,深圳北,温州北 温州南 福州南 泉州 厦门北 前场 漳州 惠阳
+3010,京津城际线,,Beijing-Tianjin Intercity ,CN,main,350,北京南,天津,南仓所
+3011,胶济客运专线,,Qingdao-Jinan Passenger Railway,CN,main,200,济南,青岛北,大明湖 淄博 胶州北
+3012,石太客运专线,,Shijiazhuang-Taiyuan Passenger Railway,CN,main,250,石家庄北,太原南,
+3013-A,徐兰高速线,郑徐段,Xuzhou-Lanzhou Highspeed Railway,CN,main,300,徐州东所,郑州东,
+3013-B,徐兰高速线,宝兰段,Xuzhou-Lanzhou Highspeed Railway,CN,main,250,天水南,兰州西,
+3014,新成灌线,,New Chengdu-Dujiangyan Railway,CN,branch,200,犀浦,都江堰,
+3015,沪宁城际线,,Shanghai-Nanjing Intercity Railway,CN,main,300,上海,南京,上海西 南翔北所 安亭北所 苏州园区 苏州 苏州新区 无锡新区 常州 丹徒 镇江 仙林
+3018,海南东环高速线,,Hainan East Ring Highspeed Railway,CN,main,250,城西,三亚,海口东 美兰
+3019,沈大高速线,,Shenyang-Dalian Highspeed Railway,CN,main,300,沈阳北,大连北,沈阳南
+3020,长珲城际线,,Changchun-Hunchun Intercity Railway,CN,main,200,杨家粉坊所,敦化,长春 龙嘉 吉林
+3021,广深港高速线,,Guangzhou-Shenzhen-HK Highspeed Railway,CN,branch,250,福田,香港西九龙,
+3022,津霸线,,Tianjin-Bazhou Railway,CN,main,250,天津西,霸州西,胜芳
+3023,津秦高速线,,Tianjin-Qinhuangdao Highspeed Railway,CN,main,300,龙家营,天津西,秦皇岛 北戴河 唐山 天津
+3026,宁杭高速线,,Nanjing-Hangzhou Highspeed Railway,CN,main,300,南京南,杭州东,湖州
+3029,南广线,,Nanning-Guangzhou Railway,CN,main,250,佛山西,广州南,
+3032,兰新客运专线,,Lanzhou-Xinjiang Passenger Railway,CN,main,250,兰州西,海东西,
+3038-A,青荣城际线,青烟段,Qingdao-Rongcheng Intercity Railway,CN,main,250,莱西,西陌堂所,
+3038-B,青荣城际线,威荣段,Qingdao-Rongcheng Intercity Railway,CN,main,250,威海,荣成,
+3040,西成高速线,,Xi'an-Chengdu Highspeed Railway,CN,main,250,广汉北,成都东,青白江东
+3041-A,成贵客运专线,成都段,Chengdu-Guiyang Passenger Railway,CN,main,300,成都东,双流机场,成都南
+3041-B,成贵客运专线,贵阳段,Chengdu-Guiyang Passenger Railway,CN,main,300,白云北,尖坡所,
+3043,杭昌高速线,,Hangzhou-Nanchang Highspeed Railway,CN,main,250,桐庐,黄山北,绩溪北
+3045,沈丹客专线,,Shenyang-Dandong Passenger Railway,CN,main,250,沈阳南,丹东,
+3047-A,合福高速线,合黄段,Hefei-Fuzhou Highspeed Railway,CN,main,300,合肥南,黄山北,巢湖东 绩溪北
+3047-B,合福高速线,饶福段,Hefei-Fuzhou Highspeed Railway,CN,main,300,上饶,福州,
+3048,渝贵线,,Chongqing-Guiyang Railway,CN,main,120,贵阳北,贵阳,
+3049,郑太客运专线,,Zhengzhou-Taiyuan Passenger Railway,CN,main,250,南阳寨,焦作,
+3050,郑开城际线,,Zhengzhou-Kaifeng Intercity Railway,CN,branch,200,郑州东,开封,
+3051,成渝高速线,,Chengdu-Chongqing Highspeed Railway,CN,main,350,资阳北,沙坪坝,
+3052,广惠城际线,,Guangzhou-Huizhou Intercity Railway,CN,branch,200,番禺,西平西,东莞西 广州莲花山
+3054,丹大线,,Dandong-Dalian Railway,CN,main,200,丹东,大连北,
+3056,南昆客运专线,,Nanning-Kunming Passenger Railway,CN,main,250,昆明,南宁,昆明南
+3058,金温线,,Jinhua-Wenzhou Railway,CN,main,200,塘雅所,温州南,
+3059,海南西环高速线,,Hainan West Ring Highspeed Railway,CN,main,200,崖州,三亚,凤凰机场
+3060,广肇城际线,,Guangzhou-Zhaoqing Intercity Railway,CN,branch,200,番禺,佛山西,张槎 顺德北
+3065,湘潭城际线,,Changsha-Zhuzhou-Xiangtan Intercity Railway,CN,branch,160,长沙,湘潭,
+3066-A,京包客运专线,京呼段,Beijing-Baotou Highspeed Railway,CN,main,250,北京北,呼和浩特,清河 昌平 八达岭长城 八达岭西所 张家口 乌兰察布 呼和浩特东 
+3066-B,京包客运专线,呼包段,Beijing-Baotou Passenger Railway,CN,main,200,台阁牧,包头,
+3067,石济客运专线,,Shijiazhuang-Jinan Passenger Railway,CN,main,250,陵县所,济南东,
+3068,长沙西城际线,,Changsha-Zhuzhou-Xiangtan Intercity Railway,CN,branch,160,长沙,长沙西,开福寺 谷山
+3072,新通客运专线,,Xinmin-Tongliao Passenger Railway,CN,main,250,田家窝堡所,通辽,
+3073,哈牡客运专线,,Harbin-Mudanjiang Passenger Railway,CN,main,250,哈尔滨,牡丹江,横道河子东
+3077,济青高速线,,Jinan-Qingdao Highspeed Railway,CN,main,300,济南东,青岛北,胶州北
+3079,青盐线,,Qingdao-Yancheng Railway,CN,main,200,连云港,董集,
+3082,武汉枢纽直通线,,Link Line,CN,link,250,革新所,走马岭所,
+3083,徐盐高速线,,Xuzhou-Yancheng Highspeed Railway,CN,main,250,徐州东,盐城,宿迁 淮安东
+3085,京雄城际线,,Beijing-Xiong'an Intercity Railway,CN,main,300,北京西,雄安,北京大兴 大兴机场 固安东 霸州北
+3089,连镇高速线,,Lianyungang-Zhenjiang Highspeed Railway,CN,main,250,董集,丹徒,淮安东 扬州东 横山所
+3094,贵阳环线,,Guiyang Loop Railway,CN,branch,200,白云北,双龙南,贵安 花溪大学城
+3096,合杭高速线,,Hefei-Hangzhou Highspeed Railway,CN,main,300,胡庄所,桐庐东,芜湖 芜湖南 湖州 妙西镇所 杭州西
+3098,沪苏通线,,Shanghai-Suzhou-Nantong Railway,CN,main,200,黄渡,南通西,陆渡所 太仓 常熟 张家港
+3102,潍荣高速线,,Weifang-Rongcheng Highspeed Railway,CN,main,350,莱西东所,荣成,
+3105-A,沈佳高速线,沈白段,Shenyang-Jiamusi Highspeed Railway,CN,main,350,沈阳北,抚顺,
+3105-B,沈佳高速线,敦白段,Shenyang-Jiamusi Highspeed Railway,CN,main,250,长白山,敦化南,
+3112,京唐城际线,,Beijing-Tangshan Intercity Railway,CN,main,250,北刘各庄所,燕郊,
+3136,沪渝蓉高速线,,Yangtze River Highspeed Railway,CN,main,350,新沟北所,宜昌北,
+6452,阜阳西联络线,,Link Line,CN,main,160,阜阳,阜阳北,
+6618,杭甬联络线,,Link Line,CN,link,250,杭州南,杭甬杭州南所,
+6627,徐州联络线,,Link Line,CN,link,250,徐州东,徐州东所,
+6641,巢湖东南联络线,,Link Line,CN,link,200,巢湖东,胡庄所,
+6817,成贵贵阳北联络线,,Link Line,CN,link,200,尖坡所,贵阳北,
+7357,延庆线,,Yanqing Branch Railway,CN,branch,160,八达岭西所,延庆,
+7457,新沟北联络线,,Link Line,CN,link,250,新沟北所,革新所,
+7653,镇江联络线,,Link Line,CN,branch,200,镇江,横山所,

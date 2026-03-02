@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- track-length = 5529 filtered ascend = 1 plain-ascend = 1 cost=5529 energy=0.1kwh time=7m 23s -->
+<gpx 
+ xmlns="http://www.topografix.com/GPX/1/1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" 
+ version="1.1" 
+ creator="BRouter-Web 0.18.1">
+ <trk>
+  <name>杭甬联络线</name>
+  <trkseg>
+   <trkpt lat="30.140178" lon="120.319985"/>
+   <trkpt lat="30.140178" lon="120.319989"/>
+   <trkpt lat="30.14062" lon="120.316228"/>
+   <trkpt lat="30.140985" lon="120.31328"/>
+   <trkpt lat="30.141409" lon="120.309724"/>
+   <trkpt lat="30.141588" lon="120.308468"/>
+   <trkpt lat="30.141808" lon="120.307484"/>
+   <trkpt lat="30.142012" lon="120.306677"/>
+   <trkpt lat="30.142279" lon="120.305856"/>
+   <trkpt lat="30.142805" lon="120.304615"/>
+   <trkpt lat="30.14345" lon="120.30342"/>
+   <trkpt lat="30.144151" lon="120.302313"/>
+   <trkpt lat="30.14477" lon="120.301476"/>
+   <trkpt lat="30.145744" lon="120.300365"/>
+   <trkpt lat="30.146396" lon="120.299749"/>
+   <trkpt lat="30.147124" lon="120.299158"/>
+   <trkpt lat="30.148486" lon="120.298217"/>
+   <trkpt lat="30.149458" lon="120.297681"/>
+   <trkpt lat="30.150262" lon="120.297294"/>
+   <trkpt lat="30.151785" lon="120.296595"/>
+   <trkpt lat="30.153557" lon="120.295784"/>
+   <trkpt lat="30.154354" lon="120.295411"/>
+   <trkpt lat="30.155187" lon="120.29505"/>
+   <trkpt lat="30.156238" lon="120.294582"/>
+   <trkpt lat="30.15805" lon="120.293861"/>
+   <trkpt lat="30.158853" lon="120.293611"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.159479" lon="120.293417"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.16029" lon="120.293197"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.160753" lon="120.293091"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.162461" lon="120.292777"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.166193" lon="120.292253"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.168076" lon="120.291938"><ele>9.5</ele></trkpt>
+   <trkpt lat="30.169383" lon="120.291726"><ele>9</ele></trkpt>
+   <trkpt lat="30.170885" lon="120.291468"><ele>10</ele></trkpt>
+   <trkpt lat="30.171754" lon="120.291321"><ele>10.25</ele></trkpt>
+   <trkpt lat="30.172379" lon="120.291222"><ele>10.75</ele></trkpt>
+   <trkpt lat="30.172995" lon="120.291116"><ele>10.5</ele></trkpt>
+   <trkpt lat="30.173577" lon="120.291027"><ele>10.25</ele></trkpt>
+   <trkpt lat="30.174777" lon="120.290828"><ele>10</ele></trkpt>
+   <trkpt lat="30.175641" lon="120.290684"><ele>10</ele></trkpt>
+  </trkseg>
+ </trk>
+</gpx>
