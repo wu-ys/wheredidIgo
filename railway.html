@@ -237,11 +237,12 @@
 
 
   const icons = {
-    railway: L.icon({
+    used: L.icon({
       iconUrl: "assets/station.png",
       iconSize: [16, 16],
       iconAnchor: [8, 8]
-    })
+    }),
+    junction: null
   };
 
   const overlays = {};
@@ -390,7 +391,7 @@
 
         points.forEach(p => {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+          const marker = L.marker([p.lat, p.lon], { icon: icons[p.type] })
             .bindPopup(`<b>${name}</b>`)
             .addTo(group);
           // 为后续语言切换保存引用
