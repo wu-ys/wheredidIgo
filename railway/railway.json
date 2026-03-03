@@ -605,7 +605,7 @@
     "country": "CN",
     "type": "main",
     "speed": 160,
-    "start": "长辛店",
+    "start": "长阳村所",
     "end": "柳辛庄",
     "vias": []
   },
@@ -1086,7 +1086,7 @@
     "type": "branch",
     "speed": 160,
     "start": "北京西",
-    "end": "长辛店",
+    "end": "长阳村所",
     "vias": []
   },
   "津蓟线": {

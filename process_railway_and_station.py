@@ -128,7 +128,7 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
     with open(json_file_path, 'w', encoding='utf-8') as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
 
-def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, unused_station_csv : pd.DataFrame, loadJSON = True):
+def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, loadJSON = True):
 
     # === 1. 读取 JSON 文件 ===
     coord_dict = {}
@@ -139,17 +139,24 @@ def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, unused_stati
         # 构造 name → (lat, lon) 的字典
         coord_dict = {item["name"]: (item["lat"], item["lng"]) for item in json_data}
 
+    import zlib
+
+    def hash8(s: str) -> str:
+        return f"{zlib.crc32(s.encode()):08x}"
     # === 2. 读取 CSV 文件 ===
     station_dict = {}
-    unusedstation_dict = {}
     missing_names = []
 
     from utils.project import gcj02towgs84
 
     for row in range(station_csv.shape[0]):
         code = station_csv.at[row,'code']
+        if code == "":
+            code = hash8(station_csv.at[row,'name'])
+            station_csv.at[row,'code'] = code
         name = station_csv.at[row,'name']
         name_en = station_csv.at[row,"name_en"]
+        type_ = station_csv.at[row,"type"]
         lat_str = station_csv.at[row,'lat']
         lon_str = station_csv.at[row,'lon']
         country = station_csv.at[row,'country']
@@ -159,7 +166,7 @@ def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, unused_stati
 
         # 如果CSV中已有坐标
         if lat is not None and lon is not None:
-            station_dict[name] = {"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country, "code": code}
+            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code}
 
         # 如果JSON中存在该车站
         elif name in coord_dict and loadJSON:
@@ -168,42 +175,23 @@ def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, unused_stati
             station_csv.at[row, 'lat'] = lat
             station_csv.at[row, 'lon'] = lon
             print(f"已从 JSON 中填充 {name} 的坐标：({lat}, {lon})")
-            station_dict[name] = {"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country, "code": code}
+            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code}
         else:
             missing_names.append(name)
 
-    for row in range(unused_station_csv.shape[0]):
-        code = unused_station_csv.at[row,'code']
-        name = unused_station_csv.at[row,'name']
-        name_en = unused_station_csv.at[row,"name_en"]
-        lat_str = unused_station_csv.at[row,'lat']
-        lon_str = unused_station_csv.at[row,'lon']
-        country = unused_station_csv.at[row,'country']
+    return missing_names, station_dict
 
-        lat = float(lat_str) if lat_str else None
-        lon = float(lon_str) if lon_str else None
-
-        # 如果CSV中已有坐标
-        if lat is not None and lon is not None:
-            unusedstation_dict[name] = {"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country, "code": code}
-
-        # 如果JSON中存在该车站
-        elif name in coord_dict and loadJSON:
-            lat, lon = coord_dict[name]
-            unused_station_csv.at[row, 'lat'] = lat
-            unused_station_csv.at[row, 'lon'] = lon
-            unusedstation_dict[name] = {"name_zh": name, "name_en": name_en, "lat": lat, "lon": lon, "country": country, "code": code}
-        else:
-            missing_names.append(name)
-
-    return missing_names, station_dict, unusedstation_dict
-
-def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, usedstation_dict, unused_station_dict, overwrite = True):
+def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, station_dict, overwrite = True):
 
     import gpxpy
     import gpxpy.gpx
+    import xml.etree.ElementTree as ET
+    def add_extensions(obj, ext_dict):
+        for key, value in ext_dict.items():
+            el = ET.Element(key)
+            el.text = str(value)
+            obj.extensions.append(el)
 
-    station_dict = {**usedstation_dict, **unused_station_dict}
     for s in station_dict:
         station_dict[s]["lines"] = [] 
 
@@ -316,7 +304,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, use
     with open(railway_json_path, 'w', encoding='utf-8') as f:
         json.dump(railway_json, f, ensure_ascii=False, indent=2)
 
-    return missing_stations, station_dict
+    return missing_stations
 
 
 
@@ -326,19 +314,15 @@ if __name__ == "__main__":
     railway_json_file_path = "./railway/railway.json"
     station_csv_file_path = "./railway/station.csv"
     station_json_file_path = "./railway/station.json"
-    unusedstation_csv_file_path = "./railway/unusedstation.csv"
     station_reference_path = "./assets/station_lnglat_20250217.json"
 
     station_csv = pd.read_csv(station_csv_file_path, encoding='utf-8', keep_default_na=False, dtype=str)
 
-    unusedstation_csv = pd.read_csv(unusedstation_csv_file_path, encoding='utf-8', keep_default_na=False, dtype=str)
-        
     # station names that have no coordinates in csv and json
     cmd = input("是否从 JSON 文件加载车站坐标信息？\n输入 Y+Enter 加载，否则不加载: ").strip().lower()
-    missing_names, usedstation_dict, unusedstation_dict = fill_station_lonlat(station_reference_path, station_csv, unusedstation_csv, loadJSON=(cmd == "y"))
+    missing_names, station_dict = fill_station_lonlat(station_reference_path, station_csv, loadJSON=(cmd == "y"))
 
     station_csv.to_csv(station_csv_file_path, index=False, encoding='utf-8')
-    # unusedstation_csv.to_csv(unusedstation_csv_file_path, index=False, encoding='utf-8')
 
     if len(missing_names) == 0:
         print("所有车站的坐标信息都已补充完整！")
@@ -358,11 +342,11 @@ if __name__ == "__main__":
 
     railway_csv = pd.read_csv(railway_csv_file_path, encoding='utf-8', keep_default_na=False, dtype=str)
 
-    missing_stations, station_dict = update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_file_path, usedstation_dict, unusedstation_dict, overwrite=True)
+    missing_stations = update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_file_path, station_dict, overwrite=True)
 
     for m in missing_stations:
-        if m not in station_dict and m not in unusedstation_dict:
-            unusedstation_csv = pd.concat([unusedstation_csv, pd.DataFrame([{
+        if m not in station_dict:
+            station_csv = pd.concat([station_csv, pd.DataFrame([{
                 "code": "",
                 "name": m,
                 "name_en": "",
@@ -374,18 +358,19 @@ if __name__ == "__main__":
     if len(missing_stations) > 0:
         print("以下车站在铁路数据中出现，但在车站数据中没有坐标信息：")
         print(missing_stations)
-        cmd = input("是否将这些车站添加到 unusedstation.csv 中？\n输入 Y+Enter 添加，否则不添加: ").strip().lower()
+        cmd = input("是否将这些车站添加到 station.csv 中？\n输入 Y+Enter 添加，否则不添加: ").strip().lower()
 
         if cmd == "y":
-            unusedstation_csv.to_csv(unusedstation_csv_file_path, index=False, encoding='utf-8')
-            print("已将缺失车站添加到 unusedstation.csv 中。")
+            station_csv.to_csv(station_csv_file_path, index=False, encoding='utf-8')
+            print("已将缺失车站添加到 station.csv 中。")
 
     station_json = {"railway": []}
 
-    for s in usedstation_dict:
+    for s in station_dict:
         station_json["railway"].append({
             "name_zh": station_dict[s]["name_zh"],
             "name_en": station_dict[s]["name_en"],
+            "type": station_dict[s]["type"],
             "lat": station_dict[s]["lat"],
             "lon": station_dict[s]["lon"],
             "country": station_dict[s]["country"],
@@ -395,4 +380,4 @@ if __name__ == "__main__":
 
     with open(station_json_file_path, 'w', encoding='utf-8') as f:    
         json.dump(station_json, f, ensure_ascii=False, indent=2)
-        print(f"已生成 station.json 文件，包含 {len(usedstation_dict)} 个车站。")
+        print(f"已生成 station.json 文件，包含 {len(station_dict)} 个车站。")

@@ -3,6 +3,7 @@
     {
       "name_zh": "北京",
       "name_en": "Beijing",
+      "type": "used",
       "lat": 39.90144,
       "lon": 116.42113,
       "country": "cr",
@@ -16,6 +17,7 @@
     {
       "name_zh": "北京南",
       "name_en": "Beijing S.",
+      "type": "used",
       "lat": 39.863072,
       "lon": 116.372838,
       "country": "cr",
@@ -29,6 +31,7 @@
     {
       "name_zh": "北京西",
       "name_en": "Beijing W.",
+      "type": "used",
       "lat": 39.892572,
       "lon": 116.317173,
       "country": "cr",
@@ -43,6 +46,7 @@
     {
       "name_zh": "北京北",
       "name_en": "Beijing N.",
+      "type": "used",
       "lat": 39.943899,
       "lon": 116.346821,
       "country": "cr",
@@ -54,6 +58,7 @@
     {
       "name_zh": "北京朝阳",
       "name_en": "Beijing Chaoyang",
+      "type": "used",
       "lat": 39.943668,
       "lon": 116.503226,
       "country": "cr",
@@ -66,6 +71,7 @@
     {
       "name_zh": "北京丰台",
       "name_en": "Beijing Fengtai",
+      "type": "used",
       "lat": 39.849629,
       "lon": 116.295393,
       "country": "cr",
@@ -78,6 +84,7 @@
     {
       "name_zh": "清河",
       "name_en": "Qinghe",
+      "type": "used",
       "lat": 40.040723,
       "lon": 116.307714,
       "country": "cr",
@@ -89,6 +96,7 @@
     {
       "name_zh": "八达岭长城",
       "name_en": "Badaling Great Wall",
+      "type": "used",
       "lat": 40.358029,
       "lon": 116.00491,
       "country": "cr",
@@ -100,6 +108,7 @@
     {
       "name_zh": "八达岭",
       "name_en": "Badaling",
+      "type": "used",
       "lat": 40.358876,
       "lon": 115.995334,
       "country": "cr",
@@ -111,6 +120,7 @@
     {
       "name_zh": "延庆",
       "name_en": "Yanqing",
+      "type": "used",
       "lat": 40.435215,
       "lon": 115.978119,
       "country": "cr",
@@ -123,6 +133,7 @@
     {
       "name_zh": "康庄",
       "name_en": "Kangzhuang",
+      "type": "used",
       "lat": 40.378821,
       "lon": 115.892272,
       "country": "cr",
@@ -135,6 +146,7 @@
     {
       "name_zh": "黄土店",
       "name_en": "Huangtudian",
+      "type": "used",
       "lat": 40.068241,
       "lon": 116.357243,
       "country": "cr",
@@ -146,6 +158,7 @@
     {
       "name_zh": "北京大兴",
       "name_en": "Beijing Daxing",
+      "type": "used",
       "lat": 39.719037,
       "lon": 116.322743,
       "country": "cr",
@@ -157,6 +170,7 @@
     {
       "name_zh": "大兴机场",
       "name_en": "Daxing Airport",
+      "type": "used",
       "lat": 39.5109,
       "lon": 116.409504,
       "country": "cr",
@@ -168,6 +182,7 @@
     {
       "name_zh": "昌平北",
       "name_en": "Changping N.",
+      "type": "used",
       "lat": 40.230012,
       "lon": 116.227095,
       "country": "cr",
@@ -179,6 +194,7 @@
     {
       "name_zh": "怀柔北",
       "name_en": "Huairou N.",
+      "type": "used",
       "lat": 40.407876,
       "lon": 116.686425,
       "country": "cr",
@@ -190,6 +206,7 @@
     {
       "name_zh": "古北口",
       "name_en": "Gubeikou",
+      "type": "used",
       "lat": 40.690513,
       "lon": 117.13534,
       "country": "cr",
@@ -201,6 +218,7 @@
     {
       "name_zh": "顺义",
       "name_en": "Shunyi",
+      "type": "used",
       "lat": 40.124766,
       "lon": 116.639598,
       "country": "cr",
@@ -212,6 +230,7 @@
     {
       "name_zh": "燕山",
       "name_en": "Yanshan",
+      "type": "used",
       "lat": 39.747983,
       "lon": 115.952348,
       "country": "cr",
@@ -223,6 +242,7 @@
     {
       "name_zh": "天津",
       "name_en": "Tianjin",
+      "type": "used",
       "lat": 39.136792,
       "lon": 117.20372,
       "country": "cr",
@@ -235,6 +255,7 @@
     {
       "name_zh": "天津西",
       "name_en": "Tianjin W.",
+      "type": "used",
       "lat": 39.156945,
       "lon": 117.157228,
       "country": "cr",
@@ -249,6 +270,7 @@
     {
       "name_zh": "天津北",
       "name_en": "Tianjin N.",
+      "type": "used",
       "lat": 39.165954,
       "lon": 117.203217,
       "country": "cr",
@@ -260,6 +282,7 @@
     {
       "name_zh": "蓟州",
       "name_en": "Jizhou",
+      "type": "used",
       "lat": 39.993686,
       "lon": 117.362706,
       "country": "cr",
@@ -271,6 +294,7 @@
     {
       "name_zh": "蓟州北",
       "name_en": "Jizhou N.",
+      "type": "used",
       "lat": 40.025454,
       "lon": 117.391628,
       "country": "cr",
@@ -282,6 +306,7 @@
     {
       "name_zh": "石家庄",
       "name_en": "Shijiazhuang",
+      "type": "used",
       "lat": 38.009434,
       "lon": 114.478487,
       "country": "cr",
@@ -293,6 +318,7 @@
     {
       "name_zh": "唐山",
       "name_en": "Tangshan",
+      "type": "used",
       "lat": 39.622864,
       "lon": 118.115152,
       "country": "cr",
@@ -305,6 +331,7 @@
     {
       "name_zh": "承德",
       "name_en": "Chengde",
+      "type": "used",
       "lat": 40.963096,
       "lon": 117.948261,
       "country": "cr",
@@ -317,6 +344,7 @@
     {
       "name_zh": "承德南",
       "name_en": "Chengde S.",
+      "type": "used",
       "lat": 40.883668,
       "lon": 117.958703,
       "country": "cr",
@@ -328,6 +356,7 @@
     {
       "name_zh": "霸州西",
       "name_en": "Bazhou W.",
+      "type": "used",
       "lat": 39.092989,
       "lon": 116.344457,
       "country": "cr",
@@ -340,6 +369,7 @@
     {
       "name_zh": "霸州北",
       "name_en": "Bazhou N.",
+      "type": "used",
       "lat": 39.185558,
       "lon": 116.321097,
       "country": "cr",
@@ -351,6 +381,7 @@
     {
       "name_zh": "雄安",
       "name_en": "Xiong'an",
+      "type": "used",
       "lat": 39.055624,
       "lon": 116.154071,
       "country": "cr",
@@ -362,6 +393,7 @@
     {
       "name_zh": "白洋淀",
       "name_en": "Baiyangdian",
+      "type": "used",
       "lat": 39.068633,
       "lon": 115.868901,
       "country": "cr",
@@ -373,6 +405,7 @@
     {
       "name_zh": "秦皇岛",
       "name_en": "Qinhuangdao",
+      "type": "used",
       "lat": 39.964616,
       "lon": 119.586226,
       "country": "cr",
@@ -385,6 +418,7 @@
     {
       "name_zh": "山海关",
       "name_en": "Shanhaiguan",
+      "type": "used",
       "lat": 39.999403,
       "lon": 119.761552,
       "country": "cr",
@@ -396,6 +430,7 @@
     {
       "name_zh": "北戴河",
       "name_en": "Beidaihe",
+      "type": "used",
       "lat": 39.849858,
       "lon": 119.41362,
       "country": "cr",
@@ -408,6 +443,7 @@
     {
       "name_zh": "张家口",
       "name_en": "Zhangjiakou",
+      "type": "used",
       "lat": 40.750704,
       "lon": 114.876733,
       "country": "cr",
@@ -419,6 +455,7 @@
     {
       "name_zh": "宣化",
       "name_en": "Xuanhua",
+      "type": "used",
       "lat": 40.596602,
       "lon": 115.050377,
       "country": "cr",
@@ -430,6 +467,7 @@
     {
       "name_zh": "燕郊",
       "name_en": "Yanjiao",
+      "type": "used",
       "lat": 39.94057,
       "lon": 116.819673,
       "country": "cr",
@@ -441,6 +479,7 @@
     {
       "name_zh": "呼和浩特",
       "name_en": "Hohhot",
+      "type": "used",
       "lat": 40.829499,
       "lon": 111.658306,
       "country": "cr",
@@ -452,6 +491,7 @@
     {
       "name_zh": "呼和浩特东",
       "name_en": "Hohhot E.",
+      "type": "used",
       "lat": 40.848343,
       "lon": 111.759334,
       "country": "cr",
@@ -464,6 +504,7 @@
     {
       "name_zh": "乌兰察布",
       "name_en": "Ulanqab",
+      "type": "used",
       "lat": 40.963345,
       "lon": 113.152254,
       "country": "cr",
@@ -475,6 +516,7 @@
     {
       "name_zh": "通辽",
       "name_en": "Tongliao",
+      "type": "used",
       "lat": 43.602941,
       "lon": 122.266425,
       "country": "cr",
@@ -486,6 +528,7 @@
     {
       "name_zh": "海拉尔",
       "name_en": "Hailar",
+      "type": "used",
       "lat": 49.22843,
       "lon": 119.736663,
       "country": "cr",
@@ -497,6 +540,7 @@
     {
       "name_zh": "哈尔滨",
       "name_en": "Harbin",
+      "type": "used",
       "lat": 45.758149,
       "lon": 126.62486,
       "country": "cr",
@@ -511,6 +555,7 @@
     {
       "name_zh": "哈尔滨东",
       "name_en": "Harbin E.",
+      "type": "used",
       "lat": 45.784391,
       "lon": 126.707134,
       "country": "cr",
@@ -523,6 +568,7 @@
     {
       "name_zh": "哈尔滨西",
       "name_en": "Harbin W.",
+      "type": "used",
       "lat": 45.705387,
       "lon": 126.571042,
       "country": "cr",
@@ -534,6 +580,7 @@
     {
       "name_zh": "呼兰",
       "name_en": "Hulan",
+      "type": "used",
       "lat": 45.996263,
       "lon": 126.640569,
       "country": "cr",
@@ -545,6 +592,7 @@
     {
       "name_zh": "牡丹江",
       "name_en": "Mudanjiang",
+      "type": "used",
       "lat": 44.589049,
       "lon": 129.60628,
       "country": "cr",
@@ -558,6 +606,7 @@
     {
       "name_zh": "横道河子东",
       "name_en": "Hengdaohezi E.",
+      "type": "used",
       "lat": 44.788929,
       "lon": 129.09908,
       "country": "cr",
@@ -569,6 +618,7 @@
     {
       "name_zh": "绥芬河",
       "name_en": "Suifenhe",
+      "type": "used",
       "lat": 44.404199,
       "lon": 131.129175,
       "country": "cr",
@@ -580,6 +630,7 @@
     {
       "name_zh": "齐齐哈尔",
       "name_en": "Qiqihar",
+      "type": "used",
       "lat": 47.338071,
       "lon": 123.989172,
       "country": "cr",
@@ -592,6 +643,7 @@
     {
       "name_zh": "漠河",
       "name_en": "Mohe",
+      "type": "used",
       "lat": 52.986709,
       "lon": 122.500514,
       "country": "cr",
@@ -603,6 +655,7 @@
     {
       "name_zh": "长春",
       "name_en": "Changchun",
+      "type": "used",
       "lat": 43.909017,
       "lon": 125.318013,
       "country": "cr",
@@ -615,6 +668,7 @@
     {
       "name_zh": "龙嘉",
       "name_en": "Longjia Airport",
+      "type": "used",
       "lat": 43.990324,
       "lon": 125.693945,
       "country": "cr",
@@ -626,6 +680,7 @@
     {
       "name_zh": "吉林",
       "name_en": "Jilin",
+      "type": "used",
       "lat": 43.857022,
       "lon": 126.572451,
       "country": "cr",
@@ -637,6 +692,7 @@
     {
       "name_zh": "四平",
       "name_en": "Siping",
+      "type": "used",
       "lat": 43.165104,
       "lon": 124.36728,
       "country": "cr",
@@ -650,6 +706,7 @@
     {
       "name_zh": "四平东",
       "name_en": "Siping E.",
+      "type": "used",
       "lat": 43.135985,
       "lon": 124.43178,
       "country": "cr",
@@ -661,6 +718,7 @@
     {
       "name_zh": "通化",
       "name_en": "Tonghua",
+      "type": "used",
       "lat": 41.7761,
       "lon": 125.91626,
       "country": "cr",
@@ -672,6 +730,7 @@
     {
       "name_zh": "长白山",
       "name_en": "Changbaishan",
+      "type": "used",
       "lat": 42.459589,
       "lon": 128.122375,
       "country": "cr",
@@ -683,6 +742,7 @@
     {
       "name_zh": "沈阳北",
       "name_en": "Shenyang N.",
+      "type": "used",
       "lat": 41.81696,
       "lon": 123.429815,
       "country": "cr",
@@ -697,6 +757,7 @@
     {
       "name_zh": "沈阳南",
       "name_en": "Shenyang S.",
+      "type": "used",
       "lat": 41.66637,
       "lon": 123.400938,
       "country": "cr",
@@ -709,6 +770,7 @@
     {
       "name_zh": "大连",
       "name_en": "Dalian",
+      "type": "used",
       "lat": 38.921389,
       "lon": 121.628079,
       "country": "cr",
@@ -720,6 +782,7 @@
     {
       "name_zh": "大连北",
       "name_en": "Dalian N.",
+      "type": "used",
       "lat": 39.015978,
       "lon": 121.601377,
       "country": "cr",
@@ -733,6 +796,7 @@
     {
       "name_zh": "抚顺",
       "name_en": "Fushun",
+      "type": "used",
       "lat": 41.888034,
       "lon": 123.912075,
       "country": "cr",
@@ -744,6 +808,7 @@
     {
       "name_zh": "丹东",
       "name_en": "Dandong",
+      "type": "used",
       "lat": 40.122162,
       "lon": 124.380192,
       "country": "cr",
@@ -756,6 +821,7 @@
     {
       "name_zh": "济南",
       "name_en": "Jinan",
+      "type": "used",
       "lat": 36.670731,
       "lon": 116.985072,
       "country": "cr",
@@ -770,6 +836,7 @@
     {
       "name_zh": "济南西",
       "name_en": "Jinan W.",
+      "type": "used",
       "lat": 36.669206,
       "lon": 116.887906,
       "country": "cr",
@@ -782,6 +849,7 @@
     {
       "name_zh": "淄博",
       "name_en": "Zibo",
+      "type": "used",
       "lat": 36.788356,
       "lon": 118.051558,
       "country": "cr",
@@ -793,6 +861,7 @@
     {
       "name_zh": "南博山",
       "name_en": "South Boshan",
+      "type": "used",
       "lat": 36.357596,
       "lon": 117.955066,
       "country": "cr",
@@ -804,6 +873,7 @@
     {
       "name_zh": "泰安",
       "name_en": "Tai'an",
+      "type": "used",
       "lat": 36.172083,
       "lon": 117.029348,
       "country": "cr",
@@ -815,6 +885,7 @@
     {
       "name_zh": "泰山",
       "name_en": "Taishan",
+      "type": "used",
       "lat": 36.186857,
       "lon": 117.103623,
       "country": "cr",
@@ -827,6 +898,7 @@
     {
       "name_zh": "青岛北",
       "name_en": "Qingdao N.",
+      "type": "used",
       "lat": 36.168694,
       "lon": 120.369524,
       "country": "cr",
@@ -839,6 +911,7 @@
     {
       "name_zh": "兖州",
       "name_en": "Yanzhou",
+      "type": "used",
       "lat": 35.556214,
       "lon": 116.835541,
       "country": "cr",
@@ -850,6 +923,7 @@
     {
       "name_zh": "威海",
       "name_en": "Weihai",
+      "type": "used",
       "lat": 37.425663,
       "lon": 122.138637,
       "country": "cr",
@@ -861,6 +935,7 @@
     {
       "name_zh": "烟台",
       "name_en": "Yantai",
+      "type": "used",
       "lat": 37.547492,
       "lon": 121.377421,
       "country": "cr",
@@ -872,6 +947,7 @@
     {
       "name_zh": "莱西",
       "name_en": "Laixi",
+      "type": "used",
       "lat": 36.823534,
       "lon": 120.524985,
       "country": "cr",
@@ -884,6 +960,7 @@
     {
       "name_zh": "上海",
       "name_en": "Shanghai",
+      "type": "used",
       "lat": 31.251539,
       "lon": 121.45119,
       "country": "cr",
@@ -896,6 +973,7 @@
     {
       "name_zh": "上海南",
       "name_en": "Shanghai S.",
+      "type": "used",
       "lat": 31.153863,
       "lon": 121.426983,
       "country": "cr",
@@ -908,6 +986,7 @@
     {
       "name_zh": "上海虹桥",
       "name_en": "Shanghai Hongqiao",
+      "type": "used",
       "lat": 31.196704,
       "lon": 121.314801,
       "country": "cr",
@@ -924,6 +1003,7 @@
     {
       "name_zh": "上海西",
       "name_en": "Shanghai W.",
+      "type": "used",
       "lat": 31.264135,
       "lon": 121.398156,
       "country": "cr",
@@ -935,6 +1015,7 @@
     {
       "name_zh": "上海松江",
       "name_en": "Shanghai Songjiang",
+      "type": "used",
       "lat": 30.985034,
       "lon": 121.22531,
       "country": "cr",
@@ -948,6 +1029,7 @@
     {
       "name_zh": "[松江北]",
       "name_en": "[Songjiang N.]",
+      "type": "used",
       "lat": 31.00168,
       "lon": 121.223402,
       "country": "cr",
@@ -957,6 +1039,7 @@
     {
       "name_zh": "南京",
       "name_en": "Nanjing",
+      "type": "used",
       "lat": 32.09012,
       "lon": 118.793041,
       "country": "cr",
@@ -969,6 +1052,7 @@
     {
       "name_zh": "南京南",
       "name_en": "Nanjing S.",
+      "type": "used",
       "lat": 31.970063,
       "lon": 118.793877,
       "country": "cr",
@@ -983,6 +1067,7 @@
     {
       "name_zh": "苏州",
       "name_en": "Suzhou",
+      "type": "used",
       "lat": 31.331842,
       "lon": 120.606681,
       "country": "cr",
@@ -995,6 +1080,7 @@
     {
       "name_zh": "苏州北",
       "name_en": "Suzhou N.",
+      "type": "used",
       "lat": 31.423241,
       "lon": 120.639286,
       "country": "cr",
@@ -1006,6 +1092,7 @@
     {
       "name_zh": "苏州园区",
       "name_en": "Suzhou SIP",
+      "type": "used",
       "lat": 31.343685,
       "lon": 120.706233,
       "country": "cr",
@@ -1017,6 +1104,7 @@
     {
       "name_zh": "苏州新区",
       "name_en": "Suzhou SND",
+      "type": "used",
       "lat": 31.374043,
       "lon": 120.520109,
       "country": "cr",
@@ -1028,6 +1116,7 @@
     {
       "name_zh": "苏州南",
       "name_en": "Suzhou S.",
+      "type": "used",
       "lat": 31.065315,
       "lon": 120.795515,
       "country": "cr",
@@ -1039,6 +1128,7 @@
     {
       "name_zh": "太仓",
       "name_en": "Taicang",
+      "type": "used",
       "lat": 31.512012,
       "lon": 121.192145,
       "country": "cr",
@@ -1052,6 +1142,7 @@
     {
       "name_zh": "常熟",
       "name_en": "Changshu",
+      "type": "used",
       "lat": 31.699534,
       "lon": 120.775997,
       "country": "cr",
@@ -1064,6 +1155,7 @@
     {
       "name_zh": "张家港",
       "name_en": "Zhangjiagang",
+      "type": "used",
       "lat": 31.819379,
       "lon": 120.669746,
       "country": "cr",
@@ -1076,6 +1168,7 @@
     {
       "name_zh": "无锡新区",
       "name_en": "Wuxi New District",
+      "type": "used",
       "lat": 31.499407,
       "lon": 120.387922,
       "country": "cr",
@@ -1087,6 +1180,7 @@
     {
       "name_zh": "江阴",
       "name_en": "Jiangyin",
+      "type": "used",
       "lat": 31.863894,
       "lon": 120.274643,
       "country": "cr",
@@ -1098,6 +1192,7 @@
     {
       "name_zh": "常州",
       "name_en": "Changzhou",
+      "type": "used",
       "lat": 31.787334,
       "lon": 119.969199,
       "country": "cr",
@@ -1109,6 +1204,7 @@
     {
       "name_zh": "武进",
       "name_en": "Wujin",
+      "type": "used",
       "lat": 31.661213,
       "lon": 119.942015,
       "country": "cr",
@@ -1120,6 +1216,7 @@
     {
       "name_zh": "镇江",
       "name_en": "Zhenjiang",
+      "type": "used",
       "lat": 32.199586,
       "lon": 119.427367,
       "country": "cr",
@@ -1132,6 +1229,7 @@
     {
       "name_zh": "徐州东",
       "name_en": "Xuzhou E.",
+      "type": "used",
       "lat": 34.268629,
       "lon": 117.29773,
       "country": "cr",
@@ -1145,6 +1243,7 @@
     {
       "name_zh": "宿迁",
       "name_en": "Suqian",
+      "type": "used",
       "lat": 33.87591,
       "lon": 118.276336,
       "country": "cr",
@@ -1156,6 +1255,7 @@
     {
       "name_zh": "淮安东",
       "name_en": "Huai'an E.",
+      "type": "used",
       "lat": 33.570124,
       "lon": 119.182747,
       "country": "cr",
@@ -1168,6 +1268,7 @@
     {
       "name_zh": "连云港",
       "name_en": "Lianyungang",
+      "type": "used",
       "lat": 34.610303,
       "lon": 119.158251,
       "country": "cr",
@@ -1179,6 +1280,7 @@
     {
       "name_zh": "盐城",
       "name_en": "Yancheng",
+      "type": "used",
       "lat": 33.383739,
       "lon": 120.16919,
       "country": "cr",
@@ -1192,6 +1294,7 @@
     {
       "name_zh": "海安",
       "name_en": "Hai'an",
+      "type": "used",
       "lat": 32.549268,
       "lon": 120.50033,
       "country": "cr",
@@ -1205,6 +1308,7 @@
     {
       "name_zh": "扬州",
       "name_en": "Yangzhou",
+      "type": "used",
       "lat": 32.391623,
       "lon": 119.345396,
       "country": "cr",
@@ -1216,6 +1320,7 @@
     {
       "name_zh": "扬州东",
       "name_en": "Yangzhou E.",
+      "type": "used",
       "lat": 32.40657,
       "lon": 119.523948,
       "country": "cr",
@@ -1227,6 +1332,7 @@
     {
       "name_zh": "杭州",
       "name_en": "Hangzhou",
+      "type": "used",
       "lat": 30.246198,
       "lon": 120.177326,
       "country": "cr",
@@ -1239,6 +1345,7 @@
     {
       "name_zh": "杭州东",
       "name_en": "Hangzhou E.",
+      "type": "used",
       "lat": 30.293964,
       "lon": 120.207892,
       "country": "cr",
@@ -1253,6 +1360,7 @@
     {
       "name_zh": "杭州南",
       "name_en": "Hangzhou S.",
+      "type": "used",
       "lat": 30.174535,
       "lon": 120.288713,
       "country": "cr",
@@ -1267,6 +1375,7 @@
     {
       "name_zh": "杭州西",
       "name_en": "Hangzhou W.",
+      "type": "used",
       "lat": 30.300426,
       "lon": 119.98213,
       "country": "cr",
@@ -1278,6 +1387,7 @@
     {
       "name_zh": "绍兴",
       "name_en": "Shaoxing",
+      "type": "used",
       "lat": 30.016435,
       "lon": 120.574742,
       "country": "cr",
@@ -1289,6 +1399,7 @@
     {
       "name_zh": "绍兴北",
       "name_en": "Shaoxing N.",
+      "type": "used",
       "lat": 30.102819,
       "lon": 120.532994,
       "country": "cr",
@@ -1300,6 +1411,7 @@
     {
       "name_zh": "诸暨",
       "name_en": "Zhuji",
+      "type": "used",
       "lat": 29.730065,
       "lon": 120.181038,
       "country": "cr",
@@ -1311,6 +1423,7 @@
     {
       "name_zh": "宁波",
       "name_en": "Ningbo",
+      "type": "used",
       "lat": 29.865233,
       "lon": 121.532402,
       "country": "cr",
@@ -1323,6 +1436,7 @@
     {
       "name_zh": "温州南",
       "name_en": "Wenzhou S.",
+      "type": "used",
       "lat": 27.969313,
       "lon": 120.581208,
       "country": "cr",
@@ -1335,6 +1449,7 @@
     {
       "name_zh": "义乌",
       "name_en": "Yiwu",
+      "type": "used",
       "lat": 29.380372,
       "lon": 120.038677,
       "country": "cr",
@@ -1346,6 +1461,7 @@
     {
       "name_zh": "横店",
       "name_en": "Hengdian",
+      "type": "used",
       "lat": 29.217579,
       "lon": 120.260177,
       "country": "cr",
@@ -1357,6 +1473,7 @@
     {
       "name_zh": "湖州",
       "name_en": "Huzhou",
+      "type": "used",
       "lat": 30.864274,
       "lon": 120.019428,
       "country": "cr",
@@ -1370,6 +1487,7 @@
     {
       "name_zh": "湖州南浔",
       "name_en": "Huzhou Nanxun",
+      "type": "used",
       "lat": 30.829534,
       "lon": 120.402696,
       "country": "cr",
@@ -1381,6 +1499,7 @@
     {
       "name_zh": "嘉兴",
       "name_en": "Jiaxing",
+      "type": "used",
       "lat": 30.766969,
       "lon": 120.758817,
       "country": "cr",
@@ -1392,6 +1511,7 @@
     {
       "name_zh": "嘉兴南",
       "name_en": "Jiaxing S.",
+      "type": "used",
       "lat": 30.693215,
       "lon": 120.794937,
       "country": "cr",
@@ -1403,6 +1523,7 @@
     {
       "name_zh": "海宁",
       "name_en": "Haining",
+      "type": "used",
       "lat": 30.535639,
       "lon": 120.680671,
       "country": "cr",
@@ -1414,6 +1535,7 @@
     {
       "name_zh": "衢州",
       "name_en": "Quzhou",
+      "type": "used",
       "lat": 28.927599,
       "lon": 118.876167,
       "country": "cr",
@@ -1427,6 +1549,7 @@
     {
       "name_zh": "合肥南",
       "name_en": "Hefei S.",
+      "type": "used",
       "lat": 31.800958,
       "lon": 117.284759,
       "country": "cr",
@@ -1439,6 +1562,7 @@
     {
       "name_zh": "黄山北",
       "name_en": "Huangshan N.",
+      "type": "used",
       "lat": 29.818051,
       "lon": 118.267618,
       "country": "cr",
@@ -1452,6 +1576,7 @@
     {
       "name_zh": "黟县东",
       "name_en": "Yixian E.",
+      "type": "used",
       "lat": 29.887332,
       "lon": 118.042367,
       "country": "cr",
@@ -1463,6 +1588,7 @@
     {
       "name_zh": "芜湖",
       "name_en": "Wuhu",
+      "type": "used",
       "lat": 31.350149,
       "lon": 118.387385,
       "country": "cr",
@@ -1476,6 +1602,7 @@
     {
       "name_zh": "芜湖南",
       "name_en": "Wuhu S.",
+      "type": "used",
       "lat": 31.250829,
       "lon": 118.373327,
       "country": "cr",
@@ -1487,6 +1614,7 @@
     {
       "name_zh": "池州",
       "name_en": "Chizhou",
+      "type": "used",
       "lat": 30.622132,
       "lon": 117.516126,
       "country": "cr",
@@ -1498,6 +1626,7 @@
     {
       "name_zh": "福州",
       "name_en": "Fuzhou",
+      "type": "used",
       "lat": 26.117167,
       "lon": 119.315415,
       "country": "cr",
@@ -1510,6 +1639,7 @@
     {
       "name_zh": "福州南",
       "name_en": "Fuzhou S.",
+      "type": "used",
       "lat": 25.988279,
       "lon": 119.385601,
       "country": "cr",
@@ -1522,6 +1652,7 @@
     {
       "name_zh": "厦门",
       "name_en": "Xiamen",
+      "type": "used",
       "lat": 24.470209,
       "lon": 118.111225,
       "country": "cr",
@@ -1533,6 +1664,7 @@
     {
       "name_zh": "厦门北",
       "name_en": "Xiamen N.",
+      "type": "used",
       "lat": 24.638772,
       "lon": 118.06903,
       "country": "cr",
@@ -1545,6 +1677,7 @@
     {
       "name_zh": "泉州",
       "name_en": "Quanzhou",
+      "type": "used",
       "lat": 24.976173,
       "lon": 118.563221,
       "country": "cr",
@@ -1556,6 +1689,7 @@
     {
       "name_zh": "漳州",
       "name_en": "Zhangzhou",
+      "type": "used",
       "lat": 24.460352,
       "lon": 117.711826,
       "country": "cr",
@@ -1567,6 +1701,7 @@
     {
       "name_zh": "广州东",
       "name_en": "Guangzhou E.",
+      "type": "used",
       "lat": 23.152877,
       "lon": 113.319977,
       "country": "cr",
@@ -1578,6 +1713,7 @@
     {
       "name_zh": "广州南",
       "name_en": "Guangzhou S.",
+      "type": "used",
       "lat": 22.991077,
       "lon": 113.261758,
       "country": "cr",
@@ -1590,6 +1726,7 @@
     {
       "name_zh": "广州北",
       "name_en": "Guangzhou N,",
+      "type": "used",
       "lat": 23.379972,
       "lon": 113.198418,
       "country": "cr",
@@ -1602,6 +1739,7 @@
     {
       "name_zh": "广州白云",
       "name_en": "Guangzhou Baiyun",
+      "type": "used",
       "lat": 23.193938,
       "lon": 113.241036,
       "country": "cr",
@@ -1613,6 +1751,7 @@
     {
       "name_zh": "广州新塘",
       "name_en": "Guangzhou Xintang",
+      "type": "used",
       "lat": 23.136824,
       "lon": 113.60113,
       "country": "cr",
@@ -1624,6 +1763,7 @@
     {
       "name_zh": "花都",
       "name_en": "Huadu",
+      "type": "used",
       "lat": 23.379797,
       "lon": 113.197517,
       "country": "gi",
@@ -1636,6 +1776,7 @@
     {
       "name_zh": "清城",
       "name_en": "Qingcheng",
+      "type": "used",
       "lat": 23.656003,
       "lon": 113.061023,
       "country": "gi",
@@ -1647,6 +1788,7 @@
     {
       "name_zh": "琶洲",
       "name_en": "Pazhou",
+      "type": "used",
       "lat": 23.102843,
       "lon": 113.362706,
       "country": "gi",
@@ -1658,6 +1800,7 @@
     {
       "name_zh": "白云机场北",
       "name_en": "Baiyun Airport N.",
+      "type": "used",
       "lat": 23.398986,
       "lon": 113.300541,
       "country": "gi",
@@ -1669,6 +1812,7 @@
     {
       "name_zh": "东莞西",
       "name_en": "Dongguan W.",
+      "type": "used",
       "lat": 23.01087,
       "lon": 113.620906,
       "country": "gi",
@@ -1681,6 +1825,7 @@
     {
       "name_zh": "西平西",
       "name_en": "Xiping W.",
+      "type": "used",
       "lat": 22.996362,
       "lon": 113.74057,
       "country": "gi",
@@ -1692,6 +1837,7 @@
     {
       "name_zh": "深圳机场",
       "name_en": "Shenzhen Airport",
+      "type": "used",
       "lat": 22.623983,
       "lon": 113.806032,
       "country": "gi",
@@ -1703,6 +1849,7 @@
     {
       "name_zh": "顺德北",
       "name_en": "Shunde N.",
+      "type": "used",
       "lat": 22.964447,
       "lon": 113.124193,
       "country": "gi",
@@ -1714,6 +1861,7 @@
     {
       "name_zh": "张槎",
       "name_en": "Zhangcha",
+      "type": "used",
       "lat": 23.011695,
       "lon": 113.0622,
       "country": "gi",
@@ -1725,6 +1873,7 @@
     {
       "name_zh": "深圳北",
       "name_en": "Shenzhen N.",
+      "type": "used",
       "lat": 22.609954,
       "lon": 114.023289,
       "country": "cr",
@@ -1737,6 +1886,7 @@
     {
       "name_zh": "深圳",
       "name_en": "Shenzhen",
+      "type": "used",
       "lat": 22.535525,
       "lon": 114.112668,
       "country": "cr",
@@ -1748,6 +1898,7 @@
     {
       "name_zh": "福田",
       "name_en": "Futian",
+      "type": "used",
       "lat": 22.54089,
       "lon": 114.051891,
       "country": "cr",
@@ -1759,6 +1910,7 @@
     {
       "name_zh": "东莞",
       "name_en": "Dongguan",
+      "type": "used",
       "lat": 23.092445,
       "lon": 113.854212,
       "country": "cr",
@@ -1770,6 +1922,7 @@
     {
       "name_zh": "惠阳",
       "name_en": "Huiyang",
+      "type": "used",
       "lat": 22.787649,
       "lon": 114.487586,
       "country": "cr",
@@ -1781,6 +1934,7 @@
     {
       "name_zh": "佛山西",
       "name_en": "Foshan W.",
+      "type": "used",
       "lat": 23.082342,
       "lon": 113.028258,
       "country": "cr",
@@ -1793,6 +1947,7 @@
     {
       "name_zh": "香港西九龙",
       "name_en": "HongKong West Kowloon",
+      "type": "used",
       "lat": 22.303882,
       "lon": 114.165443,
       "country": "cr",
@@ -1804,6 +1959,7 @@
     {
       "name_zh": "南宁",
       "name_en": "Nanning",
+      "type": "used",
       "lat": 22.829139,
       "lon": 108.311523,
       "country": "cr",
@@ -1816,6 +1972,7 @@
     {
       "name_zh": "南宁东",
       "name_en": "Nanning E.",
+      "type": "used",
       "lat": 22.84528,
       "lon": 108.409606,
       "country": "cr",
@@ -1828,6 +1985,7 @@
     {
       "name_zh": "吴圩机场",
       "name_en": "Wuxu Airport",
+      "type": "used",
       "lat": 22.602692,
       "lon": 108.18296,
       "country": "cr",
@@ -1839,6 +1997,7 @@
     {
       "name_zh": "崇左南",
       "name_en": "Chongzuo S.",
+      "type": "used",
       "lat": 22.359854,
       "lon": 107.390852,
       "country": "cr",
@@ -1850,10 +2009,11 @@
     {
       "name_zh": "玉林北",
       "name_en": "Yulin N.",
+      "type": "used",
       "lat": 22.724276,
       "lon": 110.245228,
       "country": "cr",
-      "code": "",
+      "code": "3ba9bb5d",
       "lines": [
         "南珠高速线"
       ]
@@ -1861,6 +2021,7 @@
     {
       "name_zh": "玉林",
       "name_en": "Yulin",
+      "type": "used",
       "lat": 22.599788,
       "lon": 110.153209,
       "country": "cr",
@@ -1872,6 +2033,7 @@
     {
       "name_zh": "金城江",
       "name_en": "Jinchengjiang",
+      "type": "used",
       "lat": 24.70179,
       "lon": 108.061382,
       "country": "cr",
@@ -1883,6 +2045,7 @@
     {
       "name_zh": "河池西",
       "name_en": "Hechi W.",
+      "type": "used",
       "lat": 24.714364,
       "lon": 108.171197,
       "country": "cr",
@@ -1894,6 +2057,7 @@
     {
       "name_zh": "美兰",
       "name_en": "Meilan Airport",
+      "type": "used",
       "lat": 19.943528,
       "lon": 110.456955,
       "country": "cr",
@@ -1905,6 +2069,7 @@
     {
       "name_zh": "城西",
       "name_en": "Chengxi",
+      "type": "used",
       "lat": 19.998119,
       "lon": 110.32769,
       "country": "cr",
@@ -1916,6 +2081,7 @@
     {
       "name_zh": "海口东",
       "name_en": "Haikou E.",
+      "type": "used",
       "lat": 19.985488,
       "lon": 110.338834,
       "country": "cr",
@@ -1927,6 +2093,7 @@
     {
       "name_zh": "三亚",
       "name_en": "Sanya",
+      "type": "used",
       "lat": 18.297786,
       "lon": 109.48898,
       "country": "cr",
@@ -1939,6 +2106,7 @@
     {
       "name_zh": "崖州",
       "name_en": "Yazhou",
+      "type": "used",
       "lat": 18.37769,
       "lon": 109.153496,
       "country": "cr",
@@ -1951,6 +2119,7 @@
     {
       "name_zh": "凤凰机场",
       "name_en": "Fenghuang Airport",
+      "type": "used",
       "lat": 18.310561,
       "lon": 109.404688,
       "country": "cr",
@@ -1963,6 +2132,7 @@
     {
       "name_zh": "南昌",
       "name_en": "Nanchang",
+      "type": "used",
       "lat": 28.665071,
       "lon": 115.913113,
       "country": "cr",
@@ -1974,6 +2144,7 @@
     {
       "name_zh": "新余北",
       "name_en": "Xinyu N.",
+      "type": "used",
       "lat": 27.914737,
       "lon": 114.891878,
       "country": "cr",
@@ -1986,6 +2157,7 @@
     {
       "name_zh": "分宜",
       "name_en": "Fenyi",
+      "type": "used",
       "lat": 27.809323,
       "lon": 114.658631,
       "country": "cr",
@@ -1997,6 +2169,7 @@
     {
       "name_zh": "宜春",
       "name_en": "Yichun",
+      "type": "used",
       "lat": 27.792421,
       "lon": 114.431339,
       "country": "cr",
@@ -2009,6 +2182,7 @@
     {
       "name_zh": "长沙",
       "name_en": "Changsha",
+      "type": "used",
       "lat": 28.197434,
       "lon": 113.007695,
       "country": "cr",
@@ -2021,6 +2195,7 @@
     {
       "name_zh": "长沙南",
       "name_en": "Changsha S.",
+      "type": "used",
       "lat": 28.14943,
       "lon": 113.058156,
       "country": "cr",
@@ -2033,6 +2208,7 @@
     {
       "name_zh": "谷山",
       "name_en": "Gushan",
+      "type": "used",
       "lat": 28.233342,
       "lon": 112.902291,
       "country": "cr",
@@ -2044,6 +2220,7 @@
     {
       "name_zh": "开福寺",
       "name_en": "Kaifusi",
+      "type": "used",
       "lat": 28.226739,
       "lon": 112.974665,
       "country": "cr",
@@ -2055,6 +2232,7 @@
     {
       "name_zh": "湘潭",
       "name_en": "Xiangtan",
+      "type": "used",
       "lat": 27.878918,
       "lon": 112.906942,
       "country": "cr",
@@ -2066,6 +2244,7 @@
     {
       "name_zh": "湘潭北",
       "name_en": "Xiangtan N.",
+      "type": "used",
       "lat": 27.968399,
       "lon": 112.936745,
       "country": "cr",
@@ -2077,6 +2256,7 @@
     {
       "name_zh": "凤凰古城",
       "name_en": "Fenghuang Ancient Town",
+      "type": "used",
       "lat": 28.020293,
       "lon": 109.598798,
       "country": "cr",
@@ -2088,6 +2268,7 @@
     {
       "name_zh": "武汉",
       "name_en": "Wuhan",
+      "type": "used",
       "lat": 30.60937,
       "lon": 114.419997,
       "country": "cr",
@@ -2099,6 +2280,7 @@
     {
       "name_zh": "汉口",
       "name_en": "Hankou",
+      "type": "used",
       "lat": 30.620301,
       "lon": 114.250053,
       "country": "cr",
@@ -2111,6 +2293,7 @@
     {
       "name_zh": "武昌",
       "name_en": "Wuchang",
+      "type": "used",
       "lat": 30.53277,
       "lon": 114.311764,
       "country": "cr",
@@ -2123,6 +2306,7 @@
     {
       "name_zh": "宜昌北",
       "name_en": "Yichang N.",
+      "type": "used",
       "lat": 30.748088,
       "lon": 111.469488,
       "country": "cr",
@@ -2134,6 +2318,7 @@
     {
       "name_zh": "郑州",
       "name_en": "Zhengzhou",
+      "type": "used",
       "lat": 34.746928,
       "lon": 113.652007,
       "country": "cr",
@@ -2145,6 +2330,7 @@
     {
       "name_zh": "郑州东",
       "name_en": "Zhengzhou E.",
+      "type": "used",
       "lat": 34.760065,
       "lon": 113.773225,
       "country": "cr",
@@ -2159,6 +2345,7 @@
     {
       "name_zh": "开封",
       "name_en": "Kaifeng",
+      "type": "used",
       "lat": 34.771678,
       "lon": 114.348279,
       "country": "cr",
@@ -2171,6 +2358,7 @@
     {
       "name_zh": "洛阳",
       "name_en": "Luoyang",
+      "type": "used",
       "lat": 34.686405,
       "lon": 112.430106,
       "country": "cr",
@@ -2182,6 +2370,7 @@
     {
       "name_zh": "安阳东",
       "name_en": "Anyang E.",
+      "type": "used",
       "lat": 36.08474,
       "lon": 114.447441,
       "country": "cr",
@@ -2193,6 +2382,7 @@
     {
       "name_zh": "焦作",
       "name_en": "Jiaozuo",
+      "type": "used",
       "lat": 35.222383,
       "lon": 113.22855,
       "country": "cr",
@@ -2204,6 +2394,7 @@
     {
       "name_zh": "重庆北",
       "name_en": "Chongqing N.",
+      "type": "used",
       "lat": 29.612607,
       "lon": 106.547387,
       "country": "cr",
@@ -2215,6 +2406,7 @@
     {
       "name_zh": "沙坪坝",
       "name_en": "Shapingba",
+      "type": "used",
       "lat": 29.556784,
       "lon": 106.457283,
       "country": "cr",
@@ -2226,6 +2418,7 @@
     {
       "name_zh": "贵阳",
       "name_en": "Guiyang",
+      "type": "used",
       "lat": 26.5604,
       "lon": 106.69866,
       "country": "cr",
@@ -2238,6 +2431,7 @@
     {
       "name_zh": "贵阳北",
       "name_en": "Guiyang N.",
+      "type": "used",
       "lat": 26.623156,
       "lon": 106.670656,
       "country": "cr",
@@ -2251,6 +2445,7 @@
     {
       "name_zh": "贵安",
       "name_en": "Gui'an",
+      "type": "used",
       "lat": 26.469122,
       "lon": 106.481856,
       "country": "cr",
@@ -2263,6 +2458,7 @@
     {
       "name_zh": "花溪大学城",
       "name_en": "Huaxi University Town",
+      "type": "used",
       "lat": 26.397133,
       "lon": 106.622192,
       "country": "cr",
@@ -2274,6 +2470,7 @@
     {
       "name_zh": "镇远",
       "name_en": "Zhenyuan",
+      "type": "used",
       "lat": 27.038084,
       "lon": 108.405681,
       "country": "cr",
@@ -2285,6 +2482,7 @@
     {
       "name_zh": "成都东",
       "name_en": "Chengdu E.",
+      "type": "used",
       "lat": 30.63145,
       "lon": 104.140165,
       "country": "cr",
@@ -2297,6 +2495,7 @@
     {
       "name_zh": "成都南",
       "name_en": "Chengdu S.",
+      "type": "used",
       "lat": 30.607803,
       "lon": 104.066034,
       "country": "cr",
@@ -2309,6 +2508,7 @@
     {
       "name_zh": "双流机场",
       "name_en": "Shuangliu Airport",
+      "type": "used",
       "lat": 30.57191,
       "lon": 103.954297,
       "country": "cr",
@@ -2320,6 +2520,7 @@
     {
       "name_zh": "都江堰",
       "name_en": "Dujiangyan",
+      "type": "used",
       "lat": 30.960216,
       "lon": 103.637,
       "country": "cr",
@@ -2331,6 +2532,7 @@
     {
       "name_zh": "犀浦",
       "name_en": "Xipu",
+      "type": "used",
       "lat": 30.759841,
       "lon": 103.970208,
       "country": "cr",
@@ -2342,6 +2544,7 @@
     {
       "name_zh": "广汉北",
       "name_en": "Guanghan N.",
+      "type": "used",
       "lat": 31.011319,
       "lon": 104.272993,
       "country": "cr",
@@ -2353,6 +2556,7 @@
     {
       "name_zh": "黄龙九寨",
       "name_en": "Huanglong Jiuzhai",
+      "type": "used",
       "lat": 32.747465,
       "lon": 103.612973,
       "country": "cr",
@@ -2364,6 +2568,7 @@
     {
       "name_zh": "西昌西",
       "name_en": "Xichang W.",
+      "type": "used",
       "lat": 27.871463,
       "lon": 102.160204,
       "country": "cr",
@@ -2375,6 +2580,7 @@
     {
       "name_zh": "攀枝花南",
       "name_en": "Panzhihua S.",
+      "type": "used",
       "lat": 26.471606,
       "lon": 101.74648,
       "country": "cr",
@@ -2386,6 +2592,7 @@
     {
       "name_zh": "资阳北",
       "name_en": "Ziyang N.",
+      "type": "used",
       "lat": 30.128504,
       "lon": 104.679853,
       "country": "cr",
@@ -2397,6 +2604,7 @@
     {
       "name_zh": "昆明",
       "name_en": "Kunming",
+      "type": "used",
       "lat": 25.017766,
       "lon": 102.720356,
       "country": "cr",
@@ -2409,6 +2617,7 @@
     {
       "name_zh": "昆明南",
       "name_en": "Kunming S.",
+      "type": "used",
       "lat": 24.873557,
       "lon": 102.86011,
       "country": "cr",
@@ -2422,6 +2631,7 @@
     {
       "name_zh": "普洱",
       "name_en": "Pu'er",
+      "type": "used",
       "lat": 22.778273,
       "lon": 100.940768,
       "country": "cr",
@@ -2433,6 +2643,7 @@
     {
       "name_zh": "丽江",
       "name_en": "Lijiang",
+      "type": "used",
       "lat": 26.81422,
       "lon": 100.251512,
       "country": "cr",
@@ -2444,6 +2655,7 @@
     {
       "name_zh": "香格里拉",
       "name_en": "Shangri-La",
+      "type": "used",
       "lat": 27.813351,
       "lon": 99.688547,
       "country": "cr",
@@ -2455,6 +2667,7 @@
     {
       "name_zh": "兰州西",
       "name_en": "Lanzhou W.",
+      "type": "used",
       "lat": 36.069222,
       "lon": 103.74973,
       "country": "cr",
@@ -2467,6 +2680,7 @@
     {
       "name_zh": "天水",
       "name_en": "Tianshui",
+      "type": "used",
       "lat": 34.566714,
       "lon": 105.894849,
       "country": "cr",
@@ -2478,6 +2692,7 @@
     {
       "name_zh": "天水南",
       "name_en": "Tianshui S.",
+      "type": "used",
       "lat": 34.549947,
       "lon": 105.854066,
       "country": "cr",
@@ -2489,6 +2704,7 @@
     {
       "name_zh": "银川",
       "name_en": "Yinchuan",
+      "type": "used",
       "lat": 38.490755,
       "lon": 106.170352,
       "country": "cr",
@@ -2501,6 +2717,7 @@
     {
       "name_zh": "格尔木",
       "name_en": "Golmud",
+      "type": "used",
       "lat": 36.383439,
       "lon": 94.906191,
       "country": "cr",
@@ -2512,6 +2729,7 @@
     {
       "name_zh": "海东西",
       "name_en": "Haidong W.",
+      "type": "used",
       "lat": 36.509383,
       "lon": 102.052982,
       "country": "cr",
@@ -2523,6 +2741,7 @@
     {
       "name_zh": "拉萨",
       "name_en": "Lhasa",
+      "type": "used",
       "lat": 29.625868,
       "lon": 91.068171,
       "country": "cr",
@@ -2535,6 +2754,7 @@
     {
       "name_zh": "日喀则",
       "name_en": "Shigatse",
+      "type": "used",
       "lat": 29.224193,
       "lon": 88.91301,
       "country": "cr",
@@ -2546,6 +2766,7 @@
     {
       "name_zh": "天王寺",
       "name_en": "Tennoji",
+      "type": "used",
       "lat": 34.647331,
       "lon": 135.515242,
       "country": "jr",
@@ -2559,6 +2780,7 @@
     {
       "name_zh": "大阪",
       "name_en": "Osaka",
+      "type": "used",
       "lat": 34.702221,
       "lon": 135.495576,
       "country": "jr",
@@ -2571,6 +2793,7 @@
     {
       "name_zh": "西九条",
       "name_en": "Nishi-Kujo",
+      "type": "used",
       "lat": 34.682271,
       "lon": 135.466318,
       "country": "jr",
@@ -2583,6 +2806,7 @@
     {
       "name_zh": "今宫",
       "name_en": "Imamia",
+      "type": "used",
       "lat": 34.653951,
       "lon": 135.493028,
       "country": "jr",
@@ -2595,6 +2819,7 @@
     {
       "name_zh": "新今宫",
       "name_en": "Shin-Imamia",
+      "type": "used",
       "lat": 34.649843,
       "lon": 135.502195,
       "country": "jr",
@@ -2607,6 +2832,7 @@
     {
       "name_zh": "JR难波",
       "name_en": "JR Namba",
+      "type": "used",
       "lat": 34.666478,
       "lon": 135.495326,
       "country": "jr",
@@ -2618,6 +2844,7 @@
     {
       "name_zh": "和歌山",
       "name_en": "Wakayama",
+      "type": "used",
       "lat": 34.232202,
       "lon": 135.191582,
       "country": "jr",
@@ -2630,6 +2857,7 @@
     {
       "name_zh": "敦贺",
       "name_en": "Tsuruga",
+      "type": "used",
       "lat": 35.644882,
       "lon": 136.076392,
       "country": "jr",
@@ -2641,6 +2869,7 @@
     {
       "name_zh": "草津",
       "name_en": "",
+      "type": "used",
       "lat": 35.02256,
       "lon": 135.961824,
       "country": "jr",
@@ -2653,6 +2882,7 @@
     {
       "name_zh": "石山",
       "name_en": "Ishiyama",
+      "type": "used",
       "lat": 34.979931,
       "lon": 135.900007,
       "country": "jr",
@@ -2664,6 +2894,7 @@
     {
       "name_zh": "三宫",
       "name_en": "Sannomiya",
+      "type": "used",
       "lat": 34.694863,
       "lon": 135.195082,
       "country": "jr",
@@ -2675,6 +2906,7 @@
     {
       "name_zh": "山科",
       "name_en": "Yamashina",
+      "type": "used",
       "lat": 34.992633,
       "lon": 135.817226,
       "country": "jr",
@@ -2687,6 +2919,7 @@
     {
       "name_zh": "京都",
       "name_en": "Kyoto",
+      "type": "used",
       "lat": 34.985363,
       "lon": 135.758775,
       "country": "jr",
@@ -2700,6 +2933,7 @@
     {
       "name_zh": "神户",
       "name_en": "Kobe",
+      "type": "used",
       "lat": 34.67929,
       "lon": 135.178289,
       "country": "jr",
@@ -2711,6 +2945,7 @@
     {
       "name_zh": "姬路",
       "name_en": "Himeji",
+      "type": "used",
       "lat": 34.826887,
       "lon": 134.690242,
       "country": "jr",
@@ -2722,6 +2957,7 @@
     {
       "name_zh": "梅小路京都西",
       "name_en": "Umekoji-Kyoto Nishi",
+      "type": "used",
       "lat": 34.988649,
       "lon": 135.743197,
       "country": "jr",
@@ -2733,6 +2969,7 @@
     {
       "name_zh": "嵯峨岚山",
       "name_en": "Saga Arashiyama",
+      "type": "used",
       "lat": 35.018779,
       "lon": 135.681415,
       "country": "jr",
@@ -2744,6 +2981,7 @@
     {
       "name_zh": "柘植",
       "name_en": "",
+      "type": "used",
       "lat": 34.846851,
       "lon": 136.25596,
       "country": "jr",
@@ -2756,6 +2994,7 @@
     {
       "name_zh": "加茂",
       "name_en": "Kamo",
+      "type": "used",
       "lat": 34.752709,
       "lon": 135.869854,
       "country": "jr",
@@ -2767,6 +3006,7 @@
     {
       "name_zh": "JR奈良",
       "name_en": "JR Nara",
+      "type": "used",
       "lat": 34.680812,
       "lon": 135.818943,
       "country": "jr",
@@ -2778,6 +3018,7 @@
     {
       "name_zh": "久宝寺",
       "name_en": "Kyuhoji",
+      "type": "used",
       "lat": 34.622444,
       "lon": 135.584024,
       "country": "jr",
@@ -2789,6 +3030,7 @@
     {
       "name_zh": "关西空港",
       "name_en": "Kansai Airport",
+      "type": "used",
       "lat": 34.435868,
       "lon": 135.243486,
       "country": "nk",
@@ -2800,6 +3042,7 @@
     {
       "name_zh": "加太",
       "name_en": "Kada",
+      "type": "used",
       "lat": 34.275105,
       "lon": 135.080823,
       "country": "nk",
@@ -2811,6 +3054,7 @@
     {
       "name_zh": "和歌山市",
       "name_en": "Wakayamashi",
+      "type": "used",
       "lat": 34.236792,
       "lon": 135.167051,
       "country": "nk",
@@ -2823,6 +3067,7 @@
     {
       "name_zh": "淀屋桥",
       "name_en": "Yodoyabashi",
+      "type": "used",
       "lat": 34.692486,
       "lon": 135.501377,
       "country": "kh",
@@ -2834,6 +3079,7 @@
     {
       "name_zh": "三条",
       "name_en": "Sanjo",
+      "type": "used",
       "lat": 35.009015,
       "lon": 135.772334,
       "country": "kh",
@@ -2845,6 +3091,7 @@
     {
       "name_zh": "近铁奈良",
       "name_en": "KT Nara",
+      "type": "used",
       "lat": 34.684133,
       "lon": 135.828556,
       "country": "kt",
@@ -2856,6 +3103,7 @@
     {
       "name_zh": "近铁日本桥",
       "name_en": "KT Nippombashi",
+      "type": "used",
       "lat": 34.666901,
       "lon": 135.505701,
       "country": "kt",
@@ -2867,6 +3115,7 @@
     {
       "name_zh": "大阪梅田",
       "name_en": "Osaka Umeda",
+      "type": "used",
       "lat": 34.705282,
       "lon": 135.498392,
       "country": "hk",
@@ -2878,6 +3127,7 @@
     {
       "name_zh": "庄内",
       "name_en": "Shonai",
+      "type": "used",
       "lat": 34.750263,
       "lon": 135.475038,
       "country": "hk",
@@ -2889,12 +3139,1903 @@
     {
       "name_zh": "阪神三宫",
       "name_en": "HS Sannomiya",
+      "type": "used",
       "lat": 34.693665,
       "lon": 135.195434,
       "country": "hs",
       "code": "032",
       "lines": [
         "阪神本线"
+      ]
+    },
+    {
+      "name_zh": "米原",
+      "name_en": "",
+      "type": "junction",
+      "lat": 35.314809,
+      "lon": 136.290175,
+      "country": "jr",
+      "code": "A12",
+      "lines": [
+        "JR北陆线",
+        "JR东海道线"
+      ]
+    },
+    {
+      "name_zh": "近江盐津",
+      "name_en": "",
+      "type": "junction",
+      "lat": 35.53911,
+      "lon": 136.151494,
+      "country": "jr",
+      "code": "A03",
+      "lines": [
+        "JR北陆线",
+        "JR湖西线"
+      ]
+    },
+    {
+      "name_zh": "木津",
+      "name_en": "",
+      "type": "junction",
+      "lat": 34.735856,
+      "lon": 135.824919,
+      "country": "jr",
+      "code": "D19",
+      "lines": [
+        "JR奈良线",
+        "JR关西线"
+      ]
+    },
+    {
+      "name_zh": "阪神尼崎",
+      "name_en": "",
+      "type": "junction",
+      "lat": 34.718591,
+      "lon": 135.417325,
+      "country": "hs",
+      "code": "HS09",
+      "lines": [
+        "阪神本线",
+        "阪神难波线"
+      ]
+    },
+    {
+      "name_zh": "纪之川",
+      "name_en": "",
+      "type": "junction",
+      "lat": 34.255191,
+      "lon": 135.165396,
+      "country": "nk",
+      "code": "044",
+      "lines": [
+        "南海加太线",
+        "南海本线"
+      ]
+    },
+    {
+      "name_zh": "泉佐野",
+      "name_en": "",
+      "type": "junction",
+      "lat": 34.411187,
+      "lon": 135.316983,
+      "country": "nk",
+      "code": "030",
+      "lines": [
+        "南海本线",
+        "南海机场线"
+      ]
+    },
+    {
+      "name_zh": "陆渡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.476506,
+      "lon": 121.206389,
+      "country": "cr",
+      "code": "16567",
+      "lines": [
+        "太仓联络线",
+        "沪苏通线"
+      ]
+    },
+    {
+      "name_zh": "宣城",
+      "name_en": "Xuancheng",
+      "type": "junction",
+      "lat": 30.949536,
+      "lon": 118.76913,
+      "country": "cr",
+      "code": "31319",
+      "lines": [
+        "宣绩高速线",
+        "皖赣线",
+        "宣杭线"
+      ]
+    },
+    {
+      "name_zh": "绩溪北",
+      "name_en": "Jixi N.",
+      "type": "junction",
+      "lat": 30.073797,
+      "lon": 118.566754,
+      "country": "cr",
+      "code": "34126",
+      "lines": [
+        "宣绩高速线",
+        "杭昌高速线",
+        "合福高速线合黄段"
+      ]
+    },
+    {
+      "name_zh": "三星堆",
+      "name_en": "Sanxingdui",
+      "type": "junction",
+      "lat": 30.943766,
+      "lon": 104.208086,
+      "country": "cr",
+      "code": "45573",
+      "lines": [
+        "川青线",
+        "青三联络线"
+      ]
+    },
+    {
+      "name_zh": "康山所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.81879,
+      "lon": 120.044329,
+      "country": "cr",
+      "code": "503ae511",
+      "lines": [
+        "康山联络线",
+        "沪苏湖高速线"
+      ]
+    },
+    {
+      "name_zh": "妙西镇所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.797443,
+      "lon": 120.017234,
+      "country": "cr",
+      "code": "c85ef475",
+      "lines": [
+        "康山联络线",
+        "合杭高速线"
+      ]
+    },
+    {
+      "name_zh": "桐庐东",
+      "name_en": "Tonglu E.",
+      "type": "junction",
+      "lat": 29.857599,
+      "lon": 119.760292,
+      "country": "cr",
+      "code": "66276",
+      "lines": [
+        "杭温高速线杭义段",
+        "桐庐联络线",
+        "合杭高速线"
+      ]
+    },
+    {
+      "name_zh": "永嘉所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 28.072229,
+      "lon": 120.718614,
+      "country": "cr",
+      "code": "f77128ce",
+      "lines": [
+        "杭温高速线义温段",
+        "永嘉联络线"
+      ]
+    },
+    {
+      "name_zh": "桐庐",
+      "name_en": "Tonglu",
+      "type": "junction",
+      "lat": 29.790478,
+      "lon": 119.729569,
+      "country": "cr",
+      "code": "32372",
+      "lines": [
+        "桐庐联络线",
+        "杭昌高速线"
+      ]
+    },
+    {
+      "name_zh": "胜芳",
+      "name_en": "Shengfang",
+      "type": "junction",
+      "lat": 39.137775,
+      "lon": 116.753448,
+      "country": "cr",
+      "code": "20381",
+      "lines": [
+        "津兴城际线",
+        "津霸线"
+      ]
+    },
+    {
+      "name_zh": "固安东",
+      "name_en": "Gu'an E.",
+      "type": "junction",
+      "lat": 39.370921,
+      "lon": 116.398003,
+      "country": "cr",
+      "code": "21160",
+      "lines": [
+        "津兴城际线",
+        "京雄城际线"
+      ]
+    },
+    {
+      "name_zh": "南通西",
+      "name_en": "Nantong W.",
+      "type": "junction",
+      "lat": 32.103157,
+      "lon": 120.760711,
+      "country": "cr",
+      "code": "16555",
+      "lines": [
+        "盐通高速线",
+        "沪苏通线"
+      ]
+    },
+    {
+      "name_zh": "高辛庄所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 39.925177,
+      "lon": 116.725417,
+      "country": "cr",
+      "code": "d5c7787f",
+      "lines": [
+        "通燕联络线",
+        "京哈线"
+      ]
+    },
+    {
+      "name_zh": "北刘各庄所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 39.933754,
+      "lon": 116.761143,
+      "country": "cr",
+      "code": "1036923d",
+      "lines": [
+        "通燕联络线",
+        "京唐城际线"
+      ]
+    },
+    {
+      "name_zh": "青白江东",
+      "name_en": "Qingbaijiang E.",
+      "type": "junction",
+      "lat": 30.896903,
+      "lon": 104.223226,
+      "country": "cr",
+      "code": "47609",
+      "lines": [
+        "青三联络线",
+        "西成高速线"
+      ]
+    },
+    {
+      "name_zh": "龙形村所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 27.495965,
+      "lon": 109.961417,
+      "country": "cr",
+      "code": "352d5dea",
+      "lines": [
+        "张吉怀高速线",
+        "龙怀联络线"
+      ]
+    },
+    {
+      "name_zh": "沙堤所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 29.196936,
+      "lon": 110.439738,
+      "country": "cr",
+      "code": "1f97993f",
+      "lines": [
+        "张吉怀高速线",
+        "张家界西联络线"
+      ]
+    },
+    {
+      "name_zh": "张家界西",
+      "name_en": "Zhangjiajie W.",
+      "type": "junction",
+      "lat": 29.116602,
+      "lon": 110.497768,
+      "country": "cr",
+      "code": "26777",
+      "lines": [
+        "张家界西联络线",
+        "渝厦高速线"
+      ]
+    },
+    {
+      "name_zh": "黄金园所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 28.277995,
+      "lon": 112.781419,
+      "country": "cr",
+      "code": "4eb13889",
+      "lines": [
+        "渝厦高速线",
+        "长黄联络线"
+      ]
+    },
+    {
+      "name_zh": "怀化南",
+      "name_en": "Huaihua S.",
+      "type": "junction",
+      "lat": 27.515508,
+      "lon": 109.988987,
+      "country": "cr",
+      "code": "65678",
+      "lines": [
+        "龙怀联络线",
+        "沪昆高速线赣湘段"
+      ]
+    },
+    {
+      "name_zh": "凤凰西所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 18.309082,
+      "lon": 109.366121,
+      "country": "cr",
+      "code": "f1f7e412",
+      "lines": [
+        "凤凰联络线",
+        "海南西环线"
+      ]
+    },
+    {
+      "name_zh": "崖州湾",
+      "name_en": "Yazhou Bay",
+      "type": "junction",
+      "lat": 18.354942,
+      "lon": 109.180836,
+      "country": "cr",
+      "code": "454ca49b",
+      "lines": [
+        "崖州联络线",
+        "海南西环线"
+      ]
+    },
+    {
+      "name_zh": "龙里",
+      "name_en": "Longli",
+      "type": "junction",
+      "lat": 26.451631,
+      "lon": 106.968905,
+      "country": "cr",
+      "code": "37580",
+      "lines": [
+        "贵阳客车线",
+        "沪昆线"
+      ]
+    },
+    {
+      "name_zh": "秦祺村所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 26.499658,
+      "lon": 106.784258,
+      "country": "cr",
+      "code": "45c67dbe",
+      "lines": [
+        "贵阳客车线",
+        "秦双联络线"
+      ]
+    },
+    {
+      "name_zh": "广州莲花山",
+      "name_en": "Guangzhou Lianhuashan",
+      "type": "junction",
+      "lat": 23.004813,
+      "lon": 113.486935,
+      "country": "gi",
+      "code": "H05",
+      "lines": [
+        "琶莲城际线",
+        "广惠城际线"
+      ]
+    },
+    {
+      "name_zh": "番禺",
+      "name_en": "Panyu",
+      "type": "junction",
+      "lat": 22.989839,
+      "lon": 113.267643,
+      "country": "gi",
+      "code": "D01",
+      "lines": [
+        "广惠城际线",
+        "广肇城际线"
+      ]
+    },
+    {
+      "name_zh": "长沙西",
+      "name_en": "Changsha W.",
+      "type": "junction",
+      "lat": 28.265408,
+      "lon": 112.820446,
+      "country": "cr",
+      "code": "65201",
+      "lines": [
+        "长黄联络线",
+        "长沙西城际线"
+      ]
+    },
+    {
+      "name_zh": "长阳村所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 39.771151,
+      "lon": 116.175211,
+      "country": "cr",
+      "code": "2108bd63",
+      "lines": [
+        "京广线京石段",
+        "西长线"
+      ]
+    },
+    {
+      "name_zh": "柳辛庄",
+      "name_en": "Liuxinzhuang",
+      "type": "junction",
+      "lat": 38.099931,
+      "lon": 114.50389,
+      "country": "cr",
+      "code": "20369",
+      "lines": [
+        "京广线京石段",
+        "石家庄西北环线"
+      ]
+    },
+    {
+      "name_zh": "汉西",
+      "name_en": "Hanxi",
+      "type": "junction",
+      "lat": 30.593617,
+      "lon": 114.222257,
+      "country": "cr",
+      "code": "21059",
+      "lines": [
+        "京广线郑武段",
+        "汉西联络线"
+      ]
+    },
+    {
+      "name_zh": "武昌南",
+      "name_en": "Wuchang S.",
+      "type": "junction",
+      "lat": 30.473889,
+      "lon": 114.296903,
+      "country": "cr",
+      "code": "21089",
+      "lines": [
+        "京广线武广段",
+        "武昌南环线"
+      ]
+    },
+    {
+      "name_zh": "黄土坡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 39.768604,
+      "lon": 116.279925,
+      "country": "cr",
+      "code": "1cfdd7a5",
+      "lines": [
+        "京沪线",
+        "京九线京昌段"
+      ]
+    },
+    {
+      "name_zh": "汉沟镇",
+      "name_en": "Hangou",
+      "type": "junction",
+      "lat": 39.298274,
+      "lon": 117.102822,
+      "country": "cr",
+      "code": "10091",
+      "lines": [
+        "京沪线",
+        "津蓟线"
+      ]
+    },
+    {
+      "name_zh": "桥南所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 36.704278,
+      "lon": 116.827011,
+      "country": "cr",
+      "code": "16283",
+      "lines": [
+        "京沪线",
+        "京沪济南线"
+      ]
+    },
+    {
+      "name_zh": "党家庄",
+      "name_en": "Dangjiazhuang",
+      "type": "junction",
+      "lat": 36.578649,
+      "lon": 116.89784,
+      "country": "cr",
+      "code": "16319",
+      "lines": [
+        "京沪线",
+        "京沪济南线"
+      ]
+    },
+    {
+      "name_zh": "徐州",
+      "name_en": "Xuzhou",
+      "type": "junction",
+      "lat": 34.266126,
+      "lon": 117.202226,
+      "country": "cr",
+      "code": "16628",
+      "lines": [
+        "京沪线",
+        "陇海线"
+      ]
+    },
+    {
+      "name_zh": "林场",
+      "name_en": "Linchang",
+      "type": "junction",
+      "lat": 32.162457,
+      "lon": 118.675223,
+      "country": "cr",
+      "code": "16802",
+      "lines": [
+        "京沪线",
+        "宁启线"
+      ]
+    },
+    {
+      "name_zh": "黄渡",
+      "name_en": "Huangdu",
+      "type": "junction",
+      "lat": 31.295703,
+      "lon": 121.235915,
+      "country": "cr",
+      "code": "30566",
+      "lines": [
+        "京沪线",
+        "黄封线",
+        "沪苏通线"
+      ]
+    },
+    {
+      "name_zh": "北园",
+      "name_en": "Beiyuan",
+      "type": "junction",
+      "lat": 36.690379,
+      "lon": 116.997805,
+      "country": "cr",
+      "code": "16292",
+      "lines": [
+        "京沪济南线",
+        "京胶联络线"
+      ]
+    },
+    {
+      "name_zh": "商丘",
+      "name_en": "Shangqiu",
+      "type": "junction",
+      "lat": 34.447534,
+      "lon": 115.652543,
+      "country": "cr",
+      "code": "38702",
+      "lines": [
+        "陇海线",
+        "商丘西南联络线"
+      ]
+    },
+    {
+      "name_zh": "圃田西",
+      "name_en": "Putian W.",
+      "type": "junction",
+      "lat": 34.734952,
+      "lon": 113.694233,
+      "country": "cr",
+      "code": "38810",
+      "lines": [
+        "陇海线",
+        "郑州东北联络线"
+      ]
+    },
+    {
+      "name_zh": "兰州",
+      "name_en": "Lanzhou",
+      "type": "junction",
+      "lat": 36.035735,
+      "lon": 103.848009,
+      "country": "cr",
+      "code": "39872",
+      "lines": [
+        "陇海线",
+        "兰青线"
+      ]
+    },
+    {
+      "name_zh": "商丘南",
+      "name_en": "Shangqiu S.",
+      "type": "junction",
+      "lat": 34.409376,
+      "lon": 115.699022,
+      "country": "cr",
+      "code": "24890",
+      "lines": [
+        "京九线京昌段",
+        "商丘西南联络线"
+      ]
+    },
+    {
+      "name_zh": "阜阳北",
+      "name_en": "Fuyang N.",
+      "type": "junction",
+      "lat": 33.0192,
+      "lon": 115.862414,
+      "country": "cr",
+      "code": "25067",
+      "lines": [
+        "京九线京昌段",
+        "阜阳西联络线"
+      ]
+    },
+    {
+      "name_zh": "阜阳",
+      "name_en": "Fuyang",
+      "type": "junction",
+      "lat": 32.916619,
+      "lon": 115.861746,
+      "country": "cr",
+      "code": "25104",
+      "lines": [
+        "京九线京昌段",
+        "阜淮线",
+        "阜阳西联络线"
+      ]
+    },
+    {
+      "name_zh": "九江",
+      "name_en": "Jiujiang",
+      "type": "junction",
+      "lat": 29.706467,
+      "lon": 116.001822,
+      "country": "cr",
+      "code": "25322",
+      "lines": [
+        "京九线京昌段",
+        "衢九线"
+      ]
+    },
+    {
+      "name_zh": "九江西",
+      "name_en": "Jiujiang W.",
+      "type": "junction",
+      "lat": 29.644494,
+      "lon": 115.888598,
+      "country": "cr",
+      "code": "25324",
+      "lines": [
+        "京九线京昌段",
+        "武九线"
+      ]
+    },
+    {
+      "name_zh": "乐化",
+      "name_en": "Lehua",
+      "type": "junction",
+      "lat": 28.817378,
+      "lon": 115.865901,
+      "country": "cr",
+      "code": "25397",
+      "lines": [
+        "京九线京昌段",
+        "南昌西环线"
+      ]
+    },
+    {
+      "name_zh": "向塘",
+      "name_en": "Xiangtang",
+      "type": "junction",
+      "lat": 28.446298,
+      "lon": 115.956186,
+      "country": "cr",
+      "code": "25454",
+      "lines": [
+        "京九线南昌段",
+        "南昌西环线",
+        "向东D线"
+      ]
+    },
+    {
+      "name_zh": "三江镇",
+      "name_en": "Sanjiangzhen",
+      "type": "junction",
+      "lat": 28.311867,
+      "lon": 115.976545,
+      "country": "cr",
+      "code": "25487",
+      "lines": [
+        "京九线南昌段",
+        "昌福线"
+      ]
+    },
+    {
+      "name_zh": "北京东",
+      "name_en": "Beijing E.",
+      "type": "junction",
+      "lat": 39.901533,
+      "lon": 116.478422,
+      "country": "cr",
+      "code": "12158",
+      "lines": [
+        "京哈线",
+        "东星线"
+      ]
+    },
+    {
+      "name_zh": "唐山北",
+      "name_en": "Tangshan N.",
+      "type": "junction",
+      "lat": 39.816639,
+      "lon": 118.111845,
+      "country": "cr",
+      "code": "11159",
+      "lines": [
+        "京哈线",
+        "张唐线"
+      ]
+    },
+    {
+      "name_zh": "龙家营",
+      "name_en": "Langjiaying",
+      "type": "junction",
+      "lat": 39.962669,
+      "lon": 119.675464,
+      "country": "cr",
+      "code": "10328",
+      "lines": [
+        "京哈线",
+        "津秦高速线"
+      ]
+    },
+    {
+      "name_zh": "封浜",
+      "name_en": "Fengbang",
+      "type": "junction",
+      "lat": 31.25843,
+      "lon": 121.284308,
+      "country": "cr",
+      "code": "32045",
+      "lines": [
+        "沪昆线",
+        "黄封线",
+        "虹封线"
+      ]
+    },
+    {
+      "name_zh": "七宝",
+      "name_en": "Qibao",
+      "type": "junction",
+      "lat": 31.160707,
+      "lon": 121.323608,
+      "country": "cr",
+      "code": "32075",
+      "lines": [
+        "沪昆线",
+        "虹七线"
+      ]
+    },
+    {
+      "name_zh": "李家塘",
+      "name_en": "Lijiatang",
+      "type": "junction",
+      "lat": 31.113415,
+      "lon": 121.356107,
+      "country": "cr",
+      "code": "32076",
+      "lines": [
+        "沪昆线",
+        "李莘联络线"
+      ]
+    },
+    {
+      "name_zh": "春申",
+      "name_en": "Chunshen",
+      "type": "junction",
+      "lat": 31.081086,
+      "lon": 121.349777,
+      "country": "cr",
+      "code": "32081",
+      "lines": [
+        "沪昆线",
+        "沪春线"
+      ]
+    },
+    {
+      "name_zh": "笕桥",
+      "name_en": "Jianqiao",
+      "type": "junction",
+      "lat": 30.331066,
+      "lon": 120.212347,
+      "country": "cr",
+      "code": "32198",
+      "lines": [
+        "沪昆线",
+        "笕杭线",
+        "笕桥线"
+      ]
+    },
+    {
+      "name_zh": "梁家渡",
+      "name_en": "Liangjiadu",
+      "type": "junction",
+      "lat": 28.404634,
+      "lon": 115.997943,
+      "country": "cr",
+      "code": "32879",
+      "lines": [
+        "沪昆线",
+        "向东D线"
+      ]
+    },
+    {
+      "name_zh": "东门",
+      "name_en": "Dongmen",
+      "type": "junction",
+      "lat": 45.741982,
+      "lon": 126.716202,
+      "country": "cr",
+      "code": "62665",
+      "lines": [
+        "拉滨线",
+        "东新联络线"
+      ]
+    },
+    {
+      "name_zh": "榆树屯",
+      "name_en": "Yushutun",
+      "type": "junction",
+      "lat": 47.153445,
+      "lon": 123.887819,
+      "country": "cr",
+      "code": "56663",
+      "lines": [
+        "平齐线",
+        "榆红线"
+      ]
+    },
+    {
+      "name_zh": "昌平",
+      "name_en": "Changping",
+      "type": "junction",
+      "lat": 40.188625,
+      "lon": 116.187343,
+      "country": "cr",
+      "code": "12173",
+      "lines": [
+        "京通线",
+        "京包客运专线京呼段"
+      ]
+    },
+    {
+      "name_zh": "雁栖湖",
+      "name_en": "Yanqihu",
+      "type": "junction",
+      "lat": 40.373016,
+      "lon": 116.654039,
+      "country": "cr",
+      "code": "11627",
+      "lines": [
+        "京通线",
+        "怀范联络线"
+      ]
+    },
+    {
+      "name_zh": "隆化",
+      "name_en": "Longhua",
+      "type": "junction",
+      "lat": 41.326358,
+      "lon": 117.744138,
+      "country": "cr",
+      "code": "11726",
+      "lines": [
+        "京通线",
+        "承隆线"
+      ]
+    },
+    {
+      "name_zh": "青龙桥南所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 40.34551,
+      "lon": 116.016287,
+      "country": "cr",
+      "code": "d1cb33d9",
+      "lines": [
+        "京包线北京段",
+        "京包线青龙桥上行线"
+      ]
+    },
+    {
+      "name_zh": "青龙桥西",
+      "name_en": "",
+      "type": "junction",
+      "lat": 40.343699,
+      "lon": 116.010169,
+      "country": "cr",
+      "code": "8e3d1b7c",
+      "lines": [
+        "京包线北京段"
+      ]
+    },
+    {
+      "name_zh": "青龙桥北所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 40.35101,
+      "lon": 116.010063,
+      "country": "cr",
+      "code": "ecab1a69",
+      "lines": [
+        "京包线北京段",
+        "京包线青龙桥上行线"
+      ]
+    },
+    {
+      "name_zh": "青龙桥",
+      "name_en": "Qinglongqiao",
+      "type": "junction",
+      "lat": 40.34999,
+      "lon": 116.019242,
+      "country": "cr",
+      "code": "12212",
+      "lines": [
+        "京包线青龙桥上行线"
+      ]
+    },
+    {
+      "name_zh": "台阁牧",
+      "name_en": "Taigemu",
+      "type": "junction",
+      "lat": 40.745403,
+      "lon": 111.474239,
+      "country": "cr",
+      "code": "12596",
+      "lines": [
+        "京包线呼和浩特段",
+        "京包客运专线呼包段"
+      ]
+    },
+    {
+      "name_zh": "包头西",
+      "name_en": "Baotou W.",
+      "type": "junction",
+      "lat": 40.609339,
+      "lon": 109.745534,
+      "country": "cr",
+      "code": "14507",
+      "lines": [
+        "包兰线",
+        "包包联络线"
+      ]
+    },
+    {
+      "name_zh": "何刘",
+      "name_en": "Heliu",
+      "type": "junction",
+      "lat": 30.531025,
+      "lon": 114.490196,
+      "country": "cr",
+      "code": "21959",
+      "lines": [
+        "武九线",
+        "武昌南环线"
+      ]
+    },
+    {
+      "name_zh": "柳州",
+      "name_en": "Liuzhou",
+      "type": "junction",
+      "lat": 24.310558,
+      "lon": 109.383696,
+      "country": "cr",
+      "code": "36257",
+      "lines": [
+        "湘桂线",
+        "黔桂线"
+      ]
+    },
+    {
+      "name_zh": "黎塘",
+      "name_en": "Litang",
+      "type": "junction",
+      "lat": 23.197721,
+      "lon": 109.128793,
+      "country": "cr",
+      "code": "36374",
+      "lines": [
+        "湘桂线",
+        "黎湛线"
+      ]
+    },
+    {
+      "name_zh": "燕岗",
+      "name_en": "Yangang",
+      "type": "junction",
+      "lat": 29.555199,
+      "lon": 103.521754,
+      "country": "cr",
+      "code": "47744",
+      "lines": [
+        "峨广线",
+        "成昆线"
+      ]
+    },
+    {
+      "name_zh": "广通北",
+      "name_en": "Guangtong N.",
+      "type": "junction",
+      "lat": 25.167389,
+      "lon": 101.76366,
+      "country": "cr",
+      "code": "48101",
+      "lines": [
+        "峨广线",
+        "广昆线"
+      ]
+    },
+    {
+      "name_zh": "太原南",
+      "name_en": "Taiyuan S.",
+      "type": "junction",
+      "lat": 37.79058,
+      "lon": 112.603721,
+      "country": "cr",
+      "code": "26468",
+      "lines": [
+        "太中线",
+        "石太客运专线"
+      ]
+    },
+    {
+      "name_zh": "定边",
+      "name_en": "Dingbian",
+      "type": "junction",
+      "lat": 37.561211,
+      "lon": 107.571514,
+      "country": "cr",
+      "code": "65054",
+      "lines": [
+        "太中线",
+        "定银线"
+      ]
+    },
+    {
+      "name_zh": "富裕",
+      "name_en": "Fuyu",
+      "type": "junction",
+      "lat": 47.794401,
+      "lon": 124.453512,
+      "country": "cr",
+      "code": "59567",
+      "lines": [
+        "齐北线",
+        "富西线"
+      ]
+    },
+    {
+      "name_zh": "红旗营",
+      "name_en": "Hongqiying",
+      "type": "junction",
+      "lat": 47.114366,
+      "lon": 123.906848,
+      "country": "cr",
+      "code": "57485",
+      "lines": [
+        "滨洲线",
+        "榆红线"
+      ]
+    },
+    {
+      "name_zh": "牙克石",
+      "name_en": "Yakeshi",
+      "type": "junction",
+      "lat": 49.277502,
+      "lon": 120.731077,
+      "country": "cr",
+      "code": "57749",
+      "lines": [
+        "滨洲线",
+        "牙林线"
+      ]
+    },
+    {
+      "name_zh": "加格达奇",
+      "name_en": "Jagdaqi",
+      "type": "junction",
+      "lat": 50.418669,
+      "lon": 124.119179,
+      "country": "cr",
+      "code": "58910",
+      "lines": [
+        "富西线",
+        "伊加线"
+      ]
+    },
+    {
+      "name_zh": "伊图里河",
+      "name_en": "Yitulihe",
+      "type": "junction",
+      "lat": 50.627233,
+      "lon": 121.545366,
+      "country": "cr",
+      "code": "58298",
+      "lines": [
+        "伊加线",
+        "牙林线"
+      ]
+    },
+    {
+      "name_zh": "新香坊",
+      "name_en": "Xin Xiangfang",
+      "type": "junction",
+      "lat": 45.709644,
+      "lon": 126.761697,
+      "country": "cr",
+      "code": "61931",
+      "lines": [
+        "滨绥线哈牡段",
+        "东新联络线"
+      ]
+    },
+    {
+      "name_zh": "梅河口",
+      "name_en": "Meihekou",
+      "type": "junction",
+      "lat": 42.533609,
+      "lon": 125.679816,
+      "country": "cr",
+      "code": "64301",
+      "lines": [
+        "四梅线",
+        "梅集线"
+      ]
+    },
+    {
+      "name_zh": "石景山南",
+      "name_en": "Shijingshan S.",
+      "type": "junction",
+      "lat": 39.873525,
+      "lon": 116.208327,
+      "country": "cr",
+      "code": "13385",
+      "lines": [
+        "京原线",
+        "丰沙线"
+      ]
+    },
+    {
+      "name_zh": "怀柔",
+      "name_en": "Huairou",
+      "type": "junction",
+      "lat": 40.316018,
+      "lon": 116.642939,
+      "country": "cr",
+      "code": "11378",
+      "lines": [
+        "京承线北京段",
+        "怀范联络线"
+      ]
+    },
+    {
+      "name_zh": "赵家店所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 40.630505,
+      "lon": 117.768664,
+      "country": "cr",
+      "code": "697325ec",
+      "lines": [
+        "京承线承德段",
+        "李家营联络线"
+      ]
+    },
+    {
+      "name_zh": "李家营",
+      "name_en": "Lijiaying",
+      "type": "junction",
+      "lat": 40.582992,
+      "lon": 117.748895,
+      "country": "cr",
+      "code": "10973",
+      "lines": [
+        "张唐线",
+        "李家营联络线"
+      ]
+    },
+    {
+      "name_zh": "西陌堂所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 37.413618,
+      "lon": 121.339061,
+      "country": "cr",
+      "code": "18663",
+      "lines": [
+        "青烟直通线",
+        "青荣城际线青烟段"
+      ]
+    },
+    {
+      "name_zh": "淮南",
+      "name_en": "Huainan",
+      "type": "junction",
+      "lat": 32.633232,
+      "lon": 117.014504,
+      "country": "cr",
+      "code": "19682",
+      "lines": [
+        "淮南线",
+        "阜淮线"
+      ]
+    },
+    {
+      "name_zh": "莘庄",
+      "name_en": "Xinzhuang",
+      "type": "junction",
+      "lat": 31.110862,
+      "lon": 121.37985,
+      "country": "cr",
+      "code": "32078",
+      "lines": [
+        "沪春线",
+        "李莘联络线"
+      ]
+    },
+    {
+      "name_zh": "春申南所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.080518,
+      "lon": 121.350909,
+      "country": "cr",
+      "code": "912699c8",
+      "lines": [
+        "沪春线",
+        "沪苏湖高速线"
+      ]
+    },
+    {
+      "name_zh": "春申所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.081196,
+      "lon": 121.352311,
+      "country": "cr",
+      "code": "cc45f8ec",
+      "lines": [
+        "上海南联络线（沪春三四线）",
+        "沪昆高速线沪赣段"
+      ]
+    },
+    {
+      "name_zh": "笕桥所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.354931,
+      "lon": 120.244343,
+      "country": "cr",
+      "code": "a535f86a",
+      "lines": [
+        "笕桥线",
+        "沪昆高速线沪赣段"
+      ]
+    },
+    {
+      "name_zh": "前场",
+      "name_en": "Qianchang",
+      "type": "junction",
+      "lat": 24.572739,
+      "lon": 117.973087,
+      "country": "cr",
+      "code": "34565",
+      "lines": [
+        "鹰厦线",
+        "杭深线甬深段"
+      ]
+    },
+    {
+      "name_zh": "温州北",
+      "name_en": "Wenzhou N.",
+      "type": "junction",
+      "lat": 28.071188,
+      "lon": 120.692755,
+      "country": "cr",
+      "code": "33988",
+      "lines": [
+        "永嘉联络线",
+        "杭深线甬深段"
+      ]
+    },
+    {
+      "name_zh": "西宁",
+      "name_en": "Xining",
+      "type": "junction",
+      "lat": 36.620513,
+      "lon": 101.811449,
+      "country": "cr",
+      "code": "43502",
+      "lines": [
+        "兰青线",
+        "青藏线"
+      ]
+    },
+    {
+      "name_zh": "敦化",
+      "name_en": "Dunhua",
+      "type": "junction",
+      "lat": 43.37823,
+      "lon": 128.235667,
+      "country": "cr",
+      "code": "63227",
+      "lines": [
+        "敦白联络线",
+        "长珲城际线"
+      ]
+    },
+    {
+      "name_zh": "敦化南",
+      "name_en": "Dunhua S.",
+      "type": "junction",
+      "lat": 43.316878,
+      "lon": 128.332657,
+      "country": "cr",
+      "code": "09e52b7e",
+      "lines": [
+        "敦白联络线",
+        "沈佳高速线敦白段"
+      ]
+    },
+    {
+      "name_zh": "姚家窝堡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 42.024395,
+      "lon": 122.660732,
+      "country": "cr",
+      "code": "67034",
+      "lines": [
+        "姚田联络线",
+        "京哈高速线京沈段"
+      ]
+    },
+    {
+      "name_zh": "田家窝堡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 42.05201,
+      "lon": 122.683919,
+      "country": "cr",
+      "code": "53293",
+      "lines": [
+        "姚田联络线",
+        "新通客运专线"
+      ]
+    },
+    {
+      "name_zh": "崔家营子所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 43.934415,
+      "lon": 125.24999,
+      "country": "cr",
+      "code": "53480",
+      "lines": [
+        "哈长联络线",
+        "京哈高速线沈哈段"
+      ]
+    },
+    {
+      "name_zh": "杨家粉坊所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 43.916288,
+      "lon": 125.265797,
+      "country": "cr",
+      "code": "54119",
+      "lines": [
+        "哈长联络线",
+        "长珲城际线"
+      ]
+    },
+    {
+      "name_zh": "石家庄北",
+      "name_en": "Shijiazhuang N.",
+      "type": "junction",
+      "lat": 38.064809,
+      "lon": 114.458946,
+      "country": "cr",
+      "code": "26426",
+      "lines": [
+        "石家庄西北环线",
+        "石太客运专线"
+      ]
+    },
+    {
+      "name_zh": "走马岭所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.634842,
+      "lon": 114.013787,
+      "country": "cr",
+      "code": "0fe38421",
+      "lines": [
+        "高桥联络线",
+        "武汉枢纽直通线"
+      ]
+    },
+    {
+      "name_zh": "高桥所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.617726,
+      "lon": 114.055252,
+      "country": "cr",
+      "code": "06e54b21",
+      "lines": [
+        "高桥联络线",
+        "宁蓉线汉渝段"
+      ]
+    },
+    {
+      "name_zh": "大明湖",
+      "name_en": "Daminghu",
+      "type": "junction",
+      "lat": 36.681364,
+      "lon": 117.022926,
+      "country": "cr",
+      "code": "17699",
+      "lines": [
+        "京胶联络线",
+        "胶济客运专线"
+      ]
+    },
+    {
+      "name_zh": "崔马庄所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 36.550749,
+      "lon": 116.886917,
+      "country": "cr",
+      "code": "66501",
+      "lines": [
+        "济沪联络线",
+        "京沪高速线"
+      ]
+    },
+    {
+      "name_zh": "莱西东所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 36.842733,
+      "lon": 120.543955,
+      "country": "cr",
+      "code": "34f3f0d8",
+      "lines": [
+        "莱西联络线",
+        "潍荣高速线"
+      ]
+    },
+    {
+      "name_zh": "南仓所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 39.211126,
+      "lon": 117.168402,
+      "country": "cr",
+      "code": "10008",
+      "lines": [
+        "南仓城际高速联络线",
+        "京津城际线"
+      ]
+    },
+    {
+      "name_zh": "德州东",
+      "name_en": "Dezhou E.",
+      "type": "junction",
+      "lat": 37.408745,
+      "lon": 116.456489,
+      "country": "cr",
+      "code": "66809",
+      "lines": [
+        "德州东联络线",
+        "京沪高速线"
+      ]
+    },
+    {
+      "name_zh": "陵县所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 37.357157,
+      "lon": 116.472546,
+      "country": "cr",
+      "code": "66876",
+      "lines": [
+        "德州东联络线",
+        "石济客运专线"
+      ]
+    },
+    {
+      "name_zh": "包头",
+      "name_en": "Baotou",
+      "type": "junction",
+      "lat": 40.604055,
+      "lon": 109.831213,
+      "country": "cr",
+      "code": "14489",
+      "lines": [
+        "包包联络线",
+        "京包客运专线呼包段"
+      ]
+    },
+    {
+      "name_zh": "新墩",
+      "name_en": "Xindun",
+      "type": "junction",
+      "lat": 30.61956,
+      "lon": 114.191425,
+      "country": "cr",
+      "code": "29318",
+      "lines": [
+        "汉西联络线",
+        "宁蓉线汉渝段"
+      ]
+    },
+    {
+      "name_zh": "安亭北所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.298858,
+      "lon": 121.232398,
+      "country": "cr",
+      "code": "acf6abbb",
+      "lines": [
+        "虹安联络线",
+        "沪宁城际线"
+      ]
+    },
+    {
+      "name_zh": "黄渡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.300029,
+      "lon": 121.231279,
+      "country": "cr",
+      "code": "66521",
+      "lines": [
+        "黄渡联络线",
+        "京沪高速线"
+      ]
+    },
+    {
+      "name_zh": "南翔北所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.291749,
+      "lon": 121.26499,
+      "country": "cr",
+      "code": "66523",
+      "lines": [
+        "黄渡联络线",
+        "沪宁城际线"
+      ]
+    },
+    {
+      "name_zh": "上饶",
+      "name_en": "Shangrao",
+      "type": "junction",
+      "lat": 28.493506,
+      "lon": 118.001263,
+      "country": "cr",
+      "code": "32687",
+      "lines": [
+        "上饶东南联络线",
+        "合福高速线饶福段"
+      ]
+    },
+    {
+      "name_zh": "京福所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 28.494566,
+      "lon": 118.043677,
+      "country": "cr",
+      "code": "ad645c6d",
+      "lines": [
+        "上饶东南联络线",
+        "沪昆高速线沪赣段"
+      ]
+    },
+    {
+      "name_zh": "双龙南",
+      "name_en": "Shuanglong S.",
+      "type": "junction",
+      "lat": 26.485276,
+      "lon": 106.784883,
+      "country": "cr",
+      "code": "429e6741",
+      "lines": [
+        "秦双联络线",
+        "贵阳环线"
+      ]
+    },
+    {
+      "name_zh": "横店东",
+      "name_en": "Hengdian E.",
+      "type": "junction",
+      "lat": 30.795155,
+      "lon": 114.331511,
+      "country": "cr",
+      "code": "65797",
+      "lines": [
+        "京广高速线武广段",
+        "宁蓉线宁汉段"
+      ]
+    },
+    {
+      "name_zh": "仙林",
+      "name_en": "Xianlin",
+      "type": "junction",
+      "lat": 32.125148,
+      "lon": 118.907694,
+      "country": "cr",
+      "code": "66310",
+      "lines": [
+        "宁蓉线宁汉段",
+        "沪宁城际线"
+      ]
+    },
+    {
+      "name_zh": "塘雅所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 29.158618,
+      "lon": 119.787356,
+      "country": "cr",
+      "code": "33001",
+      "lines": [
+        "沪昆高速线沪赣段",
+        "金温线"
+      ]
+    },
+    {
+      "name_zh": "胶州北",
+      "name_en": "Jiaozhou N.",
+      "type": "junction",
+      "lat": 36.396203,
+      "lon": 120.049952,
+      "country": "cr",
+      "code": "17963",
+      "lines": [
+        "胶济客运专线",
+        "济青高速线"
+      ]
+    },
+    {
+      "name_zh": "徐州东所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 34.313519,
+      "lon": 117.289908,
+      "country": "cr",
+      "code": "38934",
+      "lines": [
+        "徐兰高速线郑徐段",
+        "徐州联络线"
+      ]
+    },
+    {
+      "name_zh": "丹徒",
+      "name_en": "Dantu",
+      "type": "junction",
+      "lat": 32.117424,
+      "lon": 119.515677,
+      "country": "cr",
+      "code": "66316",
+      "lines": [
+        "沪宁城际线",
+        "连镇高速线"
+      ]
+    },
+    {
+      "name_zh": "荣成",
+      "name_en": "Rongcheng",
+      "type": "junction",
+      "lat": 37.143949,
+      "lon": 122.403781,
+      "country": "cr",
+      "code": "18675",
+      "lines": [
+        "青荣城际线威荣段",
+        "潍荣高速线"
+      ]
+    },
+    {
+      "name_zh": "白云北",
+      "name_en": "Baiyun N.",
+      "type": "junction",
+      "lat": 26.706559,
+      "lon": 106.658899,
+      "country": "cr",
+      "code": "4d19753d",
+      "lines": [
+        "成贵客运专线贵阳段",
+        "贵阳环线"
+      ]
+    },
+    {
+      "name_zh": "尖坡所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 26.686657,
+      "lon": 106.69012,
+      "country": "cr",
+      "code": "fc185e6b",
+      "lines": [
+        "成贵客运专线贵阳段",
+        "成贵贵阳北联络线"
+      ]
+    },
+    {
+      "name_zh": "巢湖东",
+      "name_en": "Chaohu E.",
+      "type": "junction",
+      "lat": 31.620012,
+      "lon": 117.919911,
+      "country": "cr",
+      "code": "34114",
+      "lines": [
+        "合福高速线合黄段",
+        "巢湖东南联络线"
+      ]
+    },
+    {
+      "name_zh": "南阳寨",
+      "name_en": "Nanyangzhai",
+      "type": "junction",
+      "lat": 34.815844,
+      "lon": 113.61093,
+      "country": "cr",
+      "code": "21749",
+      "lines": [
+        "郑太客运专线"
+      ]
+    },
+    {
+      "name_zh": "八达岭西所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 40.382513,
+      "lon": 115.960675,
+      "country": "cr",
+      "code": "a7e2bfc6",
+      "lines": [
+        "京包客运专线京呼段",
+        "延庆线"
+      ]
+    },
+    {
+      "name_zh": "济南东",
+      "name_en": "Jinan E.",
+      "type": "junction",
+      "lat": 36.747458,
+      "lon": 117.153829,
+      "country": "cr",
+      "code": "17601",
+      "lines": [
+        "石济客运专线",
+        "济青高速线"
+      ]
+    },
+    {
+      "name_zh": "董集",
+      "name_en": "Dongji",
+      "type": "junction",
+      "lat": 34.431605,
+      "lon": 119.230811,
+      "country": "cr",
+      "code": "38487",
+      "lines": [
+        "青盐线",
+        "连镇高速线"
+      ]
+    },
+    {
+      "name_zh": "新沟北所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.714033,
+      "lon": 113.929175,
+      "country": "cr",
+      "code": "1fc8fda8",
+      "lines": [
+        "沪渝蓉高速线",
+        "新沟北联络线"
+      ]
+    },
+    {
+      "name_zh": "革新所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.693377,
+      "lon": 113.967255,
+      "country": "cr",
+      "code": "3f957c06",
+      "lines": [
+        "武汉枢纽直通线",
+        "新沟北联络线"
+      ]
+    },
+    {
+      "name_zh": "胡庄所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 31.589392,
+      "lon": 117.948045,
+      "country": "cr",
+      "code": "8fdcda66",
+      "lines": [
+        "合杭高速线",
+        "巢湖东南联络线"
+      ]
+    },
+    {
+      "name_zh": "横山所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 32.148336,
+      "lon": 119.519736,
+      "country": "cr",
+      "code": "5120128c",
+      "lines": [
+        "连镇高速线",
+        "镇江联络线"
+      ]
+    },
+    {
+      "name_zh": "杭甬杭州南所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 30.140235,
+      "lon": 120.320491,
+      "country": "cr",
+      "code": "4041effe",
+      "lines": [
+        "杭深线杭甬段",
+        "杭甬联络线"
       ]
     }
   ]

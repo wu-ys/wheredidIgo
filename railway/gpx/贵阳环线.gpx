@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="26.706559" lon="106.658899">
     <name>白云北</name>
-    <desc>cr</desc>
+    <desc>cr4d19753d</desc>
   </wpt>
   <wpt lat="26.469122" lon="106.481856">
     <name>贵安</name>
@@ -14,7 +14,7 @@
   </wpt>
   <wpt lat="26.485276" lon="106.784883">
     <name>双龙南</name>
-    <desc>cr</desc>
+    <desc>cr429e6741</desc>
   </wpt>
   <trk>
     <name>贵阳环线（白云北-双龙南） (78.4km)</name>

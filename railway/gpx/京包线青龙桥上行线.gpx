@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.34551" lon="116.016287">
     <name>青龙桥南所</name>
-    <desc>cr</desc>
+    <desc>crd1cb33d9</desc>
   </wpt>
   <wpt lat="40.34999" lon="116.019242">
     <name>青龙桥</name>
@@ -10,7 +10,7 @@
   </wpt>
   <wpt lat="40.35101" lon="116.010063">
     <name>青龙桥北所</name>
-    <desc>cr</desc>
+    <desc>crecab1a69</desc>
   </wpt>
   <trk>
     <name>京包青龙桥上行线 (1.8km)</name>
