@@ -238,8 +238,8 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, use
 
         railway_json[r_name + r_name_suffix] = {
             "line_ref": r_line_ref,
-            "name_zh": r_name,
-            "name_en": r_name_en,
+            "zh": r_name,
+            "en": r_name_en,
             "country": r_country,
             "type": r_type,
             "speed": r_speed,
