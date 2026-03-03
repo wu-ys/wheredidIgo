@@ -300,7 +300,6 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, use
                     ))
                     station_dict[s]["lines"].append(r_name + r_name_suffix)
 
-                    print(s, r_name + r_name_suffix, station_dict[s]["lines"])
                 else:
                     print(f"\033[33mWarning: Station {s} of railway {r_name + r_name_suffix} has no coordinate, skipped.\033[0m")
                     gpx_changed = False
@@ -372,13 +371,14 @@ if __name__ == "__main__":
                 "country": ""
             }])], ignore_index=True)
 
-    print("以下车站在铁路数据中出现，但在车站数据中没有坐标信息：")
-    print(missing_stations)
-    cmd = input("是否将这些车站添加到 unusedstation.csv 中？\n输入 Y+Enter 添加，否则不添加: ").strip().lower()
+    if len(missing_stations) > 0:
+        print("以下车站在铁路数据中出现，但在车站数据中没有坐标信息：")
+        print(missing_stations)
+        cmd = input("是否将这些车站添加到 unusedstation.csv 中？\n输入 Y+Enter 添加，否则不添加: ").strip().lower()
 
-    if cmd == "y":
-        unusedstation_csv.to_csv(unusedstation_csv_file_path, index=False, encoding='utf-8')
-        print("已将缺失车站添加到 unusedstation.csv 中。")
+        if cmd == "y":
+            unusedstation_csv.to_csv(unusedstation_csv_file_path, index=False, encoding='utf-8')
+            print("已将缺失车站添加到 unusedstation.csv 中。")
 
     station_json = {"railway": []}
 
@@ -395,4 +395,4 @@ if __name__ == "__main__":
 
     with open(station_json_file_path, 'w', encoding='utf-8') as f:    
         json.dump(station_json, f, ensure_ascii=False, indent=2)
-        print(f"已生成 {station_json_file_path} 文件，包含 {len(usedstation_dict)} 个车站。")
+        print(f"已生成 station.json 文件，包含 {len(usedstation_dict)} 个车站。")

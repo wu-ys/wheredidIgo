@@ -1626,8 +1626,8 @@
       "name_en": "Huadu",
       "lat": 23.379797,
       "lon": 113.197517,
-      "country": "cr",
-      "code": "",
+      "country": "gi",
+      "code": "Q06",
       "lines": [
         "广州东环城际线",
         "广清城际线"
@@ -1639,9 +1639,20 @@
       "lat": 23.656003,
       "lon": 113.061023,
       "country": "gi",
-      "code": "",
+      "code": "Q11",
       "lines": [
         "广清城际线"
+      ]
+    },
+    {
+      "name_zh": "琶洲",
+      "name_en": "Pazhou",
+      "lat": 23.102843,
+      "lon": 113.362706,
+      "country": "gi",
+      "code": "D04",
+      "lines": [
+        "琶莲城际线"
       ]
     },
     {
@@ -1650,9 +1661,65 @@
       "lat": 23.398986,
       "lon": 113.300541,
       "country": "gi",
-      "code": "",
+      "code": "D13",
       "lines": [
         "广州东环城际线"
+      ]
+    },
+    {
+      "name_zh": "东莞西",
+      "name_en": "Dongguan W.",
+      "lat": 23.01087,
+      "lon": 113.620906,
+      "country": "gi",
+      "code": "H07",
+      "lines": [
+        "穗深城际线",
+        "广惠城际线"
+      ]
+    },
+    {
+      "name_zh": "西平西",
+      "name_en": "Xiping W.",
+      "lat": 22.996362,
+      "lon": 113.74057,
+      "country": "gi",
+      "code": "H09",
+      "lines": [
+        "广惠城际线"
+      ]
+    },
+    {
+      "name_zh": "深圳机场",
+      "name_en": "Shenzhen Airport",
+      "lat": 22.623983,
+      "lon": 113.806032,
+      "country": "gi",
+      "code": "S23",
+      "lines": [
+        "穗深城际线"
+      ]
+    },
+    {
+      "name_zh": "顺德北",
+      "name_en": "Shunde N.",
+      "lat": 22.964447,
+      "lon": 113.124193,
+      "country": "gi",
+      "code": "Z04",
+      "lines": [
+        "广肇城际线"
+      ]
+    },
+    {
+      "name_zh": "张槎",
+      "name_en": "Zhangcha",
+      "lat": 23.011695,
+      "lon": 113.0622,
+      "country": "gi",
+      "code": "Z05",
+      "lines": [
+        "广肇城际线"
       ]
     },
     {
@@ -1701,17 +1768,6 @@
       ]
     },
     {
-      "name_zh": "西平西",
-      "name_en": "Xiping W.",
-      "lat": 22.996362,
-      "lon": 113.74057,
-      "country": "gi",
-      "code": "",
-      "lines": [
-        "广惠城际线"
-      ]
-    },
-    {
       "name_zh": "惠阳",
       "name_en": "Huiyang",
       "lat": 22.787649,
@@ -1732,62 +1788,6 @@
       "lines": [
         "南广线",
         "广肇城际线"
-      ]
-    },
-    {
-      "name_zh": "顺德北",
-      "name_en": "Shunde N.",
-      "lat": 22.964447,
-      "lon": 113.124193,
-      "country": "gi",
-      "code": "",
-      "lines": [
-        "广肇城际线"
-      ]
-    },
-    {
-      "name_zh": "张槎",
-      "name_en": "Zhangcha",
-      "lat": 23.011695,
-      "lon": 113.0622,
-      "country": "gi",
-      "code": "",
-      "lines": [
-        "广肇城际线"
-      ]
-    },
-    {
-      "name_zh": "深圳机场",
-      "name_en": "Shenzhen Airport",
-      "lat": 22.623983,
-      "lon": 113.806032,
-      "country": "cr",
-      "code": "22990",
-      "lines": [
-        "穗深城际线"
-      ]
-    },
-    {
-      "name_zh": "东莞西",
-      "name_en": "Dongguan W.",
-      "lat": 23.01087,
-      "lon": 113.620906,
-      "country": "cr",
-      "code": "23858",
-      "lines": [
-        "穗深城际线",
-        "广惠城际线"
-      ]
-    },
-    {
-      "name_zh": "琶洲",
-      "name_en": "Pazhou",
-      "lat": 23.102843,
-      "lon": 113.362706,
-      "country": "gi",
-      "code": "",
-      "lines": [
-        "琶莲城际线"
       ]
     },
     {
@@ -2544,12 +2544,25 @@
       ]
     },
     {
+      "name_zh": "天王寺",
+      "name_en": "Tennoji",
+      "lat": 34.647331,
+      "lon": 135.515242,
+      "country": "jr",
+      "code": "O01",
+      "lines": [
+        "JR大阪环状线",
+        "JR大阪环状线",
+        "JR阪和线"
+      ]
+    },
+    {
       "name_zh": "大阪",
       "name_en": "Osaka",
       "lat": 34.702221,
       "lon": 135.495576,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "O11",
       "lines": [
         "JR东海道线",
         "JR大阪环状线"
@@ -2560,23 +2573,11 @@
       "name_en": "Nishi-Kujo",
       "lat": 34.682271,
       "lon": 135.466318,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "O14",
       "lines": [
         "JR大阪环状线",
         "阪神难波线"
-      ]
-    },
-    {
-      "name_zh": "新今宫",
-      "name_en": "Shin-Imamia",
-      "lat": 34.649843,
-      "lon": 135.502195,
-      "country": "jp",
-      "code": "",
-      "lines": [
-        "JR大阪环状线",
-        "南海本线"
       ]
     },
     {
@@ -2584,24 +2585,23 @@
       "name_en": "Imamia",
       "lat": 34.653951,
       "lon": 135.493028,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "O18",
       "lines": [
         "JR大阪环状线",
         "JR大和路线"
       ]
     },
     {
-      "name_zh": "天王寺",
-      "name_en": "Tennoji",
-      "lat": 34.647331,
-      "lon": 135.515242,
-      "country": "jp",
-      "code": "",
+      "name_zh": "新今宫",
+      "name_en": "Shin-Imamia",
+      "lat": 34.649843,
+      "lon": 135.502195,
+      "country": "jr",
+      "code": "O19",
       "lines": [
         "JR大阪环状线",
-        "JR大阪环状线",
-        "JR阪和线"
+        "南海本线"
       ]
     },
     {
@@ -2609,8 +2609,8 @@
       "name_en": "JR Namba",
       "lat": 34.666478,
       "lon": 135.495326,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "Q17",
       "lines": [
         "JR大和路线"
       ]
@@ -2620,23 +2620,45 @@
       "name_en": "Wakayama",
       "lat": 34.232202,
       "lon": 135.191582,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "R54",
       "lines": [
         "JR阪和线",
         "JR纪势线"
       ]
     },
     {
-      "name_zh": "和歌山市",
-      "name_en": "Wakayamashi",
-      "lat": 34.236792,
-      "lon": 135.167051,
-      "country": "jp",
-      "code": "",
+      "name_zh": "敦贺",
+      "name_en": "Tsuruga",
+      "lat": 35.644882,
+      "lon": 136.076392,
+      "country": "jr",
+      "code": "A01",
       "lines": [
-        "JR纪势线",
-        "南海本线"
+        "JR北陆线"
+      ]
+    },
+    {
+      "name_zh": "草津",
+      "name_en": "",
+      "lat": 35.02256,
+      "lon": 135.961824,
+      "country": "jr",
+      "code": "A24",
+      "lines": [
+        "JR东海道线",
+        "JR草津线"
+      ]
+    },
+    {
+      "name_zh": "石山",
+      "name_en": "Ishiyama",
+      "lat": 34.979931,
+      "lon": 135.900007,
+      "country": "jr",
+      "code": "A27",
+      "lines": [
+        "JR东海道线"
       ]
     },
     {
@@ -2644,10 +2666,35 @@
       "name_en": "Sannomiya",
       "lat": 34.694863,
       "lon": 135.195082,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "A61",
       "lines": [
         "JR山阳线"
+      ]
+    },
+    {
+      "name_zh": "山科",
+      "name_en": "Yamashina",
+      "lat": 34.992633,
+      "lon": 135.817226,
+      "country": "jr",
+      "code": "A30",
+      "lines": [
+        "JR东海道线",
+        "JR湖西线"
+      ]
+    },
+    {
+      "name_zh": "京都",
+      "name_en": "Kyoto",
+      "lat": 34.985363,
+      "lon": 135.758775,
+      "country": "jr",
+      "code": "A31",
+      "lines": [
+        "JR东海道线",
+        "JR奈良线",
+        "JR山阴线"
       ]
     },
     {
@@ -2655,8 +2702,8 @@
       "name_en": "Kobe",
       "lat": 34.67929,
       "lon": 135.178289,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "A63",
       "lines": [
         "JR山阳线"
       ]
@@ -2666,23 +2713,10 @@
       "name_en": "Himeji",
       "lat": 34.826887,
       "lon": 134.690242,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "A85",
       "lines": [
         "JR山阳线"
-      ]
-    },
-    {
-      "name_zh": "京都",
-      "name_en": "Kyoto",
-      "lat": 34.985363,
-      "lon": 135.758775,
-      "country": "jp",
-      "code": "",
-      "lines": [
-        "JR东海道线",
-        "JR奈良线",
-        "JR山阴线"
       ]
     },
     {
@@ -2690,8 +2724,8 @@
       "name_en": "Umekoji-Kyoto Nishi",
       "lat": 34.988649,
       "lon": 135.743197,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "E02",
       "lines": [
         "JR山阴线"
       ]
@@ -2701,33 +2735,22 @@
       "name_en": "Saga Arashiyama",
       "lat": 35.018779,
       "lon": 135.681415,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "E08",
       "lines": [
         "JR山阴线"
       ]
     },
     {
-      "name_zh": "山科",
-      "name_en": "Yamashina",
-      "lat": 34.992633,
-      "lon": 135.817226,
-      "country": "jp",
-      "code": "",
+      "name_zh": "柘植",
+      "name_en": "",
+      "lat": 34.846851,
+      "lon": 136.25596,
+      "country": "jr",
+      "code": "C01",
       "lines": [
-        "JR东海道线",
-        "JR湖西线"
-      ]
-    },
-    {
-      "name_zh": "石山",
-      "name_en": "Ishiyama",
-      "lat": 34.979931,
-      "lon": 135.900007,
-      "country": "jp",
-      "code": "",
-      "lines": [
-        "JR东海道线"
+        "JR草津线",
+        "JR关西线"
       ]
     },
     {
@@ -2735,8 +2758,8 @@
       "name_en": "Kamo",
       "lat": 34.752709,
       "lon": 135.869854,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "Q39",
       "lines": [
         "JR关西线"
       ]
@@ -2746,8 +2769,8 @@
       "name_en": "JR Nara",
       "lat": 34.680812,
       "lon": 135.818943,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "Q36",
       "lines": [
         "JR关西线"
       ]
@@ -2757,21 +2780,10 @@
       "name_en": "Kyuhoji",
       "lat": 34.622444,
       "lon": 135.584024,
-      "country": "jp",
-      "code": "",
+      "country": "jr",
+      "code": "Q24",
       "lines": [
         "JR关西线"
-      ]
-    },
-    {
-      "name_zh": "敦贺",
-      "name_en": "Tsuruga",
-      "lat": 35.644882,
-      "lon": 136.076392,
-      "country": "jp",
-      "code": "",
-      "lines": [
-        "JR北陆线"
       ]
     },
     {
@@ -2779,8 +2791,8 @@
       "name_en": "Kansai Airport",
       "lat": 34.435868,
       "lon": 135.243486,
-      "country": "jp",
-      "code": "",
+      "country": "nk",
+      "code": "032",
       "lines": [
         "南海机场线"
       ]
@@ -2790,10 +2802,22 @@
       "name_en": "Kada",
       "lat": 34.275105,
       "lon": 135.080823,
-      "country": "jp",
-      "code": "",
+      "country": "nk",
+      "code": "447",
       "lines": [
         "南海加太线"
+      ]
+    },
+    {
+      "name_zh": "和歌山市",
+      "name_en": "Wakayamashi",
+      "lat": 34.236792,
+      "lon": 135.167051,
+      "country": "nk",
+      "code": "045",
+      "lines": [
+        "JR纪势线",
+        "南海本线"
       ]
     },
     {
@@ -2801,8 +2825,8 @@
       "name_en": "Yodoyabashi",
       "lat": 34.692486,
       "lon": 135.501377,
-      "country": "jp",
-      "code": "",
+      "country": "kh",
+      "code": "001",
       "lines": [
         "京阪本线"
       ]
@@ -2812,8 +2836,8 @@
       "name_en": "Sanjo",
       "lat": 35.009015,
       "lon": 135.772334,
-      "country": "jp",
-      "code": "",
+      "country": "kh",
+      "code": "040",
       "lines": [
         "京阪本线"
       ]
@@ -2823,8 +2847,8 @@
       "name_en": "KT Nara",
       "lat": 34.684133,
       "lon": 135.828556,
-      "country": "jp",
-      "code": "",
+      "country": "kt",
+      "code": "A28",
       "lines": [
         "近铁奈良线"
       ]
@@ -2834,8 +2858,8 @@
       "name_en": "KT Nippombashi",
       "lat": 34.666901,
       "lon": 135.505701,
-      "country": "jp",
-      "code": "",
+      "country": "kt",
+      "code": "A02",
       "lines": [
         "近铁奈良线"
       ]
@@ -2845,8 +2869,8 @@
       "name_en": "Osaka Umeda",
       "lat": 34.705282,
       "lon": 135.498392,
-      "country": "jp",
-      "code": "",
+      "country": "hk",
+      "code": "001",
       "lines": [
         "阪急宝塚线"
       ]
@@ -2856,8 +2880,8 @@
       "name_en": "Shonai",
       "lat": 34.750263,
       "lon": 135.475038,
-      "country": "jp",
-      "code": "",
+      "country": "hk",
+      "code": "042",
       "lines": [
         "阪急宝塚线"
       ]
@@ -2867,8 +2891,8 @@
       "name_en": "HS Sannomiya",
       "lat": 34.693665,
       "lon": 135.195434,
-      "country": "jp",
-      "code": "",
+      "country": "hs",
+      "code": "032",
       "lines": [
         "阪神本线"
       ]

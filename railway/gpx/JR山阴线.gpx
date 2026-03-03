@@ -2,15 +2,15 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.985363" lon="135.758775">
     <name>京都</name>
-    <desc>jp</desc>
+    <desc>jrA31</desc>
   </wpt>
   <wpt lat="34.988649" lon="135.743197">
     <name>梅小路京都西</name>
-    <desc>jp</desc>
+    <desc>jrE02</desc>
   </wpt>
   <wpt lat="35.018779" lon="135.681415">
     <name>嵯峨岚山</name>
-    <desc>jp</desc>
+    <desc>jrE08</desc>
   </wpt>
   <trk>
     <name>山阴本线</name>

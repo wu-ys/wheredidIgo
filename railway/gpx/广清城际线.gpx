@@ -2,11 +2,11 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="23.379797" lon="113.197517">
     <name>花都</name>
-    <desc>cr</desc>
+    <desc>giQ06</desc>
   </wpt>
   <wpt lat="23.656003" lon="113.061023">
     <name>清城</name>
-    <desc>gi</desc>
+    <desc>giQ11</desc>
   </wpt>
   <trk>
     <name>广清城际 (36.8km)</name>

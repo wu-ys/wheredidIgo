@@ -2,11 +2,11 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.684133" lon="135.828556">
     <name>近铁奈良</name>
-    <desc>jp</desc>
+    <desc>ktA28</desc>
   </wpt>
   <wpt lat="34.666901" lon="135.505701">
     <name>近铁日本桥</name>
-    <desc>jp</desc>
+    <desc>ktA02</desc>
   </wpt>
   <trk>
     <name>近铁奈良线（奈良-近铁日本桥） (32km)</name>
