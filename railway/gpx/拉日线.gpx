@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
-    <desc>cr44083</desc>
+    <extensions>
+      <country>cr</country>
+      <code>44083</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.224193" lon="88.91301">
     <name>日喀则</name>
-    <desc>cr43936</desc>
+    <extensions>
+      <country>cr</country>
+      <code>43936</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>拉日线 (247.2km)</name>

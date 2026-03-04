@@ -2,23 +2,43 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="43.916288" lon="125.265797">
     <name>杨家粉坊所</name>
-    <desc>cr54119</desc>
+    <extensions>
+      <country>cr</country>
+      <code>54119</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="43.909017" lon="125.318013">
     <name>长春</name>
-    <desc>cr54116</desc>
+    <extensions>
+      <country>cr</country>
+      <code>54116</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="43.990324" lon="125.693945">
     <name>龙嘉</name>
-    <desc>cr65960</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65960</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="43.857022" lon="126.572451">
     <name>吉林</name>
-    <desc>cr63059</desc>
+    <extensions>
+      <country>cr</country>
+      <code>63059</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="43.37823" lon="128.235667">
     <name>敦化</name>
-    <desc>cr63227</desc>
+    <extensions>
+      <country>cr</country>
+      <code>63227</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>长珲城际线（杨家粉坊线路所-敦化） (271.3km)</name>

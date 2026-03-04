@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="23.102843" lon="113.362706">
     <name>琶洲</name>
-    <desc>giD04</desc>
+    <extensions>
+      <country>gi</country>
+      <code>D04</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.004813" lon="113.486935">
     <name>广州莲花山</name>
-    <desc>giH05</desc>
+    <extensions>
+      <country>gi</country>
+      <code>H05</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>琶莲城际 (19km)</name>

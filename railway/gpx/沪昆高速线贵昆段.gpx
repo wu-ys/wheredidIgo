@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="26.623156" lon="106.670656">
     <name>贵阳北</name>
-    <desc>cr47483</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47483</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="26.469122" lon="106.481856">
     <name>贵安</name>
-    <desc>cr65501</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65501</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="24.873557" lon="102.86011">
     <name>昆明南</name>
-    <desc>cr48778</desc>
+    <extensions>
+      <country>cr</country>
+      <code>48778</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪昆高铁（贵阳北-昆明南） (462.2km)</name>

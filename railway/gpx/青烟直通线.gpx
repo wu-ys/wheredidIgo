@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="37.413618" lon="121.339061">
     <name>西陌堂所</name>
-    <desc>cr18663</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18663</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="37.547492" lon="121.377421">
     <name>烟台</name>
-    <desc>cr18557</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18557</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青烟直通线（西陌堂所-烟台） (20.3km)</name>

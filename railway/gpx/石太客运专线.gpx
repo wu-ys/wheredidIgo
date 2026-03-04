@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="38.064809" lon="114.458946">
     <name>石家庄北</name>
-    <desc>cr26426</desc>
+    <extensions>
+      <country>cr</country>
+      <code>26426</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="37.79058" lon="112.603721">
     <name>太原南</name>
-    <desc>cr26468</desc>
+    <extensions>
+      <country>cr</country>
+      <code>26468</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>石太客专（石家庄北-太原南） (199km)</name>

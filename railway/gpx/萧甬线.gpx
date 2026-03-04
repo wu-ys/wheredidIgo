@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.174535" lon="120.288713">
     <name>杭州南</name>
-    <desc>cr32460</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32460</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.016435" lon="120.574742">
     <name>绍兴</name>
-    <desc>cr33185</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33185</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>萧甬线（杭州南-绍兴） (38.5km)</name>

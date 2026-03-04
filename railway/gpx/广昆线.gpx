@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="25.167389" lon="101.76366">
     <name>广通北</name>
-    <desc>cr48101</desc>
+    <extensions>
+      <country>cr</country>
+      <code>48101</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="25.017766" lon="102.720356">
     <name>昆明</name>
-    <desc>cr48197</desc>
+    <extensions>
+      <country>cr</country>
+      <code>48197</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>昆楚大铁路（昆明-广通北） (112.7km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.714033" lon="113.929175">
     <name>新沟北所</name>
-    <desc>cr1fc8fda8</desc>
+    <extensions>
+      <country>cr</country>
+      <code>1fc8fda8</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.748088" lon="111.469488">
     <name>宜昌北</name>
-    <desc>cr45195</desc>
+    <extensions>
+      <country>cr</country>
+      <code>45195</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪渝蓉高速线（宜昌北-新沟北所） (263.5km)</name>

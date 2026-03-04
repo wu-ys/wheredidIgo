@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.378821" lon="115.892272">
     <name>康庄</name>
-    <desc>cr12221</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12221</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.435215" lon="115.978119">
     <name>延庆</name>
-    <desc>cr12224</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12224</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>康延线 (5.7km)</name>

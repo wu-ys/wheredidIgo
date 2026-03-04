@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.795155" lon="114.331511">
     <name>横店东</name>
-    <desc>cr65797</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65797</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.60937" lon="114.419997">
     <name>武汉</name>
-    <desc>cr65800</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65800</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.14943" lon="113.058156">
     <name>长沙南</name>
-    <desc>cr65818</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65818</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.379972" lon="113.198418">
     <name>广州北</name>
-    <desc>cr23471</desc>
+    <extensions>
+      <country>cr</country>
+      <code>23471</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.991077" lon="113.261758">
     <name>广州南</name>
-    <desc>cr65848</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65848</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.609954" lon="114.023289">
     <name>深圳北</name>
-    <desc>cr65860</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65860</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京广高铁（横店东-深圳北） (1,090.8km)</name>

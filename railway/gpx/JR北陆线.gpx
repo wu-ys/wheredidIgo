@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="35.314809" lon="136.290175">
     <name>米原</name>
-    <desc>jrA12</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A12</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="35.53911" lon="136.151494">
     <name>近江盐津</name>
-    <desc>jrA03</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A03</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="35.644882" lon="136.076392">
     <name>敦贺</name>
-    <desc>jrA01</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A01</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>JR北陆本线（米原-敦贺） (45.9km)</name>

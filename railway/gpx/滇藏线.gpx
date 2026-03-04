@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="26.81422" lon="100.251512">
     <name>丽江</name>
-    <desc>cr48417</desc>
+    <extensions>
+      <country>cr</country>
+      <code>48417</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="27.813351" lon="99.688547">
     <name>香格里拉</name>
-    <desc>cr49534</desc>
+    <extensions>
+      <country>cr</country>
+      <code>49534</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>滇藏线（丽江-香格里拉） (138km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="41.66637" lon="123.400938">
     <name>沈阳南</name>
-    <desc>cr63623</desc>
+    <extensions>
+      <country>cr</country>
+      <code>63623</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.122162" lon="124.380192">
     <name>丹东</name>
-    <desc>cr55118</desc>
+    <extensions>
+      <country>cr</country>
+      <code>55118</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沈丹客专线（沈阳南-丹东） (207.7km)</name>

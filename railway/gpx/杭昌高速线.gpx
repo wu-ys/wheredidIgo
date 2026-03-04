@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.790478" lon="119.729569">
     <name>桐庐</name>
-    <desc>cr32372</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32372</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.073797" lon="118.566754">
     <name>绩溪北</name>
-    <desc>cr34126</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34126</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
-    <desc>cr34130</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34130</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>杭昌高铁（桐庐-黄山北） (188.7km)</name>

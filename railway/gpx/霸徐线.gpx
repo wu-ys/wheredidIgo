@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.092989" lon="116.344457">
     <name>霸州西</name>
-    <desc>cr20383</desc>
+    <extensions>
+      <country>cr</country>
+      <code>20383</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.068633" lon="115.868901">
     <name>白洋淀</name>
-    <desc>cr20387</desc>
+    <extensions>
+      <country>cr</country>
+      <code>20387</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>霸徐线（白洋淀-霸州西） (41.9km)</name>

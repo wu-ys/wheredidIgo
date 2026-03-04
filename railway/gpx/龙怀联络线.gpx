@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="27.515508" lon="109.988987">
     <name>怀化南</name>
-    <desc>cr65678</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65678</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="27.495965" lon="109.961417">
     <name>龙形村所</name>
-    <desc>cr352d5dea</desc>
+    <extensions>
+      <country>cr</country>
+      <code>352d5dea</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>龙怀联络线 (3.8km)</name>

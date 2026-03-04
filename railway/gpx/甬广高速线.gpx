@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
-    <desc>cr34151</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34151</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
-    <desc>cr34178</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34178</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>甬广高铁（福州南-厦门北） (230.5km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.53277" lon="114.311764">
     <name>武昌</name>
-    <desc>cr21077</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21077</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.473889" lon="114.296903">
     <name>武昌南</name>
-    <desc>cr21089</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21089</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京广线（武昌-武昌南） (8.3km)</name>

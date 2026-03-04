@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
-    <desc>cr54011</desc>
+    <extensions>
+      <country>cr</country>
+      <code>54011</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="47.153445" lon="123.887819">
     <name>榆树屯</name>
-    <desc>cr56663</desc>
+    <extensions>
+      <country>cr</country>
+      <code>56663</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="47.338071" lon="123.989172">
     <name>齐齐哈尔</name>
-    <desc>cr56675</desc>
+    <extensions>
+      <country>cr</country>
+      <code>56675</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>平齐线 (570.8km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.896903" lon="104.223226">
     <name>青白江东</name>
-    <desc>cr47609</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47609</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.943766" lon="104.208086">
     <name>三星堆</name>
-    <desc>cr45573</desc>
+    <extensions>
+      <country>cr</country>
+      <code>45573</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青三联络线 (7.7km)</name>

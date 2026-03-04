@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.197434" lon="113.007695">
     <name>长沙</name>
-    <desc>cr22874</desc>
+    <extensions>
+      <country>cr</country>
+      <code>22874</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.226739" lon="112.974665">
     <name>开福寺</name>
-    <desc>cr65213</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65213</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.233342" lon="112.902291">
     <name>谷山</name>
-    <desc>cr65207</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65207</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.265408" lon="112.820446">
     <name>长沙西</name>
-    <desc>cr65201</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65201</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>长沙西城际线</name>

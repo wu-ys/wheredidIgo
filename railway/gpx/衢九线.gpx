@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
-    <desc>cr32621</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32621</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.706467" lon="116.001822">
     <name>九江</name>
-    <desc>cr25322</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25322</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>衢九线 (333.1km)</name>

@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
-    <desc>cr10025</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10025</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.873525" lon="116.208327">
     <name>石景山南</name>
-    <desc>cr13385</desc>
+    <extensions>
+      <country>cr</country>
+      <code>13385</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.596602" lon="115.050377">
     <name>宣化</name>
-    <desc>cr12290</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12290</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京包线（北京丰台-宣化） (157.5km)</name>

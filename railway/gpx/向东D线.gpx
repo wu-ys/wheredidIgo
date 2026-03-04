@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.446298" lon="115.956186">
     <name>向塘</name>
-    <desc>cr25454</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25454</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="28.404634" lon="115.997943">
     <name>梁家渡</name>
-    <desc>cr32879</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32879</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>向东联络线（向塘-梁家渡） (7.4km)</name>

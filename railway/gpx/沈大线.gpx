@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.015978" lon="121.601377">
     <name>大连北</name>
-    <desc>cr53520</desc>
+    <extensions>
+      <country>cr</country>
+      <code>53520</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="38.921389" lon="121.628079">
     <name>大连</name>
-    <desc>cr53522</desc>
+    <extensions>
+      <country>cr</country>
+      <code>53522</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沈大线（大连北-大连） (17.4km)</name>

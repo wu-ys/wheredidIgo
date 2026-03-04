@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
-    <desc>cr10001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
-    <desc>cr21152</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21152</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>北京直径线 (9.1km)</name>

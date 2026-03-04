@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
-    <desc>cr66100</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66100</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.298858" lon="121.232398">
     <name>安亭北所</name>
-    <desc>cracf6abbb</desc>
+    <extensions>
+      <country>cr</country>
+      <code>acf6abbb</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>虹安联络线 (15.1km)</name>

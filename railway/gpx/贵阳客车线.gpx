@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="26.451631" lon="106.968905">
     <name>龙里</name>
-    <desc>cr37580</desc>
+    <extensions>
+      <country>cr</country>
+      <code>37580</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="26.499658" lon="106.784258">
     <name>秦祺村所</name>
-    <desc>cr45c67dbe</desc>
+    <extensions>
+      <country>cr</country>
+      <code>45c67dbe</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="26.5604" lon="106.69866">
     <name>贵阳</name>
-    <desc>cr37646</desc>
+    <extensions>
+      <country>cr</country>
+      <code>37646</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>贵阳客车线（龙里-贵阳） (31.7km)</name>

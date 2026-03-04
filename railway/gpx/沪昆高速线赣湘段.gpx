@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="27.792421" lon="114.431339">
     <name>宜春</name>
-    <desc>cr65646</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65646</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.14943" lon="113.058156">
     <name>长沙南</name>
-    <desc>cr65818</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65818</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="27.968399" lon="112.936745">
     <name>湘潭北</name>
-    <desc>cr65660</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65660</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="27.515508" lon="109.988987">
     <name>怀化南</name>
-    <desc>cr65678</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65678</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪昆高速线（宜春-怀化南） (497.3km)</name>

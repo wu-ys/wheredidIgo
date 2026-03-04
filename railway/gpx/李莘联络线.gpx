@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.113415" lon="121.356107">
     <name>李家塘</name>
-    <desc>cr32076</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32076</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.110862" lon="121.37985">
     <name>莘庄</name>
-    <desc>cr32078</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32078</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>李莘联络线 (3.7km)</name>

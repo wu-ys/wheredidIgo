@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.473889" lon="114.296903">
     <name>武昌南</name>
-    <desc>cr21089</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21089</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.531025" lon="114.490196">
     <name>何刘</name>
-    <desc>cr21959</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21959</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>武昌南环线 (24km)</name>

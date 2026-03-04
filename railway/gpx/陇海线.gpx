@@ -2,35 +2,67 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.266126" lon="117.202226">
     <name>徐州</name>
-    <desc>cr16628</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16628</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.447534" lon="115.652543">
     <name>商丘</name>
-    <desc>cr38702</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38702</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.771678" lon="114.348279">
     <name>开封</name>
-    <desc>cr38774</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38774</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.734952" lon="113.694233">
     <name>圃田西</name>
-    <desc>cr38810</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38810</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.746928" lon="113.652007">
     <name>郑州</name>
-    <desc>cr20750</desc>
+    <extensions>
+      <country>cr</country>
+      <code>20750</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.686405" lon="112.430106">
     <name>洛阳</name>
-    <desc>cr39173</desc>
+    <extensions>
+      <country>cr</country>
+      <code>39173</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.566714" lon="105.894849">
     <name>天水</name>
-    <desc>cr39701</desc>
+    <extensions>
+      <country>cr</country>
+      <code>39701</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.035735" lon="103.848009">
     <name>兰州</name>
-    <desc>cr39872</desc>
+    <extensions>
+      <country>cr</country>
+      <code>39872</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>陇海线（徐州-兰州） (1,499km)</name>

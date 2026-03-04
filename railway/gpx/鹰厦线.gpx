@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="24.572739" lon="117.973087">
     <name>前场</name>
-    <desc>cr34565</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34565</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="24.470209" lon="118.111225">
     <name>厦门</name>
-    <desc>cr34583</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34583</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>鹰厦线（前场-厦门） (25.8km)</name>

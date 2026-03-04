@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="35.314809" lon="136.290175">
     <name>米原</name>
-    <desc>jrA12</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A12</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="35.02256" lon="135.961824">
     <name>草津</name>
-    <desc>jrA24</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A24</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.979931" lon="135.900007">
     <name>石山</name>
-    <desc>jrA27</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A27</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.992633" lon="135.817226">
     <name>山科</name>
-    <desc>jrA30</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A30</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.985363" lon="135.758775">
     <name>京都</name>
-    <desc>jrA31</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A31</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.702221" lon="135.495576">
     <name>大阪</name>
-    <desc>jrO11</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O11</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>JR东海道线（米原-大阪） (111.2km)</name>

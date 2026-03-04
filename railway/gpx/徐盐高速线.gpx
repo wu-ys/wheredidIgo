@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.268629" lon="117.29773">
     <name>徐州东</name>
-    <desc>cr66827</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66827</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="33.87591" lon="118.276336">
     <name>宿迁</name>
-    <desc>cr18828</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18828</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="33.570124" lon="119.182747">
     <name>淮安东</name>
-    <desc>cr18830</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18830</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="33.383739" lon="120.16919">
     <name>盐城</name>
-    <desc>cr18968</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18968</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>徐盐高速线 (312.9km)</name>

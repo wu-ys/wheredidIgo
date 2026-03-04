@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.610303" lon="119.158251">
     <name>连云港</name>
-    <desc>cr38531</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38531</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.431605" lon="119.230811">
     <name>董集</name>
-    <desc>cr38487</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38487</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青盐线（连云港-董集） (29.8km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.196936" lon="110.439738">
     <name>沙堤所</name>
-    <desc>cr1f97993f</desc>
+    <extensions>
+      <country>cr</country>
+      <code>1f97993f</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="29.116602" lon="110.497768">
     <name>张家界西</name>
-    <desc>cr26777</desc>
+    <extensions>
+      <country>cr</country>
+      <code>26777</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>张家界西联络线 (3.1km)</name>

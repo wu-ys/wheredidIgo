@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="37.561211" lon="107.571514">
     <name>定边</name>
-    <desc>cr65054</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65054</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="38.490755" lon="106.170352">
     <name>银川</name>
-    <desc>cr14846</desc>
+    <extensions>
+      <country>cr</country>
+      <code>14846</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>定银线 (194km)</name>

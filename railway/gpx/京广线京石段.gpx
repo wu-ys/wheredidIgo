@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.771151" lon="116.175211">
     <name>长阳村所</name>
-    <desc>cr2108bd63</desc>
+    <extensions>
+      <country>cr</country>
+      <code>2108bd63</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="38.099931" lon="114.50389">
     <name>柳辛庄</name>
-    <desc>cr20369</desc>
+    <extensions>
+      <country>cr</country>
+      <code>20369</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京广线（长辛店-柳辛庄）</name>

@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
-    <desc>cr32001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.140235" lon="120.320491">
     <name>杭甬杭州南所</name>
-    <desc>cr4041effe</desc>
+    <extensions>
+      <country>cr</country>
+      <code>4041effe</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.102819" lon="120.532994">
     <name>绍兴北</name>
-    <desc>cr33187</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33187</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.865233" lon="121.532402">
     <name>宁波</name>
-    <desc>cr33284</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33284</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>杭深线（杭州东-宁波） (154.6km)</name>

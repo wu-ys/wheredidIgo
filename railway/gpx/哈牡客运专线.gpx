@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
-    <desc>cr55661</desc>
+    <extensions>
+      <country>cr</country>
+      <code>55661</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="44.788929" lon="129.09908">
     <name>横道河子东</name>
-    <desc>cr61189</desc>
+    <extensions>
+      <country>cr</country>
+      <code>61189</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="44.589049" lon="129.60628">
     <name>牡丹江</name>
-    <desc>cr61193</desc>
+    <extensions>
+      <country>cr</country>
+      <code>61193</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>哈牡客运专线 (299.6km)</name>

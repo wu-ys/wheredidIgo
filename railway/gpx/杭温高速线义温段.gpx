@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.217579" lon="120.260177">
     <name>横店</name>
-    <desc>cr21011</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21011</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.072229" lon="120.718614">
     <name>永嘉所</name>
-    <desc>crf77128ce</desc>
+    <extensions>
+      <country>cr</country>
+      <code>f77128ce</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>杭温高速线 (150.8km)</name>

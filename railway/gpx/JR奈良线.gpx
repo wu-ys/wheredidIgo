@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.985363" lon="135.758775">
     <name>京都</name>
-    <desc>jrA31</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A31</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.735856" lon="135.824919">
     <name>木津</name>
-    <desc>jrD19</desc>
+    <extensions>
+      <country>jr</country>
+      <code>D19</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>JR奈良线（京都-木津） (34.8km)</name>

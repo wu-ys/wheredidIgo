@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="18.354942" lon="109.180836">
     <name>崖州湾</name>
-    <desc>cr454ca49b</desc>
+    <extensions>
+      <country>cr</country>
+      <code>454ca49b</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="18.37769" lon="109.153496">
     <name>崖州</name>
-    <desc>cr51480</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51480</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>崖州联络线 (5.8km)</name>

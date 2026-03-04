@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.069222" lon="103.74973">
     <name>兰州西</name>
-    <desc>cr41492</desc>
+    <extensions>
+      <country>cr</country>
+      <code>41492</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.509383" lon="102.052982">
     <name>海东西</name>
-    <desc>cr41521</desc>
+    <extensions>
+      <country>cr</country>
+      <code>41521</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>兰新客运专线（兰州西-海东西） (163.2km)</name>

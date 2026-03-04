@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.011319" lon="104.272993">
     <name>广汉北</name>
-    <desc>cr47607</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47607</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.896903" lon="104.223226">
     <name>青白江东</name>
-    <desc>cr47609</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47609</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.63145" lon="104.140165">
     <name>成都东</name>
-    <desc>cr46543</desc>
+    <extensions>
+      <country>cr</country>
+      <code>46543</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>西成高铁（广汉北-成都东） (45.2km)</name>

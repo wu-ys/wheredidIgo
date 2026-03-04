@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.873525" lon="116.208327">
     <name>石景山南</name>
-    <desc>cr13385</desc>
+    <extensions>
+      <country>cr</country>
+      <code>13385</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.747983" lon="115.952348">
     <name>燕山</name>
-    <desc>cr14195</desc>
+    <extensions>
+      <country>cr</country>
+      <code>14195</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京原线（石景山南-燕山） (31.5km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.666478" lon="135.495326">
     <name>JR难波</name>
-    <desc>jrQ17</desc>
+    <extensions>
+      <country>jr</country>
+      <code>Q17</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.653951" lon="135.493028">
     <name>今宫</name>
-    <desc>jrO18</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O18</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>JR大和路线</name>

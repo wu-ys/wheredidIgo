@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="49.277502" lon="120.731077">
     <name>牙克石</name>
-    <desc>cr57749</desc>
+    <extensions>
+      <country>cr</country>
+      <code>57749</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="50.627233" lon="121.545366">
     <name>伊图里河</name>
-    <desc>cr58298</desc>
+    <extensions>
+      <country>cr</country>
+      <code>58298</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>牙林线（牙克石-伊图里河） (231.3km)</name>

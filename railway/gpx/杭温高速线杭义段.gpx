@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.857599" lon="119.760292">
     <name>桐庐东</name>
-    <desc>cr66276</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66276</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="29.380372" lon="120.038677">
     <name>义乌</name>
-    <desc>cr32537</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32537</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>杭温高铁（桐庐东-义乌） (61.7km)</name>

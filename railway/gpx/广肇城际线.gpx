@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="22.989839" lon="113.267643">
     <name>番禺</name>
-    <desc>giD01</desc>
+    <extensions>
+      <country>gi</country>
+      <code>D01</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="23.011695" lon="113.0622">
     <name>张槎</name>
-    <desc>giZ05</desc>
+    <extensions>
+      <country>gi</country>
+      <code>Z05</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.964447" lon="113.124193">
     <name>顺德北</name>
-    <desc>giZ04</desc>
+    <extensions>
+      <country>gi</country>
+      <code>Z04</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.082342" lon="113.028258">
     <name>佛山西</name>
-    <desc>cr24568</desc>
+    <extensions>
+      <country>cr</country>
+      <code>24568</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>广肇城际线（番禺-佛山西） (36.7km)</name>

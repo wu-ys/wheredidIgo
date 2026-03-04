@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="45.741982" lon="126.716202">
     <name>东门</name>
-    <desc>cr62665</desc>
+    <extensions>
+      <country>cr</country>
+      <code>62665</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="45.709644" lon="126.761697">
     <name>新香坊</name>
-    <desc>cr61931</desc>
+    <extensions>
+      <country>cr</country>
+      <code>61931</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>东新联络线（东门-新香坊） (6.9km)</name>

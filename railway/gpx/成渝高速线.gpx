@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.128504" lon="104.679853">
     <name>资阳北</name>
-    <desc>cr46545</desc>
+    <extensions>
+      <country>cr</country>
+      <code>46545</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.556784" lon="106.457283">
     <name>沙坪坝</name>
-    <desc>cr47066</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47066</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>成渝高速线（资阳北-沙坪坝） (217km)</name>

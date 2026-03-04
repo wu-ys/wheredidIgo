@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="19.998119" lon="110.32769">
     <name>城西</name>
-    <desc>cr51450</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51450</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="19.985488" lon="110.338834">
     <name>海口东</name>
-    <desc>cr51447</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51447</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="19.943528" lon="110.456955">
     <name>美兰</name>
-    <desc>cr51444</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51444</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="18.297786" lon="109.48898">
     <name>三亚</name>
-    <desc>cr51481</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51481</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>海南东环高速线（城西-三亚） (286.4km)</name>

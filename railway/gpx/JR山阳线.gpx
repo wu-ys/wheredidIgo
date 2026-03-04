@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.694863" lon="135.195082">
     <name>三宫</name>
-    <desc>jrA61</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A61</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.67929" lon="135.178289">
     <name>神户</name>
-    <desc>jrA63</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A63</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.826887" lon="134.690242">
     <name>姬路</name>
-    <desc>jrA85</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A85</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>山阳本线（三宫-姬路） (57.4km)</name>

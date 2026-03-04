@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.531025" lon="114.490196">
     <name>何刘</name>
-    <desc>cr21959</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21959</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="29.644494" lon="115.888598">
     <name>九江西</name>
-    <desc>cr25324</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25324</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>武九线（九江西-何刘）</name>

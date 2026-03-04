@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.316018" lon="116.642939">
     <name>怀柔</name>
-    <desc>cr11378</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11378</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.124766" lon="116.639598">
     <name>顺义</name>
-    <desc>cr11366</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11366</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京承线（怀柔-顺义） (22.8km)</name>

@@ -2,55 +2,107 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
-    <desc>cr66100</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66100</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.081196" lon="121.352311">
     <name>春申所</name>
-    <desc>crcc45f8ec</desc>
+    <extensions>
+      <country>cr</country>
+      <code>cc45f8ec</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.985034" lon="121.22531">
     <name>上海松江</name>
-    <desc>cr32022</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32022</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.693215" lon="120.794937">
     <name>嘉兴南</name>
-    <desc>cr32013</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32013</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.354931" lon="120.244343">
     <name>笕桥所</name>
-    <desc>cra535f86a</desc>
+    <extensions>
+      <country>cr</country>
+      <code>a535f86a</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
-    <desc>cr32001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.174535" lon="120.288713">
     <name>杭州南</name>
-    <desc>cr32460</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32460</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.730065" lon="120.181038">
     <name>诸暨</name>
-    <desc>cr32501</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32501</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.158618" lon="119.787356">
     <name>塘雅所</name>
-    <desc>cr33001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33001</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
-    <desc>cr32621</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32621</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.494566" lon="118.043677">
     <name>京福所</name>
-    <desc>crad645c6d</desc>
+    <extensions>
+      <country>cr</country>
+      <code>ad645c6d</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="27.914737" lon="114.891878">
     <name>新余北</name>
-    <desc>cr65643</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65643</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="27.914737" lon="114.891878">
     <name>新余北</name>
-    <desc>cr65643</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65643</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪昆高铁（上海虹桥-新余北） (870.3km)</name>

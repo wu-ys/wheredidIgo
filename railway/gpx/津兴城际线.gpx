@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.137775" lon="116.753448">
     <name>胜芳</name>
-    <desc>cr20381</desc>
+    <extensions>
+      <country>cr</country>
+      <code>20381</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.370921" lon="116.398003">
     <name>固安东</name>
-    <desc>cr21160</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21160</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>津兴城际（盛芳-固安东） (49.8km)</name>

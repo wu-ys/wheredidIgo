@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.493506" lon="118.001263">
     <name>上饶</name>
-    <desc>cr32687</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32687</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="26.117167" lon="119.315415">
     <name>福州</name>
-    <desc>cr34682</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34682</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>合福高铁（上饶-福州） (339.9km)</name>

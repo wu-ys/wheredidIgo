@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.350149" lon="118.387385">
     <name>芜湖</name>
-    <desc>cr30926</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30926</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.949536" lon="118.76913">
     <name>宣城</name>
-    <desc>cr31319</desc>
+    <extensions>
+      <country>cr</country>
+      <code>31319</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>皖赣线（芜湖-宣城） (68.4km)</name>

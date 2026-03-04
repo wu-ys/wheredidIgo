@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.186857" lon="117.103623">
     <name>泰山</name>
-    <desc>cr16352</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16352</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.357596" lon="117.955066">
     <name>南博山</name>
-    <desc>cr18383</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18383</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>辛泰线（南博山-泰山） (97.5km)</name>

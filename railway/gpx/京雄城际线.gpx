@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
-    <desc>cr21152</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21152</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.719037" lon="116.322743">
     <name>北京大兴</name>
-    <desc>cr21156</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21156</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.5109" lon="116.409504">
     <name>大兴机场</name>
-    <desc>cr21158</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21158</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.370921" lon="116.398003">
     <name>固安东</name>
-    <desc>cr21160</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21160</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.185558" lon="116.321097">
     <name>霸州北</name>
-    <desc>cr21162</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21162</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.055624" lon="116.154071">
     <name>雄安</name>
-    <desc>cr21164</desc>
+    <extensions>
+      <country>cr</country>
+      <code>21164</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京雄城际 (106.4km)</name>

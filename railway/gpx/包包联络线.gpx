@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.609339" lon="109.745534">
     <name>包头西</name>
-    <desc>cr14507</desc>
+    <extensions>
+      <country>cr</country>
+      <code>14507</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.604055" lon="109.831213">
     <name>包头</name>
-    <desc>cr14489</desc>
+    <extensions>
+      <country>cr</country>
+      <code>14489</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>包包联络线 (6.5km)</name>

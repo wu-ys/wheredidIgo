@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="22.54089" lon="114.051891">
     <name>福田</name>
-    <desc>cr65891</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65891</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.303882" lon="114.165443">
     <name>香港西九龙</name>
-    <desc>cr65896</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65896</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>广深港高铁（福田-香港西九龙） (29.7km)</name>

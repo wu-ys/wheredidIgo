@@ -2,43 +2,83 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.863072" lon="116.372838">
     <name>北京南</name>
-    <desc>cr10010</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10010</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="37.408745" lon="116.456489">
     <name>德州东</name>
-    <desc>cr66809</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66809</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.669206" lon="116.887906">
     <name>济南西</name>
-    <desc>cr66812</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66812</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.550749" lon="116.886917">
     <name>崔马庄所</name>
-    <desc>cr66501</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66501</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.172083" lon="117.029348">
     <name>泰安</name>
-    <desc>cr66815</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66815</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.268629" lon="117.29773">
     <name>徐州东</name>
-    <desc>cr66827</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66827</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
-    <desc>cr16804</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16804</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.423241" lon="120.639286">
     <name>苏州北</name>
-    <desc>cr66854</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66854</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.300029" lon="121.231279">
     <name>黄渡所</name>
-    <desc>cr66521</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66521</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
-    <desc>cr66100</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66100</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京沪高铁 (1,308.6km)</name>

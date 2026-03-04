@@ -2,55 +2,107 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.251539" lon="121.45119">
     <name>上海</name>
-    <desc>cr30671</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30671</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.264135" lon="121.398156">
     <name>上海西</name>
-    <desc>cr30662</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30662</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.291749" lon="121.26499">
     <name>南翔北所</name>
-    <desc>cr66523</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66523</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.298858" lon="121.232398">
     <name>安亭北所</name>
-    <desc>cracf6abbb</desc>
+    <extensions>
+      <country>cr</country>
+      <code>acf6abbb</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.343685" lon="120.706233">
     <name>苏州园区</name>
-    <desc>cr66328</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66328</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.331842" lon="120.606681">
     <name>苏州</name>
-    <desc>cr30530</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30530</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.374043" lon="120.520109">
     <name>苏州新区</name>
-    <desc>cr66325</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66325</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.499407" lon="120.387922">
     <name>无锡新区</name>
-    <desc>cr66322</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66322</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.787334" lon="119.969199">
     <name>常州</name>
-    <desc>cr30452</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30452</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="32.117424" lon="119.515677">
     <name>丹徒</name>
-    <desc>cr66316</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66316</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="32.199586" lon="119.427367">
     <name>镇江</name>
-    <desc>cr30407</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30407</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="32.125148" lon="118.907694">
     <name>仙林</name>
-    <desc>cr66310</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66310</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="32.09012" lon="118.793041">
     <name>南京</name>
-    <desc>cr16805</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16805</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪宁城际 (300.1km)</name>

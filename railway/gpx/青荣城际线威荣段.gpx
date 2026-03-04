@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="37.425663" lon="122.138637">
     <name>威海</name>
-    <desc>cr18618</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18618</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="37.143949" lon="122.403781">
     <name>荣成</name>
-    <desc>cr18675</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18675</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青荣城际线（威海-荣成） (41.4km)</name>

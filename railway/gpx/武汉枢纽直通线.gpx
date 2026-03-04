@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.693377" lon="113.967255">
     <name>革新所</name>
-    <desc>cr3f957c06</desc>
+    <extensions>
+      <country>cr</country>
+      <code>3f957c06</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.634842" lon="114.013787">
     <name>走马岭所</name>
-    <desc>cr0fe38421</desc>
+    <extensions>
+      <country>cr</country>
+      <code>0fe38421</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>武汉枢纽直通线 (7.9km)</name>

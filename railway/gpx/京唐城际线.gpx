@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.933754" lon="116.761143">
     <name>北刘各庄所</name>
-    <desc>cr1036923d</desc>
+    <extensions>
+      <country>cr</country>
+      <code>1036923d</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.94057" lon="116.819673">
     <name>燕郊</name>
-    <desc>cr11108</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11108</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京唐城际线（燕郊-北刘各庄所） (3.8km)</name>

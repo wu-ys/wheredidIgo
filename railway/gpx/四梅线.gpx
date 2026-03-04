@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
-    <desc>cr54011</desc>
+    <extensions>
+      <country>cr</country>
+      <code>54011</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="42.533609" lon="125.679816">
     <name>梅河口</name>
-    <desc>cr64301</desc>
+    <extensions>
+      <country>cr</country>
+      <code>64301</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>四梅线（四平-梅河口） (157.5km)</name>

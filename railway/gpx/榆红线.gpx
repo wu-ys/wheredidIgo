@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="47.153445" lon="123.887819">
     <name>榆树屯</name>
-    <desc>cr56663</desc>
+    <extensions>
+      <country>cr</country>
+      <code>56663</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="47.114366" lon="123.906848">
     <name>红旗营</name>
-    <desc>cr57485</desc>
+    <extensions>
+      <country>cr</country>
+      <code>57485</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>榆红线 (6.3km)</name>

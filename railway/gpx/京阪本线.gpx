@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.692486" lon="135.501377">
     <name>淀屋桥</name>
-    <desc>kh001</desc>
+    <extensions>
+      <country>kh</country>
+      <code>001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="35.009015" lon="135.772334">
     <name>三条</name>
-    <desc>kh040</desc>
+    <extensions>
+      <country>kh</country>
+      <code>040</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京阪本线（淀屋桥-三条） (49.4km)</name>

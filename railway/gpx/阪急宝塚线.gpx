@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.705282" lon="135.498392">
     <name>大阪梅田</name>
-    <desc>hk001</desc>
+    <extensions>
+      <country>hk</country>
+      <code>001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.750263" lon="135.475038">
     <name>庄内</name>
-    <desc>hk042</desc>
+    <extensions>
+      <country>hk</country>
+      <code>042</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>阪急宝冢线（大阪梅田-庄内） (5.9km)</name>

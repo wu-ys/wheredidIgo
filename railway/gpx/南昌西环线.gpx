@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.817378" lon="115.865901">
     <name>乐化</name>
-    <desc>cr25397</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25397</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="28.446298" lon="115.956186">
     <name>向塘</name>
-    <desc>cr25454</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25454</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>南昌西环线 (62km)</name>

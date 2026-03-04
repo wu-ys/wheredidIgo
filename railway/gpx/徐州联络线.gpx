@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.268629" lon="117.29773">
     <name>徐州东</name>
-    <desc>cr66827</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66827</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.313519" lon="117.289908">
     <name>徐州东所</name>
-    <desc>cr38934</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38934</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>徐州联络线</name>

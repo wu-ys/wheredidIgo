@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
-    <desc>cr18657</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18657</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="37.413618" lon="121.339061">
     <name>西陌堂所</name>
-    <desc>cr18663</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18663</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青荣城际线（莱西-西陌堂所） (99.9km)</name>

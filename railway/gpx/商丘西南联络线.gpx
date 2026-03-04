@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.409376" lon="115.699022">
     <name>商丘南</name>
-    <desc>cr24890</desc>
+    <extensions>
+      <country>cr</country>
+      <code>24890</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.447534" lon="115.652543">
     <name>商丘</name>
-    <desc>cr38702</desc>
+    <extensions>
+      <country>cr</country>
+      <code>38702</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>商丘西南联络线 (6km)</name>

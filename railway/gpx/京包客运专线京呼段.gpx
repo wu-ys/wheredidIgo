@@ -2,39 +2,75 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.943899" lon="116.346821">
     <name>北京北</name>
-    <desc>cr12713</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12713</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.040723" lon="116.307714">
     <name>清河</name>
-    <desc>cr12707</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12707</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.188625" lon="116.187343">
     <name>昌平</name>
-    <desc>cr12173</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12173</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.358029" lon="116.00491">
     <name>八达岭长城</name>
-    <desc>cr12181</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12181</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.382513" lon="115.960675">
     <name>八达岭西所</name>
-    <desc>cra7e2bfc6</desc>
+    <extensions>
+      <country>cr</country>
+      <code>a7e2bfc6</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.750704" lon="114.876733">
     <name>张家口</name>
-    <desc>cr12782</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12782</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.963345" lon="113.152254">
     <name>乌兰察布</name>
-    <desc>cr12113</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12113</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.848343" lon="111.759334">
     <name>呼和浩特东</name>
-    <desc>cr12578</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12578</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.829499" lon="111.658306">
     <name>呼和浩特</name>
-    <desc>cr12581</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12581</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京包客专（北京北-呼和浩特） (468km)</name>

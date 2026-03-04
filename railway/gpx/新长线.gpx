@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="33.383739" lon="120.16919">
     <name>盐城</name>
-    <desc>cr18968</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18968</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="32.549268" lon="120.50033">
     <name>海安</name>
-    <desc>cr17370</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17370</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>新长线（盐城-海安） (100.6km)</name>

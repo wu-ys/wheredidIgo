@@ -280,12 +280,17 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
             for s in r_stations:
                 if s in station_dict:
                     lon, lat = station_dict[s]["lon"], station_dict[s]["lat"]
-                    r_waypoints.append(gpxpy.gpx.GPXWaypoint(
+                    wpt = gpxpy.gpx.GPXWaypoint(
                         latitude=lat,
                         longitude=lon,
-                        name=station_dict[s]["name_zh"],
-                        description=station_dict[s]["country"] + station_dict[s]["code"]
-                    ))
+                        name=station_dict[s]["name_zh"]
+                    )
+                    add_extensions(wpt, {
+                        "country": station_dict[s]["country"],
+                        "code": station_dict[s]["code"],
+                        "type": station_dict[s]["type"]
+                    })
+                    r_waypoints.append(wpt)
                     station_dict[s]["lines"].append(r_name + r_name_suffix)
 
                 else:

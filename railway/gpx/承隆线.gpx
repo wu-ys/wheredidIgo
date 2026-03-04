@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.963096" lon="117.948261">
     <name>承德</name>
-    <desc>cr11492</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11492</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="41.326358" lon="117.744138">
     <name>隆化</name>
-    <desc>cr11726</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11726</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>承隆线（隆化-承德）</name>

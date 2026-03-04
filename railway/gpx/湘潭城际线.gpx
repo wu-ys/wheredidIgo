@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="28.197434" lon="113.007695">
     <name>长沙</name>
-    <desc>cr22874</desc>
+    <extensions>
+      <country>cr</country>
+      <code>22874</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="27.878918" lon="112.906942">
     <name>湘潭</name>
-    <desc>cr35312</desc>
+    <extensions>
+      <country>cr</country>
+      <code>35312</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>湘潭城际线</name>

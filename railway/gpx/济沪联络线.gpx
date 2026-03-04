@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
-    <desc>cr16295</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16295</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.550749" lon="116.886917">
     <name>崔马庄所</name>
-    <desc>cr66501</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66501</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>济沪联络线（济南-崔马庄所）</name>

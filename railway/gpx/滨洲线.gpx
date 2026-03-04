@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
-    <desc>cr55661</desc>
+    <extensions>
+      <country>cr</country>
+      <code>55661</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="47.114366" lon="123.906848">
     <name>红旗营</name>
-    <desc>cr57485</desc>
+    <extensions>
+      <country>cr</country>
+      <code>57485</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="49.277502" lon="120.731077">
     <name>牙克石</name>
-    <desc>cr57749</desc>
+    <extensions>
+      <country>cr</country>
+      <code>57749</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="49.22843" lon="119.736663">
     <name>海拉尔</name>
-    <desc>cr57785</desc>
+    <extensions>
+      <country>cr</country>
+      <code>57785</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>滨洲线（哈尔滨-海拉尔） (744.5km)</name>

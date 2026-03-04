@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.693665" lon="135.195434">
     <name>阪神三宫</name>
-    <desc>hs032</desc>
+    <extensions>
+      <country>hs</country>
+      <code>032</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.718591" lon="135.417325">
     <name>阪神尼崎</name>
-    <desc>hsHS09</desc>
+    <extensions>
+      <country>hs</country>
+      <code>HS09</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>阪神本线（阪神三宫-阪神尼崎） (22.3km)</name>

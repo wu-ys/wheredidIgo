@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.992633" lon="135.817226">
     <name>山科</name>
-    <desc>jrA30</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A30</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="35.53911" lon="136.151494">
     <name>近江盐津</name>
-    <desc>jrA03</desc>
+    <extensions>
+      <country>jr</country>
+      <code>A03</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>JR湖西线（山科-近江盐津） (74.2km)</name>

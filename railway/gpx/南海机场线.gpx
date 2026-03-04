@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.411187" lon="135.316983">
     <name>泉佐野</name>
-    <desc>nk030</desc>
+    <extensions>
+      <country>nk</country>
+      <code>030</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.435868" lon="135.243486">
     <name>关西空港</name>
-    <desc>nk032</desc>
+    <extensions>
+      <country>nk</country>
+      <code>032</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>南海机场线（泉佐野-关西机场） (8.7km)</name>

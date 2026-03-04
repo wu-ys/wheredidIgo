@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.316018" lon="116.642939">
     <name>怀柔</name>
-    <desc>cr11378</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11378</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.373016" lon="116.654039">
     <name>雁栖湖</name>
-    <desc>cr11627</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11627</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>怀范联络线 (6.8km)</name>

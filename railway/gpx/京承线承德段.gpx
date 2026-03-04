@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.630505" lon="117.768664">
     <name>赵家店所</name>
-    <desc>cr697325ec</desc>
+    <extensions>
+      <country>cr</country>
+      <code>697325ec</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.963096" lon="117.948261">
     <name>承德</name>
-    <desc>cr11492</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11492</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京承线（赵家店所-承德）</name>

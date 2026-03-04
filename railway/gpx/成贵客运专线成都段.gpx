@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.63145" lon="104.140165">
     <name>成都东</name>
-    <desc>cr46543</desc>
+    <extensions>
+      <country>cr</country>
+      <code>46543</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.607803" lon="104.066034">
     <name>成都南</name>
-    <desc>cr47675</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47675</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.57191" lon="103.954297">
     <name>双流机场</name>
-    <desc>cr47621</desc>
+    <extensions>
+      <country>cr</country>
+      <code>47621</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>成贵高铁（成都东-双流机场） (21.2km)</name>

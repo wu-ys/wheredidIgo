@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.800958" lon="117.284759">
     <name>合肥南</name>
-    <desc>cr19423</desc>
+    <extensions>
+      <country>cr</country>
+      <code>19423</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.620012" lon="117.919911">
     <name>巢湖东</name>
-    <desc>cr34114</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34114</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.073797" lon="118.566754">
     <name>绩溪北</name>
-    <desc>cr34126</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34126</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
-    <desc>cr34130</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34130</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>合福高铁（合肥南-黄山北） (306.4km)</name>

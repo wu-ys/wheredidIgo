@@ -2,23 +2,43 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
-    <desc>cr16295</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16295</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.681364" lon="117.022926">
     <name>大明湖</name>
-    <desc>cr17699</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17699</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.788356" lon="118.051558">
     <name>淄博</name>
-    <desc>cr17786</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17786</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.396203" lon="120.049952">
     <name>胶州北</name>
-    <desc>cr17963</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17963</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.168694" lon="120.369524">
     <name>青岛北</name>
-    <desc>cr18088</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18088</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>胶济客专（济南-青岛北） (346.1km)</name>

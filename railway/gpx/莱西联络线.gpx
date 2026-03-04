@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
-    <desc>cr18657</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18657</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.842733" lon="120.543955">
     <name>莱西东所</name>
-    <desc>cr34f3f0d8</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34f3f0d8</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>莱西联络线（莱西东所-莱西） (3.4km)</name>

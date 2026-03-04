@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="42.024395" lon="122.660732">
     <name>姚家窝堡所</name>
-    <desc>cr67034</desc>
+    <extensions>
+      <country>cr</country>
+      <code>67034</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="42.05201" lon="122.683919">
     <name>田家窝堡所</name>
-    <desc>cr53293</desc>
+    <extensions>
+      <country>cr</country>
+      <code>53293</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>姚田联络线 (6.8km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="43.934415" lon="125.24999">
     <name>崔家营子所</name>
-    <desc>cr53480</desc>
+    <extensions>
+      <country>cr</country>
+      <code>53480</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="43.916288" lon="125.265797">
     <name>杨家粉坊所</name>
-    <desc>cr54119</desc>
+    <extensions>
+      <country>cr</country>
+      <code>54119</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>哈长联络线 (3.6km)</name>

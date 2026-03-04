@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="47.794401" lon="124.453512">
     <name>富裕</name>
-    <desc>cr59567</desc>
+    <extensions>
+      <country>cr</country>
+      <code>59567</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="50.418669" lon="124.119179">
     <name>加格达奇</name>
-    <desc>cr58910</desc>
+    <extensions>
+      <country>cr</country>
+      <code>58910</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="52.986709" lon="122.500514">
     <name>漠河</name>
-    <desc>cr59150</desc>
+    <extensions>
+      <country>cr</country>
+      <code>59150</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>富西线 (842.6km)</name>

@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.620513" lon="101.811449">
     <name>西宁</name>
-    <desc>cr43502</desc>
+    <extensions>
+      <country>cr</country>
+      <code>43502</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.383439" lon="94.906191">
     <name>格尔木</name>
-    <desc>cr43787</desc>
+    <extensions>
+      <country>cr</country>
+      <code>43787</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
-    <desc>cr44083</desc>
+    <extensions>
+      <country>cr</country>
+      <code>44083</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>青藏线 (1,891.9km)</name>

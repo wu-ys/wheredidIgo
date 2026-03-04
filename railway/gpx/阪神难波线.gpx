@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.718591" lon="135.417325">
     <name>阪神尼崎</name>
-    <desc>hsHS09</desc>
+    <extensions>
+      <country>hs</country>
+      <code>HS09</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.682271" lon="135.466318">
     <name>西九条</name>
-    <desc>jrO14</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O14</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>阪神难波线（阪神尼崎-西九条） (6.3km)</name>

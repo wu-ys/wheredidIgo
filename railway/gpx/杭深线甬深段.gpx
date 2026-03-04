@@ -2,43 +2,83 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.865233" lon="121.532402">
     <name>宁波</name>
-    <desc>cr33284</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33284</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="28.071188" lon="120.692755">
     <name>温州北</name>
-    <desc>cr33988</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33988</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="27.969313" lon="120.581208">
     <name>温州南</name>
-    <desc>cr33990</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33990</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
-    <desc>cr34151</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34151</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="24.976173" lon="118.563221">
     <name>泉州</name>
-    <desc>cr34169</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34169</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
-    <desc>cr34178</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34178</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="24.572739" lon="117.973087">
     <name>前场</name>
-    <desc>cr34565</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34565</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="24.460352" lon="117.711826">
     <name>漳州</name>
-    <desc>cr35067</desc>
+    <extensions>
+      <country>cr</country>
+      <code>35067</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.787649" lon="114.487586">
     <name>惠阳</name>
-    <desc>cr25851</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25851</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.609954" lon="114.023289">
     <name>深圳北</name>
-    <desc>cr65860</desc>
+    <extensions>
+      <country>cr</country>
+      <code>65860</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>杭深线（宁波-深圳北）</name>

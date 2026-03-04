@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="42.459589" lon="128.122375">
     <name>长白山</name>
-    <desc>cr64090</desc>
+    <extensions>
+      <country>cr</country>
+      <code>64090</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="43.316878" lon="128.332657">
     <name>敦化南</name>
-    <desc>cr09e52b7e</desc>
+    <extensions>
+      <country>cr</country>
+      <code>09e52b7e</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沈佳高速线（敦化南-长白山） (99.5km)</name>

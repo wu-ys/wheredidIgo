@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.842733" lon="120.543955">
     <name>莱西东所</name>
-    <desc>cr34f3f0d8</desc>
+    <extensions>
+      <country>cr</country>
+      <code>34f3f0d8</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="37.143949" lon="122.403781">
     <name>荣成</name>
-    <desc>cr18675</desc>
+    <extensions>
+      <country>cr</country>
+      <code>18675</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>潍荣高速线（莱西东所-荣成） (191.5km)</name>

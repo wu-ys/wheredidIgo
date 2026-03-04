@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.068241" lon="116.357243">
     <name>黄土店</name>
-    <desc>cr12167</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12167</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.34551" lon="116.016287">
     <name>青龙桥南所</name>
-    <desc>crd1cb33d9</desc>
+    <extensions>
+      <country>cr</country>
+      <code>d1cb33d9</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.343699" lon="116.010169">
     <name>青龙桥西</name>
-    <desc>cr8e3d1b7c</desc>
+    <extensions>
+      <country>cr</country>
+      <code>8e3d1b7c</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.35101" lon="116.010063">
     <name>青龙桥北所</name>
-    <desc>crecab1a69</desc>
+    <extensions>
+      <country>cr</country>
+      <code>ecab1a69</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="40.358876" lon="115.995334">
     <name>八达岭</name>
-    <desc>cr12285</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12285</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="40.378821" lon="115.892272">
     <name>康庄</name>
-    <desc>cr12221</desc>
+    <extensions>
+      <country>cr</country>
+      <code>12221</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京包线（黄土店-康庄） (61.2km)</name>

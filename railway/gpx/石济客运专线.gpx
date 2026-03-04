@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="37.357157" lon="116.472546">
     <name>陵县所</name>
-    <desc>cr66876</desc>
+    <extensions>
+      <country>cr</country>
+      <code>66876</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.747458" lon="117.153829">
     <name>济南东</name>
-    <desc>cr17601</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17601</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>石济客专（陵县所-济南东） (96.9km)</name>

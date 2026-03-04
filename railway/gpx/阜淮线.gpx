@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="32.916619" lon="115.861746">
     <name>阜阳</name>
-    <desc>cr25104</desc>
+    <extensions>
+      <country>cr</country>
+      <code>25104</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="32.633232" lon="117.014504">
     <name>淮南</name>
-    <desc>cr19682</desc>
+    <extensions>
+      <country>cr</country>
+      <code>19682</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>田家庵区 -&gt; 颍东区 (125.5km)</name>

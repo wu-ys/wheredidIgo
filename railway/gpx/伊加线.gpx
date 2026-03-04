@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="50.627233" lon="121.545366">
     <name>伊图里河</name>
-    <desc>cr58298</desc>
+    <extensions>
+      <country>cr</country>
+      <code>58298</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="50.418669" lon="124.119179">
     <name>加格达奇</name>
-    <desc>cr58910</desc>
+    <extensions>
+      <country>cr</country>
+      <code>58910</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>伊加线 (212.5km)</name>

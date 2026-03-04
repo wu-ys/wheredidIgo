@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.649843" lon="135.502195">
     <name>新今宫</name>
-    <desc>jrO19</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O19</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.411187" lon="135.316983">
     <name>泉佐野</name>
-    <desc>nk030</desc>
+    <extensions>
+      <country>nk</country>
+      <code>030</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.255191" lon="135.165396">
     <name>纪之川</name>
-    <desc>nk044</desc>
+    <extensions>
+      <country>nk</country>
+      <code>044</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.236792" lon="135.167051">
     <name>和歌山市</name>
-    <desc>nk045</desc>
+    <extensions>
+      <country>nk</country>
+      <code>045</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>南海本线（新今宫-和歌山市） (62.6km)</name>

@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="40.582992" lon="117.748895">
     <name>李家营</name>
-    <desc>cr10973</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10973</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.816639" lon="118.111845">
     <name>唐山北</name>
-    <desc>cr11159</desc>
+    <extensions>
+      <country>cr</country>
+      <code>11159</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.622864" lon="118.115152">
     <name>唐山</name>
-    <desc>cr10214</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10214</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>张唐线（李家营-唐山）</name>

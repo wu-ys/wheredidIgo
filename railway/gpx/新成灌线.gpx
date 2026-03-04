@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.759841" lon="103.970208">
     <name>犀浦</name>
-    <desc>cr46042</desc>
+    <extensions>
+      <country>cr</country>
+      <code>46042</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.960216" lon="103.637">
     <name>都江堰</name>
-    <desc>cr46063</desc>
+    <extensions>
+      <country>cr</country>
+      <code>46063</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>新成灌线（犀浦-都江堰） (41.4km)</name>

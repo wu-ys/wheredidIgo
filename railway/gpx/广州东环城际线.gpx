@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="23.379797" lon="113.197517">
     <name>花都</name>
-    <desc>giQ06</desc>
+    <extensions>
+      <country>gi</country>
+      <code>Q06</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.398986" lon="113.300541">
     <name>白云机场北</name>
-    <desc>giD13</desc>
+    <extensions>
+      <country>gi</country>
+      <code>D13</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>广州东环城际（花都-白云机场北） (21.4km)</name>

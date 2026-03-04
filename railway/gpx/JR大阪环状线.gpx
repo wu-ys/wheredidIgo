@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.647331" lon="135.515242">
     <name>天王寺</name>
-    <desc>jrO01</desc>
-  </wpt>
-  <wpt lat="34.649843" lon="135.502195">
-    <name>新今宫</name>
-    <desc>jrO19</desc>
-  </wpt>
-  <wpt lat="34.653951" lon="135.493028">
-    <name>今宫</name>
-    <desc>jrO18</desc>
-  </wpt>
-  <wpt lat="34.682271" lon="135.466318">
-    <name>西九条</name>
-    <desc>jrO14</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O01</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.702221" lon="135.495576">
     <name>大阪</name>
-    <desc>jrO11</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O11</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
+  <wpt lat="34.682271" lon="135.466318">
+    <name>西九条</name>
+    <extensions>
+      <country>jr</country>
+      <code>O14</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
+  <wpt lat="34.653951" lon="135.493028">
+    <name>今宫</name>
+    <extensions>
+      <country>jr</country>
+      <code>O18</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
+  <wpt lat="34.649843" lon="135.502195">
+    <name>新今宫</name>
+    <extensions>
+      <country>jr</country>
+      <code>O19</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.647331" lon="135.515242">
     <name>天王寺</name>
-    <desc>jrO01</desc>
+    <extensions>
+      <country>jr</country>
+      <code>O01</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>大阪环状线 (21.8km)</name>

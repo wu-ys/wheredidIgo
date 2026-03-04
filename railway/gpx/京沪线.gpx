@@ -2,71 +2,139 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
-    <desc>cr10001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.863072" lon="116.372838">
     <name>北京南</name>
-    <desc>cr10010</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10010</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
-    <desc>cr10025</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10025</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.768604" lon="116.279925">
     <name>黄土坡所</name>
-    <desc>cr1cfdd7a5</desc>
+    <extensions>
+      <country>cr</country>
+      <code>1cfdd7a5</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.298274" lon="117.102822">
     <name>汉沟镇</name>
-    <desc>cr10091</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10091</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.165954" lon="117.203217">
     <name>天津北</name>
-    <desc>cr10148</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10148</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
-    <desc>cr16010</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16010</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="36.704278" lon="116.827011">
     <name>桥南所</name>
-    <desc>cr16283</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16283</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.578649" lon="116.89784">
     <name>党家庄</name>
-    <desc>cr16319</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16319</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.186857" lon="117.103623">
     <name>泰山</name>
-    <desc>cr16352</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16352</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="35.556214" lon="116.835541">
     <name>兖州</name>
-    <desc>cr16400</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16400</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.266126" lon="117.202226">
     <name>徐州</name>
-    <desc>cr16628</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16628</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="32.162457" lon="118.675223">
     <name>林场</name>
-    <desc>cr16802</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16802</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="32.09012" lon="118.793041">
     <name>南京</name>
-    <desc>cr16805</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16805</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.331842" lon="120.606681">
     <name>苏州</name>
-    <desc>cr30530</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30530</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.295703" lon="121.235915">
     <name>黄渡</name>
-    <desc>cr30566</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30566</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.251539" lon="121.45119">
     <name>上海</name>
-    <desc>cr30671</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30671</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京沪线（北京-上海）</name>

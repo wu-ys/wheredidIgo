@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="30.354931" lon="120.244343">
     <name>笕桥所</name>
-    <desc>cra535f86a</desc>
+    <extensions>
+      <country>cr</country>
+      <code>a535f86a</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="30.331066" lon="120.212347">
     <name>笕桥</name>
-    <desc>cr32198</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32198</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>笕桥线 (11.5km)</name>

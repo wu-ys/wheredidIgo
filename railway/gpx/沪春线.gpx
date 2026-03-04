@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.153863" lon="121.426983">
     <name>上海南</name>
-    <desc>cr32270</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32270</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.110862" lon="121.37985">
     <name>莘庄</name>
-    <desc>cr32078</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32078</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.080518" lon="121.350909">
     <name>春申南所</name>
-    <desc>cr912699c8</desc>
+    <extensions>
+      <country>cr</country>
+      <code>912699c8</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.081086" lon="121.349777">
     <name>春申</name>
-    <desc>cr32081</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32081</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>上海南联络线（沪春一二线） (3km)</name>

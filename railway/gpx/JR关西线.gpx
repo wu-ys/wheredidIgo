@@ -2,23 +2,43 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="34.622444" lon="135.584024">
     <name>久宝寺</name>
-    <desc>jrQ24</desc>
+    <extensions>
+      <country>jr</country>
+      <code>Q24</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.752709" lon="135.869854">
     <name>加茂</name>
-    <desc>jrQ39</desc>
+    <extensions>
+      <country>jr</country>
+      <code>Q39</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.735856" lon="135.824919">
     <name>木津</name>
-    <desc>jrD19</desc>
+    <extensions>
+      <country>jr</country>
+      <code>D19</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="34.680812" lon="135.818943">
     <name>JR奈良</name>
-    <desc>jrQ36</desc>
+    <extensions>
+      <country>jr</country>
+      <code>Q36</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="34.846851" lon="136.25596">
     <name>柘植</name>
-    <desc>jrC01</desc>
+    <extensions>
+      <country>jr</country>
+      <code>C01</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>关西本线（久宝寺-拓植） (84.4km)</name>

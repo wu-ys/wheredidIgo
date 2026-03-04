@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="43.37823" lon="128.235667">
     <name>敦化</name>
-    <desc>cr63227</desc>
+    <extensions>
+      <country>cr</country>
+      <code>63227</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="43.316878" lon="128.332657">
     <name>敦化南</name>
-    <desc>cr09e52b7e</desc>
+    <extensions>
+      <country>cr</country>
+      <code>09e52b7e</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>敦白联络线 (11.1km)</name>

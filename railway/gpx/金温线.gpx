@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="29.158618" lon="119.787356">
     <name>塘雅所</name>
-    <desc>cr33001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33001</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="27.969313" lon="120.581208">
     <name>温州南</name>
-    <desc>cr33990</desc>
+    <extensions>
+      <country>cr</country>
+      <code>33990</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>金温线（塘雅线路所-温州南） (189.6km)</name>

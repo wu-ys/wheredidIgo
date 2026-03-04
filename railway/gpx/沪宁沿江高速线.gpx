@@ -2,27 +2,51 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
-    <desc>cr16804</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16804</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.661213" lon="119.942015">
     <name>武进</name>
-    <desc>cr19105</desc>
+    <extensions>
+      <country>cr</country>
+      <code>19105</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.863894" lon="120.274643">
     <name>江阴</name>
-    <desc>cr19097</desc>
+    <extensions>
+      <country>cr</country>
+      <code>19097</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.819379" lon="120.669746">
     <name>张家港</name>
-    <desc>cr16559</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16559</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.699534" lon="120.775997">
     <name>常熟</name>
-    <desc>cr16561</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16561</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="31.512012" lon="121.192145">
     <name>太仓</name>
-    <desc>cr16565</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16565</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>沪宁沿江高速线（南京南-太仓） (275.1km)</name>

@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="23.197721" lon="109.128793">
     <name>黎塘</name>
-    <desc>cr36374</desc>
+    <extensions>
+      <country>cr</country>
+      <code>36374</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="22.599788" lon="110.153209">
     <name>玉林</name>
-    <desc>cr37148</desc>
+    <extensions>
+      <country>cr</country>
+      <code>37148</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>黎湛线（黎塘-玉林） (142.8km)</name>

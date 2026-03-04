@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="22.84528" lon="108.409606">
     <name>南宁东</name>
-    <desc>cr36452</desc>
+    <extensions>
+      <country>cr</country>
+      <code>36452</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.724276" lon="110.245228">
     <name>玉林北</name>
-    <desc>cr3ba9bb5d</desc>
+    <extensions>
+      <country>cr</country>
+      <code>3ba9bb5d</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>南珠高速线（南宁东-玉林北） (191.9km)</name>

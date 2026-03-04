@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="18.310561" lon="109.404688">
     <name>凤凰机场</name>
-    <desc>cr51682</desc>
+    <extensions>
+      <country>cr</country>
+      <code>51682</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="18.309082" lon="109.366121">
     <name>凤凰西所</name>
-    <desc>crf1f7e412</desc>
+    <extensions>
+      <country>cr</country>
+      <code>f1f7e412</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>凤凰联络线 (4.2km)</name>

@@ -2,15 +2,27 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
-    <desc>cr16804</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16804</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.864274" lon="120.019428">
     <name>湖州</name>
-    <desc>cr31854</desc>
+    <extensions>
+      <country>cr</country>
+      <code>31854</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
-    <desc>cr32001</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32001</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>宁杭高速线（南京南-杭州东） (253.8km)</name>

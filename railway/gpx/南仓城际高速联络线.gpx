@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="39.211126" lon="117.168402">
     <name>南仓所</name>
-    <desc>cr10008</desc>
+    <extensions>
+      <country>cr</country>
+      <code>10008</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
-    <desc>cr16010</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16010</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>南仓城际高速联络线</name>

@@ -2,19 +2,35 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="23.152877" lon="113.319977">
     <name>广州东</name>
-    <desc>cr23711</desc>
+    <extensions>
+      <country>cr</country>
+      <code>23711</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.136824" lon="113.60113">
     <name>广州新塘</name>
-    <desc>cr23738</desc>
+    <extensions>
+      <country>cr</country>
+      <code>23738</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="23.092445" lon="113.854212">
     <name>东莞</name>
-    <desc>cr23757</desc>
+    <extensions>
+      <country>cr</country>
+      <code>23757</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <wpt lat="22.535525" lon="114.112668">
     <name>深圳</name>
-    <desc>cr23819</desc>
+    <extensions>
+      <country>cr</country>
+      <code>23819</code>
+      <type>station</type>
+    </extensions>
   </wpt>
   <trk>
     <name>广深城际（广州东-深圳） (137.9km)</name>

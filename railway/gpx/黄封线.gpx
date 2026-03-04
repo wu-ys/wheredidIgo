@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="31.295703" lon="121.235915">
     <name>黄渡</name>
-    <desc>cr30566</desc>
+    <extensions>
+      <country>cr</country>
+      <code>30566</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="31.25843" lon="121.284308">
     <name>封浜</name>
-    <desc>cr32045</desc>
+    <extensions>
+      <country>cr</country>
+      <code>32045</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>黄封线（黄渡-封浜）</name>

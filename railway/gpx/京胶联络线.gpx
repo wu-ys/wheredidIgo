@@ -2,11 +2,19 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
   <wpt lat="36.690379" lon="116.997805">
     <name>北园</name>
-    <desc>cr16292</desc>
+    <extensions>
+      <country>cr</country>
+      <code>16292</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <wpt lat="36.681364" lon="117.022926">
     <name>大明湖</name>
-    <desc>cr17699</desc>
+    <extensions>
+      <country>cr</country>
+      <code>17699</code>
+      <type>junction</type>
+    </extensions>
   </wpt>
   <trk>
     <name>京胶联络线 (4.5km)</name>
