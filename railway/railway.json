@@ -609,8 +609,21 @@
     "end": "柳辛庄",
     "vias": []
   },
-  "京广线郑武段": {
+  "京广线石郑段": {
     "line_ref": "0001-B",
+    "zh": "京广线",
+    "en": "Beijing-Guangzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 160,
+    "start": "石家庄",
+    "end": "郑州",
+    "vias": [
+      "南阳寨"
+    ]
+  },
+  "京广线郑武段": {
+    "line_ref": "0001-C",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -621,7 +634,7 @@
     "vias": []
   },
   "京广线武广段": {
-    "line_ref": "0001-C",
+    "line_ref": "0001-D",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -687,8 +700,21 @@
       "圃田西",
       "郑州",
       "洛阳",
+      "灞桥",
+      "宝鸡",
       "天水"
     ]
+  },
+  "焦柳线": {
+    "line_ref": "0004",
+    "zh": "焦柳线",
+    "en": "Jiaozuo-Liuzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 120,
+    "start": "月山",
+    "end": "济源",
+    "vias": []
   },
   "京九线京昌段": {
     "line_ref": "0005-A",
@@ -850,6 +876,28 @@
     "end": "台阁牧",
     "vias": []
   },
+  "太焦线": {
+    "line_ref": "0032",
+    "zh": "太焦线",
+    "en": "Taiyuan-Jiaozuo Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": 120,
+    "start": "修文",
+    "end": "月山",
+    "vias": []
+  },
+  "南同蒲线": {
+    "line_ref": "0033",
+    "zh": "南同蒲线",
+    "en": "South Datong-Puzhou Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 120,
+    "start": "太原南",
+    "end": "修文",
+    "vias": []
+  },
   "包兰线": {
     "line_ref": "0039",
     "zh": "包兰线",
@@ -870,6 +918,28 @@
     "speed": 200,
     "start": "何刘",
     "end": "九江西",
+    "vias": []
+  },
+  "襄渝线": {
+    "line_ref": "0056",
+    "zh": "襄渝线",
+    "en": "Xiangyang-Chongqing Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 160,
+    "start": "安康",
+    "end": "磨心坡",
+    "vias": []
+  },
+  "宝成线": {
+    "line_ref": "0057",
+    "zh": "宝成线",
+    "en": "Baoji-Chengdu Railway",
+    "country": "CN",
+    "type": "branch",
+    "speed": 120,
+    "start": "宝鸡",
+    "end": "阳平关",
     "vias": []
   },
   "湘桂线": {
@@ -1170,6 +1240,17 @@
     "end": "白洋淀",
     "vias": []
   },
+  "西康线": {
+    "line_ref": "0428",
+    "zh": "西康线",
+    "en": "Xi'an-Ankang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 160,
+    "start": "田王",
+    "end": "安康",
+    "vias": []
+  },
   "武昌南环线": {
     "line_ref": "0453",
     "zh": "武昌南环线",
@@ -1179,6 +1260,17 @@
     "speed": 160,
     "start": "武昌南",
     "end": "何刘",
+    "vias": []
+  },
+  "阳安线": {
+    "line_ref": "0456",
+    "zh": "阳安线",
+    "en": "Yangpingguan-Ankang Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 120,
+    "start": "阳平关",
+    "end": "汉中",
     "vias": []
   },
   "辛泰线": {
@@ -1448,6 +1540,17 @@
     "end": "昆明",
     "vias": []
   },
+  "渭井线": {
+    "line_ref": "0840",
+    "zh": "渭井线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": 160,
+    "start": "黄桷所",
+    "end": "一四一所",
+    "vias": []
+  },
   "兰青线": {
     "line_ref": "0905",
     "zh": "兰青线",
@@ -1582,6 +1685,17 @@
     "end": "雁栖湖",
     "vias": []
   },
+  "田灞联络线": {
+    "line_ref": "1444",
+    "zh": "田灞联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": 160,
+    "start": "田王",
+    "end": "灞桥",
+    "vias": []
+  },
   "高桥联络线": {
     "line_ref": "1485",
     "zh": "高桥联络线",
@@ -1668,6 +1782,28 @@
     "speed": 120,
     "start": "李家塘",
     "end": "莘庄",
+    "vias": []
+  },
+  "襄遂线": {
+    "line_ref": "1847-8",
+    "zh": "襄遂线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": 120,
+    "start": "磨心坡",
+    "end": "黄桷所",
+    "vias": []
+  },
+  "蔡歌联络线": {
+    "line_ref": "1859",
+    "zh": "蔡歌联络线",
+    "en": "Link Lnie",
+    "country": "CN",
+    "type": "link",
+    "speed": 120,
+    "start": "一四一所",
+    "end": "歌乐山",
     "vias": []
   },
   "南仓城际高速联络线": {
@@ -1833,6 +1969,17 @@
     "speed": 200,
     "start": "秦祺村所",
     "end": "双龙南",
+    "vias": []
+  },
+  "井西线": {
+    "line_ref": "2839",
+    "zh": "井西线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "branch",
+    "speed": 160,
+    "start": "歌乐山",
+    "end": "重庆西",
     "vias": []
   },
   "京广高速线京石段": {
@@ -2070,7 +2217,9 @@
     "speed": 250,
     "start": "石家庄北",
     "end": "太原南",
-    "vias": []
+    "vias": [
+      "太原"
+    ]
   },
   "徐兰高速线郑徐段": {
     "line_ref": "3013-A",
@@ -2093,6 +2242,19 @@
     "start": "天水南",
     "end": "兰州西",
     "vias": []
+  },
+  "徐兰高速线郑西段": {
+    "line_ref": "3013-C",
+    "zh": "徐兰高速线",
+    "en": "Xuzhou-Lanzhou Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 300,
+    "start": "郑州东",
+    "end": "西安北",
+    "vias": [
+      "洛阳龙门"
+    ]
   },
   "新成灌线": {
     "line_ref": "3014",
@@ -2267,10 +2429,21 @@
     "end": "荣成",
     "vias": []
   },
-  "西成高速线": {
-    "line_ref": "3040",
-    "zh": "西成高速线",
-    "en": "Xi'an-Chengdu Highspeed Railway",
+  "西成客运专线陕西段": {
+    "line_ref": "3040-A",
+    "zh": "西成客运专线",
+    "en": "Xi'an-Chengdu Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 250,
+    "start": "西安北",
+    "end": "汉中",
+    "vias": []
+  },
+  "西成客运专线四川段": {
+    "line_ref": "3040-B",
+    "zh": "西成客运专线",
+    "en": "Xi'an-Chengdu Passenger Railway",
     "country": "CN",
     "type": "main",
     "speed": 250,

@@ -312,7 +312,21 @@
       "country": "cr",
       "code": "20372",
       "lines": [
+        "京广线石郑段",
         "京广高速线京石段"
+      ]
+    },
+    {
+      "name_zh": "石家庄北",
+      "name_en": "Shijiazhuang N.",
+      "type": "station",
+      "lat": 38.064809,
+      "lon": 114.458946,
+      "country": "cr",
+      "code": "26426",
+      "lines": [
+        "石家庄西北环线",
+        "石太客运专线"
       ]
     },
     {
@@ -2324,6 +2338,7 @@
       "country": "cr",
       "code": "20750",
       "lines": [
+        "京广线石郑段",
         "陇海线"
       ]
     },
@@ -2339,6 +2354,7 @@
         "郑州东北联络线",
         "京广高速线石武段",
         "徐兰高速线郑徐段",
+        "徐兰高速线郑西段",
         "郑开城际线"
       ]
     },
@@ -2392,6 +2408,42 @@
       ]
     },
     {
+      "name_zh": "济源",
+      "name_en": "Jiyuan",
+      "type": "station",
+      "lat": 35.110954,
+      "lon": 112.568272,
+      "country": "cr",
+      "code": "44114",
+      "lines": [
+        "焦柳线"
+      ]
+    },
+    {
+      "name_zh": "洛阳龙门",
+      "name_en": "Luoyang Longmen",
+      "type": "station",
+      "lat": 34.595597,
+      "lon": 112.454376,
+      "country": "cr",
+      "code": "39053",
+      "lines": [
+        "徐兰高速线郑西段"
+      ]
+    },
+    {
+      "name_zh": "太原",
+      "name_en": "Taiyuan",
+      "type": "station",
+      "lat": 37.859785,
+      "lon": 112.581228,
+      "country": "cr",
+      "code": "26447",
+      "lines": [
+        "石太客运专线"
+      ]
+    },
+    {
       "name_zh": "重庆北",
       "name_en": "Chongqing N.",
       "type": "station",
@@ -2401,6 +2453,18 @@
       "code": "35143",
       "lines": [
         "宁蓉线汉渝段"
+      ]
+    },
+    {
+      "name_zh": "重庆西",
+      "name_en": "Chongqing W.",
+      "type": "station",
+      "lat": 29.503728,
+      "lon": 106.433378,
+      "country": "cr",
+      "code": "30077",
+      "lines": [
+        "井西线"
       ]
     },
     {
@@ -2488,7 +2552,7 @@
       "country": "cr",
       "code": "46543",
       "lines": [
-        "西成高速线",
+        "西成客运专线四川段",
         "成贵客运专线成都段"
       ]
     },
@@ -2550,7 +2614,7 @@
       "country": "cr",
       "code": "47607",
       "lines": [
-        "西成高速线"
+        "西成客运专线四川段"
       ]
     },
     {
@@ -2662,6 +2726,32 @@
       "code": "49534",
       "lines": [
         "滇藏线"
+      ]
+    },
+    {
+      "name_zh": "宝鸡",
+      "name_en": "Baoji",
+      "type": "station",
+      "lat": 34.374616,
+      "lon": 107.148467,
+      "country": "cr",
+      "code": "39629",
+      "lines": [
+        "陇海线",
+        "宝成线"
+      ]
+    },
+    {
+      "name_zh": "汉中",
+      "name_en": "Hanzhong",
+      "type": "station",
+      "lat": 33.09259,
+      "lon": 107.025408,
+      "country": "cr",
+      "code": "45713",
+      "lines": [
+        "阳安线",
+        "西成客运专线陕西段"
       ]
     },
     {
@@ -3421,7 +3511,7 @@
       "code": "47609",
       "lines": [
         "青三联络线",
-        "西成高速线"
+        "西成客运专线四川段"
       ]
     },
     {
@@ -4216,6 +4306,7 @@
       "country": "cr",
       "code": "26468",
       "lines": [
+        "南同蒲线",
         "太中线",
         "石太客运专线"
       ]
@@ -4572,19 +4663,6 @@
       ]
     },
     {
-      "name_zh": "石家庄北",
-      "name_en": "Shijiazhuang N.",
-      "type": "junction",
-      "lat": 38.064809,
-      "lon": 114.458946,
-      "country": "cr",
-      "code": "26426",
-      "lines": [
-        "石家庄西北环线",
-        "石太客运专线"
-      ]
-    },
-    {
       "name_zh": "走马岭所",
       "name_en": "",
       "type": "junction",
@@ -4931,6 +5009,7 @@
       "country": "cr",
       "code": "21749",
       "lines": [
+        "京广线石郑段",
         "郑太客运专线"
       ]
     },
@@ -5036,6 +5115,149 @@
       "lines": [
         "杭深线杭甬段",
         "杭甬联络线"
+      ]
+    },
+    {
+      "name_zh": "一四一所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 29.680139,
+      "lon": 106.441399,
+      "country": "cr",
+      "code": "46571",
+      "lines": [
+        "渭井线",
+        "蔡歌联络线"
+      ]
+    },
+    {
+      "name_zh": "灞桥",
+      "name_en": "Baqiao",
+      "type": "junction",
+      "lat": 34.302124,
+      "lon": 109.05496,
+      "country": "cr",
+      "code": "39422",
+      "lines": [
+        "陇海线",
+        "田灞联络线"
+      ]
+    },
+    {
+      "name_zh": "阳平关",
+      "name_en": "Yangpingguan",
+      "type": "junction",
+      "lat": 32.96855,
+      "lon": 106.03358,
+      "country": "cr",
+      "code": "45389",
+      "lines": [
+        "宝成线",
+        "阳安线"
+      ]
+    },
+    {
+      "name_zh": "歌乐山",
+      "name_en": "Geleshan",
+      "type": "junction",
+      "lat": 29.626906,
+      "lon": 106.433423,
+      "country": "cr",
+      "code": "46569",
+      "lines": [
+        "蔡歌联络线",
+        "井西线"
+      ]
+    },
+    {
+      "name_zh": "西安北",
+      "name_en": "Xi'an N.",
+      "type": "junction",
+      "lat": 34.376281,
+      "lon": 108.934406,
+      "country": "cr",
+      "code": "39032",
+      "lines": [
+        "徐兰高速线郑西段",
+        "西成客运专线陕西段"
+      ]
+    },
+    {
+      "name_zh": "磨心坡",
+      "name_en": "Moxinpo",
+      "type": "junction",
+      "lat": 29.857599,
+      "lon": 106.468817,
+      "country": "cr",
+      "code": "30053",
+      "lines": [
+        "襄渝线",
+        "襄遂线"
+      ]
+    },
+    {
+      "name_zh": "月山",
+      "name_en": "Yueshan",
+      "type": "junction",
+      "lat": 35.210022,
+      "lon": 113.048827,
+      "country": "cr",
+      "code": "28442",
+      "lines": [
+        "焦柳线",
+        "太焦线"
+      ]
+    },
+    {
+      "name_zh": "修文",
+      "name_en": "Xiuwen",
+      "type": "junction",
+      "lat": 37.60667,
+      "lon": 112.714,
+      "country": "cr",
+      "code": "27989",
+      "lines": [
+        "太焦线",
+        "南同蒲线"
+      ]
+    },
+    {
+      "name_zh": "安康",
+      "name_en": "Ankang",
+      "type": "junction",
+      "lat": 32.714499,
+      "lon": 109.01132,
+      "country": "cr",
+      "code": "29843",
+      "lines": [
+        "襄渝线",
+        "西康线"
+      ]
+    },
+    {
+      "name_zh": "田王",
+      "name_en": "Tianwang",
+      "type": "junction",
+      "lat": 34.298344,
+      "lon": 109.103497,
+      "country": "cr",
+      "code": "40853",
+      "lines": [
+        "西康线",
+        "田灞联络线"
+      ]
+    },
+    {
+      "name_zh": "黄桷所",
+      "name_en": "",
+      "type": "junction",
+      "lat": 29.829388,
+      "lon": 106.45635,
+      "country": "cr",
+      "code": "30052",
+      "lines": [
+        "渭井线",
+        "襄遂线"
       ]
     }
   ]

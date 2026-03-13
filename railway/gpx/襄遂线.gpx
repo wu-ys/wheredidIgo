@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="BRouter-Web 0.18.1">
+  <wpt lat="29.857599" lon="106.468817">
+    <name>磨心坡</name>
+    <extensions>
+      <country>cr</country>
+      <code>30053</code>
+      <type>junction</type>
+    </extensions>
+  </wpt>
+  <wpt lat="29.829388" lon="106.45635">
+    <name>黄桷所</name>
+    <extensions>
+      <country>cr</country>
+      <code>30052</code>
+      <type>junction</type>
+    </extensions>
+  </wpt>
+  <trk>
+    <name>襄渝渭井线 (3.4km)</name>
+    <trkseg>
+      <trkpt lat="29.85759" lon="106.468932">
+        <ele>240.0</ele>
+      </trkpt>
+      <trkpt lat="29.847448" lon="106.462487">
+        <ele>228.25</ele>
+      </trkpt>
+      <trkpt lat="29.84659" lon="106.46195">
+        <ele>228.75</ele>
+      </trkpt>
+      <trkpt lat="29.846129" lon="106.461665">
+        <ele>243.5</ele>
+      </trkpt>
+      <trkpt lat="29.844477" lon="106.460587">
+        <ele>238.25</ele>
+      </trkpt>
+      <trkpt lat="29.843419" lon="106.459938">
+        <ele>241.25</ele>
+      </trkpt>
+      <trkpt lat="29.840886" lon="106.458338">
+        <ele>237.0</ele>
+      </trkpt>
+      <trkpt lat="29.840446" lon="106.458083">
+        <ele>240.5</ele>
+      </trkpt>
+      <trkpt lat="29.839405" lon="106.457603">
+        <ele>249.0</ele>
+      </trkpt>
+      <trkpt lat="29.837993" lon="106.457145">
+        <ele>260.0</ele>
+      </trkpt>
+      <trkpt lat="29.836818" lon="106.456937">
+        <ele>269.0</ele>
+      </trkpt>
+      <trkpt lat="29.836184" lon="106.456825">
+      </trkpt>
+      <trkpt lat="29.829438" lon="106.456398">
+      </trkpt>
+      <trkpt lat="29.829499" lon="106.456396">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

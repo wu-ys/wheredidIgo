@@ -5,7 +5,15 @@
     <extensions>
       <country>cr</country>
       <code>26426</code>
-      <type>junction</type>
+      <type>station</type>
+    </extensions>
+  </wpt>
+  <wpt lat="37.859785" lon="112.581228">
+    <name>太原</name>
+    <extensions>
+      <country>cr</country>
+      <code>26447</code>
+      <type>station</type>
     </extensions>
   </wpt>
   <wpt lat="37.79058" lon="112.603721">

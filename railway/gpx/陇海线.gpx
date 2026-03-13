@@ -48,6 +48,22 @@
       <type>station</type>
     </extensions>
   </wpt>
+  <wpt lat="34.302124" lon="109.05496">
+    <name>灞桥</name>
+    <extensions>
+      <country>cr</country>
+      <code>39422</code>
+      <type>junction</type>
+    </extensions>
+  </wpt>
+  <wpt lat="34.374616" lon="107.148467">
+    <name>宝鸡</name>
+    <extensions>
+      <country>cr</country>
+      <code>39629</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
   <wpt lat="34.566714" lon="105.894849">
     <name>天水</name>
     <extensions>

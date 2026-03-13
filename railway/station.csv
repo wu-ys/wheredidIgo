@@ -24,6 +24,7 @@ code,name,name_en,lon,lat,type,country
 11132,蓟州,Jizhou,117.362706,39.993686,station,cr
 10526,蓟州北,Jizhou N.,117.391628,40.025454,station,cr
 20372,石家庄,Shijiazhuang,114.478487,38.009434,station,cr
+26426,石家庄北,Shijiazhuang N.,114.458946,38.064809,station,cr
 10214,唐山,Tangshan,118.115152,39.622864,station,cr
 11492,承德,Chengde,117.948261,40.963096,station,cr
 52920,承德南,Chengde S.,117.958703,40.883668,station,cr
@@ -189,7 +190,11 @@ Z05,张槎,Zhangcha,113.062200,23.011695,station,gi
 39173,洛阳,Luoyang,112.430106,34.686405,station,cr
 22531,安阳东,Anyang E.,114.447441,36.084740,station,cr
 38402,焦作,Jiaozuo,113.228550,35.222383,station,cr
+44114,济源,Jiyuan,112.568272,35.110954,station,cr
+39053,洛阳龙门,Luoyang Longmen,112.454376,34.595597,station,cr
+26447,太原,Taiyuan,112.581228,37.859785,station,cr
 35143,重庆北,Chongqing N.,106.547387,29.612607,station,cr
+30077,重庆西,Chongqing W.,106.433378,29.503728,station,cr
 47066,沙坪坝,Shapingba,106.457283,29.556784,station,cr
 37646,贵阳,Guiyang,106.698660,26.560400,station,cr
 47483,贵阳北,Guiyang N.,106.670656,26.623156,station,cr
@@ -211,6 +216,8 @@ Z05,张槎,Zhangcha,113.062200,23.011695,station,gi
 48647,普洱,Pu'er,100.940768,22.778273,station,cr
 48417,丽江,Lijiang,100.251512,26.814220,station,cr
 49534,香格里拉,Shangri-La,99.688547,27.813351,station,cr
+39629,宝鸡,Baoji,107.148467,34.374616,station,cr
+45713,汉中,Hanzhong,107.025408,33.092590,station,cr
 41492,兰州西,Lanzhou W.,103.749730,36.069222,station,cr
 39701,天水,Tianshui,105.894849,34.566714,station,cr
 38988,天水南,Tianshui S.,105.854066,34.549947,station,cr
@@ -359,7 +366,6 @@ a535f86a,笕桥所,,120.244343,30.354931,junction,cr
 53293,田家窝堡所,,122.683919,42.052010,junction,cr
 53480,崔家营子所,,125.249990,43.934415,junction,cr
 54119,杨家粉坊所,,125.265797,43.916288,junction,cr
-26426,石家庄北,Shijiazhuang N.,114.458946,38.064809,junction,cr
 0fe38421,走马岭所,,114.013787,30.634842,junction,cr
 06e54b21,高桥所,,114.055252,30.617726,junction,cr
 17699,大明湖,Daminghu,117.022926,36.681364,junction,cr
@@ -395,3 +401,14 @@ a7e2bfc6,八达岭西所,,115.960675,40.382513,junction,cr
 8fdcda66,胡庄所,,117.948045,31.589392,junction,cr
 5120128c,横山所,,119.519736,32.148336,junction,cr
 4041effe,杭甬杭州南所,,120.320491,30.140235,junction,cr
+46571,一四一所,,106.441399,29.680139,junction,cr
+39422,灞桥,Baqiao,109.054960,34.302124,junction,cr
+45389,阳平关,Yangpingguan,106.03358,32.96855,junction,cr
+46569,歌乐山,Geleshan,106.433423,29.626906,junction,cr
+39032,西安北,Xi'an N.,108.934406,34.376281,junction,cr
+30053,磨心坡,Moxinpo,106.468817,29.857599,junction,cr
+28442,月山,Yueshan,113.048827,35.210022,junction,cr
+27989,修文,Xiuwen,112.71400,37.60667,junction,cr
+29843,安康,Ankang,109.011320,32.714499,junction,cr
+40853,田王,Tianwang,109.103497,34.298344,junction,cr
+30052,黄桷所,,106.456350,29.829388,junction,cr
