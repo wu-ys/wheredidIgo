@@ -31,8 +31,6 @@ jobs:
     # === 4️⃣ 运行你的 Python 脚本 ===
     - name: Run update script
       run: |
-        python process_airport.py
-        python process_flights.py
         python fill_template.py
 
     # === 5️⃣ 提交修改并推送回仓库 ===

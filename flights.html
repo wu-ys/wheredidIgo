@@ -168,7 +168,7 @@
   let activeGpx = null;  // highlight
   let langMap = {};
 
-  let total = 95;
+  let total = 97;
   let loaded = 0;
   let gpxs = [];
 
@@ -180,7 +180,7 @@
 
   function loadAllFlightGpx(gpxs) {
 
-    gpxs["flights"].forEach(item => {
+    gpxs.forEach(item => {
       const gpxId = item.flight_id;
       const file = "./flights/gpx/" + item.gpx_filename;
       const gpx = new L.GPX(file, {
@@ -311,40 +311,36 @@
         fetch("./flights/flights.json").then(r => r.json())
       ]);
 
-      for (const [groupName, points] of Object.entries(airportData)) {
-        const group = overlays["flights"];
+      const flightsGroup = overlays["flights"];
+      for (const [airportName, p] of Object.entries(airportData)) {
+        const name = currentLang === "zh" ? p.name_zh : p.name_en;
+        const cnt = p.cnt;
+        let size = 12;
+        if (cnt < 3) size = 12;
+        else if (cnt < 10) size = 16;
+        else size = 20;
+        const marker = L.marker([p.lat, p.lon], { icon: createFlightIcon(size) })
+          .bindPopup(`<b>${name}</b>`)
+          .addTo(flightsGroup);
+        const airport_iata = p.iata;
+        markerById.set(airport_iata, marker);
+        markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via));
+        marker._names = { zh: p.name_zh, en: p.name_en };
+        marker._cnt = cnt;
+        marker._size = size
+        marker.setZIndexOffset(500 + marker._cnt);
+        if (!flightsGroup._markers) flightsGroup._markers = [];
+          flightsGroup._markers.push(marker);
 
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const cnt = p.cnt;
-          let size = 12;
-          if (cnt < 3) size = 12;
-          else if (cnt < 10) size = 16;
-          else size = 20;
-          const marker = L.marker([p.lat, p.lon], { icon: createFlightIcon(size) })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-          const airport_iata = p.iata;
-          markerById.set(airport_iata, marker);
-          markerToGpx.set(airport_iata, p.departure.concat(p.arrival).concat(p.via));
-          marker._names = { zh: p.name_zh, en: p.name_en };
-          marker._cnt = cnt;
-          marker._size = size
-          marker.setZIndexOffset(500 + marker._cnt);
-          if (!group._markers) group._markers = [];
-            group._markers.push(marker);
+        marker.on("click", e => {
+          L.DomEvent.stopPropagation(e);
 
-          marker.on("click", e => {
-            L.DomEvent.stopPropagation(e);
+          const gpxIds = markerToGpx.get(airport_iata) || [];
+          marker.setZIndexOffset(700);
 
-            const gpxIds = markerToGpx.get(airport_iata) || [];
-            marker.setZIndexOffset(700);
-
-            highlightGpxList(gpxIds.map(id => gpxById.get(id)));
-          });
+          highlightGpxList(gpxIds.map(id => gpxById.get(id)));
         });
-      }
-
+      };
 
       loadAllFlightGpx(flightGpxs);
 
