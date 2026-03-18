@@ -1,6 +1,7 @@
-{
-  "JR北陆线": {
+[
+  {
     "line_ref": "JRW-A1",
+    "filename": "JR北陆线",
     "zh": "JR北陆线",
     "en": "JR Hokuriku Line",
     "country": "JP",
@@ -12,8 +13,9 @@
       "近江盐津"
     ]
   },
-  "JR东海道线": {
+  {
     "line_ref": "JRW-A2",
+    "filename": "JR东海道线",
     "zh": "JR东海道线",
     "en": "JR Tokaido Line",
     "country": "JP",
@@ -28,8 +30,9 @@
       "京都"
     ]
   },
-  "JR山阳线": {
+  {
     "line_ref": "JRW-A3",
+    "filename": "JR山阳线",
     "zh": "JR山阳线",
     "en": "JR Sanyo Line",
     "country": "JP",
@@ -41,8 +44,9 @@
       "神户"
     ]
   },
-  "JR湖西线": {
+  {
     "line_ref": "JRW-B",
+    "filename": "JR湖西线",
     "zh": "JR湖西线",
     "en": "JR Kosei Line",
     "country": "JP",
@@ -52,8 +56,9 @@
     "end": "近江盐津",
     "vias": []
   },
-  "JR草津线": {
+  {
     "line_ref": "JRW-C",
+    "filename": "JR草津线",
     "zh": "JR草津线",
     "en": "JR Kusatsu Line",
     "country": "JP",
@@ -63,8 +68,9 @@
     "end": "柘植",
     "vias": []
   },
-  "JR奈良线": {
+  {
     "line_ref": "JRW-D",
+    "filename": "JR奈良线",
     "zh": "JR奈良线",
     "en": "JR Nara Line",
     "country": "JP",
@@ -74,8 +80,9 @@
     "end": "木津",
     "vias": []
   },
-  "JR山阴线": {
+  {
     "line_ref": "JRW-E",
+    "filename": "JR山阴线",
     "zh": "JR山阴线",
     "en": "JR San-in Line",
     "country": "JP",
@@ -87,8 +94,9 @@
       "梅小路京都西"
     ]
   },
-  "JR大阪环状线": {
+  {
     "line_ref": "JRW-O",
+    "filename": "JR大阪环状线",
     "zh": "JR大阪环状线",
     "en": "JR Osaka Loop Line",
     "country": "JP",
@@ -103,8 +111,9 @@
       "新今宫"
     ]
   },
-  "JR大和路线": {
+  {
     "line_ref": "JRW-Q",
+    "filename": "JR大和路线",
     "zh": "JR大和路线",
     "en": "JR Yamatoji Line",
     "country": "JP",
@@ -114,8 +123,9 @@
     "end": "今宫",
     "vias": []
   },
-  "JR阪和线": {
+  {
     "line_ref": "JRW-R1",
+    "filename": "JR阪和线",
     "zh": "JR阪和线",
     "en": "JR Hanwa Line",
     "country": "JP",
@@ -125,8 +135,9 @@
     "end": "和歌山",
     "vias": []
   },
-  "JR纪势线": {
+  {
     "line_ref": "JRW-R2",
+    "filename": "JR纪势线",
     "zh": "JR纪势线",
     "en": "JR Kisei Line",
     "country": "JP",
@@ -136,8 +147,9 @@
     "end": "和歌山市",
     "vias": []
   },
-  "JR关西线": {
+  {
     "line_ref": "JRW-V",
+    "filename": "JR关西线",
     "zh": "JR关西线",
     "en": "JR Kansai Line",
     "country": "JP",
@@ -151,8 +163,9 @@
       "JR奈良"
     ]
   },
-  "阪急宝塚线": {
+  {
     "line_ref": "JHK-H",
+    "filename": "阪急宝塚线",
     "zh": "阪急宝塚线",
     "en": "Hankyu Takarazuka Line",
     "country": "JP",
@@ -162,8 +175,9 @@
     "end": "庄内",
     "vias": []
   },
-  "阪神本线": {
+  {
     "line_ref": "JHS",
+    "filename": "阪神本线",
     "zh": "阪神本线",
     "en": "Hanshin Railway",
     "country": "JP",
@@ -173,8 +187,9 @@
     "end": "阪神尼崎",
     "vias": []
   },
-  "阪神难波线": {
+  {
     "line_ref": "JHS-N",
+    "filename": "阪神难波线",
     "zh": "阪神难波线",
     "en": "Hanshin Railway Namba Line",
     "country": "JP",
@@ -184,8 +199,9 @@
     "end": "西九条",
     "vias": []
   },
-  "京阪本线": {
+  {
     "line_ref": "JKH",
+    "filename": "京阪本线",
     "zh": "京阪本线",
     "en": "Keihan Railway",
     "country": "JP",
@@ -195,8 +211,9 @@
     "end": "三条",
     "vias": []
   },
-  "近铁奈良线": {
+  {
     "line_ref": "JKT-A",
+    "filename": "近铁奈良线",
     "zh": "近铁奈良线",
     "en": "Kintetsu Nara Line",
     "country": "JP",
@@ -206,8 +223,9 @@
     "end": "近铁日本桥",
     "vias": []
   },
-  "南海加太线": {
+  {
     "line_ref": "JNK-K",
+    "filename": "南海加太线",
     "zh": "南海加太线",
     "en": "Nankai Railway Kada Branch",
     "country": "JP",
@@ -217,8 +235,9 @@
     "end": "加太",
     "vias": []
   },
-  "南海本线": {
+  {
     "line_ref": "JNK",
+    "filename": "南海本线",
     "zh": "南海本线",
     "en": "Nankai Railway",
     "country": "JP",
@@ -231,8 +250,9 @@
       "纪之川"
     ]
   },
-  "南海机场线": {
+  {
     "line_ref": "JNK-A",
+    "filename": "南海机场线",
     "zh": "南海机场线",
     "en": "Nankai Railway KIX Branch",
     "country": "JP",
@@ -242,8 +262,9 @@
     "end": "关西空港",
     "vias": []
   },
-  "南凭高速线": {
+  {
     "line_ref": "93115",
+    "filename": "南凭高速线",
     "zh": "南凭高速线",
     "en": "Nanning-Pingxiang Highspeed Railway",
     "country": "CN",
@@ -255,8 +276,9 @@
       "吴圩机场"
     ]
   },
-  "南珠高速线": {
+  {
     "line_ref": "93116",
+    "filename": "南珠高速线",
     "zh": "南珠高速线",
     "en": "Nanning-Zhuhai Highspeed Railway",
     "country": "CN",
@@ -266,8 +288,9 @@
     "end": "玉林北",
     "vias": []
   },
-  "太仓联络线": {
+  {
     "line_ref": "90001",
+    "filename": "太仓联络线",
     "zh": "太仓联络线",
     "en": "Link Line",
     "country": "CN",
@@ -277,8 +300,9 @@
     "end": "陆渡所",
     "vias": []
   },
-  "宣绩高速线": {
+  {
     "line_ref": "93117",
+    "filename": "宣绩高速线",
     "zh": "宣绩高速线",
     "en": "Xuancheng-Jixi Highspeed Railway",
     "country": "CN",
@@ -288,8 +312,9 @@
     "end": "绩溪北",
     "vias": []
   },
-  "川青线": {
+  {
     "line_ref": "93118",
+    "filename": "川青线",
     "zh": "川青线",
     "en": "Chengdu-Xining Railway",
     "country": "CN",
@@ -299,8 +324,9 @@
     "end": "黄龙九寨",
     "vias": []
   },
-  "广州东环城际线": {
+  {
     "line_ref": "90002",
+    "filename": "广州东环城际线",
     "zh": "广州东环城际线",
     "en": "Guangzhou-Foshan Loop Intercity Railway",
     "country": "CN",
@@ -310,8 +336,9 @@
     "end": "白云机场北",
     "vias": []
   },
-  "广清城际线": {
+  {
     "line_ref": "90003",
+    "filename": "广清城际线",
     "zh": "广清城际线",
     "en": "Guangzhou-Qingyuan Intercity Railway",
     "country": "CN",
@@ -321,8 +348,9 @@
     "end": "清城",
     "vias": []
   },
-  "康山联络线": {
+  {
     "line_ref": "90004",
+    "filename": "康山联络线",
     "zh": "康山联络线",
     "en": "Link Line",
     "country": "CN",
@@ -332,8 +360,9 @@
     "end": "妙西镇所",
     "vias": []
   },
-  "杭温高速线杭义段": {
+  {
     "line_ref": "93119-A",
+    "filename": "杭温高速线杭义段",
     "zh": "杭温高速线",
     "en": "Hangzhou-Wenzhou Highspeed Railway",
     "country": "CN",
@@ -343,8 +372,9 @@
     "end": "义乌",
     "vias": []
   },
-  "杭温高速线义温段": {
+  {
     "line_ref": "93119-B",
+    "filename": "杭温高速线义温段",
     "zh": "杭温高速线",
     "en": "Hangzhou-Wenzhou Highspeed Railway",
     "country": "CN",
@@ -354,8 +384,9 @@
     "end": "永嘉所",
     "vias": []
   },
-  "桐庐联络线": {
+  {
     "line_ref": "90005",
+    "filename": "桐庐联络线",
     "zh": "桐庐联络线",
     "en": "Link Line",
     "country": "CN",
@@ -365,8 +396,9 @@
     "end": "桐庐",
     "vias": []
   },
-  "池黄高速线": {
+  {
     "line_ref": "93120",
+    "filename": "池黄高速线",
     "zh": "池黄高速线",
     "en": "Chizhou-Huangshan Highspeed Railway",
     "country": "CN",
@@ -378,8 +410,9 @@
       "黟县东"
     ]
   },
-  "津兴城际线": {
+  {
     "line_ref": "93110",
+    "filename": "津兴城际线",
     "zh": "津兴城际线",
     "en": "Tianjin-PKX Intercity Railway",
     "country": "CN",
@@ -389,8 +422,9 @@
     "end": "固安东",
     "vias": []
   },
-  "滇藏线": {
+  {
     "line_ref": "90825",
+    "filename": "滇藏线",
     "zh": "滇藏线",
     "en": "Yunnan-Xizang Railway",
     "country": "CN",
@@ -400,8 +434,9 @@
     "end": "香格里拉",
     "vias": []
   },
-  "甬广高速线": {
+  {
     "line_ref": "93121",
+    "filename": "甬广高速线",
     "zh": "甬广高速线",
     "en": "Ningbo-Guangzhou Highspeed Railway",
     "country": "CN",
@@ -411,8 +446,9 @@
     "end": "厦门北",
     "vias": []
   },
-  "盐通高速线": {
+  {
     "line_ref": "93122",
+    "filename": "盐通高速线",
     "zh": "盐通高速线",
     "en": "Yancheng-Nantong Highspeed Railway",
     "country": "CN",
@@ -424,8 +460,9 @@
       "海安"
     ]
   },
-  "花广联络线": {
+  {
     "line_ref": "93123",
+    "filename": "花广联络线",
     "zh": "花广联络线",
     "en": "Link Line",
     "country": "CN",
@@ -435,8 +472,9 @@
     "end": "广州白云",
     "vias": []
   },
-  "贵南高速线": {
+  {
     "line_ref": "93124",
+    "filename": "贵南高速线",
     "zh": "贵南高速线",
     "en": "Guiyang-Nanning Highspeed Railway",
     "country": "CN",
@@ -446,8 +484,9 @@
     "end": "南宁东",
     "vias": []
   },
-  "通燕联络线": {
+  {
     "line_ref": "97310",
+    "filename": "通燕联络线",
     "zh": "通燕联络线",
     "en": "Link Line",
     "country": "CN",
@@ -457,8 +496,9 @@
     "end": "北刘各庄所",
     "vias": []
   },
-  "青三联络线": {
+  {
     "line_ref": "90006",
+    "filename": "青三联络线",
     "zh": "青三联络线",
     "en": "Link Line",
     "country": "CN",
@@ -468,8 +508,9 @@
     "end": "三星堆",
     "vias": []
   },
-  "张吉怀高速线": {
+  {
     "line_ref": "93125",
+    "filename": "张吉怀高速线",
     "zh": "张吉怀高速线",
     "en": "Zhangjiajie-Jishou-Huaihua Highspeed Railway",
     "country": "CN",
@@ -481,8 +522,9 @@
       "凤凰古城"
     ]
   },
-  "张家界西联络线": {
+  {
     "line_ref": "90007",
+    "filename": "张家界西联络线",
     "zh": "张家界西联络线",
     "en": "Link Line",
     "country": "CN",
@@ -492,8 +534,9 @@
     "end": "张家界西",
     "vias": []
   },
-  "渝厦高速线": {
+  {
     "line_ref": "93126",
+    "filename": "渝厦高速线",
     "zh": "渝厦高速线",
     "en": "Chongqing-Xiamen Highspeed Railway",
     "country": "CN",
@@ -503,8 +546,9 @@
     "end": "黄金园所",
     "vias": []
   },
-  "龙怀联络线": {
+  {
     "line_ref": "90008",
+    "filename": "龙怀联络线",
     "zh": "龙怀联络线",
     "en": "Link Line",
     "country": "CN",
@@ -514,8 +558,9 @@
     "end": "龙形村所",
     "vias": []
   },
-  "凤凰联络线": {
+  {
     "line_ref": "90009",
+    "filename": "凤凰联络线",
     "zh": "凤凰联络线",
     "en": "Link Line",
     "country": "CN",
@@ -525,8 +570,9 @@
     "end": "凤凰西所",
     "vias": []
   },
-  "崖州联络线": {
+  {
     "line_ref": "90010",
+    "filename": "崖州联络线",
     "zh": "崖州联络线",
     "en": "Link Line",
     "country": "CN",
@@ -536,8 +582,9 @@
     "end": "崖州",
     "vias": []
   },
-  "贵阳客车线": {
+  {
     "line_ref": "90011",
+    "filename": "贵阳客车线",
     "zh": "贵阳客车线",
     "en": "Guiyang Link Line",
     "country": "CN",
@@ -549,8 +596,9 @@
       "秦祺村所"
     ]
   },
-  "中老昆万线": {
+  {
     "line_ref": "90012",
+    "filename": "中老昆万线",
     "zh": "中老昆万线",
     "en": "China-Laos Kunming-Vientiane Railway",
     "country": "CN",
@@ -560,8 +608,9 @@
     "end": "普洱",
     "vias": []
   },
-  "琶莲城际线": {
+  {
     "line_ref": "90013",
+    "filename": "琶莲城际线",
     "zh": "琶莲城际线",
     "en": "Pazhou-Lianhuashan Intercity Railway",
     "country": "CN",
@@ -571,8 +620,9 @@
     "end": "广州莲花山",
     "vias": []
   },
-  "沪宁沿江高速线": {
+  {
     "line_ref": "90014",
+    "filename": "沪宁沿江高速线",
     "zh": "沪宁沿江高速线",
     "en": "Shanghai-Nanjing Riverside Highspeed Railway",
     "country": "CN",
@@ -587,8 +637,9 @@
       "常熟"
     ]
   },
-  "长黄联络线": {
+  {
     "line_ref": "90015",
+    "filename": "长黄联络线",
     "zh": "长黄联络线",
     "en": "Link Line",
     "country": "CN",
@@ -598,8 +649,9 @@
     "end": "长沙西",
     "vias": []
   },
-  "京广线京石段": {
+  {
     "line_ref": "0001-A",
+    "filename": "京广线京石段",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -609,8 +661,9 @@
     "end": "柳辛庄",
     "vias": []
   },
-  "京广线石郑段": {
+  {
     "line_ref": "0001-B",
+    "filename": "京广线石郑段",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -622,8 +675,9 @@
       "南阳寨"
     ]
   },
-  "京广线郑武段": {
+  {
     "line_ref": "0001-C",
+    "filename": "京广线郑武段",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -633,8 +687,9 @@
     "end": "武昌",
     "vias": []
   },
-  "京广线武广段": {
+  {
     "line_ref": "0001-D",
+    "filename": "京广线武广段",
     "zh": "京广线",
     "en": "Beijing-Guangzhou Railway",
     "country": "CN",
@@ -644,8 +699,9 @@
     "end": "武昌南",
     "vias": []
   },
-  "京沪线": {
+  {
     "line_ref": "0002-A",
+    "filename": "京沪线",
     "zh": "京沪线",
     "en": "Beijing-Shanghai Railway",
     "country": "CN",
@@ -671,8 +727,9 @@
       "黄渡"
     ]
   },
-  "京沪济南线": {
+  {
     "line_ref": "0002-B",
+    "filename": "京沪济南线",
     "zh": "京沪济南线",
     "en": "Beijing-Shanghai Railway",
     "country": "CN",
@@ -685,8 +742,9 @@
       "济南"
     ]
   },
-  "陇海线": {
+  {
     "line_ref": "0003",
+    "filename": "陇海线",
     "zh": "陇海线",
     "en": "Lanzhou-Lianyungang Railway",
     "country": "CN",
@@ -705,8 +763,9 @@
       "天水"
     ]
   },
-  "焦柳线": {
+  {
     "line_ref": "0004",
+    "filename": "焦柳线",
     "zh": "焦柳线",
     "en": "Jiaozuo-Liuzhou Railway",
     "country": "CN",
@@ -716,8 +775,9 @@
     "end": "济源",
     "vias": []
   },
-  "京九线京昌段": {
+  {
     "line_ref": "0005-A",
+    "filename": "京九线京昌段",
     "zh": "京九线",
     "en": "Beijing-Kowloon Railway",
     "country": "CN",
@@ -733,8 +793,9 @@
       "九江西"
     ]
   },
-  "京九线南昌段": {
+  {
     "line_ref": "0005-B",
+    "filename": "京九线南昌段",
     "zh": "京九线",
     "en": "Beijing-Kowloon Railway",
     "country": "CN",
@@ -746,8 +807,9 @@
       "向塘"
     ]
   },
-  "京哈线": {
+  {
     "line_ref": "0007",
+    "filename": "京哈线",
     "zh": "京哈线",
     "en": "Beijing-Harbin Railway",
     "country": "CN",
@@ -770,8 +832,9 @@
       "哈尔滨西"
     ]
   },
-  "沪昆线": {
+  {
     "line_ref": "0008",
+    "filename": "沪昆线",
     "zh": "沪昆线",
     "en": "Shanghai-Kunming Railway",
     "country": "CN",
@@ -796,8 +859,9 @@
       "镇远"
     ]
   },
-  "拉滨线": {
+  {
     "line_ref": "0012",
+    "filename": "拉滨线",
     "zh": "拉滨线",
     "en": "Lafa-Harbin Railway",
     "country": "CN",
@@ -807,8 +871,9 @@
     "end": "哈尔滨东",
     "vias": []
   },
-  "平齐线": {
+  {
     "line_ref": "0015",
+    "filename": "平齐线",
     "zh": "平齐线",
     "en": "Siping-Qiqihar Railway",
     "country": "CN",
@@ -820,8 +885,9 @@
       "榆树屯"
     ]
   },
-  "京通线": {
+  {
     "line_ref": "0021",
+    "filename": "京通线",
     "zh": "京通线",
     "en": "Beijing-Tongliao Railway",
     "country": "CN",
@@ -836,8 +902,9 @@
       "古北口"
     ]
   },
-  "京包线北京段": {
+  {
     "line_ref": "0028-A",
+    "filename": "京包线北京段",
     "zh": "京包线",
     "en": "Beijing-Baotou Railway",
     "country": "CN",
@@ -852,8 +919,9 @@
       "八达岭"
     ]
   },
-  "京包线青龙桥上行线": {
+  {
     "line_ref": "0028-B",
+    "filename": "京包线青龙桥上行线",
     "zh": "京包线",
     "en": "Beijing-Baotou Railway (Qinglongqiao Branch)",
     "country": "CN",
@@ -865,8 +933,9 @@
       "青龙桥"
     ]
   },
-  "京包线呼和浩特段": {
+  {
     "line_ref": "0028-C",
+    "filename": "京包线呼和浩特段",
     "zh": "京包线",
     "en": "Beijing-Baotou Railway",
     "country": "CN",
@@ -876,8 +945,9 @@
     "end": "台阁牧",
     "vias": []
   },
-  "太焦线": {
+  {
     "line_ref": "0032",
+    "filename": "太焦线",
     "zh": "太焦线",
     "en": "Taiyuan-Jiaozuo Railway",
     "country": "CN",
@@ -887,8 +957,9 @@
     "end": "月山",
     "vias": []
   },
-  "南同蒲线": {
+  {
     "line_ref": "0033",
+    "filename": "南同蒲线",
     "zh": "南同蒲线",
     "en": "South Datong-Puzhou Railway",
     "country": "CN",
@@ -898,8 +969,9 @@
     "end": "修文",
     "vias": []
   },
-  "包兰线": {
+  {
     "line_ref": "0039",
+    "filename": "包兰线",
     "zh": "包兰线",
     "en": "Baotou-Lanzhou Railway",
     "country": "CN",
@@ -909,8 +981,9 @@
     "end": "银川",
     "vias": []
   },
-  "武九线": {
+  {
     "line_ref": "0046",
+    "filename": "武九线",
     "zh": "武九线",
     "en": "Wuhan-Jiujiang Railway",
     "country": "CN",
@@ -920,8 +993,9 @@
     "end": "九江西",
     "vias": []
   },
-  "襄渝线": {
+  {
     "line_ref": "0056",
+    "filename": "襄渝线",
     "zh": "襄渝线",
     "en": "Xiangyang-Chongqing Railway",
     "country": "CN",
@@ -931,8 +1005,9 @@
     "end": "磨心坡",
     "vias": []
   },
-  "宝成线": {
+  {
     "line_ref": "0057",
+    "filename": "宝成线",
     "zh": "宝成线",
     "en": "Baoji-Chengdu Railway",
     "country": "CN",
@@ -942,8 +1017,9 @@
     "end": "阳平关",
     "vias": []
   },
-  "湘桂线": {
+  {
     "line_ref": "0071",
+    "filename": "湘桂线",
     "zh": "湘桂线",
     "en": "Hunan-Guangxi Railway",
     "country": "CN",
@@ -953,8 +1029,9 @@
     "end": "黎塘",
     "vias": []
   },
-  "黔桂线": {
+  {
     "line_ref": "0081",
+    "filename": "黔桂线",
     "zh": "黔桂线",
     "en": "Guizhou-Guangxi Railway",
     "country": "CN",
@@ -964,8 +1041,9 @@
     "end": "柳州",
     "vias": []
   },
-  "峨广线": {
+  {
     "line_ref": "0084",
+    "filename": "峨广线",
     "zh": "峨广线",
     "en": "Emei-Guangtong Railway",
     "country": "CN",
@@ -978,8 +1056,9 @@
       "攀枝花南"
     ]
   },
-  "成昆线": {
+  {
     "line_ref": "0085",
+    "filename": "成昆线",
     "zh": "成昆线",
     "en": "Chengdu-Kunming Railway",
     "country": "CN",
@@ -989,8 +1068,9 @@
     "end": "燕岗",
     "vias": []
   },
-  "衢九线": {
+  {
     "line_ref": "0091",
+    "filename": "衢九线",
     "zh": "衢九线",
     "en": "Quzhou-Jiujiang Railway",
     "country": "CN",
@@ -1000,8 +1080,9 @@
     "end": "九江",
     "vias": []
   },
-  "太中线": {
+  {
     "line_ref": "0096",
+    "filename": "太中线",
     "zh": "太中线",
     "en": "Taiyuan-Zhongwei Railway",
     "country": "CN",
@@ -1011,8 +1092,9 @@
     "end": "定边",
     "vias": []
   },
-  "齐北线": {
+  {
     "line_ref": "0101",
+    "filename": "齐北线",
     "zh": "齐北线",
     "en": "Qiqihar-Bei'an Railway",
     "country": "CN",
@@ -1022,8 +1104,9 @@
     "end": "富裕",
     "vias": []
   },
-  "滨洲线": {
+  {
     "line_ref": "0102",
+    "filename": "滨洲线",
     "zh": "滨洲线",
     "en": "Harbin-Manzhouli Railway",
     "country": "CN",
@@ -1036,8 +1119,9 @@
       "牙克石"
     ]
   },
-  "富西线": {
+  {
     "line_ref": "0103",
+    "filename": "富西线",
     "zh": "富西线",
     "en": "Fuyu-Xilinji(Mohe) Railway",
     "country": "CN",
@@ -1049,8 +1133,9 @@
       "加格达奇"
     ]
   },
-  "伊加线": {
+  {
     "line_ref": "0106",
+    "filename": "伊加线",
     "zh": "伊加线",
     "en": "Yitulihe-Jagdaqi Railway",
     "country": "CN",
@@ -1060,8 +1145,9 @@
     "end": "加格达奇",
     "vias": []
   },
-  "牙林线": {
+  {
     "line_ref": "0107",
+    "filename": "牙林线",
     "zh": "牙林线",
     "en": "Yakeshi-Mangui Railway",
     "country": "CN",
@@ -1071,8 +1157,9 @@
     "end": "伊图里河",
     "vias": []
   },
-  "滨北线": {
+  {
     "line_ref": "0121",
+    "filename": "滨北线",
     "zh": "滨北线",
     "en": "Harbin-Bei'an Railway",
     "country": "CN",
@@ -1082,8 +1169,9 @@
     "end": "呼兰",
     "vias": []
   },
-  "滨绥线哈牡段": {
+  {
     "line_ref": "0151-A",
+    "filename": "滨绥线哈牡段",
     "zh": "滨绥线",
     "en": "Harbin-Suifenhe Railway",
     "country": "CN",
@@ -1093,8 +1181,9 @@
     "end": "牡丹江",
     "vias": []
   },
-  "滨绥线牡绥段": {
+  {
     "line_ref": "0151-B",
+    "filename": "滨绥线牡绥段",
     "zh": "滨绥线",
     "en": "Harbin-Suifenhe Railway",
     "country": "CN",
@@ -1104,8 +1193,9 @@
     "end": "绥芬河",
     "vias": []
   },
-  "四梅线": {
+  {
     "line_ref": "0205",
+    "filename": "四梅线",
     "zh": "四梅线",
     "en": "Siping-Meihekou Railway",
     "country": "CN",
@@ -1115,8 +1205,9 @@
     "end": "梅河口",
     "vias": []
   },
-  "梅集线": {
+  {
     "line_ref": "0214",
+    "filename": "梅集线",
     "zh": "梅集线",
     "en": "Meihekou-Ji'an Railway",
     "country": "CN",
@@ -1126,8 +1217,9 @@
     "end": "通化",
     "vias": []
   },
-  "沈大线": {
+  {
     "line_ref": "0231",
+    "filename": "沈大线",
     "zh": "沈大线",
     "en": "Shenyang-Dalian Railway",
     "country": "CN",
@@ -1137,8 +1229,9 @@
     "end": "大连",
     "vias": []
   },
-  "京原线": {
+  {
     "line_ref": "0302",
+    "filename": "京原线",
     "zh": "京原线",
     "en": "Beijing-Yuanping Railway",
     "country": "CN",
@@ -1148,8 +1241,9 @@
     "end": "燕山",
     "vias": []
   },
-  "西长线": {
+  {
     "line_ref": "0314",
+    "filename": "西长线",
     "zh": "西长线",
     "en": "Beijing W. Link Line",
     "country": "CN",
@@ -1159,8 +1253,9 @@
     "end": "长阳村所",
     "vias": []
   },
-  "津蓟线": {
+  {
     "line_ref": "0324",
+    "filename": "津蓟线",
     "zh": "津蓟线",
     "en": "Tianjin-Jizhou Railway",
     "country": "CN",
@@ -1170,8 +1265,9 @@
     "end": "蓟州北",
     "vias": []
   },
-  "京承线北京段": {
+  {
     "line_ref": "0327-A",
+    "filename": "京承线北京段",
     "zh": "京承线",
     "en": "Beijing-Chengde Railway",
     "country": "CN",
@@ -1181,8 +1277,9 @@
     "end": "顺义",
     "vias": []
   },
-  "京承线承德段": {
+  {
     "line_ref": "0327-B",
+    "filename": "京承线承德段",
     "zh": "京承线",
     "en": "Beijing-Chengde Railway",
     "country": "CN",
@@ -1192,8 +1289,9 @@
     "end": "承德",
     "vias": []
   },
-  "丰沙线": {
+  {
     "line_ref": "0332",
+    "filename": "丰沙线",
     "zh": "丰沙线",
     "en": "Fengtai-Shacheng Railway",
     "country": "CN",
@@ -1205,8 +1303,9 @@
       "石景山南"
     ]
   },
-  "张唐线": {
+  {
     "line_ref": "0349",
+    "filename": "张唐线",
     "zh": "张唐线",
     "en": "Zhangjiakou-Tangshan Railway",
     "country": "CN",
@@ -1218,8 +1317,9 @@
       "唐山北"
     ]
   },
-  "承隆线": {
+  {
     "line_ref": "0353",
+    "filename": "承隆线",
     "zh": "承隆线",
     "en": "Chengde-Longhua Railway",
     "country": "CN",
@@ -1229,8 +1329,9 @@
     "end": "隆化",
     "vias": []
   },
-  "霸徐线": {
+  {
     "line_ref": "0359",
+    "filename": "霸徐线",
     "zh": "霸徐线",
     "en": "Bazhou-Xushui Railway",
     "country": "CN",
@@ -1240,8 +1341,9 @@
     "end": "白洋淀",
     "vias": []
   },
-  "西康线": {
+  {
     "line_ref": "0428",
+    "filename": "西康线",
     "zh": "西康线",
     "en": "Xi'an-Ankang Railway",
     "country": "CN",
@@ -1251,8 +1353,9 @@
     "end": "安康",
     "vias": []
   },
-  "武昌南环线": {
+  {
     "line_ref": "0453",
+    "filename": "武昌南环线",
     "zh": "武昌南环线",
     "en": "Wuchang Loop Railway",
     "country": "CN",
@@ -1262,8 +1365,9 @@
     "end": "何刘",
     "vias": []
   },
-  "阳安线": {
+  {
     "line_ref": "0456",
+    "filename": "阳安线",
     "zh": "阳安线",
     "en": "Yangpingguan-Ankang Railway",
     "country": "CN",
@@ -1273,8 +1377,9 @@
     "end": "汉中",
     "vias": []
   },
-  "辛泰线": {
+  {
     "line_ref": "0503",
+    "filename": "辛泰线",
     "zh": "辛泰线",
     "en": "Linzi-Taishan Railway",
     "country": "CN",
@@ -1284,8 +1389,9 @@
     "end": "南博山",
     "vias": []
   },
-  "青烟直通线": {
+  {
     "line_ref": "0518",
+    "filename": "青烟直通线",
     "zh": "青烟直通线",
     "en": "Yantai Line",
     "country": "CN",
@@ -1295,8 +1401,9 @@
     "end": "烟台",
     "vias": []
   },
-  "淮南线": {
+  {
     "line_ref": "0604",
+    "filename": "淮南线",
     "zh": "淮南线",
     "en": "Huainan-Wuhu Railway",
     "country": "CN",
@@ -1306,8 +1413,9 @@
     "end": "芜湖",
     "vias": []
   },
-  "阜淮线": {
+  {
     "line_ref": "0605",
+    "filename": "阜淮线",
     "zh": "阜淮线",
     "en": "Fuyang-Huainan Railway",
     "country": "CN",
@@ -1317,8 +1425,9 @@
     "end": "淮南",
     "vias": []
   },
-  "宁启线": {
+  {
     "line_ref": "0610",
+    "filename": "宁启线",
     "zh": "宁启线",
     "en": "Nanjing-Qidong Railway",
     "country": "CN",
@@ -1330,8 +1439,9 @@
       "扬州"
     ]
   },
-  "沪春线": {
+  {
     "line_ref": "0615-A",
+    "filename": "沪春线",
     "zh": "沪春线",
     "en": "Shanghai S.-Chunshen Line",
     "country": "CN",
@@ -1344,8 +1454,9 @@
       "春申南所"
     ]
   },
-  "上海南联络线（沪春三四线）": {
+  {
     "line_ref": "0615-B",
+    "filename": "上海南联络线（沪春三四线）",
     "zh": "上海南联络线（沪春三四线）",
     "en": "Shanghai S. Link Line",
     "country": "CN",
@@ -1355,8 +1466,9 @@
     "end": "春申所",
     "vias": []
   },
-  "笕杭线": {
+  {
     "line_ref": "0617",
+    "filename": "笕杭线",
     "zh": "笕杭线",
     "en": "Link Line",
     "country": "CN",
@@ -1366,8 +1478,9 @@
     "end": "杭州",
     "vias": []
   },
-  "皖赣线": {
+  {
     "line_ref": "0621",
+    "filename": "皖赣线",
     "zh": "皖赣线",
     "en": "Anhui-Jiangxi Railway",
     "country": "CN",
@@ -1377,8 +1490,9 @@
     "end": "宣城",
     "vias": []
   },
-  "笕桥线": {
+  {
     "line_ref": "0632",
+    "filename": "笕桥线",
     "zh": "笕桥线",
     "en": "Link Line",
     "country": "CN",
@@ -1388,8 +1502,9 @@
     "end": "笕桥",
     "vias": []
   },
-  "宣杭线": {
+  {
     "line_ref": "0634",
+    "filename": "宣杭线",
     "zh": "宣杭线",
     "en": "Xuancheng-Hangzhou Railway",
     "country": "CN",
@@ -1399,8 +1514,9 @@
     "end": "杭州",
     "vias": []
   },
-  "萧甬线": {
+  {
     "line_ref": "0636",
+    "filename": "萧甬线",
     "zh": "萧甬线",
     "en": "Xiaoshan-Ningbo Railway",
     "country": "CN",
@@ -1410,8 +1526,9 @@
     "end": "绍兴",
     "vias": []
   },
-  "新长线": {
+  {
     "line_ref": "0647",
+    "filename": "新长线",
     "zh": "新长线",
     "en": "Xinyi-Changxing Railway",
     "country": "CN",
@@ -1421,8 +1538,9 @@
     "end": "海安",
     "vias": []
   },
-  "鹰厦线": {
+  {
     "line_ref": "0651",
+    "filename": "鹰厦线",
     "zh": "鹰厦线",
     "en": "Yingtan-Xiamen Railway",
     "country": "CN",
@@ -1432,8 +1550,9 @@
     "end": "厦门",
     "vias": []
   },
-  "永嘉联络线": {
+  {
     "line_ref": "0655",
+    "filename": "永嘉联络线",
     "zh": "永嘉联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1443,8 +1562,9 @@
     "end": "温州北",
     "vias": []
   },
-  "沪苏湖高速线": {
+  {
     "line_ref": "0660",
+    "filename": "沪苏湖高速线",
     "zh": "沪苏湖高速线",
     "en": "Shanghai-Suzhou-Huzhou Highspeed Railway",
     "country": "CN",
@@ -1460,8 +1580,9 @@
       "康山所"
     ]
   },
-  "南昌西环线": {
+  {
     "line_ref": "0692",
+    "filename": "南昌西环线",
     "zh": "南昌西环线",
     "en": "Nanchang Loop Railway",
     "country": "CN",
@@ -1471,8 +1592,9 @@
     "end": "向塘",
     "vias": []
   },
-  "昌福线": {
+  {
     "line_ref": "0694",
+    "filename": "昌福线",
     "zh": "昌福线",
     "en": "Nanchang-Fuzhou Railway",
     "country": "CN",
@@ -1482,8 +1604,9 @@
     "end": "福州",
     "vias": []
   },
-  "穗深城际线": {
+  {
     "line_ref": "0702",
+    "filename": "穗深城际线",
     "zh": "穗深城际线",
     "en": "Guangzhou-Shenzhen II Intercity Railway",
     "country": "CN",
@@ -1493,8 +1616,9 @@
     "end": "深圳机场",
     "vias": []
   },
-  "广深城际线": {
+  {
     "line_ref": "0706",
+    "filename": "广深城际线",
     "zh": "广深城际线",
     "en": "Guangzhou-Shenzhen Intercity Railway",
     "country": "CN",
@@ -1507,8 +1631,9 @@
       "东莞"
     ]
   },
-  "海南西环线": {
+  {
     "line_ref": "0721",
+    "filename": "海南西环线",
     "zh": "海南西环线",
     "en": "Hainan West Ring Railway",
     "country": "CN",
@@ -1518,8 +1643,9 @@
     "end": "崖州湾",
     "vias": []
   },
-  "黎湛线": {
+  {
     "line_ref": "0752",
+    "filename": "黎湛线",
     "zh": "黎湛线",
     "en": "Litang-Zhanjiang Railway",
     "country": "CN",
@@ -1529,8 +1655,9 @@
     "end": "玉林",
     "vias": []
   },
-  "广昆线": {
+  {
     "line_ref": "0827",
+    "filename": "广昆线",
     "zh": "广昆线",
     "en": "Guangtong-Kunming Railway",
     "country": "CN",
@@ -1540,8 +1667,9 @@
     "end": "昆明",
     "vias": []
   },
-  "渭井线": {
+  {
     "line_ref": "0840",
+    "filename": "渭井线",
     "zh": "渭井线",
     "en": "Link Line",
     "country": "CN",
@@ -1551,8 +1679,9 @@
     "end": "一四一所",
     "vias": []
   },
-  "兰青线": {
+  {
     "line_ref": "0905",
+    "filename": "兰青线",
     "zh": "兰青线",
     "en": "Lanzhou-Qinghai Railway",
     "country": "CN",
@@ -1562,8 +1691,9 @@
     "end": "西宁",
     "vias": []
   },
-  "青藏线": {
+  {
     "line_ref": "0907",
+    "filename": "青藏线",
     "zh": "青藏线",
     "en": "Qinghai-Xizang Railway",
     "country": "CN",
@@ -1575,8 +1705,9 @@
       "格尔木"
     ]
   },
-  "拉日线": {
+  {
     "line_ref": "0915",
+    "filename": "拉日线",
     "zh": "拉日线",
     "en": "Lhasa-Shigatse Railway",
     "country": "CN",
@@ -1586,8 +1717,9 @@
     "end": "日喀则",
     "vias": []
   },
-  "定银线": {
+  {
     "line_ref": "0916",
+    "filename": "定银线",
     "zh": "定银线",
     "en": "Dingbian-Yinchuan Railway",
     "country": "CN",
@@ -1597,8 +1729,9 @@
     "end": "银川",
     "vias": []
   },
-  "榆红线": {
+  {
     "line_ref": "1102",
+    "filename": "榆红线",
     "zh": "榆红线",
     "en": "Link Line",
     "country": "CN",
@@ -1608,8 +1741,9 @@
     "end": "红旗营",
     "vias": []
   },
-  "东新联络线": {
+  {
     "line_ref": "1120",
+    "filename": "东新联络线",
     "zh": "东新联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1619,8 +1753,9 @@
     "end": "新香坊",
     "vias": []
   },
-  "敦白联络线": {
+  {
     "line_ref": "1209",
+    "filename": "敦白联络线",
     "zh": "敦白联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1630,8 +1765,9 @@
     "end": "敦化南",
     "vias": []
   },
-  "姚田联络线": {
+  {
     "line_ref": "1252",
+    "filename": "姚田联络线",
     "zh": "姚田联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1641,8 +1777,9 @@
     "end": "田家窝堡所",
     "vias": []
   },
-  "哈长联络线": {
+  {
     "line_ref": "1284",
+    "filename": "哈长联络线",
     "zh": "哈长联络线",
     "en": "Link Line ",
     "country": "CN",
@@ -1652,8 +1789,9 @@
     "end": "杨家粉坊所",
     "vias": []
   },
-  "东星线": {
+  {
     "line_ref": "1312",
+    "filename": "东星线",
     "zh": "东星线",
     "en": "Link Line",
     "country": "CN",
@@ -1663,8 +1801,9 @@
     "end": "北京朝阳",
     "vias": []
   },
-  "石家庄西北环线": {
+  {
     "line_ref": "1333",
+    "filename": "石家庄西北环线",
     "zh": "石家庄西北环线",
     "en": "Link Line",
     "country": "CN",
@@ -1674,8 +1813,9 @@
     "end": "石家庄北",
     "vias": []
   },
-  "怀范联络线": {
+  {
     "line_ref": "1337",
+    "filename": "怀范联络线",
     "zh": "怀范联络线",
     "en": "Huairou-Yanqihu Railway",
     "country": "CN",
@@ -1685,8 +1825,9 @@
     "end": "雁栖湖",
     "vias": []
   },
-  "田灞联络线": {
+  {
     "line_ref": "1444",
+    "filename": "田灞联络线",
     "zh": "田灞联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1696,8 +1837,9 @@
     "end": "灞桥",
     "vias": []
   },
-  "高桥联络线": {
+  {
     "line_ref": "1485",
+    "filename": "高桥联络线",
     "zh": "高桥联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1707,8 +1849,9 @@
     "end": "高桥所",
     "vias": []
   },
-  "商丘西南联络线": {
+  {
     "line_ref": "1498",
+    "filename": "商丘西南联络线",
     "zh": "商丘西南联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1718,8 +1861,9 @@
     "end": "商丘",
     "vias": []
   },
-  "京胶联络线": {
+  {
     "line_ref": "1504",
+    "filename": "京胶联络线",
     "zh": "京胶联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1729,8 +1873,9 @@
     "end": "大明湖",
     "vias": []
   },
-  "济沪联络线": {
+  {
     "line_ref": "1527",
+    "filename": "济沪联络线",
     "zh": "济沪联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1740,8 +1885,9 @@
     "end": "崔马庄所",
     "vias": []
   },
-  "京济联络线": {
+  {
     "line_ref": "1528",
+    "filename": "京济联络线",
     "zh": "京济联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1751,8 +1897,9 @@
     "end": "济南",
     "vias": []
   },
-  "莱西联络线": {
+  {
     "line_ref": "1572",
+    "filename": "莱西联络线",
     "zh": "莱西联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1762,8 +1909,9 @@
     "end": "莱西东所",
     "vias": []
   },
-  "向东D线": {
+  {
     "line_ref": "1618",
+    "filename": "向东D线",
     "zh": "向东D线",
     "en": "Link Line",
     "country": "CN",
@@ -1773,8 +1921,9 @@
     "end": "梁家渡",
     "vias": []
   },
-  "李莘联络线": {
+  {
     "line_ref": "1648",
+    "filename": "李莘联络线",
     "zh": "李莘联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1784,8 +1933,9 @@
     "end": "莘庄",
     "vias": []
   },
-  "襄遂线": {
+  {
     "line_ref": "1847-8",
+    "filename": "襄遂线",
     "zh": "襄遂线",
     "en": "Link Line",
     "country": "CN",
@@ -1795,8 +1945,9 @@
     "end": "黄桷所",
     "vias": []
   },
-  "蔡歌联络线": {
+  {
     "line_ref": "1859",
+    "filename": "蔡歌联络线",
     "zh": "蔡歌联络线",
     "en": "Link Lnie",
     "country": "CN",
@@ -1806,8 +1957,9 @@
     "end": "歌乐山",
     "vias": []
   },
-  "南仓城际高速联络线": {
+  {
     "line_ref": "2311",
+    "filename": "南仓城际高速联络线",
     "zh": "南仓城际高速联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1817,8 +1969,9 @@
     "end": "天津西",
     "vias": []
   },
-  "康延线": {
+  {
     "line_ref": "2315",
+    "filename": "康延线",
     "zh": "康延线",
     "en": "Kangzhuang-Yanqing Railway",
     "country": "CN",
@@ -1828,8 +1981,9 @@
     "end": "延庆",
     "vias": []
   },
-  "德州东联络线": {
+  {
     "line_ref": "2321",
+    "filename": "德州东联络线",
     "zh": "德州东联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1839,8 +1993,9 @@
     "end": "陵县所",
     "vias": []
   },
-  "北京直径线": {
+  {
     "line_ref": "2344",
+    "filename": "北京直径线",
     "zh": "北京直径线",
     "en": "Beijing Cross City Railway",
     "country": "CN",
@@ -1850,8 +2005,9 @@
     "end": "北京西",
     "vias": []
   },
-  "李家营联络线": {
+  {
     "line_ref": "2356",
+    "filename": "李家营联络线",
     "zh": "李家营联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1861,8 +2017,9 @@
     "end": "赵家店所",
     "vias": []
   },
-  "包包联络线": {
+  {
     "line_ref": "2418",
+    "filename": "包包联络线",
     "zh": "包包联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1872,8 +2029,9 @@
     "end": "包头",
     "vias": []
   },
-  "郑州东北联络线": {
+  {
     "line_ref": "2440",
+    "filename": "郑州东北联络线",
     "zh": "郑州东北联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1883,8 +2041,9 @@
     "end": "郑州东",
     "vias": []
   },
-  "汉西联络线": {
+  {
     "line_ref": "2464",
+    "filename": "汉西联络线",
     "zh": "汉西联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1894,8 +2053,9 @@
     "end": "新墩",
     "vias": []
   },
-  "黄封线": {
+  {
     "line_ref": "2601",
+    "filename": "黄封线",
     "zh": "黄封线",
     "en": "Link Line",
     "country": "CN",
@@ -1905,8 +2065,9 @@
     "end": "封浜",
     "vias": []
   },
-  "虹封线": {
+  {
     "line_ref": "2619",
+    "filename": "虹封线",
     "zh": "虹封线",
     "en": "Line Line",
     "country": "CN",
@@ -1916,8 +2077,9 @@
     "end": "封浜",
     "vias": []
   },
-  "虹安联络线": {
+  {
     "line_ref": "2624",
+    "filename": "虹安联络线",
     "zh": "虹安联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1927,8 +2089,9 @@
     "end": "安亭北所",
     "vias": []
   },
-  "虹七线": {
+  {
     "line_ref": "2627",
+    "filename": "虹七线",
     "zh": "虹七线",
     "en": "Link Line",
     "country": "CN",
@@ -1938,8 +2101,9 @@
     "end": "七宝",
     "vias": []
   },
-  "黄渡联络线": {
+  {
     "line_ref": "2648",
+    "filename": "黄渡联络线",
     "zh": "黄渡联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1949,8 +2113,9 @@
     "end": "南翔北所",
     "vias": []
   },
-  "上饶东南联络线": {
+  {
     "line_ref": "2680",
+    "filename": "上饶东南联络线",
     "zh": "上饶东南联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1960,8 +2125,9 @@
     "end": "京福所",
     "vias": []
   },
-  "秦双联络线": {
+  {
     "line_ref": "2836",
+    "filename": "秦双联络线",
     "zh": "秦双联络线",
     "en": "Link Line",
     "country": "CN",
@@ -1971,8 +2137,9 @@
     "end": "双龙南",
     "vias": []
   },
-  "井西线": {
+  {
     "line_ref": "2839",
+    "filename": "井西线",
     "zh": "井西线",
     "en": "Link Line",
     "country": "CN",
@@ -1982,8 +2149,9 @@
     "end": "重庆西",
     "vias": []
   },
-  "京广高速线京石段": {
+  {
     "line_ref": "3001-A",
+    "filename": "京广高速线京石段",
     "zh": "京广高速线",
     "en": "Beijing-Guangzhou Highspeed Railway",
     "country": "CN",
@@ -1993,8 +2161,9 @@
     "end": "石家庄",
     "vias": []
   },
-  "京广高速线石武段": {
+  {
     "line_ref": "3001-B",
+    "filename": "京广高速线石武段",
     "zh": "京广高速线",
     "en": "Beijing-Guangzhou Highspeed Railway",
     "country": "CN",
@@ -2004,8 +2173,9 @@
     "end": "安阳东",
     "vias": []
   },
-  "京广高速线武广段": {
+  {
     "line_ref": "3001C",
+    "filename": "京广高速线武广段",
     "zh": "京广高速线",
     "en": "Beijing-Guangzhou Highspeed Railway",
     "country": "CN",
@@ -2020,8 +2190,9 @@
       "广州南"
     ]
   },
-  "京沪高速线": {
+  {
     "line_ref": "3002",
+    "filename": "京沪高速线",
     "zh": "京沪高速线",
     "en": "Beijing-Shanghai Highspeed Railway",
     "country": "CN",
@@ -2040,8 +2211,9 @@
       "黄渡所"
     ]
   },
-  "宁蓉线宁汉段": {
+  {
     "line_ref": "3005-A",
+    "filename": "宁蓉线宁汉段",
     "zh": "宁蓉线",
     "en": "Nanjing-Chengdu Railway",
     "country": "CN",
@@ -2055,8 +2227,9 @@
       "横店东"
     ]
   },
-  "宁蓉线汉渝段": {
+  {
     "line_ref": "3005-B",
+    "filename": "宁蓉线汉渝段",
     "zh": "宁蓉线",
     "en": "Nanjing-Chengdu Railway",
     "country": "CN",
@@ -2069,8 +2242,9 @@
       "高桥所"
     ]
   },
-  "京哈高速线京沈段": {
+  {
     "line_ref": "3007-A",
+    "filename": "京哈高速线京沈段",
     "zh": "京哈高速线",
     "en": "Beijing-Harbin Highspeed Railway",
     "country": "CN",
@@ -2082,8 +2256,9 @@
       "承德南"
     ]
   },
-  "京哈高速线沈哈段": {
+  {
     "line_ref": "3007-B",
+    "filename": "京哈高速线沈哈段",
     "zh": "京哈高速线",
     "en": "Beijing-Harbin Highspeed Railway",
     "country": "CN",
@@ -2096,8 +2271,9 @@
       "崔家营子所"
     ]
   },
-  "沪昆高速线沪赣段": {
+  {
     "line_ref": "3008-A",
+    "filename": "沪昆高速线沪赣段",
     "zh": "沪昆高速线",
     "en": "Shanghai-Kunming Highspeed Railway",
     "country": "CN",
@@ -2119,8 +2295,9 @@
       "新余北"
     ]
   },
-  "沪昆高速线赣湘段": {
+  {
     "line_ref": "3008-B",
+    "filename": "沪昆高速线赣湘段",
     "zh": "沪昆高速线",
     "en": "Shanghai-Kunming Highspeed Railway",
     "country": "CN",
@@ -2133,8 +2310,9 @@
       "湘潭北"
     ]
   },
-  "沪昆高速线贵昆段": {
+  {
     "line_ref": "3008-C",
+    "filename": "沪昆高速线贵昆段",
     "zh": "沪昆高速线",
     "en": "Shanghai-Kunming Highspeed Railway",
     "country": "CN",
@@ -2146,8 +2324,9 @@
       "贵安"
     ]
   },
-  "杭深线杭甬段": {
+  {
     "line_ref": "3009-A",
+    "filename": "杭深线杭甬段",
     "zh": "杭深线",
     "en": "Hangzhou-Shenzhen Railway",
     "country": "CN",
@@ -2160,8 +2339,9 @@
       "绍兴北"
     ]
   },
-  "杭深线甬深段": {
+  {
     "line_ref": "3009-B",
+    "filename": "杭深线甬深段",
     "zh": "杭深线",
     "en": "Hangzhou-Shenzhen Railway",
     "country": "CN",
@@ -2180,8 +2360,9 @@
       "惠阳"
     ]
   },
-  "京津城际线": {
+  {
     "line_ref": "3010",
+    "filename": "京津城际线",
     "zh": "京津城际线",
     "en": "Beijing-Tianjin Intercity ",
     "country": "CN",
@@ -2193,8 +2374,9 @@
       "南仓所"
     ]
   },
-  "胶济客运专线": {
+  {
     "line_ref": "3011",
+    "filename": "胶济客运专线",
     "zh": "胶济客运专线",
     "en": "Qingdao-Jinan Passenger Railway",
     "country": "CN",
@@ -2208,8 +2390,9 @@
       "胶州北"
     ]
   },
-  "石太客运专线": {
+  {
     "line_ref": "3012",
+    "filename": "石太客运专线",
     "zh": "石太客运专线",
     "en": "Shijiazhuang-Taiyuan Passenger Railway",
     "country": "CN",
@@ -2221,8 +2404,9 @@
       "太原"
     ]
   },
-  "徐兰高速线郑徐段": {
+  {
     "line_ref": "3013-A",
+    "filename": "徐兰高速线郑徐段",
     "zh": "徐兰高速线",
     "en": "Xuzhou-Lanzhou Highspeed Railway",
     "country": "CN",
@@ -2232,8 +2416,9 @@
     "end": "郑州东",
     "vias": []
   },
-  "徐兰高速线宝兰段": {
+  {
     "line_ref": "3013-B",
+    "filename": "徐兰高速线宝兰段",
     "zh": "徐兰高速线",
     "en": "Xuzhou-Lanzhou Highspeed Railway",
     "country": "CN",
@@ -2243,8 +2428,9 @@
     "end": "兰州西",
     "vias": []
   },
-  "徐兰高速线郑西段": {
+  {
     "line_ref": "3013-C",
+    "filename": "徐兰高速线郑西段",
     "zh": "徐兰高速线",
     "en": "Xuzhou-Lanzhou Highspeed Railway",
     "country": "CN",
@@ -2256,8 +2442,9 @@
       "洛阳龙门"
     ]
   },
-  "新成灌线": {
+  {
     "line_ref": "3014",
+    "filename": "新成灌线",
     "zh": "新成灌线",
     "en": "New Chengdu-Dujiangyan Railway",
     "country": "CN",
@@ -2267,8 +2454,9 @@
     "end": "都江堰",
     "vias": []
   },
-  "沪宁城际线": {
+  {
     "line_ref": "3015",
+    "filename": "沪宁城际线",
     "zh": "沪宁城际线",
     "en": "Shanghai-Nanjing Intercity Railway",
     "country": "CN",
@@ -2290,8 +2478,9 @@
       "仙林"
     ]
   },
-  "海南东环高速线": {
+  {
     "line_ref": "3018",
+    "filename": "海南东环高速线",
     "zh": "海南东环高速线",
     "en": "Hainan East Ring Highspeed Railway",
     "country": "CN",
@@ -2304,8 +2493,9 @@
       "美兰"
     ]
   },
-  "沈大高速线": {
+  {
     "line_ref": "3019",
+    "filename": "沈大高速线",
     "zh": "沈大高速线",
     "en": "Shenyang-Dalian Highspeed Railway",
     "country": "CN",
@@ -2317,8 +2507,9 @@
       "沈阳南"
     ]
   },
-  "长珲城际线": {
+  {
     "line_ref": "3020",
+    "filename": "长珲城际线",
     "zh": "长珲城际线",
     "en": "Changchun-Hunchun Intercity Railway",
     "country": "CN",
@@ -2332,8 +2523,9 @@
       "吉林"
     ]
   },
-  "广深港高速线": {
+  {
     "line_ref": "3021",
+    "filename": "广深港高速线",
     "zh": "广深港高速线",
     "en": "Guangzhou-Shenzhen-HK Highspeed Railway",
     "country": "CN",
@@ -2343,8 +2535,9 @@
     "end": "香港西九龙",
     "vias": []
   },
-  "津霸线": {
+  {
     "line_ref": "3022",
+    "filename": "津霸线",
     "zh": "津霸线",
     "en": "Tianjin-Bazhou Railway",
     "country": "CN",
@@ -2356,8 +2549,9 @@
       "胜芳"
     ]
   },
-  "津秦高速线": {
+  {
     "line_ref": "3023",
+    "filename": "津秦高速线",
     "zh": "津秦高速线",
     "en": "Tianjin-Qinhuangdao Highspeed Railway",
     "country": "CN",
@@ -2372,8 +2566,9 @@
       "天津"
     ]
   },
-  "宁杭高速线": {
+  {
     "line_ref": "3026",
+    "filename": "宁杭高速线",
     "zh": "宁杭高速线",
     "en": "Nanjing-Hangzhou Highspeed Railway",
     "country": "CN",
@@ -2385,8 +2580,9 @@
       "湖州"
     ]
   },
-  "南广线": {
+  {
     "line_ref": "3029",
+    "filename": "南广线",
     "zh": "南广线",
     "en": "Nanning-Guangzhou Railway",
     "country": "CN",
@@ -2396,8 +2592,9 @@
     "end": "广州南",
     "vias": []
   },
-  "兰新客运专线": {
+  {
     "line_ref": "3032",
+    "filename": "兰新客运专线",
     "zh": "兰新客运专线",
     "en": "Lanzhou-Xinjiang Passenger Railway",
     "country": "CN",
@@ -2407,8 +2604,9 @@
     "end": "海东西",
     "vias": []
   },
-  "青荣城际线青烟段": {
+  {
     "line_ref": "3038-A",
+    "filename": "青荣城际线青烟段",
     "zh": "青荣城际线",
     "en": "Qingdao-Rongcheng Intercity Railway",
     "country": "CN",
@@ -2418,8 +2616,9 @@
     "end": "西陌堂所",
     "vias": []
   },
-  "青荣城际线威荣段": {
+  {
     "line_ref": "3038-B",
+    "filename": "青荣城际线威荣段",
     "zh": "青荣城际线",
     "en": "Qingdao-Rongcheng Intercity Railway",
     "country": "CN",
@@ -2429,8 +2628,9 @@
     "end": "荣成",
     "vias": []
   },
-  "西成客运专线陕西段": {
+  {
     "line_ref": "3040-A",
+    "filename": "西成客运专线陕西段",
     "zh": "西成客运专线",
     "en": "Xi'an-Chengdu Passenger Railway",
     "country": "CN",
@@ -2440,8 +2640,9 @@
     "end": "汉中",
     "vias": []
   },
-  "西成客运专线四川段": {
+  {
     "line_ref": "3040-B",
+    "filename": "西成客运专线四川段",
     "zh": "西成客运专线",
     "en": "Xi'an-Chengdu Passenger Railway",
     "country": "CN",
@@ -2453,8 +2654,9 @@
       "青白江东"
     ]
   },
-  "成贵客运专线成都段": {
+  {
     "line_ref": "3041-A",
+    "filename": "成贵客运专线成都段",
     "zh": "成贵客运专线",
     "en": "Chengdu-Guiyang Passenger Railway",
     "country": "CN",
@@ -2466,8 +2668,9 @@
       "成都南"
     ]
   },
-  "成贵客运专线贵阳段": {
+  {
     "line_ref": "3041-B",
+    "filename": "成贵客运专线贵阳段",
     "zh": "成贵客运专线",
     "en": "Chengdu-Guiyang Passenger Railway",
     "country": "CN",
@@ -2477,8 +2680,9 @@
     "end": "尖坡所",
     "vias": []
   },
-  "杭昌高速线": {
+  {
     "line_ref": "3043",
+    "filename": "杭昌高速线",
     "zh": "杭昌高速线",
     "en": "Hangzhou-Nanchang Highspeed Railway",
     "country": "CN",
@@ -2490,8 +2694,9 @@
       "绩溪北"
     ]
   },
-  "沈丹客专线": {
+  {
     "line_ref": "3045",
+    "filename": "沈丹客专线",
     "zh": "沈丹客专线",
     "en": "Shenyang-Dandong Passenger Railway",
     "country": "CN",
@@ -2501,8 +2706,9 @@
     "end": "丹东",
     "vias": []
   },
-  "合福高速线合黄段": {
+  {
     "line_ref": "3047-A",
+    "filename": "合福高速线合黄段",
     "zh": "合福高速线",
     "en": "Hefei-Fuzhou Highspeed Railway",
     "country": "CN",
@@ -2515,8 +2721,9 @@
       "绩溪北"
     ]
   },
-  "合福高速线饶福段": {
+  {
     "line_ref": "3047-B",
+    "filename": "合福高速线饶福段",
     "zh": "合福高速线",
     "en": "Hefei-Fuzhou Highspeed Railway",
     "country": "CN",
@@ -2526,8 +2733,9 @@
     "end": "福州",
     "vias": []
   },
-  "渝贵线": {
+  {
     "line_ref": "3048",
+    "filename": "渝贵线",
     "zh": "渝贵线",
     "en": "Chongqing-Guiyang Railway",
     "country": "CN",
@@ -2537,8 +2745,9 @@
     "end": "贵阳",
     "vias": []
   },
-  "郑太客运专线": {
+  {
     "line_ref": "3049",
+    "filename": "郑太客运专线",
     "zh": "郑太客运专线",
     "en": "Zhengzhou-Taiyuan Passenger Railway",
     "country": "CN",
@@ -2548,8 +2757,9 @@
     "end": "焦作",
     "vias": []
   },
-  "郑开城际线": {
+  {
     "line_ref": "3050",
+    "filename": "郑开城际线",
     "zh": "郑开城际线",
     "en": "Zhengzhou-Kaifeng Intercity Railway",
     "country": "CN",
@@ -2559,8 +2769,9 @@
     "end": "开封",
     "vias": []
   },
-  "成渝高速线": {
+  {
     "line_ref": "3051",
+    "filename": "成渝高速线",
     "zh": "成渝高速线",
     "en": "Chengdu-Chongqing Highspeed Railway",
     "country": "CN",
@@ -2570,8 +2781,9 @@
     "end": "沙坪坝",
     "vias": []
   },
-  "广惠城际线": {
+  {
     "line_ref": "3052",
+    "filename": "广惠城际线",
     "zh": "广惠城际线",
     "en": "Guangzhou-Huizhou Intercity Railway",
     "country": "CN",
@@ -2584,8 +2796,9 @@
       "广州莲花山"
     ]
   },
-  "丹大线": {
+  {
     "line_ref": "3054",
+    "filename": "丹大线",
     "zh": "丹大线",
     "en": "Dandong-Dalian Railway",
     "country": "CN",
@@ -2595,8 +2808,9 @@
     "end": "大连北",
     "vias": []
   },
-  "南昆客运专线": {
+  {
     "line_ref": "3056",
+    "filename": "南昆客运专线",
     "zh": "南昆客运专线",
     "en": "Nanning-Kunming Passenger Railway",
     "country": "CN",
@@ -2608,8 +2822,9 @@
       "昆明南"
     ]
   },
-  "金温线": {
+  {
     "line_ref": "3058",
+    "filename": "金温线",
     "zh": "金温线",
     "en": "Jinhua-Wenzhou Railway",
     "country": "CN",
@@ -2619,8 +2834,9 @@
     "end": "温州南",
     "vias": []
   },
-  "海南西环高速线": {
+  {
     "line_ref": "3059",
+    "filename": "海南西环高速线",
     "zh": "海南西环高速线",
     "en": "Hainan West Ring Highspeed Railway",
     "country": "CN",
@@ -2632,8 +2848,9 @@
       "凤凰机场"
     ]
   },
-  "广肇城际线": {
+  {
     "line_ref": "3060",
+    "filename": "广肇城际线",
     "zh": "广肇城际线",
     "en": "Guangzhou-Zhaoqing Intercity Railway",
     "country": "CN",
@@ -2646,8 +2863,9 @@
       "顺德北"
     ]
   },
-  "湘潭城际线": {
+  {
     "line_ref": "3065",
+    "filename": "湘潭城际线",
     "zh": "湘潭城际线",
     "en": "Changsha-Zhuzhou-Xiangtan Intercity Railway",
     "country": "CN",
@@ -2657,8 +2875,9 @@
     "end": "湘潭",
     "vias": []
   },
-  "京包客运专线京呼段": {
+  {
     "line_ref": "3066-A",
+    "filename": "京包客运专线京呼段",
     "zh": "京包客运专线",
     "en": "Beijing-Baotou Highspeed Railway",
     "country": "CN",
@@ -2676,8 +2895,9 @@
       "呼和浩特东"
     ]
   },
-  "京包客运专线呼包段": {
+  {
     "line_ref": "3066-B",
+    "filename": "京包客运专线呼包段",
     "zh": "京包客运专线",
     "en": "Beijing-Baotou Passenger Railway",
     "country": "CN",
@@ -2687,8 +2907,9 @@
     "end": "包头",
     "vias": []
   },
-  "石济客运专线": {
+  {
     "line_ref": "3067",
+    "filename": "石济客运专线",
     "zh": "石济客运专线",
     "en": "Shijiazhuang-Jinan Passenger Railway",
     "country": "CN",
@@ -2698,8 +2919,9 @@
     "end": "济南东",
     "vias": []
   },
-  "长沙西城际线": {
+  {
     "line_ref": "3068",
+    "filename": "长沙西城际线",
     "zh": "长沙西城际线",
     "en": "Changsha-Zhuzhou-Xiangtan Intercity Railway",
     "country": "CN",
@@ -2712,8 +2934,9 @@
       "谷山"
     ]
   },
-  "新通客运专线": {
+  {
     "line_ref": "3072",
+    "filename": "新通客运专线",
     "zh": "新通客运专线",
     "en": "Xinmin-Tongliao Passenger Railway",
     "country": "CN",
@@ -2723,8 +2946,9 @@
     "end": "通辽",
     "vias": []
   },
-  "哈牡客运专线": {
+  {
     "line_ref": "3073",
+    "filename": "哈牡客运专线",
     "zh": "哈牡客运专线",
     "en": "Harbin-Mudanjiang Passenger Railway",
     "country": "CN",
@@ -2736,8 +2960,9 @@
       "横道河子东"
     ]
   },
-  "济青高速线": {
+  {
     "line_ref": "3077",
+    "filename": "济青高速线",
     "zh": "济青高速线",
     "en": "Jinan-Qingdao Highspeed Railway",
     "country": "CN",
@@ -2749,8 +2974,9 @@
       "胶州北"
     ]
   },
-  "青盐线": {
+  {
     "line_ref": "3079",
+    "filename": "青盐线",
     "zh": "青盐线",
     "en": "Qingdao-Yancheng Railway",
     "country": "CN",
@@ -2760,8 +2986,9 @@
     "end": "董集",
     "vias": []
   },
-  "武汉枢纽直通线": {
+  {
     "line_ref": "3082",
+    "filename": "武汉枢纽直通线",
     "zh": "武汉枢纽直通线",
     "en": "Link Line",
     "country": "CN",
@@ -2771,8 +2998,9 @@
     "end": "走马岭所",
     "vias": []
   },
-  "徐盐高速线": {
+  {
     "line_ref": "3083",
+    "filename": "徐盐高速线",
     "zh": "徐盐高速线",
     "en": "Xuzhou-Yancheng Highspeed Railway",
     "country": "CN",
@@ -2785,8 +3013,9 @@
       "淮安东"
     ]
   },
-  "京雄城际线": {
+  {
     "line_ref": "3085",
+    "filename": "京雄城际线",
     "zh": "京雄城际线",
     "en": "Beijing-Xiong'an Intercity Railway",
     "country": "CN",
@@ -2801,8 +3030,9 @@
       "霸州北"
     ]
   },
-  "连镇高速线": {
+  {
     "line_ref": "3089",
+    "filename": "连镇高速线",
     "zh": "连镇高速线",
     "en": "Lianyungang-Zhenjiang Highspeed Railway",
     "country": "CN",
@@ -2816,8 +3046,9 @@
       "横山所"
     ]
   },
-  "贵阳环线": {
+  {
     "line_ref": "3094",
+    "filename": "贵阳环线",
     "zh": "贵阳环线",
     "en": "Guiyang Loop Railway",
     "country": "CN",
@@ -2830,8 +3061,9 @@
       "花溪大学城"
     ]
   },
-  "合杭高速线": {
+  {
     "line_ref": "3096",
+    "filename": "合杭高速线",
     "zh": "合杭高速线",
     "en": "Hefei-Hangzhou Highspeed Railway",
     "country": "CN",
@@ -2847,8 +3079,9 @@
       "杭州西"
     ]
   },
-  "沪苏通线": {
+  {
     "line_ref": "3098",
+    "filename": "沪苏通线",
     "zh": "沪苏通线",
     "en": "Shanghai-Suzhou-Nantong Railway",
     "country": "CN",
@@ -2863,8 +3096,9 @@
       "张家港"
     ]
   },
-  "潍荣高速线": {
+  {
     "line_ref": "3102",
+    "filename": "潍荣高速线",
     "zh": "潍荣高速线",
     "en": "Weifang-Rongcheng Highspeed Railway",
     "country": "CN",
@@ -2874,8 +3108,9 @@
     "end": "荣成",
     "vias": []
   },
-  "沈佳高速线沈白段": {
+  {
     "line_ref": "3105-A",
+    "filename": "沈佳高速线沈白段",
     "zh": "沈佳高速线",
     "en": "Shenyang-Jiamusi Highspeed Railway",
     "country": "CN",
@@ -2885,8 +3120,9 @@
     "end": "抚顺",
     "vias": []
   },
-  "沈佳高速线敦白段": {
+  {
     "line_ref": "3105-B",
+    "filename": "沈佳高速线敦白段",
     "zh": "沈佳高速线",
     "en": "Shenyang-Jiamusi Highspeed Railway",
     "country": "CN",
@@ -2896,8 +3132,9 @@
     "end": "敦化南",
     "vias": []
   },
-  "京唐城际线": {
+  {
     "line_ref": "3112",
+    "filename": "京唐城际线",
     "zh": "京唐城际线",
     "en": "Beijing-Tangshan Intercity Railway",
     "country": "CN",
@@ -2907,8 +3144,9 @@
     "end": "燕郊",
     "vias": []
   },
-  "沪渝蓉高速线": {
+  {
     "line_ref": "3136",
+    "filename": "沪渝蓉高速线",
     "zh": "沪渝蓉高速线",
     "en": "Yangtze River Highspeed Railway",
     "country": "CN",
@@ -2918,8 +3156,9 @@
     "end": "宜昌北",
     "vias": []
   },
-  "阜阳西联络线": {
+  {
     "line_ref": "6452",
+    "filename": "阜阳西联络线",
     "zh": "阜阳西联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2929,8 +3168,9 @@
     "end": "阜阳北",
     "vias": []
   },
-  "杭甬联络线": {
+  {
     "line_ref": "6618",
+    "filename": "杭甬联络线",
     "zh": "杭甬联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2940,8 +3180,9 @@
     "end": "杭甬杭州南所",
     "vias": []
   },
-  "徐州联络线": {
+  {
     "line_ref": "6627",
+    "filename": "徐州联络线",
     "zh": "徐州联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2951,8 +3192,9 @@
     "end": "徐州东所",
     "vias": []
   },
-  "巢湖东南联络线": {
+  {
     "line_ref": "6641",
+    "filename": "巢湖东南联络线",
     "zh": "巢湖东南联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2962,8 +3204,9 @@
     "end": "胡庄所",
     "vias": []
   },
-  "成贵贵阳北联络线": {
+  {
     "line_ref": "6817",
+    "filename": "成贵贵阳北联络线",
     "zh": "成贵贵阳北联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2973,8 +3216,9 @@
     "end": "贵阳北",
     "vias": []
   },
-  "延庆线": {
+  {
     "line_ref": "7357",
+    "filename": "延庆线",
     "zh": "延庆线",
     "en": "Yanqing Branch Railway",
     "country": "CN",
@@ -2984,8 +3228,9 @@
     "end": "延庆",
     "vias": []
   },
-  "新沟北联络线": {
+  {
     "line_ref": "7457",
+    "filename": "新沟北联络线",
     "zh": "新沟北联络线",
     "en": "Link Line",
     "country": "CN",
@@ -2995,8 +3240,9 @@
     "end": "革新所",
     "vias": []
   },
-  "镇江联络线": {
+  {
     "line_ref": "7653",
+    "filename": "镇江联络线",
     "zh": "镇江联络线",
     "en": "Link Line",
     "country": "CN",
@@ -3006,4 +3252,4 @@
     "end": "横山所",
     "vias": []
   }
-}
+]

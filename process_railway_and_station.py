@@ -195,7 +195,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
     for s in station_dict:
         station_dict[s]["lines"] = []
 
-    railway_json = {}
+    railway_json = []
     missing_stations = set()
 
     for r in range(railway_csv.shape[0]):
@@ -224,8 +224,9 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
 
         gpx_changed = False
 
-        railway_json[r_name + r_name_suffix] = {
+        railway_json.append({
             "line_ref": r_line_ref,
+            "filename": r_name + r_name_suffix,
             "zh": r_name,
             "en": r_name_en,
             "country": r_country,
@@ -234,7 +235,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
             "start": r_start,
             "end": r_end,
             "vias": r_vias
-        }
+        })
 
         if r_start not in station_dict:
             print(f"\033[33mWarning: Start station {r_start} of railway {r_name + r_name_suffix} has no coordinate, skipped.\033[0m")
@@ -374,20 +375,20 @@ if __name__ == "__main__":
             station_csv.to_csv(station_csv_file_path, index=False, encoding='utf-8')
             print("已将缺失车站添加到 station.csv 中。")
 
-    station_json = {"railway": []}
-
-    for s in station_dict:
-        station_json["railway"].append({
-            "name_zh": station_dict[s]["name_zh"],
-            "name_en": station_dict[s]["name_en"],
-            "type": station_dict[s]["type"],
-            "lat": station_dict[s]["lat"],
-            "lon": station_dict[s]["lon"],
-            "country": station_dict[s]["country"],
-            "code": station_dict[s]["code"],
-            "lines": station_dict[s]["lines"]
-        })
+#     station_json = {}
+# 
+#     for s in station_dict:
+#         station_json[s] = {
+#             "name_zh": station_dict[s]["name_zh"],
+#             "name_en": station_dict[s]["name_en"],
+#             "type": station_dict[s]["type"],
+#             "lat": station_dict[s]["lat"],
+#             "lon": station_dict[s]["lon"],
+#             "country": station_dict[s]["country"],
+#             "code": station_dict[s]["code"],
+#             "lines": station_dict[s]["lines"]
+#         }
 
     with open(station_json_file_path, 'w', encoding='utf-8') as f:
-        json.dump(station_json, f, ensure_ascii=False, indent=2)
+        json.dump(station_dict, f, ensure_ascii=False, indent=2)
         print(f"已生成 station.json 文件，包含 {len(station_dict)} 个车站。")

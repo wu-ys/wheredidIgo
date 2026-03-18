@@ -148,7 +148,7 @@
   };
 
   const icons = {
-    flights: L.icon({
+    airport: L.icon({
       iconUrl: "assets/airport.png",
       iconSize: [16, 16],
       iconAnchor: [8, 8]
@@ -165,12 +165,14 @@
   let globalBounds = null;
   let allGpxLayers = []; // 用于后续更新语言
 
-  let flights_num = 95;
+  let flights_num = 97;
   let flights_loaded = 0;
-  let railway_num = 231;
+  let railway_num = 246;
   let railway_loaded = 0;
   let total = flights_num + railway_num;
   let gpxs = [];
+
+  let langMap = {};
 
   async function loadAll() {
 
@@ -190,39 +192,38 @@
       loadAllRailwayGpx(railwayGpxs);
       loadAllFlightGpx(flightGpxs);
 
-      for (const [groupName, points] of Object.entries(stationData)) {
-        const group = overlays[groupName];
-        if (!group) continue;
+      const railwayGroup = overlays["railway"];
 
-        points.forEach(p => {
+      const arr = Array.isArray(stationData)
+          ? stationData
+          : Object.values(stationData);
+
+      const filtered = arr.filter(p => p.type === "station");
+      for (const [stationName, p] of Object.entries(filtered)) {
+
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+          const marker = L.marker([p.lat, p.lon], { icon: icons[p.type] })
             .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
+            .addTo(railwayGroup);
         // 为后续语言切换保存引用
         marker._names = { zh: p.name_zh, en: p.name_en };
-        if (!group._markers) group._markers = [];
-          group._markers.push(marker);
-        });
-      }
+        if (!railwayGroup._markers) railwayGroup._markers = [];
+          railwayGroup._markers.push(marker);
+      };
 
 
-      for (const [groupName, points] of Object.entries(airportData)) {
-        const group = overlays[groupName];
-        if (!group) continue;
-
-        points.forEach(p => {
+      const flightsGroup = overlays["flights"];
+      for (const [airportName, p] of Object.entries(airportData)) {
           const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[groupName] })
+          const marker = L.marker([p.lat, p.lon], { icon: icons["airport"] })
             .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
+            .addTo(flightsGroup);
           const airport_iata = p.iata;
 
           marker._names = { zh: p.name_zh, en: p.name_en };
-          if (!group._markers) group._markers = [];
-            group._markers.push(marker);
-        });
-      }
+          if (!flightsGroup._markers) flightsGroup._markers = [];
+            flightsGroup._markers.push(marker);
+      };
 
       L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
@@ -236,7 +237,7 @@
     const layerGroup = L.layerGroup();
     overlays["flights"] = layerGroup;
 
-    gpxs["flights"].forEach(item => {
+    gpxs.forEach(item => {
       const gpxId = item.flight_id;
       const file = "./flights/gpx/" + item.gpx_filename;
       const gpx = new L.GPX(file, {
@@ -271,21 +272,22 @@
     const layerGroup = L.layerGroup();
     overlays["railway"] = layerGroup;
 
-    for (const [filename, item] of Object.entries(gpxs)) {
+    gpxs.forEach(item => {
+      const filename = item.filename;
       const file = "./railway/gpx/" + filename + ".gpx";
       const gpx = new L.GPX(file, {
         async: true,
-        markers: { startIcon: null, endIcon: null, wptIcons: { '': null } },
-        gpx_options: { joinTrackSegments: false }
+        markers: { startIcon: null, endIcon: null },
+        gpx_options: { joinTrackSegments: false , parseElements: ['track'] }
       })
       .on("loaded", e => {
         const g = e.target;
         let displayName;
 
-        // === 从 lang_gpx.json 取英文名称 ===
-        if (!gpxs[filename]) {
-          console.warn(`⚠️ 未找到 ${filename} 的多语言条目`);
-        }
+        langMap[filename] = {
+          "zh": item.zh,
+          "en": item.en
+        };
         displayName = gpxs[filename]?.[currentLang] || filename;
 
         g._filename = filename;
@@ -304,7 +306,7 @@
         }
       })
       .addTo(layerGroup);
-    }
+    });
 
   }
 

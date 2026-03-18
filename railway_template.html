@@ -270,7 +270,8 @@
     const layerGroup = L.layerGroup();
     overlays["railway"] = layerGroup;
 
-    for (const [filename, p] of Object.entries(gpxs)) {
+    gpxs.forEach(item => {
+      const filename = item.filename;
       const file = "./railway/gpx/" + filename + ".gpx";
       const gpx = new L.GPX(file, {
         async: true,
@@ -289,7 +290,7 @@
 
         g._filename = filename;
 
-        let speed = Number(p.speed);
+        let speed = Number(item.speed);
 
         if (speed >= 250) {
           if (speed >= 350) {
@@ -303,7 +304,7 @@
             g.setStyle(hsr250Style);
           }
 
-        } else if (p.type == "main") {
+        } else if (item.type == "main") {
           if (speed >= 200) {
             g._w = 5.001;
             g.setStyle(mainLine200Style);
@@ -315,7 +316,7 @@
             g.setStyle(mainLine120Style);
           }
 
-        } else if (p.type == "branch") {
+        } else if (item.type == "branch") {
           if (speed >= 160) {
             g._w = 4.001;
             g.setStyle(branchLine160Style);
@@ -354,7 +355,7 @@
         }
       })
       .addTo(layerGroup);
-    }
+    });
     overlays["railway"].addTo(map);
 
   }
@@ -384,22 +385,25 @@
 
   fetch("./railway/station.json")
     .then(resp => resp.json())
-    .then(data => {
-      for (const [groupName, points] of Object.entries(data)) {
-        const group = overlays[groupName];
-        if (!group) continue;
+    .then(stationData => {
+      const railwayGroup = overlays["railway"];
+      const arr = Array.isArray(stationData)
+          ? stationData
+          : Object.values(stationData);
 
-        points.forEach(p => {
-          const name = currentLang === "zh" ? p.name_zh : p.name_en;
-          const marker = L.marker([p.lat, p.lon], { icon: icons[p.type] })
-            .bindPopup(`<b>${name}</b>`)
-            .addTo(group);
-          // 为后续语言切换保存引用
-          marker._names = { zh: p.name_zh, en: p.name_en };
-          if (!group._markers) group._markers = [];
-            group._markers.push(marker);
-        });
-      }
+      const filtered = arr.filter(p => p.type === "station");
+
+      for (const [stationName, p] of Object.entries(filtered)) {
+
+        const name = currentLang === "zh" ? p.name_zh : p.name_en;
+        const marker = L.marker([p.lat, p.lon], { icon: icons[p.type] })
+          .bindPopup(`<b>${name}</b>`)
+          .addTo(railwayGroup);
+        // 为后续语言切换保存引用
+        marker._names = { zh: p.name_zh, en: p.name_en };
+        if (!railwayGroup._markers) railwayGroup._markers = [];
+        railwayGroup._markers.push(marker);
+      };
     })
   .catch(err => console.error("加载 station.json 出错:", err));
 
