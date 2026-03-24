@@ -16,6 +16,14 @@
       <type>junction</type>
     </extensions>
   </wpt>
+  <wpt lat="116.56407" lon="39.899197">
+    <name>双桥</name>
+    <extensions>
+      <country>cr</country>
+      <code>11333</code>
+      <type>junction</type>
+    </extensions>
+  </wpt>
   <wpt lat="39.925177" lon="116.725417">
     <name>高辛庄所</name>
     <extensions>

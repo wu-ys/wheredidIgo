@@ -223,7 +223,7 @@
     "country": "cr",
     "code": "11366",
     "lines": [
-      "京承线北京段"
+      "京承线"
     ]
   },
   "燕山": {
@@ -236,6 +236,55 @@
     "code": "14195",
     "lines": [
       "京原线"
+    ]
+  },
+  "双桥": {
+    "name_zh": "双桥",
+    "name_en": "Shuangqiao",
+    "type": "junction",
+    "lat": 39.899197,
+    "lon": 116.56407,
+    "country": "cr",
+    "code": "11333",
+    "lines": [
+      "京哈线",
+      "京承线"
+    ]
+  },
+  "香河": {
+    "name_zh": "香河",
+    "name_en": "Xianghe",
+    "type": "station",
+    "lat": 39.71819,
+    "lon": 117.027676,
+    "country": "cr",
+    "code": "9652adef",
+    "lines": [
+      "京唐城际线"
+    ]
+  },
+  "北京通州": {
+    "name_zh": "北京通州",
+    "name_en": "Beijing Tongzhou",
+    "type": "station",
+    "lat": 39.907964,
+    "lon": 116.700146,
+    "country": "cr",
+    "code": "14c24aa2",
+    "lines": [
+      "京唐城际线"
+    ]
+  },
+  "良乡": {
+    "name_zh": "良乡",
+    "name_en": "Liangxiang",
+    "type": "station",
+    "lat": 39.739625,
+    "lon": 116.151071,
+    "country": "cr",
+    "code": "20255",
+    "lines": [
+      "京广线京石段"
     ]
   },
   "天津": {
@@ -350,7 +399,7 @@
     "country": "cr",
     "code": "11492",
     "lines": [
-      "京承线承德段",
+      "京承线",
       "承隆线"
     ]
   },
@@ -1276,6 +1325,18 @@
     "lines": [
       "徐盐高速线",
       "连镇高速线"
+    ]
+  },
+  "启东": {
+    "name_zh": "启东",
+    "name_en": "Qidong",
+    "type": "station",
+    "lat": 31.859289,
+    "lon": 121.640909,
+    "country": "cr",
+    "code": "19130",
+    "lines": [
+      "宁启线"
     ]
   },
   "连云港": {
@@ -4436,7 +4497,7 @@
     "country": "cr",
     "code": "11378",
     "lines": [
-      "京承线北京段",
+      "京承线",
       "怀范联络线"
     ]
   },
@@ -4449,7 +4510,7 @@
     "country": "cr",
     "code": "697325ec",
     "lines": [
-      "京承线承德段",
+      "京承线",
       "李家营联络线"
     ]
   },
@@ -4828,6 +4889,19 @@
     "lines": [
       "黄渡联络线",
       "沪宁城际线"
+    ]
+  },
+  "新沂": {
+    "name_zh": "新沂",
+    "name_en": "Xinyi",
+    "type": "junction",
+    "lat": 34.382275,
+    "lon": 118.34303,
+    "country": "cr",
+    "code": "38561",
+    "lines": [
+      "陇海线",
+      "新长线"
     ]
   },
   "上饶": {

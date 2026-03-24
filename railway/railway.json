@@ -659,7 +659,9 @@
     "speed": 160,
     "start": "长阳村所",
     "end": "柳辛庄",
-    "vias": []
+    "vias": [
+      "良乡"
+    ]
   },
   {
     "line_ref": "0001-B",
@@ -750,17 +752,18 @@
     "country": "CN",
     "type": "main",
     "speed": 160,
-    "start": "徐州",
-    "end": "兰州",
+    "start": "兰州",
+    "end": "新沂",
     "vias": [
-      "商丘",
-      "开封",
-      "圃田西",
-      "郑州",
-      "洛阳",
-      "灞桥",
+      "天水",
       "宝鸡",
-      "天水"
+      "灞桥",
+      "洛阳",
+      "郑州",
+      "圃田西",
+      "开封",
+      "商丘",
+      "徐州"
     ]
   },
   {
@@ -819,6 +822,7 @@
     "end": "哈尔滨",
     "vias": [
       "北京东",
+      "双桥",
       "高辛庄所",
       "蓟州",
       "唐山北",
@@ -1266,28 +1270,20 @@
     "vias": []
   },
   {
-    "line_ref": "0327-A",
-    "filename": "京承线北京段",
+    "line_ref": "0327",
+    "filename": "京承线",
     "zh": "京承线",
     "en": "Beijing-Chengde Railway",
     "country": "CN",
     "type": "branch",
     "speed": 120,
-    "start": "怀柔",
-    "end": "顺义",
-    "vias": []
-  },
-  {
-    "line_ref": "0327-B",
-    "filename": "京承线承德段",
-    "zh": "京承线",
-    "en": "Beijing-Chengde Railway",
-    "country": "CN",
-    "type": "branch",
-    "speed": 120,
-    "start": "赵家店所",
+    "start": "双桥",
     "end": "承德",
-    "vias": []
+    "vias": [
+      "顺义",
+      "怀柔",
+      "赵家店所"
+    ]
   },
   {
     "line_ref": "0332",
@@ -1434,9 +1430,10 @@
     "type": "main",
     "speed": 200,
     "start": "林场",
-    "end": "海安",
+    "end": "启东",
     "vias": [
-      "扬州"
+      "扬州",
+      "海安"
     ]
   },
   {
@@ -1534,9 +1531,11 @@
     "country": "CN",
     "type": "branch",
     "speed": 120,
-    "start": "盐城",
+    "start": "新沂",
     "end": "海安",
-    "vias": []
+    "vias": [
+      "盐城"
+    ]
   },
   {
     "line_ref": "0651",
@@ -3140,9 +3139,12 @@
     "country": "CN",
     "type": "main",
     "speed": 250,
-    "start": "北刘各庄所",
-    "end": "燕郊",
-    "vias": []
+    "start": "北京通州",
+    "end": "香河",
+    "vias": [
+      "北刘各庄所",
+      "燕郊"
+    ]
   },
   {
     "line_ref": "3136",

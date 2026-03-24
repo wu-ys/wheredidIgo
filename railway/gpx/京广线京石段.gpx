@@ -8,6 +8,14 @@
       <type>junction</type>
     </extensions>
   </wpt>
+  <wpt lat="116.151071" lon="39.739625">
+    <name>良乡</name>
+    <extensions>
+      <country>cr</country>
+      <code>20255</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
   <wpt lat="38.099931" lon="114.50389">
     <name>柳辛庄</name>
     <extensions>

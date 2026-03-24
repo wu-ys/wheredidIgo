@@ -18,6 +18,10 @@ code,name,name_en,lon,lat,type,country
 11675,古北口,Gubeikou,117.135340,40.690513,station,cr
 11366,顺义,Shunyi,116.639598,40.124766,station,cr
 14195,燕山,Yanshan,115.952348,39.747983,station,cr
+11333,双桥,Shuangqiao,116.564070,39.899197,junction,cr
+9652adef,香河,Xianghe,117.027676,39.718190,station,cr
+14c24aa2,北京通州,Beijing Tongzhou,116.700146,39.907964,station,cr
+20255,良乡,Liangxiang,116.151071,39.739625,station,cr
 10157,天津,Tianjin,117.203720,39.136792,station,cr
 16010,天津西,Tianjin W.,117.157228,39.156945,station,cr
 10148,天津北,Tianjin N.,117.203217,39.165954,station,cr
@@ -100,6 +104,7 @@ code,name,name_en,lon,lat,type,country
 66827,徐州东,Xuzhou E.,117.297730,34.268629,station,cr
 18828,宿迁,Suqian,118.276336,33.875910,station,cr
 18830,淮安东,Huai'an E.,119.182747,33.570124,station,cr
+19130,启东,Qidong,121.640909,31.859289,station,cr
 38531,连云港,Lianyungang,119.158251,34.610303,station,cr
 18968,盐城,Yancheng,120.169190,33.383739,station,cr
 17370,海安,Hai'an,120.500330,32.549268,station,cr
@@ -379,6 +384,7 @@ a535f86a,笕桥所,,120.244343,30.354931,junction,cr
 acf6abbb,安亭北所,,121.232398,31.298858,junction,cr
 66521,黄渡所,,121.231279,31.300029,junction,cr
 66523,南翔北所,,121.264990,31.291749,junction,cr
+38561,新沂,Xinyi,118.343030,34.382275,junction,cr
 32687,上饶,Shangrao,118.001263,28.493506,junction,cr
 ad645c6d,京福所,,118.043677,28.494566,junction,cr
 429e6741,双龙南,Shuanglong S.,106.784883,26.485276,junction,cr
