@@ -3138,7 +3138,7 @@
     "en": "Beijing-Tangshan Intercity Railway",
     "country": "CN",
     "type": "main",
-    "speed": 250,
+    "speed": 300,
     "start": "北京通州",
     "end": "香河",
     "vias": [
