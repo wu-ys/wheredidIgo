@@ -871,5 +871,32 @@
     "departure": "CKG",
     "arrival": "NKG",
     "via": ""
+  },
+  {
+    "flight_id": "98",
+    "gpx_filename": "20260318_HU7610.gpx",
+    "flight_no": "HU7610",
+    "date": "20260318",
+    "departure": "SHA",
+    "arrival": "PEK",
+    "via": ""
+  },
+  {
+    "flight_id": "99",
+    "gpx_filename": "20260411_HU7422.gpx",
+    "flight_no": "HU7422",
+    "date": "20260411",
+    "departure": "CKG",
+    "arrival": "HGH",
+    "via": ""
+  },
+  {
+    "flight_id": "100",
+    "gpx_filename": "20260413_CA8339.gpx",
+    "flight_no": "CA8339",
+    "date": "20260413",
+    "departure": "HGH",
+    "arrival": "TFU",
+    "via": ""
   }
 ]

@@ -198,12 +198,14 @@ if __name__ == "__main__":
     airport_json = {}
     for r in range(airport_csv.shape[0]):
         iata = airport_csv.at[r, "iata"]
+        icao = airport_csv.at[r, "icao"]
         airport_json[iata] = {
             "name_zh": airport_csv.at[r, "name_zh"],
             "name_en": airport_csv.at[r, "name_en"],
             "lat": airport_csv.at[r, "lat"],
             "lon": airport_csv.at[r, "lon"],
             "iata": iata,
+            "icao": icao,
             "departure": [],
             "arrival": [],
             "via": [],
