@@ -1,420 +1,426 @@
-code,name,name_en,lon,lat,type,country
-10001,北京,Beijing,116.421130,39.901440,station,cr
-10010,北京南,Beijing S.,116.372838,39.863072,station,cr
-21152,北京西,Beijing W.,116.317173,39.892572,station,cr
-12713,北京北,Beijing N.,116.346821,39.943899,station,cr
-11389,北京朝阳,Beijing Chaoyang,116.503226,39.943668,station,cr
-10025,北京丰台,Beijing Fengtai,116.295393,39.849629,station,cr
-12707,清河,Qinghe,116.307714,40.040723,station,cr
-12181,八达岭长城,Badaling Great Wall,116.004910,40.358029,station,cr
-12285,八达岭,Badaling,115.995334,40.358876,station,cr
-12224,延庆,Yanqing,115.978119,40.435215,station,cr
-12221,康庄,Kangzhuang,115.892272,40.378821,station,cr
-12167,黄土店,Huangtudian,116.357243,40.068241,station,cr
-21156,北京大兴,Beijing Daxing,116.322743,39.719037,station,cr
-21158,大兴机场,Daxing Airport,116.409504,39.510900,station,cr
-11609,昌平北,Changping N.,116.227095,40.230012,station,cr
-11630,怀柔北,Huairou N.,116.686425,40.407876,station,cr
-11675,古北口,Gubeikou,117.135340,40.690513,station,cr
-11366,顺义,Shunyi,116.639598,40.124766,station,cr
-14195,燕山,Yanshan,115.952348,39.747983,station,cr
-11333,双桥,Shuangqiao,116.564070,39.899197,junction,cr
-9652adef,香河,Xianghe,117.027676,39.718190,station,cr
-14c24aa2,北京通州,Beijing Tongzhou,116.700146,39.907964,station,cr
-20255,良乡,Liangxiang,116.151071,39.739625,station,cr
-10157,天津,Tianjin,117.203720,39.136792,station,cr
-16010,天津西,Tianjin W.,117.157228,39.156945,station,cr
-10148,天津北,Tianjin N.,117.203217,39.165954,station,cr
-11132,蓟州,Jizhou,117.362706,39.993686,station,cr
-10526,蓟州北,Jizhou N.,117.391628,40.025454,station,cr
-20372,石家庄,Shijiazhuang,114.478487,38.009434,station,cr
-26426,石家庄北,Shijiazhuang N.,114.458946,38.064809,station,cr
-10214,唐山,Tangshan,118.115152,39.622864,station,cr
-11492,承德,Chengde,117.948261,40.963096,station,cr
-52920,承德南,Chengde S.,117.958703,40.883668,station,cr
-20383,霸州西,Bazhou W.,116.344457,39.092989,station,cr
-21162,霸州北,Bazhou N.,116.321097,39.185558,station,cr
-21164,雄安,Xiong'an,116.154071,39.055624,station,cr
-20387,白洋淀,Baiyangdian,115.868901,39.068633,station,cr
-10319,秦皇岛,Qinhuangdao,119.586226,39.964616,station,cr
-10331,山海关,Shanhaiguan,119.761552,39.999403,station,cr
-10307,北戴河,Beidaihe,119.413620,39.849858,station,cr
-12782,张家口,Zhangjiakou,114.876733,40.750704,station,cr
-12290,宣化,Xuanhua,115.050377,40.596602,station,cr
-11108,燕郊,Yanjiao,116.819673,39.940570,station,cr
-12581,呼和浩特,Hohhot,111.658306,40.829499,station,cr
-12578,呼和浩特东,Hohhot E.,111.759334,40.848343,station,cr
-12113,乌兰察布,Ulanqab,113.152254,40.963345,station,cr
-53363,通辽,Tongliao,122.266425,43.602941,station,cr
-57785,海拉尔,Hailar,119.736663,49.228430,station,cr
-55661,哈尔滨,Harbin,126.624860,45.758149,station,cr
-60002,哈尔滨东,Harbin E.,126.707134,45.784391,station,cr
-53469,哈尔滨西,Harbin W.,126.571042,45.705387,station,cr
-59789,呼兰,Hulan,126.640569,45.996263,station,cr
-61193,牡丹江,Mudanjiang,129.606280,44.589049,station,cr
-61189,横道河子东,Hengdaohezi E.,129.099080,44.788929,station,cr
-62231,绥芬河,Suifenhe,131.129175,44.404199,station,cr
-56675,齐齐哈尔,Qiqihar,123.989172,47.338071,station,cr
-59150,漠河,Mohe,122.500514,52.986709,station,cr
-54116,长春,Changchun,125.318013,43.909017,station,cr
-65960,龙嘉,Longjia Airport,125.693945,43.990324,station,cr
-63059,吉林,Jilin,126.572451,43.857022,station,cr
-54011,四平,Siping,124.367280,43.165104,station,cr
-53487,四平东,Siping E.,124.431780,43.135985,station,cr
-64418,通化,Tonghua,125.916260,41.776100,station,cr
-64090,长白山,Changbaishan,128.122375,42.459589,station,cr
-53885,沈阳北,Shenyang N.,123.429815,41.816960,station,cr
-63623,沈阳南,Shenyang S.,123.400938,41.666370,station,cr
-53522,大连,Dalian,121.628079,38.921389,station,cr
-53520,大连北,Dalian N.,121.601377,39.015978,station,cr
-55376,抚顺,Fushun,123.912075,41.888034,station,cr
-55118,丹东,Dandong,124.380192,40.122162,station,cr
-16295,济南,Jinan,116.985072,36.670731,station,cr
-66812,济南西,Jinan W.,116.887906,36.669206,station,cr
-17786,淄博,Zibo,118.051558,36.788356,station,cr
-18383,南博山,South Boshan,117.955066,36.357596,station,cr
-66815,泰安,Tai'an,117.029348,36.172083,station,cr
-16352,泰山,Taishan,117.103623,36.186857,station,cr
-18088,青岛北,Qingdao N.,120.369524,36.168694,station,cr
-16400,兖州,Yanzhou,116.835541,35.556214,station,cr
-18618,威海,Weihai,122.138637,37.425663,station,cr
-18557,烟台,Yantai,121.377421,37.547492,station,cr
-18657,莱西,Laixi,120.524985,36.823534,station,cr
-30671,上海,Shanghai,121.451190,31.251539,station,cr
-32270,上海南,Shanghai S.,121.426983,31.153863,station,cr
-66100,上海虹桥,Shanghai Hongqiao,121.314801,31.196704,station,cr
-30662,上海西,Shanghai W.,121.398156,31.264135,station,cr
-32022,上海松江,Shanghai Songjiang,121.225310,30.985034,station,cr
-32090,[松江北],[Songjiang N.],121.223402,31.001680,station,cr
-16805,南京,Nanjing,118.793041,32.090120,station,cr
-16804,南京南,Nanjing S.,118.793877,31.970063,station,cr
-30530,苏州,Suzhou,120.606681,31.331842,station,cr
-66854,苏州北,Suzhou N.,120.639286,31.423241,station,cr
-66328,苏州园区,Suzhou SIP,120.706233,31.343685,station,cr
-66325,苏州新区,Suzhou SND,120.520109,31.374043,station,cr
-32026,苏州南,Suzhou S.,120.795515,31.065315,station,cr
-16565,太仓,Taicang,121.192145,31.512012,station,cr
-16561,常熟,Changshu,120.775997,31.699534,station,cr
-16559,张家港,Zhangjiagang,120.669746,31.819379,station,cr
-66322,无锡新区,Wuxi New District,120.387922,31.499407,station,cr
-19097,江阴,Jiangyin,120.274643,31.863894,station,cr
-30452,常州,Changzhou,119.969199,31.787334,station,cr
-19105,武进,Wujin,119.942015,31.661213,station,cr
-30407,镇江,Zhenjiang,119.427367,32.199586,station,cr
-66827,徐州东,Xuzhou E.,117.297730,34.268629,station,cr
-18828,宿迁,Suqian,118.276336,33.875910,station,cr
-18830,淮安东,Huai'an E.,119.182747,33.570124,station,cr
-19130,启东,Qidong,121.640909,31.859289,station,cr
-38531,连云港,Lianyungang,119.158251,34.610303,station,cr
-18968,盐城,Yancheng,120.169190,33.383739,station,cr
-17370,海安,Hai'an,120.500330,32.549268,station,cr
-17364,扬州,Yangzhou,119.345396,32.391623,station,cr
-17334,扬州东,Yangzhou E.,119.523948,32.406570,station,cr
-32252,杭州,Hangzhou,120.177326,30.246198,station,cr
-32001,杭州东,Hangzhou E.,120.207892,30.293964,station,cr
-32460,杭州南,Hangzhou S.,120.288713,30.174535,station,cr
-66279,杭州西,Hangzhou W.,119.982130,30.300426,station,cr
-33185,绍兴,Shaoxing,120.574742,30.016435,station,cr
-33187,绍兴北,Shaoxing N.,120.532994,30.102819,station,cr
-32501,诸暨,Zhuji,120.181038,29.730065,station,cr
-33284,宁波,Ningbo,121.532402,29.865233,station,cr
-33990,温州南,Wenzhou S.,120.581208,27.969313,station,cr
-32537,义乌,Yiwu,120.038677,29.380372,station,cr
-21011,横店,Hengdian,120.260177,29.217579,station,cr
-31854,湖州,Huzhou,120.019428,30.864274,station,cr
-32028,湖州南浔,Huzhou Nanxun,120.402696,30.829534,station,cr
-32138,嘉兴,Jiaxing,120.758817,30.766969,station,cr
-32013,嘉兴南,Jiaxing S.,120.794937,30.693215,station,cr
-32159,海宁,Haining,120.680671,30.535639,station,cr
-32621,衢州,Quzhou,118.876167,28.927599,station,cr
-19423,合肥南,Hefei S.,117.284759,31.800958,station,cr
-34130,黄山北,Huangshan N.,118.267618,29.818051,station,cr
-35927,黟县东,Yixian E.,118.042367,29.887332,station,cr
-30926,芜湖,Wuhu,118.387385,31.350149,station,cr
-30928,芜湖南,Wuhu S.,118.373327,31.250829,station,cr
-31015,池州,Chizhou,117.516126,30.622132,station,cr
-34682,福州,Fuzhou,119.315415,26.117167,station,cr
-34151,福州南,Fuzhou S.,119.385601,25.988279,station,cr
-34583,厦门,Xiamen,118.111225,24.470209,station,cr
-34178,厦门北,Xiamen N.,118.069030,24.638772,station,cr
-34169,泉州,Quanzhou,118.563221,24.976173,station,cr
-35067,漳州,Zhangzhou,117.711826,24.460352,station,cr
-23711,广州东,Guangzhou E.,113.319977,23.152877,station,cr
-65848,广州南,Guangzhou S.,113.261758,22.991077,station,cr
-23471,广州北,"Guangzhou N,",113.198418,23.379972,station,cr
-23475,广州白云,Guangzhou Baiyun,113.241036,23.193938,station,cr
-23738,广州新塘,Guangzhou Xintang,113.601130,23.136824,station,cr
-Q06,花都,Huadu,113.197517,23.379797,station,gi
-Q11,清城,Qingcheng,113.061023,23.656003,station,gi
-D04,琶洲,Pazhou,113.362706,23.102843,station,gi
-D13,白云机场北,Baiyun Airport N.,113.300541,23.398986,station,gi
-H07,东莞西,Dongguan W.,113.620906,23.010870,station,gi
-H09,西平西,Xiping W.,113.740570,22.996362,station,gi
-S23,深圳机场,Shenzhen Airport,113.806032,22.623983,station,gi
-Z04,顺德北,Shunde N.,113.124193,22.964447,station,gi
-Z05,张槎,Zhangcha,113.062200,23.011695,station,gi
-65860,深圳北,Shenzhen N.,114.023289,22.609954,station,cr
-23819,深圳,Shenzhen,114.112668,22.535525,station,cr
-65891,福田,Futian,114.051891,22.540890,station,cr
-23757,东莞,Dongguan,113.854212,23.092445,station,cr
-25851,惠阳,Huiyang,114.487586,22.787649,station,cr
-24568,佛山西,Foshan W.,113.028258,23.082342,station,cr
-65896,香港西九龙,HongKong West Kowloon,114.165443,22.303882,station,cr
-36428,南宁,Nanning,108.311523,22.829139,station,cr
-36452,南宁东,Nanning E.,108.409606,22.845280,station,cr
-36433,吴圩机场,Wuxu Airport,108.182960,22.602692,station,cr
-36437,崇左南,Chongzuo S.,107.390852,22.359854,station,cr
-3ba9bb5d,玉林北,Yulin N.,110.245228,22.724276,station,cr
-37148,玉林,Yulin,110.153209,22.599788,station,cr
-37376,金城江,Jinchengjiang,108.061382,24.701790,station,cr
-47516,河池西,Hechi W.,108.171197,24.714364,station,cr
-51444,美兰,Meilan Airport,110.456955,19.943528,station,cr
-51450,城西,Chengxi,110.327690,19.998119,station,cr
-51447,海口东,Haikou E.,110.338834,19.985488,station,cr
-51481,三亚,Sanya,109.488980,18.297786,station,cr
-51480,崖州,Yazhou,109.153496,18.377690,station,cr
-51682,凤凰机场,Fenghuang Airport,109.404688,18.310561,station,cr
-25424,南昌,Nanchang,115.913113,28.665071,station,cr
-65643,新余北,Xinyu N.,114.891878,27.914737,station,cr
-33023,分宜,Fenyi,114.658631,27.809323,station,cr
-65646,宜春,Yichun,114.431339,27.792421,station,cr
-22874,长沙,Changsha,113.007695,28.197434,station,cr
-65818,长沙南,Changsha S.,113.058156,28.149430,station,cr
-65207,谷山,Gushan,112.902291,28.233342,station,cr
-65213,开福寺,Kaifusi,112.974665,28.226739,station,cr
-35312,湘潭,Xiangtan,112.906942,27.878918,station,cr
-65660,湘潭北,Xiangtan N.,112.936745,27.968399,station,cr
-65609,凤凰古城,Fenghuang Ancient Town,109.598798,28.020293,station,cr
-65800,武汉,Wuhan,114.419997,30.609370,station,cr
-21050,汉口,Hankou,114.250053,30.620301,station,cr
-21077,武昌,Wuchang,114.311764,30.532770,station,cr
-45195,宜昌北,Yichang N.,111.469488,30.748088,station,cr
-20750,郑州,Zhengzhou,113.652007,34.746928,station,cr
-65773,郑州东,Zhengzhou E.,113.773225,34.760065,station,cr
-38774,开封,Kaifeng,114.348279,34.771678,station,cr
-39173,洛阳,Luoyang,112.430106,34.686405,station,cr
-22531,安阳东,Anyang E.,114.447441,36.084740,station,cr
-38402,焦作,Jiaozuo,113.228550,35.222383,station,cr
-44114,济源,Jiyuan,112.568272,35.110954,station,cr
-39053,洛阳龙门,Luoyang Longmen,112.454376,34.595597,station,cr
-26447,太原,Taiyuan,112.581228,37.859785,station,cr
-35143,重庆北,Chongqing N.,106.547387,29.612607,station,cr
-30077,重庆西,Chongqing W.,106.433378,29.503728,station,cr
-47066,沙坪坝,Shapingba,106.457283,29.556784,station,cr
-37646,贵阳,Guiyang,106.698660,26.560400,station,cr
-47483,贵阳北,Guiyang N.,106.670656,26.623156,station,cr
-65501,贵安,Gui'an,106.481856,26.469122,station,cr
-65476,花溪大学城,Huaxi University Town,106.622192,26.397133,station,cr
-35624,镇远,Zhenyuan,108.405681,27.038084,station,cr
-46543,成都东,Chengdu E.,104.140165,30.631450,station,cr
-47675,成都南,Chengdu S.,104.066034,30.607803,station,cr
-47621,双流机场,Shuangliu Airport,103.954297,30.571910,station,cr
-46063,都江堰,Dujiangyan,103.637000,30.960216,station,cr
-46042,犀浦,Xipu,103.970208,30.759841,station,cr
-47607,广汉北,Guanghan N.,104.272993,31.011319,station,cr
-45587,黄龙九寨,Huanglong Jiuzhai,103.612973,32.747465,station,cr
-46140,西昌西,Xichang W.,102.160204,27.871463,station,cr
-46158,攀枝花南,Panzhihua S.,101.746480,26.471606,station,cr
-46545,资阳北,Ziyang N.,104.679853,30.128504,station,cr
-48197,昆明,Kunming,102.720356,25.017766,station,cr
-48778,昆明南,Kunming S.,102.860110,24.873557,station,cr
-48647,普洱,Pu'er,100.940768,22.778273,station,cr
-48417,丽江,Lijiang,100.251512,26.814220,station,cr
-49534,香格里拉,Shangri-La,99.688547,27.813351,station,cr
-39629,宝鸡,Baoji,107.148467,34.374616,station,cr
-45713,汉中,Hanzhong,107.025408,33.092590,station,cr
-41492,兰州西,Lanzhou W.,103.749730,36.069222,station,cr
-39701,天水,Tianshui,105.894849,34.566714,station,cr
-38988,天水南,Tianshui S.,105.854066,34.549947,station,cr
-14846,银川,Yinchuan,106.170352,38.490755,station,cr
-43787,格尔木,Golmud,94.906191,36.383439,station,cr
-41521,海东西,Haidong W.,102.052982,36.509383,station,cr
-44083,拉萨,Lhasa,91.068171,29.625868,station,cr
-43936,日喀则,Shigatse,88.913010,29.224193,station,cr
-O01,天王寺,Tennoji,135.515242,34.647331,station,jr
-O11,大阪,Osaka,135.495576,34.702221,station,jr
-O14,西九条,Nishi-Kujo,135.466318,34.682271,station,jr
-O18,今宫,Imamia,135.493028,34.653951,station,jr
-O19,新今宫,Shin-Imamia,135.502195,34.649843,station,jr
-Q17,JR难波,JR Namba,135.495326,34.666478,station,jr
-R54,和歌山,Wakayama,135.191582,34.232202,station,jr
-A01,敦贺,Tsuruga,136.076392,35.644882,station,jr
-A24,草津,,135.961824,35.022560,station,jr
-A27,石山,Ishiyama,135.900007,34.979931,station,jr
-A61,三宫,Sannomiya,135.195082,34.694863,station,jr
-A30,山科,Yamashina,135.817226,34.992633,station,jr
-A31,京都,Kyoto,135.758775,34.985363,station,jr
-A63,神户,Kobe,135.178289,34.67929,station,jr
-A85,姬路,Himeji,134.690242,34.826887,station,jr
-E02,梅小路京都西,Umekoji-Kyoto Nishi,135.743197,34.988649,station,jr
-E08,嵯峨岚山,Saga Arashiyama,135.681415,35.018779,station,jr
-C01,柘植,,136.255960,34.846851,station,jr
-Q39,加茂,Kamo,135.869854,34.752709,station,jr
-Q36,JR奈良,JR Nara,135.818943,34.680812,station,jr
-Q24,久宝寺,Kyuhoji,135.584024,34.622444,station,jr
-032,关西空港,Kansai Airport,135.243486,34.435868,station,nk
-447,加太,Kada,135.080823,34.275105,station,nk
-045,和歌山市,Wakayamashi,135.167051,34.236792,station,nk
-001,淀屋桥,Yodoyabashi,135.501377,34.692486,station,kh
-040,三条,Sanjo,135.772334,35.009015,station,kh
-A28,近铁奈良,KT Nara,135.828556,34.684133,station,kt
-A02,近铁日本桥,KT Nippombashi,135.505701,34.666901,station,kt
-001,大阪梅田,Osaka Umeda,135.498392,34.705282,station,hk
-042,庄内,Shonai,135.475038,34.750263,station,hk
-032,阪神三宫,HS Sannomiya,135.195434,34.693665,station,hs
-A12,米原,,136.290175,35.314809,junction,jr
-A03,近江盐津,,136.151494,35.539110,junction,jr
-D19,木津,,135.824919,34.735856,junction,jr
-HS09,阪神尼崎,,135.417325,34.718591,junction,hs
-044,纪之川,,135.165396,34.255191,junction,nk
-030,泉佐野,,135.316983,34.411187,junction,nk
-16567,陆渡所,,121.206389,31.476506,junction,cr
-31319,宣城,Xuancheng,118.769130,30.949536,junction,cr
-34126,绩溪北,Jixi N.,118.566754,30.073797,junction,cr
-45573,三星堆,Sanxingdui,104.208086,30.943766,junction,cr
-503ae511,康山所,,120.044329,30.818790,junction,cr
-c85ef475,妙西镇所,,120.017234,30.797443,junction,cr
-66276,桐庐东,Tonglu E.,119.760292,29.857599,junction,cr
-f77128ce,永嘉所,,120.718614,28.072229,junction,cr
-32372,桐庐,Tonglu,119.729569,29.790478,junction,cr
-20381,胜芳,Shengfang,116.753448,39.137775,junction,cr
-21160,固安东,Gu'an E.,116.398003,39.370921,junction,cr
-16555,南通西,Nantong W.,120.760711,32.103157,junction,cr
-d5c7787f,高辛庄所,,116.725417,39.925177,junction,cr
-1036923d,北刘各庄所,,116.761143,39.933754,junction,cr
-47609,青白江东,Qingbaijiang E.,104.223226,30.896903,junction,cr
-352d5dea,龙形村所,,109.961417,27.495965,junction,cr
-1f97993f,沙堤所,,110.439738,29.196936,junction,cr
-26777,张家界西,Zhangjiajie W.,110.497768,29.116602,junction,cr
-4eb13889,黄金园所,,112.781419,28.277995,junction,cr
-65678,怀化南,Huaihua S.,109.988987,27.515508,junction,cr
-f1f7e412,凤凰西所,,109.366121,18.309082,junction,cr
-454ca49b,崖州湾,Yazhou Bay,109.180836,18.354942,junction,cr
-37580,龙里,Longli,106.968905,26.451631,junction,cr
-45c67dbe,秦祺村所,,106.784258,26.499658,junction,cr
-H05,广州莲花山,Guangzhou Lianhuashan,113.486935,23.004813,junction,gi
-D01,番禺,Panyu,113.267643,22.989839,junction,gi
-65201,长沙西,Changsha W.,112.820446,28.265408,junction,cr
-2108bd63,长阳村所,,116.175211,39.771151,junction,cr
-20369,柳辛庄,Liuxinzhuang,114.503890,38.099931,junction,cr
-21059,汉西,Hanxi,114.222257,30.593617,junction,cr
-21089,武昌南,Wuchang S.,114.296903,30.473889,junction,cr
-1cfdd7a5,黄土坡所,,116.279925,39.768604,junction,cr
-10091,汉沟镇,Hangou,117.102822,39.298274,junction,cr
-16283,桥南所,,116.827011,36.704278,junction,cr
-16319,党家庄,Dangjiazhuang,116.897840,36.578649,junction,cr
-16628,徐州,Xuzhou,117.202226,34.266126,junction,cr
-16802,林场,Linchang,118.675223,32.162457,junction,cr
-30566,黄渡,Huangdu,121.235915,31.295703,junction,cr
-16292,北园,Beiyuan,116.997805,36.690379,junction,cr
-38702,商丘,Shangqiu,115.652543,34.447534,junction,cr
-38810,圃田西,Putian W.,113.694233,34.734952,junction,cr
-39872,兰州,Lanzhou,103.848009,36.035735,junction,cr
-24890,商丘南,Shangqiu S.,115.699022,34.409376,junction,cr
-25067,阜阳北,Fuyang N.,115.862414,33.019200,junction,cr
-25104,阜阳,Fuyang,115.861746,32.916619,junction,cr
-25322,九江,Jiujiang,116.001822,29.706467,junction,cr
-25324,九江西,Jiujiang W.,115.888598,29.644494,junction,cr
-25397,乐化,Lehua,115.865901,28.817378,junction,cr
-25454,向塘,Xiangtang,115.956186,28.446298,junction,cr
-25487,三江镇,Sanjiangzhen,115.976545,28.311867,junction,cr
-12158,北京东,Beijing E.,116.478422,39.901533,junction,cr
-11159,唐山北,Tangshan N.,118.111845,39.816639,junction,cr
-10328,龙家营,Langjiaying,119.675464,39.962669,junction,cr
-32045,封浜,Fengbang,121.284308,31.258430,junction,cr
-32075,七宝,Qibao,121.323608,31.160707,junction,cr
-32076,李家塘,Lijiatang,121.356107,31.113415,junction,cr
-32081,春申,Chunshen,121.349777,31.081086,junction,cr
-32198,笕桥,Jianqiao,120.212347,30.331066,junction,cr
-32879,梁家渡,Liangjiadu,115.997943,28.404634,junction,cr
-62665,东门,Dongmen,126.716202,45.741982,junction,cr
-56663,榆树屯,Yushutun,123.887819,47.153445,junction,cr
-12173,昌平,Changping,116.187343,40.188625,junction,cr
-11627,雁栖湖,Yanqihu,116.654039,40.373016,junction,cr
-11726,隆化,Longhua,117.744138,41.326358,junction,cr
-d1cb33d9,青龙桥南所,,116.016287,40.345510,junction,cr
-8e3d1b7c,青龙桥西,,116.010169,40.343699,junction,cr
-ecab1a69,青龙桥北所,,116.010063,40.351010,junction,cr
-12212,青龙桥,Qinglongqiao,116.019242,40.349990,junction,cr
-12596,台阁牧,Taigemu,111.474239,40.745403,junction,cr
-14507,包头西,Baotou W.,109.745534,40.609339,junction,cr
-21959,何刘,Heliu,114.490196,30.531025,junction,cr
-36257,柳州,Liuzhou,109.383696,24.310558,junction,cr
-36374,黎塘,Litang,109.128793,23.197721,junction,cr
-47744,燕岗,Yangang,103.521754,29.555199,junction,cr
-48101,广通北,Guangtong N.,101.763660,25.167389,junction,cr
-26468,太原南,Taiyuan S.,112.603721,37.790580,junction,cr
-65054,定边,Dingbian,107.571514,37.561211,junction,cr
-59567,富裕,Fuyu,124.453512,47.794401,junction,cr
-57485,红旗营,Hongqiying,123.906848,47.114366,junction,cr
-57749,牙克石,Yakeshi,120.731077,49.277502,junction,cr
-58910,加格达奇,Jagdaqi,124.119179,50.418669,junction,cr
-58298,伊图里河,Yitulihe,121.545366,50.627233,junction,cr
-61931,新香坊,Xin Xiangfang,126.761697,45.709644,junction,cr
-64301,梅河口,Meihekou,125.679816,42.533609,junction,cr
-13385,石景山南,Shijingshan S.,116.208327,39.873525,junction,cr
-11378,怀柔,Huairou,116.642939,40.316018,junction,cr
-697325ec,赵家店所,,117.768664,40.630505,junction,cr
-10973,李家营,Lijiaying,117.748895,40.582992,junction,cr
-18663,西陌堂所,,121.339061,37.413618,junction,cr
-19682,淮南,Huainan,117.014504,32.633232,junction,cr
-32078,莘庄,Xinzhuang,121.379850,31.110862,junction,cr
-912699c8,春申南所,,121.350909,31.080518,junction,cr
-cc45f8ec,春申所,,121.352311,31.081196,junction,cr
-a535f86a,笕桥所,,120.244343,30.354931,junction,cr
-34565,前场,Qianchang,117.973087,24.572739,junction,cr
-33988,温州北,Wenzhou N.,120.692755,28.071188,junction,cr
-43502,西宁,Xining,101.811449,36.620513,junction,cr
-63227,敦化,Dunhua,128.235667,43.378230,junction,cr
-09e52b7e,敦化南,Dunhua S.,128.332657,43.316878,junction,cr
-67034,姚家窝堡所,,122.660732,42.024395,junction,cr
-53293,田家窝堡所,,122.683919,42.052010,junction,cr
-53480,崔家营子所,,125.249990,43.934415,junction,cr
-54119,杨家粉坊所,,125.265797,43.916288,junction,cr
-0fe38421,走马岭所,,114.013787,30.634842,junction,cr
-06e54b21,高桥所,,114.055252,30.617726,junction,cr
-17699,大明湖,Daminghu,117.022926,36.681364,junction,cr
-66501,崔马庄所,,116.886917,36.550749,junction,cr
-34f3f0d8,莱西东所,,120.543955,36.842733,junction,cr
-10008,南仓所,,117.168402,39.211126,junction,cr
-66809,德州东,Dezhou E.,116.456489,37.408745,junction,cr
-66876,陵县所,,116.472546,37.357157,junction,cr
-14489,包头,Baotou,109.831213,40.604055,junction,cr
-29318,新墩,Xindun,114.191425,30.619560,junction,cr
-acf6abbb,安亭北所,,121.232398,31.298858,junction,cr
-66521,黄渡所,,121.231279,31.300029,junction,cr
-66523,南翔北所,,121.264990,31.291749,junction,cr
-38561,新沂,Xinyi,118.343030,34.382275,junction,cr
-32687,上饶,Shangrao,118.001263,28.493506,junction,cr
-ad645c6d,京福所,,118.043677,28.494566,junction,cr
-429e6741,双龙南,Shuanglong S.,106.784883,26.485276,junction,cr
-65797,横店东,Hengdian E.,114.331511,30.795155,junction,cr
-66310,仙林,Xianlin,118.907694,32.125148,junction,cr
-33001,塘雅所,,119.787356,29.158618,junction,cr
-17963,胶州北,Jiaozhou N.,120.049952,36.396203,junction,cr
-38934,徐州东所,,117.289908,34.313519,junction,cr
-66316,丹徒,Dantu,119.515677,32.117424,junction,cr
-18675,荣成,Rongcheng,122.403781,37.143949,junction,cr
-4d19753d,白云北,Baiyun N.,106.658899,26.706559,junction,cr
-fc185e6b,尖坡所,,106.690120,26.686657,junction,cr
-34114,巢湖东,Chaohu E.,117.919911,31.620012,junction,cr
-21749,南阳寨,Nanyangzhai,113.610930,34.815844,junction,cr
-a7e2bfc6,八达岭西所,,115.960675,40.382513,junction,cr
-17601,济南东,Jinan E.,117.153829,36.747458,junction,cr
-38487,董集,Dongji,119.230811,34.431605,junction,cr
-1fc8fda8,新沟北所,,113.929175,30.714033,junction,cr
-3f957c06,革新所,,113.967255,30.693377,junction,cr
-8fdcda66,胡庄所,,117.948045,31.589392,junction,cr
-5120128c,横山所,,119.519736,32.148336,junction,cr
-4041effe,杭甬杭州南所,,120.320491,30.140235,junction,cr
-46571,一四一所,,106.441399,29.680139,junction,cr
-39422,灞桥,Baqiao,109.054960,34.302124,junction,cr
-45389,阳平关,Yangpingguan,106.03358,32.96855,junction,cr
-46569,歌乐山,Geleshan,106.433423,29.626906,junction,cr
-39032,西安北,Xi'an N.,108.934406,34.376281,junction,cr
-30053,磨心坡,Moxinpo,106.468817,29.857599,junction,cr
-28442,月山,Yueshan,113.048827,35.210022,junction,cr
-27989,修文,Xiuwen,112.71400,37.60667,junction,cr
-29843,安康,Ankang,109.011320,32.714499,junction,cr
-40853,田王,Tianwang,109.103497,34.298344,junction,cr
-30052,黄桷所,,106.456350,29.829388,junction,cr
+code,name,name_en,lat,lon,type,country
+10001,北京,Beijing,39.901440,116.421130,station,cr
+10010,北京南,Beijing S.,39.863072,116.372838,station,cr
+21152,北京西,Beijing W.,39.892572,116.317173,station,cr
+12713,北京北,Beijing N.,39.943899,116.346821,station,cr
+11389,北京朝阳,Beijing Chaoyang,39.943668,116.503226,station,cr
+10025,北京丰台,Beijing Fengtai,39.849629,116.295393,station,cr
+12707,清河,Qinghe,40.040723,116.307714,station,cr
+12181,八达岭长城,Badaling Great Wall,40.358029,116.004910,station,cr
+12285,八达岭,Badaling,40.358876,115.995334,station,cr
+12224,延庆,Yanqing,40.435215,115.978119,station,cr
+12221,康庄,Kangzhuang,40.378821,115.892272,station,cr
+12167,黄土店,Huangtudian,40.068241,116.357243,station,cr
+21156,北京大兴,Beijing Daxing,39.719037,116.322743,station,cr
+21158,大兴机场,Daxing Airport,39.510900,116.409504,station,cr
+11609,昌平北,Changping N.,40.230012,116.227095,station,cr
+11630,怀柔北,Huairou N.,40.407876,116.686425,station,cr
+11675,古北口,Gubeikou,40.690513,117.135340,station,cr
+11366,顺义,Shunyi,40.124766,116.639598,station,cr
+14195,燕山,Yanshan,39.747983,115.952348,station,cr
+11333,双桥,Shuangqiao,39.899197,116.564070,junction,cr
+9652adef,香河,Xianghe,39.718190,117.027676,station,cr
+14c24aa2,北京通州,Beijing Tongzhou,39.907964,116.700146,station,cr
+20255,良乡,Liangxiang,39.739625,116.151071,station,cr
+10157,天津,Tianjin,39.136792,117.203720,station,cr
+16010,天津西,Tianjin W.,39.156945,117.157228,station,cr
+10148,天津北,Tianjin N.,39.165954,117.203217,station,cr
+11132,蓟州,Jizhou,39.993686,117.362706,station,cr
+10526,蓟州北,Jizhou N.,40.025454,117.391628,station,cr
+20372,石家庄,Shijiazhuang,38.009434,114.478487,station,cr
+26426,石家庄北,Shijiazhuang N.,38.064809,114.458946,station,cr
+10214,唐山,Tangshan,39.622864,118.115152,station,cr
+11492,承德,Chengde,40.963096,117.948261,station,cr
+52920,承德南,Chengde S.,40.883668,117.958703,station,cr
+20383,霸州西,Bazhou W.,39.092989,116.344457,station,cr
+21162,霸州北,Bazhou N.,39.185558,116.321097,station,cr
+21164,雄安,Xiong'an,39.055624,116.154071,station,cr
+20387,白洋淀,Baiyangdian,39.068633,115.868901,station,cr
+10319,秦皇岛,Qinhuangdao,39.964616,119.586226,station,cr
+10331,山海关,Shanhaiguan,39.999403,119.761552,station,cr
+10307,北戴河,Beidaihe,39.849858,119.413620,station,cr
+12782,张家口,Zhangjiakou,40.750704,114.876733,station,cr
+12290,宣化,Xuanhua,40.596602,115.050377,station,cr
+11108,燕郊,Yanjiao,39.940570,116.819673,station,cr
+12581,呼和浩特,Hohhot,40.829499,111.658306,station,cr
+12578,呼和浩特东,Hohhot E.,40.848343,111.759334,station,cr
+12113,乌兰察布,Ulanqab,40.963345,113.152254,station,cr
+53363,通辽,Tongliao,43.602941,122.266425,station,cr
+57785,海拉尔,Hailar,49.228430,119.736663,station,cr
+55661,哈尔滨,Harbin,45.758149,126.624860,station,cr
+60002,哈尔滨东,Harbin E.,45.784391,126.707134,station,cr
+53469,哈尔滨西,Harbin W.,45.705387,126.571042,station,cr
+59789,呼兰,Hulan,45.996263,126.640569,station,cr
+61193,牡丹江,Mudanjiang,44.589049,129.606280,station,cr
+61189,横道河子东,Hengdaohezi E.,44.788929,129.099080,station,cr
+62231,绥芬河,Suifenhe,44.404199,131.129175,station,cr
+56675,齐齐哈尔,Qiqihar,47.338071,123.989172,station,cr
+59150,漠河,Mohe,52.986709,122.500514,station,cr
+54116,长春,Changchun,43.909017,125.318013,station,cr
+65960,龙嘉,Longjia Airport,43.990324,125.693945,station,cr
+63059,吉林,Jilin,43.857022,126.572451,station,cr
+54011,四平,Siping,43.165104,124.367280,station,cr
+53487,四平东,Siping E.,43.135985,124.431780,station,cr
+64418,通化,Tonghua,41.776100,125.916260,station,cr
+64090,长白山,Changbaishan,42.459589,128.122375,station,cr
+53885,沈阳北,Shenyang N.,41.816960,123.429815,station,cr
+63623,沈阳南,Shenyang S.,41.666370,123.400938,station,cr
+53522,大连,Dalian,38.921389,121.628079,station,cr
+53520,大连北,Dalian N.,39.015978,121.601377,station,cr
+55376,抚顺,Fushun,41.888034,123.912075,station,cr
+55118,丹东,Dandong,40.122162,124.380192,station,cr
+16295,济南,Jinan,36.670731,116.985072,station,cr
+66812,济南西,Jinan W.,36.669206,116.887906,station,cr
+17786,淄博,Zibo,36.788356,118.051558,station,cr
+18383,南博山,South Boshan,36.357596,117.955066,station,cr
+66815,泰安,Tai'an,36.172083,117.029348,station,cr
+16352,泰山,Taishan,36.186857,117.103623,station,cr
+18088,青岛北,Qingdao N.,36.168694,120.369524,station,cr
+16400,兖州,Yanzhou,35.556214,116.835541,station,cr
+18618,威海,Weihai,37.425663,122.138637,station,cr
+18557,烟台,Yantai,37.547492,121.377421,station,cr
+18657,莱西,Laixi,36.823534,120.524985,station,cr
+30671,上海,Shanghai,31.251539,121.451190,station,cr
+32270,上海南,Shanghai S.,31.153863,121.426983,station,cr
+66100,上海虹桥,Shanghai Hongqiao,31.196704,121.314801,station,cr
+30662,上海西,Shanghai W.,31.264135,121.398156,station,cr
+32022,上海松江,Shanghai Songjiang,30.985034,121.225310,station,cr
+32090,[松江北],[Songjiang N.],31.001680,121.223402,station,cr
+16805,南京,Nanjing,32.090120,118.793041,station,cr
+16804,南京南,Nanjing S.,31.970063,118.793877,station,cr
+30530,苏州,Suzhou,31.331842,120.606681,station,cr
+66854,苏州北,Suzhou N.,31.423241,120.639286,station,cr
+66328,苏州园区,Suzhou SIP,31.343685,120.706233,station,cr
+66325,苏州新区,Suzhou SND,31.374043,120.520109,station,cr
+32026,苏州南,Suzhou S.,31.065315,120.795515,station,cr
+16565,太仓,Taicang,31.512012,121.192145,station,cr
+16561,常熟,Changshu,31.699534,120.775997,station,cr
+16559,张家港,Zhangjiagang,31.819379,120.669746,station,cr
+66322,无锡新区,Wuxi New District,31.499407,120.387922,station,cr
+19097,江阴,Jiangyin,31.863894,120.274643,station,cr
+30452,常州,Changzhou,31.787334,119.969199,station,cr
+19105,武进,Wujin,31.661213,119.942015,station,cr
+30407,镇江,Zhenjiang,32.199586,119.427367,station,cr
+66827,徐州东,Xuzhou E.,34.268629,117.297730,station,cr
+18828,宿迁,Suqian,33.875910,118.276336,station,cr
+18830,淮安东,Huai'an E.,33.570124,119.182747,station,cr
+19130,启东,Qidong,31.859289,121.640909,station,cr
+38531,连云港,Lianyungang,34.610303,119.158251,station,cr
+18968,盐城,Yancheng,33.383739,120.169190,station,cr
+17370,海安,Hai'an,32.549268,120.500330,station,cr
+17364,扬州,Yangzhou,32.391623,119.345396,station,cr
+17334,扬州东,Yangzhou E.,32.406570,119.523948,station,cr
+32252,杭州,Hangzhou,30.246198,120.177326,station,cr
+32001,杭州东,Hangzhou E.,30.293964,120.207892,station,cr
+32460,杭州南,Hangzhou S.,30.174535,120.288713,station,cr
+66279,杭州西,Hangzhou W.,30.300426,119.982130,station,cr
+33185,绍兴,Shaoxing,30.016435,120.574742,station,cr
+33187,绍兴北,Shaoxing N.,30.102819,120.532994,station,cr
+32501,诸暨,Zhuji,29.730065,120.181038,station,cr
+33284,宁波,Ningbo,29.865233,121.532402,station,cr
+33990,温州南,Wenzhou S.,27.969313,120.581208,station,cr
+32537,义乌,Yiwu,29.380372,120.038677,station,cr
+21011,横店,Hengdian,29.217579,120.260177,station,cr
+31854,湖州,Huzhou,30.864274,120.019428,station,cr
+32028,湖州南浔,Huzhou Nanxun,30.829534,120.402696,station,cr
+32138,嘉兴,Jiaxing,30.766969,120.758817,station,cr
+32013,嘉兴南,Jiaxing S.,30.693215,120.794937,station,cr
+32159,海宁,Haining,30.535639,120.680671,station,cr
+32621,衢州,Quzhou,28.927599,118.876167,station,cr
+19423,合肥南,Hefei S.,31.800958,117.284759,station,cr
+34130,黄山北,Huangshan N.,29.818051,118.267618,station,cr
+35927,黟县东,Yixian E.,29.887332,118.042367,station,cr
+30926,芜湖,Wuhu,31.350149,118.387385,station,cr
+30928,芜湖南,Wuhu S.,31.250829,118.373327,station,cr
+31015,池州,Chizhou,30.622132,117.516126,station,cr
+34682,福州,Fuzhou,26.117167,119.315415,station,cr
+34151,福州南,Fuzhou S.,25.988279,119.385601,station,cr
+34583,厦门,Xiamen,24.470209,118.111225,station,cr
+34178,厦门北,Xiamen N.,24.638772,118.069030,station,cr
+34169,泉州,Quanzhou,24.976173,118.563221,station,cr
+35067,漳州,Zhangzhou,24.460352,117.711826,station,cr
+23711,广州东,Guangzhou E.,23.152877,113.319977,station,cr
+65848,广州南,Guangzhou S.,22.991077,113.261758,station,cr
+23471,广州北,"Guangzhou N,",23.379972,113.198418,station,cr
+23475,广州白云,Guangzhou Baiyun,23.193938,113.241036,station,cr
+23738,广州新塘,Guangzhou Xintang,23.136824,113.601130,station,cr
+Q06,花都,Huadu,23.379797,113.197517,station,gi
+Q11,清城,Qingcheng,23.656003,113.061023,station,gi
+D04,琶洲,Pazhou,23.102843,113.362706,station,gi
+D13,白云机场北,Baiyun Airport N.,23.398986,113.300541,station,gi
+H07,东莞西,Dongguan W.,23.010870,113.620906,station,gi
+H09,西平西,Xiping W.,22.996362,113.740570,station,gi
+S23,深圳机场,Shenzhen Airport,22.623983,113.806032,station,gi
+Z04,顺德北,Shunde N.,22.964447,113.124193,station,gi
+Z05,张槎,Zhangcha,23.011695,113.062200,station,gi
+65860,深圳北,Shenzhen N.,22.609954,114.023289,station,cr
+23819,深圳,Shenzhen,22.535525,114.112668,station,cr
+65891,福田,Futian,22.540890,114.051891,station,cr
+23757,东莞,Dongguan,23.092445,113.854212,station,cr
+25851,惠阳,Huiyang,22.787649,114.487586,station,cr
+24568,佛山西,Foshan W.,23.082342,113.028258,station,cr
+65896,香港西九龙,HongKong West Kowloon,22.303882,114.165443,station,cr
+36428,南宁,Nanning,22.829139,108.311523,station,cr
+36452,南宁东,Nanning E.,22.845280,108.409606,station,cr
+36433,吴圩机场,Wuxu Airport,22.602692,108.182960,station,cr
+36437,崇左南,Chongzuo S.,22.359854,107.390852,station,cr
+3ba9bb5d,玉林北,Yulin N.,22.724276,110.245228,station,cr
+37148,玉林,Yulin,22.599788,110.153209,station,cr
+37376,金城江,Jinchengjiang,24.701790,108.061382,station,cr
+47516,河池西,Hechi W.,24.714364,108.171197,station,cr
+51444,美兰,Meilan Airport,19.943528,110.456955,station,cr
+51450,城西,Chengxi,19.998119,110.327690,station,cr
+51447,海口东,Haikou E.,19.985488,110.338834,station,cr
+51481,三亚,Sanya,18.297786,109.488980,station,cr
+51480,崖州,Yazhou,18.377690,109.153496,station,cr
+51682,凤凰机场,Fenghuang Airport,18.310561,109.404688,station,cr
+25424,南昌,Nanchang,28.665071,115.913113,station,cr
+65643,新余北,Xinyu N.,27.914737,114.891878,station,cr
+33023,分宜,Fenyi,27.809323,114.658631,station,cr
+65646,宜春,Yichun,27.792421,114.431339,station,cr
+22874,长沙,Changsha,28.197434,113.007695,station,cr
+65818,长沙南,Changsha S.,28.149430,113.058156,station,cr
+65207,谷山,Gushan,28.233342,112.902291,station,cr
+65213,开福寺,Kaifusi,28.226739,112.974665,station,cr
+35312,湘潭,Xiangtan,27.878918,112.906942,station,cr
+65660,湘潭北,Xiangtan N.,27.968399,112.936745,station,cr
+65609,凤凰古城,Fenghuang Ancient Town,28.020293,109.598798,station,cr
+65800,武汉,Wuhan,30.609370,114.419997,station,cr
+21050,汉口,Hankou,30.620301,114.250053,station,cr
+21077,武昌,Wuchang,30.532770,114.311764,station,cr
+45195,宜昌北,Yichang N.,30.748088,111.469488,station,cr
+20750,郑州,Zhengzhou,34.746928,113.652007,station,cr
+65773,郑州东,Zhengzhou E.,34.760065,113.773225,station,cr
+38774,开封,Kaifeng,34.771678,114.348279,station,cr
+39173,洛阳,Luoyang,34.686405,112.430106,station,cr
+22531,安阳东,Anyang E.,36.084740,114.447441,station,cr
+38402,焦作,Jiaozuo,35.222383,113.228550,station,cr
+44114,济源,Jiyuan,35.110954,112.568272,station,cr
+39053,洛阳龙门,Luoyang Longmen,34.595597,112.454376,station,cr
+26447,太原,Taiyuan,37.859785,112.581228,station,cr
+35143,重庆北,Chongqing N.,29.612607,106.547387,station,cr
+30077,重庆西,Chongqing W.,29.503728,106.433378,station,cr
+47066,沙坪坝,Shapingba,29.556784,106.457283,station,cr
+37646,贵阳,Guiyang,26.560400,106.698660,station,cr
+47483,贵阳北,Guiyang N.,26.623156,106.670656,station,cr
+65501,贵安,Gui'an,26.469122,106.481856,station,cr
+65476,花溪大学城,Huaxi University Town,26.397133,106.622192,station,cr
+35624,镇远,Zhenyuan,27.038084,108.405681,station,cr
+46543,成都东,Chengdu E.,30.631450,104.140165,station,cr
+47675,成都南,Chengdu S.,30.607803,104.066034,station,cr
+47675,成都西,Chengdu W.,30.687917,103.977501,station,cr
+47621,双流机场,Shuangliu Airport,30.571910,103.954297,station,cr
+46063,都江堰,Dujiangyan,30.960216,103.637000,station,cr
+46042,犀浦,Xipu,30.759841,103.970208,station,cr
+47607,广汉北,Guanghan N.,31.011319,104.272993,station,cr
+45587,黄龙九寨,Huanglong Jiuzhai,32.747465,103.612973,station,cr
+46140,西昌西,Xichang W.,27.871463,102.160204,station,cr
+46158,攀枝花南,Panzhihua S.,26.471606,101.746480,station,cr
+46545,资阳北,Ziyang N.,30.128504,104.679853,station,cr
+46219,雅安,Yaan,30.031900,103.054333,station,cr
+47737,峨眉山,E'mei Mountain,29.578584,103.464646,station,cr
+47635,乐山,Leshan,29.604572,103.709666,station,cr
+48197,昆明,Kunming,25.017766,102.720356,station,cr
+48778,昆明南,Kunming S.,24.873557,102.860110,station,cr
+48647,普洱,Pu'er,22.778273,100.940768,station,cr
+48417,丽江,Lijiang,26.814220,100.251512,station,cr
+49534,香格里拉,Shangri-La,27.813351,99.688547,station,cr
+39629,宝鸡,Baoji,34.374616,107.148467,station,cr
+45713,汉中,Hanzhong,33.092590,107.025408,station,cr
+41492,兰州西,Lanzhou W.,36.069222,103.749730,station,cr
+39701,天水,Tianshui,34.566714,105.894849,station,cr
+38988,天水南,Tianshui S.,34.549947,105.854066,station,cr
+14846,银川,Yinchuan,38.490755,106.170352,station,cr
+43787,格尔木,Golmud,36.383439,94.906191,station,cr
+41521,海东西,Haidong W.,36.509383,102.052982,station,cr
+44083,拉萨,Lhasa,29.625868,91.068171,station,cr
+43936,日喀则,Shigatse,29.224193,88.913010,station,cr
+O01,天王寺,Tennoji,34.647331,135.515242,station,jr
+O11,大阪,Osaka,34.702221,135.495576,station,jr
+O14,西九条,Nishi-Kujo,34.682271,135.466318,station,jr
+O18,今宫,Imamia,34.653951,135.493028,station,jr
+O19,新今宫,Shin-Imamia,34.649843,135.502195,station,jr
+Q17,JR难波,JR Namba,34.666478,135.495326,station,jr
+R54,和歌山,Wakayama,34.232202,135.191582,station,jr
+A01,敦贺,Tsuruga,35.644882,136.076392,station,jr
+A24,草津,,35.022560,135.961824,station,jr
+A27,石山,Ishiyama,34.979931,135.900007,station,jr
+A61,三宫,Sannomiya,34.694863,135.195082,station,jr
+A30,山科,Yamashina,34.992633,135.817226,station,jr
+A31,京都,Kyoto,34.985363,135.758775,station,jr
+A63,神户,Kobe,34.67929,135.178289,station,jr
+A85,姬路,Himeji,34.826887,134.690242,station,jr
+E02,梅小路京都西,Umekoji-Kyoto Nishi,34.988649,135.743197,station,jr
+E08,嵯峨岚山,Saga Arashiyama,35.018779,135.681415,station,jr
+C01,柘植,,34.846851,136.255960,station,jr
+Q39,加茂,Kamo,34.752709,135.869854,station,jr
+Q36,JR奈良,JR Nara,34.680812,135.818943,station,jr
+Q24,久宝寺,Kyuhoji,34.622444,135.584024,station,jr
+032,关西空港,Kansai Airport,34.435868,135.243486,station,nk
+447,加太,Kada,34.275105,135.080823,station,nk
+045,和歌山市,Wakayamashi,34.236792,135.167051,station,nk
+001,淀屋桥,Yodoyabashi,34.692486,135.501377,station,kh
+040,三条,Sanjo,35.009015,135.772334,station,kh
+A28,近铁奈良,KT Nara,34.684133,135.828556,station,kt
+A02,近铁日本桥,KT Nippombashi,34.666901,135.505701,station,kt
+001,大阪梅田,Osaka Umeda,34.705282,135.498392,station,hk
+042,庄内,Shonai,34.750263,135.475038,station,hk
+032,阪神三宫,HS Sannomiya,34.693665,135.195434,station,hs
+A12,米原,,35.314809,136.290175,junction,jr
+A03,近江盐津,,35.539110,136.151494,junction,jr
+D19,木津,,34.735856,135.824919,junction,jr
+HS09,阪神尼崎,,34.718591,135.417325,junction,hs
+044,纪之川,,34.255191,135.165396,junction,nk
+030,泉佐野,,34.411187,135.316983,junction,nk
+16567,陆渡所,,31.476506,121.206389,junction,cr
+31319,宣城,Xuancheng,30.949536,118.769130,junction,cr
+34126,绩溪北,Jixi N.,30.073797,118.566754,junction,cr
+45573,三星堆,Sanxingdui,30.943766,104.208086,junction,cr
+503ae511,康山所,,30.818790,120.044329,junction,cr
+c85ef475,妙西镇所,,30.797443,120.017234,junction,cr
+66276,桐庐东,Tonglu E.,29.857599,119.760292,junction,cr
+f77128ce,永嘉所,,28.072229,120.718614,junction,cr
+32372,桐庐,Tonglu,29.790478,119.729569,junction,cr
+20381,胜芳,Shengfang,39.137775,116.753448,junction,cr
+21160,固安东,Gu'an E.,39.370921,116.398003,junction,cr
+16555,南通西,Nantong W.,32.103157,120.760711,junction,cr
+d5c7787f,高辛庄所,,39.925177,116.725417,junction,cr
+1036923d,北刘各庄所,,39.933754,116.761143,junction,cr
+47609,青白江东,Qingbaijiang E.,30.896903,104.223226,junction,cr
+352d5dea,龙形村所,,27.495965,109.961417,junction,cr
+1f97993f,沙堤所,,29.196936,110.439738,junction,cr
+26777,张家界西,Zhangjiajie W.,29.116602,110.497768,junction,cr
+4eb13889,黄金园所,,28.277995,112.781419,junction,cr
+65678,怀化南,Huaihua S.,27.515508,109.988987,junction,cr
+f1f7e412,凤凰西所,,18.309082,109.366121,junction,cr
+454ca49b,崖州湾,Yazhou Bay,18.354942,109.180836,junction,cr
+37580,龙里,Longli,26.451631,106.968905,junction,cr
+45c67dbe,秦祺村所,,26.499658,106.784258,junction,cr
+H05,广州莲花山,Guangzhou Lianhuashan,23.004813,113.486935,junction,gi
+D01,番禺,Panyu,22.989839,113.267643,junction,gi
+65201,长沙西,Changsha W.,28.265408,112.820446,junction,cr
+2108bd63,长阳村所,,39.771151,116.175211,junction,cr
+20369,柳辛庄,Liuxinzhuang,38.099931,114.503890,junction,cr
+21059,汉西,Hanxi,30.593617,114.222257,junction,cr
+21089,武昌南,Wuchang S.,30.473889,114.296903,junction,cr
+1cfdd7a5,黄土坡所,,39.768604,116.279925,junction,cr
+10091,汉沟镇,Hangou,39.298274,117.102822,junction,cr
+16283,桥南所,,36.704278,116.827011,junction,cr
+16319,党家庄,Dangjiazhuang,36.578649,116.897840,junction,cr
+16628,徐州,Xuzhou,34.266126,117.202226,junction,cr
+16802,林场,Linchang,32.162457,118.675223,junction,cr
+30566,黄渡,Huangdu,31.295703,121.235915,junction,cr
+16292,北园,Beiyuan,36.690379,116.997805,junction,cr
+38702,商丘,Shangqiu,34.447534,115.652543,junction,cr
+38810,圃田西,Putian W.,34.734952,113.694233,junction,cr
+39872,兰州,Lanzhou,36.035735,103.848009,junction,cr
+24890,商丘南,Shangqiu S.,34.409376,115.699022,junction,cr
+25067,阜阳北,Fuyang N.,33.019200,115.862414,junction,cr
+25104,阜阳,Fuyang,32.916619,115.861746,junction,cr
+25322,九江,Jiujiang,29.706467,116.001822,junction,cr
+25324,九江西,Jiujiang W.,29.644494,115.888598,junction,cr
+25397,乐化,Lehua,28.817378,115.865901,junction,cr
+25454,向塘,Xiangtang,28.446298,115.956186,junction,cr
+25487,三江镇,Sanjiangzhen,28.311867,115.976545,junction,cr
+12158,北京东,Beijing E.,39.901533,116.478422,junction,cr
+11159,唐山北,Tangshan N.,39.816639,118.111845,junction,cr
+10328,龙家营,Langjiaying,39.962669,119.675464,junction,cr
+32045,封浜,Fengbang,31.258430,121.284308,junction,cr
+32075,七宝,Qibao,31.160707,121.323608,junction,cr
+32076,李家塘,Lijiatang,31.113415,121.356107,junction,cr
+32081,春申,Chunshen,31.081086,121.349777,junction,cr
+32198,笕桥,Jianqiao,30.331066,120.212347,junction,cr
+32879,梁家渡,Liangjiadu,28.404634,115.997943,junction,cr
+62665,东门,Dongmen,45.741982,126.716202,junction,cr
+56663,榆树屯,Yushutun,47.153445,123.887819,junction,cr
+12173,昌平,Changping,40.188625,116.187343,junction,cr
+11627,雁栖湖,Yanqihu,40.373016,116.654039,junction,cr
+11726,隆化,Longhua,41.326358,117.744138,junction,cr
+d1cb33d9,青龙桥南所,,40.345510,116.016287,junction,cr
+8e3d1b7c,青龙桥西,,40.343699,116.010169,junction,cr
+ecab1a69,青龙桥北所,,40.351010,116.010063,junction,cr
+12212,青龙桥,Qinglongqiao,40.349990,116.019242,junction,cr
+12596,台阁牧,Taigemu,40.745403,111.474239,junction,cr
+14507,包头西,Baotou W.,40.609339,109.745534,junction,cr
+21959,何刘,Heliu,30.531025,114.490196,junction,cr
+36257,柳州,Liuzhou,24.310558,109.383696,junction,cr
+36374,黎塘,Litang,23.197721,109.128793,junction,cr
+47744,燕岗,Yangang,29.555199,103.521754,junction,cr
+48101,广通北,Guangtong N.,25.167389,101.763660,junction,cr
+26468,太原南,Taiyuan S.,37.790580,112.603721,junction,cr
+65054,定边,Dingbian,37.561211,107.571514,junction,cr
+59567,富裕,Fuyu,47.794401,124.453512,junction,cr
+57485,红旗营,Hongqiying,47.114366,123.906848,junction,cr
+57749,牙克石,Yakeshi,49.277502,120.731077,junction,cr
+58910,加格达奇,Jagdaqi,50.418669,124.119179,junction,cr
+58298,伊图里河,Yitulihe,50.627233,121.545366,junction,cr
+61931,新香坊,Xin Xiangfang,45.709644,126.761697,junction,cr
+64301,梅河口,Meihekou,42.533609,125.679816,junction,cr
+13385,石景山南,Shijingshan S.,39.873525,116.208327,junction,cr
+11378,怀柔,Huairou,40.316018,116.642939,junction,cr
+697325ec,赵家店所,,40.630505,117.768664,junction,cr
+10973,李家营,Lijiaying,40.582992,117.748895,junction,cr
+18663,西陌堂所,,37.413618,121.339061,junction,cr
+19682,淮南,Huainan,32.633232,117.014504,junction,cr
+32078,莘庄,Xinzhuang,31.110862,121.379850,junction,cr
+912699c8,春申南所,,31.080518,121.350909,junction,cr
+cc45f8ec,春申所,,31.081196,121.352311,junction,cr
+a535f86a,笕桥所,,30.354931,120.244343,junction,cr
+34565,前场,Qianchang,24.572739,117.973087,junction,cr
+33988,温州北,Wenzhou N.,28.071188,120.692755,junction,cr
+43502,西宁,Xining,36.620513,101.811449,junction,cr
+63227,敦化,Dunhua,43.378230,128.235667,junction,cr
+09e52b7e,敦化南,Dunhua S.,43.316878,128.332657,junction,cr
+67034,姚家窝堡所,,42.024395,122.660732,junction,cr
+53293,田家窝堡所,,42.052010,122.683919,junction,cr
+53480,崔家营子所,,43.934415,125.249990,junction,cr
+54119,杨家粉坊所,,43.916288,125.265797,junction,cr
+0fe38421,走马岭所,,30.634842,114.013787,junction,cr
+06e54b21,高桥所,,30.617726,114.055252,junction,cr
+17699,大明湖,Daminghu,36.681364,117.022926,junction,cr
+66501,崔马庄所,,36.550749,116.886917,junction,cr
+34f3f0d8,莱西东所,,36.842733,120.543955,junction,cr
+10008,南仓所,,39.211126,117.168402,junction,cr
+66809,德州东,Dezhou E.,37.408745,116.456489,junction,cr
+66876,陵县所,,37.357157,116.472546,junction,cr
+14489,包头,Baotou,40.604055,109.831213,junction,cr
+29318,新墩,Xindun,30.619560,114.191425,junction,cr
+acf6abbb,安亭北所,,31.298858,121.232398,junction,cr
+66521,黄渡所,,31.300029,121.231279,junction,cr
+66523,南翔北所,,31.291749,121.264990,junction,cr
+38561,新沂,Xinyi,34.382275,118.343030,junction,cr
+32687,上饶,Shangrao,28.493506,118.001263,junction,cr
+ad645c6d,京福所,,28.494566,118.043677,junction,cr
+429e6741,双龙南,Shuanglong S.,26.485276,106.784883,junction,cr
+65797,横店东,Hengdian E.,30.795155,114.331511,junction,cr
+66310,仙林,Xianlin,32.125148,118.907694,junction,cr
+33001,塘雅所,,29.158618,119.787356,junction,cr
+17963,胶州北,Jiaozhou N.,36.396203,120.049952,junction,cr
+38934,徐州东所,,34.313519,117.289908,junction,cr
+66316,丹徒,Dantu,32.117424,119.515677,junction,cr
+18675,荣成,Rongcheng,37.143949,122.403781,junction,cr
+4d19753d,白云北,Baiyun N.,26.706559,106.658899,junction,cr
+fc185e6b,尖坡所,,26.686657,106.690120,junction,cr
+34114,巢湖东,Chaohu E.,31.620012,117.919911,junction,cr
+21749,南阳寨,Nanyangzhai,34.815844,113.610930,junction,cr
+a7e2bfc6,八达岭西所,,40.382513,115.960675,junction,cr
+17601,济南东,Jinan E.,36.747458,117.153829,junction,cr
+38487,董集,Dongji,34.431605,119.230811,junction,cr
+1fc8fda8,新沟北所,,30.714033,113.929175,junction,cr
+3f957c06,革新所,,30.693377,113.967255,junction,cr
+8fdcda66,胡庄所,,31.589392,117.948045,junction,cr
+5120128c,横山所,,32.148336,119.519736,junction,cr
+4041effe,杭甬杭州南所,,30.140235,120.320491,junction,cr
+46571,一四一所,,29.680139,106.441399,junction,cr
+39422,灞桥,Baqiao,34.302124,109.054960,junction,cr
+45389,阳平关,Yangpingguan,32.96855,106.03358,junction,cr
+46569,歌乐山,Geleshan,29.626906,106.433423,junction,cr
+46907,宜宾,Yibin,28.730862,104.630651,junction,cr
+47643,宜宾西,Yibin W.,28.725814,104.603260,junction,cr
+39032,西安北,Xi'an N.,34.376281,108.934406,junction,cr
+30053,磨心坡,Moxinpo,29.857599,106.468817,junction,cr
+28442,月山,Yueshan,35.210022,113.048827,junction,cr
+27989,修文,Xiuwen,37.60667,112.71400,junction,cr
+29843,安康,Ankang,32.714499,109.011320,junction,cr
+40853,田王,Tianwang,34.298344,109.103497,junction,cr
+30052,黄桷所,,29.829388,106.456350,junction,cr

@@ -650,6 +650,30 @@
     "vias": []
   },
   {
+    "line_ref": "90016",
+    "filename": "渝昆高速线",
+    "zh": "渝昆高速线",
+    "en": "Chongqing-Kunming Highspeed Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 350,
+    "start": "重庆西",
+    "end": "宜宾",
+    "vias": []
+  },
+  {
+    "line_ref": "90017",
+    "filename": "宜宾西联络线",
+    "zh": "宜宾西联络线",
+    "en": "Link Line",
+    "country": "CN",
+    "type": "link",
+    "speed": 200,
+    "start": "宜宾",
+    "end": "宜宾西",
+    "vias": []
+  },
+  {
     "line_ref": "0001-A",
     "filename": "京广线京石段",
     "zh": "京广线",
@@ -2669,6 +2693,18 @@
   },
   {
     "line_ref": "3041-B",
+    "filename": "成贵客运专线乐宜段",
+    "zh": "成贵客运专线",
+    "en": "Chengdu-Guiyang Passenger Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 300,
+    "start": "乐山",
+    "end": "宜宾西",
+    "vias": []
+  },
+  {
+    "line_ref": "3041-C",
     "filename": "成贵客运专线贵阳段",
     "zh": "成贵客运专线",
     "en": "Chengdu-Guiyang Passenger Railway",
@@ -2677,6 +2713,18 @@
     "speed": 300,
     "start": "白云北",
     "end": "尖坡所",
+    "vias": []
+  },
+  {
+    "line_ref": "3042",
+    "filename": "峨眉山线",
+    "zh": "峨眉山线",
+    "en": "Chengdu-Guiyang Passenger Railway Emeishan Branch",
+    "country": "CN",
+    "type": "branch",
+    "speed": 200,
+    "start": "乐山",
+    "end": "峨眉山",
     "vias": []
   },
   {
@@ -2958,6 +3006,18 @@
     "vias": [
       "横道河子东"
     ]
+  },
+  {
+    "line_ref": "3076",
+    "filename": "成雅线",
+    "zh": "成雅线",
+    "en": "Chengdu-Yaan Railway",
+    "country": "CN",
+    "type": "main",
+    "speed": 200,
+    "start": "成都西",
+    "end": "雅安",
+    "vias": []
   },
   {
     "line_ref": "3077",

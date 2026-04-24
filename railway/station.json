@@ -2524,6 +2524,7 @@
     "country": "cr",
     "code": "30077",
     "lines": [
+      "渝昆高速线",
       "井西线"
     ]
   },
@@ -2629,6 +2630,18 @@
       "成贵客运专线成都段"
     ]
   },
+  "成都西": {
+    "name_zh": "成都西",
+    "name_en": "Chengdu W.",
+    "type": "station",
+    "lat": 30.687917,
+    "lon": 103.977501,
+    "country": "cr",
+    "code": "47675",
+    "lines": [
+      "成雅线"
+    ]
+  },
   "双流机场": {
     "name_zh": "双流机场",
     "name_en": "Shuangliu Airport",
@@ -2723,6 +2736,43 @@
     "code": "46545",
     "lines": [
       "成渝高速线"
+    ]
+  },
+  "雅安": {
+    "name_zh": "雅安",
+    "name_en": "Yaan",
+    "type": "station",
+    "lat": 30.0319,
+    "lon": 103.054333,
+    "country": "cr",
+    "code": "46219",
+    "lines": [
+      "成雅线"
+    ]
+  },
+  "峨眉山": {
+    "name_zh": "峨眉山",
+    "name_en": "E'mei Mountain",
+    "type": "station",
+    "lat": 29.578584,
+    "lon": 103.464646,
+    "country": "cr",
+    "code": "47737",
+    "lines": [
+      "峨眉山线"
+    ]
+  },
+  "乐山": {
+    "name_zh": "乐山",
+    "name_en": "Leshan",
+    "type": "station",
+    "lat": 29.604572,
+    "lon": 103.709666,
+    "country": "cr",
+    "code": "47635",
+    "lines": [
+      "成贵客运专线乐宜段",
+      "峨眉山线"
     ]
   },
   "昆明": {
@@ -5240,6 +5290,32 @@
     "lines": [
       "蔡歌联络线",
       "井西线"
+    ]
+  },
+  "宜宾": {
+    "name_zh": "宜宾",
+    "name_en": "Yibin",
+    "type": "junction",
+    "lat": 28.730862,
+    "lon": 104.630651,
+    "country": "cr",
+    "code": "46907",
+    "lines": [
+      "渝昆高速线",
+      "宜宾西联络线"
+    ]
+  },
+  "宜宾西": {
+    "name_zh": "宜宾西",
+    "name_en": "Yibin W.",
+    "type": "junction",
+    "lat": 28.725814,
+    "lon": 104.60326,
+    "country": "cr",
+    "code": "47643",
+    "lines": [
+      "宜宾西联络线",
+      "成贵客运专线乐宜段"
     ]
   },
   "西安北": {
