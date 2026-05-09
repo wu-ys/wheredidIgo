@@ -3,7 +3,8 @@
   <wpt lat="36.186857" lon="117.103623">
     <name>泰山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16352</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="36.357596" lon="117.955066">
     <name>南博山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18383</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>辛泰线（南博山-泰山） (97.5km)</name>
+    <name>辛泰线</name>
     <trkseg>
       <trkpt lat="36.186725" lon="117.103233">
         <ele>145.75</ele>

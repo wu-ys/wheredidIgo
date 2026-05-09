@@ -3,7 +3,8 @@
   <wpt lat="23.102843" lon="113.362706">
     <name>琶洲</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>D04</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>广州莲花山</name>
     <extensions>
       <country>gi</country>
+      <operator></operator>
       <code>H05</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>琶莲城际 (19km)</name>
+    <name>琶莲城际线</name>
     <trkseg>
       <trkpt lat="23.103011" lon="113.363171">
       </trkpt>

@@ -4,6 +4,7 @@
     <name>伊图里河</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>58298</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>加格达奇</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>58910</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>伊加线 (212.5km)</name>
+    <name>伊加线</name>
     <trkseg>
       <trkpt lat="50.627623" lon="121.544406">
         <ele>735.5</ele>

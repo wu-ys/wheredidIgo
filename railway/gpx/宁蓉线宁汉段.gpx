@@ -4,6 +4,7 @@
     <name>仙林</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66310</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16804</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="31.800958" lon="117.284759">
     <name>合肥南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>19423</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>横店东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65797</code>
       <type>junction</type>
     </extensions>
@@ -35,13 +39,14 @@
   <wpt lat="30.620301" lon="114.250053">
     <name>汉口</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21050</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宁蓉线（仙林-汉口） (526.8km)</name>
+    <name>宁蓉线宁汉段</name>
     <trkseg>
       <trkpt lat="32.125226" lon="118.907351">
         <ele>31.0</ele>

@@ -3,7 +3,8 @@
   <wpt lat="22.54089" lon="114.051891">
     <name>福田</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65891</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="22.303882" lon="114.165443">
     <name>香港西九龙</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65896</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>广深港高铁（福田-香港西九龙） (29.7km)</name>
+    <name>广深港高速线</name>
     <trkseg>
       <trkpt lat="22.540869" lon="114.051221">
         <ele>12.25</ele>

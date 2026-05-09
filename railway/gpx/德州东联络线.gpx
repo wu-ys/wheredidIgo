@@ -4,6 +4,7 @@
     <name>德州东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66809</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>陵县所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66876</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>德州东联络线 (6.5km)</name>
+    <name>德州东联络线</name>
     <trkseg>
       <trkpt lat="37.408755" lon="116.456687">
         <ele>23.0</ele>

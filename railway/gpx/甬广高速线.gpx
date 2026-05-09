@@ -3,7 +3,8 @@
   <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34151</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34178</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>甬广高铁（福州南-厦门北） (230.5km)</name>
+    <name>甬广高速线</name>
     <trkseg>
       <trkpt lat="25.989538" lon="119.387953">
         <ele>4.5</ele>

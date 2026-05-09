@@ -3,7 +3,8 @@
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16295</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>崔马庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66501</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>济沪联络线（济南-崔马庄所）</name>
+    <name>济沪联络线</name>
     <trkseg>
       <trkpt lat="36.670697" lon="116.985194">
         <ele>32.75</ele>

@@ -3,7 +3,8 @@
   <wpt lat="24.873557" lon="102.86011">
     <name>昆明南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48778</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="22.778273" lon="100.940768">
     <name>普洱</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48647</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>中老昆万线（昆明南-普洱） (345.5km)</name>
+    <name>中老昆万线</name>
     <trkseg>
       <trkpt lat="24.873269" lon="102.860043">
         <ele>1946.75</ele>

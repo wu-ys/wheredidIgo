@@ -4,6 +4,7 @@
     <name>胜芳</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>20381</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>固安东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21160</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>津兴城际（盛芳-固安东） (49.8km)</name>
+    <name>津兴城际线</name>
     <trkseg>
       <trkpt lat="39.137195" lon="116.753791">
         <ele>5.0</ele>

@@ -4,6 +4,7 @@
     <name>阪神三宫</name>
     <extensions>
       <country>hs</country>
+      <operator></operator>
       <code>032</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>阪神尼崎</name>
     <extensions>
       <country>hs</country>
+      <operator></operator>
       <code>HS09</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>阪神本线（阪神三宫-阪神尼崎） (22.3km)</name>
+    <name>阪神本线</name>
     <trkseg>
       <trkpt lat="34.693977" lon="135.195973">
         <ele>12.0</ele>

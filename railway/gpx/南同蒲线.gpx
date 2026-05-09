@@ -4,6 +4,7 @@
     <name>太原南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>26468</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>修文</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>27989</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南同蒲线（太原-修文） (26.4km)</name>
+    <name>南同蒲线</name>
     <trkseg>
       <trkpt lat="37.790898" lon="112.604282">
         <ele>793.75</ele>

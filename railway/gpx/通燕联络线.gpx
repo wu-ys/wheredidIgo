@@ -4,6 +4,7 @@
     <name>高辛庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>d5c7787f</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>北刘各庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1036923d</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>通燕联络线（高辛庄所-北刘各庄所） (3.7km)</name>
+    <name>通燕联络线</name>
     <trkseg>
       <trkpt lat="39.927286" lon="116.734298">
         <ele>23.25</ele>

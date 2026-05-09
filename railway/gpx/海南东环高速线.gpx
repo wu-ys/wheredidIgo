@@ -3,7 +3,8 @@
   <wpt lat="19.998119" lon="110.32769">
     <name>城西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51450</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="19.985488" lon="110.338834">
     <name>海口东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51447</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="19.943528" lon="110.456955">
     <name>美兰</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51444</code>
       <type>station</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="18.297786" lon="109.48898">
     <name>三亚</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51481</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>海南东环高速线（城西-三亚） (286.4km)</name>
+    <name>海南东环高速线</name>
     <trkseg>
       <trkpt lat="19.998089" lon="110.327601">
       </trkpt>

@@ -3,7 +3,8 @@
   <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10001</code>
       <type>station</type>
     </extensions>
@@ -12,14 +13,16 @@
     <name>北京东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12158</code>
       <type>junction</type>
     </extensions>
   </wpt>
-  <wpt lat="116.56407" lon="39.899197">
+  <wpt lat="39.899197" lon="116.56407">
     <name>双桥</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11333</code>
       <type>junction</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>高辛庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>d5c7787f</code>
       <type>junction</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="39.993686" lon="117.362706">
     <name>蓟州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11132</code>
       <type>station</type>
     </extensions>
@@ -44,6 +49,7 @@
     <name>唐山北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11159</code>
       <type>junction</type>
     </extensions>
@@ -51,7 +57,8 @@
   <wpt lat="39.849858" lon="119.41362">
     <name>北戴河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10307</code>
       <type>station</type>
     </extensions>
@@ -59,7 +66,8 @@
   <wpt lat="39.964616" lon="119.586226">
     <name>秦皇岛</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10319</code>
       <type>station</type>
     </extensions>
@@ -68,6 +76,7 @@
     <name>龙家营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10328</code>
       <type>junction</type>
     </extensions>
@@ -75,7 +84,8 @@
   <wpt lat="39.999403" lon="119.761552">
     <name>山海关</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10331</code>
       <type>station</type>
     </extensions>
@@ -83,7 +93,8 @@
   <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53885</code>
       <type>station</type>
     </extensions>
@@ -91,7 +102,8 @@
   <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>54011</code>
       <type>station</type>
     </extensions>
@@ -99,7 +111,8 @@
   <wpt lat="43.909017" lon="125.318013">
     <name>长春</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>54116</code>
       <type>station</type>
     </extensions>
@@ -107,7 +120,8 @@
   <wpt lat="45.705387" lon="126.571042">
     <name>哈尔滨西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53469</code>
       <type>station</type>
     </extensions>
@@ -115,13 +129,14 @@
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55661</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京哈线 (1,241.1km)</name>
+    <name>京哈线</name>
     <trkseg>
       <trkpt lat="39.901043" lon="116.421005">
         <ele>49.25</ele>

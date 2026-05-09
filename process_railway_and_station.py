@@ -61,12 +61,12 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
     for gpx_file in glob.glob(os.path.join(folder_path, "*.gpx")):
 
         filename_without_ext = os.path.splitext(os.path.basename(gpx_file))[0]
-        records[filename_without_ext] = {"zh": filename_without_ext, "en": "", "country": "CN", 'type': "main", 'speed': 160, "line_ref": "", "start": "", "end": "", "vias": []}
+        records[filename_without_ext] = {"zh": filename_without_ext, "en": "", "country": "CN", 'type': "main", 'speed': 160, "line_idx": "", "start": "", "end": "", "vias": []}
 
     if os.path.exists(csv_file_path):
 
         csv = pd.read_csv(csv_file_path, encoding='utf-8', keep_default_na=False, dtype={
-            "line_ref": str,
+            "line_idx": str,
             "name_zh": str,
             "name_en": str,
             "country": str,
@@ -78,7 +78,7 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
         })
 
         for row in range(csv.shape[0]):
-            line_ref = csv.at[row,"line_ref"]
+            line_idx = csv.at[row,"line_idx"]
             name_zh = csv.at[row,"name_zh"]
             name_en = csv.at[row,"name_en"]
             country = csv.at[row,"country"]
@@ -91,7 +91,7 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
             if name_zh in records:
 
                 new_name_zh = re.sub(r'\([^)]*\)', '', name_zh).replace(' ', '')
-                if not line_ref[0].isdigit() or line_ref[-1].isdigit():
+                if not line_idx[0].isdigit() or line_idx[-1].isdigit():
                     new_name_zh = re.sub(r'（[^)]*）', '', new_name_zh)
                     if new_name_zh != name_zh:
                         os.rename(
@@ -100,9 +100,9 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
                         csv.at[row,"name_zh"] = new_name_zh
                         print(f"重命名: {name_zh} -> {new_name_zh}")
                 else:
-                    print(f"{name_zh} 的 line_ref 不合法，无法重命名！")
+                    print(f"{name_zh} 的 line_idx 不合法，无法重命名！")
 
-                records[name_zh]["line_ref"] = line_ref
+                records[name_zh]["line_idx"] = line_idx
                 records[name_zh]["zh"] = new_name_zh
                 records[name_zh]["en"] = name_en
                 records[name_zh]["country"] = country
@@ -113,14 +113,14 @@ def export_railway_gpx_to_csv(folder_path, csv_file_path, json_file_path):
                 records[name_zh]["vias"] = vias
 
             else:
-                extra_records[name_zh] = {"zh": name_zh, "en": name_en, "country": country, 'type': type_, 'speed': speed, "line_ref": line_ref, "start": start, "end": end, "vias": vias}
+                extra_records[name_zh] = {"zh": name_zh, "en": name_en, "country": country, 'type': type_, 'speed': speed, "line_idx": line_idx, "start": start, "end": end, "vias": vias}
 
                 print(f"{name_zh}.gpx 文件不存在，但在 CSV 中有记录！")
 
         csv.to_csv(csv_file_path, index=False, encoding='utf-8')
 
     for record in records:
-        if records[record]["line_ref"] == '':
+        if records[record]["line_idx"] == '':
             print(f"{record}.gpx 文件存在，但在 CSV 中没有记录！")
 
     print("导出完成！")
@@ -160,13 +160,14 @@ def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, loadJSON = T
         lat_str = station_csv.at[row,'lat']
         lon_str = station_csv.at[row,'lon']
         country = station_csv.at[row,'country']
+        operator = station_csv.at[row,'operator']
 
         lat = float(lat_str) if lat_str else None
         lon = float(lon_str) if lon_str else None
 
         # 如果CSV中已有坐标
         if lat is not None and lon is not None:
-            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code}
+            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code, "operator": operator}
 
         # 如果JSON中存在该车站
         elif name in coord_dict and loadJSON:
@@ -175,7 +176,7 @@ def fill_station_lonlat(reference_path, station_csv : pd.DataFrame, loadJSON = T
             station_csv.at[row, 'lat'] = lat
             station_csv.at[row, 'lon'] = lon
             print(f"已从 JSON 中填充 {name} 的坐标：({lat}, {lon})")
-            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code}
+            station_dict[name] = {"name_zh": name, "name_en": name_en, "type": type_, "lat": lat, "lon": lon, "country": country, "code": code, "operator": operator}
         else:
             missing_names.append(name)
 
@@ -204,7 +205,8 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
         r_country = railway_csv.at[r,"country"]
         r_type = railway_csv.at[r,"type"]
         r_speed = int(railway_csv.at[r, "speed"])
-        r_line_ref = railway_csv.at[r,"line_ref"]
+        r_line_idx = railway_csv.at[r,"line_idx"]
+        r_line_sub_idx = railway_csv.at[r,"sub_idx"]
         r_start = railway_csv.at[r, "start"]
         r_end = railway_csv.at[r, "end"]
         r_vias = railway_csv.at[r, "vias"].split()
@@ -225,7 +227,8 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
         gpx_changed = False
 
         railway_json.append({
-            "line_ref": r_line_ref,
+            "line_idx": r_line_idx,
+            "sub_idx": r_line_sub_idx,
             "filename": r_name + r_name_suffix,
             "zh": r_name,
             "en": r_name_en,
@@ -255,6 +258,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
                 print(f"\033[33mWarning: {r_name + r_name_suffix}.gpx has more than one track, only the first one will be processed.\033[0m")
             if len(g.tracks[0].segments) > 1:
                 print(f"\033[33mWarning: {r_name + r_name_suffix}.gpx has more than one segment, only the first one will be processed.\033[0m")
+            g.tracks[0].name = r_name + r_name_suffix
 
             points = g.tracks[0].segments[0].points
 
@@ -288,6 +292,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
                     )
                     add_extensions(wpt, {
                         "country": station_dict[s]["country"],
+                        "operator": station_dict[s]["operator"],
                         "code": station_dict[s]["code"],
                         "type": station_dict[s]["type"]
                     })
@@ -353,7 +358,7 @@ if __name__ == "__main__":
 
     railway_csv = pd.read_csv(railway_csv_file_path, encoding='utf-8', keep_default_na=False, dtype=str)
 
-    missing_stations = update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_file_path, station_dict, overwrite=False)
+    missing_stations = update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_file_path, station_dict, overwrite=True)
 
     for m in missing_stations:
         if m not in station_dict:
@@ -363,7 +368,9 @@ if __name__ == "__main__":
                 "name_en": "",
                 "lat": "",
                 "lon": "",
-                "country": ""
+                "type": "station",
+                "country": "",
+                "operator": ""
             }])], ignore_index=True)
 
     if len(missing_stations) > 0:

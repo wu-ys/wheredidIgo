@@ -3,7 +3,8 @@
   <wpt lat="29.604572" lon="103.709666">
     <name>乐山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47635</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>宜宾西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47643</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>成贵高速线 (140.5km)</name>
+    <name>成贵客运专线乐宜段</name>
     <trkseg>
       <trkpt lat="29.604502" lon="103.709889">
       </trkpt>

@@ -3,7 +3,8 @@
   <wpt lat="30.759841" lon="103.970208">
     <name>犀浦</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46042</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.960216" lon="103.637">
     <name>都江堰</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46063</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>新成灌线（犀浦-都江堰） (41.4km)</name>
+    <name>新成灌线</name>
     <trkseg>
       <trkpt lat="30.759614" lon="103.970712">
       </trkpt>

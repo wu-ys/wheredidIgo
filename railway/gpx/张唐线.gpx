@@ -4,6 +4,7 @@
     <name>李家营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10973</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>唐山北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11159</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="39.622864" lon="118.115152">
     <name>唐山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10214</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>张唐线（李家营-唐山）</name>
+    <name>张唐线</name>
     <trkseg>
       <trkpt lat="40.582639" lon="117.748961">
         <ele>483.5</ele>

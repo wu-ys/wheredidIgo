@@ -4,6 +4,7 @@
     <name>黄土坡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1cfdd7a5</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>商丘南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>24890</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>阜阳北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25067</code>
       <type>junction</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>阜阳</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25104</code>
       <type>junction</type>
     </extensions>
@@ -36,6 +40,7 @@
     <name>九江</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25322</code>
       <type>junction</type>
     </extensions>
@@ -44,6 +49,7 @@
     <name>九江西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25324</code>
       <type>junction</type>
     </extensions>
@@ -52,12 +58,13 @@
     <name>乐化</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25397</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京九线（黄土坡线路所-乐化） (1,406.6km)</name>
+    <name>京九线京昌段</name>
     <trkseg>
       <trkpt lat="39.769036" lon="116.279572">
         <ele>48.75</ele>

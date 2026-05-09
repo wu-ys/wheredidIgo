@@ -4,6 +4,7 @@
     <name>泉佐野</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>030</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>关西空港</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>032</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南海机场线（泉佐野-关西机场） (8.7km)</name>
+    <name>南海机场线</name>
     <trkseg>
       <trkpt lat="34.411054" lon="135.317029">
       </trkpt>

@@ -3,7 +3,8 @@
   <wpt lat="18.310561" lon="109.404688">
     <name>凤凰机场</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51682</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>凤凰西所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>f1f7e412</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>凤凰联络线 (4.2km)</name>
+    <name>凤凰联络线</name>
     <trkseg>
       <trkpt lat="18.310439" lon="109.404993">
         <ele>35.5</ele>

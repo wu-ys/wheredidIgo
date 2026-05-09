@@ -3,7 +3,8 @@
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55661</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="44.788929" lon="129.09908">
     <name>横道河子东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>61189</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="44.589049" lon="129.60628">
     <name>牡丹江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>61193</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>哈牡客运专线 (299.6km)</name>
+    <name>哈牡客运专线</name>
     <trkseg>
       <trkpt lat="45.759775" lon="126.625958">
         <ele>131.5</ele>

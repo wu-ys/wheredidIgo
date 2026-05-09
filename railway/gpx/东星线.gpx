@@ -4,6 +4,7 @@
     <name>北京东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12158</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="39.943668" lon="116.503226">
     <name>北京朝阳</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11389</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>东星线 (7.8km)</name>
+    <name>东星线</name>
     <trkseg>
       <trkpt lat="39.901291" lon="116.478632">
         <ele>39.25</ele>

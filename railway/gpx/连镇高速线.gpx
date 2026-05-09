@@ -4,6 +4,7 @@
     <name>董集</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>38487</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="33.570124" lon="119.182747">
     <name>淮安东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18830</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="32.40657" lon="119.523948">
     <name>扬州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>17334</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>横山所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>5120128c</code>
       <type>junction</type>
     </extensions>
@@ -36,12 +40,13 @@
     <name>丹徒</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66316</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>连镇高速线 (305.8km)</name>
+    <name>连镇高速线</name>
     <trkseg>
       <trkpt lat="34.425834" lon="119.246526">
         <ele>1.0</ele>

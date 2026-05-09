@@ -4,6 +4,7 @@
     <name>李家营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10973</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>赵家店所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>697325ec</code>
       <type>junction</type>
     </extensions>

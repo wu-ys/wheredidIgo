@@ -4,6 +4,7 @@
     <name>阳平关</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>45389</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="33.09259" lon="107.025408">
     <name>汉中</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>45713</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>阳安线（阳平关-汉中） (107.9km)</name>
+    <name>阳安线</name>
     <trkseg>
       <trkpt lat="32.968697" lon="106.033574">
         <ele>580.0</ele>

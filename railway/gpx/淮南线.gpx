@@ -4,6 +4,7 @@
     <name>淮南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>19682</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="31.350149" lon="118.387385">
     <name>芜湖</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30926</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>淮南线（淮南-芜湖） (238.3km)</name>
+    <name>淮南线</name>
     <trkseg>
       <trkpt lat="32.632425" lon="117.014659">
         <ele>41.25</ele>

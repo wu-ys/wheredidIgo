@@ -3,7 +3,8 @@
   <wpt lat="29.865233" lon="121.532402">
     <name>宁波</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>33284</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>温州北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>33988</code>
       <type>junction</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="27.969313" lon="120.581208">
     <name>温州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>33990</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="25.988279" lon="119.385601">
     <name>福州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34151</code>
       <type>station</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="24.976173" lon="118.563221">
     <name>泉州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34169</code>
       <type>station</type>
     </extensions>
@@ -43,7 +48,8 @@
   <wpt lat="24.638772" lon="118.06903">
     <name>厦门北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34178</code>
       <type>station</type>
     </extensions>
@@ -52,6 +58,7 @@
     <name>前场</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34565</code>
       <type>junction</type>
     </extensions>
@@ -59,7 +66,8 @@
   <wpt lat="24.460352" lon="117.711826">
     <name>漳州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>35067</code>
       <type>station</type>
     </extensions>
@@ -67,7 +75,8 @@
   <wpt lat="22.787649" lon="114.487586">
     <name>惠阳</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>25851</code>
       <type>station</type>
     </extensions>
@@ -75,13 +84,14 @@
   <wpt lat="22.609954" lon="114.023289">
     <name>深圳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65860</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>杭深线（宁波-深圳北）</name>
+    <name>杭深线甬深段</name>
     <trkseg>
       <trkpt lat="29.864617" lon="121.532645">
         <ele>8.75</ele>

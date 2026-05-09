@@ -3,7 +3,8 @@
   <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53885</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="41.888034" lon="123.912075">
     <name>抚顺</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55376</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沈佳高速线 (42.8km)</name>
+    <name>沈佳高速线沈白段</name>
     <trkseg>
       <trkpt lat="41.816694" lon="123.429868">
         <ele>54.25</ele>

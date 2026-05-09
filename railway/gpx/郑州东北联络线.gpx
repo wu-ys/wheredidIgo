@@ -4,6 +4,7 @@
     <name>圃田西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>38810</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="34.760065" lon="113.773225">
     <name>郑州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65773</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>郑州东西北联络线 (9.7km)</name>
+    <name>郑州东北联络线</name>
     <trkseg>
       <trkpt lat="34.734857" lon="113.693405">
         <ele>103.75</ele>

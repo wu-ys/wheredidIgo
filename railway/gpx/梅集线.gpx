@@ -4,6 +4,7 @@
     <name>梅河口</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>64301</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="41.7761" lon="125.91626">
     <name>通化</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>64418</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>梅集线（梅河口-通化） (122.1km)</name>
+    <name>梅集线</name>
     <trkseg>
       <trkpt lat="42.533175" lon="125.678318">
         <ele>329.75</ele>

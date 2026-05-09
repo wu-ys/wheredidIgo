@@ -4,6 +4,7 @@
     <name>怀化南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65678</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>龙形村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>352d5dea</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>龙怀联络线 (3.8km)</name>
+    <name>龙怀联络线</name>
     <trkseg>
       <trkpt lat="27.514838" lon="109.989131">
         <ele>247.75</ele>

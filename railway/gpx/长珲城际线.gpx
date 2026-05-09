@@ -4,6 +4,7 @@
     <name>杨家粉坊所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>54119</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="43.909017" lon="125.318013">
     <name>长春</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>54116</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="43.990324" lon="125.693945">
     <name>龙嘉</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65960</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="43.857022" lon="126.572451">
     <name>吉林</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>63059</code>
       <type>station</type>
     </extensions>
@@ -36,12 +40,13 @@
     <name>敦化</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>63227</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>长珲城际线（杨家粉坊线路所-敦化） (271.3km)</name>
+    <name>长珲城际线</name>
     <trkseg>
       <trkpt lat="43.916232" lon="125.269792">
         <ele>220.0</ele>

@@ -4,6 +4,7 @@
     <name>纪之川</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>044</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>加太</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>447</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南海加太线（纪之川-加太） (9.6km)</name>
+    <name>南海加太线</name>
     <trkseg>
       <trkpt lat="34.25506" lon="135.165643">
         <ele>2.25</ele>

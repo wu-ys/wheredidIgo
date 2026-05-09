@@ -3,7 +3,8 @@
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55661</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>红旗营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>57485</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>牙克石</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>57749</code>
       <type>junction</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="49.22843" lon="119.736663">
     <name>海拉尔</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>57785</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>滨洲线（哈尔滨-海拉尔） (744.5km)</name>
+    <name>滨洲线</name>
     <trkseg>
       <trkpt lat="45.760283" lon="126.624805">
         <ele>129.5</ele>

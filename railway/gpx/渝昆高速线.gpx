@@ -3,7 +3,8 @@
   <wpt lat="29.503728" lon="106.433378">
     <name>重庆西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30077</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>宜宾</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>46907</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>渝昆高速线 (206.9km)</name>
+    <name>渝昆高速线</name>
     <trkseg>
       <trkpt lat="29.503054" lon="106.43268">
         <ele>300.25</ele>

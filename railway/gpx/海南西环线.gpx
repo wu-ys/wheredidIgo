@@ -4,6 +4,7 @@
     <name>凤凰西所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>f1f7e412</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>崖州湾</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>454ca49b</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>海南西环线 (24.5km)</name>
+    <name>海南西环线</name>
     <trkseg>
       <trkpt lat="18.309531" lon="109.36682">
         <ele>32.0</ele>

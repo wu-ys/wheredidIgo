@@ -4,6 +4,7 @@
     <name>走马岭所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>0fe38421</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>高桥所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>06e54b21</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>高桥联络线 (4.4km)</name>
+    <name>高桥联络线</name>
     <trkseg>
       <trkpt lat="30.635191" lon="114.013302">
         <ele>26.0</ele>

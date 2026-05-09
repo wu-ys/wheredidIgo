@@ -4,6 +4,7 @@
     <name>桐庐东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66276</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>桐庐</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32372</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>桐庐联络线 (8.7km)</name>
+    <name>桐庐联络线</name>
     <trkseg>
       <trkpt lat="29.857521" lon="119.759934">
         <ele>29.0</ele>

@@ -3,7 +3,8 @@
   <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21152</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>长阳村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>2108bd63</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>西长线（北京西-长辛店）</name>
+    <name>西长线</name>
     <trkseg>
       <trkpt lat="39.894078" lon="116.315137">
         <ele>67.5</ele>

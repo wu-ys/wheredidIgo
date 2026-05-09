@@ -3,7 +3,8 @@
   <wpt lat="37.425663" lon="122.138637">
     <name>威海</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18618</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>荣成</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>18675</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>青荣城际线（威海-荣成） (41.4km)</name>
+    <name>青荣城际线威荣段</name>
     <trkseg>
       <trkpt lat="37.425903" lon="122.137866">
         <ele>14.0</ele>

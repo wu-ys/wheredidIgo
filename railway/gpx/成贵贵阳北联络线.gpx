@@ -4,6 +4,7 @@
     <name>尖坡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>fc185e6b</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="26.623156" lon="106.670656">
     <name>贵阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47483</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>成贵贵阳北联络线（尖坡-贵阳北 (7.7km)</name>
+    <name>成贵贵阳北联络线</name>
     <trkseg>
       <trkpt lat="26.686936" lon="106.689236">
         <ele>1286.5</ele>

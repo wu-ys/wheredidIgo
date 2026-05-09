@@ -3,7 +3,8 @@
   <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18657</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>莱西东所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34f3f0d8</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>莱西联络线（莱西东所-莱西） (3.4km)</name>
+    <name>莱西联络线</name>
     <trkseg>
       <trkpt lat="36.822999" lon="120.525675">
         <ele>60.0</ele>

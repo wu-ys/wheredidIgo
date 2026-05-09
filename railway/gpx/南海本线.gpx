@@ -4,6 +4,7 @@
     <name>新今宫</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O19</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>泉佐野</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>030</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>纪之川</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>044</code>
       <type>junction</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>和歌山市</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>045</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南海本线（新今宫-和歌山市） (62.6km)</name>
+    <name>南海本线</name>
     <trkseg>
       <trkpt lat="34.65019" lon="135.500164">
         <ele>1.75</ele>

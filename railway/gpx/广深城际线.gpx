@@ -3,7 +3,8 @@
   <wpt lat="23.152877" lon="113.319977">
     <name>广州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>23711</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="23.136824" lon="113.60113">
     <name>广州新塘</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>23738</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="23.092445" lon="113.854212">
     <name>东莞</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>23757</code>
       <type>station</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="22.535525" lon="114.112668">
     <name>深圳</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>23819</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>广深城际（广州东-深圳） (137.9km)</name>
+    <name>广深城际线</name>
     <trkseg>
       <trkpt lat="23.154061" lon="113.319132">
         <ele>19.0</ele>

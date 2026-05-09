@@ -3,7 +3,8 @@
   <wpt lat="23.379797" lon="113.197517">
     <name>花都</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>Q06</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="23.398986" lon="113.300541">
     <name>白云机场北</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>D13</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>广州东环城际（花都-白云机场北） (21.4km)</name>
+    <name>广州东环城际线</name>
     <trkseg>
       <trkpt lat="23.379872" lon="113.1974">
         <ele>6.5</ele>

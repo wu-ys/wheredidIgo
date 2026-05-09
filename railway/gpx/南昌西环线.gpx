@@ -4,6 +4,7 @@
     <name>乐化</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25397</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>向塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25454</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南昌西环线 (62km)</name>
+    <name>南昌西环线</name>
     <trkseg>
       <trkpt lat="28.818701" lon="115.866977">
         <ele>27.0</ele>

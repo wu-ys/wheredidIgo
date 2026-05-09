@@ -3,7 +3,8 @@
   <wpt lat="39.907964" lon="116.700146">
     <name>北京通州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>14c24aa2</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>北刘各庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1036923d</code>
       <type>junction</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="39.94057" lon="116.819673">
     <name>燕郊</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11108</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="39.71819" lon="117.027676">
     <name>香河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>9652adef</code>
       <type>station</type>
     </extensions>

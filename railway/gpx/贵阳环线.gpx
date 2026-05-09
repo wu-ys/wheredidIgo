@@ -4,6 +4,7 @@
     <name>白云北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>4d19753d</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="26.469122" lon="106.481856">
     <name>贵安</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65501</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="26.397133" lon="106.622192">
     <name>花溪大学城</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65476</code>
       <type>station</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>双龙南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>429e6741</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>贵阳环线（白云北-双龙南） (78.4km)</name>
+    <name>贵阳环线</name>
     <trkseg>
       <trkpt lat="26.706468" lon="106.65911">
         <ele>1290.5</ele>

@@ -4,6 +4,7 @@
     <name>西安北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>39032</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="33.09259" lon="107.025408">
     <name>汉中</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>45713</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>西成客运专线（西安北-汉中） (242km)</name>
+    <name>西成客运专线陕西段</name>
     <trkseg>
       <trkpt lat="34.378397" lon="108.933624">
         <ele>371.0</ele>

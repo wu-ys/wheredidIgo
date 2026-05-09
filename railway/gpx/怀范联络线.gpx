@@ -4,6 +4,7 @@
     <name>怀柔</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11378</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>雁栖湖</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11627</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>怀范联络线 (6.8km)</name>
+    <name>怀范联络线</name>
     <trkseg>
       <trkpt lat="40.316004" lon="116.643391">
         <ele>45.0</ele>

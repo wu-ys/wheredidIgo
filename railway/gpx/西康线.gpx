@@ -4,6 +4,7 @@
     <name>田王</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>40853</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>安康</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>29843</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>西康线（田王-安康） (241.1km)</name>
+    <name>西康线</name>
     <trkseg>
       <trkpt lat="34.298333" lon="109.103493">
         <ele>408.0</ele>

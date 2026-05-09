@@ -4,6 +4,7 @@
     <name>天王寺</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O01</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>和歌山</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>R54</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>版和线（天王寺-和歌山） (61.2km)</name>
+    <name>JR阪和线</name>
     <trkseg>
       <trkpt lat="34.646668" lon="135.514816">
         <ele>23.75</ele>

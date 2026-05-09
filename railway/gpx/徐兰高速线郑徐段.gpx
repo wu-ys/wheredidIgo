@@ -4,6 +4,7 @@
     <name>徐州东所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>38934</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="34.760065" lon="113.773225">
     <name>郑州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65773</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>徐兰高速线（徐州东所-郑州东） (357.9km)</name>
+    <name>徐兰高速线郑徐段</name>
     <trkseg>
       <trkpt lat="34.304466" lon="117.291291">
       </trkpt>

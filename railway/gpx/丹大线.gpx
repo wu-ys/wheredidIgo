@@ -3,7 +3,8 @@
   <wpt lat="40.122162" lon="124.380192">
     <name>丹东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55118</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="39.015978" lon="121.601377">
     <name>大连北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53520</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>丹大线（丹东-大连北） (293km)</name>
+    <name>丹大线</name>
     <trkseg>
       <trkpt lat="40.121695" lon="124.382168">
         <ele>12.75</ele>

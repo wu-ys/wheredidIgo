@@ -4,6 +4,7 @@
     <name>黄金园所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>4eb13889</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>长沙西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65201</code>
       <type>junction</type>
     </extensions>

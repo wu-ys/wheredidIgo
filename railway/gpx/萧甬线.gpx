@@ -3,7 +3,8 @@
   <wpt lat="30.174535" lon="120.288713">
     <name>杭州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32460</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.016435" lon="120.574742">
     <name>绍兴</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>33185</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>萧甬线（杭州南-绍兴） (38.5km)</name>
+    <name>萧甬线</name>
     <trkseg>
       <trkpt lat="30.174668" lon="120.289373">
         <ele>12.0</ele>

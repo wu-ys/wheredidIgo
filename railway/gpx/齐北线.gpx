@@ -3,7 +3,8 @@
   <wpt lat="47.338071" lon="123.989172">
     <name>齐齐哈尔</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>56675</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>富裕</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>59567</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>齐北线（齐齐哈尔-富裕） (63.2km)</name>
+    <name>齐北线</name>
     <trkseg>
       <trkpt lat="47.33856" lon="123.989718">
         <ele>151.0</ele>

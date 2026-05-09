@@ -4,6 +4,7 @@
     <name>前场</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34565</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="24.470209" lon="118.111225">
     <name>厦门</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34583</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>鹰厦线（前场-厦门） (25.8km)</name>
+    <name>鹰厦线</name>
     <trkseg>
       <trkpt lat="24.573106" lon="117.972903">
         <ele>22.5</ele>

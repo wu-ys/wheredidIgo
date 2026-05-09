@@ -3,7 +3,8 @@
   <wpt lat="23.379797" lon="113.197517">
     <name>花都</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>Q06</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="23.656003" lon="113.061023">
     <name>清城</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>Q11</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>广清城际 (36.8km)</name>
+    <name>广清城际线</name>
     <trkseg>
       <trkpt lat="23.379865" lon="113.197367">
         <ele>4.25</ele>

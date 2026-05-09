@@ -4,6 +4,7 @@
     <name>李家塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32076</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>莘庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32078</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>李莘联络线 (3.7km)</name>
+    <name>李莘联络线</name>
     <trkseg>
       <trkpt lat="31.112792" lon="121.356217">
         <ele>5.0</ele>

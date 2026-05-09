@@ -4,6 +4,7 @@
     <name>北园</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16292</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>大明湖</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17699</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京胶联络线 (4.5km)</name>
+    <name>京胶联络线</name>
     <trkseg>
       <trkpt lat="36.698187" lon="116.99815">
         <ele>26.25</ele>

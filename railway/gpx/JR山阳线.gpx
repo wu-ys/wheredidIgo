@@ -4,6 +4,7 @@
     <name>三宫</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A61</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>神户</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A63</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>姬路</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A85</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>山阳本线（三宫-姬路） (57.4km)</name>
+    <name>JR山阳线</name>
     <trkseg>
       <trkpt lat="34.694871" lon="135.195058">
       </trkpt>

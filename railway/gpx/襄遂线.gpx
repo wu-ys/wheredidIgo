@@ -4,6 +4,7 @@
     <name>磨心坡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30053</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>黄桷所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30052</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>襄渝渭井线 (3.4km)</name>
+    <name>襄遂线</name>
     <trkseg>
       <trkpt lat="29.85759" lon="106.468932">
         <ele>240.0</ele>

@@ -3,7 +3,8 @@
   <wpt lat="34.760065" lon="113.773225">
     <name>郑州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65773</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="36.08474" lon="114.447441">
     <name>安阳东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>22531</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广高速线（郑州东-安阳东） (166.2km)</name>
+    <name>京广高速线石武段</name>
     <trkseg>
       <trkpt lat="34.760168" lon="113.772148">
         <ele>85.5</ele>

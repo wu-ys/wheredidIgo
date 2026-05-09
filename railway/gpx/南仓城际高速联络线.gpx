@@ -4,6 +4,7 @@
     <name>南仓所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10008</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16010</code>
       <type>station</type>
     </extensions>

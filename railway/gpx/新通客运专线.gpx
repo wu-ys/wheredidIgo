@@ -4,6 +4,7 @@
     <name>田家窝堡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>53293</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="43.602941" lon="122.266425">
     <name>通辽</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53363</code>
       <type>station</type>
     </extensions>

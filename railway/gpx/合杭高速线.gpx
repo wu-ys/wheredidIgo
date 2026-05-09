@@ -4,6 +4,7 @@
     <name>胡庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>8fdcda66</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="31.350149" lon="118.387385">
     <name>芜湖</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30926</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="31.250829" lon="118.373327">
     <name>芜湖南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30928</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="30.864274" lon="120.019428">
     <name>湖州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>31854</code>
       <type>station</type>
     </extensions>
@@ -36,6 +40,7 @@
     <name>妙西镇所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>c85ef475</code>
       <type>junction</type>
     </extensions>
@@ -43,7 +48,8 @@
   <wpt lat="30.300426" lon="119.98213">
     <name>杭州西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>66279</code>
       <type>station</type>
     </extensions>
@@ -52,12 +58,13 @@
     <name>桐庐东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66276</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>合杭高速线（胡庄所-桐庐东） (380.8km)</name>
+    <name>合杭高速线</name>
     <trkseg>
       <trkpt lat="31.588381" lon="117.949402">
         <ele>44.75</ele>

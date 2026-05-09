@@ -4,6 +4,7 @@
     <name>黄渡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66521</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>南翔北所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66523</code>
       <type>junction</type>
     </extensions>

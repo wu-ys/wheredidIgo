@@ -4,6 +4,7 @@
     <name>宣城</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>31319</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>绩溪北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34126</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宣绩高铁 (114.6km)</name>
+    <name>宣绩高速线</name>
     <trkseg>
       <trkpt lat="30.949633" lon="118.769236">
         <ele>13.75</ele>

@@ -4,6 +4,7 @@
     <name>向塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25454</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>梁家渡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32879</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>向东联络线（向塘-梁家渡） (7.4km)</name>
+    <name>向东D线</name>
     <trkseg>
       <trkpt lat="28.446533" lon="115.957657">
         <ele>26.25</ele>

@@ -4,6 +4,7 @@
     <name>秦祺村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>45c67dbe</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>双龙南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>429e6741</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>秦双联络线（秦祺村所-双龙南） (1.6km)</name>
+    <name>秦双联络线</name>
     <trkseg>
       <trkpt lat="26.497158" lon="106.786467">
         <ele>1143.25</ele>

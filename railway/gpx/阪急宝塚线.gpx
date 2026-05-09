@@ -4,6 +4,7 @@
     <name>大阪梅田</name>
     <extensions>
       <country>hk</country>
+      <operator></operator>
       <code>001</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>庄内</name>
     <extensions>
       <country>hk</country>
+      <operator></operator>
       <code>042</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>阪急宝冢线（大阪梅田-庄内） (5.9km)</name>
+    <name>阪急宝塚线</name>
     <trkseg>
       <trkpt lat="34.705288" lon="135.498343">
         <ele>12.25</ele>

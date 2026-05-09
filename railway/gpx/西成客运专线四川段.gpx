@@ -3,7 +3,8 @@
   <wpt lat="31.011319" lon="104.272993">
     <name>广汉北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47607</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>青白江东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47609</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="30.63145" lon="104.140165">
     <name>成都东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46543</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>西成高铁（广汉北-成都东） (45.2km)</name>
+    <name>西成客运专线四川段</name>
     <trkseg>
       <trkpt lat="31.011618" lon="104.273101">
         <ele>474.0</ele>

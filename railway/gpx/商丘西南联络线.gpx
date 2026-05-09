@@ -4,6 +4,7 @@
     <name>商丘南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>24890</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>商丘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>38702</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>商丘西南联络线 (6km)</name>
+    <name>商丘西南联络线</name>
     <trkseg>
       <trkpt lat="34.403284" lon="115.702962">
         <ele>49.75</ele>

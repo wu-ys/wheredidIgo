@@ -5,8 +5,9 @@
     "type": "station",
     "lat": 39.90144,
     "lon": 116.42113,
-    "country": "cr",
+    "country": "CN",
     "code": "10001",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "京哈线",
@@ -19,8 +20,9 @@
     "type": "station",
     "lat": 39.863072,
     "lon": 116.372838,
-    "country": "cr",
+    "country": "CN",
     "code": "10010",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "京沪高速线",
@@ -33,8 +35,9 @@
     "type": "station",
     "lat": 39.892572,
     "lon": 116.317173,
-    "country": "cr",
+    "country": "CN",
     "code": "21152",
+    "operator": "cr",
     "lines": [
       "西长线",
       "北京直径线",
@@ -48,8 +51,9 @@
     "type": "station",
     "lat": 39.943899,
     "lon": 116.346821,
-    "country": "cr",
+    "country": "CN",
     "code": "12713",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -60,8 +64,9 @@
     "type": "station",
     "lat": 39.943668,
     "lon": 116.503226,
-    "country": "cr",
+    "country": "CN",
     "code": "11389",
+    "operator": "cr",
     "lines": [
       "东星线",
       "京哈高速线京沈段"
@@ -73,8 +78,9 @@
     "type": "station",
     "lat": 39.849629,
     "lon": 116.295393,
-    "country": "cr",
+    "country": "CN",
     "code": "10025",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "丰沙线"
@@ -86,8 +92,9 @@
     "type": "station",
     "lat": 40.040723,
     "lon": 116.307714,
-    "country": "cr",
+    "country": "CN",
     "code": "12707",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -98,8 +105,9 @@
     "type": "station",
     "lat": 40.358029,
     "lon": 116.00491,
-    "country": "cr",
+    "country": "CN",
     "code": "12181",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -110,8 +118,9 @@
     "type": "station",
     "lat": 40.358876,
     "lon": 115.995334,
-    "country": "cr",
+    "country": "CN",
     "code": "12285",
+    "operator": "cr",
     "lines": [
       "京包线北京段"
     ]
@@ -122,8 +131,9 @@
     "type": "station",
     "lat": 40.435215,
     "lon": 115.978119,
-    "country": "cr",
+    "country": "CN",
     "code": "12224",
+    "operator": "cr",
     "lines": [
       "康延线",
       "延庆线"
@@ -135,8 +145,9 @@
     "type": "station",
     "lat": 40.378821,
     "lon": 115.892272,
-    "country": "cr",
+    "country": "CN",
     "code": "12221",
+    "operator": "cr",
     "lines": [
       "京包线北京段",
       "康延线"
@@ -148,8 +159,9 @@
     "type": "station",
     "lat": 40.068241,
     "lon": 116.357243,
-    "country": "cr",
+    "country": "CN",
     "code": "12167",
+    "operator": "cr",
     "lines": [
       "京包线北京段"
     ]
@@ -160,8 +172,9 @@
     "type": "station",
     "lat": 39.719037,
     "lon": 116.322743,
-    "country": "cr",
+    "country": "CN",
     "code": "21156",
+    "operator": "cr",
     "lines": [
       "京雄城际线"
     ]
@@ -172,8 +185,9 @@
     "type": "station",
     "lat": 39.5109,
     "lon": 116.409504,
-    "country": "cr",
+    "country": "CN",
     "code": "21158",
+    "operator": "cr",
     "lines": [
       "京雄城际线"
     ]
@@ -184,8 +198,9 @@
     "type": "station",
     "lat": 40.230012,
     "lon": 116.227095,
-    "country": "cr",
+    "country": "CN",
     "code": "11609",
+    "operator": "cr",
     "lines": [
       "京通线"
     ]
@@ -196,8 +211,9 @@
     "type": "station",
     "lat": 40.407876,
     "lon": 116.686425,
-    "country": "cr",
+    "country": "CN",
     "code": "11630",
+    "operator": "cr",
     "lines": [
       "京通线"
     ]
@@ -208,8 +224,9 @@
     "type": "station",
     "lat": 40.690513,
     "lon": 117.13534,
-    "country": "cr",
+    "country": "CN",
     "code": "11675",
+    "operator": "cr",
     "lines": [
       "京通线"
     ]
@@ -220,8 +237,9 @@
     "type": "station",
     "lat": 40.124766,
     "lon": 116.639598,
-    "country": "cr",
+    "country": "CN",
     "code": "11366",
+    "operator": "cr",
     "lines": [
       "京承线"
     ]
@@ -232,8 +250,9 @@
     "type": "station",
     "lat": 39.747983,
     "lon": 115.952348,
-    "country": "cr",
+    "country": "CN",
     "code": "14195",
+    "operator": "cr",
     "lines": [
       "京原线"
     ]
@@ -244,8 +263,9 @@
     "type": "junction",
     "lat": 39.899197,
     "lon": 116.56407,
-    "country": "cr",
+    "country": "CN",
     "code": "11333",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "京承线"
@@ -257,8 +277,9 @@
     "type": "station",
     "lat": 39.71819,
     "lon": 117.027676,
-    "country": "cr",
+    "country": "CN",
     "code": "9652adef",
+    "operator": "cr",
     "lines": [
       "京唐城际线"
     ]
@@ -269,8 +290,9 @@
     "type": "station",
     "lat": 39.907964,
     "lon": 116.700146,
-    "country": "cr",
+    "country": "CN",
     "code": "14c24aa2",
+    "operator": "cr",
     "lines": [
       "京唐城际线"
     ]
@@ -281,8 +303,9 @@
     "type": "station",
     "lat": 39.739625,
     "lon": 116.151071,
-    "country": "cr",
+    "country": "CN",
     "code": "20255",
+    "operator": "cr",
     "lines": [
       "京广线京石段"
     ]
@@ -293,8 +316,9 @@
     "type": "station",
     "lat": 39.136792,
     "lon": 117.20372,
-    "country": "cr",
+    "country": "CN",
     "code": "10157",
+    "operator": "cr",
     "lines": [
       "京津城际线",
       "津秦高速线"
@@ -306,8 +330,9 @@
     "type": "station",
     "lat": 39.156945,
     "lon": 117.157228,
-    "country": "cr",
+    "country": "CN",
     "code": "16010",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "南仓城际高速联络线",
@@ -321,8 +346,9 @@
     "type": "station",
     "lat": 39.165954,
     "lon": 117.203217,
-    "country": "cr",
+    "country": "CN",
     "code": "10148",
+    "operator": "cr",
     "lines": [
       "京沪线"
     ]
@@ -333,8 +359,9 @@
     "type": "station",
     "lat": 39.993686,
     "lon": 117.362706,
-    "country": "cr",
+    "country": "CN",
     "code": "11132",
+    "operator": "cr",
     "lines": [
       "京哈线"
     ]
@@ -345,8 +372,9 @@
     "type": "station",
     "lat": 40.025454,
     "lon": 117.391628,
-    "country": "cr",
+    "country": "CN",
     "code": "10526",
+    "operator": "cr",
     "lines": [
       "津蓟线"
     ]
@@ -357,8 +385,9 @@
     "type": "station",
     "lat": 38.009434,
     "lon": 114.478487,
-    "country": "cr",
+    "country": "CN",
     "code": "20372",
+    "operator": "cr",
     "lines": [
       "京广线石郑段",
       "京广高速线京石段"
@@ -370,8 +399,9 @@
     "type": "station",
     "lat": 38.064809,
     "lon": 114.458946,
-    "country": "cr",
+    "country": "CN",
     "code": "26426",
+    "operator": "cr",
     "lines": [
       "石家庄西北环线",
       "石太客运专线"
@@ -383,8 +413,9 @@
     "type": "station",
     "lat": 39.622864,
     "lon": 118.115152,
-    "country": "cr",
+    "country": "CN",
     "code": "10214",
+    "operator": "cr",
     "lines": [
       "张唐线",
       "津秦高速线"
@@ -396,8 +427,9 @@
     "type": "station",
     "lat": 40.963096,
     "lon": 117.948261,
-    "country": "cr",
+    "country": "CN",
     "code": "11492",
+    "operator": "cr",
     "lines": [
       "京承线",
       "承隆线"
@@ -409,8 +441,9 @@
     "type": "station",
     "lat": 40.883668,
     "lon": 117.958703,
-    "country": "cr",
+    "country": "CN",
     "code": "52920",
+    "operator": "cr",
     "lines": [
       "京哈高速线京沈段"
     ]
@@ -421,8 +454,9 @@
     "type": "station",
     "lat": 39.092989,
     "lon": 116.344457,
-    "country": "cr",
+    "country": "CN",
     "code": "20383",
+    "operator": "cr",
     "lines": [
       "霸徐线",
       "津霸线"
@@ -434,8 +468,9 @@
     "type": "station",
     "lat": 39.185558,
     "lon": 116.321097,
-    "country": "cr",
+    "country": "CN",
     "code": "21162",
+    "operator": "cr",
     "lines": [
       "京雄城际线"
     ]
@@ -446,8 +481,9 @@
     "type": "station",
     "lat": 39.055624,
     "lon": 116.154071,
-    "country": "cr",
+    "country": "CN",
     "code": "21164",
+    "operator": "cr",
     "lines": [
       "京雄城际线"
     ]
@@ -458,8 +494,9 @@
     "type": "station",
     "lat": 39.068633,
     "lon": 115.868901,
-    "country": "cr",
+    "country": "CN",
     "code": "20387",
+    "operator": "cr",
     "lines": [
       "霸徐线"
     ]
@@ -470,8 +507,9 @@
     "type": "station",
     "lat": 39.964616,
     "lon": 119.586226,
-    "country": "cr",
+    "country": "CN",
     "code": "10319",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "津秦高速线"
@@ -483,8 +521,9 @@
     "type": "station",
     "lat": 39.999403,
     "lon": 119.761552,
-    "country": "cr",
+    "country": "CN",
     "code": "10331",
+    "operator": "cr",
     "lines": [
       "京哈线"
     ]
@@ -495,8 +534,9 @@
     "type": "station",
     "lat": 39.849858,
     "lon": 119.41362,
-    "country": "cr",
+    "country": "CN",
     "code": "10307",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "津秦高速线"
@@ -508,8 +548,9 @@
     "type": "station",
     "lat": 40.750704,
     "lon": 114.876733,
-    "country": "cr",
+    "country": "CN",
     "code": "12782",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -520,8 +561,9 @@
     "type": "station",
     "lat": 40.596602,
     "lon": 115.050377,
-    "country": "cr",
+    "country": "CN",
     "code": "12290",
+    "operator": "cr",
     "lines": [
       "丰沙线"
     ]
@@ -532,8 +574,9 @@
     "type": "station",
     "lat": 39.94057,
     "lon": 116.819673,
-    "country": "cr",
+    "country": "CN",
     "code": "11108",
+    "operator": "cr",
     "lines": [
       "京唐城际线"
     ]
@@ -544,8 +587,9 @@
     "type": "station",
     "lat": 40.829499,
     "lon": 111.658306,
-    "country": "cr",
+    "country": "CN",
     "code": "12581",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -556,8 +600,9 @@
     "type": "station",
     "lat": 40.848343,
     "lon": 111.759334,
-    "country": "cr",
+    "country": "CN",
     "code": "12578",
+    "operator": "cr",
     "lines": [
       "京包线呼和浩特段",
       "京包客运专线京呼段"
@@ -569,8 +614,9 @@
     "type": "station",
     "lat": 40.963345,
     "lon": 113.152254,
-    "country": "cr",
+    "country": "CN",
     "code": "12113",
+    "operator": "cr",
     "lines": [
       "京包客运专线京呼段"
     ]
@@ -581,8 +627,9 @@
     "type": "station",
     "lat": 43.602941,
     "lon": 122.266425,
-    "country": "cr",
+    "country": "CN",
     "code": "53363",
+    "operator": "cr",
     "lines": [
       "新通客运专线"
     ]
@@ -593,8 +640,9 @@
     "type": "station",
     "lat": 49.22843,
     "lon": 119.736663,
-    "country": "cr",
+    "country": "CN",
     "code": "57785",
+    "operator": "cr",
     "lines": [
       "滨洲线"
     ]
@@ -605,8 +653,9 @@
     "type": "station",
     "lat": 45.758149,
     "lon": 126.62486,
-    "country": "cr",
+    "country": "CN",
     "code": "55661",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "滨洲线",
@@ -620,8 +669,9 @@
     "type": "station",
     "lat": 45.784391,
     "lon": 126.707134,
-    "country": "cr",
+    "country": "CN",
     "code": "60002",
+    "operator": "cr",
     "lines": [
       "拉滨线",
       "滨北线"
@@ -633,8 +683,9 @@
     "type": "station",
     "lat": 45.705387,
     "lon": 126.571042,
-    "country": "cr",
+    "country": "CN",
     "code": "53469",
+    "operator": "cr",
     "lines": [
       "京哈线"
     ]
@@ -645,8 +696,9 @@
     "type": "station",
     "lat": 45.996263,
     "lon": 126.640569,
-    "country": "cr",
+    "country": "CN",
     "code": "59789",
+    "operator": "cr",
     "lines": [
       "滨北线"
     ]
@@ -657,8 +709,9 @@
     "type": "station",
     "lat": 44.589049,
     "lon": 129.60628,
-    "country": "cr",
+    "country": "CN",
     "code": "61193",
+    "operator": "cr",
     "lines": [
       "滨绥线哈牡段",
       "滨绥线牡绥段",
@@ -671,8 +724,9 @@
     "type": "station",
     "lat": 44.788929,
     "lon": 129.09908,
-    "country": "cr",
+    "country": "CN",
     "code": "61189",
+    "operator": "cr",
     "lines": [
       "哈牡客运专线"
     ]
@@ -683,8 +737,9 @@
     "type": "station",
     "lat": 44.404199,
     "lon": 131.129175,
-    "country": "cr",
+    "country": "CN",
     "code": "62231",
+    "operator": "cr",
     "lines": [
       "滨绥线牡绥段"
     ]
@@ -695,8 +750,9 @@
     "type": "station",
     "lat": 47.338071,
     "lon": 123.989172,
-    "country": "cr",
+    "country": "CN",
     "code": "56675",
+    "operator": "cr",
     "lines": [
       "平齐线",
       "齐北线"
@@ -708,8 +764,9 @@
     "type": "station",
     "lat": 52.986709,
     "lon": 122.500514,
-    "country": "cr",
+    "country": "CN",
     "code": "59150",
+    "operator": "cr",
     "lines": [
       "富西线"
     ]
@@ -720,8 +777,9 @@
     "type": "station",
     "lat": 43.909017,
     "lon": 125.318013,
-    "country": "cr",
+    "country": "CN",
     "code": "54116",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "长珲城际线"
@@ -733,8 +791,9 @@
     "type": "station",
     "lat": 43.990324,
     "lon": 125.693945,
-    "country": "cr",
+    "country": "CN",
     "code": "65960",
+    "operator": "cr",
     "lines": [
       "长珲城际线"
     ]
@@ -745,8 +804,9 @@
     "type": "station",
     "lat": 43.857022,
     "lon": 126.572451,
-    "country": "cr",
+    "country": "CN",
     "code": "63059",
+    "operator": "cr",
     "lines": [
       "长珲城际线"
     ]
@@ -757,8 +817,9 @@
     "type": "station",
     "lat": 43.165104,
     "lon": 124.36728,
-    "country": "cr",
+    "country": "CN",
     "code": "54011",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "平齐线",
@@ -771,8 +832,9 @@
     "type": "station",
     "lat": 43.135985,
     "lon": 124.43178,
-    "country": "cr",
+    "country": "CN",
     "code": "53487",
+    "operator": "cr",
     "lines": [
       "京哈高速线沈哈段"
     ]
@@ -783,8 +845,9 @@
     "type": "station",
     "lat": 41.7761,
     "lon": 125.91626,
-    "country": "cr",
+    "country": "CN",
     "code": "64418",
+    "operator": "cr",
     "lines": [
       "梅集线"
     ]
@@ -795,8 +858,9 @@
     "type": "station",
     "lat": 42.459589,
     "lon": 128.122375,
-    "country": "cr",
+    "country": "CN",
     "code": "64090",
+    "operator": "cr",
     "lines": [
       "沈佳高速线敦白段"
     ]
@@ -807,8 +871,9 @@
     "type": "station",
     "lat": 41.81696,
     "lon": 123.429815,
-    "country": "cr",
+    "country": "CN",
     "code": "53885",
+    "operator": "cr",
     "lines": [
       "京哈线",
       "京哈高速线沈哈段",
@@ -822,8 +887,9 @@
     "type": "station",
     "lat": 41.66637,
     "lon": 123.400938,
-    "country": "cr",
+    "country": "CN",
     "code": "63623",
+    "operator": "cr",
     "lines": [
       "沈大高速线",
       "沈丹客专线"
@@ -835,8 +901,9 @@
     "type": "station",
     "lat": 38.921389,
     "lon": 121.628079,
-    "country": "cr",
+    "country": "CN",
     "code": "53522",
+    "operator": "cr",
     "lines": [
       "沈大线"
     ]
@@ -847,8 +914,9 @@
     "type": "station",
     "lat": 39.015978,
     "lon": 121.601377,
-    "country": "cr",
+    "country": "CN",
     "code": "53520",
+    "operator": "cr",
     "lines": [
       "沈大线",
       "沈大高速线",
@@ -861,8 +929,9 @@
     "type": "station",
     "lat": 41.888034,
     "lon": 123.912075,
-    "country": "cr",
+    "country": "CN",
     "code": "55376",
+    "operator": "cr",
     "lines": [
       "沈佳高速线沈白段"
     ]
@@ -873,8 +942,9 @@
     "type": "station",
     "lat": 40.122162,
     "lon": 124.380192,
-    "country": "cr",
+    "country": "CN",
     "code": "55118",
+    "operator": "cr",
     "lines": [
       "沈丹客专线",
       "丹大线"
@@ -886,8 +956,9 @@
     "type": "station",
     "lat": 36.670731,
     "lon": 116.985072,
-    "country": "cr",
+    "country": "CN",
     "code": "16295",
+    "operator": "cr",
     "lines": [
       "京沪济南线",
       "济沪联络线",
@@ -901,8 +972,9 @@
     "type": "station",
     "lat": 36.669206,
     "lon": 116.887906,
-    "country": "cr",
+    "country": "CN",
     "code": "66812",
+    "operator": "cr",
     "lines": [
       "京济联络线",
       "京沪高速线"
@@ -914,8 +986,9 @@
     "type": "station",
     "lat": 36.788356,
     "lon": 118.051558,
-    "country": "cr",
+    "country": "CN",
     "code": "17786",
+    "operator": "cr",
     "lines": [
       "胶济客运专线"
     ]
@@ -926,8 +999,9 @@
     "type": "station",
     "lat": 36.357596,
     "lon": 117.955066,
-    "country": "cr",
+    "country": "CN",
     "code": "18383",
+    "operator": "cr",
     "lines": [
       "辛泰线"
     ]
@@ -938,8 +1012,9 @@
     "type": "station",
     "lat": 36.172083,
     "lon": 117.029348,
-    "country": "cr",
+    "country": "CN",
     "code": "66815",
+    "operator": "cr",
     "lines": [
       "京沪高速线"
     ]
@@ -950,8 +1025,9 @@
     "type": "station",
     "lat": 36.186857,
     "lon": 117.103623,
-    "country": "cr",
+    "country": "CN",
     "code": "16352",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "辛泰线"
@@ -963,8 +1039,9 @@
     "type": "station",
     "lat": 36.168694,
     "lon": 120.369524,
-    "country": "cr",
+    "country": "CN",
     "code": "18088",
+    "operator": "cr",
     "lines": [
       "胶济客运专线",
       "济青高速线"
@@ -976,8 +1053,9 @@
     "type": "station",
     "lat": 35.556214,
     "lon": 116.835541,
-    "country": "cr",
+    "country": "CN",
     "code": "16400",
+    "operator": "cr",
     "lines": [
       "京沪线"
     ]
@@ -988,8 +1066,9 @@
     "type": "station",
     "lat": 37.425663,
     "lon": 122.138637,
-    "country": "cr",
+    "country": "CN",
     "code": "18618",
+    "operator": "cr",
     "lines": [
       "青荣城际线威荣段"
     ]
@@ -1000,8 +1079,9 @@
     "type": "station",
     "lat": 37.547492,
     "lon": 121.377421,
-    "country": "cr",
+    "country": "CN",
     "code": "18557",
+    "operator": "cr",
     "lines": [
       "青烟直通线"
     ]
@@ -1012,8 +1092,9 @@
     "type": "station",
     "lat": 36.823534,
     "lon": 120.524985,
-    "country": "cr",
+    "country": "CN",
     "code": "18657",
+    "operator": "cr",
     "lines": [
       "莱西联络线",
       "青荣城际线青烟段"
@@ -1025,8 +1106,9 @@
     "type": "station",
     "lat": 31.251539,
     "lon": 121.45119,
-    "country": "cr",
+    "country": "CN",
     "code": "30671",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "沪宁城际线"
@@ -1038,8 +1120,9 @@
     "type": "station",
     "lat": 31.153863,
     "lon": 121.426983,
-    "country": "cr",
+    "country": "CN",
     "code": "32270",
+    "operator": "cr",
     "lines": [
       "沪春线",
       "上海南联络线（沪春三四线）"
@@ -1051,8 +1134,9 @@
     "type": "station",
     "lat": 31.196704,
     "lon": 121.314801,
-    "country": "cr",
+    "country": "CN",
     "code": "66100",
+    "operator": "cr",
     "lines": [
       "沪苏湖高速线",
       "虹封线",
@@ -1068,8 +1152,9 @@
     "type": "station",
     "lat": 31.264135,
     "lon": 121.398156,
-    "country": "cr",
+    "country": "CN",
     "code": "30662",
+    "operator": "cr",
     "lines": [
       "沪宁城际线"
     ]
@@ -1080,8 +1165,9 @@
     "type": "station",
     "lat": 30.985034,
     "lon": 121.22531,
-    "country": "cr",
+    "country": "CN",
     "code": "32022",
+    "operator": "cr",
     "lines": [
       "沪昆线",
       "沪苏湖高速线",
@@ -1094,8 +1180,9 @@
     "type": "station",
     "lat": 31.00168,
     "lon": 121.223402,
-    "country": "cr",
+    "country": "CN",
     "code": "32090",
+    "operator": "cr",
     "lines": []
   },
   "南京": {
@@ -1104,8 +1191,9 @@
     "type": "station",
     "lat": 32.09012,
     "lon": 118.793041,
-    "country": "cr",
+    "country": "CN",
     "code": "16805",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "沪宁城际线"
@@ -1117,12 +1205,26 @@
     "type": "station",
     "lat": 31.970063,
     "lon": 118.793877,
-    "country": "cr",
+    "country": "CN",
     "code": "16804",
+    "operator": "cr",
     "lines": [
       "沪宁沿江高速线",
       "京沪高速线",
       "宁蓉线宁汉段",
+      "宁杭高速线"
+    ]
+  },
+  "溧水": {
+    "name_zh": "溧水",
+    "name_en": "Lishui",
+    "type": "station",
+    "lat": 31.681406,
+    "lon": 119.091126,
+    "country": "CN",
+    "code": "31709",
+    "operator": "cr",
+    "lines": [
       "宁杭高速线"
     ]
   },
@@ -1132,8 +1234,9 @@
     "type": "station",
     "lat": 31.331842,
     "lon": 120.606681,
-    "country": "cr",
+    "country": "CN",
     "code": "30530",
+    "operator": "cr",
     "lines": [
       "京沪线",
       "沪宁城际线"
@@ -1145,8 +1248,9 @@
     "type": "station",
     "lat": 31.423241,
     "lon": 120.639286,
-    "country": "cr",
+    "country": "CN",
     "code": "66854",
+    "operator": "cr",
     "lines": [
       "京沪高速线"
     ]
@@ -1157,8 +1261,9 @@
     "type": "station",
     "lat": 31.343685,
     "lon": 120.706233,
-    "country": "cr",
+    "country": "CN",
     "code": "66328",
+    "operator": "cr",
     "lines": [
       "沪宁城际线"
     ]
@@ -1169,8 +1274,9 @@
     "type": "station",
     "lat": 31.374043,
     "lon": 120.520109,
-    "country": "cr",
+    "country": "CN",
     "code": "66325",
+    "operator": "cr",
     "lines": [
       "沪宁城际线"
     ]
@@ -1181,8 +1287,9 @@
     "type": "station",
     "lat": 31.065315,
     "lon": 120.795515,
-    "country": "cr",
+    "country": "CN",
     "code": "32026",
+    "operator": "cr",
     "lines": [
       "沪苏湖高速线"
     ]
@@ -1193,11 +1300,12 @@
     "type": "station",
     "lat": 31.512012,
     "lon": 121.192145,
-    "country": "cr",
+    "country": "CN",
     "code": "16565",
+    "operator": "cr",
     "lines": [
-      "太仓联络线",
       "沪宁沿江高速线",
+      "太仓联络线",
       "沪苏通线"
     ]
   },
@@ -1207,8 +1315,9 @@
     "type": "station",
     "lat": 31.699534,
     "lon": 120.775997,
-    "country": "cr",
+    "country": "CN",
     "code": "16561",
+    "operator": "cr",
     "lines": [
       "沪宁沿江高速线",
       "沪苏通线"
@@ -1220,8 +1329,9 @@
     "type": "station",
     "lat": 31.819379,
     "lon": 120.669746,
-    "country": "cr",
+    "country": "CN",
     "code": "16559",
+    "operator": "cr",
     "lines": [
       "沪宁沿江高速线",
       "沪苏通线"
@@ -1233,8 +1343,9 @@
     "type": "station",
     "lat": 31.499407,
     "lon": 120.387922,
-    "country": "cr",
+    "country": "CN",
     "code": "66322",
+    "operator": "cr",
     "lines": [
       "沪宁城际线"
     ]
@@ -1245,8 +1356,9 @@
     "type": "station",
     "lat": 31.863894,
     "lon": 120.274643,
-    "country": "cr",
+    "country": "CN",
     "code": "19097",
+    "operator": "cr",
     "lines": [
       "沪宁沿江高速线"
     ]
@@ -1257,8 +1369,9 @@
     "type": "station",
     "lat": 31.787334,
     "lon": 119.969199,
-    "country": "cr",
+    "country": "CN",
     "code": "30452",
+    "operator": "cr",
     "lines": [
       "沪宁城际线"
     ]
@@ -1269,8 +1382,9 @@
     "type": "station",
     "lat": 31.661213,
     "lon": 119.942015,
-    "country": "cr",
+    "country": "CN",
     "code": "19105",
+    "operator": "cr",
     "lines": [
       "沪宁沿江高速线"
     ]
@@ -1281,8 +1395,9 @@
     "type": "station",
     "lat": 32.199586,
     "lon": 119.427367,
-    "country": "cr",
+    "country": "CN",
     "code": "30407",
+    "operator": "cr",
     "lines": [
       "沪宁城际线",
       "镇江联络线"
@@ -1294,8 +1409,9 @@
     "type": "station",
     "lat": 34.268629,
     "lon": 117.29773,
-    "country": "cr",
+    "country": "CN",
     "code": "66827",
+    "operator": "cr",
     "lines": [
       "京沪高速线",
       "徐盐高速线",
@@ -1308,8 +1424,9 @@
     "type": "station",
     "lat": 33.87591,
     "lon": 118.276336,
-    "country": "cr",
+    "country": "CN",
     "code": "18828",
+    "operator": "cr",
     "lines": [
       "徐盐高速线"
     ]
@@ -1320,8 +1437,9 @@
     "type": "station",
     "lat": 33.570124,
     "lon": 119.182747,
-    "country": "cr",
+    "country": "CN",
     "code": "18830",
+    "operator": "cr",
     "lines": [
       "徐盐高速线",
       "连镇高速线"
@@ -1333,8 +1451,9 @@
     "type": "station",
     "lat": 31.859289,
     "lon": 121.640909,
-    "country": "cr",
+    "country": "CN",
     "code": "19130",
+    "operator": "cr",
     "lines": [
       "宁启线"
     ]
@@ -1345,8 +1464,9 @@
     "type": "station",
     "lat": 34.610303,
     "lon": 119.158251,
-    "country": "cr",
+    "country": "CN",
     "code": "38531",
+    "operator": "cr",
     "lines": [
       "青盐线"
     ]
@@ -1357,8 +1477,9 @@
     "type": "station",
     "lat": 33.383739,
     "lon": 120.16919,
-    "country": "cr",
+    "country": "CN",
     "code": "18968",
+    "operator": "cr",
     "lines": [
       "盐通高速线",
       "新长线",
@@ -1371,8 +1492,9 @@
     "type": "station",
     "lat": 32.549268,
     "lon": 120.50033,
-    "country": "cr",
+    "country": "CN",
     "code": "17370",
+    "operator": "cr",
     "lines": [
       "盐通高速线",
       "宁启线",
@@ -1385,8 +1507,9 @@
     "type": "station",
     "lat": 32.391623,
     "lon": 119.345396,
-    "country": "cr",
+    "country": "CN",
     "code": "17364",
+    "operator": "cr",
     "lines": [
       "宁启线"
     ]
@@ -1397,8 +1520,9 @@
     "type": "station",
     "lat": 32.40657,
     "lon": 119.523948,
-    "country": "cr",
+    "country": "CN",
     "code": "17334",
+    "operator": "cr",
     "lines": [
       "连镇高速线"
     ]
@@ -1409,8 +1533,9 @@
     "type": "station",
     "lat": 30.246198,
     "lon": 120.177326,
-    "country": "cr",
+    "country": "CN",
     "code": "32252",
+    "operator": "cr",
     "lines": [
       "笕杭线",
       "宣杭线"
@@ -1422,8 +1547,9 @@
     "type": "station",
     "lat": 30.293964,
     "lon": 120.207892,
-    "country": "cr",
+    "country": "CN",
     "code": "32001",
+    "operator": "cr",
     "lines": [
       "沪昆线",
       "沪昆高速线沪赣段",
@@ -1437,8 +1563,9 @@
     "type": "station",
     "lat": 30.174535,
     "lon": 120.288713,
-    "country": "cr",
+    "country": "CN",
     "code": "32460",
+    "operator": "cr",
     "lines": [
       "沪昆线",
       "萧甬线",
@@ -1452,8 +1579,9 @@
     "type": "station",
     "lat": 30.300426,
     "lon": 119.98213,
-    "country": "cr",
+    "country": "CN",
     "code": "66279",
+    "operator": "cr",
     "lines": [
       "合杭高速线"
     ]
@@ -1464,8 +1592,9 @@
     "type": "station",
     "lat": 30.016435,
     "lon": 120.574742,
-    "country": "cr",
+    "country": "CN",
     "code": "33185",
+    "operator": "cr",
     "lines": [
       "萧甬线"
     ]
@@ -1476,8 +1605,9 @@
     "type": "station",
     "lat": 30.102819,
     "lon": 120.532994,
-    "country": "cr",
+    "country": "CN",
     "code": "33187",
+    "operator": "cr",
     "lines": [
       "杭深线杭甬段"
     ]
@@ -1488,8 +1618,9 @@
     "type": "station",
     "lat": 29.730065,
     "lon": 120.181038,
-    "country": "cr",
+    "country": "CN",
     "code": "32501",
+    "operator": "cr",
     "lines": [
       "沪昆高速线沪赣段"
     ]
@@ -1500,8 +1631,9 @@
     "type": "station",
     "lat": 29.865233,
     "lon": 121.532402,
-    "country": "cr",
+    "country": "CN",
     "code": "33284",
+    "operator": "cr",
     "lines": [
       "杭深线杭甬段",
       "杭深线甬深段"
@@ -1513,8 +1645,9 @@
     "type": "station",
     "lat": 27.969313,
     "lon": 120.581208,
-    "country": "cr",
+    "country": "CN",
     "code": "33990",
+    "operator": "cr",
     "lines": [
       "杭深线甬深段",
       "金温线"
@@ -1526,8 +1659,9 @@
     "type": "station",
     "lat": 29.380372,
     "lon": 120.038677,
-    "country": "cr",
+    "country": "CN",
     "code": "32537",
+    "operator": "cr",
     "lines": [
       "杭温高速线杭义段"
     ]
@@ -1538,8 +1672,9 @@
     "type": "station",
     "lat": 29.217579,
     "lon": 120.260177,
-    "country": "cr",
+    "country": "CN",
     "code": "21011",
+    "operator": "cr",
     "lines": [
       "杭温高速线义温段"
     ]
@@ -1550,8 +1685,9 @@
     "type": "station",
     "lat": 30.864274,
     "lon": 120.019428,
-    "country": "cr",
+    "country": "CN",
     "code": "31854",
+    "operator": "cr",
     "lines": [
       "沪苏湖高速线",
       "宁杭高速线",
@@ -1564,8 +1700,9 @@
     "type": "station",
     "lat": 30.829534,
     "lon": 120.402696,
-    "country": "cr",
+    "country": "CN",
     "code": "32028",
+    "operator": "cr",
     "lines": [
       "沪苏湖高速线"
     ]
@@ -1576,8 +1713,9 @@
     "type": "station",
     "lat": 30.766969,
     "lon": 120.758817,
-    "country": "cr",
+    "country": "CN",
     "code": "32138",
+    "operator": "cr",
     "lines": [
       "沪昆线"
     ]
@@ -1588,8 +1726,9 @@
     "type": "station",
     "lat": 30.693215,
     "lon": 120.794937,
-    "country": "cr",
+    "country": "CN",
     "code": "32013",
+    "operator": "cr",
     "lines": [
       "沪昆高速线沪赣段"
     ]
@@ -1600,8 +1739,9 @@
     "type": "station",
     "lat": 30.535639,
     "lon": 120.680671,
-    "country": "cr",
+    "country": "CN",
     "code": "32159",
+    "operator": "cr",
     "lines": [
       "沪昆线"
     ]
@@ -1612,8 +1752,9 @@
     "type": "station",
     "lat": 28.927599,
     "lon": 118.876167,
-    "country": "cr",
+    "country": "CN",
     "code": "32621",
+    "operator": "cr",
     "lines": [
       "沪昆线",
       "衢九线",
@@ -1626,8 +1767,9 @@
     "type": "station",
     "lat": 31.800958,
     "lon": 117.284759,
-    "country": "cr",
+    "country": "CN",
     "code": "19423",
+    "operator": "cr",
     "lines": [
       "宁蓉线宁汉段",
       "合福高速线合黄段"
@@ -1639,8 +1781,9 @@
     "type": "station",
     "lat": 29.818051,
     "lon": 118.267618,
-    "country": "cr",
+    "country": "CN",
     "code": "34130",
+    "operator": "cr",
     "lines": [
       "池黄高速线",
       "杭昌高速线",
@@ -1653,8 +1796,9 @@
     "type": "station",
     "lat": 29.887332,
     "lon": 118.042367,
-    "country": "cr",
+    "country": "CN",
     "code": "35927",
+    "operator": "cr",
     "lines": [
       "池黄高速线"
     ]
@@ -1665,8 +1809,9 @@
     "type": "station",
     "lat": 31.350149,
     "lon": 118.387385,
-    "country": "cr",
+    "country": "CN",
     "code": "30926",
+    "operator": "cr",
     "lines": [
       "淮南线",
       "皖赣线",
@@ -1679,8 +1824,9 @@
     "type": "station",
     "lat": 31.250829,
     "lon": 118.373327,
-    "country": "cr",
+    "country": "CN",
     "code": "30928",
+    "operator": "cr",
     "lines": [
       "合杭高速线"
     ]
@@ -1691,8 +1837,9 @@
     "type": "station",
     "lat": 30.622132,
     "lon": 117.516126,
-    "country": "cr",
+    "country": "CN",
     "code": "31015",
+    "operator": "cr",
     "lines": [
       "池黄高速线"
     ]
@@ -1703,8 +1850,9 @@
     "type": "station",
     "lat": 26.117167,
     "lon": 119.315415,
-    "country": "cr",
+    "country": "CN",
     "code": "34682",
+    "operator": "cr",
     "lines": [
       "昌福线",
       "合福高速线饶福段"
@@ -1716,8 +1864,9 @@
     "type": "station",
     "lat": 25.988279,
     "lon": 119.385601,
-    "country": "cr",
+    "country": "CN",
     "code": "34151",
+    "operator": "cr",
     "lines": [
       "甬广高速线",
       "杭深线甬深段"
@@ -1729,8 +1878,9 @@
     "type": "station",
     "lat": 24.470209,
     "lon": 118.111225,
-    "country": "cr",
+    "country": "CN",
     "code": "34583",
+    "operator": "cr",
     "lines": [
       "鹰厦线"
     ]
@@ -1741,8 +1891,9 @@
     "type": "station",
     "lat": 24.638772,
     "lon": 118.06903,
-    "country": "cr",
+    "country": "CN",
     "code": "34178",
+    "operator": "cr",
     "lines": [
       "甬广高速线",
       "杭深线甬深段"
@@ -1754,8 +1905,9 @@
     "type": "station",
     "lat": 24.976173,
     "lon": 118.563221,
-    "country": "cr",
+    "country": "CN",
     "code": "34169",
+    "operator": "cr",
     "lines": [
       "杭深线甬深段"
     ]
@@ -1766,8 +1918,9 @@
     "type": "station",
     "lat": 24.460352,
     "lon": 117.711826,
-    "country": "cr",
+    "country": "CN",
     "code": "35067",
+    "operator": "cr",
     "lines": [
       "杭深线甬深段"
     ]
@@ -1778,8 +1931,9 @@
     "type": "station",
     "lat": 23.152877,
     "lon": 113.319977,
-    "country": "cr",
+    "country": "CN",
     "code": "23711",
+    "operator": "cr",
     "lines": [
       "广深城际线"
     ]
@@ -1790,8 +1944,9 @@
     "type": "station",
     "lat": 22.991077,
     "lon": 113.261758,
-    "country": "cr",
+    "country": "CN",
     "code": "65848",
+    "operator": "cr",
     "lines": [
       "京广高速线武广段",
       "南广线"
@@ -1799,12 +1954,13 @@
   },
   "广州北": {
     "name_zh": "广州北",
-    "name_en": "Guangzhou N,",
+    "name_en": "Guangzhou N.",
     "type": "station",
     "lat": 23.379972,
     "lon": 113.198418,
-    "country": "cr",
+    "country": "CN",
     "code": "23471",
+    "operator": "cr",
     "lines": [
       "花广联络线",
       "京广高速线武广段"
@@ -1816,8 +1972,9 @@
     "type": "station",
     "lat": 23.193938,
     "lon": 113.241036,
-    "country": "cr",
+    "country": "CN",
     "code": "23475",
+    "operator": "cr",
     "lines": [
       "花广联络线"
     ]
@@ -1828,8 +1985,9 @@
     "type": "station",
     "lat": 23.136824,
     "lon": 113.60113,
-    "country": "cr",
+    "country": "CN",
     "code": "23738",
+    "operator": "cr",
     "lines": [
       "广深城际线"
     ]
@@ -1840,8 +1998,9 @@
     "type": "station",
     "lat": 23.379797,
     "lon": 113.197517,
-    "country": "gi",
+    "country": "CN",
     "code": "Q06",
+    "operator": "gi",
     "lines": [
       "广州东环城际线",
       "广清城际线"
@@ -1853,8 +2012,9 @@
     "type": "station",
     "lat": 23.656003,
     "lon": 113.061023,
-    "country": "gi",
+    "country": "CN",
     "code": "Q11",
+    "operator": "gi",
     "lines": [
       "广清城际线"
     ]
@@ -1865,8 +2025,9 @@
     "type": "station",
     "lat": 23.102843,
     "lon": 113.362706,
-    "country": "gi",
+    "country": "CN",
     "code": "D04",
+    "operator": "gi",
     "lines": [
       "琶莲城际线"
     ]
@@ -1877,8 +2038,9 @@
     "type": "station",
     "lat": 23.398986,
     "lon": 113.300541,
-    "country": "gi",
+    "country": "CN",
     "code": "D13",
+    "operator": "gi",
     "lines": [
       "广州东环城际线"
     ]
@@ -1889,11 +2051,12 @@
     "type": "station",
     "lat": 23.01087,
     "lon": 113.620906,
-    "country": "gi",
+    "country": "CN",
     "code": "H07",
+    "operator": "gi",
     "lines": [
-      "穗深城际线",
-      "广惠城际线"
+      "广惠城际线",
+      "穗深城际线"
     ]
   },
   "西平西": {
@@ -1902,8 +2065,9 @@
     "type": "station",
     "lat": 22.996362,
     "lon": 113.74057,
-    "country": "gi",
+    "country": "CN",
     "code": "H09",
+    "operator": "gi",
     "lines": [
       "广惠城际线"
     ]
@@ -1914,8 +2078,9 @@
     "type": "station",
     "lat": 22.623983,
     "lon": 113.806032,
-    "country": "gi",
+    "country": "CN",
     "code": "S23",
+    "operator": "gi",
     "lines": [
       "穗深城际线"
     ]
@@ -1926,8 +2091,9 @@
     "type": "station",
     "lat": 22.964447,
     "lon": 113.124193,
-    "country": "gi",
+    "country": "CN",
     "code": "Z04",
+    "operator": "gi",
     "lines": [
       "广肇城际线"
     ]
@@ -1938,8 +2104,9 @@
     "type": "station",
     "lat": 23.011695,
     "lon": 113.0622,
-    "country": "gi",
+    "country": "CN",
     "code": "Z05",
+    "operator": "gi",
     "lines": [
       "广肇城际线"
     ]
@@ -1950,8 +2117,9 @@
     "type": "station",
     "lat": 22.609954,
     "lon": 114.023289,
-    "country": "cr",
+    "country": "CN",
     "code": "65860",
+    "operator": "cr",
     "lines": [
       "京广高速线武广段",
       "杭深线甬深段"
@@ -1963,8 +2131,9 @@
     "type": "station",
     "lat": 22.535525,
     "lon": 114.112668,
-    "country": "cr",
+    "country": "CN",
     "code": "23819",
+    "operator": "cr",
     "lines": [
       "广深城际线"
     ]
@@ -1975,8 +2144,9 @@
     "type": "station",
     "lat": 22.54089,
     "lon": 114.051891,
-    "country": "cr",
+    "country": "CN",
     "code": "65891",
+    "operator": "cr",
     "lines": [
       "广深港高速线"
     ]
@@ -1987,8 +2157,9 @@
     "type": "station",
     "lat": 23.092445,
     "lon": 113.854212,
-    "country": "cr",
+    "country": "CN",
     "code": "23757",
+    "operator": "cr",
     "lines": [
       "广深城际线"
     ]
@@ -1999,8 +2170,9 @@
     "type": "station",
     "lat": 22.787649,
     "lon": 114.487586,
-    "country": "cr",
+    "country": "CN",
     "code": "25851",
+    "operator": "cr",
     "lines": [
       "杭深线甬深段"
     ]
@@ -2011,11 +2183,12 @@
     "type": "station",
     "lat": 23.082342,
     "lon": 113.028258,
-    "country": "cr",
+    "country": "CN",
     "code": "24568",
+    "operator": "cr",
     "lines": [
-      "南广线",
-      "广肇城际线"
+      "广肇城际线",
+      "南广线"
     ]
   },
   "香港西九龙": {
@@ -2024,8 +2197,9 @@
     "type": "station",
     "lat": 22.303882,
     "lon": 114.165443,
-    "country": "cr",
+    "country": "CN",
     "code": "65896",
+    "operator": "cr",
     "lines": [
       "广深港高速线"
     ]
@@ -2036,8 +2210,9 @@
     "type": "station",
     "lat": 22.829139,
     "lon": 108.311523,
-    "country": "cr",
+    "country": "CN",
     "code": "36428",
+    "operator": "cr",
     "lines": [
       "南凭高速线",
       "南昆客运专线"
@@ -2049,8 +2224,9 @@
     "type": "station",
     "lat": 22.84528,
     "lon": 108.409606,
-    "country": "cr",
+    "country": "CN",
     "code": "36452",
+    "operator": "cr",
     "lines": [
       "南珠高速线",
       "贵南高速线"
@@ -2062,8 +2238,9 @@
     "type": "station",
     "lat": 22.602692,
     "lon": 108.18296,
-    "country": "cr",
+    "country": "CN",
     "code": "36433",
+    "operator": "cr",
     "lines": [
       "南凭高速线"
     ]
@@ -2074,8 +2251,9 @@
     "type": "station",
     "lat": 22.359854,
     "lon": 107.390852,
-    "country": "cr",
+    "country": "CN",
     "code": "36437",
+    "operator": "cr",
     "lines": [
       "南凭高速线"
     ]
@@ -2086,8 +2264,9 @@
     "type": "station",
     "lat": 22.724276,
     "lon": 110.245228,
-    "country": "cr",
+    "country": "CN",
     "code": "3ba9bb5d",
+    "operator": "cr",
     "lines": [
       "南珠高速线"
     ]
@@ -2098,8 +2277,9 @@
     "type": "station",
     "lat": 22.599788,
     "lon": 110.153209,
-    "country": "cr",
+    "country": "CN",
     "code": "37148",
+    "operator": "cr",
     "lines": [
       "黎湛线"
     ]
@@ -2110,8 +2290,9 @@
     "type": "station",
     "lat": 24.70179,
     "lon": 108.061382,
-    "country": "cr",
+    "country": "CN",
     "code": "37376",
+    "operator": "cr",
     "lines": [
       "黔桂线"
     ]
@@ -2122,8 +2303,9 @@
     "type": "station",
     "lat": 24.714364,
     "lon": 108.171197,
-    "country": "cr",
+    "country": "CN",
     "code": "47516",
+    "operator": "cr",
     "lines": [
       "贵南高速线"
     ]
@@ -2134,8 +2316,9 @@
     "type": "station",
     "lat": 19.943528,
     "lon": 110.456955,
-    "country": "cr",
+    "country": "CN",
     "code": "51444",
+    "operator": "cr",
     "lines": [
       "海南东环高速线"
     ]
@@ -2146,8 +2329,9 @@
     "type": "station",
     "lat": 19.998119,
     "lon": 110.32769,
-    "country": "cr",
+    "country": "CN",
     "code": "51450",
+    "operator": "cr",
     "lines": [
       "海南东环高速线"
     ]
@@ -2158,8 +2342,9 @@
     "type": "station",
     "lat": 19.985488,
     "lon": 110.338834,
-    "country": "cr",
+    "country": "CN",
     "code": "51447",
+    "operator": "cr",
     "lines": [
       "海南东环高速线"
     ]
@@ -2170,8 +2355,9 @@
     "type": "station",
     "lat": 18.297786,
     "lon": 109.48898,
-    "country": "cr",
+    "country": "CN",
     "code": "51481",
+    "operator": "cr",
     "lines": [
       "海南东环高速线",
       "海南西环高速线"
@@ -2183,8 +2369,9 @@
     "type": "station",
     "lat": 18.37769,
     "lon": 109.153496,
-    "country": "cr",
+    "country": "CN",
     "code": "51480",
+    "operator": "cr",
     "lines": [
       "崖州联络线",
       "海南西环高速线"
@@ -2196,8 +2383,9 @@
     "type": "station",
     "lat": 18.310561,
     "lon": 109.404688,
-    "country": "cr",
+    "country": "CN",
     "code": "51682",
+    "operator": "cr",
     "lines": [
       "凤凰联络线",
       "海南西环高速线"
@@ -2209,8 +2397,9 @@
     "type": "station",
     "lat": 28.665071,
     "lon": 115.913113,
-    "country": "cr",
+    "country": "CN",
     "code": "25424",
+    "operator": "cr",
     "lines": [
       "京九线南昌段"
     ]
@@ -2221,8 +2410,9 @@
     "type": "station",
     "lat": 27.914737,
     "lon": 114.891878,
-    "country": "cr",
+    "country": "CN",
     "code": "65643",
+    "operator": "cr",
     "lines": [
       "沪昆高速线沪赣段",
       "沪昆高速线沪赣段"
@@ -2234,8 +2424,9 @@
     "type": "station",
     "lat": 27.809323,
     "lon": 114.658631,
-    "country": "cr",
+    "country": "CN",
     "code": "33023",
+    "operator": "cr",
     "lines": [
       "沪昆线"
     ]
@@ -2246,8 +2437,9 @@
     "type": "station",
     "lat": 27.792421,
     "lon": 114.431339,
-    "country": "cr",
+    "country": "CN",
     "code": "65646",
+    "operator": "cr",
     "lines": [
       "沪昆线",
       "沪昆高速线赣湘段"
@@ -2259,8 +2451,9 @@
     "type": "station",
     "lat": 28.197434,
     "lon": 113.007695,
-    "country": "cr",
+    "country": "CN",
     "code": "22874",
+    "operator": "cr",
     "lines": [
       "湘潭城际线",
       "长沙西城际线"
@@ -2272,8 +2465,9 @@
     "type": "station",
     "lat": 28.14943,
     "lon": 113.058156,
-    "country": "cr",
+    "country": "CN",
     "code": "65818",
+    "operator": "cr",
     "lines": [
       "京广高速线武广段",
       "沪昆高速线赣湘段"
@@ -2285,8 +2479,9 @@
     "type": "station",
     "lat": 28.233342,
     "lon": 112.902291,
-    "country": "cr",
+    "country": "CN",
     "code": "65207",
+    "operator": "cr",
     "lines": [
       "长沙西城际线"
     ]
@@ -2297,8 +2492,9 @@
     "type": "station",
     "lat": 28.226739,
     "lon": 112.974665,
-    "country": "cr",
+    "country": "CN",
     "code": "65213",
+    "operator": "cr",
     "lines": [
       "长沙西城际线"
     ]
@@ -2309,8 +2505,9 @@
     "type": "station",
     "lat": 27.878918,
     "lon": 112.906942,
-    "country": "cr",
+    "country": "CN",
     "code": "35312",
+    "operator": "cr",
     "lines": [
       "湘潭城际线"
     ]
@@ -2321,8 +2518,9 @@
     "type": "station",
     "lat": 27.968399,
     "lon": 112.936745,
-    "country": "cr",
+    "country": "CN",
     "code": "65660",
+    "operator": "cr",
     "lines": [
       "沪昆高速线赣湘段"
     ]
@@ -2333,8 +2531,9 @@
     "type": "station",
     "lat": 28.020293,
     "lon": 109.598798,
-    "country": "cr",
+    "country": "CN",
     "code": "65609",
+    "operator": "cr",
     "lines": [
       "张吉怀高速线"
     ]
@@ -2345,8 +2544,9 @@
     "type": "station",
     "lat": 30.60937,
     "lon": 114.419997,
-    "country": "cr",
+    "country": "CN",
     "code": "65800",
+    "operator": "cr",
     "lines": [
       "京广高速线武广段"
     ]
@@ -2357,8 +2557,9 @@
     "type": "station",
     "lat": 30.620301,
     "lon": 114.250053,
-    "country": "cr",
+    "country": "CN",
     "code": "21050",
+    "operator": "cr",
     "lines": [
       "宁蓉线宁汉段",
       "宁蓉线汉渝段"
@@ -2370,8 +2571,9 @@
     "type": "station",
     "lat": 30.53277,
     "lon": 114.311764,
-    "country": "cr",
+    "country": "CN",
     "code": "21077",
+    "operator": "cr",
     "lines": [
       "京广线郑武段",
       "京广线武广段"
@@ -2383,8 +2585,9 @@
     "type": "station",
     "lat": 30.748088,
     "lon": 111.469488,
-    "country": "cr",
+    "country": "CN",
     "code": "45195",
+    "operator": "cr",
     "lines": [
       "沪渝蓉高速线"
     ]
@@ -2395,8 +2598,9 @@
     "type": "station",
     "lat": 34.746928,
     "lon": 113.652007,
-    "country": "cr",
+    "country": "CN",
     "code": "20750",
+    "operator": "cr",
     "lines": [
       "京广线石郑段",
       "陇海线"
@@ -2408,8 +2612,9 @@
     "type": "station",
     "lat": 34.760065,
     "lon": 113.773225,
-    "country": "cr",
+    "country": "CN",
     "code": "65773",
+    "operator": "cr",
     "lines": [
       "郑州东北联络线",
       "京广高速线石武段",
@@ -2424,8 +2629,9 @@
     "type": "station",
     "lat": 34.771678,
     "lon": 114.348279,
-    "country": "cr",
+    "country": "CN",
     "code": "38774",
+    "operator": "cr",
     "lines": [
       "陇海线",
       "郑开城际线"
@@ -2437,8 +2643,9 @@
     "type": "station",
     "lat": 34.686405,
     "lon": 112.430106,
-    "country": "cr",
+    "country": "CN",
     "code": "39173",
+    "operator": "cr",
     "lines": [
       "陇海线"
     ]
@@ -2449,8 +2656,9 @@
     "type": "station",
     "lat": 36.08474,
     "lon": 114.447441,
-    "country": "cr",
+    "country": "CN",
     "code": "22531",
+    "operator": "cr",
     "lines": [
       "京广高速线石武段"
     ]
@@ -2461,8 +2669,9 @@
     "type": "station",
     "lat": 35.222383,
     "lon": 113.22855,
-    "country": "cr",
+    "country": "CN",
     "code": "38402",
+    "operator": "cr",
     "lines": [
       "郑太客运专线"
     ]
@@ -2473,8 +2682,9 @@
     "type": "station",
     "lat": 35.110954,
     "lon": 112.568272,
-    "country": "cr",
+    "country": "CN",
     "code": "44114",
+    "operator": "cr",
     "lines": [
       "焦柳线"
     ]
@@ -2485,8 +2695,9 @@
     "type": "station",
     "lat": 34.595597,
     "lon": 112.454376,
-    "country": "cr",
+    "country": "CN",
     "code": "39053",
+    "operator": "cr",
     "lines": [
       "徐兰高速线郑西段"
     ]
@@ -2497,8 +2708,9 @@
     "type": "station",
     "lat": 37.859785,
     "lon": 112.581228,
-    "country": "cr",
+    "country": "CN",
     "code": "26447",
+    "operator": "cr",
     "lines": [
       "石太客运专线"
     ]
@@ -2509,8 +2721,9 @@
     "type": "station",
     "lat": 29.612607,
     "lon": 106.547387,
-    "country": "cr",
+    "country": "CN",
     "code": "35143",
+    "operator": "cr",
     "lines": [
       "宁蓉线汉渝段"
     ]
@@ -2521,8 +2734,9 @@
     "type": "station",
     "lat": 29.503728,
     "lon": 106.433378,
-    "country": "cr",
+    "country": "CN",
     "code": "30077",
+    "operator": "cr",
     "lines": [
       "渝昆高速线",
       "井西线"
@@ -2534,8 +2748,9 @@
     "type": "station",
     "lat": 29.556784,
     "lon": 106.457283,
-    "country": "cr",
+    "country": "CN",
     "code": "47066",
+    "operator": "cr",
     "lines": [
       "成渝高速线"
     ]
@@ -2546,8 +2761,9 @@
     "type": "station",
     "lat": 26.5604,
     "lon": 106.69866,
-    "country": "cr",
+    "country": "CN",
     "code": "37646",
+    "operator": "cr",
     "lines": [
       "贵阳客车线",
       "渝贵线"
@@ -2559,8 +2775,9 @@
     "type": "station",
     "lat": 26.623156,
     "lon": 106.670656,
-    "country": "cr",
+    "country": "CN",
     "code": "47483",
+    "operator": "cr",
     "lines": [
       "沪昆高速线贵昆段",
       "渝贵线",
@@ -2573,8 +2790,9 @@
     "type": "station",
     "lat": 26.469122,
     "lon": 106.481856,
-    "country": "cr",
+    "country": "CN",
     "code": "65501",
+    "operator": "cr",
     "lines": [
       "沪昆高速线贵昆段",
       "贵阳环线"
@@ -2586,8 +2804,9 @@
     "type": "station",
     "lat": 26.397133,
     "lon": 106.622192,
-    "country": "cr",
+    "country": "CN",
     "code": "65476",
+    "operator": "cr",
     "lines": [
       "贵阳环线"
     ]
@@ -2598,8 +2817,9 @@
     "type": "station",
     "lat": 27.038084,
     "lon": 108.405681,
-    "country": "cr",
+    "country": "CN",
     "code": "35624",
+    "operator": "cr",
     "lines": [
       "沪昆线"
     ]
@@ -2610,8 +2830,9 @@
     "type": "station",
     "lat": 30.63145,
     "lon": 104.140165,
-    "country": "cr",
+    "country": "CN",
     "code": "46543",
+    "operator": "cr",
     "lines": [
       "西成客运专线四川段",
       "成贵客运专线成都段"
@@ -2623,8 +2844,9 @@
     "type": "station",
     "lat": 30.607803,
     "lon": 104.066034,
-    "country": "cr",
+    "country": "CN",
     "code": "47675",
+    "operator": "cr",
     "lines": [
       "成昆线",
       "成贵客运专线成都段"
@@ -2636,8 +2858,9 @@
     "type": "station",
     "lat": 30.687917,
     "lon": 103.977501,
-    "country": "cr",
+    "country": "CN",
     "code": "47675",
+    "operator": "cr",
     "lines": [
       "成雅线"
     ]
@@ -2648,8 +2871,9 @@
     "type": "station",
     "lat": 30.57191,
     "lon": 103.954297,
-    "country": "cr",
+    "country": "CN",
     "code": "47621",
+    "operator": "cr",
     "lines": [
       "成贵客运专线成都段"
     ]
@@ -2660,8 +2884,9 @@
     "type": "station",
     "lat": 30.960216,
     "lon": 103.637,
-    "country": "cr",
+    "country": "CN",
     "code": "46063",
+    "operator": "cr",
     "lines": [
       "新成灌线"
     ]
@@ -2672,8 +2897,9 @@
     "type": "station",
     "lat": 30.759841,
     "lon": 103.970208,
-    "country": "cr",
+    "country": "CN",
     "code": "46042",
+    "operator": "cr",
     "lines": [
       "新成灌线"
     ]
@@ -2684,8 +2910,9 @@
     "type": "station",
     "lat": 31.011319,
     "lon": 104.272993,
-    "country": "cr",
+    "country": "CN",
     "code": "47607",
+    "operator": "cr",
     "lines": [
       "西成客运专线四川段"
     ]
@@ -2696,8 +2923,9 @@
     "type": "station",
     "lat": 32.747465,
     "lon": 103.612973,
-    "country": "cr",
+    "country": "CN",
     "code": "45587",
+    "operator": "cr",
     "lines": [
       "川青线"
     ]
@@ -2708,8 +2936,9 @@
     "type": "station",
     "lat": 27.871463,
     "lon": 102.160204,
-    "country": "cr",
+    "country": "CN",
     "code": "46140",
+    "operator": "cr",
     "lines": [
       "峨广线"
     ]
@@ -2720,8 +2949,9 @@
     "type": "station",
     "lat": 26.471606,
     "lon": 101.74648,
-    "country": "cr",
+    "country": "CN",
     "code": "46158",
+    "operator": "cr",
     "lines": [
       "峨广线"
     ]
@@ -2732,8 +2962,9 @@
     "type": "station",
     "lat": 30.128504,
     "lon": 104.679853,
-    "country": "cr",
+    "country": "CN",
     "code": "46545",
+    "operator": "cr",
     "lines": [
       "成渝高速线"
     ]
@@ -2744,8 +2975,9 @@
     "type": "station",
     "lat": 30.0319,
     "lon": 103.054333,
-    "country": "cr",
+    "country": "CN",
     "code": "46219",
+    "operator": "cr",
     "lines": [
       "成雅线"
     ]
@@ -2756,8 +2988,9 @@
     "type": "station",
     "lat": 29.578584,
     "lon": 103.464646,
-    "country": "cr",
+    "country": "CN",
     "code": "47737",
+    "operator": "cr",
     "lines": [
       "峨眉山线"
     ]
@@ -2768,8 +3001,9 @@
     "type": "station",
     "lat": 29.604572,
     "lon": 103.709666,
-    "country": "cr",
+    "country": "CN",
     "code": "47635",
+    "operator": "cr",
     "lines": [
       "成贵客运专线乐宜段",
       "峨眉山线"
@@ -2781,8 +3015,9 @@
     "type": "station",
     "lat": 25.017766,
     "lon": 102.720356,
-    "country": "cr",
+    "country": "CN",
     "code": "48197",
+    "operator": "cr",
     "lines": [
       "广昆线",
       "南昆客运专线"
@@ -2794,8 +3029,9 @@
     "type": "station",
     "lat": 24.873557,
     "lon": 102.86011,
-    "country": "cr",
+    "country": "CN",
     "code": "48778",
+    "operator": "cr",
     "lines": [
       "中老昆万线",
       "沪昆高速线贵昆段",
@@ -2808,8 +3044,9 @@
     "type": "station",
     "lat": 22.778273,
     "lon": 100.940768,
-    "country": "cr",
+    "country": "CN",
     "code": "48647",
+    "operator": "cr",
     "lines": [
       "中老昆万线"
     ]
@@ -2820,8 +3057,9 @@
     "type": "station",
     "lat": 26.81422,
     "lon": 100.251512,
-    "country": "cr",
+    "country": "CN",
     "code": "48417",
+    "operator": "cr",
     "lines": [
       "滇藏线"
     ]
@@ -2832,8 +3070,9 @@
     "type": "station",
     "lat": 27.813351,
     "lon": 99.688547,
-    "country": "cr",
+    "country": "CN",
     "code": "49534",
+    "operator": "cr",
     "lines": [
       "滇藏线"
     ]
@@ -2844,8 +3083,9 @@
     "type": "station",
     "lat": 34.374616,
     "lon": 107.148467,
-    "country": "cr",
+    "country": "CN",
     "code": "39629",
+    "operator": "cr",
     "lines": [
       "陇海线",
       "宝成线"
@@ -2857,8 +3097,9 @@
     "type": "station",
     "lat": 33.09259,
     "lon": 107.025408,
-    "country": "cr",
+    "country": "CN",
     "code": "45713",
+    "operator": "cr",
     "lines": [
       "阳安线",
       "西成客运专线陕西段"
@@ -2870,10 +3111,11 @@
     "type": "station",
     "lat": 36.069222,
     "lon": 103.74973,
-    "country": "cr",
+    "country": "CN",
     "code": "41492",
+    "operator": "cr",
     "lines": [
-      "徐兰高速线宝兰段",
+      "徐兰高速线西兰段",
       "兰新客运专线"
     ]
   },
@@ -2883,8 +3125,9 @@
     "type": "station",
     "lat": 34.566714,
     "lon": 105.894849,
-    "country": "cr",
+    "country": "CN",
     "code": "39701",
+    "operator": "cr",
     "lines": [
       "陇海线"
     ]
@@ -2895,10 +3138,11 @@
     "type": "station",
     "lat": 34.549947,
     "lon": 105.854066,
-    "country": "cr",
+    "country": "CN",
     "code": "38988",
+    "operator": "cr",
     "lines": [
-      "徐兰高速线宝兰段"
+      "徐兰高速线西兰段"
     ]
   },
   "银川": {
@@ -2907,8 +3151,9 @@
     "type": "station",
     "lat": 38.490755,
     "lon": 106.170352,
-    "country": "cr",
+    "country": "CN",
     "code": "14846",
+    "operator": "cr",
     "lines": [
       "包兰线",
       "定银线"
@@ -2920,8 +3165,9 @@
     "type": "station",
     "lat": 36.383439,
     "lon": 94.906191,
-    "country": "cr",
+    "country": "CN",
     "code": "43787",
+    "operator": "cr",
     "lines": [
       "青藏线"
     ]
@@ -2932,8 +3178,9 @@
     "type": "station",
     "lat": 36.509383,
     "lon": 102.052982,
-    "country": "cr",
+    "country": "CN",
     "code": "41521",
+    "operator": "cr",
     "lines": [
       "兰新客运专线"
     ]
@@ -2944,8 +3191,9 @@
     "type": "station",
     "lat": 29.625868,
     "lon": 91.068171,
-    "country": "cr",
+    "country": "CN",
     "code": "44083",
+    "operator": "cr",
     "lines": [
       "青藏线",
       "拉日线"
@@ -2957,8 +3205,9 @@
     "type": "station",
     "lat": 29.224193,
     "lon": 88.91301,
-    "country": "cr",
+    "country": "CN",
     "code": "43936",
+    "operator": "cr",
     "lines": [
       "拉日线"
     ]
@@ -2971,6 +3220,7 @@
     "lon": 135.515242,
     "country": "jr",
     "code": "O01",
+    "operator": "",
     "lines": [
       "JR大阪环状线",
       "JR大阪环状线",
@@ -2985,6 +3235,7 @@
     "lon": 135.495576,
     "country": "jr",
     "code": "O11",
+    "operator": "",
     "lines": [
       "JR东海道线",
       "JR大阪环状线"
@@ -2998,6 +3249,7 @@
     "lon": 135.466318,
     "country": "jr",
     "code": "O14",
+    "operator": "",
     "lines": [
       "JR大阪环状线",
       "阪神难波线"
@@ -3011,6 +3263,7 @@
     "lon": 135.493028,
     "country": "jr",
     "code": "O18",
+    "operator": "",
     "lines": [
       "JR大阪环状线",
       "JR大和路线"
@@ -3024,6 +3277,7 @@
     "lon": 135.502195,
     "country": "jr",
     "code": "O19",
+    "operator": "",
     "lines": [
       "JR大阪环状线",
       "南海本线"
@@ -3037,6 +3291,7 @@
     "lon": 135.495326,
     "country": "jr",
     "code": "Q17",
+    "operator": "",
     "lines": [
       "JR大和路线"
     ]
@@ -3049,6 +3304,7 @@
     "lon": 135.191582,
     "country": "jr",
     "code": "R54",
+    "operator": "",
     "lines": [
       "JR阪和线",
       "JR纪势线"
@@ -3062,6 +3318,7 @@
     "lon": 136.076392,
     "country": "jr",
     "code": "A01",
+    "operator": "",
     "lines": [
       "JR北陆线"
     ]
@@ -3074,6 +3331,7 @@
     "lon": 135.961824,
     "country": "jr",
     "code": "A24",
+    "operator": "",
     "lines": [
       "JR东海道线",
       "JR草津线"
@@ -3087,6 +3345,7 @@
     "lon": 135.900007,
     "country": "jr",
     "code": "A27",
+    "operator": "",
     "lines": [
       "JR东海道线"
     ]
@@ -3099,6 +3358,7 @@
     "lon": 135.195082,
     "country": "jr",
     "code": "A61",
+    "operator": "",
     "lines": [
       "JR山阳线"
     ]
@@ -3111,6 +3371,7 @@
     "lon": 135.817226,
     "country": "jr",
     "code": "A30",
+    "operator": "",
     "lines": [
       "JR东海道线",
       "JR湖西线"
@@ -3124,6 +3385,7 @@
     "lon": 135.758775,
     "country": "jr",
     "code": "A31",
+    "operator": "",
     "lines": [
       "JR东海道线",
       "JR奈良线",
@@ -3138,6 +3400,7 @@
     "lon": 135.178289,
     "country": "jr",
     "code": "A63",
+    "operator": "",
     "lines": [
       "JR山阳线"
     ]
@@ -3150,6 +3413,7 @@
     "lon": 134.690242,
     "country": "jr",
     "code": "A85",
+    "operator": "",
     "lines": [
       "JR山阳线"
     ]
@@ -3162,6 +3426,7 @@
     "lon": 135.743197,
     "country": "jr",
     "code": "E02",
+    "operator": "",
     "lines": [
       "JR山阴线"
     ]
@@ -3174,6 +3439,7 @@
     "lon": 135.681415,
     "country": "jr",
     "code": "E08",
+    "operator": "",
     "lines": [
       "JR山阴线"
     ]
@@ -3186,6 +3452,7 @@
     "lon": 136.25596,
     "country": "jr",
     "code": "C01",
+    "operator": "",
     "lines": [
       "JR草津线",
       "JR关西线"
@@ -3199,6 +3466,7 @@
     "lon": 135.869854,
     "country": "jr",
     "code": "Q39",
+    "operator": "",
     "lines": [
       "JR关西线"
     ]
@@ -3211,6 +3479,7 @@
     "lon": 135.818943,
     "country": "jr",
     "code": "Q36",
+    "operator": "",
     "lines": [
       "JR关西线"
     ]
@@ -3223,6 +3492,7 @@
     "lon": 135.584024,
     "country": "jr",
     "code": "Q24",
+    "operator": "",
     "lines": [
       "JR关西线"
     ]
@@ -3235,6 +3505,7 @@
     "lon": 135.243486,
     "country": "nk",
     "code": "032",
+    "operator": "",
     "lines": [
       "南海机场线"
     ]
@@ -3247,6 +3518,7 @@
     "lon": 135.080823,
     "country": "nk",
     "code": "447",
+    "operator": "",
     "lines": [
       "南海加太线"
     ]
@@ -3259,6 +3531,7 @@
     "lon": 135.167051,
     "country": "nk",
     "code": "045",
+    "operator": "",
     "lines": [
       "JR纪势线",
       "南海本线"
@@ -3272,6 +3545,7 @@
     "lon": 135.501377,
     "country": "kh",
     "code": "001",
+    "operator": "",
     "lines": [
       "京阪本线"
     ]
@@ -3284,6 +3558,7 @@
     "lon": 135.772334,
     "country": "kh",
     "code": "040",
+    "operator": "",
     "lines": [
       "京阪本线"
     ]
@@ -3296,6 +3571,7 @@
     "lon": 135.828556,
     "country": "kt",
     "code": "A28",
+    "operator": "",
     "lines": [
       "近铁奈良线"
     ]
@@ -3308,6 +3584,7 @@
     "lon": 135.505701,
     "country": "kt",
     "code": "A02",
+    "operator": "",
     "lines": [
       "近铁奈良线"
     ]
@@ -3320,6 +3597,7 @@
     "lon": 135.498392,
     "country": "hk",
     "code": "001",
+    "operator": "",
     "lines": [
       "阪急宝塚线"
     ]
@@ -3332,6 +3610,7 @@
     "lon": 135.475038,
     "country": "hk",
     "code": "042",
+    "operator": "",
     "lines": [
       "阪急宝塚线"
     ]
@@ -3344,6 +3623,7 @@
     "lon": 135.195434,
     "country": "hs",
     "code": "032",
+    "operator": "",
     "lines": [
       "阪神本线"
     ]
@@ -3356,6 +3636,7 @@
     "lon": 136.290175,
     "country": "jr",
     "code": "A12",
+    "operator": "",
     "lines": [
       "JR北陆线",
       "JR东海道线"
@@ -3369,6 +3650,7 @@
     "lon": 136.151494,
     "country": "jr",
     "code": "A03",
+    "operator": "",
     "lines": [
       "JR北陆线",
       "JR湖西线"
@@ -3382,6 +3664,7 @@
     "lon": 135.824919,
     "country": "jr",
     "code": "D19",
+    "operator": "",
     "lines": [
       "JR奈良线",
       "JR关西线"
@@ -3395,6 +3678,7 @@
     "lon": 135.417325,
     "country": "hs",
     "code": "HS09",
+    "operator": "",
     "lines": [
       "阪神本线",
       "阪神难波线"
@@ -3408,6 +3692,7 @@
     "lon": 135.165396,
     "country": "nk",
     "code": "044",
+    "operator": "",
     "lines": [
       "南海加太线",
       "南海本线"
@@ -3421,6 +3706,7 @@
     "lon": 135.316983,
     "country": "nk",
     "code": "030",
+    "operator": "",
     "lines": [
       "南海本线",
       "南海机场线"
@@ -3434,6 +3720,7 @@
     "lon": 121.206389,
     "country": "cr",
     "code": "16567",
+    "operator": "",
     "lines": [
       "太仓联络线",
       "沪苏通线"
@@ -3447,6 +3734,7 @@
     "lon": 118.76913,
     "country": "cr",
     "code": "31319",
+    "operator": "",
     "lines": [
       "宣绩高速线",
       "皖赣线",
@@ -3461,6 +3749,7 @@
     "lon": 118.566754,
     "country": "cr",
     "code": "34126",
+    "operator": "",
     "lines": [
       "宣绩高速线",
       "杭昌高速线",
@@ -3475,6 +3764,7 @@
     "lon": 104.208086,
     "country": "cr",
     "code": "45573",
+    "operator": "",
     "lines": [
       "川青线",
       "青三联络线"
@@ -3488,6 +3778,7 @@
     "lon": 120.044329,
     "country": "cr",
     "code": "503ae511",
+    "operator": "",
     "lines": [
       "康山联络线",
       "沪苏湖高速线"
@@ -3501,6 +3792,7 @@
     "lon": 120.017234,
     "country": "cr",
     "code": "c85ef475",
+    "operator": "",
     "lines": [
       "康山联络线",
       "合杭高速线"
@@ -3514,6 +3806,7 @@
     "lon": 119.760292,
     "country": "cr",
     "code": "66276",
+    "operator": "",
     "lines": [
       "杭温高速线杭义段",
       "桐庐联络线",
@@ -3528,6 +3821,7 @@
     "lon": 120.718614,
     "country": "cr",
     "code": "f77128ce",
+    "operator": "",
     "lines": [
       "杭温高速线义温段",
       "永嘉联络线"
@@ -3541,6 +3835,7 @@
     "lon": 119.729569,
     "country": "cr",
     "code": "32372",
+    "operator": "",
     "lines": [
       "桐庐联络线",
       "杭昌高速线"
@@ -3554,6 +3849,7 @@
     "lon": 116.753448,
     "country": "cr",
     "code": "20381",
+    "operator": "",
     "lines": [
       "津兴城际线",
       "津霸线"
@@ -3567,6 +3863,7 @@
     "lon": 116.398003,
     "country": "cr",
     "code": "21160",
+    "operator": "",
     "lines": [
       "津兴城际线",
       "京雄城际线"
@@ -3580,6 +3877,7 @@
     "lon": 120.760711,
     "country": "cr",
     "code": "16555",
+    "operator": "",
     "lines": [
       "盐通高速线",
       "沪苏通线"
@@ -3593,6 +3891,7 @@
     "lon": 116.725417,
     "country": "cr",
     "code": "d5c7787f",
+    "operator": "",
     "lines": [
       "通燕联络线",
       "京哈线"
@@ -3606,6 +3905,7 @@
     "lon": 116.761143,
     "country": "cr",
     "code": "1036923d",
+    "operator": "",
     "lines": [
       "通燕联络线",
       "京唐城际线"
@@ -3619,6 +3919,7 @@
     "lon": 104.223226,
     "country": "cr",
     "code": "47609",
+    "operator": "",
     "lines": [
       "青三联络线",
       "西成客运专线四川段"
@@ -3632,6 +3933,7 @@
     "lon": 109.961417,
     "country": "cr",
     "code": "352d5dea",
+    "operator": "",
     "lines": [
       "张吉怀高速线",
       "龙怀联络线"
@@ -3645,6 +3947,7 @@
     "lon": 110.439738,
     "country": "cr",
     "code": "1f97993f",
+    "operator": "",
     "lines": [
       "张吉怀高速线",
       "张家界西联络线"
@@ -3658,9 +3961,10 @@
     "lon": 110.497768,
     "country": "cr",
     "code": "26777",
+    "operator": "",
     "lines": [
-      "张家界西联络线",
-      "渝厦高速线"
+      "渝厦高速线",
+      "张家界西联络线"
     ]
   },
   "黄金园所": {
@@ -3671,6 +3975,7 @@
     "lon": 112.781419,
     "country": "cr",
     "code": "4eb13889",
+    "operator": "",
     "lines": [
       "渝厦高速线",
       "长黄联络线"
@@ -3684,6 +3989,7 @@
     "lon": 109.988987,
     "country": "cr",
     "code": "65678",
+    "operator": "",
     "lines": [
       "龙怀联络线",
       "沪昆高速线赣湘段"
@@ -3697,6 +4003,7 @@
     "lon": 109.366121,
     "country": "cr",
     "code": "f1f7e412",
+    "operator": "",
     "lines": [
       "凤凰联络线",
       "海南西环线"
@@ -3710,6 +4017,7 @@
     "lon": 109.180836,
     "country": "cr",
     "code": "454ca49b",
+    "operator": "",
     "lines": [
       "崖州联络线",
       "海南西环线"
@@ -3723,9 +4031,10 @@
     "lon": 106.968905,
     "country": "cr",
     "code": "37580",
+    "operator": "",
     "lines": [
-      "贵阳客车线",
-      "沪昆线"
+      "沪昆线",
+      "贵阳客车线"
     ]
   },
   "秦祺村所": {
@@ -3736,6 +4045,7 @@
     "lon": 106.784258,
     "country": "cr",
     "code": "45c67dbe",
+    "operator": "",
     "lines": [
       "贵阳客车线",
       "秦双联络线"
@@ -3749,9 +4059,10 @@
     "lon": 113.486935,
     "country": "gi",
     "code": "H05",
+    "operator": "",
     "lines": [
-      "琶莲城际线",
-      "广惠城际线"
+      "广惠城际线",
+      "琶莲城际线"
     ]
   },
   "番禺": {
@@ -3762,6 +4073,7 @@
     "lon": 113.267643,
     "country": "gi",
     "code": "D01",
+    "operator": "",
     "lines": [
       "广惠城际线",
       "广肇城际线"
@@ -3775,6 +4087,7 @@
     "lon": 112.820446,
     "country": "cr",
     "code": "65201",
+    "operator": "",
     "lines": [
       "长黄联络线",
       "长沙西城际线"
@@ -3788,6 +4101,7 @@
     "lon": 116.175211,
     "country": "cr",
     "code": "2108bd63",
+    "operator": "",
     "lines": [
       "京广线京石段",
       "西长线"
@@ -3801,6 +4115,7 @@
     "lon": 114.50389,
     "country": "cr",
     "code": "20369",
+    "operator": "",
     "lines": [
       "京广线京石段",
       "石家庄西北环线"
@@ -3814,6 +4129,7 @@
     "lon": 114.222257,
     "country": "cr",
     "code": "21059",
+    "operator": "",
     "lines": [
       "京广线郑武段",
       "汉西联络线"
@@ -3827,6 +4143,7 @@
     "lon": 114.296903,
     "country": "cr",
     "code": "21089",
+    "operator": "",
     "lines": [
       "京广线武广段",
       "武昌南环线"
@@ -3840,6 +4157,7 @@
     "lon": 116.279925,
     "country": "cr",
     "code": "1cfdd7a5",
+    "operator": "",
     "lines": [
       "京沪线",
       "京九线京昌段"
@@ -3853,6 +4171,7 @@
     "lon": 117.102822,
     "country": "cr",
     "code": "10091",
+    "operator": "",
     "lines": [
       "京沪线",
       "津蓟线"
@@ -3866,6 +4185,7 @@
     "lon": 116.827011,
     "country": "cr",
     "code": "16283",
+    "operator": "",
     "lines": [
       "京沪线",
       "京沪济南线"
@@ -3879,6 +4199,7 @@
     "lon": 116.89784,
     "country": "cr",
     "code": "16319",
+    "operator": "",
     "lines": [
       "京沪线",
       "京沪济南线"
@@ -3892,6 +4213,7 @@
     "lon": 117.202226,
     "country": "cr",
     "code": "16628",
+    "operator": "",
     "lines": [
       "京沪线",
       "陇海线"
@@ -3905,6 +4227,7 @@
     "lon": 118.675223,
     "country": "cr",
     "code": "16802",
+    "operator": "",
     "lines": [
       "京沪线",
       "宁启线"
@@ -3918,6 +4241,7 @@
     "lon": 121.235915,
     "country": "cr",
     "code": "30566",
+    "operator": "",
     "lines": [
       "京沪线",
       "黄封线",
@@ -3932,6 +4256,7 @@
     "lon": 116.997805,
     "country": "cr",
     "code": "16292",
+    "operator": "",
     "lines": [
       "京沪济南线",
       "京胶联络线"
@@ -3945,6 +4270,7 @@
     "lon": 115.652543,
     "country": "cr",
     "code": "38702",
+    "operator": "",
     "lines": [
       "陇海线",
       "商丘西南联络线"
@@ -3958,6 +4284,7 @@
     "lon": 113.694233,
     "country": "cr",
     "code": "38810",
+    "operator": "",
     "lines": [
       "陇海线",
       "郑州东北联络线"
@@ -3971,6 +4298,7 @@
     "lon": 103.848009,
     "country": "cr",
     "code": "39872",
+    "operator": "",
     "lines": [
       "陇海线",
       "兰青线"
@@ -3984,6 +4312,7 @@
     "lon": 115.699022,
     "country": "cr",
     "code": "24890",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "商丘西南联络线"
@@ -3997,6 +4326,7 @@
     "lon": 115.862414,
     "country": "cr",
     "code": "25067",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "阜阳西联络线"
@@ -4010,6 +4340,7 @@
     "lon": 115.861746,
     "country": "cr",
     "code": "25104",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "阜淮线",
@@ -4024,6 +4355,7 @@
     "lon": 116.001822,
     "country": "cr",
     "code": "25322",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "衢九线"
@@ -4037,6 +4369,7 @@
     "lon": 115.888598,
     "country": "cr",
     "code": "25324",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "武九线"
@@ -4050,6 +4383,7 @@
     "lon": 115.865901,
     "country": "cr",
     "code": "25397",
+    "operator": "",
     "lines": [
       "京九线京昌段",
       "南昌西环线"
@@ -4063,6 +4397,7 @@
     "lon": 115.956186,
     "country": "cr",
     "code": "25454",
+    "operator": "",
     "lines": [
       "京九线南昌段",
       "南昌西环线",
@@ -4077,6 +4412,7 @@
     "lon": 115.976545,
     "country": "cr",
     "code": "25487",
+    "operator": "",
     "lines": [
       "京九线南昌段",
       "昌福线"
@@ -4090,6 +4426,7 @@
     "lon": 116.478422,
     "country": "cr",
     "code": "12158",
+    "operator": "",
     "lines": [
       "京哈线",
       "东星线"
@@ -4103,6 +4440,7 @@
     "lon": 118.111845,
     "country": "cr",
     "code": "11159",
+    "operator": "",
     "lines": [
       "京哈线",
       "张唐线"
@@ -4116,6 +4454,7 @@
     "lon": 119.675464,
     "country": "cr",
     "code": "10328",
+    "operator": "",
     "lines": [
       "京哈线",
       "津秦高速线"
@@ -4129,6 +4468,7 @@
     "lon": 121.284308,
     "country": "cr",
     "code": "32045",
+    "operator": "",
     "lines": [
       "沪昆线",
       "黄封线",
@@ -4143,6 +4483,7 @@
     "lon": 121.323608,
     "country": "cr",
     "code": "32075",
+    "operator": "",
     "lines": [
       "沪昆线",
       "虹七线"
@@ -4156,6 +4497,7 @@
     "lon": 121.356107,
     "country": "cr",
     "code": "32076",
+    "operator": "",
     "lines": [
       "沪昆线",
       "李莘联络线"
@@ -4169,6 +4511,7 @@
     "lon": 121.349777,
     "country": "cr",
     "code": "32081",
+    "operator": "",
     "lines": [
       "沪昆线",
       "沪春线"
@@ -4182,6 +4525,7 @@
     "lon": 120.212347,
     "country": "cr",
     "code": "32198",
+    "operator": "",
     "lines": [
       "沪昆线",
       "笕杭线",
@@ -4196,6 +4540,7 @@
     "lon": 115.997943,
     "country": "cr",
     "code": "32879",
+    "operator": "",
     "lines": [
       "沪昆线",
       "向东D线"
@@ -4209,6 +4554,7 @@
     "lon": 126.716202,
     "country": "cr",
     "code": "62665",
+    "operator": "",
     "lines": [
       "拉滨线",
       "东新联络线"
@@ -4222,6 +4568,7 @@
     "lon": 123.887819,
     "country": "cr",
     "code": "56663",
+    "operator": "",
     "lines": [
       "平齐线",
       "榆红线"
@@ -4235,6 +4582,7 @@
     "lon": 116.187343,
     "country": "cr",
     "code": "12173",
+    "operator": "",
     "lines": [
       "京通线",
       "京包客运专线京呼段"
@@ -4248,6 +4596,7 @@
     "lon": 116.654039,
     "country": "cr",
     "code": "11627",
+    "operator": "",
     "lines": [
       "京通线",
       "怀范联络线"
@@ -4261,6 +4610,7 @@
     "lon": 117.744138,
     "country": "cr",
     "code": "11726",
+    "operator": "",
     "lines": [
       "京通线",
       "承隆线"
@@ -4274,6 +4624,7 @@
     "lon": 116.016287,
     "country": "cr",
     "code": "d1cb33d9",
+    "operator": "",
     "lines": [
       "京包线北京段",
       "京包线青龙桥上行线"
@@ -4287,6 +4638,7 @@
     "lon": 116.010169,
     "country": "cr",
     "code": "8e3d1b7c",
+    "operator": "",
     "lines": [
       "京包线北京段"
     ]
@@ -4299,6 +4651,7 @@
     "lon": 116.010063,
     "country": "cr",
     "code": "ecab1a69",
+    "operator": "",
     "lines": [
       "京包线北京段",
       "京包线青龙桥上行线"
@@ -4312,6 +4665,7 @@
     "lon": 116.019242,
     "country": "cr",
     "code": "12212",
+    "operator": "",
     "lines": [
       "京包线青龙桥上行线"
     ]
@@ -4324,6 +4678,7 @@
     "lon": 111.474239,
     "country": "cr",
     "code": "12596",
+    "operator": "",
     "lines": [
       "京包线呼和浩特段",
       "京包客运专线呼包段"
@@ -4337,6 +4692,7 @@
     "lon": 109.745534,
     "country": "cr",
     "code": "14507",
+    "operator": "",
     "lines": [
       "包兰线",
       "包包联络线"
@@ -4350,6 +4706,7 @@
     "lon": 114.490196,
     "country": "cr",
     "code": "21959",
+    "operator": "",
     "lines": [
       "武九线",
       "武昌南环线"
@@ -4363,6 +4720,7 @@
     "lon": 109.383696,
     "country": "cr",
     "code": "36257",
+    "operator": "",
     "lines": [
       "湘桂线",
       "黔桂线"
@@ -4376,6 +4734,7 @@
     "lon": 109.128793,
     "country": "cr",
     "code": "36374",
+    "operator": "",
     "lines": [
       "湘桂线",
       "黎湛线"
@@ -4389,6 +4748,7 @@
     "lon": 103.521754,
     "country": "cr",
     "code": "47744",
+    "operator": "",
     "lines": [
       "峨广线",
       "成昆线"
@@ -4402,6 +4762,7 @@
     "lon": 101.76366,
     "country": "cr",
     "code": "48101",
+    "operator": "",
     "lines": [
       "峨广线",
       "广昆线"
@@ -4415,6 +4776,7 @@
     "lon": 112.603721,
     "country": "cr",
     "code": "26468",
+    "operator": "",
     "lines": [
       "南同蒲线",
       "太中线",
@@ -4429,6 +4791,7 @@
     "lon": 107.571514,
     "country": "cr",
     "code": "65054",
+    "operator": "",
     "lines": [
       "太中线",
       "定银线"
@@ -4442,6 +4805,7 @@
     "lon": 124.453512,
     "country": "cr",
     "code": "59567",
+    "operator": "",
     "lines": [
       "齐北线",
       "富西线"
@@ -4455,6 +4819,7 @@
     "lon": 123.906848,
     "country": "cr",
     "code": "57485",
+    "operator": "",
     "lines": [
       "滨洲线",
       "榆红线"
@@ -4468,6 +4833,7 @@
     "lon": 120.731077,
     "country": "cr",
     "code": "57749",
+    "operator": "",
     "lines": [
       "滨洲线",
       "牙林线"
@@ -4481,6 +4847,7 @@
     "lon": 124.119179,
     "country": "cr",
     "code": "58910",
+    "operator": "",
     "lines": [
       "富西线",
       "伊加线"
@@ -4494,6 +4861,7 @@
     "lon": 121.545366,
     "country": "cr",
     "code": "58298",
+    "operator": "",
     "lines": [
       "伊加线",
       "牙林线"
@@ -4507,6 +4875,7 @@
     "lon": 126.761697,
     "country": "cr",
     "code": "61931",
+    "operator": "",
     "lines": [
       "滨绥线哈牡段",
       "东新联络线"
@@ -4520,6 +4889,7 @@
     "lon": 125.679816,
     "country": "cr",
     "code": "64301",
+    "operator": "",
     "lines": [
       "四梅线",
       "梅集线"
@@ -4533,6 +4903,7 @@
     "lon": 116.208327,
     "country": "cr",
     "code": "13385",
+    "operator": "",
     "lines": [
       "京原线",
       "丰沙线"
@@ -4546,6 +4917,7 @@
     "lon": 116.642939,
     "country": "cr",
     "code": "11378",
+    "operator": "",
     "lines": [
       "京承线",
       "怀范联络线"
@@ -4559,6 +4931,7 @@
     "lon": 117.768664,
     "country": "cr",
     "code": "697325ec",
+    "operator": "",
     "lines": [
       "京承线",
       "李家营联络线"
@@ -4572,6 +4945,7 @@
     "lon": 117.748895,
     "country": "cr",
     "code": "10973",
+    "operator": "",
     "lines": [
       "张唐线",
       "李家营联络线"
@@ -4585,6 +4959,7 @@
     "lon": 121.339061,
     "country": "cr",
     "code": "18663",
+    "operator": "",
     "lines": [
       "青烟直通线",
       "青荣城际线青烟段"
@@ -4598,6 +4973,7 @@
     "lon": 117.014504,
     "country": "cr",
     "code": "19682",
+    "operator": "",
     "lines": [
       "淮南线",
       "阜淮线"
@@ -4611,6 +4987,7 @@
     "lon": 121.37985,
     "country": "cr",
     "code": "32078",
+    "operator": "",
     "lines": [
       "沪春线",
       "李莘联络线"
@@ -4624,6 +5001,7 @@
     "lon": 121.350909,
     "country": "cr",
     "code": "912699c8",
+    "operator": "",
     "lines": [
       "沪春线",
       "沪苏湖高速线"
@@ -4637,6 +5015,7 @@
     "lon": 121.352311,
     "country": "cr",
     "code": "cc45f8ec",
+    "operator": "",
     "lines": [
       "上海南联络线（沪春三四线）",
       "沪昆高速线沪赣段"
@@ -4650,6 +5029,7 @@
     "lon": 120.244343,
     "country": "cr",
     "code": "a535f86a",
+    "operator": "",
     "lines": [
       "笕桥线",
       "沪昆高速线沪赣段"
@@ -4663,6 +5043,7 @@
     "lon": 117.973087,
     "country": "cr",
     "code": "34565",
+    "operator": "",
     "lines": [
       "鹰厦线",
       "杭深线甬深段"
@@ -4676,6 +5057,7 @@
     "lon": 120.692755,
     "country": "cr",
     "code": "33988",
+    "operator": "",
     "lines": [
       "永嘉联络线",
       "杭深线甬深段"
@@ -4689,6 +5071,7 @@
     "lon": 101.811449,
     "country": "cr",
     "code": "43502",
+    "operator": "",
     "lines": [
       "兰青线",
       "青藏线"
@@ -4702,6 +5085,7 @@
     "lon": 128.235667,
     "country": "cr",
     "code": "63227",
+    "operator": "",
     "lines": [
       "敦白联络线",
       "长珲城际线"
@@ -4715,6 +5099,7 @@
     "lon": 128.332657,
     "country": "cr",
     "code": "09e52b7e",
+    "operator": "",
     "lines": [
       "敦白联络线",
       "沈佳高速线敦白段"
@@ -4728,6 +5113,7 @@
     "lon": 122.660732,
     "country": "cr",
     "code": "67034",
+    "operator": "",
     "lines": [
       "姚田联络线",
       "京哈高速线京沈段"
@@ -4741,6 +5127,7 @@
     "lon": 122.683919,
     "country": "cr",
     "code": "53293",
+    "operator": "",
     "lines": [
       "姚田联络线",
       "新通客运专线"
@@ -4754,6 +5141,7 @@
     "lon": 125.24999,
     "country": "cr",
     "code": "53480",
+    "operator": "",
     "lines": [
       "哈长联络线",
       "京哈高速线沈哈段"
@@ -4767,6 +5155,7 @@
     "lon": 125.265797,
     "country": "cr",
     "code": "54119",
+    "operator": "",
     "lines": [
       "哈长联络线",
       "长珲城际线"
@@ -4780,6 +5169,7 @@
     "lon": 114.013787,
     "country": "cr",
     "code": "0fe38421",
+    "operator": "",
     "lines": [
       "高桥联络线",
       "武汉枢纽直通线"
@@ -4793,6 +5183,7 @@
     "lon": 114.055252,
     "country": "cr",
     "code": "06e54b21",
+    "operator": "",
     "lines": [
       "高桥联络线",
       "宁蓉线汉渝段"
@@ -4806,6 +5197,7 @@
     "lon": 117.022926,
     "country": "cr",
     "code": "17699",
+    "operator": "",
     "lines": [
       "京胶联络线",
       "胶济客运专线"
@@ -4819,6 +5211,7 @@
     "lon": 116.886917,
     "country": "cr",
     "code": "66501",
+    "operator": "",
     "lines": [
       "济沪联络线",
       "京沪高速线"
@@ -4832,6 +5225,7 @@
     "lon": 120.543955,
     "country": "cr",
     "code": "34f3f0d8",
+    "operator": "",
     "lines": [
       "莱西联络线",
       "潍荣高速线"
@@ -4845,6 +5239,7 @@
     "lon": 117.168402,
     "country": "cr",
     "code": "10008",
+    "operator": "",
     "lines": [
       "南仓城际高速联络线",
       "京津城际线"
@@ -4858,6 +5253,7 @@
     "lon": 116.456489,
     "country": "cr",
     "code": "66809",
+    "operator": "",
     "lines": [
       "德州东联络线",
       "京沪高速线"
@@ -4871,6 +5267,7 @@
     "lon": 116.472546,
     "country": "cr",
     "code": "66876",
+    "operator": "",
     "lines": [
       "德州东联络线",
       "石济客运专线"
@@ -4884,6 +5281,7 @@
     "lon": 109.831213,
     "country": "cr",
     "code": "14489",
+    "operator": "",
     "lines": [
       "包包联络线",
       "京包客运专线呼包段"
@@ -4897,6 +5295,7 @@
     "lon": 114.191425,
     "country": "cr",
     "code": "29318",
+    "operator": "",
     "lines": [
       "汉西联络线",
       "宁蓉线汉渝段"
@@ -4910,6 +5309,7 @@
     "lon": 121.232398,
     "country": "cr",
     "code": "acf6abbb",
+    "operator": "",
     "lines": [
       "虹安联络线",
       "沪宁城际线"
@@ -4923,6 +5323,7 @@
     "lon": 121.231279,
     "country": "cr",
     "code": "66521",
+    "operator": "",
     "lines": [
       "黄渡联络线",
       "京沪高速线"
@@ -4936,6 +5337,7 @@
     "lon": 121.26499,
     "country": "cr",
     "code": "66523",
+    "operator": "",
     "lines": [
       "黄渡联络线",
       "沪宁城际线"
@@ -4949,6 +5351,7 @@
     "lon": 118.34303,
     "country": "cr",
     "code": "38561",
+    "operator": "",
     "lines": [
       "陇海线",
       "新长线"
@@ -4962,6 +5365,7 @@
     "lon": 118.001263,
     "country": "cr",
     "code": "32687",
+    "operator": "",
     "lines": [
       "上饶东南联络线",
       "合福高速线饶福段"
@@ -4975,6 +5379,7 @@
     "lon": 118.043677,
     "country": "cr",
     "code": "ad645c6d",
+    "operator": "",
     "lines": [
       "上饶东南联络线",
       "沪昆高速线沪赣段"
@@ -4988,6 +5393,7 @@
     "lon": 106.784883,
     "country": "cr",
     "code": "429e6741",
+    "operator": "",
     "lines": [
       "秦双联络线",
       "贵阳环线"
@@ -5001,6 +5407,7 @@
     "lon": 114.331511,
     "country": "cr",
     "code": "65797",
+    "operator": "",
     "lines": [
       "京广高速线武广段",
       "宁蓉线宁汉段"
@@ -5014,6 +5421,7 @@
     "lon": 118.907694,
     "country": "cr",
     "code": "66310",
+    "operator": "",
     "lines": [
       "宁蓉线宁汉段",
       "沪宁城际线"
@@ -5027,6 +5435,7 @@
     "lon": 119.787356,
     "country": "cr",
     "code": "33001",
+    "operator": "",
     "lines": [
       "沪昆高速线沪赣段",
       "金温线"
@@ -5040,6 +5449,7 @@
     "lon": 120.049952,
     "country": "cr",
     "code": "17963",
+    "operator": "",
     "lines": [
       "胶济客运专线",
       "济青高速线"
@@ -5053,6 +5463,7 @@
     "lon": 117.289908,
     "country": "cr",
     "code": "38934",
+    "operator": "",
     "lines": [
       "徐兰高速线郑徐段",
       "徐州联络线"
@@ -5066,6 +5477,7 @@
     "lon": 119.515677,
     "country": "cr",
     "code": "66316",
+    "operator": "",
     "lines": [
       "沪宁城际线",
       "连镇高速线"
@@ -5079,6 +5491,7 @@
     "lon": 122.403781,
     "country": "cr",
     "code": "18675",
+    "operator": "",
     "lines": [
       "青荣城际线威荣段",
       "潍荣高速线"
@@ -5092,6 +5505,7 @@
     "lon": 106.658899,
     "country": "cr",
     "code": "4d19753d",
+    "operator": "",
     "lines": [
       "成贵客运专线贵阳段",
       "贵阳环线"
@@ -5105,6 +5519,7 @@
     "lon": 106.69012,
     "country": "cr",
     "code": "fc185e6b",
+    "operator": "",
     "lines": [
       "成贵客运专线贵阳段",
       "成贵贵阳北联络线"
@@ -5118,6 +5533,7 @@
     "lon": 117.919911,
     "country": "cr",
     "code": "34114",
+    "operator": "",
     "lines": [
       "合福高速线合黄段",
       "巢湖东南联络线"
@@ -5131,6 +5547,7 @@
     "lon": 113.61093,
     "country": "cr",
     "code": "21749",
+    "operator": "",
     "lines": [
       "京广线石郑段",
       "郑太客运专线"
@@ -5144,6 +5561,7 @@
     "lon": 115.960675,
     "country": "cr",
     "code": "a7e2bfc6",
+    "operator": "",
     "lines": [
       "京包客运专线京呼段",
       "延庆线"
@@ -5157,6 +5575,7 @@
     "lon": 117.153829,
     "country": "cr",
     "code": "17601",
+    "operator": "",
     "lines": [
       "石济客运专线",
       "济青高速线"
@@ -5170,6 +5589,7 @@
     "lon": 119.230811,
     "country": "cr",
     "code": "38487",
+    "operator": "",
     "lines": [
       "青盐线",
       "连镇高速线"
@@ -5183,6 +5603,7 @@
     "lon": 113.929175,
     "country": "cr",
     "code": "1fc8fda8",
+    "operator": "",
     "lines": [
       "沪渝蓉高速线",
       "新沟北联络线"
@@ -5196,6 +5617,7 @@
     "lon": 113.967255,
     "country": "cr",
     "code": "3f957c06",
+    "operator": "",
     "lines": [
       "武汉枢纽直通线",
       "新沟北联络线"
@@ -5209,6 +5631,7 @@
     "lon": 117.948045,
     "country": "cr",
     "code": "8fdcda66",
+    "operator": "",
     "lines": [
       "合杭高速线",
       "巢湖东南联络线"
@@ -5222,6 +5645,7 @@
     "lon": 119.519736,
     "country": "cr",
     "code": "5120128c",
+    "operator": "",
     "lines": [
       "连镇高速线",
       "镇江联络线"
@@ -5235,6 +5659,7 @@
     "lon": 120.320491,
     "country": "cr",
     "code": "4041effe",
+    "operator": "",
     "lines": [
       "杭深线杭甬段",
       "杭甬联络线"
@@ -5248,6 +5673,7 @@
     "lon": 106.441399,
     "country": "cr",
     "code": "46571",
+    "operator": "",
     "lines": [
       "渭井线",
       "蔡歌联络线"
@@ -5261,6 +5687,7 @@
     "lon": 109.05496,
     "country": "cr",
     "code": "39422",
+    "operator": "",
     "lines": [
       "陇海线",
       "田灞联络线"
@@ -5274,6 +5701,7 @@
     "lon": 106.03358,
     "country": "cr",
     "code": "45389",
+    "operator": "",
     "lines": [
       "宝成线",
       "阳安线"
@@ -5287,6 +5715,7 @@
     "lon": 106.433423,
     "country": "cr",
     "code": "46569",
+    "operator": "",
     "lines": [
       "蔡歌联络线",
       "井西线"
@@ -5300,6 +5729,7 @@
     "lon": 104.630651,
     "country": "cr",
     "code": "46907",
+    "operator": "",
     "lines": [
       "渝昆高速线",
       "宜宾西联络线"
@@ -5313,6 +5743,7 @@
     "lon": 104.60326,
     "country": "cr",
     "code": "47643",
+    "operator": "",
     "lines": [
       "宜宾西联络线",
       "成贵客运专线乐宜段"
@@ -5326,8 +5757,10 @@
     "lon": 108.934406,
     "country": "cr",
     "code": "39032",
+    "operator": "",
     "lines": [
       "徐兰高速线郑西段",
+      "徐兰高速线西兰段",
       "西成客运专线陕西段"
     ]
   },
@@ -5339,6 +5772,7 @@
     "lon": 106.468817,
     "country": "cr",
     "code": "30053",
+    "operator": "",
     "lines": [
       "襄渝线",
       "襄遂线"
@@ -5352,6 +5786,7 @@
     "lon": 113.048827,
     "country": "cr",
     "code": "28442",
+    "operator": "",
     "lines": [
       "焦柳线",
       "太焦线"
@@ -5365,6 +5800,7 @@
     "lon": 112.714,
     "country": "cr",
     "code": "27989",
+    "operator": "",
     "lines": [
       "太焦线",
       "南同蒲线"
@@ -5378,6 +5814,7 @@
     "lon": 109.01132,
     "country": "cr",
     "code": "29843",
+    "operator": "",
     "lines": [
       "襄渝线",
       "西康线"
@@ -5391,6 +5828,7 @@
     "lon": 109.103497,
     "country": "cr",
     "code": "40853",
+    "operator": "",
     "lines": [
       "西康线",
       "田灞联络线"
@@ -5404,6 +5842,7 @@
     "lon": 106.45635,
     "country": "cr",
     "code": "30052",
+    "operator": "",
     "lines": [
       "渭井线",
       "襄遂线"

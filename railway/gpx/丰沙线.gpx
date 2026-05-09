@@ -3,7 +3,8 @@
   <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10025</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>石景山南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>13385</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="40.596602" lon="115.050377">
     <name>宣化</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12290</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京包线（北京丰台-宣化） (157.5km)</name>
+    <name>丰沙线</name>
     <trkseg>
       <trkpt lat="39.850759" lon="116.29475">
         <ele>48.75</ele>

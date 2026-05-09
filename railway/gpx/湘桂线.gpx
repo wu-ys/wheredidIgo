@@ -4,6 +4,7 @@
     <name>柳州</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>36257</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>黎塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>36374</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>湘桂线（柳州-黎塘） (133km)</name>
+    <name>湘桂线</name>
     <trkseg>
       <trkpt lat="24.310828" lon="109.382941">
         <ele>95.5</ele>

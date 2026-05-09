@@ -3,7 +3,8 @@
   <wpt lat="39.092989" lon="116.344457">
     <name>霸州西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20383</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="39.068633" lon="115.868901">
     <name>白洋淀</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20387</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>霸徐线（白洋淀-霸州西） (41.9km)</name>
+    <name>霸徐线</name>
     <trkseg>
       <trkpt lat="39.092045" lon="116.343974">
         <ele>7.0</ele>

@@ -4,6 +4,7 @@
     <name>和歌山</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>R54</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>和歌山市</name>
     <extensions>
       <country>nk</country>
+      <operator></operator>
       <code>045</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>JR纪势线（和歌山-和歌山市） (3.3km)</name>
+    <name>JR纪势线</name>
     <trkseg>
       <trkpt lat="34.232197" lon="135.191629">
         <ele>4.25</ele>

@@ -4,6 +4,7 @@
     <name>汉沟镇</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10091</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="40.025454" lon="117.391628">
     <name>蓟州北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10526</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>津蓟线 (90.7km)</name>
+    <name>津蓟线</name>
     <trkseg>
       <trkpt lat="39.298076" lon="117.103405">
         <ele>6.0</ele>

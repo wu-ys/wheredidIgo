@@ -3,7 +3,8 @@
   <wpt lat="34.374616" lon="107.148467">
     <name>宝鸡</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>39629</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>阳平关</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>45389</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宝成线（宝鸡-阳平关） (267.5km)</name>
+    <name>宝成线</name>
     <trkseg>
       <trkpt lat="34.374948" lon="107.148372">
         <ele>602.0</ele>

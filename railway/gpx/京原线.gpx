@@ -4,6 +4,7 @@
     <name>石景山南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>13385</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="39.747983" lon="115.952348">
     <name>燕山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>14195</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京原线（石景山南-燕山） (31.5km)</name>
+    <name>京原线</name>
     <trkseg>
       <trkpt lat="39.873619" lon="116.208964">
         <ele>67.75</ele>

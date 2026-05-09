@@ -3,7 +3,8 @@
   <wpt lat="30.128504" lon="104.679853">
     <name>资阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46545</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="29.556784" lon="106.457283">
     <name>沙坪坝</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47066</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>成渝高速线（资阳北-沙坪坝） (217km)</name>
+    <name>成渝高速线</name>
     <trkseg>
       <trkpt lat="30.128616" lon="104.680738">
         <ele>381.0</ele>

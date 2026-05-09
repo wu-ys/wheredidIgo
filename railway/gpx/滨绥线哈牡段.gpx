@@ -4,6 +4,7 @@
     <name>新香坊</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>61931</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="44.589049" lon="129.60628">
     <name>牡丹江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>61193</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>滨绥线（新香坊-牡丹江） (335.6km)</name>
+    <name>滨绥线哈牡段</name>
     <trkseg>
       <trkpt lat="45.70973" lon="126.761123">
         <ele>146.0</ele>

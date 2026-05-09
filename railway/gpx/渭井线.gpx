@@ -4,6 +4,7 @@
     <name>黄桷所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30052</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>一四一所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>46571</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>渭井线 (16.8km)</name>
+    <name>渭井线</name>
     <trkseg>
       <trkpt lat="29.829499" lon="106.456396">
       </trkpt>

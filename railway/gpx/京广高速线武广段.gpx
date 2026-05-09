@@ -4,6 +4,7 @@
     <name>横店东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65797</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="30.60937" lon="114.419997">
     <name>武汉</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65800</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="28.14943" lon="113.058156">
     <name>长沙南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65818</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="23.379972" lon="113.198418">
     <name>广州北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>23471</code>
       <type>station</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="22.991077" lon="113.261758">
     <name>广州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65848</code>
       <type>station</type>
     </extensions>
@@ -43,13 +48,14 @@
   <wpt lat="22.609954" lon="114.023289">
     <name>深圳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65860</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广高铁（横店东-深圳北） (1,090.8km)</name>
+    <name>京广高速线武广段</name>
     <trkseg>
       <trkpt lat="30.800931" lon="114.328617">
         <ele>47.75</ele>

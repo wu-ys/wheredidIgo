@@ -4,6 +4,7 @@
     <name>黄渡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30566</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>封浜</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32045</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>黄封线（黄渡-封浜）</name>
+    <name>黄封线</name>
     <trkseg>
       <trkpt lat="31.296017" lon="121.235179">
         <ele>4.5</ele>

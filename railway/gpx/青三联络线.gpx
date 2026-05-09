@@ -4,6 +4,7 @@
     <name>青白江东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47609</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>三星堆</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>45573</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>青三联络线 (7.7km)</name>
+    <name>青三联络线</name>
     <trkseg>
       <trkpt lat="30.897122" lon="104.223836">
         <ele>480.0</ele>

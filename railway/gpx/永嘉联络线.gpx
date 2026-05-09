@@ -4,6 +4,7 @@
     <name>永嘉所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>f77128ce</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>温州北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>33988</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>永嘉联络线 (3.9km)</name>
+    <name>永嘉联络线</name>
     <trkseg>
       <trkpt lat="28.072094" lon="120.718406">
         <ele>38.0</ele>

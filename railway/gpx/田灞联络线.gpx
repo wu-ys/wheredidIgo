@@ -4,6 +4,7 @@
     <name>田王</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>40853</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>灞桥</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>39422</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>田灞联络线 (8.5km)</name>
+    <name>田灞联络线</name>
     <trkseg>
       <trkpt lat="34.298339" lon="109.103547">
         <ele>408.0</ele>

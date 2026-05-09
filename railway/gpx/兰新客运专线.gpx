@@ -3,7 +3,8 @@
   <wpt lat="36.069222" lon="103.74973">
     <name>兰州西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>41492</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="36.509383" lon="102.052982">
     <name>海东西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>41521</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>兰新客运专线（兰州西-海东西） (163.2km)</name>
+    <name>兰新客运专线</name>
     <trkseg>
       <trkpt lat="36.067124" lon="103.749158">
         <ele>1544.0</ele>

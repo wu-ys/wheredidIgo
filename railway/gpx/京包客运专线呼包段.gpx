@@ -4,6 +4,7 @@
     <name>台阁牧</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12596</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>包头</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>14489</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京包客运专线（台阁牧-包头） (145km)</name>
+    <name>京包客运专线呼包段</name>
     <trkseg>
       <trkpt lat="40.740998" lon="111.468836">
         <ele>1038.0</ele>

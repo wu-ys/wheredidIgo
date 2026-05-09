@@ -4,6 +4,7 @@
     <name>阜阳</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25104</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>阜阳北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25067</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>阜阳西联络线 (11.6km)</name>
+    <name>阜阳西联络线</name>
     <trkseg>
       <trkpt lat="32.916681" lon="115.863569">
         <ele>30.0</ele>

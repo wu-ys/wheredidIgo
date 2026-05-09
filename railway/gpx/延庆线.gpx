@@ -4,6 +4,7 @@
     <name>八达岭西所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>a7e2bfc6</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="40.435215" lon="115.978119">
     <name>延庆</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12224</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>延庆线（八达岭西所-延庆） (9.2km)</name>
+    <name>延庆线</name>
     <trkseg>
       <trkpt lat="40.381372" lon="115.962893">
         <ele>556.75</ele>

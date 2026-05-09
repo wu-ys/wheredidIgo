@@ -3,7 +3,8 @@
   <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32621</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>九江</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25322</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>衢九线 (333.1km)</name>
+    <name>衢九线</name>
     <trkseg>
       <trkpt lat="28.925935" lon="118.876501">
         <ele>71.25</ele>

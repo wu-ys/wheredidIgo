@@ -4,6 +4,7 @@
     <name>山科</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A30</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>近江盐津</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A03</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>JR湖西线（山科-近江盐津） (74.2km)</name>
+    <name>JR湖西线</name>
     <trkseg>
       <trkpt lat="34.992755" lon="135.817235">
         <ele>66.0</ele>

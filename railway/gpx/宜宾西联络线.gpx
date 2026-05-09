@@ -4,6 +4,7 @@
     <name>宜宾</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>46907</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>宜宾西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47643</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宜宾西联络线 (3.5km)</name>
+    <name>宜宾西联络线</name>
     <trkseg>
       <trkpt lat="28.730907" lon="104.630581">
         <ele>314.0</ele>

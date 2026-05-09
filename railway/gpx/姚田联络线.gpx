@@ -4,6 +4,7 @@
     <name>姚家窝堡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>67034</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>田家窝堡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>53293</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>姚田联络线 (6.8km)</name>
+    <name>姚田联络线</name>
     <trkseg>
       <trkpt lat="42.024328" lon="122.661418">
         <ele>40.75</ele>

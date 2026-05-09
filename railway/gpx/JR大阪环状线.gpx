@@ -4,6 +4,7 @@
     <name>天王寺</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O01</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>大阪</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O11</code>
       <type>station</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>西九条</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O14</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>今宫</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O18</code>
       <type>station</type>
     </extensions>
@@ -36,6 +40,7 @@
     <name>新今宫</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O19</code>
       <type>station</type>
     </extensions>
@@ -44,12 +49,13 @@
     <name>天王寺</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O01</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>大阪环状线 (21.8km)</name>
+    <name>JR大阪环状线</name>
     <trkseg>
       <trkpt lat="34.702071" lon="135.495893">
         <ele>10.5</ele>

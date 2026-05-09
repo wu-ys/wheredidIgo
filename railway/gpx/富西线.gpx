@@ -4,6 +4,7 @@
     <name>富裕</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>59567</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>加格达奇</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>58910</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="52.986709" lon="122.500514">
     <name>漠河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>59150</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>富西线 (842.6km)</name>
+    <name>富西线</name>
     <trkseg>
       <trkpt lat="47.794833" lon="124.453826">
         <ele>163.5</ele>

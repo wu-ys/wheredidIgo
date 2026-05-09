@@ -4,6 +4,7 @@
     <name>番禺</name>
     <extensions>
       <country>gi</country>
+      <operator></operator>
       <code>D01</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="23.011695" lon="113.0622">
     <name>张槎</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>Z05</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="22.964447" lon="113.124193">
     <name>顺德北</name>
     <extensions>
-      <country>gi</country>
+      <country>CN</country>
+      <operator>gi</operator>
       <code>Z04</code>
       <type>station</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="23.082342" lon="113.028258">
     <name>佛山西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>24568</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>广肇城际线（番禺-佛山西） (36.7km)</name>
+    <name>广肇城际线</name>
     <trkseg>
       <trkpt lat="22.992372" lon="113.270229">
         <ele>1.0</ele>

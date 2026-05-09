@@ -4,6 +4,7 @@
     <name>JR难波</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>Q17</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>今宫</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>O18</code>
       <type>station</type>
     </extensions>

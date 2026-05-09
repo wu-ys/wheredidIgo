@@ -3,7 +3,8 @@
   <wpt lat="31.800958" lon="117.284759">
     <name>合肥南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>19423</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>巢湖东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34114</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>绩溪北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34126</code>
       <type>junction</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34130</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>合福高铁（合肥南-黄山北） (306.4km)</name>
+    <name>合福高速线合黄段</name>
     <trkseg>
       <trkpt lat="31.79958" lon="117.284911">
         <ele>25.75</ele>

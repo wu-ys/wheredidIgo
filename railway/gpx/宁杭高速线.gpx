@@ -3,15 +3,26 @@
   <wpt lat="31.970063" lon="118.793877">
     <name>南京南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16804</code>
+      <type>station</type>
+    </extensions>
+  </wpt>
+  <wpt lat="31.681406" lon="119.091126">
+    <name>溧水</name>
+    <extensions>
+      <country>CN</country>
+      <operator>cr</operator>
+      <code>31709</code>
       <type>station</type>
     </extensions>
   </wpt>
   <wpt lat="30.864274" lon="120.019428">
     <name>湖州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>31854</code>
       <type>station</type>
     </extensions>
@@ -19,13 +30,14 @@
   <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32001</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宁杭高速线（南京南-杭州东） (253.8km)</name>
+    <name>宁杭高速线</name>
     <trkseg>
       <trkpt lat="31.970587" lon="118.793182">
         <ele>14.5</ele>

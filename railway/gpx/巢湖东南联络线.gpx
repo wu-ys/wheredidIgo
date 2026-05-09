@@ -4,6 +4,7 @@
     <name>巢湖东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34114</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>胡庄所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>8fdcda66</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>巢湖东南联络线 (4.5km)</name>
+    <name>巢湖东南联络线</name>
     <trkseg>
       <trkpt lat="31.620275" lon="117.920206">
         <ele>6.0</ele>

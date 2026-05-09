@@ -4,6 +4,7 @@
     <name>太原南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>26468</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>定边</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65054</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>太中线（太原-定边） (507km)</name>
+    <name>太中线</name>
     <trkseg>
       <trkpt lat="37.785939" lon="112.610613">
         <ele>796.0</ele>

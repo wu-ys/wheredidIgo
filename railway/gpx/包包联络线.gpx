@@ -4,6 +4,7 @@
     <name>包头西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>14507</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>包头</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>14489</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>包包联络线 (6.5km)</name>
+    <name>包包联络线</name>
     <trkseg>
       <trkpt lat="40.614776" lon="109.756211">
         <ele>1046.5</ele>

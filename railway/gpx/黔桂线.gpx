@@ -3,7 +3,8 @@
   <wpt lat="24.70179" lon="108.061382">
     <name>金城江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>37376</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>柳州</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>36257</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>黔桂线（金城江-柳州） (160.7km)</name>
+    <name>黔桂线</name>
     <trkseg>
       <trkpt lat="24.702609" lon="108.060907">
         <ele>202.5</ele>

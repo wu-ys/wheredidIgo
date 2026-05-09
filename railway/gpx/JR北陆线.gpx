@@ -4,6 +4,7 @@
     <name>米原</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A12</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>近江盐津</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A03</code>
       <type>junction</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>敦贺</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A01</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>JR北陆本线（米原-敦贺） (45.9km)</name>
+    <name>JR北陆线</name>
     <trkseg>
       <trkpt lat="35.314883" lon="136.290184">
         <ele>89.25</ele>

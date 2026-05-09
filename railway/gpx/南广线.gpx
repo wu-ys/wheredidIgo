@@ -3,7 +3,8 @@
   <wpt lat="23.082342" lon="113.028258">
     <name>佛山西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>24568</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="22.991077" lon="113.261758">
     <name>广州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65848</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南广线（佛山西-广州南） (32.7km)</name>
+    <name>南广线</name>
     <trkseg>
       <trkpt lat="23.081936" lon="113.028517">
       </trkpt>

@@ -3,7 +3,8 @@
   <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>54011</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>梅河口</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>64301</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>四梅线（四平-梅河口） (157.5km)</name>
+    <name>四梅线</name>
     <trkseg>
       <trkpt lat="43.165362" lon="124.36756">
         <ele>169.5</ele>

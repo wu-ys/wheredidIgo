@@ -4,6 +4,7 @@
     <name>广通北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>48101</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="25.017766" lon="102.720356">
     <name>昆明</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48197</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>昆楚大铁路（昆明-广通北） (112.7km)</name>
+    <name>广昆线</name>
     <trkseg>
       <trkpt lat="25.16745" lon="101.763628">
         <ele>1809.0</ele>

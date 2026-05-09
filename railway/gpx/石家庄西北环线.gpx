@@ -4,6 +4,7 @@
     <name>柳辛庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>20369</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="38.064809" lon="114.458946">
     <name>石家庄北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>26426</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>石家庄西北环线（柳辛庄-石家庄北） (7.1km)</name>
+    <name>石家庄西北环线</name>
     <trkseg>
       <trkpt lat="38.104938" lon="114.508394">
         <ele>77.25</ele>

@@ -4,6 +4,7 @@
     <name>桥南所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16283</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>北园</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16292</code>
       <type>junction</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16295</code>
       <type>station</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>党家庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16319</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京沪济南线 (35.6km)</name>
+    <name>京沪济南线</name>
     <trkseg>
       <trkpt lat="36.704206" lon="116.827025">
         <ele>30.25</ele>

@@ -3,7 +3,8 @@
   <wpt lat="28.197434" lon="113.007695">
     <name>长沙</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>22874</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="28.226739" lon="112.974665">
     <name>开福寺</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65213</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="28.233342" lon="112.902291">
     <name>谷山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65207</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>长沙西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65201</code>
       <type>junction</type>
     </extensions>

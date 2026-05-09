@@ -4,6 +4,7 @@
     <name>青龙桥南所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>d1cb33d9</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>青龙桥</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12212</code>
       <type>junction</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>青龙桥北所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>ecab1a69</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京包青龙桥上行线 (1.8km)</name>
+    <name>京包线青龙桥上行线</name>
     <trkseg>
       <trkpt lat="40.345545" lon="116.016282">
         <ele>569.5</ele>

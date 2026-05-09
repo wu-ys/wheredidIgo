@@ -3,7 +3,8 @@
   <wpt lat="30.607803" lon="104.066034">
     <name>成都南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47675</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>燕岗</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47744</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>成昆线（成都南-燕岗） (135km)</name>
+    <name>成昆线</name>
     <trkseg>
       <trkpt lat="30.608789" lon="104.066049">
         <ele>489.75</ele>

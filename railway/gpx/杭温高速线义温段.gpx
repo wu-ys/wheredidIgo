@@ -3,7 +3,8 @@
   <wpt lat="29.217579" lon="120.260177">
     <name>横店</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21011</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>永嘉所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>f77128ce</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>杭温高速线 (150.8km)</name>
+    <name>杭温高速线义温段</name>
     <trkseg>
       <trkpt lat="29.217605" lon="120.259937">
         <ele>120.25</ele>

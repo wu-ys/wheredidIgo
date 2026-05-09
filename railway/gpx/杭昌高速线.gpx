@@ -4,6 +4,7 @@
     <name>桐庐</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32372</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>绩溪北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34126</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="29.818051" lon="118.267618">
     <name>黄山北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34130</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>杭昌高铁（桐庐-黄山北） (188.7km)</name>
+    <name>杭昌高速线</name>
     <trkseg>
       <trkpt lat="29.791298" lon="119.727652">
         <ele>72.75</ele>

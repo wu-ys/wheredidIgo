@@ -4,6 +4,7 @@
     <name>歌乐山</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>46569</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="29.503728" lon="106.433378">
     <name>重庆西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30077</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>井西线 (13.9km)</name>
+    <name>井西线</name>
     <trkseg>
       <trkpt lat="29.62692" lon="106.433511">
         <ele>265.25</ele>

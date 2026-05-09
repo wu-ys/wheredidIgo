@@ -4,6 +4,7 @@
     <name>沙堤所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1f97993f</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>张家界西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>26777</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>张家界西联络线 (3.1km)</name>
+    <name>张家界西联络线</name>
     <trkseg>
       <trkpt lat="29.19491" lon="110.4409">
         <ele>254.0</ele>

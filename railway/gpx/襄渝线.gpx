@@ -4,6 +4,7 @@
     <name>安康</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>29843</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>磨心坡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30053</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>湘渝线（安康-磨心坡） (469.2km)</name>
+    <name>襄渝线</name>
     <trkseg>
       <trkpt lat="32.715183" lon="109.01206">
         <ele>308.75</ele>

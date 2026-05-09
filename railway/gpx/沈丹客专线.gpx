@@ -3,7 +3,8 @@
   <wpt lat="41.66637" lon="123.400938">
     <name>沈阳南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>63623</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="40.122162" lon="124.380192">
     <name>丹东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55118</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沈丹客专线（沈阳南-丹东） (207.7km)</name>
+    <name>沈丹客专线</name>
     <trkseg>
       <trkpt lat="41.666006" lon="123.400856">
         <ele>39.75</ele>

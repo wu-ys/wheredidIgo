@@ -4,6 +4,7 @@
     <name>桐庐东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66276</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="29.380372" lon="120.038677">
     <name>义乌</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32537</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>杭温高铁（桐庐东-义乌） (61.7km)</name>
+    <name>杭温高速线杭义段</name>
     <trkseg>
       <trkpt lat="29.85746" lon="119.759639">
       </trkpt>

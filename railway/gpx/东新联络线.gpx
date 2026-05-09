@@ -4,6 +4,7 @@
     <name>东门</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>62665</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>新香坊</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>61931</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>东新联络线（东门-新香坊） (6.9km)</name>
+    <name>东新联络线</name>
     <trkseg>
       <trkpt lat="45.741025" lon="126.715926">
         <ele>137.75</ele>

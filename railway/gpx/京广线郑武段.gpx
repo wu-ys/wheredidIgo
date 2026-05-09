@@ -4,6 +4,7 @@
     <name>汉西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21059</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.53277" lon="114.311764">
     <name>武昌</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21077</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广线（汉西-武昌） (13.3km)</name>
+    <name>京广线郑武段</name>
     <trkseg>
       <trkpt lat="30.588985" lon="114.223743">
         <ele>29.75</ele>

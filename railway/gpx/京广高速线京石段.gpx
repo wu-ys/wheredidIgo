@@ -3,7 +3,8 @@
   <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21152</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="38.009434" lon="114.478487">
     <name>石家庄</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20372</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广高铁（北京西-石家庄） (281km)</name>
+    <name>京广高速线京石段</name>
     <trkseg>
       <trkpt lat="39.893382" lon="116.31511">
         <ele>62.25</ele>

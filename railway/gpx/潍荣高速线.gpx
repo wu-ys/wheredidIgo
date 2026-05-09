@@ -4,6 +4,7 @@
     <name>莱西东所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>34f3f0d8</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>荣成</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>18675</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>潍荣高速线（莱西东所-荣成） (191.5km)</name>
+    <name>潍荣高速线</name>
     <trkseg>
       <trkpt lat="36.847405" lon="120.548709">
         <ele>62.25</ele>

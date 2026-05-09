@@ -4,6 +4,7 @@
     <name>龙家营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10328</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="39.964616" lon="119.586226">
     <name>秦皇岛</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10319</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="39.849858" lon="119.41362">
     <name>北戴河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10307</code>
       <type>station</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="39.622864" lon="118.115152">
     <name>唐山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10214</code>
       <type>station</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="39.136792" lon="117.20372">
     <name>天津</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10157</code>
       <type>station</type>
     </extensions>
@@ -43,13 +48,14 @@
   <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16010</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>津秦客专（龙家营-天津西）</name>
+    <name>津秦高速线</name>
     <trkseg>
       <trkpt lat="39.967685" lon="119.693841">
         <ele>6.75</ele>

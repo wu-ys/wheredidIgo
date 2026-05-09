@@ -3,7 +3,8 @@
   <wpt lat="40.848343" lon="111.759334">
     <name>呼和浩特东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12578</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>台阁牧</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12596</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京包线（呼和浩特东-台阁牧） (28.3km)</name>
+    <name>京包线呼和浩特段</name>
     <trkseg>
       <trkpt lat="40.850268" lon="111.758017">
         <ele>1074.25</ele>

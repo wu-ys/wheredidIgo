@@ -4,6 +4,7 @@
     <name>南阳寨</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21749</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="35.222383" lon="113.22855">
     <name>焦作</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>38402</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>郑太客运专线（南阳寨-焦作） (69.8km)</name>
+    <name>郑太客运专线</name>
     <trkseg>
       <trkpt lat="34.815467" lon="113.610953">
         <ele>99.75</ele>

@@ -3,7 +3,8 @@
   <wpt lat="39.943668" lon="116.503226">
     <name>北京朝阳</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11389</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="40.883668" lon="117.958703">
     <name>承德南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>52920</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>姚家窝堡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>67034</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京哈高铁（北京朝阳-姚家窝堡所） (624km)</name>
+    <name>京哈高速线京沈段</name>
     <trkseg>
       <trkpt lat="39.943222" lon="116.502888">
         <ele>40.25</ele>

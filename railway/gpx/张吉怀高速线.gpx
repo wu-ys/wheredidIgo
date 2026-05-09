@@ -4,6 +4,7 @@
     <name>沙堤所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1f97993f</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="28.020293" lon="109.598798">
     <name>凤凰古城</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65609</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>龙形村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>352d5dea</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>张吉怀高速线 (238.5km)</name>
+    <name>张吉怀高速线</name>
     <trkseg>
       <trkpt lat="29.19491" lon="110.4409">
         <ele>251.25</ele>

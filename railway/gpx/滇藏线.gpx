@@ -3,7 +3,8 @@
   <wpt lat="26.81422" lon="100.251512">
     <name>丽江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48417</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="27.813351" lon="99.688547">
     <name>香格里拉</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>49534</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>滇藏线（丽江-香格里拉） (138km)</name>
+    <name>滇藏线</name>
     <trkseg>
       <trkpt lat="26.81353" lon="100.250882">
         <ele>2412.5</ele>

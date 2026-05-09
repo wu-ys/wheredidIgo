@@ -3,7 +3,8 @@
   <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>44083</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="29.224193" lon="88.91301">
     <name>日喀则</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>43936</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>拉日线 (247.2km)</name>
+    <name>拉日线</name>
     <trkseg>
       <trkpt lat="29.625157" lon="91.068938">
         <ele>3642.0</ele>

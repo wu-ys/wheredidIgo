@@ -3,7 +3,8 @@
   <wpt lat="39.899197" lon="116.56407">
     <name>双桥</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11333</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="40.124766" lon="116.639598">
     <name>顺义</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11366</code>
       <type>station</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>怀柔</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11378</code>
       <type>junction</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>赵家店所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>697325ec</code>
       <type>junction</type>
     </extensions>
@@ -35,13 +39,14 @@
   <wpt lat="40.963096" lon="117.948261">
     <name>承德</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11492</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京承线 (243.3km)</name>
+    <name>京承线</name>
     <trkseg>
       <trkpt lat="39.899993" lon="116.554843">
         <ele>32.5</ele>

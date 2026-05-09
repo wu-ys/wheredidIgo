@@ -4,6 +4,7 @@
     <name>上饶</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32687</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>京福所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>ad645c6d</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>上饶东南联络线 (7.6km)</name>
+    <name>上饶东南联络线</name>
     <trkseg>
       <trkpt lat="28.493642" lon="118.004177">
         <ele>108.25</ele>

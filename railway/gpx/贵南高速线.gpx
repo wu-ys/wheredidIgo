@@ -3,7 +3,8 @@
   <wpt lat="24.714364" lon="108.171197">
     <name>河池西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47516</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="22.84528" lon="108.409606">
     <name>南宁东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>36452</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>贵南高速线（河池西-南宁东） (220.4km)</name>
+    <name>贵南高速线</name>
     <trkseg>
       <trkpt lat="24.713787" lon="108.173002">
         <ele>212.0</ele>

@@ -4,6 +4,7 @@
     <name>久宝寺</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>Q24</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>加茂</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>Q39</code>
       <type>station</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>木津</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>D19</code>
       <type>junction</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>JR奈良</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>Q36</code>
       <type>station</type>
     </extensions>
@@ -36,12 +40,13 @@
     <name>柘植</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>C01</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>关西本线（久宝寺-拓植） (84.4km)</name>
+    <name>JR关西线</name>
     <trkseg>
       <trkpt lat="34.622345" lon="135.583991">
         <ele>11.5</ele>

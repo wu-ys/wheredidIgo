@@ -4,6 +4,7 @@
     <name>上饶</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32687</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="26.117167" lon="119.315415">
     <name>福州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>34682</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>合福高铁（上饶-福州） (339.9km)</name>
+    <name>合福高速线饶福段</name>
     <trkseg>
       <trkpt lat="28.494257" lon="118.004173">
         <ele>118.0</ele>

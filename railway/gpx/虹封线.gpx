@@ -3,7 +3,8 @@
   <wpt lat="31.196704" lon="121.314801">
     <name>上海虹桥</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>66100</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>封浜</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32045</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>虹封线（封浜-上海虹桥）</name>
+    <name>虹封线</name>
     <trkseg>
       <trkpt lat="31.19588" lon="121.315314">
         <ele>3.25</ele>

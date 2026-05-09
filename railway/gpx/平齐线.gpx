@@ -3,7 +3,8 @@
   <wpt lat="43.165104" lon="124.36728">
     <name>四平</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>54011</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>榆树屯</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>56663</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="47.338071" lon="123.989172">
     <name>齐齐哈尔</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>56675</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>平齐线 (570.8km)</name>
+    <name>平齐线</name>
     <trkseg>
       <trkpt lat="43.165291" lon="124.367716">
         <ele>171.75</ele>

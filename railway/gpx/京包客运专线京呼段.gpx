@@ -3,7 +3,8 @@
   <wpt lat="39.943899" lon="116.346821">
     <name>北京北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12713</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="40.040723" lon="116.307714">
     <name>清河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12707</code>
       <type>station</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>昌平</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>12173</code>
       <type>junction</type>
     </extensions>
@@ -27,7 +30,8 @@
   <wpt lat="40.358029" lon="116.00491">
     <name>八达岭长城</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12181</code>
       <type>station</type>
     </extensions>
@@ -36,6 +40,7 @@
     <name>八达岭西所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>a7e2bfc6</code>
       <type>junction</type>
     </extensions>
@@ -43,7 +48,8 @@
   <wpt lat="40.750704" lon="114.876733">
     <name>张家口</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12782</code>
       <type>station</type>
     </extensions>
@@ -51,7 +57,8 @@
   <wpt lat="40.963345" lon="113.152254">
     <name>乌兰察布</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12113</code>
       <type>station</type>
     </extensions>
@@ -59,7 +66,8 @@
   <wpt lat="40.848343" lon="111.759334">
     <name>呼和浩特东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12578</code>
       <type>station</type>
     </extensions>
@@ -67,13 +75,14 @@
   <wpt lat="40.829499" lon="111.658306">
     <name>呼和浩特</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>12581</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京包客专（北京北-呼和浩特） (468km)</name>
+    <name>京包客运专线京呼段</name>
     <trkseg>
       <trkpt lat="39.94336" lon="116.346691">
         <ele>52.5</ele>

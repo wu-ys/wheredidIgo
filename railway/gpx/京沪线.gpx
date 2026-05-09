@@ -3,7 +3,8 @@
   <wpt lat="39.90144" lon="116.42113">
     <name>北京</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10001</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="39.863072" lon="116.372838">
     <name>北京南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10010</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="39.849629" lon="116.295393">
     <name>北京丰台</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10025</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>黄土坡所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1cfdd7a5</code>
       <type>junction</type>
     </extensions>
@@ -36,6 +40,7 @@
     <name>汉沟镇</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>10091</code>
       <type>junction</type>
     </extensions>
@@ -43,7 +48,8 @@
   <wpt lat="39.165954" lon="117.203217">
     <name>天津北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>10148</code>
       <type>station</type>
     </extensions>
@@ -51,7 +57,8 @@
   <wpt lat="39.156945" lon="117.157228">
     <name>天津西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16010</code>
       <type>station</type>
     </extensions>
@@ -60,6 +67,7 @@
     <name>桥南所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16283</code>
       <type>junction</type>
     </extensions>
@@ -68,6 +76,7 @@
     <name>党家庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16319</code>
       <type>junction</type>
     </extensions>
@@ -75,7 +84,8 @@
   <wpt lat="36.186857" lon="117.103623">
     <name>泰山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16352</code>
       <type>station</type>
     </extensions>
@@ -83,7 +93,8 @@
   <wpt lat="35.556214" lon="116.835541">
     <name>兖州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16400</code>
       <type>station</type>
     </extensions>
@@ -92,6 +103,7 @@
     <name>徐州</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16628</code>
       <type>junction</type>
     </extensions>
@@ -100,6 +112,7 @@
     <name>林场</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16802</code>
       <type>junction</type>
     </extensions>
@@ -107,7 +120,8 @@
   <wpt lat="32.09012" lon="118.793041">
     <name>南京</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16805</code>
       <type>station</type>
     </extensions>
@@ -115,7 +129,8 @@
   <wpt lat="31.331842" lon="120.606681">
     <name>苏州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30530</code>
       <type>station</type>
     </extensions>
@@ -124,6 +139,7 @@
     <name>黄渡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>30566</code>
       <type>junction</type>
     </extensions>
@@ -131,13 +147,14 @@
   <wpt lat="31.251539" lon="121.45119">
     <name>上海</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30671</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京沪线（北京-上海）</name>
+    <name>京沪线</name>
     <trkseg>
       <trkpt lat="39.900806" lon="116.421061">
         <ele>49.75</ele>

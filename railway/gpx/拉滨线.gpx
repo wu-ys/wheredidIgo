@@ -4,6 +4,7 @@
     <name>东门</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>62665</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="45.784391" lon="126.707134">
     <name>哈尔滨东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>60002</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>哈环线（东门-哈尔滨东） (5.3km)</name>
+    <name>拉滨线</name>
     <trkseg>
       <trkpt lat="45.741073" lon="126.715935">
         <ele>137.5</ele>

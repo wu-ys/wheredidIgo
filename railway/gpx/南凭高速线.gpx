@@ -3,7 +3,8 @@
   <wpt lat="22.829139" lon="108.311523">
     <name>南宁</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>36428</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="22.602692" lon="108.18296">
     <name>吴圩机场</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>36433</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="22.359854" lon="107.390852">
     <name>崇左南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>36437</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南凭高速线（南宁-崇左南）</name>
+    <name>南凭高速线</name>
     <trkseg>
       <trkpt lat="22.830426" lon="108.310664">
         <ele>81.0</ele>

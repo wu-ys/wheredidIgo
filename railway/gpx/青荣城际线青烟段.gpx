@@ -3,7 +3,8 @@
   <wpt lat="36.823534" lon="120.524985">
     <name>莱西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18657</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>西陌堂所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>18663</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>青荣城际线（莱西-西陌堂所） (99.9km)</name>
+    <name>青荣城际线青烟段</name>
     <trkseg>
       <trkpt lat="36.823048" lon="120.525563">
         <ele>59.5</ele>

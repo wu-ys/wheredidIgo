@@ -4,6 +4,7 @@
     <name>何刘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21959</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>九江西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25324</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>武九线（九江西-何刘）</name>
+    <name>武九线</name>
     <trkseg>
       <trkpt lat="30.531112" lon="114.491054">
         <ele>34.25</ele>

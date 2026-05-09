@@ -3,7 +3,8 @@
   <wpt lat="30.53277" lon="114.311764">
     <name>武昌</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21077</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>武昌南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21089</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广线（武昌-武昌南） (8.3km)</name>
+    <name>京广线武广段</name>
     <trkseg>
       <trkpt lat="30.530894" lon="114.312282">
         <ele>34.5</ele>

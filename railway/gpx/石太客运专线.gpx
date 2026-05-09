@@ -3,7 +3,8 @@
   <wpt lat="38.064809" lon="114.458946">
     <name>石家庄北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>26426</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="37.859785" lon="112.581228">
     <name>太原</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>26447</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>太原南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>26468</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>石太客专（石家庄北-太原南） (199km)</name>
+    <name>石太客运专线</name>
     <trkseg>
       <trkpt lat="38.066236" lon="114.459158">
         <ele>79.0</ele>

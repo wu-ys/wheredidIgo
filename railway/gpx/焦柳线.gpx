@@ -4,6 +4,7 @@
     <name>月山</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>28442</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="35.110954" lon="112.568272">
     <name>济源</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>44114</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>焦柳线（月山-济源） (49.2km)</name>
+    <name>焦柳线</name>
     <trkseg>
       <trkpt lat="35.210917" lon="113.049063">
         <ele>168.5</ele>

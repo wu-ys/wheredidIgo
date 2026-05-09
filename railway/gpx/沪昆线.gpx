@@ -4,6 +4,7 @@
     <name>封浜</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32045</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>七宝</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32075</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>李家塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32076</code>
       <type>junction</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>春申</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32081</code>
       <type>junction</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="30.985034" lon="121.22531">
     <name>上海松江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32022</code>
       <type>station</type>
     </extensions>
@@ -43,7 +48,8 @@
   <wpt lat="30.766969" lon="120.758817">
     <name>嘉兴</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32138</code>
       <type>station</type>
     </extensions>
@@ -51,7 +57,8 @@
   <wpt lat="30.535639" lon="120.680671">
     <name>海宁</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32159</code>
       <type>station</type>
     </extensions>
@@ -60,6 +67,7 @@
     <name>笕桥</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32198</code>
       <type>junction</type>
     </extensions>
@@ -67,7 +75,8 @@
   <wpt lat="30.293964" lon="120.207892">
     <name>杭州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32001</code>
       <type>station</type>
     </extensions>
@@ -75,7 +84,8 @@
   <wpt lat="30.174535" lon="120.288713">
     <name>杭州南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32460</code>
       <type>station</type>
     </extensions>
@@ -83,7 +93,8 @@
   <wpt lat="28.927599" lon="118.876167">
     <name>衢州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32621</code>
       <type>station</type>
     </extensions>
@@ -92,6 +103,7 @@
     <name>梁家渡</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32879</code>
       <type>junction</type>
     </extensions>
@@ -99,7 +111,8 @@
   <wpt lat="27.809323" lon="114.658631">
     <name>分宜</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>33023</code>
       <type>station</type>
     </extensions>
@@ -107,7 +120,8 @@
   <wpt lat="27.792421" lon="114.431339">
     <name>宜春</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65646</code>
       <type>station</type>
     </extensions>
@@ -115,7 +129,8 @@
   <wpt lat="27.038084" lon="108.405681">
     <name>镇远</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>35624</code>
       <type>station</type>
     </extensions>
@@ -124,12 +139,13 @@
     <name>龙里</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>37580</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沪昆线（封浜-龙里） (1,937km)</name>
+    <name>沪昆线</name>
     <trkseg>
       <trkpt lat="31.258637" lon="121.284221">
         <ele>4.0</ele>

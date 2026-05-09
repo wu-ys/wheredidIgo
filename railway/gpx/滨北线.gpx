@@ -3,7 +3,8 @@
   <wpt lat="45.784391" lon="126.707134">
     <name>哈尔滨东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>60002</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="45.996263" lon="126.640569">
     <name>呼兰</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>59789</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>滨北线（哈尔滨东-呼兰） (25.3km)</name>
+    <name>滨北线</name>
     <trkseg>
       <trkpt lat="45.786541" lon="126.705455">
         <ele>120.0</ele>

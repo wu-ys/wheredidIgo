@@ -3,7 +3,8 @@
   <wpt lat="25.017766" lon="102.720356">
     <name>昆明</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48197</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="24.873557" lon="102.86011">
     <name>昆明南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>48778</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="22.829139" lon="108.311523">
     <name>南宁</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>36428</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>南昆客运专线（昆明南-南宁） (707.7km)</name>
+    <name>南昆客运专线</name>
     <trkseg>
       <trkpt lat="25.018154" lon="102.720425">
         <ele>1894.5</ele>

@@ -4,6 +4,7 @@
     <name>济南东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17601</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>胶州北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17963</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="36.168694" lon="120.369524">
     <name>青岛北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18088</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>济青高铁 (328.8km)</name>
+    <name>济青高速线</name>
     <trkseg>
       <trkpt lat="36.74854" lon="117.153805">
         <ele>25.25</ele>

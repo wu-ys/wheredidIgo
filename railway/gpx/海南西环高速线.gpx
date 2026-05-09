@@ -3,7 +3,8 @@
   <wpt lat="18.37769" lon="109.153496">
     <name>崖州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51480</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="18.310561" lon="109.404688">
     <name>凤凰机场</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51682</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="18.297786" lon="109.48898">
     <name>三亚</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>51481</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>海南西环高速线（崖州-三亚） (37.4km)</name>
+    <name>海南西环高速线</name>
     <trkseg>
       <trkpt lat="18.378698" lon="109.15341">
         <ele>4.5</ele>

@@ -4,6 +4,7 @@
     <name>宣城</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>31319</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.246198" lon="120.177326">
     <name>杭州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32252</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>宣杭线（杭州-宣城） (219.5km)</name>
+    <name>宣杭线</name>
     <trkseg>
       <trkpt lat="30.949909" lon="118.76952">
         <ele>15.0</ele>

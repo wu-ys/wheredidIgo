@@ -3,7 +3,8 @@
   <wpt lat="38.009434" lon="114.478487">
     <name>石家庄</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20372</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>南阳寨</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21749</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="34.746928" lon="113.652007">
     <name>郑州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20750</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广线（石家庄-郑州） (408.9km)</name>
+    <name>京广线石郑段</name>
     <trkseg>
       <trkpt lat="38.009692" lon="114.476821">
         <ele>72.75</ele>

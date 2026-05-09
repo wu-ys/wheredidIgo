@@ -4,6 +4,7 @@
     <name>龙里</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>37580</code>
       <type>junction</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>秦祺村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>45c67dbe</code>
       <type>junction</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="26.5604" lon="106.69866">
     <name>贵阳</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>37646</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>贵阳客车线（龙里-贵阳） (31.7km)</name>
+    <name>贵阳客车线</name>
     <trkseg>
       <trkpt lat="26.450685" lon="106.969555">
         <ele>1099.25</ele>

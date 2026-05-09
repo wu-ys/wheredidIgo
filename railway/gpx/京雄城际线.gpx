@@ -3,7 +3,8 @@
   <wpt lat="39.892572" lon="116.317173">
     <name>北京西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21152</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="39.719037" lon="116.322743">
     <name>北京大兴</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21156</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="39.5109" lon="116.409504">
     <name>大兴机场</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21158</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>固安东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21160</code>
       <type>junction</type>
     </extensions>
@@ -35,7 +39,8 @@
   <wpt lat="39.185558" lon="116.321097">
     <name>霸州北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21162</code>
       <type>station</type>
     </extensions>
@@ -43,13 +48,14 @@
   <wpt lat="39.055624" lon="116.154071">
     <name>雄安</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>21164</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京雄城际 (106.4km)</name>
+    <name>京雄城际线</name>
     <trkseg>
       <trkpt lat="39.892861" lon="116.315199">
         <ele>61.0</ele>

@@ -3,7 +3,8 @@
   <wpt lat="39.015978" lon="121.601377">
     <name>大连北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53520</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="38.921389" lon="121.628079">
     <name>大连</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53522</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沈大线（大连北-大连） (17.4km)</name>
+    <name>沈大线</name>
     <trkseg>
       <trkpt lat="39.015996" lon="121.602254">
         <ele>7.5</ele>

@@ -4,6 +4,7 @@
     <name>敦化</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>63227</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>敦化南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>09e52b7e</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>敦白联络线 (11.1km)</name>
+    <name>敦白联络线</name>
     <trkseg>
       <trkpt lat="43.377885" lon="128.240295">
         <ele>498.25</ele>

@@ -3,7 +3,8 @@
   <wpt lat="28.665071" lon="115.913113">
     <name>南昌</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>25424</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>向塘</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25454</code>
       <type>junction</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>三江镇</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>25487</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京九线（南昌-向塘-三江镇） (44.1km)</name>
+    <name>京九线南昌段</name>
     <trkseg>
       <trkpt lat="28.665272" lon="115.914957">
         <ele>23.25</ele>

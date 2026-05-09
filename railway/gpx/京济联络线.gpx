@@ -3,7 +3,8 @@
   <wpt lat="36.669206" lon="116.887906">
     <name>济南西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>66812</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16295</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京济联络线（济南西-济南）</name>
+    <name>京济联络线</name>
     <trkseg>
       <trkpt lat="36.668654" lon="116.886039">
         <ele>31.0</ele>

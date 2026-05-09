@@ -4,6 +4,7 @@
     <name>近铁奈良</name>
     <extensions>
       <country>kt</country>
+      <operator></operator>
       <code>A28</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>近铁日本桥</name>
     <extensions>
       <country>kt</country>
+      <operator></operator>
       <code>A02</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>近铁奈良线（奈良-近铁日本桥） (32km)</name>
+    <name>近铁奈良线</name>
     <trkseg>
       <trkpt lat="34.684129" lon="135.828209">
         <ele>66.75</ele>

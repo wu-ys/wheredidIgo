@@ -4,6 +4,7 @@
     <name>新沟北所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1fc8fda8</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>革新所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>3f957c06</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>新沟北联络线 (5.3km)</name>
+    <name>新沟北联络线</name>
     <trkseg>
       <trkpt lat="30.713845" lon="113.928802">
       </trkpt>

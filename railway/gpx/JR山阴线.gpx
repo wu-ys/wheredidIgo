@@ -4,6 +4,7 @@
     <name>京都</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A31</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>梅小路京都西</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>E02</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>嵯峨岚山</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>E08</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>山阴本线</name>
+    <name>JR山阴线</name>
     <trkseg>
       <trkpt lat="34.985811" lon="135.756604">
         <ele>50.75</ele>

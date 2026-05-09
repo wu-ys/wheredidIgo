@@ -4,6 +4,7 @@
     <name>笕桥所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>a535f86a</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>笕桥</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32198</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>笕桥线 (11.5km)</name>
+    <name>笕桥线</name>
     <trkseg>
       <trkpt lat="30.35688" lon="120.246722">
         <ele>11.0</ele>

@@ -4,6 +4,7 @@
     <name>京都</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>A31</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>木津</name>
     <extensions>
       <country>jr</country>
+      <operator></operator>
       <code>D19</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>JR奈良线（京都-木津） (34.8km)</name>
+    <name>JR奈良线</name>
     <trkseg>
       <trkpt lat="34.984888" lon="135.759312">
         <ele>33.5</ele>

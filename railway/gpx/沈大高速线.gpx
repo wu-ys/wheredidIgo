@@ -3,7 +3,8 @@
   <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53885</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="41.66637" lon="123.400938">
     <name>沈阳南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>63623</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="39.015978" lon="121.601377">
     <name>大连北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53520</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沈大高速线 (369km)</name>
+    <name>沈大高速线</name>
     <trkseg>
       <trkpt lat="41.816685" lon="123.429715">
         <ele>53.75</ele>

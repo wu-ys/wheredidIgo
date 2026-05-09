@@ -3,7 +3,8 @@
   <wpt lat="31.153863" lon="121.426983">
     <name>上海南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32270</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>莘庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32078</code>
       <type>junction</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>春申南所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>912699c8</code>
       <type>junction</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>春申</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>32081</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>上海南联络线（沪春一二线） (3km)</name>
+    <name>沪春线</name>
     <trkseg>
       <trkpt lat="31.100991" lon="121.370123">
         <ele>6.75</ele>

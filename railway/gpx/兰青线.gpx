@@ -4,6 +4,7 @@
     <name>兰州</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>39872</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>西宁</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>43502</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>兰青线 (209.9km)</name>
+    <name>兰青线</name>
     <trkseg>
       <trkpt lat="36.034506" lon="103.848635">
         <ele>1535.75</ele>

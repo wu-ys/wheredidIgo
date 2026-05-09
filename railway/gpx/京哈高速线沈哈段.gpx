@@ -3,7 +3,8 @@
   <wpt lat="41.81696" lon="123.429815">
     <name>沈阳北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53885</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="43.135985" lon="124.43178">
     <name>四平东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>53487</code>
       <type>station</type>
     </extensions>
@@ -20,6 +22,7 @@
     <name>崔家营子所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>53480</code>
       <type>junction</type>
     </extensions>
@@ -27,13 +30,14 @@
   <wpt lat="45.758149" lon="126.62486">
     <name>哈尔滨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>55661</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京哈高铁（沈阳北-哈尔滨） (517.6km)</name>
+    <name>京哈高速线沈哈段</name>
     <trkseg>
       <trkpt lat="41.817165" lon="123.429297">
         <ele>47.5</ele>

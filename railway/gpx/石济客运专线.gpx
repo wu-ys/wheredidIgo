@@ -4,6 +4,7 @@
     <name>陵县所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>66876</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>济南东</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17601</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>石济客专（陵县所-济南东） (96.9km)</name>
+    <name>石济客运专线</name>
     <trkseg>
       <trkpt lat="37.355186" lon="116.473736">
       </trkpt>

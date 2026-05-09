@@ -3,7 +3,8 @@
   <wpt lat="30.687917" lon="103.977501">
     <name>成都西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47675</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.0319" lon="103.054333">
     <name>雅安</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46219</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>成雅线 (140km)</name>
+    <name>成雅线</name>
     <trkseg>
       <trkpt lat="30.687899" lon="103.977253">
         <ele>509.75</ele>

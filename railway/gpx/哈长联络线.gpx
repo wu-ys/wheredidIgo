@@ -4,6 +4,7 @@
     <name>崔家营子所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>53480</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>杨家粉坊所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>54119</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>哈长联络线 (3.6km)</name>
+    <name>哈长联络线</name>
     <trkseg>
       <trkpt lat="43.937009" lon="125.251193">
       </trkpt>

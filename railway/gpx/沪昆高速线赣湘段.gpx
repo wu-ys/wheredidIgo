@@ -3,7 +3,8 @@
   <wpt lat="27.792421" lon="114.431339">
     <name>宜春</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65646</code>
       <type>station</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="28.14943" lon="113.058156">
     <name>长沙南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65818</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="27.968399" lon="112.936745">
     <name>湘潭北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>65660</code>
       <type>station</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>怀化南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65678</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沪昆高速线（宜春-怀化南） (497.3km)</name>
+    <name>沪昆高速线赣湘段</name>
     <trkseg>
       <trkpt lat="27.791174" lon="114.431605">
         <ele>85.0</ele>

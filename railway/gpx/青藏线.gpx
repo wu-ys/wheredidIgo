@@ -4,6 +4,7 @@
     <name>西宁</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>43502</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="36.383439" lon="94.906191">
     <name>格尔木</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>43787</code>
       <type>station</type>
     </extensions>
@@ -19,13 +21,14 @@
   <wpt lat="29.625868" lon="91.068171">
     <name>拉萨</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>44083</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>青藏线 (1,891.9km)</name>
+    <name>青藏线</name>
     <trkseg>
       <trkpt lat="36.62047" lon="101.81253">
         <ele>2218.5</ele>

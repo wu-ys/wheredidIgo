@@ -3,7 +3,8 @@
   <wpt lat="42.459589" lon="128.122375">
     <name>长白山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>64090</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>敦化南</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>09e52b7e</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沈佳高速线（敦化南-长白山） (99.5km)</name>
+    <name>沈佳高速线敦白段</name>
     <trkseg>
       <trkpt lat="42.460397" lon="128.122077">
         <ele>685.0</ele>

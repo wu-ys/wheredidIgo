@@ -4,6 +4,7 @@
     <name>榆树屯</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>56663</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>红旗营</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>57485</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>榆红线 (6.3km)</name>
+    <name>榆红线</name>
     <trkseg>
       <trkpt lat="47.154033" lon="123.889078">
         <ele>146.5</ele>

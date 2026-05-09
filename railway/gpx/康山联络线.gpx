@@ -4,6 +4,7 @@
     <name>康山所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>503ae511</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>妙西镇所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>c85ef475</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>康山联络线 (4.5km)</name>
+    <name>康山联络线</name>
     <trkseg>
       <trkpt lat="30.818975" lon="120.048859">
       </trkpt>

@@ -4,14 +4,16 @@
     <name>长阳村所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>2108bd63</code>
       <type>junction</type>
     </extensions>
   </wpt>
-  <wpt lat="116.151071" lon="39.739625">
+  <wpt lat="39.739625" lon="116.151071">
     <name>良乡</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>20255</code>
       <type>station</type>
     </extensions>
@@ -20,12 +22,13 @@
     <name>柳辛庄</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>20369</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>京广线（长辛店-柳辛庄）</name>
+    <name>京广线京石段</name>
     <trkseg>
       <trkpt lat="39.771172" lon="116.175189">
         <ele>46.5</ele>

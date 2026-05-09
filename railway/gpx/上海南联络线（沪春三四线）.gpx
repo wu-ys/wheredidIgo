@@ -3,7 +3,8 @@
   <wpt lat="31.153863" lon="121.426983">
     <name>上海南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>32270</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>春申所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>cc45f8ec</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>上海南联络线（沪春三四线） (10.9km)</name>
+    <name>上海南联络线（沪春三四线）</name>
     <trkseg>
       <trkpt lat="31.154712" lon="121.425129">
         <ele>5.75</ele>

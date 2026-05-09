@@ -3,7 +3,8 @@
   <wpt lat="36.670731" lon="116.985072">
     <name>济南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>16295</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>大明湖</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17699</code>
       <type>junction</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="36.788356" lon="118.051558">
     <name>淄博</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>17786</code>
       <type>station</type>
     </extensions>
@@ -28,6 +31,7 @@
     <name>胶州北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>17963</code>
       <type>junction</type>
     </extensions>
@@ -35,13 +39,14 @@
   <wpt lat="36.168694" lon="120.369524">
     <name>青岛北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>18088</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>胶济客专（济南-青岛北） (346.1km)</name>
+    <name>胶济客运专线</name>
     <trkseg>
       <trkpt lat="36.670795" lon="116.985183">
         <ele>32.0</ele>

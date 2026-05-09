@@ -4,6 +4,7 @@
     <name>林场</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>16802</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="32.391623" lon="119.345396">
     <name>扬州</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>17364</code>
       <type>station</type>
     </extensions>
@@ -19,15 +21,17 @@
   <wpt lat="32.549268" lon="120.50033">
     <name>海安</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>17370</code>
       <type>station</type>
     </extensions>
   </wpt>
-  <wpt lat="121.640909" lon="31.859289">
+  <wpt lat="31.859289" lon="121.640909">
     <name>启东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>19130</code>
       <type>station</type>
     </extensions>

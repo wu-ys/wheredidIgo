@@ -3,7 +3,8 @@
   <wpt lat="34.268629" lon="117.29773">
     <name>徐州东</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>66827</code>
       <type>station</type>
     </extensions>
@@ -12,6 +13,7 @@
     <name>徐州东所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>38934</code>
       <type>junction</type>
     </extensions>

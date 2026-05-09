@@ -4,6 +4,7 @@
     <name>新沟北所</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>1fc8fda8</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="30.748088" lon="111.469488">
     <name>宜昌北</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>45195</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>沪渝蓉高速线（宜昌北-新沟北所） (263.5km)</name>
+    <name>沪渝蓉高速线</name>
     <trkseg>
       <trkpt lat="30.713864" lon="113.928868">
       </trkpt>

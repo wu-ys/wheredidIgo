@@ -4,6 +4,7 @@
     <name>燕岗</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>47744</code>
       <type>junction</type>
     </extensions>
@@ -11,7 +12,8 @@
   <wpt lat="27.871463" lon="102.160204">
     <name>西昌西</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46140</code>
       <type>station</type>
     </extensions>
@@ -19,7 +21,8 @@
   <wpt lat="26.471606" lon="101.74648">
     <name>攀枝花南</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>46158</code>
       <type>station</type>
     </extensions>
@@ -28,12 +31,13 @@
     <name>广通北</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>48101</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>峨广线（峨眉-广通北） (616.4km)</name>
+    <name>峨广线</name>
     <trkseg>
       <trkpt lat="29.547124" lon="103.524477">
         <ele>433.75</ele>

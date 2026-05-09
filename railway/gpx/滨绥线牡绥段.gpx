@@ -3,7 +3,8 @@
   <wpt lat="44.589049" lon="129.60628">
     <name>牡丹江</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>61193</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="44.404199" lon="131.129175">
     <name>绥芬河</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>62231</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>滨绥线（牡丹江-绥芬河） (136.1km)</name>
+    <name>滨绥线牡绥段</name>
     <trkseg>
       <trkpt lat="44.589171" lon="129.605183">
         <ele>238.75</ele>

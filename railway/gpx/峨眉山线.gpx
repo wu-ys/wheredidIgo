@@ -3,7 +3,8 @@
   <wpt lat="29.604572" lon="103.709666">
     <name>乐山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47635</code>
       <type>station</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="29.578584" lon="103.464646">
     <name>峨眉山</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>47737</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>峨眉山线 (27.2km)</name>
+    <name>峨眉山线</name>
     <trkseg>
       <trkpt lat="29.604813" lon="103.709045">
         <ele>397.25</ele>

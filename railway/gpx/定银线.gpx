@@ -4,6 +4,7 @@
     <name>定边</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>65054</code>
       <type>junction</type>
     </extensions>
@@ -11,13 +12,14 @@
   <wpt lat="38.490755" lon="106.170352">
     <name>银川</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>14846</code>
       <type>station</type>
     </extensions>
   </wpt>
   <trk>
-    <name>定银线 (194km)</name>
+    <name>定银线</name>
     <trkseg>
       <trkpt lat="37.56086" lon="107.57233">
         <ele>1388.0</ele>

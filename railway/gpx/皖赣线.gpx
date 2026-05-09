@@ -3,7 +3,8 @@
   <wpt lat="31.350149" lon="118.387385">
     <name>芜湖</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>30926</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>宣城</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>31319</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>皖赣线（芜湖-宣城） (68.4km)</name>
+    <name>皖赣线</name>
     <trkseg>
       <trkpt lat="31.349777" lon="118.385959">
         <ele>12.25</ele>

@@ -3,7 +3,8 @@
   <wpt lat="40.963096" lon="117.948261">
     <name>承德</name>
     <extensions>
-      <country>cr</country>
+      <country>CN</country>
+      <operator>cr</operator>
       <code>11492</code>
       <type>station</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>隆化</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>11726</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>承隆线（隆化-承德）</name>
+    <name>承隆线</name>
     <trkseg>
       <trkpt lat="40.963228" lon="117.949811">
         <ele>326.75</ele>

@@ -4,6 +4,7 @@
     <name>汉西</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>21059</code>
       <type>junction</type>
     </extensions>
@@ -12,12 +13,13 @@
     <name>新墩</name>
     <extensions>
       <country>cr</country>
+      <operator></operator>
       <code>29318</code>
       <type>junction</type>
     </extensions>
   </wpt>
   <trk>
-    <name>汉西联络线 (4.9km)</name>
+    <name>汉西联络线</name>
     <trkseg>
       <trkpt lat="30.589592" lon="114.22356">
         <ele>28.0</ele>
