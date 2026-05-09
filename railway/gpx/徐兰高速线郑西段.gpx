@@ -2509,6 +2509,9 @@
       <trkpt lat="34.382023" lon="108.95428">
         <ele>368.25</ele>
       </trkpt>
+      <trkpt lat="34.376878" lon="108.934103">
+        <ele>371.5</ele>
+      </trkpt>
     </trkseg>
   </trk>
 </gpx>

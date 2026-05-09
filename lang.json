@@ -5,7 +5,13 @@
       "home": "首页",
       "flights": "航班轨迹",
       "railway": "铁路行程",
-      "points": "地标"
+      "points": "地标",
+      "dates": "按日期"
+    },
+    "dates": {
+      "pick": "选择日期",
+      "dots": "散点",
+      "line": "折线"
     },
     "popup": {
       "airport": "机场",
@@ -18,7 +24,13 @@
       "home": "Home",
       "flights": "Flights",
       "railway": "Railways",
-      "points": "Landmarks"
+      "points": "Landmarks",
+      "dates": "By Date"
+    },
+    "dates": {
+      "pick": "Pick a date",
+      "dots": "Dots",
+      "line": "Line"
     },
     "popup": {
       "airport": "Airport",
