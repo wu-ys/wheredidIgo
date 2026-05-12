@@ -203,6 +203,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
         r_name = railway_csv.at[r, "name_zh"]
         r_name_en = railway_csv.at[r,"name_en"]
         r_country = railway_csv.at[r,"country"]
+        r_operator = railway_csv.at[r,"operator"]
         r_type = railway_csv.at[r,"type"]
         r_speed = int(railway_csv.at[r, "speed"])
         r_line_idx = railway_csv.at[r,"line_idx"]
@@ -233,6 +234,7 @@ def update_waypoints_in_gpx(gpx_folder_path, railway_csv, railway_json_path, sta
             "zh": r_name,
             "en": r_name_en,
             "country": r_country,
+            "operator": r_operator,
             "type": r_type,
             "speed": r_speed,
             "start": r_start,
